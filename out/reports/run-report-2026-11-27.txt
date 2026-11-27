@@ -130,3 +130,15 @@ adjacent   : 898 sites | (c) live 130 | (b) flagged 1 | (a) taken down 590 | inc
 events     : 0 since last run
 next       : publisher endpoints due 62 | next site check 2026-11-27T07:10:38Z
 
+==== sgintel manual run  2026-11-27T06:54:56Z ==============================
+listing    : 417 sites | (c) live 52 | (b) flagged 4 | (a) taken down 325 | inconclusive 36 (awaiting confirmation 1) | unchecked 0
+adjacent   : 898 sites | (c) live 130 | (b) flagged 1 | (a) taken down 590 | inconclusive 177 (awaiting confirmation 0) | unchecked 0
+events     : 0 since last run
+next       : publisher endpoints due 62 | next site check 2026-11-27T07:10:38Z
+
+==== sgintel manual run  2026-11-27T06:55:15Z ==============================
+listing    : 417 sites | (c) live 52 | (b) flagged 4 | (a) taken down 325 | inconclusive 36 (awaiting confirmation 1) | unchecked 0
+adjacent   : 898 sites | (c) live 130 | (b) flagged 1 | (a) taken down 590 | inconclusive 177 (awaiting confirmation 0) | unchecked 0
+events     : 0 since last run
+next       : publisher endpoints due 62 | next site check 2026-11-27T07:10:38Z
+

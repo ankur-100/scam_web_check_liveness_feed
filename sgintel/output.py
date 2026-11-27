@@ -5,6 +5,7 @@ Contract: schema/site_feed.schema.json (site-feed/1.0).
   out/snapshots/sites-YYYY-MM-DD.jsonl       every site's SiteRecord, rewritten each run (last write = end-of-day state)
   out/sites-latest.jsonl                     copy of the newest snapshot
   out/sites-current.txt                      plain-text table: site | what it spoofs | liveness state (rewritten each run)
+  out/sites-live.txt, out/sites-live.jsonl   same, only sites still serving: (c) live + (b) flagged (rewritten each run)
   out/reports/run-report-YYYY-MM-DD.txt      append-only, one plain-text block per run
 
 out/.event_cursor holds the last exported seq; a file lock serialises concurrent writers (crawl + liveness processes).
@@ -117,6 +118,10 @@ def emit(con, run=None):
             for r in recs: f.write(json.dumps(r, ensure_ascii=False, sort_keys=True) + "\n")
         os.replace(tmp, snap); shutil.copyfile(snap, OUT / "sites-latest.jsonl")
         (OUT / "sites-current.txt").write_text(current_table(recs, T))
+        (OUT / "sites-live.txt").write_text(current_table(recs, T, live_only=True))
+        with open(OUT / "sites-live.jsonl", "w") as f:
+            for r in recs:
+                if r["liveness"]["bucket"] in LIVE_BUCKETS: f.write(json.dumps(r, ensure_ascii=False, sort_keys=True) + "\n")
         # text report
         block = report_block(con, run, recs, [event_record(e) for e in evs], T)
         with open(OUT / "reports" / f"run-report-{_day(T)}.txt", "a") as f: f.write(block)
@@ -163,9 +168,14 @@ ORDER = {"live": 0, "flagged": 1, "inconclusive": 2, "taken_down": 3, None: 4}
 SHOW = {"live": "(c) LIVE", "flagged": "(b) FLAGGED", "taken_down": "(a) TAKEN DOWN", "inconclusive": "INCONCLUSIVE", None: "UNCHECKED"}
 
 
-def current_table(recs, T):
-    """Plain-text table of every site: what it is, what it spoofs, liveness. Rewritten each run -> out/sites-current.txt"""
-    L = [f"sgintel - impersonating / scam sites and their liveness   (as of {T})",
+LIVE_BUCKETS = ("live", "flagged")
+
+
+def current_table(recs, T, live_only=False):
+    """Plain-text table: what each site is, what it spoofs, liveness. Rewritten each run ->
+    out/sites-current.txt (every site) and out/sites-live.txt (live_only: sites still serving = (c) live + (b) flagged)."""
+    if live_only: recs = [r for r in recs if r["liveness"]["bucket"] in LIVE_BUCKETS]
+    L = [f"sgintel - {'CURRENTLY LIVE ' if live_only else ''}impersonating / scam sites and their liveness   (as of {T})",
          "Values are DEFANGED ([.] / hxxp) - do not refang or open in a normal browser.",
          "States: (a) taken down = not reachable | (b) flagged = serving behind a bypassable warning | (c) live = serving, no warning seen",
          "        inconclusive = not decidable from this vantage (timeouts, bot challenges, geo-blocks, takedown signal awaiting re-check)", ""]
@@ -173,7 +183,7 @@ def current_table(recs, T):
         rs = sorted((r for r in recs if r["listing_role"] == role),
                     key=lambda r: (ORDER.get(r["liveness"]["bucket"], 9), r["impersonation"]["target_name"] or "~", r["value_defanged"]))
         c = Counter(r["liveness"]["bucket"] for r in rs)
-        L += ["=" * 160, f"{title}: {len(rs)} sites | " + " | ".join(f"{SHOW[b]} {c[b]}" for b in ("live", "flagged", "taken_down", "inconclusive")), "=" * 160,
+        L += ["=" * 160, f"{title}: {len(rs)} sites | " + " | ".join(f"{SHOW[b]} {c[b]}" for b in (LIVE_BUCKETS if live_only else ("live", "flagged", "taken_down", "inconclusive"))), "=" * 160,
               f"{'STATE':15} {'SITE (defanged)':46} {'SPOOFING (target / authentic site)':52} {'REASON':26} {'LAST CHECKED':17} LISTED BY", "-" * 160]
         for r in rs:
             im, lv = r["impersonation"], r["liveness"]

@@ -129,6 +129,7 @@ Every crawl, liveness run and daemon loop appends to `out/`. Contract: [`schema/
 
 | File | Rolls | Contents |
 |---|---|---|
+| `out/sites-live.txt` + `out/sites-live.jsonl` | rewritten each run | **only sites still serving**, (c) live + (b) flagged, with the same columns / full `SiteRecord` |
 | `out/sites-current.txt` | rewritten each run | **plain-text table of every site**: state, site (defanged), what it spoofs (target / authentic site), reason, last checked, publisher |
 | `out/reports/run-report-YYYY-MM-DD.txt` | daily, one block appended per run | state totals, new listings, every transition (site, old → new, reason, target, publisher), what's due next |
 | `out/events/site-events-YYYY-MM-DD.jsonl` | daily, append-only | one `SiteEvent` per state change; resume from the last `seq` you processed |

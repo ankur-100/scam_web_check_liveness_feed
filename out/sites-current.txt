@@ -1,4 +1,4 @@
-sgintel - impersonating / scam sites and their liveness   (as of 2026-11-27T06:50:47Z)
+sgintel - impersonating / scam sites and their liveness   (as of 2026-11-27T06:55:15Z)
 Values are DEFANGED ([.] / hxxp) - do not refang or open in a normal browser.
 States: (a) taken down = not reachable | (b) flagged = serving behind a bypassable warning | (c) live = serving, no warning seen
         inconclusive = not decidable from this vantage (timeouts, bot challenges, geo-blocks, takedown signal awaiting re-check)

@@ -1,0 +1,204 @@
+sgintel - CURRENTLY LIVE impersonating / scam sites and their liveness   (as of 2026-11-27T06:55:15Z)
+Values are DEFANGED ([.] / hxxp) - do not refang or open in a normal browser.
+States: (a) taken down = not reachable | (b) flagged = serving behind a bypassable warning | (c) live = serving, no warning seen
+        inconclusive = not decidable from this vantage (timeouts, bot challenges, geo-blocks, takedown signal awaiting re-check)
+
+================================================================================================================================================================
+SITES NAMED IN IMPERSONATION ADVISORIES: 56 sites | (c) LIVE 52 | (b) FLAGGED 4
+================================================================================================================================================================
+STATE           SITE (defanged)                                SPOOFING (target / authentic site)                   REASON                     LAST CHECKED      LISTED BY
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+(c) LIVE        bigbuyshops[.]org                              B2B Wave / b2bwave.com                               serving                    2026-11-27T06:07  police.gov.sg
+(c) LIVE        managelist[.]com                               Central Provident Fund Board / cpf.gov.sg            serving                    2026-11-27T06:07  police.gov.sg
+(c) LIVE        sell[.]sctt[.]net                              Chan Brothers Travel / chanbrothers.com              serving_via_redirect       2026-11-27T06:07  police.gov.sg
+(c) LIVE        cmpaus[.]com[.]au                              DBS Bank (Singapore) / dbs.com                       serving                    2026-11-27T06:07  police.gov.sg
+(c) LIVE        dji8[.]top                                     DJI / dji.com                                        serving                    2026-11-27T06:07  police.gov.sg
+(c) LIVE        bestcarspage[.]com                             EZ-Link Pte Ltd / ezlink.com.sg                      serving                    2026-11-27T06:08  police.gov.sg
+(c) LIVE        go-mining66[.]top                              GoMining / gomining.com                              serving                    2026-11-27T06:07  police.gov.sg
+(c) LIVE        earrivalform[.]com                             MalaysiaArrivalCard / imi.gov.my                     serving                    2026-11-27T06:07  police.gov.sg
+(c) LIVE        qntai[.]top                                    QNT / quant.network                                  serving                    2026-11-27T06:07  police.gov.sg
+(c) LIVE        application[.]singaporevisa[.]com              SG Arrival Card (ICA e-Service / ica.gov.sg          serving                    2026-11-27T06:07  ica.gov.sg#sg-arrival-card
+(c) LIVE        digitalarrivalform[.]com                       SG Arrival Card (ICA e-Service / ica.gov.sg          serving                    2026-11-27T06:07  police.gov.sg
+(c) LIVE        enjoy-singaporetourism[.]com                   SG Arrival Card (ICA e-Service / ica.gov.sg          serving                    2026-11-27T06:07  ica.gov.sg#sg-arrival-card
+(c) LIVE        enjoysingapore-pass[.]com                      SG Arrival Card (ICA e-Service / ica.gov.sg          serving                    2026-11-27T06:07  ica.gov.sg#sg-arrival-card
+(c) LIVE        govisitsingapore[.]com                         SG Arrival Card (ICA e-Service / ica.gov.sg          serving                    2026-11-27T06:07  ica.gov.sg#sg-arrival-card
+(c) LIVE        hxxp://globalsingapore[.]sg/visa-to-singapore/ SG Arrival Card (ICA e-Service / ica.gov.sg          serving                    2026-11-27T06:08  ica.gov.sg#sg-arrival-card
+(c) LIVE        hxxp://ivisa[.]com/singapore-electronic-arriva SG Arrival Card (ICA e-Service / ica.gov.sg          serving                    2026-11-27T06:07  ica.gov.sg#sg-arrival-card
+(c) LIVE        hxxp://natvisa[.]com/singapore-visa            SG Arrival Card (ICA e-Service / ica.gov.sg          serving_via_redirect       2026-11-27T06:07  ica.gov.sg#sg-arrival-card
+(c) LIVE        hxxp://singap-arrival-card[.]com/index[        SG Arrival Card (ICA e-Service / ica.gov.sg          serving                    2026-11-27T06:07  ica.gov.sg#sg-arrival-card
+(c) LIVE        hxxp://visagov[.]com/en/sgp-visa-for-singapore SG Arrival Card (ICA e-Service / ica.gov.sg          serving                    2026-11-27T06:08  ica.gov.sg#sg-arrival-card
+(c) LIVE        mysgarrivalcard[.]sg                           SG Arrival Card (ICA e-Service / ica.gov.sg          serving                    2026-11-27T06:07  ica.gov.sg#sg-arrival-card
+(c) LIVE        sg-arrivalcard[.]com                           SG Arrival Card (ICA e-Service / ica.gov.sg          serving                    2026-11-27T06:07  ica.gov.sg#sg-arrival-card
+(c) LIVE        sg-go[.]tw                                     SG Arrival Card (ICA e-Service / ica.gov.sg          serving                    2026-11-27T06:07  ica.gov.sg#sg-arrival-card
+(c) LIVE        sg-travelpass[.]com                            SG Arrival Card (ICA e-Service / ica.gov.sg          serving                    2026-11-27T06:07  ica.gov.sg#sg-arrival-card
+(c) LIVE        sg-visit[.]com                                 SG Arrival Card (ICA e-Service / ica.gov.sg          serving                    2026-11-27T06:07  ica.gov.sg#sg-arrival-card
+(c) LIVE        sg-visitpass[.]com                             SG Arrival Card (ICA e-Service / ica.gov.sg          serving                    2026-11-27T06:07  ica.gov.sg#sg-arrival-card
+(c) LIVE        sgarrivalcard[.]com                            SG Arrival Card (ICA e-Service / ica.gov.sg          serving                    2026-11-27T06:07  ica.gov.sg#sg-arrival-card
+(c) LIVE        sgarrivalonline[.]com                          SG Arrival Card (ICA e-Service / ica.gov.sg          serving                    2026-11-27T06:07  ica.gov.sg#sg-arrival-card
+(c) LIVE        sgentrycard[.]com                              SG Arrival Card (ICA e-Service / ica.gov.sg          serving                    2026-11-27T06:07  ica.gov.sg#sg-arrival-card
+(c) LIVE        sgtourism-pass[.]com                           SG Arrival Card (ICA e-Service / ica.gov.sg          serving                    2026-11-27T06:07  ica.gov.sg#sg-arrival-card
+(c) LIVE        singapore-arrivalcard[.]com                    SG Arrival Card (ICA e-Service / ica.gov.sg          serving                    2026-11-27T06:07  ica.gov.sg#sg-arrival-card
+(c) LIVE        singapore-arrivalcard[.]visasyst[.]com         SG Arrival Card (ICA e-Service / ica.gov.sg          serving                    2026-11-27T06:07  ica.gov.sg#sg-arrival-card
+(c) LIVE        singapore-evisa[.]com                          SG Arrival Card (ICA e-Service / ica.gov.sg          serving_via_redirect       2026-11-27T06:07  ica.gov.sg#sg-arrival-card
+(c) LIVE        singapore-tourisminfo[.]com                    SG Arrival Card (ICA e-Service / ica.gov.sg          serving                    2026-11-27T06:07  ica.gov.sg#sg-arrival-card
+(c) LIVE        singapore-visitcard[.]com                      SG Arrival Card (ICA e-Service / ica.gov.sg          serving_via_redirect       2026-11-27T06:07  ica.gov.sg#sg-arrival-card
+(c) LIVE        singapore[.]visatravel[.]jp                    SG Arrival Card (ICA e-Service / ica.gov.sg          serving                    2026-11-27T06:07  ica.gov.sg#sg-arrival-card
+(c) LIVE        singaporearrivalcard[.]com                     SG Arrival Card (ICA e-Service / ica.gov.sg          serving                    2026-11-27T06:07  ica.gov.sg#sg-arrival-card
+(c) LIVE        singaporetravelcard[.]com                      SG Arrival Card (ICA e-Service / ica.gov.sg          serving                    2026-11-27T06:07  ica.gov.sg#sg-arrival-card
+(c) LIVE        singaporevisitcard[.]com                       SG Arrival Card (ICA e-Service / ica.gov.sg          serving                    2026-11-27T06:07  ica.gov.sg#sg-arrival-card
+(c) LIVE        travelaround-singapore[.]com                   SG Arrival Card (ICA e-Service / ica.gov.sg          serving                    2026-11-27T06:07  ica.gov.sg#sg-arrival-card
+(c) LIVE        travelonline-singapore[.]com                   SG Arrival Card (ICA e-Service / ica.gov.sg          serving                    2026-11-27T06:07  ica.gov.sg#sg-arrival-card
+(c) LIVE        travelsmarttravelfast[.]com                    SG Arrival Card (ICA e-Service / ica.gov.sg          serving                    2026-11-27T06:07  ica.gov.sg#sg-arrival-card
+(c) LIVE        visitpass-sg[.]com                             SG Arrival Card (ICA e-Service / ica.gov.sg          serving                    2026-11-27T06:07  ica.gov.sg#sg-arrival-card
+(c) LIVE        sgpools[.]app                                  Singapore Pools / singaporepools.com.sg              serving                    2026-11-27T06:08  police.gov.sg
+(c) LIVE        sgpools[.]online                               Singapore Pools / singaporepools.com.sg              serving_via_redirect       2026-11-27T06:08  police.gov.sg
+(c) LIVE        usttt[.]net                                    Skild AI / skild.ai                                  serving                    2026-11-27T06:07  police.gov.sg
+(c) LIVE        sbs-online[.]world                             Skills and Workforce Developme / skillsfuture.gov.sg serving                    2026-11-27T06:07  swda.gov.sg
+(c) LIVE        behene[.]com                                   (unresolved: brand not in registry)                  serving                    2026-11-27T06:07  police.gov.sg
+(c) LIVE        expresszfundings[.]com                         (fictitious brand - no real site)                    serving                    2026-11-27T06:07  police.gov.sg
+(c) LIVE        hotorders[.]org                                (fictitious brand - no real site)                    serving                    2026-11-27T06:07  police.gov.sg
+(c) LIVE        lieshou[.]vip                                  (fictitious brand - no real site)                    serving                    2026-11-27T06:07  police.gov.sg
+(c) LIVE        thaitouristvisa[.]com                          (fictitious brand - no real site)                    serving                    2026-11-27T06:07  police.gov.sg
+(c) LIVE        velotrust-exchanges[.]com                      (fictitious brand - no real site)                    serving                    2026-11-27T06:07  police.gov.sg
+(b) FLAGGED     parcel-d[.]top                                 Park N Parcel (ParkNParcel) / parknparcel.com        host_interstitial          2026-11-27T06:07  police.gov.sg
+(b) FLAGGED     polyclinic-a[.]top                             Singapore Health Services (Sin / cgh.com.sg          host_interstitial          2026-11-27T06:07  police.gov.sg
+(b) FLAGGED     globaltop[.]org                                TikTok / tiktok.com                                  host_interstitial          2026-11-27T06:07  police.gov.sg
+(b) FLAGGED     lt-moburstmobile[.]pages[.]dev                 moburst / moburst.com                                host_interstitial          2026-11-27T06:07  police.gov.sg
+
+================================================================================================================================================================
+MAS INVESTOR ALERT LIST WEBSITES (unlicensed entities - adjacent): 131 sites | (c) LIVE 130 | (b) FLAGGED 1
+================================================================================================================================================================
+STATE           SITE (defanged)                                SPOOFING (target / authentic site)                   REASON                     LAST CHECKED      LISTED BY
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+(c) LIVE        hxxp://ch-assets[.]com/index[.]html            Grab Singapore (Grab Holdings) / grab.careers        serving_via_redirect       2026-11-27T06:11  mas.gov.sg
+(c) LIVE        hxxps://stellar[.]expert/explorer/public/accou NTUC FairPrice / fairprice.com.sg                    serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        infinity-treasures[.]com                       United Overseas Bank (UOB) Sin / uob.co.id           serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        500investments[.]com                           (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        72option[.]com                                 (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        a2aglobal[.]com                                (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        alliancefinanceplc[.]co[.]cc                   (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        ani[.]com[.]sg                                 (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        api-fx[.]com                                   (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        aplexva[.]com                                  (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        arqcap[.]com                                   (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        ascendangels[.]com                             (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        ascendex[.]com                                 (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        athelington[.]com                              (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        axicorp[.]com                                  (unresolved: brand not in registry)                  serving_via_redirect       2026-11-27T06:10  mas.gov.sg
+(c) LIVE        bancdebinary[.]com                             (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        bearcreekmgmt[.]com                            (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        bfpmarkets[.]com                               (unresolved: brand not in registry)                  serving_via_redirect       2026-11-27T06:10  mas.gov.sg
+(c) LIVE        binaryonline[.]com                             (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        bitdataexchange[.]com                          (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        bitforex[.]com                                 (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        bityard-u[.]com                                (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        bkex[.]com                                     (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        btsave[.]io                                    (unresolved: brand not in registry)                  serving_via_redirect       2026-11-27T06:10  mas.gov.sg
+(c) LIVE        c7traders[.]com                                (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        cahayamaju[.]com                               (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        cashfxgroup[.]com                              (unresolved: brand not in registry)                  serving_via_redirect       2026-11-27T06:10  mas.gov.sg
+(c) LIVE        citationcapitalasia[.]com                      (unresolved: brand not in registry)                  serving_via_redirect       2026-11-27T06:10  mas.gov.sg
+(c) LIVE        cloudtokenwallet[.]com                         (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        cmecapital[.]sg                                (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        coinex[.]com                                   (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        coinpro[.]exchange                             (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        corp[.]provisure[.]com                         (unresolved: brand not in registry)                  serving_via_redirect       2026-11-27T06:11  mas.gov.sg
+(c) LIVE        dawsonfielding[.]com                           (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        elionhouse[.]com                               (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        eliteoptionsco[.]com                           (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        enfoid[.]com                                   (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        ericnorrisblog[.]wordpress[.]com               (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        expertoption[.]com                             (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        expertoption[.]money                           (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        fbs[.]com                                      (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        fdsresearch[.]com                              (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        fsmsmarts[.]com                                (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        fxleader[.]net                                 (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        ggbtc[.]com                                    (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        global-x[.]io                                  (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        guardiancapitalag[.]asia                       (unresolved: brand not in registry)                  serving_via_redirect       2026-11-27T06:10  mas.gov.sg
+(c) LIVE        handsworthadvisory[.]com                       (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        hxxp://abdulawwal[.]wixsite[.]com/efzinitus    (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        hxxp://dedydollar[.]blogspot[.]sg/2013/10/pena (unresolved: brand not in registry)                  serving_via_redirect       2026-11-27T06:11  mas.gov.sg
+(c) LIVE        hxxp://finnciti[.]blogspot[.]sg/p/blog-page[.] (unresolved: brand not in registry)                  serving_via_redirect       2026-11-27T06:11  mas.gov.sg
+(c) LIVE        hxxp://instagram[.]com/esgrowthpteltd          (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        hxxp://instagram[.]com/quadrancesg             (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        hxxp://instagram[.]com/singa_resources         (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        hxxps://app[.]hyperliquid[.]xyz/trade          (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        hxxps://bybit[.]com/en                         (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        hxxps://coinmarketcap[.]com/exchanges/coinstor (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        hxxps://coinstore[.]com/home?ts=1719754931850  (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        hxxps://instagram[.]com/callisto_fxtrades/     (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        hxxps://instagram[.]com/coinstoreexc           (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        hxxps://instagram[.]com/decodeglobal           (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        hxxps://instagram[.]com/jwcfx[.]sg             (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        hxxps://instagram[.]com/probityfx              (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        hxxps://linktr[.]ee/Callistofxtrade            (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        hxxps://plus[.]google[.]com/115706412446903315 (unresolved: brand not in registry)                  serving_via_redirect       2026-11-27T06:11  mas.gov.sg
+(c) LIVE        hxxps://reddit[.]com/r/ZBExchange              (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        hxxps://twitter[.]com/GGBTC_Official           (unresolved: brand not in registry)                  serving_via_redirect       2026-11-27T06:11  mas.gov.sg
+(c) LIVE        hxxps://twitter[.]com/Ideal_FX                 (unresolved: brand not in registry)                  serving_via_redirect       2026-11-27T06:11  mas.gov.sg
+(c) LIVE        hxxps://x[.]com/Belfrics                       (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        hxxps://x[.]com/CoinstoreExc                   (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        hxxps://x[.]com/UUExchange                     (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        hxxps://x[.]com/ZbTalk                         (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        hyperfoundation[.]org                          (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        ideal-fx[.]com                                 (unresolved: brand not in registry)                  serving_via_redirect       2026-11-27T06:10  mas.gov.sg
+(c) LIVE        investgemcoin[.]com                            (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        ioc-group[.]com                                (unresolved: brand not in registry)                  serving_via_redirect       2026-11-27T06:10  mas.gov.sg
+(c) LIVE        iqoption[.]com                                 (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        ivoryoption[.]com                              (unresolved: brand not in registry)                  serving_via_redirect       2026-11-27T06:10  mas.gov.sg
+(c) LIVE        kenn[.]org                                     (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        kryptoia[.]com                                 (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        kucoin[.]com                                   (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        lansonfinancial[.]com                          (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        leoniehillcapital[.]com                        (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        mainstreetglobalfunds[.]com                    (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        markets-trading[.]com                          (unresolved: brand not in registry)                  serving                    2026-11-27T06:09  mas.gov.sg
+(c) LIVE        meadowsfinancial[.]com                         (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        medibroker[.]com                               (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        mexc[.]com                                     (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        mxc[.]com                                      (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        oasistrade[.]com                               (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        onzunpay[.]com[.]cn                            (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        orangestadgroup[.]com                          (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        paramount-strategies[.]com                     (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        paritymarkets[.]com                            (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        paritytrade[.]com                              (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        pass[.]sg                                      (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        pe18[.]com                                     (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        phemex[.]com                                   (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        pipholdings[.]com                              (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        plexcoin[.]com                                 (unresolved: brand not in registry)                  serving_via_redirect       2026-11-27T06:11  mas.gov.sg
+(c) LIVE        plexcorps[.]com                                (unresolved: brand not in registry)                  serving_via_redirect       2026-11-27T06:11  mas.gov.sg
+(c) LIVE        procapman[.]com                                (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        rafflesbridge[.]com                            (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        rocktradinginc[.]com                           (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        rtexglobal[.]com                               (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        s2trade[.]com                                  (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        sinointer[.]com                                (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        siriusdigital[.]co                             (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        sixcap[.]co                                    (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        slfmarkets[.]com                               (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        softfir[.]com                                  (unresolved: brand not in registry)                  serving                    2026-11-27T06:10  mas.gov.sg
+(c) LIVE        swingfish[.]trade                              (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        tayronacapital[.]com                           (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        the-armstrong-group[.]com                      (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        tradefintech[.]com                             (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        tradeltd[.]com                                 (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        tradexprime[.]com                              (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        trustfieldglobal[.]com                         (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        usgfx[.]com                                    (unresolved: brand not in registry)                  serving_via_redirect       2026-11-27T06:11  mas.gov.sg
+(c) LIVE        vandera[.]io                                   (unresolved: brand not in registry)                  serving_via_redirect       2026-11-27T06:11  mas.gov.sg
+(c) LIVE        vaulterro[.]com                                (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        vip-brokers[.]com                              (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        virtuse[.]com                                  (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        vwealthcapital[.]com                           (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        washingtoncapitalgroup[.]com                   (unresolved: brand not in registry)                  serving_via_redirect       2026-11-27T06:11  mas.gov.sg
+(c) LIVE        wceishop[.]com                                 (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        whitedeerclub[.]com                            (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        ws-ai[.]com                                    (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        xm[.]com                                       (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(c) LIVE        xtrade[.]com                                   (unresolved: brand not in registry)                  serving                    2026-11-27T06:11  mas.gov.sg
+(b) FLAGGED     excentral-int[.]com                            (unresolved: brand not in registry)                  host_interstitial          2026-11-27T06:10  mas.gov.sg
+
