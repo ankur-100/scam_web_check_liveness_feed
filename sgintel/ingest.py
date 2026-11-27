@@ -1,6 +1,6 @@
 """Apply a parser result to the DB: dedup by unique keys, role classification, entity linking, removal detection."""
 import json, re, email.utils
-from .normalize import (iso, now, parse_ts, ind_id, sig_id, defang, host_info, sg_signals, fingerprint, sha256, EXT, canonical)
+from .normalize import (ROOT, iso, now, parse_ts, ind_id, sig_id, defang, host_info, sg_signals, fingerprint, sha256, EXT, canonical)
 from .db import J
 from . import lifecycle
 
@@ -108,6 +108,8 @@ class Ctx:
             lab = v.split(".")[0].lower()
             if len(lab) >= 6 and lab not in GENERIC_TOKENS and not re.search(r"\d", lab): self.tokens.setdefault(lab, e)
         self.gov = {e for (e,) in con.execute("SELECT entity_id FROM entity WHERE entity_id LIKE '%.gov.sg%'")}
+        try: self.brand_map = {b["brand_value"].strip().lower(): b for b in json.load(open(ROOT / "registry" / "spf_brand_map.json"))}
+        except (OSError, ValueError): self.brand_map = {}
 
     def official_owner(self, value, host):
         for v in (value, host, EXT(host).top_domain_under_public_suffix if host else None):
@@ -164,8 +166,19 @@ def apply(con, src, ep, res, cx, t=None):
         imp = []
         for b in r.get("brands_raw") or []:
             hit = cx.alias.get(b.strip().lower())
+            res = cx.brand_map.get(b.strip().lower(), {}).get("resolution")
+            if not hit and b.strip() and res != "generic_or_placeholder" and b.strip().lower() not in ("no brand", "n/a", "others", "other"):
+                # tag not in the registry: ambiguous per registry/spf_brand_map.json -> kept as 'mentioned' (never a target);
+                # never seen before -> new text entity, used as a target and flagged for review
+                eid = "text:" + re.sub(r"[^a-z0-9]+", "-", b.strip().lower()).strip("-")
+                amb = res == "ambiguous"
+                con.execute("INSERT OR IGNORE INTO entity(entity_id,name,kind,sector,country,notes) VALUES (?,?,?,?,?,?)",
+                            (eid, b.strip(), "placeholder" if amb else "organisation", "other", "ZZ",
+                             "ambiguous publisher brand tag (spf_brand_map)" if amb else "auto-added from NEW publisher brand tag (unverified; review)"))
+                con.execute("INSERT OR IGNORE INTO entity_alias VALUES (?,?,?,?,?)", (eid, b.strip(), b.strip().lower(), "publisher_tag", None))
+                hit = cx.alias[b.strip().lower()] = (eid, "placeholder" if amb else "organisation")
             if hit:
-                role = "fictitious_brand" if hit[1] == "fictitious_brand" else "impersonated"
+                role = "fictitious_brand" if hit[1] == "fictitious_brand" else "mentioned" if hit[1] == "placeholder" else "impersonated"
                 con.execute("INSERT OR IGNORE INTO report_entity VALUES (?,?,?)", (rid, hit[0], role)); imp.append((hit[0], role))
         rep_entities[r["native_id"]] = imp
         for c in categories(r.get("categories_raw") or [], [e for e, ro in imp if ro == "impersonated"], cx):

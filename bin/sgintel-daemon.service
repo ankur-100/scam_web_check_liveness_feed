@@ -1,0 +1,19 @@
+[Unit]
+Description=sgintel daemon: poll publishers, follow up new advisories, re-check sites, write out/ files
+Requires=sgintel-proxy.service
+After=sgintel-proxy.service network-online.target
+
+[Service]
+WorkingDirectory=%h/scamtrends_feed
+ExecStartPre=/bin/sleep 3
+ExecStart=%h/scamtrends_feed/.venv/bin/python -u -m sgintel daemon
+# Safe Browsing (off by default, decision D6):
+# Environment=SGINTEL_SAFEBROWSING=1
+# Environment=SGINTEL_SAFEBROWSING_KEY=...
+Restart=always
+RestartSec=60
+StandardOutput=append:%h/scamtrends_feed/logs/sgintel_daemon.log
+StandardError=inherit
+
+[Install]
+WantedBy=default.target

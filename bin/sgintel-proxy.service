@@ -1,0 +1,17 @@
+[Unit]
+Description=sgintel egress proxy (all scam-site probes leave through it)
+After=network-online.target
+
+[Service]
+WorkingDirectory=%h/scamtrends_feed
+ExecStart=%h/scamtrends_feed/.venv/bin/python -m sgintel proxy
+# Optional: route probes out via another IP / label the vantage
+# Environment=SGINTEL_UPSTREAM_PROXY=http://user:pass@host:port
+# Environment=SGINTEL_VANTAGE=sg-residential-1
+Restart=always
+RestartSec=10
+StandardOutput=append:%h/scamtrends_feed/logs/egress_proxy.out
+StandardError=inherit
+
+[Install]
+WantedBy=default.target

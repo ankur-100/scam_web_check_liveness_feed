@@ -52,6 +52,12 @@ bin/egress_proxy.sh start
 
 # or run continuously (crawl + due site checks in a loop, until stopped)
 bin/sgintel_daemon.sh start                # stop | status
+
+# or as self-sustaining systemd user services (restart on crash, start at boot; user lingering is on)
+bin/egress_proxy.sh stop                   # free :18080 first if the script-started proxy is running
+cp bin/sgintel-*.service ~/.config/systemd/user/ && systemctl --user daemon-reload
+systemctl --user enable --now sgintel-proxy sgintel-daemon
+systemctl --user status sgintel-daemon ; tail -f logs/sgintel_daemon.log
 ```
 
 ## How it works
@@ -123,6 +129,7 @@ Every crawl, liveness run and daemon loop appends to `out/`. Contract: [`schema/
 
 | File | Rolls | Contents |
 |---|---|---|
+| `out/sites-current.txt` | rewritten each run | **plain-text table of every site**: state, site (defanged), what it spoofs (target / authentic site), reason, last checked, publisher |
 | `out/reports/run-report-YYYY-MM-DD.txt` | daily, one block appended per run | state totals, new listings, every transition (site, old → new, reason, target, publisher), what's due next |
 | `out/events/site-events-YYYY-MM-DD.jsonl` | daily, append-only | one `SiteEvent` per state change; resume from the last `seq` you processed |
 | `out/snapshots/sites-YYYY-MM-DD.jsonl` | rewritten each run | one `SiteRecord` per site (end-of-day state); `out/sites-latest.jsonl` is the newest copy |
@@ -134,7 +141,7 @@ The fields of a `SiteRecord`:
 | Group | Fields |
 |---|---|
 | identity | `site_id`, `type`, `value`, `value_defanged`, `hostname`, `registrable_domain`, `is_shared_platform`, `listing_role`, `lifecycle_status` |
-| `impersonation` | `kind`, `target_entity_id`, `target_name`, `target_method`, `authentic_hosts[]`, `other_brands[]` |
+| `impersonation` | `kind` (clone / brand_abuse / fictitious / multiple / unresolved), `target_entity_id`, `target_name`, `target_method`, `authentic_hosts[]`, `other_brands[]`, `targets[]` (every candidate with its authentic hosts) |
 | `provenance` | `publishers[]`, `publications[]`, `first_published_at`, `first_listed_at` |
 | `liveness` | `bucket`, `chrome_state` (a/b/c), `reason`, `reach`, `flag`, `bucket_since`, `last_checked_at`, `last_live_at`, `next_check_at`, `evidence{…}` |
 | `registration` | `registry_status[]`, `expires_at` |
@@ -208,7 +215,9 @@ sources/, raw/      source survey notes and raw captures     extract.py  standal
 - **Safe Browsing is off.** Some (c) sites may already show Chrome's red warning; `flag = not_checked` marks that.
 - **Page signatures are first-pass** (`sig_version`). A few "live" sites look repurposed (unrelated content), and the calibration sample
   should settle them.
-- **Missing targets.** Brands outside the registry (Apple, AXS, Singapore Pools, Domino's) leave sites `unresolved`; extend `registry/` to
-  fix that.
+- **Targets.** When no registry brand fits, the target is read from the advisory itself ("Fake Banking Websites Impersonating DBS and UOB",
+  "URLs impersonating Singapore Pools' websites"). Brands outside the registry become `text:<name>` entities (e.g. AXS, Domino's), with any
+  official domain the advisory cites. 36 of 417 listing sites stay `unresolved`, because their advisories are generic
+  ("Investment Scams Promising High Returns") or name two brands with nothing in the URL to choose between them (DBS/UOB).
 - **Narrative-page extraction** relies on wording ("fake website …", "impersonating …"). Sites named without such wording are missed.
 - **Host.** The project runs on gpu25. Moving it means copying `data/`, `out/` and `registry/merged/` and restarting the proxy.

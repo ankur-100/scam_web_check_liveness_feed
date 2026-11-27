@@ -71,3 +71,62 @@ adjacent   : 898 sites | (c) live 130 | (b) flagged 1 | (a) taken down 590 | inc
 events     : 0 since last run
 next       : publisher endpoints due 60 | next site check 2026-11-27T07:10:38Z
 
+==== sgintel manual run  2026-11-27T06:35:22Z ==============================
+listing    : 417 sites | (c) live 52 | (b) flagged 4 | (a) taken down 325 | inconclusive 36 (awaiting confirmation 1) | unchecked 0
+adjacent   : 898 sites | (c) live 130 | (b) flagged 1 | (a) taken down 590 | inconclusive 177 (awaiting confirmation 0) | unchecked 0
+events     : 0 since last run
+next       : publisher endpoints due 63 | next site check 2026-11-27T07:10:38Z
+
+==== sgintel crawl run  2026-11-27T06:45:04Z ==============================
+publishers : 1 endpoints fetched, 1 changed, 0 errors | new publications 0 | follow-up pages 39 (0 naming sites) | new sites 0
+listing    : 417 sites | (c) live 52 | (b) flagged 4 | (a) taken down 325 | inconclusive 36 (awaiting confirmation 1) | unchecked 0
+adjacent   : 898 sites | (c) live 130 | (b) flagged 1 | (a) taken down 590 | inconclusive 177 (awaiting confirmation 0) | unchecked 0
+events     : 21 since last run (site.target_changed 21)
+  site.target_changed  95supreme[.]shop                                    usmart.sg -> None         dns_nxdomain             target=unresolved by=police.gov.sg
+  site.target_changed  airobotbep[.]top                                    usmart.sg -> None         dns_nxdomain             target=unresolved by=police.gov.sg
+  site.target_changed  aurumexchanges[.]com                               bereal.com -> None         dns_nxdomain             target=unresolved by=police.gov.sg
+  site.target_changed  b2goldmining[.]shop                                b2gold.com -> None         dns_nxdomain             target=unresolved by=police.gov.sg
+  site.target_changed  batsedgx[.]vip                                   whatsapp.com -> None         dns_error_at_proxy       target=unresolved by=police.gov.sg
+  site.target_changed  bereall[.]com                                      bereal.com -> None         dns_dead_delegation      target=unresolved by=police.gov.sg
+  site.target_changed  citadiel[.]com                                    citadel.com -> None         dns_dead_delegation      target=unresolved by=police.gov.sg
+  site.target_changed  coupang-vip[.]com                                  tiktok.com -> None         timeout                  target=unresolved by=police.gov.sg
+  site.target_changed  innovative-finance[.]cc                            nvidia.com -> text:promising-high-returns no_address               target=Promising High Returns by=police.gov.sg
+  site.target_changed  ldnbit[.]cc                                        bereal.com -> None         registry_hold            target=unresolved by=police.gov.sg
+  site.target_changed  nvidialisuj[.]top                                  nvidia.com -> text:promising-high-returns dns_nxdomain             target=Promising High Returns by=police.gov.sg
+  site.target_changed  seeee[.]cc                                           skild.ai -> None         registry_hold            target=unresolved by=police.gov.sg
+  site.target_changed  shopping8[.]shop                                   tiktok.com -> None         dns_nxdomain             target=unresolved by=police.gov.sg
+  site.target_changed  simog[.]top                                        b2gold.com -> None         dns_dead_delegation      target=unresolved by=police.gov.sg
+  site.target_changed  skdai001[.]xyz                                       skild.ai -> None         dns_nxdomain             target=unresolved by=police.gov.sg
+  site.target_changed  taishang8[.]top                                   citadel.com -> None         dns_nxdomain             target=unresolved by=police.gov.sg
+  site.target_changed  usmartsg[.]sg                                       usmart.sg -> None         dns_nxdomain             target=unresolved by=police.gov.sg
+  site.target_changed  usttt[.]net                                          skild.ai -> None         serving                  target=unresolved by=police.gov.sg
+  site.target_changed  veobike[.]vip                                     veoride.com -> None         origin_down              target=unresolved by=police.gov.sg
+  site.target_changed  wwwshopee[.]net                                    tiktok.com -> None         dns_nxdomain             target=unresolved by=police.gov.sg
+  site.target_changed  yushiai[.]vip                                     veoride.com -> None         dns_nxdomain             target=unresolved by=police.gov.sg
+next       : publisher endpoints due 62 | next site check 2026-11-27T07:10:38Z
+
+==== sgintel manual run  2026-11-27T06:45:15Z ==============================
+listing    : 417 sites | (c) live 52 | (b) flagged 4 | (a) taken down 325 | inconclusive 36 (awaiting confirmation 1) | unchecked 0
+adjacent   : 898 sites | (c) live 130 | (b) flagged 1 | (a) taken down 590 | inconclusive 177 (awaiting confirmation 0) | unchecked 0
+events     : 0 since last run
+next       : publisher endpoints due 62 | next site check 2026-11-27T07:10:38Z
+
+==== sgintel crawl run  2026-11-27T06:47:27Z ==============================
+publishers : 1 endpoints fetched, 0 changed, 1 errors | new publications 0 | follow-up pages 39 (0 naming sites) | new sites 0
+listing    : 417 sites | (c) live 52 | (b) flagged 4 | (a) taken down 325 | inconclusive 36 (awaiting confirmation 1) | unchecked 0
+adjacent   : 898 sites | (c) live 130 | (b) flagged 1 | (a) taken down 590 | inconclusive 177 (awaiting confirmation 0) | unchecked 0
+events     : 0 since last run
+next       : publisher endpoints due 62 | next site check 2026-11-27T07:10:38Z
+
+==== sgintel manual run  2026-11-27T06:47:43Z ==============================
+listing    : 417 sites | (c) live 52 | (b) flagged 4 | (a) taken down 325 | inconclusive 36 (awaiting confirmation 1) | unchecked 0
+adjacent   : 898 sites | (c) live 130 | (b) flagged 1 | (a) taken down 590 | inconclusive 177 (awaiting confirmation 0) | unchecked 0
+events     : 0 since last run
+next       : publisher endpoints due 62 | next site check 2026-11-27T07:10:38Z
+
+==== sgintel manual run  2026-11-27T06:50:47Z ==============================
+listing    : 417 sites | (c) live 52 | (b) flagged 4 | (a) taken down 325 | inconclusive 36 (awaiting confirmation 1) | unchecked 0
+adjacent   : 898 sites | (c) live 130 | (b) flagged 1 | (a) taken down 590 | inconclusive 177 (awaiting confirmation 0) | unchecked 0
+events     : 0 since last run
+next       : publisher endpoints due 62 | next site check 2026-11-27T07:10:38Z
+

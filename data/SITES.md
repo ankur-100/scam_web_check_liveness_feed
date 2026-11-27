@@ -1,4 +1,4 @@
-# Impersonating-site status (2026-11-27T06:11:39Z)
+# Impersonating-site status (2026-11-27T06:47:39Z)
 
 Sites named in publications of **listing** publishers: **417**; **adjacent** (MAS Investor Alert List): 898.
 Checks so far: 2819 ({'P1': 2819}); vantage: direct:gpu25|doh:dns.google; Safe Browsing: OFF (D6) - flag axis from host interstitial + TLS only; signatures v1.4-2026-11-26.
@@ -65,43 +65,43 @@ Of the listing sites marked inconclusive, **1** are soft takedown signals (NXDOM
 
 | target | kind | sites | live | flagged | taken down | authentic hosts |
 |---|---|---|---|---|---|---|
-| — none — (`None`) | fictitious/unresolved | 94 | 9 | 0 | 80 |  |
-| SG Arrival Card (ICA e-Service) (`ica.gov.sg#sg-arrival-card`) | clone | 61 | 33 | 0 | 19 | ica.gov.sg, eservices.ica.gov.sg, www.ica.gov.sg |
+| — none — (`None`) | fictitious/unresolved | 74 | 6 | 0 | 63 |  |
+| SG Arrival Card (ICA e-Service) (`ica.gov.sg#sg-arrival-card`) | clone | 62 | 33 | 0 | 20 | ica.gov.sg, eservices.ica.gov.sg, www.ica.gov.sg |
 | Land Transport Authority (`lta.gov.sg`) | brand_abuse/clone | 29 | 0 | 0 | 28 | lta.gov.sg, datamall.lta.gov.sg, onemotoring.lta.gov.sg |
+| CNA (Channel NewsAsia) (`channelnewsasia.com`) | brand_abuse | 16 | 0 | 0 | 15 | channelnewsasia.com, www.channelnewsasia.com |
 | Ninja Van Singapore (Ninja Logistics Pte. Ltd.) (`ninjavan.co`) | clone | 15 | 0 | 0 | 15 | ninjavan.co, dashboard.ninjavan.co, delivery.ninjavan.co |
-| CNA (Channel NewsAsia) (`channelnewsasia.com`) | brand_abuse | 14 | 0 | 0 | 13 | channelnewsasia.com, www.channelnewsasia.com |
 | WhatsApp (`whatsapp.com`) | brand_abuse/clone | 14 | 0 | 0 | 13 | wa.me, whatsapp.com |
 | TikTok (`tiktok.com`) | brand_abuse | 12 | 0 | 1 | 10 | tiktok.com |
 | UnionPay (`unionpayintl.com`) | clone | 10 | 0 | 0 | 9 | unionpay.com, unionpayintl.com |
+| DBS Bank (Singapore) (`dbs.com.sg`) | clone | 8 | 1 | 0 | 3 | dbs.com, dbs.com.cn, dbs.com.hk |
 | Park N Parcel (ParkNParcel) (`parknparcel.com.sg`) | clone | 8 | 0 | 1 | 7 | parknparcel.com, parknparcel.com.sg, tracking.parknparcel.com |
-| DBS Bank (Singapore) (`dbs.com.sg`) | clone | 7 | 1 | 0 | 2 | dbs.com, dbs.com.cn, dbs.com.hk |
 | Ministry of Manpower (`mom.gov.sg`) | clone | 7 | 0 | 0 | 6 | mom.gov.sg, services.mom.gov.sg, wponline.mom.gov.sg |
 | Singapore Post Limited (SingPost) (`singpost.com`) | clone | 6 | 0 | 0 | 5 | ezy2ship.net, ezyparcels.com, mysam.sg |
 | CDC Vouchers Scheme (`cdc.gov.sg#cdc-vouchers`) | clone | 5 | 0 | 0 | 5 | cdc.gov.sg, redeem.gov.sg, go.gov.sg |
+| B2B Wave (`b2bwave.com`) | brand_abuse | 5 | 1 | 0 | 4 | b2bwave.com |
 | Singapore Police Force (`police.gov.sg`) | clone | 5 | 0 | 0 | 2 | police.gov.sg, eservices.police.gov.sg, www.police.gov.sg |
 | Moomoo Singapore (Moomoo Financial Singapore Pte. Ltd.) (`moomoo.com`) | clone | 4 | 0 | 0 | 4 | moomoo.com, invest.sg.moomoo.com, openaccount.sg.moomoo.com |
-| B2B Wave (`b2bwave.com`) | brand_abuse | 4 | 1 | 0 | 3 | b2bwave.com |
 | Inland Revenue Authority of Singapore (`iras.gov.sg`) | clone | 4 | 0 | 0 | 3 | iras.gov.sg, mytax.iras.gov.sg, www.iras.gov.sg |
 | MoneySmart Singapore (`moneysmart.sg`) | clone | 4 | 0 | 0 | 4 | moneysmart.sg |
 | Singapore Telecommunications Limited (Singtel) (`singtel.com`) | clone | 4 | 0 | 0 | 4 | dash.com.sg, gomo.sg, singtel.com |
 | uSMART (`usmart.sg`) | brand_abuse | 3 | 0 | 0 | 3 | usmart.sg |
 | BeReal (`bereal.com`) | brand_abuse | 3 | 0 | 0 | 3 | bereal.com |
 | QUALCOMM invest (`qualcomm.com`) | brand_abuse | 3 | 0 | 0 | 3 | qualcomm.com |
+| EZ-Link Pte Ltd (`ezlink.com.sg`) | clone | 3 | 1 | 0 | 2 | ezlink.com.sg, ezlink.simplygo.com.sg, www.ezlink.com.sg |
 | Immigration & Checkpoints Authority (`ica.gov.sg`) | clone | 3 | 0 | 0 | 2 | ica.gov.sg, vica.gov.sg, eservices.ica.gov.sg |
+| Apple (`apple.com`) | clone | 3 | 0 | 0 | 3 | apple.com, icloud.com |
+| AXS (`text:axs`) | brand_abuse | 3 | 0 | 0 | 3 |  |
 | Lalamove Singapore (`lalamove.com`) | clone | 3 | 0 | 0 | 3 | lalamove.co.uk, lalamove.com, lalamove.eu |
 | LG (`lg.com`) | brand_abuse | 3 | 0 | 0 | 3 | lg.com |
 | NVIDIA (`nvidia.com`) | brand_abuse | 3 | 0 | 0 | 2 | nvidia.com |
 | Booking.com (`booking.com`) | clone | 3 | 0 | 0 | 3 | booking.com |
-| Skild AI (`skild.ai`) | brand_abuse | 3 | 1 | 0 | 2 | skild.ai |
-| USDT Tether (`tether.to`) | brand_abuse | 2 | 0 | 0 | 2 | tether.to |
-| MalaysiaArrivalCard (`imi.gov.my#mdac`) | clone | 2 | 1 | 0 | 1 | imi.gov.my, imigresen-online.imi.gov.my |
 
 ## 4. Target resolution
 
-Kinds: {'brand_abuse': 97, 'fictitious': 38, 'clone': 226, 'unresolved': 56}  
-Methods: {'report_tag': 218, 'none': 94, 'publisher_self': 71, 'lookalike+tag': 25, 'lookalike': 9}
+Kinds: {'brand_abuse': 108, 'fictitious': 38, 'clone': 235, 'unresolved': 36}  
+Methods: {'report_tag': 221, 'none': 74, 'advisory_text': 16, 'publisher_self': 71, 'lookalike+tag': 25, 'lookalike': 9, 'advisory_text+token': 1}
 
-### Review queue: unresolved targets (56)
+### Review queue: unresolved targets (36)
 
 | site | candidate brands | publication |
 |---|---|---|
@@ -113,18 +113,10 @@ Methods: {'report_tag': 218, 'none': 94, 'publisher_self': 71, 'lookalike+tag': 
 | `baobeiwa[.]bond` | barrick.com, marriott.com | https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-reputable-brands-31f06e15 |
 | `baowushouyou[.]com` | - | https://www.police.gov.sg/media-hub/news/2021/09/20210928_scammers_targeting_game_accs_sellers_w_fake_e-wallet_websites |
 | `behene[.]com` | - | https://www.icanactagainstscams.gov.sg/scam-trends/fake-online-shopping-deals-e-commerce-scams-563a08b7 |
-| `bestcarspage[.]com` | - | https://www.police.gov.sg/media-hub/news/2025/09/20250911_police_advisory_on_phishing_scams_perpetuated_via_social_media_platforms |
 | `bianjieshouyou[.]com` | - | https://www.police.gov.sg/media-hub/news/2021/09/20210928_scammers_targeting_game_accs_sellers_w_fake_e-wallet_websites |
-| `bigbuy[.]rest` | b2bwave.com, bizvibe.com | https://www.icanactagainstscams.gov.sg/scam-trends/fake-online-job-scams-impersonating-b2b-wave-and-other-bf2a0de7 |
-| `case-apple[.]com` | - | https://www.police.gov.sg/media-hub/news/2026/08/20260821_police_advisory_on_apple_impersonation_cryptocurrency_account_compromise_scams |
-| `chat-apple[.]com` | - | https://www.police.gov.sg/media-hub/news/2026/08/20260821_police_advisory_on_apple_impersonation_cryptocurrency_account_compromise_scams |
-| `costarica-homeschool[.]com` | - | https://www.police.gov.sg/media-hub/news/2025/09/20250911_police_advisory_on_phishing_scams_perpetuated_via_social_media_platforms |
 | `ctxpublic[.]online` | brand:doge-mining, brand:gn-mall, brand:pump-mining, coinbase.com | https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-scams-promising-high-returns-4e5d1698 |
 | `diwkr[.]com` | facebook.com, motor-ai.com | https://www.icanactagainstscams.gov.sg/scam-trends/rising-job-scams-9b5a348c |
-| `domino-plza[.]com` | - | https://www.police.gov.sg/media-hub/news/2023/12/20231216_police_advisory_on_phishing_scams_involving_fake_dominos_pizza_websites |
-| `e-station-axs[.]com` | - | https://www.police.gov.sg/media-hub/news/2025/05/20250505_police_advisory_on_phishing_scams_involving_fake_axs_websites |
 | `ebayhot[.]com` | b2bwave.com, bizvibe.com | https://www.icanactagainstscams.gov.sg/scam-trends/job-scam-alert-be-cautious-of-suspicious-online-job-offers-a56c929e |
-| `estation-axs[.]com` | - | https://www.police.gov.sg/media-hub/news/2025/05/20250505_police_advisory_on_phishing_scams_involving_fake_axs_websites |
 | `gardes-holdenjp[.]com` | - | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-hotel-reservation-services-62503fcc |
 | `herb6[.]vip` | brand:pump-mining, coinbase.com, novartis.com | https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-websites-impersonating-popular-brands-6335bfca |
 | `ifreelance4u[.]com` | dbs.com.sg, uob.com.sg | https://www.icanactagainstscams.gov.sg/scam-trends/fake-banking-websites-impersonating-dbs-and-uob-17e317a7 |
@@ -140,27 +132,15 @@ Methods: {'report_tag': 218, 'none': 94, 'publisher_self': 71, 'lookalike+tag': 
 | `pumpmining[.]top` | brand:pump-mining, coinbase.com, novartis.com | https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-websites-impersonating-popular-brands-6335bfca |
 | `resend-clicks-a[.]com` | dbs.com.sg, uob.com.sg | https://www.icanactagainstscams.gov.sg/scam-trends/fake-banking-websites-impersonating-dbs-and-uob-17e317a7 |
 | `servicesmetalinkion[.]shop` | irunsg.com, singtel.com | https://www.icanactagainstscams.gov.sg/scam-trends/recent-phishing-scams-impersonate-popular-brands-stay-e8009338 |
-| `sgpools[.]app` | - | https://www.police.gov.sg/media-hub/news/2021/08/20210825_police_advisory_fake_singapore_pools_websites_and_mobile_applications |
-| `sgpools[.]online` | - | https://www.police.gov.sg/media-hub/news/2021/08/20210825_police_advisory_fake_singapore_pools_websites_and_mobile_applications |
-| `sigmatheta[.]org` | - | https://www.police.gov.sg/media-hub/news/2025/09/20250911_police_advisory_on_phishing_scams_perpetuated_via_social_media_platforms |
-| `singapore-arrival-card[.]com` | - | https://www.ica.gov.sg/about-ica/news-and-publications/public-advisories/public-advisory-on-the-submission-of-sg-arrival-card-(sgac) |
-| `spaceiseven[.]com` | - | https://www.icanactagainstscams.gov.sg/scam-trends/job-scam-alert-impersonation-of-space-seven-76d17ff4 |
-| `spacesevenag[.]com` | - | https://www.icanactagainstscams.gov.sg/scam-trends/job-scam-alert-impersonation-of-space-seven-76d17ff4 |
 | `themostprofitableapp[.]us` | cnpc.com.cn, virtu.com | https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-promising-high-returns-522e3e03 |
 | `tiktokvipshops[.]com` | b2bwave.com, bizvibe.com | https://www.icanactagainstscams.gov.sg/scam-trends/job-scam-alert-be-cautious-of-suspicious-online-job-offers-a56c929e |
 | `utrade1sg[.]top` | dbs.com.sg, uob.com.sg, uobkh.com.sg | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-dbs-and-uob-dc0515b7 |
 | `utradetsg1[.]top` | dbs.com.sg, uob.com.sg, uobkh.com.sg | https://www.icanactagainstscams.gov.sg/scam-trends/fake-banking-websites-impersonating-dbs-and-uob-17e317a7 |
-| `vanguardetfs[.]xyz` | channelnewsasia.com, vanguard.com | https://www.icanactagainstscams.gov.sg/scam-trends/fake-cna-investment-schemes-f4e465b3 |
-| `volleyport[.]life` | channelnewsasia.com, vanguard.com | https://www.icanactagainstscams.gov.sg/scam-trends/fake-cna-investment-schemes-f4e465b3 |
 | `xinyushouyou[.]com` | - | https://www.police.gov.sg/media-hub/news/2021/09/20210928_scammers_targeting_game_accs_sellers_w_fake_e-wallet_websites |
 | `yyujgg[.]vip` | dewa.gov.ae, televizo.net | https://www.icanactagainstscams.gov.sg/scam-trends/emerging-online-investment-scams-355047ed |
-| `zentraiai[.]top` | - | https://www.icanactagainstscams.gov.sg/scam-trends/fake-zentrixu-investment-sites-6c52592b |
 | `zhaitwfo[.]com` | - | https://www.icanactagainstscams.gov.sg/scam-trends/fake-online-shopping-deals-e-commerce-scams-563a08b7 |
 | `zylanto[.]site` | brand:airdrop-pepe, channelnewsasia.com, rolex.com | https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-brands-b5974029 |
-| `e-payments[.]axs-online[.]icu` | - | https://www.police.gov.sg/media-hub/news/2025/08/20250805_police_advisory_on_resurgence_of_search_engine_phishing_cases_impersonating_axs |
-| `internet-dbs[.]oysterartgalleries[.]com` | dbs.com.sg, ocbc.com, uob.com.sg | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-dbs-and-uob-dc0515b7 |
 | `m1cr0soft[.]1234[.]com[.]co` | - | https://www.scamshield.gov.sg/i-want-protection-from-scams/learn-to-recognise-scams/phishing-scams/ |
-| `order[.]domino[.]piza[.]com` | - | https://www.police.gov.sg/media-hub/news/2023/12/20231216_police_advisory_on_phishing_scams_involving_fake_dominos_pizza_websites |
 
 ## 5. Reachable now: live + flagged (56)
 
@@ -186,7 +166,7 @@ Methods: {'report_tag': 218, 'none': 94, 'publisher_self': 71, 'lookalike+tag': 
 | `earrivalform[.]com` | live | serving | MalaysiaArrivalCard | 2025-12-19 | police.gov.sg |
 | `lieshou[.]vip` | live | serving | fictitious | 2025-10-08 | police.gov.sg |
 | `bigbuyshops[.]org` | live | serving | B2B Wave | 2025-09-08 | police.gov.sg |
-| `bestcarspage[.]com` | live | serving | unresolved |  | police.gov.sg |
+| `bestcarspage[.]com` | live | serving | EZ-Link Pte Ltd |  | police.gov.sg |
 | `enjoy-singaporetourism[.]com` | live | serving | SG Arrival Card (ICA e-Service) |  | ica.gov.sg#sg-arrival-card |
 | `enjoysingapore-pass[.]com` | live | serving | SG Arrival Card (ICA e-Service) |  | ica.gov.sg#sg-arrival-card |
 | `govisitsingapore[.]com` | live | serving | SG Arrival Card (ICA e-Service) |  | ica.gov.sg#sg-arrival-card |
@@ -200,8 +180,8 @@ Methods: {'report_tag': 218, 'none': 94, 'publisher_self': 71, 'lookalike+tag': 
 | `sgarrivalcard[.]com` | live | serving | SG Arrival Card (ICA e-Service) |  | ica.gov.sg#sg-arrival-card |
 | `sgarrivalonline[.]com` | live | serving | SG Arrival Card (ICA e-Service) |  | ica.gov.sg#sg-arrival-card |
 | `sgentrycard[.]com` | live | serving | SG Arrival Card (ICA e-Service) |  | ica.gov.sg#sg-arrival-card |
-| `sgpools[.]app` | live | serving | unresolved |  | police.gov.sg |
-| `sgpools[.]online` | live | serving_via_redirect | unresolved |  | police.gov.sg |
+| `sgpools[.]app` | live | serving | Singapore Pools |  | police.gov.sg |
+| `sgpools[.]online` | live | serving_via_redirect | Singapore Pools |  | police.gov.sg |
 | `sgtourism-pass[.]com` | live | serving | SG Arrival Card (ICA e-Service) |  | ica.gov.sg#sg-arrival-card |
 | `singapore-arrivalcard[.]com` | live | serving | SG Arrival Card (ICA e-Service) |  | ica.gov.sg#sg-arrival-card |
 | `singapore-evisa[.]com` | live | serving_via_redirect | SG Arrival Card (ICA e-Service) |  | ica.gov.sg#sg-arrival-card |
@@ -225,5 +205,5 @@ Methods: {'report_tag': 218, 'none': 94, 'publisher_self': 71, 'lookalike+tag': 
 
 ## 6. Site events emitted
 
-site.flagged: 11, site.listed: 1316, site.live: 192, site.taken_down: 936, site.target_changed: 8
+site.flagged: 11, site.listed: 1316, site.live: 192, site.taken_down: 936, site.target_changed: 29
 

@@ -26,14 +26,18 @@
         "listing_role": {"enum": ["listing", "adjacent"], "description": "listing = named in an impersonation advisory; adjacent = MAS Investor Alert List (unlicensed entity)"},
         "impersonation": {
           "type": "object", "additionalProperties": false,
-          "required": ["kind", "target_entity_id", "target_name", "target_method", "authentic_hosts", "other_brands"],
+          "required": ["kind", "target_entity_id", "target_name", "target_method", "authentic_hosts", "other_brands", "targets"],
           "properties": {
-            "kind": {"enum": ["clone", "brand_abuse", "fictitious", "unresolved", null]},
+            "kind": {"enum": ["clone", "brand_abuse", "fictitious", "multiple", "unresolved", null], "description": "multiple = several real candidates named and nothing decides between them; all are listed in targets[]"},
             "target_entity_id": {"type": ["string", "null"], "description": "primary impersonated entity = its primary official domain (e.g. lta.gov.sg) or parent#programme"},
             "target_name": {"type": ["string", "null"]},
             "target_method": {"type": ["string", "null"], "description": "report_tag | lookalike+tag:<m> | lookalike:<m> | publisher_self"},
             "authentic_hosts": {"$ref": "#/$defs/strings", "description": "official domains/hosts of the target (the authentic site)"},
-            "other_brands": {"$ref": "#/$defs/strings", "description": "secondary candidate entities (multi-brand advisories, fictitious brands)"}
+            "other_brands": {"$ref": "#/$defs/strings", "description": "secondary candidate entities (multi-brand advisories, fictitious brands)"},
+            "targets": {"type": "array", "description": "every impersonated candidate, primary first",
+                        "items": {"type": "object", "additionalProperties": false, "required": ["entity_id", "name", "method", "is_primary", "authentic_hosts"],
+                                  "properties": {"entity_id": {"type": "string"}, "name": {"type": "string"}, "method": {"type": ["string", "null"]},
+                                                 "is_primary": {"type": "boolean"}, "authentic_hosts": {"$ref": "#/$defs/strings"}}}}
           }
         },
         "provenance": {
