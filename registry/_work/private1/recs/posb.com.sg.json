@@ -1,0 +1,73 @@
+{
+ "entity_id": "posb.com.sg",
+ "name": "POSB (DBS Bank)",
+ "abbr": "POSB",
+ "aliases": [
+  "POSB",
+  "POSB Bank",
+  "POSB digibank",
+  "Post Office Savings Bank"
+ ],
+ "sector": "bank",
+ "parent_entity_id": "dbs.com.sg",
+ "country": "SG",
+ "official_domains": [
+  "posb.com.sg",
+  "dbs.com.sg"
+ ],
+ "official_hosts": [
+  "www.posb.com.sg",
+  "internet-banking.dbs.com.sg",
+  "posb-digibank.onelink.me"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.posb.com.sg/personal/scam-defence/recent-scams-fraud.page",
+   "kind": "advisory_feed",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": 13,
+   "latest_item_date": "2026-08-28",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "SMS Phishing Alert Scammers are using SMS alerts to steal and perform unauthorised transactions on your DBS accounts and cards. Date: 28 August 2026",
+   "notes": "Mirror of the DBS recent-scams page under the POSB domain: same 6 dated 2026 alerts (in <noscript>) + 7 archive items. Narrative only."
+  },
+  {
+   "url": "https://www.posb.com.sg/personal/scam-defence/default.page",
+   "kind": "scam_faq",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "POSB Scam Defence - Your security is our priority ... Call our 24/7 DBS Fraud Hotline immediately at 1800 339 6963.",
+   "notes": "POSB-branded scam hub (Safety Switch, digiVault, Payment Controls). Related POSB pages in sitemap-posb-2026.xml: /personal/deposits/bank-with-ease/how-to-spot-a-scam, /personal/deposits/bank-with-ease/scam-defence, /personal/support/guide-security-on-scams-and-fraud.html. robots.txt disallows the same 4 scam-defence subpages as DBS."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [
+   "1800 339 6963 (24/7 DBS Fraud Hotline, shown on POSB scam hub)",
+   "1800 111 1111 (POSB/DBS customer service, tel link on POSB homepage)"
+  ],
+  "short_link_domains": [],
+  "social": [
+   "https://www.facebook.com/POSB",
+   "https://twitter.com/posb",
+   "https://www.youtube.com/user/POSBSingapore"
+  ],
+  "apps": [
+   "POSB digibank (download via posb-digibank.onelink.me)"
+  ],
+  "emails": []
+ },
+ "evidence": [
+  "https://www.posb.com.sg/personal/default.page",
+  "https://www.posb.com.sg/personal/scam-defence/default.page",
+  "https://www.posb.com.sg/personal/scam-defence/recent-scams-fraud.page",
+  "https://www.posb.com.sg/robots.txt"
+ ],
+ "notes": "POSB is a DBS brand with its own registrable domain and its own scam-defence pages, hence a child record. official_domains type (b): posb.com.sg serves the site; dbs.com.sg linked in nav and login host internet-banking.dbs.com.sg. Sitemap: https://www.posb.com.sg/sitemap-posb-2026.xml (474 URLs; scam-defence/default.page and recent-scams-fraud.page not listed). posb-digibank.onelink.me is a third-party AppsFlyer redirect (FQDN only)."
+}

@@ -1,0 +1,28 @@
+{
+ "entity_id": "lta.gov.sg",
+ "name": "Land Transport Authority",
+ "abbr": "LTA",
+ "aliases": ["Land Transport Authority (LTA)", "LTA", "OneMotoring", "OneMotoring by LTA", "ERP", "Electronic Road Pricing"],
+ "sector": "gov.statboard",
+ "parent_entity_id": "mot.gov.sg",
+ "country": "SG",
+ "official_domains": ["lta.gov.sg"],
+ "official_hosts": ["www.lta.gov.sg", "onemotoring.lta.gov.sg", "datamall.lta.gov.sg", "www.axs.com.sg"],
+ "scam_info": [
+  {"url": "https://onemotoring.lta.gov.sg/content/onemotoring/home.html", "kind": "alert_page", "lists_indicators": [], "access": "html",
+   "machine_url": null, "item_count": null, "latest_item_date": null, "verified": "2026-11-25 HTTP 200",
+   "sample": "ACT Against Scams LTA will never send payment links via emails or messages, or request payments or banking details through calls, emails or messages. If unsure, call ScamShield Helpline (1799) to check.",
+   "notes": "Only LTA-hosted scam text found: an announcement-carousel tile on the OneMotoring homepage whose 'Find Out More' links OFF-SITE to https://www.police.gov.sg/Advisories/Scams. Plus site-wide banner 'Government officials will NEVER ask you to transfer money...'. onemotoring robots.txt = 'User-agent: * / Crawl-delay: 1', no Sitemap; /sitemap.xml 404. HTML sitemap /content/onemotoring/home/topwebsite/sitemap.html (309 links) has no scam/fraud/phish page."},
+  {"url": "https://www.lta.gov.sg/content/ltagov/en/newsroom.html", "kind": "news_releases", "lists_indicators": [], "access": "html",
+   "machine_url": null, "item_count": 0, "latest_item_date": null, "verified": "2026-11-25 HTTP 200",
+   "sample": "Revised ERP Rates from 23 Nov 26",
+   "notes": "Monitor-only candidate. Newsroom listing holds 724 releases/media replies 2020-2026 (2026: 136; newest 2026/11 e.g. revised-erp-rates-from-23-nov-26) and ZERO scam/phishing/impersonation items by URL and anchor text (item_count=0 scam items). www.lta.gov.sg has no robots.txt (404) and no /sitemap.xml (404); HTML sitemap /content/ltagov/en/sitemap.html (365 links) has no scam page. Sample is a release title, not a scam item."}
+ ],
+ "official_channels": {"sms_sender_ids": ["gov.sg"],
+   "hotlines": ["1800 2255 582 (LTA, per SGDI)", "1799 (ScamShield Helpline, cited on OneMotoring)"],
+   "short_link_domains": ["go.gov.sg"],
+   "social": ["https://www.facebook.com/WeKeepYourWorldMoving", "https://www.instagram.com/ltasg", "https://twitter.com/LTAsg", "https://www.tiktok.com/@ltasg", "https://www.youtube.com/user/LTAsingapore", "https://sg.linkedin.com/company/lta", "https://www.t.me/LTASingapore", "http://go.gov.sg/ltasgwhatsapp"],
+   "apps": ["MyTransport.SG (iOS | Android)"], "emails": ["QSM@lta.gov.sg (SGDI feedback email)"]},
+ "evidence": ["https://www.sgdi.gov.sg/ministries/mot/statutory-boards/lta", "https://www.lta.gov.sg/content/ltagov/en.html", "https://onemotoring.lta.gov.sg/content/onemotoring/home.html", "https://onemotoring.lta.gov.sg/content/onemotoring/home/driving/ERP/erp-2-0/payment-options.html", "https://onemotoring.lta.gov.sg/content/onemotoring/home/digitalservices/pay-fines-and-fees.html"],
+ "notes": "MOST-IMPERSONATED gov brand in SPF data (18 advisories; SPF sample scam domains, NOT visited: gsaz.cc, pajy.apppy.cc, onemotoring-iza.top, citepay.top). LTA itself publishes almost no scam content: no scam page, no advisory list, no fake-site list; scam advisories about LTA/OneMotoring/ERP are published by SPF (police.gov.sg, e.g. 20221018 ERP tolls, 20240917 & 20250414 OneMotoring, 20260622 LTA resurgence) and ScamShield. ALLOWLIST facts: official domain lta.gov.sg (b); genuine payment/transaction host is onemotoring.lta.gov.sg (digitalservices: pay-fines-and-fees, Enquire_Fines_and_Notices, request-for-payment-notice, my_payments; e-letters behind Singpass). ERP 2.0 payment-options page lists CEPAS cards (EZ-Link Motoring Card, NETS FlashPay/Motoring Card), auto top-up via EZ-Link/NETS/SimplyGo, and 'Backend Payment Services Providers ERP payment can also be made via backend payment, provided by AXS' (www.axs.com.sg linked = third-party partner host, listed in official_hosts not official_domains). Road-tax renewals via eGIRO with participating banks. Any '*.cc/*.top' OneMotoring/ERP lookalike or SMS from sender 'LTA' is fake: unverified (search snippet of SPF 20260622 advisory) says LTA notifies via gov.sg SMS, OneMotoring e-letters (Singpass) or hardcopy letters, and decommissioned sender IDs like 'LTA' are fake. Unverified (search snippet, thestar.com.my 2026-05-27): LTA warned of fake e-mails demanding unpaid fines/ERP charges, channel not located on lta.gov.sg. datamall.lta.gov.sg = documented LTA open-data API portal (transport data, not scam data)."
+}

@@ -1,0 +1,263 @@
+<ux-heading-text> IMPORTANT NOTICE: Never reveal personal particulars, OTPs and credit card numbers to anyone. Singtel will not ask for personal details such as WiFi passwords, router numbers, and bank account or credit card details at our stores, via phone calls, SMSes, or home visits. If unsure, call 1688 for assistance.
+<ux-heading-text> Top scams and what you can do about it
+<ux-heading-text> Latest scams
+<ux-accordion-panel> 
+<ux-heading-text> Eligible for eFill refund
+<ux-heading-text> Posted on 23 October 2026 
+ Receiving a email titled Feedback formRec Singtel REF-XXXX-XXXX-XXXX stating you're eligible for a eFill refund, asking for your action to complete a short refund request form. 
+ What to do 
+ Do not click on any link(s). 
+ Do not provide any personal information, such as your name and NRIC, contact details, or payment information through such websites. 
+ Check that the web address, email or URL is part of the list of official Singtel web domains. If it isn’t, do not enter your credentials on these sites. 
+ Singtel would only call customers from official hotlines (e.g 1688) 
+ Report a scam [HREF:https://www.singtel.com/personal/support/scam-advisory/report-scam] here if you encounter such a website.
+<ux-heading-text> Other scams to be aware of
+<ux-accordion-panel> 
+<ux-contactusaccordion> Cancelling Singtel Subscription | consumer | consales-cart-english
+<ux-heading-text> Posted on 16 October 2026 
+ We are aware of online search results and sponsored advertisements promoting third-party websites such as Postclic for the cancellation of Singtel services. 
+ Please note that Postclic is not part of Singtel and is not authorised to act on Singtel’s behalf. 
+ Customers who wish to make changes to their Singtel services, including service cancellation or subscription, should only use Singtel’s official channels, such as the My Singtel app or Singtel.com 
+ What to do 
+ Do not click on any link(s). 
+ Do not provide any personal information, such as your name and NRIC, contact details, or payment information through such websites. 
+ Check that the web address, email or URL is part of the list of official Singtel web domains. If it isn’t, do not enter your credentials on these sites. 
+ Singtel would only call customers from official hotlines (e.g 1688) 
+ Report a scam [HREF:https://www.singtel.com/personal/support/scam-advisory/report-scam] here if you encounter such a website.
+<ux-contactusaccordion> Receiving a call regarding a purchase | select | consales-cart-english
+<ux-heading-text> Posted on 19 May 2026 
+ Receiving a call from a mobile number, regarding a purchase you made with Singtel with the following details: 
+ Caller identify himself as a Singtel staff; 
+ To verify a purchase made by you (amount more than $2000); 
+ Getting you to initiate a cancellation request by clicking on the link sent; 
+ Encouraging you to walk-in to Singtel office to clarify any doubt 
+ What to do 
+ Do not click on any link(s) and delete the email immediately if you are unsure about its authenticity. 
+ Check that the web address, email or URL is part of the list of official Singtel web domains. If it isn’t, do not enter your credentials on these sites. 
+ Singtel would only call customers from official hotlines (e.g 1688) 
+ Report a scam [HREF:https://www.singtel.com/personal/support/scam-advisory/report-scam] here if you encounter such a website.
+<ux-contactusaccordion> Receiving a call regarding your service contract | select | consales-cart-english
+<ux-heading-text> Posted 19 May 2026 
+ Receiving a call from a mobile number, regarding your Singtel service contract. 
+ Caller identify himself as a Singtel staff; 
+ Indicate there's an issue with your contract, needs your attention immediately or else it may affect your service connectivity. 
+ What to do 
+ Do not click on any link(s) and delete the email immediately if you are unsure about its authenticity. 
+ Check that the web address, email or URL is part of the list of official Singtel web domains. If it isn’t, do not enter your credentials on these sites. 
+ Singtel would only call customers from official hotlines (e.g 1688) 
+ Report a scam [HREF:https://www.singtel.com/personal/support/scam-advisory/report-scam] here if you encounter such a website.
+<ux-contactusaccordion> Subscription Cancellation Notice | consumer | consales-cart-english
+<ux-heading-text> Posted on 20 June 2026 
+ Receiving an email titled "SingNet – Subscription Cancellation" claiming that your subscription has expired and urging you to renew within 48 hours. The email may include a discount offer and a "Renew Now" button to prompt immediate action. 
+ What to do 
+ Do not click on any link(s) and delete the email immediately if you are unsure about its authenticity. 
+ Check that the web address, email or URL is part of the list of official Singtel web domains. If it isn’t, do not enter your credentials on these sites. 
+ Singtel would only call customers from official hotlines (e.g 1688) 
+ Report a scam [HREF:https://www.singtel.com/personal/support/scam-advisory/report-scam] here if you encounter such a website.
+<ux-contactusaccordion> Bill review | select | consales-cart-english
+<ux-heading-text> Posted on 28 May 2026 
+ Receiving a email titled "Billing review" stating that you're eligible for a eFill refund from Singtel Portal, asking for your action to complete a short refund request form. 
+ What to do 
+ Do not click on any link(s) and delete the email immediately if you are unsure about its authenticity. 
+ Check that the web address, email or URL is part of the list of official Singtel web domains. If it isn’t, do not enter your credentials on these sites. 
+ Singtel would only call customers from official hotlines (e.g 1688) 
+ Report a scam [HREF:https://www.singtel.com/personal/support/scam-advisory/report-scam] here if you encounter such a website.
+<ux-contactusaccordion> Monthly Singtel bill | select | consales-cart-english
+<ux-heading-text> Posted on 21 February 2026 
+ An email stating that your monthly Singtel bill is ready, to review the summary and make any necessary updates to your account. 
+ What to do 
+ Do not click on any link(s) and delete the email immediately if you are unsure about its authenticity. 
+ Check that the web address, email or URL is part of the list of official Singtel web domains. If it isn’t, do not enter your credentials on these sites. 
+ Report a scam [HREF:https://www.singtel.com/personal/support/scam-advisory/report-scam] here if you encounter such a website.
+<ux-contactusaccordion> Subscription renewal | select | consales-cart-english
+<ux-heading-text> Posted on 16 February 2026 
+ An email stating that your subscription with Singtel is due for renewal soon, and to settle the outstanding amount by due date to avoid interruption. 
+ What to do 
+ Do not click on any link(s) and delete the email immediately if you are unsure about its authenticity. 
+ Check that the web address, email or URL is part of the list of official Singtel web domains. If it isn’t, do not enter your credentials on these sites. 
+ Report a scam [HREF:https://www.singtel.com/personal/support/scam-advisory/report-scam] here if you encounter such a website.
+<ux-contactusaccordion> Billing notification | select | consales-cart-english
+<ux-heading-text> Posted on 19 Jan 2026 
+ An email stating that Singtel is unable to debit from your nominated card due to missing information on your payment details. 
+ What to do 
+ Do not click on any link(s) and delete the email immediately if you are unsure about its authenticity. 
+ Check that the web address or URL is part of the list of official Singtel web domains. If it isn’t, do not enter your credentials on these sites. 
+ Report a scam [HREF:https://www.singtel.com/personal/support/scam-advisory/report-scam] here if you encounter such a website.
+<ux-contactusaccordion> SG60 Reward points | select | consales-cart-english
+<ux-heading-text> Posted on 25 July 2025 
+ An email stating that Singtel is giving you rewards points as part of our exclusive SG60 celebration. 
+ What to do 
+ Do not click on any link(s) and delete the email immediately if you are unsure about its authenticity. 
+ Check that the web address or URL is part of the list of official Singtel web domains. If it isn’t, do not enter your credentials on these sites. 
+ Report a scam [HREF:https://www.singtel.com/personal/support/scam-advisory/report-scam] here if you encounter such a website.
+<ux-contactusaccordion> Issue with your latest payment | consumer | consales-cart-english
+<ux-heading-text> Posted on 12 June 2025 
+ An email stating that Singtel is unsuccessful in payment deduction, requesting you to click on a link to date your billing details to avoid suspension of your services. 
+ What to do 
+ Check your payment status via My Singtel App. 
+ Check that the web address or URL is part of the list of official Singtel web domains. If it isn’t, do not enter your credentials on these sites. 
+ Report a scam [HREF:https://www.singtel.com/personal/support/scam-advisory/report-scam] here if you encounter such a website.
+<ux-contactusaccordion> Customer Rewards Program | consumer | consales-cart-english
+<ux-heading-text> Posted on 29 Nov 2024 
+ A fraudulent website claiming from Singtel, inviting you to participate in a poll for Rewards/Gifts. 
+ What to do 
+ Check that the web address or URL is part of the list of official Singtel web domains. If it isn’t, do not enter your credentials on these sites. 
+ Report a scam [HREF:https://www.singtel.com/personal/support/scam-advisory/report-scam] here if you encounter such a website.
+<ux-contactusaccordion> Billing Notification: Easy payment options inside | consumer | consales-cart-english
+<ux-heading-text> Posted on 7 Oct 2024 
+ An email from Singtel informing you that your payment was not debited successfully from your nominated card due to missing information on your payment details. 
+ What to do 
+ Do not click on any link(s) and delete the email immediately if you are unsure about its authenticity.
+<ux-contactusaccordion> Update billing information and renew subscription | consumer | consales-cart-english
+<ux-heading-text> Posted on 18 Sept 2024 
+ An email from Singtel requesting for your action to update billing information and renew subscription. 
+ What to do 
+ Do not click on any link(s) and delete the email immediately if you are unsure about its authenticity.
+<ux-contactusaccordion> Points expiry | consumer | general-enquiries-mobile-english
+<ux-heading-text> Posted on 5 Sept 2024 
+ An SMS from Singtel stating that your points are expiring, requesting you to click on a link to avoid impact by redeeming rewards. 
+ What to do 
+ Do not click on any link(s) and delete the SMS immediately if you are unsure about its authenticity.
+<ux-contactusaccordion> Your invoice was paid twice | consumer | general-enquiries-fixed-english
+<ux-heading-text> Posted on 28 February 2024 
+ An SMS or email appearing like an official message from Singtel has been circulating. It claims that you have paid a previous bill twice and to request for a refund by clicking the link embedded. 
+ What to do 
+ Check your [HREF:https://www.singtel.com/personal/my-account/bills-payments/payment-history] payment history in My Account to verify that it is true. 
+ Do not click on any link(s) and delete the SMS immediately if you are unsure about its authenticity.
+<ux-heading-text> 
+<ux-heading-text> 
+<ux-contactusaccordion> Your internet connection is compromised | consumer | general-enquiries-fixed-english
+<ux-heading-text> Posted on 26 Apr 2023 
+ These scammers usually pose as Singtel technicians or customer care officers claiming that your internet connection is compromised and they need to troubleshoot the issue. They will typically ask for personal details including NRIC numbers, WiFi passwords, router numbers and bank account or credit card details. 
+ What to do 
+ Please hang up immediately. 
+ Do not access any link(s) if you are unsure about its authenticity.
+<ux-contactusaccordion> Unsuccessful payment deduction | consumer | general-enquiries-fixed-english
+<ux-heading-text> Posted on 19 Sep 2022 
+ (Updated on 17 Feb 2023) 
+ An SMS stating that Singtel is unsuccessful in payment deduction/confirmation, requesting you to click on a link to check your billing details to avoid suspension of your services. 
+ What to do 
+ Check your reward and redemption records via [HREF:https://www.singtel.com/personal/my-account/rewards/rewards-summary] My Rewards Summary in My Account to verify that it is true. 
+ Do not click on any link(s) and delete the SMS immediately if you are unsure about its authenticity.
+<ux-heading-text> 
+<ux-heading-text> 
+<ux-contactusaccordion> Singtel is giving you a gift | consumer | general-enquiries-fixed-english
+<ux-heading-text> Posted on 14 November 2022 
+ An SMS or email stating that Singtel is giving you a gift and requesting you to click on a link to claim it. 
+ What to do 
+ Check your reward and redemption records via [HREF:https://www.singtel.com/personal/my-account/rewards/rewards-summary] My Rewards Summary in My Account to verify that it is true. 
+ Do not click on any link(s) and delete the SMS immediately if you are unsure about its authenticity.
+<ux-contactusaccordion> Renew your subscription | consumer | general-enquiries-fixed-english
+<ux-heading-text> Posted on 19 Oct 2022 
+ (Updated on 8 Nov 2022) 
+ An email appearing to be from “Singtel Service” claiming your card cannot be debited unless you “renew your subscription”. 
+ What to do 
+ Check your [HREF:https://www.singtel.com/personal/my-account/bills-payments/payment-history] payment history in My Account to verify that it is true. 
+ Do not click on any link(s) and delete the SMS immediately if you are unsure about its authenticity.
+<ux-contactusaccordion> Check the status of your Singtel account | consumer | general-enquiries-fixed-english
+<ux-heading-text> Posted on 19 Oct 2022 
+ An email and/or SMS appearing to be from Singtel asking you to check your Singtel account and enter your credit card information has been circulating online. 
+ What to do 
+ Check your [HREF:https://www.singtel.com/personal/my-account/bills-payments/payment-history] payment history in My Account to verify that it is true. 
+ Do not click on any link(s) and delete the SMS immediately if you are unsure about its authenticity.
+<ux-contactusaccordion> Log in with OnePass | consumer | general-enquiries-fixed-english
+<ux-heading-text> Posted on 19 Oct 2022 
+ Some fraudulent websites have been prompting you to log in with your OnePass credentials. 
+ What to do 
+ Check that the web address or URL is [HREF:https://onepass.singtel.com/sso/login/] onepass.singtel.com . If it isn’t, do not enter your OnePass credentials on these sites. 
+ Make a police report if you encounter such a website.
+<ux-contactusaccordion> Payment accepted and processed | consumer | general-enquiries-fixed-english
+<ux-heading-text> Posted on 19 Sep 2022 
+ An email stating that your payment request is successful and will be processed, requesting you to click on links to check your billing details. 
+ What to do 
+ Check your [HREF:https://www.singtel.com/personal/my-account/bills-payments/payment-history] payment history in My Account to verify that it is true. 
+ Do not click on any link(s) and delete the SMS immediately if you are unsure about its authenticity.
+<ux-heading-text> What should you look out for?
+<ux-heading-text> Email and SMSes 
+ How to identify 
+ Bad grammar 
+ Links that do not belong to [HREF:/personal/support/scam-advisory#Officialdomains] Singtel's official web domains 
+ SMSes starting with +65 numbers or with "Likely-SCAM" headers
+<ux-heading-text> Phone and video calls 
+ How to identify 
+ [HREF:https://www.youtube.com/watch?v=wURhppR6skQ#xd_co_f=NjFiODYwZjYtZTI5NS00ZWY0LWIwMGYtMzJiMWM1NTI1ODdj~] Robotic voices 
+ Patchy video call graphics and unnatural body language due to the use of [HREF:https://www.channelnewsasia.com/singapore/rise-deepfakes-how-spot-signs-video-or-ad-has-been-manipulated-3652436] AI filters 
+ Calls that start with +65 numbers
+<ux-heading-text> How to protect yourself
+<ux-heading-text> Ensure password safety 
+ Practise good password hygiene habits to better protect your data and stay safe online. 
+ What you can do 
+ Create a password that is a mix of alphabets and numbers, upper and lowercase characters and symbols. 
+ Use a password manager app that stores your passwords securely. 
+ Use Multi-Factor Authentication which incorporates two or more pieces of information to verify your identity. 
+ Never recycle or share your passwords.
+<ux-heading-text> Verify your source 
+ Scammers trick users into giving away sensitive information by pretending to be trustworthy. 
+ What you can do 
+ Look out for [HREF:https://www.youtube.com/watch?v=woEEgXEToNU&t=1s#xd_co_f=NjFiODYwZjYtZTI5NS00ZWY0LWIwMGYtMzJiMWM1NTI1ODdj~] impersonation cases where scammers pretend to be working for Singtel or law enforcement agencies. 
+ Stay away from [HREF:https://www.youtube.com/watch?v=w-i98DjHVjw&t=1s] deals that are too good to be true . 
+ Do not click on any links or download any content in email and text messages from unknown sources and delete these immediately. 
+ When in doubt, call us at 1688.
+<ux-heading-text> Let's stay ahead of scams together with Singtel’s 3-step approach
+<ux-heading-text> Our advanced cybersecurity measures and your safe cyber habits can help to keep scams at bay. Let's stay ahead of scams together.
+<ux-heading-text> List of official Singtel web domains | You may have received our official web domains and partner links in our communications with you. All domain links with ‘.singtel.com’ belongs to our official web domain and are legitimate (e.g., empower.singtel.com, info.singtel.com). 
+ For other links in your email or SMS, you may check against the list below to ensure they are genuine.
+<ux-accordion-panel> 
+<ux-contactusaccordion> Singtel Web domains | select | consales-cart-english
+<ux-heading-text> Updated as of 9 October 2023
+<ux-heading-text> singtel.com* 
+ portal.singtelge.com 
+ singtelcares.syd1.qualtrics.com 
+ singtelcrm.com 
+ singtelge.app.bigtincan.com.au 
+ singteltvgo.com
+<ux-heading-text> * Inclusive of all domain links with ‘.singtel.com’ (e.g., empower.singtel.com, info.singtel.com, etc.)
+<ux-contactusaccordion> Partner Web domains | select | consales-cart-english
+<ux-heading-text> Updated as of 15 Sept 25
+<ux-heading-text> apple.com 
+ applemusic.com 
+ amazon-prime-opui.openplatform.co 
+ bookful.app 
+ dash.com.sg 
+ e-station2.axs.com.sg 
+ fairprice.com.sg 
+ fortumo.eu 
+ gomo.sg 
+ gxs.com.sg 
+ heya.sg 
+ home.mcafee.com 
+ income.com 
+ jamf.com 
+ magzter.com 
+ mcafee.ly
+<ux-heading-text> office.com 
+ perplexity.ai 
+ qustodio.com 
+ singtelemi.bynder.com 
+ sg.banglaflix.com.bd 
+ sph.com.sg 
+ storytel.com 
+ sunnxt.com 
+ viu.com 
+ wanderjoy.com 
+ www.cast.sg 
+ www.heya.sg 
+ www.jcu.edu.sg 
+ www.mysam.sg 
+ www.vivifi.me 
+ www.wandera.com 
+ www.wogi.sg
+<ux-heading-text> www.wtfast.com 
+ www.zonealarm.com 
+ https://nba-leaguepass-sg.mobi/en-SG/lp/nba-lp 
+ help.netflix.com
+<ux-heading-text> FAQs
+<ux-contactusaccordion> I’ve clicked a phishing email or answered a scam call and given away some personal data. What should I do? | select | consales-cart-english
+<ux-heading-text> Report the matter to the police who will provide guidance on actions to be taken. You should also change passwords to key accounts/information that was shared with the scammer.
+<ux-contactusaccordion> I accidentally downloaded an .exe file/attachment from a suspicious e-mail onto my device. | select | consales-cart-english
+<ux-heading-text> Immediately delete/uninstall the file, and run an anti-virus check on your device.
+<ux-contactusaccordion> I have different passwords for my accounts, and I cannot remember every single one. What should I do? | select | consales-cart-english
+<ux-heading-text> Consider using a [HREF:https://www.pcmag.com/picks/the-best-free-password-managers] password manager that has the multi-factor authentication to help you manage your passwords.
+<ux-contactusaccordion> I get suspicious numbers calling me. What can I do to block these numbers? | select | consales-cart-english
+<ux-heading-text> Block the suspicious numbers on your phone immediately. If you receive a scam phone call or message on a messaging app, blacklist the number by pressing 'Report and Block'. This ensures the app will take down the account. By doing so, you will help stall scammers from targeting more potential victims with that number. 
+ You can also download [HREF:https://www.scamshield.org.sg/#xd_co_f=YTRhMDFmN2YtYWIyZC00YjJiLWFmMmUtNjMzNDIzMjQ4OGU0~] ScamShield , a mobile app that blocks unsolicited calls and messages, call the ScamShield Hotline at 1799 (24-hours service), or visit scamalert.sg for more scam-related advice.

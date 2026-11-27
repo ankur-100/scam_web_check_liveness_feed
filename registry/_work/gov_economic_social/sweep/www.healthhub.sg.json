@@ -1,0 +1,99 @@
+{
+ "host": "www.healthhub.sg",
+ "robots_status": 200,
+ "robots": "User-agent: *\r\nAllow: /\r\nDisallow: /contact-us-form\r\nDisallow: /Healthhub/Healthhub/vaccination\r\n\r\nSitemap: https://www.healthhub.sg/sitemap.xml",
+ "sitemaps_declared": [
+  "https://www.healthhub.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  [
+   "https://www.healthhub.sg/sitemap.xml",
+   "urlset",
+   16444,
+   "https://www.healthhub.sg/sitemap.xml"
+  ]
+ ],
+ "errors": [],
+ "total_urls": 16444,
+ "hosts_in_sitemap": {
+  "www.healthhub.sg": 16444
+ },
+ "matches": [
+  [
+   "https://www.healthhub.sg/highlights-and-insights/health-safety-advisory",
+   "2026-08-13"
+  ],
+  [
+   "https://www.healthhub.sg/highlights-and-insights/health-safety-advisory/do-you-know-whats-really-in-the-pill",
+   "2026-08-21"
+  ],
+  [
+   "https://www.healthhub.sg/highlights-and-insights/health-safety-advisory/guidelines-for-traditional-medicinal-materials",
+   "2026-08-21"
+  ],
+  [
+   "https://www.healthhub.sg/highlights-and-insights/health-safety-advisory/health-advisory-zika-virus-infection",
+   "2026-05-05"
+  ],
+  [
+   "https://www.healthhub.sg/highlights-and-insights/health-safety-advisory/how-to-protect-yourself-against-haze",
+   "2026-10-27"
+  ],
+  [
+   "https://www.healthhub.sg/highlights-and-insights/health-safety-advisory/mozzie-woes-dengue",
+   "2025-08-25"
+  ],
+  [
+   "https://www.healthhub.sg/highlights-and-insights/health-safety-advisory/protect-against-unsafe-health-products",
+   "2025-08-25"
+  ],
+  [
+   "https://www.healthhub.sg/highlights-and-insights/health-safety-advisory/protect-yourself-from-fake-and-illegal-health-products",
+   "2025-08-24"
+  ],
+  [
+   "https://www.healthhub.sg/highlights-and-insights/health-safety-advisory/protect-yourself-from-unlicensed-healthcare-services-and-professionals",
+   "2025-08-23"
+  ],
+  [
+   "https://www.healthhub.sg/highlights-and-insights/health-safety-advisory/stay-safe-when-shopping-online",
+   "2025-08-25"
+  ],
+  [
+   "https://www.healthhub.sg/highlights-and-insights/health-safety-advisory/understanding-direct-to-consumer-genetic-tests",
+   "2026-05-05"
+  ],
+  [
+   "https://www.healthhub.sg/highlights-and-insights/health-safety-advisory/using-telemedicine-the-safe-way",
+   "2026-03-13"
+  ],
+  [
+   "https://www.healthhub.sg/highlights-and-insights/health-safety-advisory/whats-bugging-you",
+   "2026-08-21"
+  ],
+  [
+   "https://www.healthhub.sg/programmes/mindsg/caring-for-others/how-to-better-support-others/advisor",
+   "2025-08-04"
+  ],
+  [
+   "https://www.healthhub.sg/programmes/mindsg/caring-for-others/how-to-better-support-others/listening-advisor",
+   "2025-08-04"
+  ],
+  [
+   "https://www.healthhub.sg/programmes/mindsg/caring-for-others/how-to-better-support-others/optimistic-advisor",
+   "2025-08-04"
+  ],
+  [
+   "https://www.healthhub.sg/programmes/mindsg/caring-for-others/youth/advisor",
+   "2025-10-08"
+  ],
+  [
+   "https://www.healthhub.sg/programmes/mindsg/caring-for-others/youth/listening-advisor",
+   "2025-10-08"
+  ],
+  [
+   "https://www.healthhub.sg/programmes/mindsg/caring-for-others/youth/optimistic-advisor",
+   "2025-10-08"
+  ]
+ ]
+}

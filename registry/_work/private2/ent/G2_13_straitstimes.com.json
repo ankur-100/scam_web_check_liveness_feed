@@ -1,0 +1,83 @@
+{
+ "entity_id": "straitstimes.com",
+ "name": "The Straits Times",
+ "abbr": "ST",
+ "aliases": [
+  "The Straits Times",
+  "Straits Times",
+  "ST"
+ ],
+ "sector": "media",
+ "parent_entity_id": "sph.com.sg",
+ "country": "SG",
+ "official_domains": [
+  "straitstimes.com"
+ ],
+ "official_hosts": [
+  "www.straitstimes.com"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.straitstimes.com/singapore/readers-beware-scammers-using-fake-st-pages-articles-that-depict-prominent-figures",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": "https://www.straitstimes.com/sitemap/2025/02/feeds.xml",
+   "item_count": null,
+   "latest_item_date": "2025-02-24",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Fake news articles, misusing the branding of The Straits Times and other news outlets and falsely attributed to their journalists, have been used in a long-running series of cryptocurrency scams.",
+   "notes": "ST's own warning about fake ST-branded pages (published 2025-02-23, updated 2025-02-24). 'Since 2023, at least 27 such fake sites have been reported to CheckMate'. No fake domains listed (narrative). ST says readers should check back on ST web, app and its social/messaging platforms."
+  },
+  {
+   "url": "https://www.straitstimes.com/tags/scams",
+   "kind": "news_releases",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": "https://www.straitstimes.com/sitemap.xml",
+   "item_count": 10,
+   "latest_item_date": "2026-11-25",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Got a phone call saying you've won FairPrice vouchers? Beware, it may be a scam",
+   "notes": "Media coverage topic page ('Scams', 10 items per load, newest timestamp in page 2026-11-25). No tag-specific RSS; use section RSS https://www.straitstimes.com/news/singapore/rss.xml (listed on /RSS-Feeds) or monthly sitemaps /sitemap/YYYY/MM/feeds.xml and filter for scam. Related tags /tags/fraud, /tags/fake-news."
+  },
+  {
+   "url": "https://www.straitstimes.com/news/singapore/rss.xml",
+   "kind": "news_releases",
+   "lists_indicators": [],
+   "access": "rss",
+   "machine_url": "https://www.straitstimes.com/news/singapore/rss.xml",
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 200 (listed on /RSS-Feeds; feed itself not fetched)",
+   "sample": null,
+   "notes": "Media coverage section feed; filter titles for scam|fraud|phish. verified refers to the RSS directory page /RSS-Feeds."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": [
+   "https://www.facebook.com/TheStraitsTimes",
+   "https://instagram.com/straits_times",
+   "https://x.com/straits_times",
+   "https://www.tiktok.com/@straitstimes",
+   "https://www.youtube.com/user/StraitsTimesOnline",
+   "https://sg.linkedin.com/company/the-straits-times"
+  ],
+  "apps": [
+   "The Straits Times (Google Play com.buuuk.st)"
+  ],
+  "emails": [
+   "stics@sph.com.sg"
+  ]
+ },
+ "evidence": [
+  "https://www.straitstimes.com/tags/scams",
+  "https://www.straitstimes.com/RSS-Feeds",
+  "https://www.straitstimes.com/robots.txt",
+  "https://www.sph.com.sg/"
+ ],
+ "notes": "Partly paywalled; only public content read. robots.txt respected (generic UA allowed for /singapore, /tags; Google-Extended disallowed). parent sph.com.sg (SPH corporate site links straitstimes.com as its platform). SPF brand tag 'The Straits Times' (fake domain strikeathletics.pro, SPF-side; never visited)."
+}

@@ -1,0 +1,27 @@
+{
+ "host": "www.hdb.gov.sg",
+ "robots_status": 200,
+ "robots": "User-agent: *\r\nDisallow: /hdb-renovation-portal\r\nDisallow: /view-status-of-hdbs-upgrading-and-redevelopment-programmes\r\nDisallow: /apply-for-auto-renewal-of-season-parking-by-credit-card\r\nDisallow: /apply-or-change-cpf-payment-for-housing-loan-or-upgrading-cost\r\nDisallow: /update-credit-card-information-for-auto-renewal-of-season-parking\r\nDisallow: /update-tenant-details-for-flat-rental\r\nDisallow: /view-directory-of-renovation-contractors-drc\r\nDisallow: /apply-for-enhancement-for-active-seniors-ease\r\nDisallow: /ease-permohonan-langsung\r\nDisallow: /cancel-auto-renewal-of-season-parking-by-giro\r\nDisallow: /manage-auto-renewal-of-season-parking-by-giro\r\nDisallow: /check-authorised-tenants-of-flat\r\nDisallow: /pay-administrative-fees-to-rent-out-flat-bedroom\r\nDisallow: /pay-overdue-housing-loan-or-upgrading-cost-with-cpf\r\nDisallow: /permanently-transfer-season-parking-to-another-vehicle\r\nDisallow: /pay-fees-for-directory-of-renovation-contractors-drc\r\nDisallow: /manage-preferences-for-statement-of-account\r\nDisallow: /view-statements-of-account-for-housing-loan\r\nDisallow: /temporarily-transfer-season-parking-to-another-car-park\r\nDisallow: /apply-for-4-months-free-parking\r\nDisallow: /change-tenant-under-public-rental-scheme\r\nDisallow: /apply-manage-and-renew-rental-of-flat\r\nDisallow: /apply-manage-and-renew-rental-of-bedroom\r\nDisallow: /apply-for-auto-renewal-of-season-parking-by-giro\r\nDisallow: /apply-for-giro-payment-of-housing-loan-upgrading-cost-or-rent-hardcopy\r\nDisallow: /set-up-cpf-giro-payment-for-upgrading-cost\r\nDisallow: /apply-for-lease-topup\r\nDisallow: /make-partial-repayment-of-outstanding-upgrading-cost\r\nDisallow: /apply-for-new-season-parking\r\nDisallow: /make-partial-repayment-of-housing-loan\r\nDisallow: /purchase-hdb-tender-documents\r\nDisallow: /book-appointment-at-hdb-branch\r\nDisallow: /cancel-auto-renewal-of-season-parking-by-credit-card\r\nDisallow: /apply-for-hdb-loan-eligibility-hle-letter\r\nDisallow: /cancel-transfer-of-temporary-season-parking\r\nDisallow: /buy-floor-plan-of-hdb-flat\r\nDisallow: /improvement-works-portal\r\nDisallow: /make-full-repayment-of-outstanding-upgrading-cost\r\nDisallow: /check-market-rental-rates\r\nDisallow: /mortgage-loan/upgrading-cost-instalments-rent-and-other-charges\r\nDisallow: /apply-to-pay-for-new-flat-and-home-protection-scheme-with-cpf\r\nDisallow: /apply-to-pay-for-resale-flat-and-home-protection-scheme-with-cpf\r\nDisallow: /pay-final-instalment-or-fees-for-discharge-of-housing-loan\r\nDisallow: /pay-full-upgrading-cost\r\nDisallow: /permanently-transfer-season-parking-to-another-car-park\r\nDisallow: /make-full-repayment-of-housing-loan\r\nDisallow: /renew-season-parking\r\nDisallow: /renewal-of-vehicle-parking-certificate\r\nDisallow: /request-gst-refund\r\nDisallow: /view-statements-of-account-for-upgrading-cost\r\nDisallow: /apply-for-family-season-parking\r\nDisallow: /temporarily-transfer-season-parking-to-another-vehicle\r\nDisallow: /terminate-rental-of-flat\r\nDisallow: /terminate-rental-of-bedroom\r\nDisallow: /terminate-s",
+ "sitemaps_declared": [
+  "https://www.hdb.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  [
+   "https://www.hdb.gov.sg/sitemap.xml",
+   "urlset",
+   1373,
+   "https://www.hdb.gov.sg/sitemap.xml"
+  ]
+ ],
+ "errors": [],
+ "total_urls": 1373,
+ "hosts_in_sitemap": {
+  "www.hdb.gov.sg": 1373
+ },
+ "matches": [
+  [
+   "https://www.hdb.gov.sg/security-advisory",
+   "2025-11-21T08:15:55Z"
+  ]
+ ]
+}

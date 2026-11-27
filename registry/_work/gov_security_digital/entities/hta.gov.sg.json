@@ -1,0 +1,31 @@
+{
+ "entity_id": "hta.gov.sg",
+ "name": "Home Team Academy",
+ "abbr": "HTA",
+ "aliases": [
+  "Home Team Academy (HTA)"
+ ],
+ "sector": "gov.dept",
+ "parent_entity_id": "mha.gov.sg",
+ "country": "SG",
+ "official_domains": [
+  "hta.gov.sg"
+ ],
+ "official_hosts": [
+  "www.hta.gov.sg"
+ ],
+ "scam_info": [],
+ "official_channels": {
+  "sms_sender_ids": [
+   "gov.sg"
+  ],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": []
+ },
+ "evidence": [
+  "https://www.mha.gov.sg/hta",
+  "https://www.hta.gov.sg/sitemap.xml"
+ ],
+ "notes": "www.mha.gov.sg/hta redirects to www.hta.gov.sg (2026-11-26 HTTP 200). SGDI lists no website. The sitemap (29 URLs) has no scam keywords. HTA was one of the 7 agencies impersonated by the >500 fake sites in the MHA 12 Aug 2026 advisory. No own scam page."
+}

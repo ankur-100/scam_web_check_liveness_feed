@@ -1,0 +1,27 @@
+{
+ "host": "www.cdc.gov.sg",
+ "robots_status": 200,
+ "robots": "User-Agent: *\nAllow: /\nDisallow: /search\n\nSitemap: https://www.cdc.gov.sg/sitemap.xml\n",
+ "sitemaps_declared": [
+  "https://www.cdc.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  [
+   "https://www.cdc.gov.sg/sitemap.xml",
+   "urlset",
+   112,
+   "https://www.cdc.gov.sg/sitemap.xml"
+  ]
+ ],
+ "errors": [],
+ "total_urls": 112,
+ "hosts_in_sitemap": {
+  "www.cdc.gov.sg": 112
+ },
+ "matches": [
+  [
+   "https://www.cdc.gov.sg/common-flagship-programmes/law-awareness/webinars/scam-prevention-response-and-recovery/",
+   "2026-11-12T06:00:21.717Z"
+  ]
+ ]
+}

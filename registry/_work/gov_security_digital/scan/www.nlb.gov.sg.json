@@ -1,0 +1,12 @@
+{
+ "host": "www.nlb.gov.sg",
+ "robots": null,
+ "robots_status": 202,
+ "sitemaps_declared": [],
+ "sitemaps_fetched": [
+  "https://www.nlb.gov.sg/sitemap.xml[202:-]"
+ ],
+ "n_urls": 0,
+ "hits": [],
+ "newest_lastmod": null
+}

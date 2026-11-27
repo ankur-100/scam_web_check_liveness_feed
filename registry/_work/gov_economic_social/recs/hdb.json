@@ -1,0 +1,22 @@
+{
+ "entity_id": "hdb.gov.sg",
+ "name": "Housing & Development Board",
+ "abbr": "HDB",
+ "aliases": ["Housing & Development Board (HDB)", "Housing and Development Board", "HDB", "HDB Flat Portal", "MyNiceHome"],
+ "sector": "gov.statboard",
+ "parent_entity_id": "mnd.gov.sg",
+ "country": "SG",
+ "official_domains": ["hdb.gov.sg", "mynicehome.gov.sg"],
+ "official_hosts": ["www.hdb.gov.sg", "homes.hdb.gov.sg", "www.mynicehome.gov.sg"],
+ "scam_info": [
+  {"url": "https://www.hdb.gov.sg/security-advisory", "kind": "scam_faq", "lists_indicators": [], "access": "sitemap",
+   "machine_url": "https://www.hdb.gov.sg/sitemap.xml", "item_count": null, "latest_item_date": "2025-11-21", "verified": "2026-11-26 HTTP 200 (JS-rendered; body empty via curl and WebFetch)",
+   "sample": "Learn how to protect yourself from phishing scams.",
+   "notes": "Only scam-keyword URL among 1,373 in HDB sitemap (lastmod 2025-11-21). Next.js/Sitecore page: content loads client-side; neither curl nor WebFetch saw the body, sample is the meta description. Content unknown -> indicators unknown (left [])."}
+ ],
+ "official_channels": {"sms_sender_ids": ["gov.sg"], "hotlines": [], "short_link_domains": ["go.gov.sg"],
+   "social": ["https://www.facebook.com/singaporehdb", "https://instagram.com/singaporehdb", "https://t.me/singaporehdb", "https://www.tiktok.com/@singaporehdb", "https://www.whatsapp.com/channel/0029Va3eJi95fM5eWbq2Mi1j"],
+   "apps": [], "emails": []},
+ "evidence": ["https://www.sgdi.gov.sg/ministries/mnd/statutory-boards/hdb", "https://www.hdb.gov.sg/security-advisory", "https://www.mynicehome.gov.sg/?p=38196"],
+ "notes": "official_domains: hdb.gov.sg (b; SGDI); mynicehome.gov.sg (b; HDB community Isomer site linking back to www.hdb.gov.sg and carrying HDB social links; 45-URL sitemap, no scam pages). homes.hdb.gov.sg = HDB Flat Portal (seen in search results, not opened). sms_sender_ids gov.sg is the whole-of-government rule (since 1 Jul 2024), not stated on an HDB page. Not verified: search snippets say HDB/MyNiceHome warn about people posing as HDB contractors for door-to-door repairs and that 'HDB will never request money transfers or bank log-in details over the phone' (unverified (search snippet); the HDB contractor page URL from search returned 404). robots.txt disallows several eservice paths. No SGDI phone."
+}

@@ -1,0 +1,26 @@
+{
+ "entity_id": "acra.gov.sg",
+ "name": "Accounting and Corporate Regulatory Authority",
+ "abbr": "ACRA",
+ "aliases": ["Accounting and Corporate Regulatory Authority (ACRA)", "ACRA", "Bizfile", "BizFile+"],
+ "sector": "gov.statboard",
+ "parent_entity_id": "mof.gov.sg",
+ "country": "SG",
+ "official_domains": ["acra.gov.sg", "bizfile.gov.sg"],
+ "official_hosts": ["www.acra.gov.sg", "www.bizfile.gov.sg"],
+ "scam_info": [
+  {"url": "https://www.acra.gov.sg/help-support/public-advisory-protect-yourself-against-scams/", "kind": "official_channels", "lists_indicators": ["email", "domain"], "access": "sitemap",
+   "machine_url": "https://www.acra.gov.sg/sitemap.xml", "item_count": null, "latest_item_date": "2026-03-25", "verified": "2026-11-26 HTTP 200",
+   "sample": "ACRA does not contact customers through SMS or WhatsApp and will never send QR codes through SMS, messaging apps like WhatsApp ... Emails from ACRA will only be from addresses ending with “@acra.gov.sg”",
+   "notes": "Public advisory (last updated 25 Mar 2026; original 11 Jun 2025) on Singpass-credential theft to register businesses in victims' names and fake 'ACRA surveys'. GENUINE identifiers (official): emails only @acra.gov.sg; links only acra.gov.sg or bizfile.gov.sg; ACRA does not use SMS/WhatsApp; Helpdesk 6248 6028."},
+  {"url": "https://www.acra.gov.sg/news-events/news-announcements/acra-alert--beware-of-scam-emails/", "kind": "alert_page", "lists_indicators": [], "access": "sitemap",
+   "machine_url": "https://www.acra.gov.sg/sitemap.xml", "item_count": null, "latest_item_date": "2026-03-20", "verified": "2026-11-26 HTTP 200",
+   "sample": "\"News » ACRA Notification – Intended to Dissolve Company Under Section 344A of the Companies Act [Updated]\" ... \"You have been added to Regulatory Affairs Office\"",
+   "notes": "Scam-email subject lines (no sender addresses/domains in text); screenshots in an Annex PDF. Only 2 scam-keyword pages in ACRA sitemap (977 URLs, lastmod present). Isomer site."}
+ ],
+ "official_channels": {"sms_sender_ids": [], "hotlines": ["6248 6028 (ACRA Helpdesk)"], "short_link_domains": ["go.gov.sg"],
+   "social": ["https://www.facebook.com/SG.ACRA", "https://www.linkedin.com/company/accounting-and-corporate-regulatory-authority-acra-/", "https://www.youtube.com/channel/UCmsUeKj4WPOlEDvImC02boA", "https://x.com/ACRA_SG"],
+   "apps": [], "emails": ["@acra.gov.sg"]},
+ "evidence": ["https://www.sgdi.gov.sg/ministries/mof/statutory-boards/acra", "https://www.acra.gov.sg/help-support/public-advisory-protect-yourself-against-scams/"],
+ "notes": "official_domains acra.gov.sg and bizfile.gov.sg (a: 'only include links with acra.gov.sg or bizfile.gov.sg'). sms_sender_ids left empty because ACRA states it does not contact customers by SMS/WhatsApp. bizfile.gov.sg sitemap (82 URLs) has no scam page. ACRA UEN register is on data.gov.sg (entity-name allowlist; earlier survey). /resources/guides-forms/checking-alerts-notifications-from-acra/ (9 Nov 2025) explains genuine Bizfile inbox/email alerts; court letters only in hard copy."
+}

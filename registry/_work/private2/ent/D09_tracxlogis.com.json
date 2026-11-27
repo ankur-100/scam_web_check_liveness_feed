@@ -1,0 +1,39 @@
+{
+ "entity_id": "tracxlogis.com",
+ "name": "TracX Logis (formerly Qxpress)",
+ "abbr": null,
+ "aliases": [
+  "Qxpress",
+  "Qxpress Singapore",
+  "TracX Logis",
+  "TracX",
+  "Smartship"
+ ],
+ "sector": "logistics",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "tracxlogis.com",
+  "qxpress.net"
+ ],
+ "official_hosts": [
+  "www.tracxlogis.com",
+  "www.qxpress.net"
+ ],
+ "scam_info": [],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": [],
+  "apps": [],
+  "emails": []
+ },
+ "evidence": [
+  "https://www.qxpress.net/",
+  "https://www.tracxlogis.com/",
+  "https://www.tracxlogis.com/notices",
+  "https://www.tracxlogis.com/robots.txt"
+ ],
+ "notes": "https://www.qxpress.net/ redirects (2026-11-26) to https://www.tracxlogis.com/ - Qxpress (Qoo10's logistics arm) now operates as TracX Logis; both domains (b). /notices is a dated service-notice list (multi-country, latest 2026-11-20) with no scam items. No scam/security page found. Unverified (search snippet, malwaretips blog): an SPF warning in Nov 2026 reportedly named uParcel, TracX Logis and Park N Parcel in courier-impersonation phishing."
+}

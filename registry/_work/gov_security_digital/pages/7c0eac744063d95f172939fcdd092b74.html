@@ -1,0 +1,21 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8" data-next-head=""/><meta name="viewport" content="width=device-width" data-next-head=""/><link rel="preload" href="/_next/static/css/2bf73b0bb3b5236d.css" as="style"/><link rel="preload" href="/_next/static/css/05213451a7d7c434.css" as="style"/><link rel="stylesheet" href="/_next/static/css/2bf73b0bb3b5236d.css" data-n-g=""/><link rel="stylesheet" href="/_next/static/css/05213451a7d7c434.css" data-n-p=""/><noscript data-n-css=""></noscript><script defer="" noModule="" src="/_next/static/chunks/polyfills-42372ed130431b0a.js"></script><script src="/_next/static/chunks/webpack-110ae773e971e505.js" defer=""></script><script src="/_next/static/chunks/framework-906b5626d377cfc7.js" defer=""></script><script src="/_next/static/chunks/main-224565c80ca2deee.js" defer=""></script><script src="/_next/static/chunks/pages/_app-970f5db5d1f739d6.js" defer=""></script><script src="/_next/static/chunks/8099-7ac9a6830e55d78c.js" defer=""></script><script src="/_next/static/chunks/5345-63541a1e3d4c8e02.js" defer=""></script><script src="/_next/static/chunks/pages/index-c29ad376643b4420.js" defer=""></script><script src="/_next/static/ApNoDeJ5xmL87l-XC2uHE/_buildManifest.js" defer=""></script><script src="/_next/static/ApNoDeJ5xmL87l-XC2uHE/_ssgManifest.js" defer=""></script></head><body><script>(function () {
+	var PREFIX = "fds-breakpoint-";
+	var BREAKPOINTS = [
+		{ key: "xxs", min: 0, max: 320 },
+		{ key: "xs", min: 321, max: 375 },
+		{ key: "sm", min: 376, max: 480 },
+		{ key: "md", min: 481, max: 768 },
+		{ key: "lg", min: 769, max: 1200 },
+		{ key: "xl", min: 1201, max: 1440 },
+		{ key: "xxl", min: 1441, max: null },
+	];
+	var body = document.body;
+	if (!body || !window.matchMedia) return;
+	BREAKPOINTS.forEach(function (bp) {
+		var aboveMin = window.matchMedia("(min-width: " + bp.min + "px)").matches;
+		var belowMax = bp.max !== null && window.matchMedia("(max-width: " + bp.max + "px)").matches;
+		if (aboveMin && (bp.max === null || belowMax)) body.classList.add(PREFIX + bp.key);
+		if (aboveMin) body.classList.add(PREFIX + bp.key + "-min");
+		if (belowMax) body.classList.add(PREFIX + bp.key + "-max");
+	});
+})();</script><div id="__next"><div data-fds-theme="lifesg" data-fds-theme-mode="light"></div></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/","query":{},"buildId":"ApNoDeJ5xmL87l-XC2uHE","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script></body></html>

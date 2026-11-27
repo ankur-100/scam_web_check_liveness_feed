@@ -1,0 +1,50 @@
+{
+ "entity_id": "capitaland.com",
+ "name": "CapitaLand Group",
+ "abbr": null,
+ "aliases": [
+  "Capitaland",
+  "CapitaLand",
+  "CapitaLand Investment",
+  "CapitaLand Development",
+  "CapitaStar",
+  "eCapitaVoucher"
+ ],
+ "sector": "retail",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "capitaland.com",
+  "capitastar.com"
+ ],
+ "official_hosts": [
+  "www.capitaland.com",
+  "www.capitastar.com"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.capitaland.com/en/footer-links/scam-alert.html",
+   "kind": "scam_faq",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "CapitaLand's name and brand have been used without authorisation in scams, including fake investment, training, recruitment or promotional offers.",
+   "notes": "Tier 2. Group 'Scam Alert' page (footer link): investment/job scams, phishing websites, social-media/messaging 'rewards programme' scams; verify via official CapitaLand Group / Development / Investment sites (all on capitaland.com); report via ScamShield. Narrative; undated. Regional copies exist (/us/en/, /eu/en/, /jp/, /vn/, /au/, /kr/ ...scam-alert.html); a 'Check or Report a Scam' page at screens.capitaland.com (search result, not opened)."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": [],
+  "apps": [],
+  "emails": []
+ },
+ "evidence": [
+  "https://www.capitaland.com/en/footer-links/scam-alert.html"
+ ],
+ "notes": "Tier 2 (CapitaStar / eCapitaVoucher brand-tag 'Capitaland'). official_domains: capitaland.com (a/b); capitastar.com (b: CapitaStar rewards site linked from the scam-alert page navigation). No CapitaStar/eCapitaVoucher-specific scam notice found. SPF sample domain fnltvcapblndvn.com (fake; never visited)."
+}

@@ -1,0 +1,41 @@
+{
+ "entity_id": "chargeplus.com",
+ "name": "Charge+ (EV charging)",
+ "abbr": "Charge+",
+ "aliases": [
+  "Charge+",
+  "ChargePlus",
+  "Charge Plus"
+ ],
+ "sector": "other",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "chargeplus.com",
+  "chargeplus.com.sg"
+ ],
+ "official_hosts": [
+  "www.chargeplus.com",
+  "www.chargeplus.com.sg"
+ ],
+ "scam_info": [],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": [
+   "http://linkedin.com/company/chargeplusofficial",
+   "https://www.instagram.com/chargeplus_global",
+   "https://fb.me/chargeplusofficialpage"
+  ],
+  "apps": [
+   "Charge+ (Apple App Store id1481750244)",
+   "Charge+ (Google Play com.chargeplus.chargeapp)"
+  ],
+  "emails": []
+ },
+ "evidence": [
+  "https://www.chargeplus.com.sg/"
+ ],
+ "notes": "Tier 2 (1 request). SPF brand tag 'Charge+' (investment-scam impersonation; sample scam domain chargingpiles.autos in SPF data). https://www.chargeplus.com.sg/ redirects to https://www.chargeplus.com/sg (Wix site) - SG content under path; entity_id chargeplus.com. official_domains (b). No scam/fake-investment notice seen on the SG homepage text; site not crawled further. sector 'other' (EV charging operator)."
+}

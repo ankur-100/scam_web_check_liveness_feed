@@ -1,0 +1,19 @@
+User-agent: *
+Disallow: /Content/AdviserLiveChat/popout.html*
+Disallow: /blog/search?q=*
+Disallow: /blog/search/?t=*
+Disallow: /search?q=*
+Disallow: /search/?t=*
+Disallow: *?faqGroup=*
+Disallow: *?step=*
+Disallow: *?token=*
+Disallow: /PrintFaqs?productCode=*
+Disallow: /PrintFaqs
+Disallow: /media/Income/Orphan/PDF-Files/*
+Disallow: /media/Income/Comms/*
+Disallow: /?trk=test
+Disallow: /admin/*
+Disallow: /cdn-cgi/*
+Disallow: /tncs/holdtheflex
+
+Sitemap: https://www.income.com.sg/sitemap.xml

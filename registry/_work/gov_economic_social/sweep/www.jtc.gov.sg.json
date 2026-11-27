@@ -1,0 +1,16 @@
+{
+ "host": "www.jtc.gov.sg",
+ "robots_status": 200,
+ "robots": "User-agent:*\r\nDisallow: /404\r\nDisallow: /sitecore\r\nDisallow: /ErrorPages\r\nDisallow: /formbuilder\r\nDisallow: /jurongisland/404\r\nDisallow: /punggoldigitaldistrict/404\r\nDisallow: /juronginnovationdistrict/404",
+ "sitemaps_declared": [],
+ "sitemaps_fetched": [],
+ "errors": [
+  [
+   "https://www.jtc.gov.sg/sitemap.xml",
+   "html returned"
+  ]
+ ],
+ "total_urls": 0,
+ "hosts_in_sitemap": {},
+ "matches": []
+}

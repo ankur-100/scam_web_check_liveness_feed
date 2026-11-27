@@ -1,0 +1,47 @@
+{
+ "host": "www.nea.gov.sg",
+ "robots_status": 200,
+ "robots": "User-Agent: *\r\nAllow: /\r\nDisallow: /search\r\n\r\nSitemap: https://www.nea.gov.sg/sitemap.xml",
+ "sitemaps_declared": [
+  "https://www.nea.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  [
+   "https://www.nea.gov.sg/sitemap.xml",
+   "urlset",
+   446,
+   "https://www.nea.gov.sg/sitemap.xml"
+  ]
+ ],
+ "errors": [],
+ "total_urls": 446,
+ "hosts_in_sitemap": {
+  "www.nea.gov.sg": 446
+ },
+ "matches": [
+  [
+   "https://www.nea.gov.sg/weather/regional-earthquake-tsunami-alert",
+   "2018-06-27"
+  ],
+  [
+   "https://www.nea.gov.sg/media/advisories",
+   "2018-06-27"
+  ],
+  [
+   "https://www.nea.gov.sg/media/advisories/advisories",
+   "2018-06-27"
+  ],
+  [
+   "https://www.nea.gov.sg/dengue-zika/dengue/dengue-community-alert-system",
+   "2018-06-27"
+  ],
+  [
+   "https://www.nea.gov.sg/our-services/food-hygiene/advisories-for-nea-food-establishment-licensees",
+   "2018-06-27"
+  ],
+  [
+   "https://www.nea.gov.sg/our-services/public-cleanliness/toilets-management/advisory-to-owners-of-public-toilets",
+   "2018-06-27"
+  ]
+ ]
+}

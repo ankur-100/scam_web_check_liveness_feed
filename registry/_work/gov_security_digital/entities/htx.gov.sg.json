@@ -1,0 +1,32 @@
+{
+ "entity_id": "htx.gov.sg",
+ "name": "Home Team Science and Technology Agency",
+ "abbr": "HTX",
+ "aliases": [
+  "HTX",
+  "Home Team Science & Technology Agency"
+ ],
+ "sector": "gov.statboard",
+ "parent_entity_id": "mha.gov.sg",
+ "country": "SG",
+ "official_domains": [
+  "htx.gov.sg"
+ ],
+ "official_hosts": [
+  "www.htx.gov.sg"
+ ],
+ "scam_info": [],
+ "official_channels": {
+  "sms_sender_ids": [
+   "gov.sg"
+  ],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": []
+ },
+ "evidence": [
+  "https://www.sgdi.gov.sg/ministries/mha/statutory-boards/htx",
+  "https://www.htx.gov.sg/"
+ ],
+ "notes": "No scam pages on htx.gov.sg. robots.txt (Disallow /Sitefinity/) declares no sitemap; /sitemap.xml returns 404 (2026-11-25). WebSearch site:htx.gov.sg scam|impersonation|fake returned only SPS/SPF pages. HTX is the detector in the MHA 12 Aug 2026 advisory: it found >500 fake MHA/Home Team sites on 10 Aug 2026 and had them taken down by 11 Aug (see mha.gov.sg). News lives at /whats-happening/all-news---events (no feed seen)."
+}

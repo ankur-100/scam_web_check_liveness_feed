@@ -1,0 +1,68 @@
+{
+ "entity_id": "changiairport.com",
+ "name": "Changi Airport Group (Singapore Changi Airport)",
+ "abbr": "CAG",
+ "aliases": [
+  "Changi Airport",
+  "Changi Airport Group",
+  "CAG",
+  "iChangi",
+  "iShopChangi",
+  "Changi Rewards",
+  "Jewel Changi Airport"
+ ],
+ "sector": "travel",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "changiairport.com",
+  "jewelchangiairport.com"
+ ],
+ "official_hosts": [
+  "www.changiairport.com"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2019/cag-alerts-public-of-phone-scam-targetting-participants-of-the-be-a-changi-millionaire-promotion.html",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": "https://www.changiairport.com/sitemap.xml",
+   "item_count": null,
+   "latest_item_date": "2019-08-21",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Changi Airport Group alerts public of phone scam targetting participants of the 'Be A Changi Millionaire' promotion",
+   "notes": "Only CAG-published scam item found in the 2,211-URL main sitemap (newsroom 2019, datePublished 2019-08-21). Article body appears JS-loaded (curl got title/nav only). No current scam/security page on changiairport.com; recent fake Changi luggage / iShopChangi scams were covered by SPF advisories (2023-12-07, 2023-12-28) not CAG pages."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [
+   "+65 6595 6868 (Changi Experience Ambassador / customer hotline)",
+   "+65 6956 9898 (Jewel Changi Airport enquiries)",
+   "+65 9615 7555 (WhatsApp chatbot, wa.me link on contact page)"
+  ],
+  "short_link_domains": [],
+  "social": [
+   "https://www.facebook.com/changiairport",
+   "https://www.instagram.com/changiairport",
+   "https://x.com/changiairport",
+   "https://www.tiktok.com/@changiairport?lang=en",
+   "https://www.linkedin.com/company/changiairportgroup",
+   "https://t.me/changiairportmaxbot"
+  ],
+  "apps": [
+   "iChangi (iOS App Store id391730848; Google Play com.changiairport.cagapp)"
+  ],
+  "emails": [
+   "hubandspoke@changiairport.com",
+   "contact.us@jewelchangiairport.com"
+  ]
+ },
+ "evidence": [
+  "https://www.changiairport.com/en/help/contact-us.html",
+  "https://www.changiairport.com/robots.txt",
+  "https://www.changiairport.com/sitemap.xml"
+ ],
+ "notes": "official_domains: changiairport.com (b); jewelchangiairport.com (b: official Jewel contact email on CAG contact page). changiairportgroup.com not observed in fetched pages (not added). Contact page also references a CAG Fraud and Ethics (whistleblowing) hotline - internal fraud, not consumer scams. Unverified (search snippet): CAG said it does not sell unattended baggage (Dec 2023 luggage scam); 2019 lucky-draw scams, CAG hotline 6595 6868 for verification."
+}

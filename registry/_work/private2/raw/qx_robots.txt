@@ -1,0 +1,16 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+Disallow: /login
+Disallow: /sso/
+Disallow: /oauth
+Disallow: /account/
+Disallow: /member/
+Disallow: /channels/
+Disallow: /mockup
+Disallow: /test/
+Disallow: /env-info
+Disallow: /tracking/
+Disallow: /tracking?
+
+Sitemap: https://www.tracxlogis.com/sitemap.xml

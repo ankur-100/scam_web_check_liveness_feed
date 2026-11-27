@@ -1,0 +1,90 @@
+# robots.txt, www.m1.com.sg
+# Updated: AI crawler access explicitly documented + sitemap added
+
+User-agent: *
+Disallow: /search?searchText=
+
+# Block specific outdated logo/security-alert images from Knowledge Panel
+User-agent: Googlebot-Image
+Disallow: /content/dam/M1/nov-2023/support/security-announcement/m1-email-scam.jpg
+Disallow: /content/dam/M1/nov-2023/support/security-announcement/fake-fb-Australiaa.png
+Disallow: /content/dam/M1/nov-2023/support/security-announcement/Security%20Alert_2020_1.jpg
+Disallow: /content/dam/M1/jan-2024/support/security-announcement/image008.jpg
+
+# ------------------------------------------------------------------
+# AI CRAWLERS — explicitly allowed (documented, not just permitted by omission)
+# ------------------------------------------------------------------
+
+# OpenAI — live retrieval for ChatGPT Search / browse requests
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# OpenAI — training crawler (does not affect current ChatGPT citations)
+User-agent: GPTBot
+Allow: /
+
+# Anthropic — live retrieval when Claude browses or a user pastes a URL
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+# Anthropic — training crawler (does not affect current Claude citations)
+User-agent: ClaudeBot
+Allow: /
+
+# Perplexity — covers both crawling and live retrieval
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Google — Gemini/AI training crawler
+# (does NOT affect Google Search ranking or AI Overview — those use the
+# regular Googlebot, which is already unrestricted above)
+User-agent: Google-Extended
+Allow: /
+
+# Microsoft — Bingbot powers both Bing Search and Copilot answers
+User-agent: Bingbot
+Allow: /
+
+# Microsoft — ad-quality crawler, included for completeness; does not
+# affect Copilot citation but is part of the same Bing crawler family
+User-agent: adidxbot
+Allow: /
+
+
+# Meta — this is the one Meta documents as directly enabling citations
+# and links inside Meta AI's own answers (WhatsApp/Instagram/Facebook
+User-agent: Meta-WebIndexer
+Allow: /
+
+# Meta — live, user-triggered fetch (e.g. someone pastes the M1 URL into
+# Meta AI chat directly), similar role to Claude-User / ChatGPT-User
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+# Meta — training crawler only; does not affect current Meta AI citations
+User-agent: Meta-ExternalAgent
+Allow: /
+
+# ------------------------------------------------------------------
+# xAI (Grok) — xAI has NOT published an official, verified crawler
+# user-agent or IP range as of August 2026. 
+# ------------------------------------------------------------------
+User-agent: GrokBot
+Allow: /
+
+User-agent: xAI-Bot
+Allow: /
+
+# --------------------------------------------------------------------
+# SITEMAP — helps every crawler (including AI bots) discover new pages
+# --------------------------------------------------------------------
+Sitemap: https://www.m1.com.sg/sitemap.xml

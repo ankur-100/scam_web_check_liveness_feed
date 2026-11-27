@@ -1,0 +1,50 @@
+{
+ "host": "www.enterprisesg.gov.sg",
+ "robots_status": 200,
+ "robots": "User-agent: *\r\nDisallow: /fta\r\nDisallow: /error-404\r\n\r\nUser-agent: * \r\nDisallow: /\r\n\r\nSitemap: https://www.enterprisesg.gov.sg/sitemap.xml\r\nSitemap: https://www.enterprisesg.gov.sg/oin/sitemap.xml",
+ "sitemaps_declared": [
+  "https://www.enterprisesg.gov.sg/sitemap.xml",
+  "https://www.enterprisesg.gov.sg/oin/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  [
+   "https://www.enterprisesg.gov.sg/sitemap.xml",
+   "urlset",
+   1405,
+   "https://www.enterprisesg.gov.sg/sitemap.xml"
+  ],
+  [
+   "https://www.enterprisesg.gov.sg/oin/sitemap.xml",
+   "urlset",
+   362,
+   "https://www.enterprisesg.gov.sg/oin/sitemap.xml"
+  ]
+ ],
+ "errors": [],
+ "total_urls": 1767,
+ "hosts_in_sitemap": {
+  "www.enterprisesg.gov.sg": 1767
+ },
+ "matches": [
+  [
+   "https://www.enterprisesg.gov.sg/scam-advisory",
+   "2025-07-07"
+  ],
+  [
+   "https://www.enterprisesg.gov.sg/grow-your-business/fake-navigation-with-redirection",
+   "2024-08-28"
+  ],
+  [
+   "https://www.enterprisesg.gov.sg/resources/blog/5-tips-for-a-productive-business-advisory-session",
+   "2024-12-18"
+  ],
+  [
+   "https://www.enterprisesg.gov.sg/grow-your-business/innovate-with-us/innovation-talent/innovation-advisors-programme",
+   "2023-07-11"
+  ],
+  [
+   "https://www.enterprisesg.gov.sg/oin/innovation-challenges/solicitation-for-countering-mis-disinformation-deepfakes",
+   "2026-09-10"
+  ]
+ ]
+}

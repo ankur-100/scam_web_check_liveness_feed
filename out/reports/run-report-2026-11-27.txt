@@ -1,0 +1,73 @@
+==== sgintel manual run  2026-11-27T06:18:18Z ==============================
+listing    : 417 sites | (c) live 52 | (b) flagged 4 | (a) taken down 325 | inconclusive 36 (awaiting confirmation 1) | unchecked 0
+adjacent   : 898 sites | (c) live 130 | (b) flagged 1 | (a) taken down 590 | inconclusive 177 (awaiting confirmation 0) | unchecked 0
+events     : 2463 since last run (site.flagged 11, site.listed 1316, site.live 192, site.taken_down 936, site.target_changed 8)
+  site.target_changed  irunsg[.]shop                                      irunsg.com -> singtel.com                           target=Singapore Telecommunications Limited (Singtel) by=police.gov.sg
+  site.target_changed  itigereo[.]top                                     itiger.com -> moomoo.com                            target=Moomoo Singapore (Moomoo Financial Singapore Pte. Ltd.) by=police.gov.sg
+  site.target_changed  onepass[.]xin                                     singtel.com -> None                                  target=unresolved by=police.gov.sg
+  site.target_changed  irunsg[.]shop                                     singtel.com -> irunsg.com                            target=IRUN by=police.gov.sg
+  site.target_changed  itigereo[.]top                                     moomoo.com -> itiger.com                            target=Tiger Brokers (Singapore) Pte. Ltd. by=police.gov.sg
+  site.taken_down      26479463[.]cc                                            None -> taken_down   registration_lapsed      target=UnionPay by=police.gov.sg
+  site.taken_down      25358156[.]cc                                            None -> taken_down   registration_lapsed      target=UnionPay by=police.gov.sg
+  site.taken_down      21529969[.]cc                                            None -> taken_down   registration_lapsed      target=UnionPay by=police.gov.sg
+  site.live            2025gold[.]net                                           None -> live         serving                  target=BHP by=police.gov.sg
+  site.taken_down      4y8dvxis[.]online                                        None -> taken_down   registry_hold            target=Land Transport Authority by=police.gov.sg
+  site.taken_down      a2[.]mom                                                 None -> taken_down   registry_hold            target=fictitious by=police.gov.sg
+  site.taken_down      2025gold[.]net                                           live -> taken_down   parked_or_for_sale       target=BHP by=police.gov.sg
+  site.taken_down      applysg60vcrlatest-fm[.]up[.]railway[.]app               None -> taken_down   platform_removed         target=CDC Vouchers Scheme by=police.gov.sg
+  site.taken_down      applyserviceinsupportgowhr-jz[.]up[.]railway[.]a         None -> taken_down   platform_removed         target=CDC Vouchers Scheme by=police.gov.sg
+  site.taken_down      ai-qt[.]vip                                              None -> taken_down   registry_hold            target=fictitious by=police.gov.sg
+  site.taken_down      autonomo-income[.]com                                    None -> taken_down   parked_or_for_sale       target=unresolved by=police.gov.sg
+  site.taken_down      avenisportalglobe1[.]asia                                None -> taken_down   host_suspended           target=fictitious by=police.gov.sg
+  site.taken_down      claim-gst-voucher-vn[.]up[.]railway[.]app                None -> taken_down   platform_removed         target=CDC Vouchers Scheme by=police.gov.sg
+  site.live            behene[.]com                                             None -> live         serving                  target=unresolved by=police.gov.sg
+  site.live            bigbuyshops[.]org                                        None -> live         serving                  target=B2B Wave by=police.gov.sg
+  site.taken_down      coupang-vip[.]com                                        None -> taken_down   parked_or_for_sale       target=TikTok by=police.gov.sg
+  site.live            digitalarrivalform[.]com                                 None -> live         serving                  target=SG Arrival Card (ICA e-Service) by=police.gov.sg
+  site.live            cmpaus[.]com[.]au                                        None -> live         serving                  target=DBS Bank (Singapore) by=police.gov.sg
+  site.live            dji8[.]top                                               None -> live         serving                  target=DJI by=police.gov.sg
+  site.live            earrivalform[.]com                                       None -> live         serving                  target=MalaysiaArrivalCard by=police.gov.sg
+  site.live            doge-miningbank[.]vip                                    None -> live         serving                  target=fictitious by=police.gov.sg
+  site.live            enjoysingapore-pass[.]com                                None -> live         serving                  target=SG Arrival Card (ICA e-Service) by=ica.gov.sg#sg-arrival-card
+  site.live            expresszfundings[.]com                                   None -> live         serving                  target=fictitious by=police.gov.sg
+  site.live            enjoy-singaporetourism[.]com                             None -> live         serving                  target=SG Arrival Card (ICA e-Service) by=ica.gov.sg#sg-arrival-card
+  site.flagged         globaltop[.]org                                          None -> flagged      host_interstitial        target=TikTok by=police.gov.sg
+  site.live            go-mining66[.]top                                        None -> live         serving                  target=GoMining by=police.gov.sg
+  site.taken_down      goov[.]up[.]railway[.]app                                None -> taken_down   platform_removed         target=Climate Vouchers by=police.gov.sg
+  site.live            hotorders[.]org                                          None -> live         serving                  target=fictitious by=police.gov.sg
+  site.live            govisitsingapore[.]com                                   None -> live         serving                  target=SG Arrival Card (ICA e-Service) by=ica.gov.sg#sg-arrival-card
+  site.taken_down      itagvo[.]cfd                                             None -> taken_down   registry_hold            target=Land Transport Authority by=police.gov.sg
+  site.taken_down      itigereo[.]top                                           None -> taken_down   registration_lapsed      target=Tiger Brokers (Singapore) Pte. Ltd. by=police.gov.sg
+  site.taken_down      kfy001[.]online                                          None -> taken_down   registry_hold            target=Gov.sg (Singapore Government portal) by=police.gov.sg
+  site.taken_down      late[.]cam                                               None -> taken_down   registry_hold            target=Land Transport Authority by=police.gov.sg
+  site.taken_down      ldnbit[.]cc                                              None -> taken_down   registry_hold            target=BeReal by=police.gov.sg
+  site.live            lieshou[.]vip                                            None -> live         serving                  target=fictitious by=police.gov.sg
+  ... +367 more listing-site transitions (see out/events/)
+  NEW LISTING  2025gold[.]net                                               target=BHP pub=https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-scams-impersonating-bhp
+  NEW LISTING  2125578[.]com                                                target=fictitious pub=https://www.icanactagainstscams.gov.sg/scam-trends/online-investment-scams-8da4b5bc
+  NEW LISTING  21529969[.]cc                                                target=UnionPay pub=https://www.icanactagainstscams.gov.sg/scam-trends/unionpay-impersonation-scams-93ab70fb
+  NEW LISTING  21556080[.]cc                                                target=UnionPay pub=https://www.icanactagainstscams.gov.sg/scam-trends/unionpay-impersonation-scams-95c0e617
+  NEW LISTING  23168586[.]cc                                                target=UnionPay pub=https://www.icanactagainstscams.gov.sg/scam-trends/unionpay-impersonation-scams-95c0e617
+  NEW LISTING  25358156[.]cc                                                target=UnionPay pub=https://www.icanactagainstscams.gov.sg/scam-trends/unionpay-impersonation-scams-93ab70fb
+  NEW LISTING  26479463[.]cc                                                target=UnionPay pub=https://www.icanactagainstscams.gov.sg/scam-trends/unionpay-impersonation-scams-93ab70fb
+  NEW LISTING  2xtron[.]online                                              target=unresolved pub=https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-on-2xtron-online-fdfdd
+  NEW LISTING  356739[.]org                                                 target=unresolved pub=https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-brands-b
+  NEW LISTING  4y8dvxis[.]online                                            target=Land Transport Authority pub=https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-the-land-t
+  NEW LISTING  6789691[.]cc                                                 target=UnionPay pub=https://www.icanactagainstscams.gov.sg/scam-trends/unionpay-phishing-scams-7a905a66
+  NEW LISTING  894144[.]cc                                                  target=Singapore Post Limited (SingPost) pub=https://www.icanactagainstscams.gov.sg/scam-trends/fake-singpost-websites-992f28d2
+  NEW LISTING  8h2n7y4k1p9w0f5jcd[.]live                                    target=Moomoo Singapore (Moomoo Financial Singapore Pte. Ltd.) pub=https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-moomoo-7c5
+  NEW LISTING  91boris[.]com                                                target=TikTok pub=https://www.icanactagainstscams.gov.sg/scam-trends/fake-job-offers-impersonating-tiktok-a7
+  NEW LISTING  95supreme[.]shop                                             target=uSMART pub=https://www.icanactagainstscams.gov.sg/scam-trends/phishing-investment-scams-impersonating
+  NEW LISTING  980[.]it[.]com                                               target=USDT Tether pub=https://www.icanactagainstscams.gov.sg/scam-trends/fake-online-investment-scams-promising-
+  NEW LISTING  a2[.]mom                                                     target=fictitious pub=https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-a2-4e53f
+  NEW LISTING  ai-qt[.]vip                                                  target=fictitious pub=https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-opportunities-impersona
+  NEW LISTING  airobotbep[.]top                                             target=uSMART pub=https://www.icanactagainstscams.gov.sg/scam-trends/phishing-investment-scams-impersonating
+  NEW LISTING  akk500[.]com                                                 target=fictitious pub=https://www.icanactagainstscams.gov.sg/scam-trends/fake-koka-kona-investment-scams-58bf178
+next       : publisher endpoints due 60 | next site check 2026-11-27T07:10:38Z
+
+==== sgintel manual run  2026-11-27T06:18:29Z ==============================
+listing    : 417 sites | (c) live 52 | (b) flagged 4 | (a) taken down 325 | inconclusive 36 (awaiting confirmation 1) | unchecked 0
+adjacent   : 898 sites | (c) live 130 | (b) flagged 1 | (a) taken down 590 | inconclusive 177 (awaiting confirmation 0) | unchecked 0
+events     : 0 since last run
+next       : publisher endpoints due 60 | next site check 2026-11-27T07:10:38Z
+

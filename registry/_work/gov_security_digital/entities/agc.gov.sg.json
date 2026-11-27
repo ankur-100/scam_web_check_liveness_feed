@@ -1,0 +1,56 @@
+{
+ "entity_id": "agc.gov.sg",
+ "name": "Attorney-General's Chambers",
+ "abbr": "AGC",
+ "aliases": [
+  "Attorney-General's Chambers (AGC)"
+ ],
+ "sector": "gov.organ",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "agc.gov.sg"
+ ],
+ "official_hosts": [
+  "www.agc.gov.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.agc.gov.sg/newsroom/agc-media-release---public-advisory-on-scam-letter-bearing-agc-letterhead-and-forged-signature/",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2023-10-25",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "The Attorney-General’s Chambers (“AGC”) has been alerted to a scam letter that was received by a member of the public overseas bearing the AGC letterhead and a signature of an officer allegedly from the AGC.",
+   "notes": "The scam letter scan is in an attached PDF (311 KB, not downloaded). Fee demand tied to a \"money laundering matter\"."
+  },
+  {
+   "url": "https://www.agc.gov.sg/newsroom/media-statement-stern-warning-administered-for-pmo-website-hoax/",
+   "kind": "news_releases",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2015-04-07",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "a photograph of a computer apparently showing a webpage from the Prime Minister’s Office website was circulated via messaging apps and online.",
+   "notes": "Fake-PMO-webpage hoax (2015). Relevant to PMO impersonation history."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [
+   "gov.sg"
+  ],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": []
+ },
+ "evidence": [
+  "https://www.sgdi.gov.sg/organs-of-state/agc",
+  "https://www.agc.gov.sg/sitemap.xml"
+ ],
+ "notes": "Sitemap (352 URLs, lastmod) has 10 keyword slugs; only these 2 are scam/hoax related. Narrative only. Site banner carries the standard ScamShield 1799 message."
+}

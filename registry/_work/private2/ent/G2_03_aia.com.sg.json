@@ -1,0 +1,70 @@
+{
+ "entity_id": "aia.com.sg",
+ "name": "AIA Singapore",
+ "abbr": "AIA",
+ "aliases": [
+  "AIA Singapore",
+  "AIA",
+  "AIA+",
+  "AIA Vitality",
+  "AIA Singapore Private Limited"
+ ],
+ "sector": "insurance",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "aia.com.sg",
+  "aia.com"
+ ],
+ "official_hosts": [
+  "www.aia.com.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.aia.com.sg/en/help-support/security-advisory-and-tips",
+   "kind": "advisory_feed",
+   "lists_indicators": [
+    "sms_sender_id",
+    "email"
+   ],
+   "access": "html",
+   "machine_url": "https://www.aia.com.sg/en/sitemap.xml",
+   "item_count": 23,
+   "latest_item_date": "2026-09-10",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "SMS from AIA can be identified using the following SMS Sender ID: AIA SG/AIASG From AIA/FROMAIA AIAVitality Email from AIA can be identified using the following domain: aia.com.sg aia.com",
+   "notes": "Security Advisory hub: banner 'Beware of scammers impersonating as AIA Singapore staff or AIA Consultant', official sender IDs and email domains (official), FAQ, and 'Recent security advisories' list (~23 dated advisories, 2021-11-09 .. 2026-09-10, each 'View Advisory' link). Also lists example spam/phishing sender addresses (fake, text only): john.d@b631.com, john2@catworld.net, abuse@aia.com (spoofed), rich.c@zenzones.com - old generic examples. Sitemap lastmod 2026-09-18."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [
+   "AIA SG",
+   "AIASG",
+   "From AIA",
+   "FROMAIA",
+   "AIAVitality"
+  ],
+  "hotlines": [
+   "1800 248 8000 (Customer Care Hotline)",
+   "(65) 6248 8000 (overseas)"
+  ],
+  "short_link_domains": [],
+  "social": [
+   "https://www.facebook.com/AIASingapore",
+   "https://www.instagram.com/AIAsingapore/",
+   "https://www.linkedin.com/company/aia-singapore",
+   "https://www.youtube.com/SingaporeAIA"
+  ],
+  "apps": [],
+  "emails": [
+   "@aia.com.sg",
+   "@aia.com"
+  ]
+ },
+ "evidence": [
+  "https://www.aia.com.sg/en/help-support/security-advisory-and-tips",
+  "https://www.aia.com.sg/robots.txt",
+  "https://www.aia.com.sg/en/sitemap.xml"
+ ],
+ "notes": "official_domains (a): aia.com.sg and aia.com stated as official email domains; aia.com.sg is the serving domain. Individual advisory PDFs/pages behind 'View Advisory' not opened."
+}

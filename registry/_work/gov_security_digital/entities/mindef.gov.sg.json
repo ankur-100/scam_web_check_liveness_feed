@@ -1,0 +1,35 @@
+{
+ "entity_id": "mindef.gov.sg",
+ "name": "Ministry of Defence / Singapore Armed Forces",
+ "abbr": "MINDEF",
+ "aliases": [
+  "MINDEF",
+  "Singapore Armed Forces (SAF)",
+  "MINDEF/SAF"
+ ],
+ "sector": "gov.ministry",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "mindef.gov.sg"
+ ],
+ "official_hosts": [
+  "www.mindef.gov.sg"
+ ],
+ "scam_info": [],
+ "official_channels": {
+  "sms_sender_ids": [
+   "72255 (NS two-way SMS, exempt from gov.sg)",
+   "gov.sg"
+  ],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": []
+ },
+ "evidence": [
+  "https://www.sgdi.gov.sg/ministries/mindef",
+  "https://www.mindef.gov.sg/sitemap.xml",
+  "https://www.sms.gov.sg/exceptions"
+ ],
+ "notes": "Sitemap (5,711 URLs, lastmod) has 0 strict scam/fraud/phish/impersonat/fake/hoax/spoof slugs. The broad-keyword hits are \"cyber\"/\"alert\" pages, not scams. MINDEF's Sep 2025 warnings on fake bulk-order scams by people posing as SAF personnel were posted on social media (per news search), not on mindef.gov.sg. MHA PQ replies cover them (see mha.gov.sg). SMS 72255 is the official NS two-way sender ID."
+}

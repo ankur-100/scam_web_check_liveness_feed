@@ -1,0 +1,12 @@
+User-agent: *
+
+Disallow: /cmsctx
+Disallow: /CMSPages/
+Disallow: /CMSAdmin/
+Disallow: /CMSModules/
+
+Disallow: /*.aspx$
+Disallow: /*.axd$
+Disallow: /*.ashx$
+
+Sitemap: https://www.smrt.com.sg/sitemap.xml

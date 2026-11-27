@@ -1,0 +1,10 @@
+== www.mlaw.gov.sg: robots=200 declared=1 fetched=1 urls=2983 hits=22 newest_lastmod=2026-11-25T01:56:27+00:00
+   sitemaps: https://www.mlaw.gov.sg/sitemap.xml[200:3006]
+== rom.mlaw.gov.sg: robots=200 declared=1 fetched=1 urls=116 hits=9 newest_lastmod=2026-11-06T04:11:11+00:00
+   sitemaps: https://rom.mlaw.gov.sg/sitemap.xml[200:116]
+== www.ipos.gov.sg: robots=200 declared=1 fetched=1 urls=832 hits=4 newest_lastmod=2026-11-25T10:01:52.026Z
+   sitemaps: https://www.ipos.gov.sg/sitemap.xml[200:832]
+== www.judiciary.gov.sg: robots=200 declared=1 fetched=1 urls=2508 hits=32 newest_lastmod=None
+   sitemaps: https://www.judiciary.gov.sg/sitemap/sitemap.xml[200:2508]
+== www.agc.gov.sg: robots=200 declared=1 fetched=1 urls=352 hits=10 newest_lastmod=2026-11-12T14:10:26.874Z
+   sitemaps: https://www.agc.gov.sg/sitemap.xml[200:352]

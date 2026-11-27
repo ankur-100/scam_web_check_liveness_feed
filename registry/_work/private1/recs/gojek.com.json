@@ -1,0 +1,55 @@
+{
+ "entity_id": "gojek.com",
+ "name": "Gojek Singapore",
+ "abbr": "Gojek",
+ "aliases": [
+  "Gojek",
+  "GoJek",
+  "Gojek Singapore",
+  "GoTo",
+  "Gojek app"
+ ],
+ "sector": "transport",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "gojek.com",
+  "go-jek.com"
+ ],
+ "official_hosts": [
+  "www.gojek.com",
+  "cdn-site.gojek.com",
+  "lelogama.go-jek.com"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.gojek.com/sg/safety",
+   "kind": "scam_faq",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Your personal information – including trip and payment details – is kept safely on our system.",
+   "notes": "Ride-safety page only (insurance, trip sharing, 24/7 support); no scam/phishing content."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": [],
+  "apps": [
+   "Gojek (Apple App Store id944875099)",
+   "Gojek (Google Play com.gojek.app)"
+  ],
+  "emails": []
+ },
+ "evidence": [
+  "https://www.gojek.com/sg/",
+  "https://www.gojek.com/robots.txt",
+  "https://www.gojek.com/sitemap-sg-blog.xml"
+ ],
+ "notes": "SG content under www.gojek.com/sg (entity_id gojek.com verified; /sg redirects to /sg/). official_domains (b): gojek.com serves site; go-jek.com asset hosts (lelogama.go-jek.com) embedded in official pages. No SG scam/phishing advisory found: sitemap-sg-help.xml has 2 URLs, sitemap-sg-blog.xml (206 URLs) has no scam/fraud posts. Social links not in static SG homepage HTML. Low value as a source; allowlist value only."
+}

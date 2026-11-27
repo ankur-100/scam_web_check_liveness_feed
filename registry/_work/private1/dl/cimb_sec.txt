@@ -1,0 +1,447 @@
+Security & Fraud Awareness | Help & Support | CIMB SG
+CIMB Malaysia
+CIMB Indonesia
+CIMB Thailand
+CIMB Cambodia
+CIMB Vietnam
+CIMB Philippines
+Login
+CIMB Pulse
+The Financier
+Savings Strategies
+Investing My Money
+Travel Tips
+Planning For My Future
+Thinking About Insurance
+Banking With Us
+CIMB Preferred
+Investments
+Digital Services
+OCTO by CIMB Singapore
+Online Applications
+Consult-OnTheGo
+Promotions
+Current Promotions
+CIMB Card Deals
+Help & Support
+Contact Us
+Locate Us
+Application Status
+FAQ
+Rates & Charges
+General Terms and Conditions
+Regulations & Policies
+Security & Fraud
+Quicklinks
+Important Notices
+1">
+-->
+Personal
+Business
+Preferred
+Corporate
+CIMB Pulse
+Banking With Us
+Digital Services
+Promotions
+Help & Support
+Quicklinks
+CIMB Pulse
+The Financier
+Savings Strategies
+Investing My Money
+Travel Tips
+Planning For My Future
+Thinking About Insurance
+Banking With Us
+CIMB Preferred
+Savings & Deposits
+Cards
+Loans & Financing
+Investments
+Insurance
+Other Services
+Digital Services
+OCTO by CIMB Singapore
+Payment & Transfers
+Online Applications
+Consult-OnTheGo
+Promotions
+Current Promotions
+CIMB Card Deals
+Events
+Help & Support
+Contact Us
+Locate Us
+Application Status
+FAQ
+Rates & Charges
+General Terms and Conditions
+Download Center
+Regulations & Policies
+Security & Fraud
+Quicklinks
+Important Notices
+Newsroom & Awards
+Savings Strategies
+Investing My Money
+Travel Tips
+Planning For My Future
+Thinking About Insurance
+Savings & Deposits
+Savings Accounts
+Current Accounts
+Fixed Deposit
+Cards
+Credit Cards
+Contactless Payments Made Simple
+Other Credit Card Services
+Loans & Financing
+Personal Financing
+Property Loan
+Investments
+Insurance
+General Insurance
+Life Insurance
+Other Services
+Remittance
+OCTO by CIMB Singapore
+Payment & Transfers
+Cross-border Transfers
+Online Funds Payment
+Current Promotions
+Events
+InsureXpo by CIMB 2026
+FAQ
+Rates & Charges
+Download Center
+Printable Forms
+Regulations & Policies
+Security & Fraud
+-->
+Help & Support
+SECURITY & FRAUD AWARENESS
+Feel safe knowing how we work with you to prevent fraud and identity theft. We take that extra initiative to protect you as well as inform you on how to stay safe online.
+The latest information you'd need to protect yourself!
+-->
+-->
+Shared Responsibility Framework (SRF)
+Safeguarding your Credit Cards & PIN
+Be Informed On The Latest Scams
+How to Protect Yourself
+CIMB's Commitment in Protecting Our Customers
+Shared Responsibility Framework (SRF)
+Scams are becoming more sophisticated, and safeguarding your money requires joint effort. The Shared Responsibility Framework (SRF), introduced by the Monetary Authority of Singapore (MAS) and Infocomm Media Development Authority (IMDA), sets out how banks and customers work together to reduce the risk of phishing scams.
+At CIMB, we have strengthened our security controls in line with this framework to help protect customers against unauthorised transactions.
+What This Means for You
+Your security is our priority. As part of the enhanced safeguards, certain payments or transfers may be delayed or declined if unusual activity is detected on your account. In some cases, transactions may be placed on a temporary hold of at least 24 hours, giving you time to review or cancel them if they are not authorised. You will be notified if this happens.
+Possible Delays to Payments and Transfers
+If there is large amount of funds moving out of your account, CIMB may:
+•Reject the transaction, or
+•Place it on hold for at least 24 hours before processing
+This is designed to help prevent losses from scams and provide you with an additional layer of protection.
+Planning Ahead to Minimise Disruption
+To minimise any inconvenience, we encourage you to plan transactions in advance where possible. You may also consider setting up recurring arrangements, such as GIRO or standing instructions, for regular payments.
+Frequently Asked Questions (FAQs)
+1. What is the Shared Responsibility Framework (SRF)?
+The SRF is an industry‑wide initiative introduced by MAS and IMDA to address phishing scams. It outlines the shared responsibilities of banks and customers in preventing unauthorised transactions. The framework focuses on scams involving seemingly authorised transactions, where customers are deceived into revealing their banking credentials.
+2. What are CIMB’s responsibilities under the SRF?
+In line with regulatory guidelines, CIMB has implemented the following measures:
+Cooling-off period for Higher Risk actions : To protect you from phishing scams, Digital Token can only be used after 12-hours upon setup. Transfer or Pay to Favourites can only be done after 12-hours upon successful addition;
+Transactional alerts : Provide transactional notification alerts for outgoing payment transactions, activation of the digital security token and conduct of high-risk activities;
+Kill Switch (Stop Loss to Scam) : Customers can disable their access immediately via the CIMB Mobile App and Online Banking, and stop outgoing payments and transfers;
+Reporting channel : Ensure the reporting channel is always available for reporting unauthorised transactions, and blocking further access via mobile and online channels to your protected account; and
+Enhanced fraud surveillance : We are progressively strengthening our 24/7 monitoring systems to more effectively detect and mitigate situations where large sums might be rapidly withdrawn through unauthorised phishing‑related transactions. As a result, you may occasionally encounter delays or additional security checks, but these measures are essential to ensuring your online safety.
+3. What can I do to better protect myself from scams?
+You can help protect your funds if you:
+Update your contact information in CIMB Clicks, to receive prompt updates from us
+Never share your banking credentials, OTPs, or Singpass details
+Avoid clickable links in unsolicited SMSes or emails
+Download apps only from official app stores
+Opt-in for transaction notification via email or SMS using your CIMB Clicks
+Update your transaction notification threshold to a lower amount to be notified of transactions on your account (performed on Clicks)
+4. What additional safeguards will be introduced?
+If significant outflows are detected (for example, more than 50% of an account balance of at least S$50,000 within 24 hours), CIMB may hold or reject such transactions to allow time for verification.
+5. Why are banks monitoring transactions more closely?
+These enhanced measures are part of industry‑wide efforts to better protect customers against scams. Monitoring helps detect unusual behaviour early and reduces the risk of fraudulent losses.
+6. When will the enhanced safeguards that will take effect? Can I opt out of these safeguards?
+The enhanced safeguards will take effect from 30 April 2026. These measures are mandated as part of an industry‑wide framework and apply to all customers for their protection.
+7. Which accounts are covered?
+The safeguards apply to personal current and savings accounts, including joint accounts, that meet the specified balance thresholds.
+8. Will transfers to my own accounts at other banks be affected?
+Yes. As banks cannot verify ownership of external accounts in real time, such transfers may still be subject to the safeguards.
+9. Which transactions may be placed on hold?
+Digital transfers that trigger the Bank’s thresholds may be held. Transactions conducted at the branch are not affected.
+10. Will my everyday spending be disrupted?
+No. The safeguards are designed to protect against scams while allowing normal daily transactions to continue smoothly.
+11. Are there transactions that are not affected?
+Yes. The following are generally excluded:
+Recurring standing instructions (other than the first transfer if it is scheduled within 24 hours from time of set-up)
+Recurring GIRO / eGIRO payments
+Bill payment to non-credit card organisations
+ATM transactions
+Transfers between your own CIMB SG accounts
+12. What should I do if my transaction is held?
+If you prefer the transaction to proceed, simply wait for 24 hours . If you wish to cancel the transaction, you may do so via CIMB Mobile App.
+13. Can CIMB tell me how much more I can transfer without triggering safeguards?
+No. The system automatically monitors activity and applies safeguards once thresholds are reached.
+14. My request or transfer was placed on hold. However, I am unable to cancel it.
+In addition to the enhanced safeguards, other security measures may apply. Not all held transactions can be cancelled. For transfer request that cannot be cancelled, our bank will continue to hold the transaction, and our staff will contact you to verify the transaction.
+Safeguarding your Credit Cards & PIN
+DOs
+DON'Ts
+Pay attention to your credit cards during purchases and make sure you get the correct one back. Also ensure that your credit card is not tampered with.
+Never provide authentication for payments that are unintended. Read the authentication message clearly before confirming and decline the authentication if you feel that something is amiss.
+Review your credit card balances and statements regularly.
+Don't wait if you suspect that your credit card has been compromised. Call our CIMB Credit Card 24-hour hotline at +65 6333 6666.
+Keep your credit cards in a safe place when not in use. Never leave your it unattended or in unsecured places, even if it is just a short while.
+Don't wait - Immediately report your card as lost or stolen via the CIMB Clicks Online Banking and Mobile app
+1. Go to ‘Report as Lost or Stolen’ under Credit Card-related Services under Apply & Services
+2. Select your lost/stolen Credit Card and press submit
+Turn on your CIMB Credit Card Alerts on the CIMB Clicks Mobile app.
+Don’t be a victim.
+Be informed on the latest scams.
+Mobile Phone and Singpass Misuse Scams
+Scammers may ask to use your unlocked mobile phone, then access personal information or apply for banking products without your knowledge.
+To protect yourself:
+Never hand over your unlocked phone to anyone.
+Never allow anyone to access or operate your Singpass account.
+Approve authentication requests only when you initiate them.
+Stop immediately if someone asks to use your phone or complete a banking application on your behalf.
+Contact us immediately if you believe your phone, Singpass or banking credentials have been compromised.
+Money Muling Scams
+Don’t let your account be a criminal’s cash cow.
+Money muling is when someone uses your bank account to transfer illegally obtained money between accounts. This can lead to financial and legal consequences. In some scenarios, scammers often disguise these activities as legitimate jobs or online relationship.
+How to avoid becoming a Money Mule by follow these tips:
+Be wary of unsolicited job offers promising easy money by selling your SingPass or bank accounts.
+Never share your SingPass or bank account details with anyone.
+Report suspicious activities to us immediately if you spot anything amiss.
+Remember, you are responsible for your own account. Don’t become a victim of money muling.
+Love Scams
+Scammers of this variant often create fake profiles on social media and dating applications. These profiles usually feature desirable photos and biography to attract potential victims.
+After building trust and emotional connection with you, the scammer will then create scenarios to swindle you, such as:
+Fabricating a hardship story to request for a loan or money; or
+Asking you to invest in property projects, cryptocurrencies, or a company for lucrative returns; or
+Seeking your help to transfer or receive money using your personal bank account.
+Guilt tripping you by accusing you of doubting the relationship should you reject any of their requests.
+How to avoid becoming a Love Scam victim by follow these tips:
+Do a reverse image search of their online profile photos.
+Maintain open communication with trusted friends and family members as they can offer valuable perspectives and help you recognise potential scams.
+Job Scams
+Ever been promised an easy and flexible job, working from home? Welcome to the wild world of job scams!
+Job scams involve scammers who try to trick their targets into handing over money, or personal and financial details. To trick you into believing them, scammers may initially reward you a small return to gain your trust.
+The Mode of Contact
+Here are some main modes of contact for job scams, via:
+Dating applications
+Messaging applications
+Social Media Platforms
+The scammers will claim that they are some legitimate companies or is recruiting for legitimate companies. To convince you, the scammers may even add you into messaging group chats with the other fake participants who provide testimonies to the fake job.
+The Fake Jobs Offered
+Job scams can come in many forms, but they all revolve around one common tactic – the scammers will always request for pre-payments.
+Here are some of the fake jobs:
+Online tasks
+Job scammers may promote highly paid and flexible part time online jobs in the form of tasks such as liking social media posts, reviewing restaurants and hotels, or boosting online traffic for a product.
+Buying products promising refund and commission
+Job scammers will also offer you jobs or tasks to buy their company’s products to boost sales, online traction and popularity and promise you a refund and commission thereafter.
+Once the tasks have been completed, the job scammer will make all sorts of excuses to refuse paying the commission. In some instances, the scammers require a top up before they “release” the monies.
+How to avoid becoming a Job Scam victim
+Do not accept unsolicited job offers that pay high rewards for little effort. If the job offer is too good to be true, it is usually a scam.
+Never pay to secure a job offer or get more information for a job.
+Always stay sceptical of job offers that provide vague information using dubious emails, names and links.
+Do your own research on the job offer to verify its legitimacy.
+Communicate this to your family and loved ones to seek a second opinion.
+Investment Scams
+A golden opportunity to turn your pennies into fortunes overnight. Beware, you might be stepping into the shiny trap of an investment scam.
+An investment scam is a deceptive scheme designed to trick individuals into investing their money in fraudulent or non-existent opportunities promising high returns with little to no risk.
+The main contact methods for investment scams are:
+Social media befriending
+Dating Applications
+Targeted social media advertisements
+Messaging channels and chat groups
+Investment scammer usually employ such tactics:
+High-Pressure and aggressive sales techniques to urge potential victims to act quickly to avoid missing out on a lucrative opportunity.
+Promising extraordinarily high returns with little or no risk, which is a key red flag since all investments carry some level of risk.
+Unsolicited offers via phone calls, emails, social media, or even in person.
+Using complex and technical language to impress and confuse potential investors, making the scam seems legitimate.
+Creating fake websites, testimonials, and endorsements to appear credible and trustworthy.
+Claiming the investment is into the ‘next big thing’ i.e. cryptocurrencies.
+How to avoid becoming an Investment Scam victim
+If the opportunity is too good to be true, it usually is. Guaranteed high returns is usually a red flag.
+Always be sceptical over unsolicited investment advice received on dating and messaging applications and social media.
+Ask the individual questions to fully understand the investment opportunity. Be wary if he or she avoids or is unable to answer any of your questions.
+Share details of the investment opportunity with a third party i.e. friends or family member, to seek a second opinion on the credibility of the opportunity.
+Check whether the entity/individual is regulated by MAS using the Financial Institutions Directory
+and Register of Representatives
+.
+Check the Investor Alert List
+for a list of persons who may have been wrongly perceived as being licensed or regulated by MAS.
+Take your security to the next level and protect yourself.
+The fight against cybercrime is a joint responsibility. Take these action to protect yourself from falling victim to fraud and scams!
+Protect your online banking details
+Always remember to check your online banking URL access.
+Ensure the URL is in full and without any typo:
+CIMB Clicks :
+https://www.cimbclicks.com.sg
+BizChannel@CIMB:
+https://www.bizchannel.cimb.com.sg
+Always remember to log out once you have completed your banking transactions.
+Safeguard your devices, cards, password & PINs
+Keep your personal devices, cards and PINs in a safe place. Ensure that for devices, you have set up appropriate actions for log-ins that only you have access to.
+Hot tip - For passwords, create one that contains a combination of upper & lower cases, numeric and symbols. Avoid using easy to guess information such as your birth date.
+Be attentive to your transactions
+With the increasing prevalence of digital scams, safeguard your savings by adding an extra layer of protection via CIMB Money Lock
+.
+Pay attention to your transaction alerts and check your account activities regularly via CIMB Clicks
+and BizChannel@CIMB
+.
+In case of any unusual activity, please contact us immediately via these channels here
+.
+For businesses, safeguard your BizChannel@CIMB
+Always validate details of the payment instructions, after payment creation and before payment approval.
+Submit payments for approval at least a few days before they are due to allow for adequate time to verify payments.
+When making bulk payments, verify and match transaction data against the source information by downloading the report from the BizChannel@CIMB platform.
+Please DO NOT confirm the transaction without verifying.
+Don’t Expose your Online Banking Details
+Fraudsters frequently impersonate representatives of government agencies and deploy fear tactics to get victims to divulge their Online Banking and personal details.
+Do not click unknown or unverified links or open email attachments from unknown senders.
+When in doubt, immediately contact us via these channels here
+.
+Be aware and observe your surroundings
+Don’t write or record your PIN anywhere which is easily accessible to others or save your card details on your browser.
+When drawing money at the ATMs, cover the keypad with your other hand while keying in your PIN.
+When paying with your CIMB Credit Card, ensure you get your card back, and always check that it's not been tampered with.
+Don’t Share your Personal Information
+Never share the following details with anyone or enter these details into any website other than CIMB Clicks
+and BizChannel@CIMB
+:
+Account Number
+Credit Card Number
+User ID
+PIN
+Password
+Remember that CIMB will never ask you for the above information under any circumstances.
+Protect your Device from Malware
+Download apps only from official app stores like Google Play Store, Apple App Store and Huawei AppGallery to minimize the risk of downloading malicious apps.
+Only grant accessibility permissions to trusted apps that genuinely require them for accessibility purposes.
+Regularly update your device’s operating system and apps to the latest version and consider installing reputable antivirus or security software that can detect and block malware threats.
+Don’t Expose your Online Banking Details
+Fraudsters frequently impersonate representatives of government agencies and deploy fear tactics to get victims to divulge their Online Banking and personal details.
+Do not click unknown or unverified links or open email attachments from unknown senders.
+When in doubt, immediately contact us via these channels here
+.
+Be aware and observe your surroundings
+Don’t write or record your PIN anywhere which is easily accessible to others or save your card details on your browser.
+When drawing money at the ATMs, cover the keypad with your other hand while keying in your PIN.
+When paying with your CIMB Credit Card, ensure you get your card back, and always check that it's not been tampered with.
+Don’t Share your Personal Information
+Never share the following details with anyone or enter these details into any website other than CIMB Clicks
+and BizChannel@CIMB
+:
+Account Number
+Credit Card Number
+User ID
+PIN
+Password
+Remember that CIMB will never ask you for the above information under any circumstances.
+Protect your Device from Malware
+Download apps only from official app stores like Google Play Store, Apple App Store and Huawei AppGallery to minimize the risk of downloading malicious apps.
+Only grant accessibility permissions to trusted apps that genuinely require them for accessibility purposes.
+Regularly update your device’s operating system and apps to the latest version and consider installing reputable antivirus or security software that can detect and block malware threats.
+How is CIMB protecting our customers?
+Disable CIMB Clicks Immediately
+Scammed? Don’t wait. Immediately disable your access
+to CIMB Clicks Online Banking and Mobile App and stop outgoing payments and transfers.
+Transaction threshold notification
+Receive a transaction notification for any pay and transfers to 3 rd party at S$100 by default. You can always set it lower or higher on CIMB Clicks Online Banking.
+Cooling-off period for Higher Risk actions
+To protect you from phishing scams, Digital Token can only be used after 12-hour upon setup. Transfer or Pay to Favourites can only be done after 3-hour upon successful addition.
+Alerts when you update your contact details
+Receive SMS/email notification alerts when you update your contact number, email or mailing address on CIMB Clicks .
+Default limit for funds transfer
+To protect your account at the start, the default daily limit to transfer to 3 rd party is set at S$3,000. You can always set it lower or higher on CIMB Clicks Online Banking.
+Transaction signing protection
+Additional transaction signing is required for amount above S$1,000 for PayNow and Scan & Pay. For any other transfers and payments to 3rd parties, a transaction signing will need to be performed for one-off transfers, or by adding a favourite payee.
+Enhanced anti-malware security
+Should malware be detected in our customers' mobile phone, our security feature will automatically block access to their CIMB Clicks. This enhancement aims to protect users from potential fraud associated with malware that exploits screen sharing and accessibility permissions.
+I’ve been scammed! What should I do?
+If you think you’ve been scammed or detect unusual or suspicious activity involving your bank account, remember to:
+Step 1
+Inform the Bank immediately by calling our hotline at +65 6333 7777
+or email us at AtYourService@cimb.com
+If you suspect that your CIMB Credit Card has been compromised, call our 24-hour Card hotline at +65 6333 6666
+.
+Step 2
+Lodge a police report immediately and notify the Bank with the police report at AtYourService@cimb.com
+. For lost or stolen CIMB Credit Card(s), immediately log in to CIMB Clicks to cancel your card.
+Step 3
+Instantly disable your CIMB Clicks Online Banking and Mobile App here
+.
+Helpful Quicklinks
+CIMB Money Lock
+CIMB Clicks Mobile App
+Disable Clicks
+Apply: CIMB Clicks
+Apply: BizChannel@CIMB
+Contact Us
+You are about to enter a third party website & CIMB Group's Privacy Policy will cease to apply.
+This link is provided for your convenience only and shall not be considered or construed as an endorsement or verification of such linked website or its contents by CIMB Group.
+CIMB Group makes no warranties as to the status of this link or information contained in the website you are about to access.
+Do you wish to proceed?
+Yes, please proceed
+WE USE COOKIES.
+By continuing to browse the website, you will be agreeing to our Privacy Policy and use of Cookies.
+Learn more about our Privacy Policy
+and Cookies Usage
+. Do you wish to proceed?
+Accept and Close
+Help & Support
+Security & Fraud
+Savings & Deposits
+Savings Accounts
+Current Accounts
+Fixed Deposit
+Cards
+Credit Cards
+Contactless Payments Made Simple
+Other Credit Card Services
+Loans & Financing
+Personal Financing
+Property Loan
+Investments
+CIMB Unit Trust Investment & SIP Investment Plan
+Structured Deposits
+Dual Currency Investments
+Supplementary Retirement Scheme (SRS)
+Gold Account
+Insurance
+General Insurance
+Life Insurance
+Digital Services
+OCTO by CIMB Singapore
+Payment & Transfers
+Online Applications
+Consult-OnTheGo
+Help & Support
+Contact Us
+Locate Us
+Application Status
+SECURITY & FRAUD
+PROMOTIONS
+CIMB CARD DEALS
+CIMB PULSE
+IMPORTANT NOTICES
+NEWSROOM & AWARDS
+SITEMAP
+SDIC Consumer Guides
+GLOBAL SITES
+CIMB
+CIMB Islamic
+CIMB Bank (MY)
+CIMB Bank (KH)
+CIMB Niaga
+CIMB Thai
+CIMB Bank (VN)
+CIMB Bank (PH)
+CIMB Card Deals
+-->
+All rights reserved. Copyright © {0} CIMB BANK BERHAD 197201001799 (13491-P)

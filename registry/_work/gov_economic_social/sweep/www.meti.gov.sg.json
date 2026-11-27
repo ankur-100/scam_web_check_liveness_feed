@@ -1,0 +1,111 @@
+{
+ "host": "www.meti.gov.sg",
+ "robots_status": 200,
+ "robots": "User-Agent: *\nAllow: /\nDisallow: /search\n\nSitemap: https://www.meti.gov.sg/sitemap.xml\n",
+ "sitemaps_declared": [
+  "https://www.meti.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  [
+   "https://www.meti.gov.sg/sitemap.xml",
+   "urlset",
+   6788,
+   "https://www.meti.gov.sg/sitemap.xml"
+  ]
+ ],
+ "errors": [],
+ "total_urls": 6788,
+ "hosts_in_sitemap": {
+  "www.meti.gov.sg": 6788
+ },
+ "matches": [
+  [
+   "https://www.meti.gov.sg/newsroom/advisory-on-gradual-resumption-of-business-activities-in-phases-starting-from-2-june-2020/",
+   "2026-08-21T05:30:12.281Z"
+  ],
+  [
+   "https://www.meti.gov.sg/newsroom/advisory-on-the-2019-novel-coronavirus--2019-ncov--for-businesses/",
+   "2026-08-21T05:30:12.347Z"
+  ],
+  [
+   "https://www.meti.gov.sg/newsroom/advisory-on-the-price-cap-policy-by-the-g7--european-union--and-australia-for-crude-oil-and-petroleum-products-of-russian-federation-origin/",
+   "2026-08-21T05:30:12.421Z"
+  ],
+  [
+   "https://www.meti.gov.sg/newsroom/appointment-of-minister-lim-hng-kiang-as-special-advisor-to-the-ministry-of-trade-and-industry/",
+   "2026-08-21T05:30:13.682Z"
+  ],
+  [
+   "https://www.meti.gov.sg/newsroom/general-advisory-for-workplaces-and-frontline-workers-in-response-to-confirmed-cases-of-local-transmission-of-novel-coronavirus-in-singapore/",
+   "2026-08-21T05:30:49.378Z"
+  ],
+  [
+   "https://www.meti.gov.sg/newsroom/inaugural-meeting-of-the-international-advisory-panel--iap--on-energy/",
+   "2026-08-21T05:30:53.450Z"
+  ],
+  [
+   "https://www.meti.gov.sg/newsroom/increased-enforcement-of-safe-management-measures-at-workplaces-in-phase-2---heightened-alert/",
+   "2026-08-21T05:30:53.589Z"
+  ],
+  [
+   "https://www.meti.gov.sg/newsroom/joint-advisory--export-controls-on-advanced-semiconductor-and-artificial-intelligence--ai--technologies/",
+   "2026-08-21T05:30:55.873Z"
+  ],
+  [
+   "https://www.meti.gov.sg/newsroom/mr-lee-yi-shyan-at-the-2nd-apec-business-advisory-council--abac2--opening-lunch/",
+   "2026-08-21T05:31:57.806Z"
+  ],
+  [
+   "https://www.meti.gov.sg/newsroom/mr-lee-yi-shyan-at-the-official-launch-of-the-ie-singapore-advisory-centre/",
+   "2026-08-21T05:32:10.310Z"
+  ],
+  [
+   "https://www.meti.gov.sg/newsroom/mr-lee-yi-shyan-visits-xi-an--shaanxi-to-attend-the-4th-international-senior-advisor-conference/",
+   "2026-08-21T05:32:21.051Z"
+  ],
+  [
+   "https://www.meti.gov.sg/newsroom/mr-lim-hng-kiang-at-the-opening-ceremony-of-the-1st-apec-business-advisory-council--abac--meeting-of-2006/",
+   "2026-08-21T05:32:41.181Z"
+  ],
+  [
+   "https://www.meti.gov.sg/newsroom/opening-remarks-by-minister-lim-hng-kiang-at-the-67th-asean-business-advisory-council-welcome-networking-dinner/",
+   "2026-08-21T05:34:08.197Z"
+  ],
+  [
+   "https://www.meti.gov.sg/newsroom/second-annual-future-economy-advisory-panel-meeting-discusses-ways-to-strengthen-singapore-s-innovation-ecosystem/",
+   "2026-08-21T05:35:04.373Z"
+  ],
+  [
+   "https://www.meti.gov.sg/newsroom/speech-by-minister-gan-kim-yong-at-the-1st-apec-business-advisory-council--abac-1--meeting-for-2022/",
+   "2026-08-21T05:36:44.837Z"
+  ],
+  [
+   "https://www.meti.gov.sg/newsroom/speech-by-minister-in-charge-of-energy-and-science---technology-in-the-ministry-of-trade-and-industry-dr-tan-see-leng-at-the-launch-of-pwc-s-trade-advisory-hub-/",
+   "2026-08-21T05:36:54.251Z"
+  ],
+  [
+   "https://www.meti.gov.sg/newsroom/speech-by-senior-minister-of-state-low-yen-ling-at-the-launch-event-of-the-centre-for-enterprise-financing-advisory/",
+   "2026-08-21T05:38:11.467Z"
+  ],
+  [
+   "https://www.meti.gov.sg/newsroom/the-future-economy-advisory-panel/",
+   "2026-08-21T05:38:47.041Z"
+  ],
+  [
+   "https://www.meti.gov.sg/newsroom/written-reply-to-pq-on-short-term-government-support-measures-and-advisory-channels-for-smes-with-outdoor-operations-affected-by-haze-related-disruptions/",
+   "2026-11-06T04:15:13.536Z"
+  ],
+  [
+   "https://www.meti.gov.sg/newsroom/written-reply-to-pqs-on-impact-on-tourist-arrivals-into-singapore-given-reported-kidnappings-by-scam-operators-in-the-region/",
+   "2026-08-21T05:40:02.411Z"
+  ],
+  [
+   "https://www.meti.gov.sg/resources/economic-survey-of-singapore/economic-survey-of-singapore-and-feature-articles/advisory-on-the-us--unilateral-sanctions-on-iran/",
+   "2026-08-21T05:40:05.373Z"
+  ],
+  [
+   "https://www.meti.gov.sg/resources/laws-and-regulations/general-advisory-on-amendments-to-the-consumer-protection-fair-trading-act-and-hire-purchase-act/",
+   "2026-08-21T05:40:27.737Z"
+  ]
+ ]
+}

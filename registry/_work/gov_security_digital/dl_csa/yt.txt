@@ -1,0 +1,122 @@
+ 
+ 
+JOINT NEWS RELEASE BY THE SINGAPORE POLICE FORCE AND CYBER 
+SECURITY AGENCY OF SINGAPORE 
+ 
+ADVISORY ON MALICIOUS SCRIPTS EXECUTED VIA A FAKE YOUTUBE 
+CHANNEL 
+ 
+The Singapore Police Force (SPF) and Cyber Security Agency of Singapore 
+(CSA) would like to alert members of the public to a fake TradingView YouTube1 
+channel which deceives users into executing malicious scripts, as part of the 
+instructions for the installation of the TradingView application, resulting in 
+cryptocurrency wallets being compromised.  
+ 
+2 TradingView is a legitimate online platform used to chart and analyse financial 
+markets, including stocks, forex and cryptocurrencies. It is downloadable as a desktop 
+and mobile application via its official website2.  
+ 
+3 In recent cases, victims came across videos on a fake TradingView YouTube 
+channel (refer to Annex A), with instructions to install a purportedly official TradingView 
+application (refer to Annex B). As part of the installation process, victims were directed 
+to download and execute Windows PowerShell scripts. However, the PowerShell 
+command was a malicious code that compromised the victims’ cryptocurrency wallets. 
+Although the download appeared unsuccessful, a Remote Access Trojan (RAT) was 
+actually installed onto the victims’ devices upon running the command. This allowed 
+scammers access to the victims' devices, resulting in the compromise of their 
+cryptocurrency wallets. 
+ 
+ 
+1 Members of the YouTube community can flag content they think is inappropriate or harmful, and 
+content will be removed if it is determined to violate YouTube's Community Guidelines. 
+2 TradingView is downloadable via its official website at https://www.tradingview.com, the Apple app 
+store and Google Play Store. 
+
+4 Members of the public are advised to adopt the following precautionary 
+measures: 
+ 
+a) Beware of Fake/Phishing Websites: Avoid running unknown commands, 
+especially from unfamiliar sources, clicking on unsolicited links or downloading 
+attachments from unknown sources. Always verify the links with official sources 
+to ensure you are accessing legitimate cryptocurrency platforms and only 
+download applications from official platforms (e.g. TradingView’s website and 
+mobile apps from the official Apple App Store or Google Play Store). Be wary 
+of fake social media accounts that impersonate official channels (refer to Annex 
+B) and of cryptocurrency opportunities that require upfront cryptocurrency 
+payments, or sound too good to be true. If in doubt, avoid sharing the content 
+with others and verify the information with trusted sources.  
+ 
+b) Use Secure Wallets: You should use secure wallets such as hardware wallets 
+to store your cryptocurrencies offline as they are less vulnerable to online 
+attacks. If you are required to perform frequent cryptocurrency transactions, 
+use software wallets from reputable exchanges and ensure that they are 
+updated with the latest security patches. You are advised to enable automatic 
+updates, if available, or regularly check the exchange platform for new updates 
+and install them immediately when available.  
+ 
+c) Use Strong Passwords and Enable Two-Factor Authentication (2FA): You 
+should set strong passwords for your wallets and online accounts. Do not share 
+your private keys, recovery or seed phrases with anyone, and store them in 
+physical form at a secure location. Always enable 2FA for cryptocurrency 
+exchange accounts, wallets, and other related services. 
+ 
+d) Monitor and Review Your Accounts Regularly: Regularly check your wallets 
+and accounts for unauthorised transactions. Enable account activity 
+notifications if it is available on the platform. Regularly review and revoke the 
+use of high allowances by using blockchain explorers or wallet interfaces. 
+ 
+e) Stay Updated and Informed: Keep up to date with the latest security threats 
+and best practices in cryptocurrency security through official and trusted 
+sources. 
+ 
+5 If you are or suspect that you are a victim of cryptocurrency related crimes, you 
+are advised to perform the following immediately: 
+ 
+a) Contact your cryptocurrency exchange to halt further transactions or freeze 
+your account, if possible. 
+b) Review and revoke any suspicious token approvals using applicable wallet 
+interfaces. 
+c) If a wallet’s seed phrase is compromised, transfer all remaining 
+cryptocurrencies in the compromised wallet to another wallet immediately.  
+d) Report the incident to the Police. You may also report any fraudulent 
+cryptocurrency phishing websites to CSA’s SingCERT at singcert@csa.gov.sg 
+or via the incident reporting form at https://www.csa.gov.sg/singcert/reporting.  
+In addition, you may also report the incident to security@tradingview.com and 
+support@tradingview.com.  
+ 
+6 If you have any information relating to such crimes or if you are in doubt, please 
+call the Police Hotline at 1800-255-0000, or submit it online at www.police.gov.sg/i-
+witness. All information will be kept strictly confidential. If you require urgent Police 
+assistance, please dial ‘999’. If you are unsure if something is a scam, call the 24/7 
+ScamShield Helpline at 1799 or download the ScamShield application to check, detect 
+and block scams. For more information on scams, visit www.scamshield.gov.sg. 
+ 
+ 
+PUBLIC AFFAIRS DEPARTMENT 
+SINGAPORE POLICE FORCE 
+02 May 2025 @ 7:15PM 
+ 
+ 
+ 
+ 
+Annex A - Screenshots of the Variations of YouTube Channel 
+  
+Genuine TradingView YouTube 
+Channel 
+ 
+● URL: 
+https://www.youtube.com/@trading
+view 
+● Name of Channel: TradingView 
+Fake TradingView YouTube Channel 
+ 
+ 
+● URL: 
+https://www.youtube.com/@tradingvie
+wnow 
+● Name of Channel: Trading View 
+ 
+Annex B - Example of Video Instruction for Download of Application 
+ 
+ 
+  

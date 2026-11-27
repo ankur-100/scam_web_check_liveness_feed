@@ -1,0 +1,114 @@
+{
+ "entity_id": "tech.gov.sg",
+ "name": "Government Technology Agency",
+ "abbr": "GovTech",
+ "aliases": [
+  "GovTech Singapore",
+  "Government Technology Agency of Singapore",
+  "Open Government Products (OGP)"
+ ],
+ "sector": "gov.statboard",
+ "parent_entity_id": "mddi.gov.sg",
+ "country": "SG",
+ "official_domains": [
+  "tech.gov.sg"
+ ],
+ "official_hosts": [
+  "www.tech.gov.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.tech.gov.sg/products-and-services/for-citizens/scam-prevention/satis/",
+   "kind": "statistics",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2026-05-12",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "The detection and disruption of these subset of sites are completely automated, relying on AI and ML to identify the malicious sites which are then sent to Google Web Risk for disruption.",
+   "notes": "Key pipeline fact: SATIS + rMSE scan more than 400,000 sites a day and disrupt more than 15,000 malicious sites a month (claims <0.1% false positives). Disrupted sites are pushed to Google Web Risk (Safe Browsing), so the closest public proxy for the SG government scam-domain list is Google Safe Browsing verdicts, not a published list. Parent hub: /products-and-services/for-citizens/scam-prevention/ (also ScamShield page)."
+  },
+  {
+   "url": "https://www.tech.gov.sg/technews/which-sms-links-are-scams-and-which-are-not/",
+   "kind": "official_channels",
+   "lists_indicators": [
+    "domain"
+   ],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2024-01-19",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Look for go.gov.sg or voucher.redeem.gov.sg URLs and avoid resellers. ... the link begins with ‘ go.gov.sg ’. This is a special URL that only public officers can create.",
+   "notes": "Allowlist for CDC-voucher links (go.gov.sg, voucher.redeem.gov.sg). CDC Vouchers is an SPF-tagged impersonated brand (4 advisories)."
+  },
+  {
+   "url": "https://www.tech.gov.sg/media/govtech-launches-antiscam-pango-beta-to-help-users-spot-suspicious-scam-messages-/",
+   "kind": "news_releases",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2026-11-04",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "GovTech Singapore today announced the beta launch of AntiScam Pango, a new mobile application that helps users identify suspicious looking messages",
+   "notes": "AntiScam Pango (Android, on-device AI), beta 4 Nov 2026. Official app name, a likely impersonation target."
+  },
+  {
+   "url": "https://www.tech.gov.sg/technews/",
+   "kind": "advisory_feed",
+   "lists_indicators": [],
+   "access": "rss",
+   "machine_url": "https://www.tech.gov.sg/technews/rss.xml",
+   "item_count": 200,
+   "latest_item_date": "2026-11-25",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "technews/how-to-tell-if-its-a-scam-the-red-flags-in-scam-messages-you-need-to-spot/",
+   "notes": "TechNews RSS: 200 items (Jul 2021 to 25 Nov 2026), 20 scam-related (awareness explainers; no IOCs). Media RSS https://www.tech.gov.sg/media/rss.xml: 200 items (2014 to 26 Nov 2026), 28 scam-related. Sitemap https://www.tech.gov.sg/sitemap.xml (673 URLs, lastmod) has about 40 keyword hits."
+  },
+  {
+   "url": "https://www.tech.gov.sg/technews/five-ways-to-keep-your-singpass-safe/",
+   "kind": "scam_faq",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "5 ways to keep your Singpass safe | How-to guide",
+   "notes": "Singpass anti-phishing guide (JSON-LD 2026-08-20 re-save)."
+  },
+  {
+   "url": "https://www.tech.gov.sg/report-vulnerability/",
+   "kind": "report_portal",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2026-10-19",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Report Vulnerability",
+   "notes": "Government vulnerability disclosure page (linked from Singpass and SPF footers). Not a scam report channel."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [
+   "gov.sg"
+  ],
+  "hotlines": [],
+  "short_link_domains": [
+   "go.gov.sg"
+  ],
+  "social": [],
+  "apps": [
+   "AntiScam Pango (Android, beta Nov 2026)",
+   "ScamShield app (built with OGP)"
+  ]
+ },
+ "evidence": [
+  "https://www.sgdi.gov.sg/ministries/mddi/statutory-boards/govtech",
+  "https://www.tech.gov.sg/sitemap.xml"
+ ],
+ "notes": "Builds SATIS/rMSE (scam-site detection for SPF), the gov.sg SMS Sender ID and the go.gov.sg shortener (via OGP, open.gov.sg). Publishes no IOC list; disrupted domains go to Google Web Risk."
+}

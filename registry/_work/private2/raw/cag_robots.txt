@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /en/prog/
+Disallow: /au/en/prog/
+Disallow: /cn/en/prog/
+Disallow: /in/en/prog/
+Allow: /bin/changiairport/airport/
+Allow: /bin/changiairport/corporate/
+Allow: /bin/changiairport/getannouncements
+Disallow: /bin/
+Disallow: /*?localref=
+Disallow: /*?wcmmode=
+Disallow: /content/experience-fragments/
+Disallow: /content/changiairport/language-masters/
+
+Sitemap: https://www.changiairport.com/sitemap-index.xml

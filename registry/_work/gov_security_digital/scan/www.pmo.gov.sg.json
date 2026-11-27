@@ -1,0 +1,59 @@
+{
+ "host": "www.pmo.gov.sg",
+ "robots": "User-Agent: *\nAllow: /\nDisallow: /search\n\nSitemap: https://www.pmo.gov.sg/sitemap.xml\n",
+ "robots_status": 200,
+ "sitemaps_declared": [
+  "https://www.pmo.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  "https://www.pmo.gov.sg/sitemap.xml[200:3648]"
+ ],
+ "n_urls": 3648,
+ "hits": [
+  [
+   "https://www.pmo.gov.sg/newsroom/dpm-heng-swee-keat-at-the-5th-singapore-international-cyber-week-opening-ceremony/",
+   "2026-07-30T17:49:45.898Z"
+  ],
+  [
+   "https://www.pmo.gov.sg/newsroom/dpm-heng-swee-keat-at-the-bioethics-advisory-committee-20th-anniversary/",
+   "2026-07-30T17:49:45.898Z"
+  ],
+  [
+   "https://www.pmo.gov.sg/newsroom/dpm-heng-swee-keat-at-the-singapore-international-cyber-week-2023/",
+   "2026-07-30T17:49:45.898Z"
+  ],
+  [
+   "https://www.pmo.gov.sg/newsroom/dpm-lawrence-wong-at-the-sikh-advisory-board-75th-anniversary-celebration-dinner/",
+   "2026-07-30T17:49:45.898Z"
+  ],
+  [
+   "https://www.pmo.gov.sg/newsroom/dpm-teo-chee-hean-2nd-singapore-international-cyber-week-opening-ceremony/",
+   "2026-07-30T17:49:45.898Z"
+  ],
+  [
+   "https://www.pmo.gov.sg/newsroom/dpm-teo-chee-hean-opening-3rd-singapore-international-cyber-week/",
+   "2026-07-30T17:49:45.898Z"
+  ],
+  [
+   "https://www.pmo.gov.sg/newsroom/pm-lee-hsien-loong-singapore-international-cyber-week-opening-ceremony/",
+   "2026-07-30T17:49:45.898Z"
+  ],
+  [
+   "https://www.pmo.gov.sg/newsroom/sm-teo-chee-hean-at-4th-singapore-international-cyber-week/",
+   "2026-07-30T17:49:45.898Z"
+  ],
+  [
+   "https://www.pmo.gov.sg/newsroom/sm-teo-chee-hean-at-the-6th-singapore-international-cyber-week-opening-ceremony/",
+   "2026-07-30T17:49:45.898Z"
+  ],
+  [
+   "https://www.pmo.gov.sg/newsroom/sm-teo-chee-hean-at-the-cyber-youth-singapore-re-launch-march-2022/",
+   "2026-07-30T17:49:45.898Z"
+  ],
+  [
+   "https://www.pmo.gov.sg/newsroom/sm-teo-chee-hean-at-the-singapore-international-cyber-week-2022/",
+   "2026-07-30T17:49:45.898Z"
+  ]
+ ],
+ "newest_lastmod": "2026-11-25T09:11:17.207Z"
+}

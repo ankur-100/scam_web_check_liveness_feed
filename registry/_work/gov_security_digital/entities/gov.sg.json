@@ -1,0 +1,82 @@
+{
+ "entity_id": "gov.sg",
+ "name": "Gov.sg (Singapore Government portal)",
+ "abbr": "Gov.sg",
+ "aliases": [
+  "gov.sg",
+  "Gov.sg",
+  "Singapore Government"
+ ],
+ "sector": "gov.programme",
+ "parent_entity_id": "mddi.gov.sg",
+ "country": "SG",
+ "official_domains": [
+  "gov.sg"
+ ],
+ "official_hosts": [
+  "www.gov.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.gov.sg/trusted-sites/",
+   "kind": "official_channels",
+   "lists_indicators": [
+    "domain",
+    "url",
+    "entity_name"
+   ],
+   "access": "html",
+   "machine_url": null,
+   "item_count": 119,
+   "latest_item_date": "2026-11-06",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Learn how to verify trusted Singapore Government websites using .gov.sg domains, official short links (go.gov.sg, for.sg, for.edu.sg) and government-associated website listings.",
+   "notes": "Allowlist. 119 table rows; 134 distinct link hosts, 118 not ending in .gov.sg (town councils, hospitals, events, plus social hosts from the page chrome). Categories: Government Associated, Other Trusted Orgs, Official short links, Events. \"Last updated on 6 November 2026\". HTML only. A third-party mirror is elliotwutingfeng/GovSGTrustedSites allowlist.txt (per survey). Every gov page masthead links here (#govsites)."
+  },
+  {
+   "url": "https://www.gov.sg/explainers/what-you-need-to-know-gov-sg-sms-sender-id/",
+   "kind": "official_channels",
+   "lists_indicators": [
+    "sms_sender_id"
+   ],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2024-06-13",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "From 1 July 2024, all government SMS communications will be consolidated under a single, easily identifiable SMS sender ID - gov.sg .",
+   "notes": "Sender-ID allowlist rule. The exceptions list is on sms.gov.sg/exceptions."
+  },
+  {
+   "url": "https://www.gov.sg/explainers/",
+   "kind": "scam_faq",
+   "lists_indicators": [],
+   "access": "rss",
+   "machine_url": "https://www.gov.sg/explainers/rss.xml",
+   "item_count": 70,
+   "latest_item_date": "2026-11-04",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Thu, 17 Oct 2024 | Tips to Spot Real and Digitally-Altered Content",
+   "notes": "Explainers RSS via rel=alternate: 70 items (2015 to 4 Nov 2026), only 2 scam/fake related. The sitemap (https://www.gov.sg/sitemap.xml) has only 160 URLs after the site rebuild; gov.sg \"Factually\" and older scam articles are not in it."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [
+   "gov.sg"
+  ],
+  "hotlines": [
+   "1799 (ScamShield Helpline, site banner)"
+  ],
+  "short_link_domains": [
+   "go.gov.sg",
+   "for.sg",
+   "for.edu.sg"
+  ],
+  "social": []
+ },
+ "evidence": [
+  "https://www.gov.sg/trusted-sites/",
+  "https://www.gov.sg/sitemap.xml"
+ ],
+ "notes": "Run by MDDI (Public Communications). The gov.sg brand is impersonated per the SPF brand tag \"Gov.sg\" (2 advisories; scam hosts on workers.dev and .online). The SMS sender ID \"gov.sg\" is protected: telcos block look-alike sender IDs (per sms.gov.sg)."
+}

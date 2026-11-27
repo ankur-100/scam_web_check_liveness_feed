@@ -1,0 +1,7 @@
+# sgintel runtime dependencies (Python 3.12; pinned from the working .venv, 2026-11-27)
+requests==2.34.2
+urllib3==2.8.0
+dnspython==2.9.2
+tldextract==5.4.0
+phonenumbers==9.0.44
+jsonschema==4.26.0

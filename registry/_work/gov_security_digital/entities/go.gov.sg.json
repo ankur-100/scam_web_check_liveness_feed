@@ -1,0 +1,65 @@
+{
+ "entity_id": "go.gov.sg",
+ "name": "Go.gov.sg (official government link shortener)",
+ "abbr": "GoGovSG",
+ "aliases": [
+  "go.gov.sg",
+  "GoGovSG",
+  "for.sg",
+  "for.edu.sg"
+ ],
+ "sector": "gov.programme",
+ "parent_entity_id": "tech.gov.sg",
+ "country": "SG",
+ "official_domains": [
+  "go.gov.sg",
+  "for.sg",
+  "for.edu.sg"
+ ],
+ "official_hosts": [
+  "go.gov.sg",
+  "for.sg",
+  "www.for.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://go.gov.sg/",
+   "kind": "official_channels",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "The official Singapore government link shortener",
+   "notes": "The sample is the og:description; the page is a JS SPA with no server text. Official short-link domain (listed on gov.sg Trusted Sites with for.sg and for.edu.sg). Agencies use it for report/resource links (e.g. go.gov.sg/scamreport, go.gov.sg/report-sms, go.gov.sg/scamshield-bot, go.gov.sg/csa-cyber-aid, go.gov.sg/mlaw-rom-list-licensed-moneylenders). No public directory: the GoGovSG directory requires a gov-officer login (per survey). robots.txt only addresses NLB_archive_bot."
+  },
+  {
+   "url": "https://www.for.sg/",
+   "kind": "official_channels",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Trusted short links from healthcare institutions",
+   "notes": "Sister short-link domain for healthcare institutions (www.for.sg redirects to https://for.sg/). for.edu.sg is the education variant (listed on Trusted Sites, not fetched)."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [],
+  "short_link_domains": [
+   "go.gov.sg",
+   "for.sg",
+   "for.edu.sg"
+  ],
+  "social": []
+ },
+ "evidence": [
+  "https://www.gov.sg/trusted-sites/",
+  "https://go.gov.sg/"
+ ],
+ "notes": "Treat go.gov.sg/for.sg/for.edu.sg links as official (allowlist), but the destination still needs checking. No scam-info pages."
+}

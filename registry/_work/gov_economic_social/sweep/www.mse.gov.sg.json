@@ -1,0 +1,63 @@
+{
+ "host": "www.mse.gov.sg",
+ "robots_status": 200,
+ "robots": "User-Agent: *\nAllow: /\nDisallow: /search\n\nSitemap: https://www.mse.gov.sg/sitemap.xml\n",
+ "sitemaps_declared": [
+  "https://www.mse.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  [
+   "https://www.mse.gov.sg/sitemap.xml",
+   "urlset",
+   1705,
+   "https://www.mse.gov.sg/sitemap.xml"
+  ]
+ ],
+ "errors": [],
+ "total_urls": 1705,
+ "hosts_in_sitemap": {
+  "www.mse.gov.sg": 1705
+ },
+ "matches": [
+  [
+   "https://www.mse.gov.sg/latest-news/press-release-enforcement-action-taken-and-advisory-for-upcoming-festive-period/",
+   "2026-07-30T17:17:41.289Z"
+  ],
+  [
+   "https://www.mse.gov.sg/latest-news/impersonation-of-carbon-credit-exchange-climate-impact-x/",
+   "2026-07-30T17:17:41.289Z"
+  ],
+  [
+   "https://www.mse.gov.sg/latest-news/impersonation-of-decarbonisation-provider-gonetzero/",
+   "2026-07-30T17:17:41.289Z"
+  ],
+  [
+   "https://www.mse.gov.sg/latest-news/impersonation-of-investment-platform-genzero/",
+   "2026-07-30T17:17:41.289Z"
+  ],
+  [
+   "https://www.mse.gov.sg/latest-news/misuse-of-mse-logo-in-fraudulent-carbon-credit-trading-scam/",
+   "2026-07-30T17:17:41.289Z"
+  ],
+  [
+   "https://www.mse.gov.sg/latest-news/press-release-heat-stress-advisory/",
+   "2026-07-30T17:17:41.289Z"
+  ],
+  [
+   "https://www.mse.gov.sg/latest-news/written-reply-to-pq-on-flood-advisory/",
+   "2026-07-30T17:17:41.289Z"
+  ],
+  [
+   "https://www.mse.gov.sg/latest-news/written-reply-to-parliamentary-question-on-heat-stress-advisory-updates/",
+   "2026-07-30T17:17:41.289Z"
+  ],
+  [
+   "https://www.mse.gov.sg/latest-news/written-reply-to-pq-on-lightning-alert-system/",
+   "2026-11-25T07:31:07.652Z"
+  ],
+  [
+   "https://www.mse.gov.sg/latest-news/written-reply-water-quality-advisories-oil-chemical-spills/",
+   "2026-07-30T17:17:41.289Z"
+  ]
+ ]
+}

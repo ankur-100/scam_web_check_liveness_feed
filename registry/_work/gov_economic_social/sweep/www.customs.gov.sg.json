@@ -1,0 +1,55 @@
+{
+ "host": "www.customs.gov.sg",
+ "robots_status": 200,
+ "robots": "User-Agent: *\nAllow: /\nDisallow: /search\n\nSitemap: https://www.customs.gov.sg/sitemap.xml\n",
+ "sitemaps_declared": [
+  "https://www.customs.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  [
+   "https://www.customs.gov.sg/sitemap.xml",
+   "urlset",
+   329,
+   "https://www.customs.gov.sg/sitemap.xml"
+  ]
+ ],
+ "errors": [],
+ "total_urls": 329,
+ "hosts_in_sitemap": {
+  "www.customs.gov.sg": 329
+ },
+ "matches": [
+  [
+   "https://www.customs.gov.sg/know-customs/about-us/customs-advisory-council/",
+   "2026-04-13T03:35:37.928Z"
+  ],
+  [
+   "https://www.customs.gov.sg/news/be-aware-of-scam-calls-and-messages/",
+   "2026-07-30T18:01:15.238Z"
+  ],
+  [
+   "https://www.customs.gov.sg/news/be-aware-of-scam-documents/",
+   "2026-07-30T18:01:15.238Z"
+  ],
+  [
+   "https://www.customs.gov.sg/news/be-aware-of-scams/",
+   "2026-07-30T18:01:15.238Z"
+  ],
+  [
+   "https://www.customs.gov.sg/news/be-aware-of-scams-bearing-singapore-customs-crest/",
+   "2026-07-30T18:01:15.238Z"
+  ],
+  [
+   "https://www.customs.gov.sg/news/beware-of-scams/",
+   "2026-07-30T18:01:15.238Z"
+  ],
+  [
+   "https://www.customs.gov.sg/news/fake-customs-website/",
+   "2026-07-30T18:01:15.238Z"
+  ],
+  [
+   "https://www.customs.gov.sg/news/public-advisory-on-scams/",
+   "2026-07-30T18:01:15.238Z"
+  ]
+ ]
+}

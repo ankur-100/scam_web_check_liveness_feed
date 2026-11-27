@@ -1,0 +1,39 @@
+{
+ "host": "www.ipos.gov.sg",
+ "robots_status": 200,
+ "robots": "User-Agent: *\nAllow: /\nDisallow: /search\n\nSitemap: https://www.ipos.gov.sg/sitemap.xml\n",
+ "sitemaps_declared": [
+  "https://www.ipos.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  [
+   "https://www.ipos.gov.sg/sitemap.xml",
+   "urlset",
+   832,
+   "https://www.ipos.gov.sg/sitemap.xml"
+  ]
+ ],
+ "errors": [],
+ "total_urls": 832,
+ "hosts_in_sitemap": {
+  "www.ipos.gov.sg": 832
+ },
+ "matches": [
+  [
+   "https://www.ipos.gov.sg/manage-ip/unsolicited-ip-services/",
+   "2025-03-25T06:32:45.739Z"
+  ],
+  [
+   "https://www.ipos.gov.sg/news/news-collection/-scam-alert--public-advisory-on-scammers-impersonating-ipos-staff/",
+   "2026-07-30T17:28:10.290Z"
+  ],
+  [
+   "https://www.ipos.gov.sg/news/news-collection/scam-alert-public-advisory-on-scammers-2024/",
+   "2026-07-30T17:28:10.290Z"
+  ],
+  [
+   "https://www.ipos.gov.sg/news/news-collection/ipos-services-during-phase-2--heightened-alert-/",
+   "2026-07-30T17:28:10.290Z"
+  ]
+ ]
+}

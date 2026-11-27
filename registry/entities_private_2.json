@@ -1,0 +1,2364 @@
+[
+ {
+  "entity_id": "singpost.com",
+  "name": "Singapore Post Limited (SingPost)",
+  "abbr": "SingPost",
+  "aliases": [
+   "SingPost",
+   "Singapore Post",
+   "SG Post",
+   "SingPost Mobile",
+   "vPost",
+   "POPStation",
+   "Speedpost"
+  ],
+  "sector": "logistics",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "singpost.com",
+   "vpost.com",
+   "sglocate.com",
+   "ezyparcels.com",
+   "speedpost.com.sg",
+   "mysam.sg",
+   "ezy2ship.net"
+  ],
+  "official_hosts": [
+   "www.singpost.com",
+   "shop.singpost.com",
+   "crmint.singpost.com"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.singpost.com/online-security-you",
+    "kind": "official_channels",
+    "lists_indicators": [
+     "domain",
+     "email",
+     "app"
+    ],
+    "access": "html",
+    "machine_url": "https://www.singpost.com/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2022-02-28",
+    "verified": "2026-11-25 HTTP 200",
+    "sample": "the links will only point to the following websites operated by SingPost: Singpost.com vPost.com SgLocate.com Ezyparcels.com Speedpost.com.sg MySam.sg Ezy2ship.net",
+    "notes": "'Online Security & You' hub: explicit list of SingPost-operated domains (official); official email only @singpost.com; payments only via SingPost Mobile App, SAM machines or post office, never an online link; tracking only via app and singpost.com/track-items; SMS replaced by app push notifications since 28 Feb 2022 (SMS still used for OTPs, POPStation, queue tickets, CS follow-up). Also gives look-alike URL examples (fake, text only): www.singpost.com.xyz.com, www.singpost.net, www.singpost.org; and impersonating sender names 'SGPOST' / 'SINGPOST'. FAQ: report/verify via hotline 1605; SingPost does not initiate automated voice calls."
+   },
+   {
+    "url": "https://www.singpost.com/support/service-updates",
+    "kind": "advisory_feed",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": null,
+    "item_count": 409,
+    "latest_item_date": "2026-11-23",
+    "verified": "2026-11-25 HTTP 200",
+    "sample": "Scam Alert (01 Jan 2024): Please be aware of new scam emails and SMS impersonating SingPost requesting you to click on a link, provide personal information, or make payments for fake duties.",
+    "notes": "Service Announcements feed (409 dated items 2023-2026, data embedded as JSON in the page HTML). Mostly postal-service disruptions; only 1 scam item ('Scam Alert', 01 Jan 2024). Filter titles for scam|phish|fraud|impersonat. Re-fetched 2026-11-26 HTTP 200 to get newest date (2026-11-23)."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "SingPost"
+   ],
+   "hotlines": [
+    "1605 (SingPost customer service hotline; verify suspicious calls/SMS/email)"
+   ],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/singpost",
+    "https://www.instagram.com/mysingpost/",
+    "https://sg.linkedin.com/company/singapore-post",
+    "https://www.facebook.com/SingaporePost",
+    "https://www.twitter.com/SingaporePost"
+   ],
+   "apps": [
+    "SingPost Mobile (iOS App Store id647986630; Google Play com.singPost)"
+   ],
+   "emails": [
+    "@singpost.com"
+   ]
+  },
+  "evidence": [
+   "https://www.singpost.com/online-security-you",
+   "https://www.singpost.com/",
+   "https://www.singpost.com/singpost-mobile-app",
+   "https://www.singpost.com/track-items",
+   "https://www.singpost.com/sitemap.xml",
+   "https://www.police.gov.sg/media-hub/news/2024/11/20241122_police_advisory_on_increase_of_parcel_delivery_phishing_scams"
+  ],
+  "notes": "official_domains: all seven are (a) explicitly listed on /online-security-you as 'websites operated by SingPost'; singpost.com and vpost.com are also (b) linked from the homepage. sms_sender_ids 'SingPost' comes from SPF advisory 2024-11-22 ('The SMS Sender ID of Singapore Post is SingPost'), not from SingPost's own page; SingPost's own page lists 'SGPOST'/'SINGPOST' as impersonation variants. Social: facebook.com/singpost, instagram mysingpost, linkedin from page footer; facebook.com/SingaporePost and twitter.com/SingaporePost from JSON-LD sameAs on /track-items. qualtrics siteintercept host seen (third-party survey script) not recorded. SPF also published 2026-03-27 advisory on WhatsApp messages impersonating SingPost (police.gov.sg; belongs to SPF registry). Evidence from 2026-11-25 sub-agent D fetches (transcript digest) plus re-fetch of service-updates 2026-11-26."
+ },
+ {
+  "entity_id": "ninjavan.co",
+  "name": "Ninja Van Singapore (Ninja Logistics Pte. Ltd.)",
+  "abbr": null,
+  "aliases": [
+   "Ninjavan",
+   "Ninja Van",
+   "Ninja Van SG",
+   "NinjaVan",
+   "Ninja Logistics Pte. Ltd.",
+   "NinjaChat"
+  ],
+  "sector": "logistics",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "ninjavan.co"
+  ],
+  "official_hosts": [
+   "www.ninjavan.co",
+   "dashboard.ninjavan.co",
+   "delivery.ninjavan.co",
+   "walrus.ninjavan.co"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.ninjavan.co/en-sg/parcel-scams-advisory",
+    "kind": "fake_indicator_list",
+    "lists_indicators": [
+     "domain"
+    ],
+    "access": "html",
+    "machine_url": "https://www.ninjavan.co/sitemap.xml",
+    "item_count": 4,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "We have been alerted to two fake e-commerce sites claiming to be associated with Ninja Van (ninjavanmall.com and ninjavanshopping.com)",
+    "notes": "'Parcel Delivery Scams Advisory' (SG): 'Latest scam updates' (email phishing as 'Ninja Van SG') + 3 previous updates (SMS phishing, fraudulent WhatsApp surveys, fake Ninja Van mall sites). Undated. Fake domains (text only, never visited): ninjavanmall.com, ninjavanshopping.com. Official channels stated: NinjaChat (Facebook Messenger / Telegram bot / Viber), verified social media and WhatsApp accounts (no number given), emails ending @ninjavan.co; COD PayNow payee 'Ninja Logistics Pte. Ltd.' UEN201412014EB2B (official). Same content also at /en-sg/support/recipient-support/parcel-scams-advisory (both in sitemap; no lastmod)."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/ninjavansingapore/",
+    "https://www.instagram.com/ninjavan_sg/",
+    "https://www.tiktok.com/@ninjavan_sg",
+    "https://www.linkedin.com/company/ninja-van",
+    "https://t.me/NinjaVanBot",
+    "https://www.messenger.com/t/957138134486129",
+    "viber://pa?chatURI=NinjaVan"
+   ],
+   "apps": [],
+   "emails": [
+    "@ninjavan.co"
+   ]
+  },
+  "evidence": [
+   "https://www.ninjavan.co/en-sg/parcel-scams-advisory",
+   "https://www.ninjavan.co/en-sg",
+   "https://www.ninjavan.co/sitemap.xml",
+   "https://www.ninjavan.co/robots.txt"
+  ],
+  "notes": "SG pages under ninjavan.co/en-sg. official_domains: ninjavan.co is (b) serving domain and (a) official email domain ('email addresses that end with ninjavan.co'). Hosts dashboard./delivery./walrus.ninjavan.co seen in homepage links. NinjaChat channels (Telegram bot, Messenger, Viber) are the official notification channels; t.me/NinjaVanBot and messenger.com/t/957138134486129 linked from footer. ninjaxpress.co (Indonesia sister brand) appears in the same sitemap but is not SG; not added. SMS: Ninja Van tells users to use NinjaChat instead of SMS (no SG sender ID published). Shopee's delivery-impersonation advisory also names NinjaVan."
+ },
+ {
+  "entity_id": "spx.sg",
+  "name": "SPX Express Singapore",
+  "abbr": "SPX",
+  "aliases": [
+   "SPX",
+   "SPX Express",
+   "Shopee Express"
+  ],
+  "sector": "logistics",
+  "parent_entity_id": "shopee.sg",
+  "country": "SG",
+  "official_domains": [
+   "spx.sg"
+  ],
+  "official_hosts": [
+   "spx.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://spx.sg/en",
+   "https://spx.sg/robots.txt",
+   "https://spx.sg/sitemap/index.xml",
+   "https://spx.sg/sitemap/en.xml"
+  ],
+  "notes": "Official site spx.sg (b: serving domain; robots.txt Sitemap -> /sitemap/index.xml, 31 URLs; no scam/security page in sitemap). Support FAQ https://spx.sg/en/support-center/faq is JS-rendered (curl returns only the title; one WebFetch attempt also saw only the title) - recorded and moved on. Homepage footer gives address 'Shopee Building, Singapore 118265' and links careers.shopee.sg, hence parent_entity_id shopee.sg (Shopee logistics arm). No SPX-published scam page, sender ID, hotline or social links found. SPX impersonation is covered by Shopee help article 204789 '[Scam-Advisory] Delivery Impersonation Scams' (see shopee.sg record) and by SPF advisories 2026-07-15 and 2026-08-05/2026-08-20 on courier/iMessage phishing naming SPX (unverified (search snippet); belong to SPF registry)."
+ },
+ {
+  "entity_id": "lalamove.com",
+  "name": "Lalamove Singapore",
+  "abbr": null,
+  "aliases": [
+   "Lalamove",
+   "Lalamove SG",
+   "Lalamove Singapore",
+   "EasyVan"
+  ],
+  "sector": "logistics",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "lalamove.com",
+   "lalamove.eu",
+   "lalamove.co.uk",
+   "lalamove.us"
+  ],
+  "official_hosts": [
+   "www.lalamove.com",
+   "lalamove.onelink.me",
+   "lalamove-driver.onelink.me"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.lalamove.com/en-sg/2023-rising-phishing-scams",
+    "kind": "alert_page",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": "2023",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "The Lalamove team has recently received reports of phishing emails sent to our customers in Singapore. ... we will never provide any external links for payment purposes",
+    "notes": "Single SG alert ('Beware of rising email phishing scams'); year only from URL slug (2023); not listed in the 13 MB sitemap.xml (found via SG homepage link). Narrative only; reporting via in-app live chat. Other markets have separate anti-fraud posts (e.g. /zh-tw/blog/anti-fraud-reminder, lastmod 2024-11-19; not SG)."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [
+    "https://facebook.com/LalamoveSG/",
+    "https://www.instagram.com/lalamovesg/",
+    "https://www.youtube.com/channel/UC2YVWH9ZQC1weHk6iV1Yp1Q",
+    "https://sg.linkedin.com/showcase/lalamove-singapore",
+    "https://www.linkedin.com/company/lalamove/"
+   ],
+   "apps": [
+    "Lalamove - Fast Delivery App (iOS App Store id735701965; Google Play hk.easyvan.app.client)"
+   ],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.lalamove.com/en-sg/",
+   "https://www.lalamove.com/en-sg/2023-rising-phishing-scams",
+   "https://www.lalamove.com/robots.txt",
+   "https://www.lalamove.com/sitemap.xml"
+  ],
+  "notes": "SG pages under lalamove.com/en-sg/. official_domains: lalamove.com (b) serving domain; lalamove.eu, lalamove.co.uk, lalamove.us (b) linked from the official site's location selector ('You are switching to lalamove.eu. This website is operated by ...'). NB: SPF-listed scam domain 'lalamove.eu.cc' is a different domain from lalamove.eu - never visited. Hosts: lalamove.onelink.me / lalamove-driver.onelink.me (AppsFlyer app-download links from homepage; onelink.me is AppsFlyer's domain, FQDN only). No sender ID, hotline or fake indicators published. Sitemap: 6,642 URLs (HubSpot), no SG scam pages besides the above."
+ },
+ {
+  "entity_id": "parknparcel.com.sg",
+  "name": "Park N Parcel (ParkNParcel)",
+  "abbr": null,
+  "aliases": [
+   "Park N Parcel",
+   "ParkNParcel",
+   "Park N Parcel SG",
+   "Parker Points"
+  ],
+  "sector": "logistics",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "parknparcel.com.sg",
+   "parknparcel.com"
+  ],
+  "official_hosts": [
+   "www.parknparcel.com.sg",
+   "tracking.parknparcel.com"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/parknparcelsg/",
+    "https://www.instagram.com/parknparcelsg/",
+    "https://www.linkedin.com/company/parknparcelsg"
+   ],
+   "apps": [],
+   "emails": [
+    "support@parknparcel.com.sg"
+   ]
+  },
+  "evidence": [
+   "https://www.parknparcel.com.sg/",
+   "https://www.parknparcel.com.sg/guides/",
+   "https://www.parknparcel.com.sg/robots.txt"
+  ],
+  "notes": "Official domain identified via web search then confirmed by fetching the site (2026-11-26 HTTP 200; DNS: parknparcel.com.sg and parknparcel.com share the same Cloudflare NS pair). official_domains: parknparcel.com.sg (b) serving domain; parknparcel.com (b) because the FAQ on /guides/ gives the official tracking host 'https://tracking.parknparcel.com/'. FAQ also: contact via Facebook Messenger or support@parknparcel.com.sg (Cloudflare-obfuscated email decoded from page HTML); site mentions 'Automated SMS Notification' but publishes no sender ID. No scam/security page found on the site (homepage, /guides FAQ) - scam_info empty. SPF brand-tag 'Park N Parcel' fake domains (e.g. parknparcel-oc.top, parcel-*.top) are SPF-side indicators; never visited. robots.txt contains only Cloudflare content-signal comments."
+ },
+ {
+  "entity_id": "uparcel.sg",
+  "name": "uParcel Singapore",
+  "abbr": null,
+  "aliases": [
+   "uParcel",
+   "uParcel SG"
+  ],
+  "sector": "logistics",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "uparcel.sg"
+  ],
+  "official_hosts": [
+   "www.uparcel.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.uparcel.sg/blog/uparcel-scam-alert-how-to-spot-fake-delivery-messages-and-websites",
+    "kind": "alert_page",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.uparcel.sg/blog-sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2026-11-04",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "The Singapore Police Force's Scam Public Education Office alerted us to this uParcel scam on 31 October 2026 ... uParcel never asks for cash or payment by SMS or WhatsApp.",
+    "notes": "Dated alert (datePublished 04 Nov 2026; sitemap lastmod 2026-10-31) on iMessage phishing with lookalike uParcel sites. No concrete fake URLs/numbers. Official channels stated: website uparcel.sg ('A link that isn't uparcel.sg ... is off'), email express@uparcel.sg, uParcel app (App Store/Google Play), SMS only from 'the official uParcel sender ID'."
+   },
+   {
+    "url": "https://www.uparcel.sg/blog/how-to-avoid-falling-victim-to-cash-on-delivery-cod-scams",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.uparcel.sg/blog-sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2021-08-25",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "How to avoid falling victim to Cash on Delivery (COD) scams",
+    "notes": "Older generic blog explainer (datePublished 25 Aug 2021); content not analysed further."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "uParcel"
+   ],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/uParcel/",
+    "https://www.instagram.com/uparcel.sg",
+    "https://www.linkedin.com/company/uparcel/",
+    "https://www.youtube.com/@uParcelSingapore"
+   ],
+   "apps": [
+    "uParcel app (App Store / Google Play; homepage download link https://onelink.to/u2tsrn)"
+   ],
+   "emails": [
+    "express@uparcel.sg"
+   ]
+  },
+  "evidence": [
+   "https://www.uparcel.sg/blog/uparcel-scam-alert-how-to-spot-fake-delivery-messages-and-websites",
+   "https://www.uparcel.sg/",
+   "https://www.uparcel.sg/robots.txt",
+   "https://www.uparcel.sg/blog-sitemap.xml"
+  ],
+  "notes": "official_domains: uparcel.sg is (a) stated in the scam alert ('Go to uparcel.sg by typing it into your browser') and (b) serving domain. sms_sender_ids 'uParcel' is inferred from 'Our SMS always come from the official uParcel sender ID' (exact string not printed). Blog sitemap (blog-sitemap.xml, lastmod per URL) is the discovery endpoint; 3 scam/protection posts. No hotline published (contact via email/app). onelink.to is a third-party link service (FQDN only in apps note)."
+ },
+ {
+  "entity_id": "dhl.com",
+  "name": "DHL Singapore (DHL Group)",
+  "abbr": null,
+  "aliases": [
+   "DHL",
+   "DHL Express Singapore",
+   "DHL Singapore",
+   "DHL eCommerce",
+   "MyDHL+",
+   "Deutsche Post DHL"
+  ],
+  "sector": "logistics",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "dhl.com",
+   "dpdhl.com",
+   "dhl-news.com",
+   "dhl.de",
+   "express.dhl"
+  ],
+  "official_hosts": [
+   "www.dhl.com",
+   "group.dhl.com",
+   "del.dhl.com",
+   "express.dhl.com",
+   "mydhl.express.dhl",
+   "delivery.dhl.com",
+   "shipnow.dhl.com",
+   "mygts.dhl.com"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.dhl.com/sg-en/home/footer/fraud-awareness.html",
+    "kind": "official_channels",
+    "lists_indicators": [
+     "email",
+     "domain"
+    ],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Official DHL communication is always sent from @dhl.com and subdomains (e.g. @del.dhl.com or @express.dhl.com), @dpdhl.com, @dhl-news.com, addresses with country domains after @dhl (e.g. @dhl.de, @dhl.fr, @dhl.ae)",
+    "notes": "SG version of DHL global 'Fraud Awareness' page: official sender domains and link domains (dhl.com, dpdhl.com, group.dhl.com, del.dhl.com, dhl-news.com or a country/campaign website); fraudulent SMS / social / WhatsApp / recruitment indicators (narrative); report to phishing@dhl.com. No SG-specific fake indicators; undated."
+   },
+   {
+    "url": "https://www.dhl.com/discover/en-sg/news/phishing-site-scam-call-advisory",
+    "kind": "official_channels",
+    "lists_indicators": [
+     "url"
+    ],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": "2025-03-15",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Always Access Our Official Websites and Tools at the Following Secure Domains: DHL Main Site: https://www.dhl.com/sg-en/home.html DHL Express Site and MyDHL+ Tool: https://mydhl.express.dhl/sg/en/home.html",
+    "notes": "SG-specific 'Phishing Site & Scam Call Advisory for Customers' (15 March 2025, DHL Express Singapore resource centre /discover/en-sg): lists official SG URLs (dhl.com/sg-en, mydhl.express.dhl/sg/en, dhl.com/discover/en-sg, delivery.dhl.com, shipnow.dhl.com/sg/en, mygts.dhl.com); 'DHL employees will never ask you for your account login details or OTPs'. 'url' = official URLs. Found via web search."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [],
+   "apps": [],
+   "emails": [
+    "@dhl.com",
+    "@dpdhl.com",
+    "@dhl-news.com",
+    "@dhl.de",
+    "phishing@dhl.com (report abuse)"
+   ]
+  },
+  "evidence": [
+   "https://www.dhl.com/sg-en/home/footer/fraud-awareness.html",
+   "https://www.dhl.com/robots.txt",
+   "https://www.dhl.com/discover/en-sg/news/phishing-site-scam-call-advisory"
+  ],
+  "notes": "SG pages under dhl.com/sg-en (entity_id dhl.com, global brand). All official_domains (a) from the fraud-awareness page ('We never link to a website other than our own starting with ... https://dhl.com/, https://dpdhl.com/, https://group.dhl.com/, https://del.dhl.com/, https://dhl-news.com/'; email domains incl. country domains @dhl.de/@dhl.fr/@dhl.ae - only dhl.de added as example). Page had to be found by known footer path (linked from every dhl.com footer). express.dhl is a registrable domain under the .dhl brand TLD ((a) mydhl.express.dhl listed as official on the SG phishing advisory)."
+ },
+ {
+  "entity_id": "jtexpress.sg",
+  "name": "J&T Express Singapore",
+  "abbr": null,
+  "aliases": [
+   "J&T Express",
+   "J&T Express Singapore",
+   "J&T",
+   "JNT Express"
+  ],
+  "sector": "logistics",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "jtexpress.sg"
+  ],
+  "official_hosts": [
+   "www.jtexpress.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.jtexpress.sg/scam-alert",
+    "kind": "scam_faq",
+    "lists_indicators": [
+     "email"
+    ],
+    "access": "html",
+    "machine_url": "https://www.jtexpress.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Always countercheck the sender's email address, our official email ends with @jtexpress.sg . Never click on any links if the countercheck is not done",
+    "notes": "'Public Advisory On Scams' (linked from homepage banner 'Exercise Caution Against Scams'): fake job ads (official hiring only via JobStreet, FastJobs, MyCareersFuture, corporate site, official socials), email/phishing scams, COD scams. 'email' = official sender domain @jtexpress.sg; report to cs.sg@jtexpress.sg. Narrative; no fake indicators; undated."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/jtexpresssg",
+    "https://www.instagram.com/jtexpresssg/",
+    "https://sg.linkedin.com/company/jtexpresssg"
+   ],
+   "apps": [
+    "J&T app (download link on homepage)"
+   ],
+   "emails": [
+    "@jtexpress.sg",
+    "cs.sg@jtexpress.sg"
+   ]
+  },
+  "evidence": [
+   "https://www.jtexpress.sg/scam-alert",
+   "https://www.jtexpress.sg/",
+   "https://www.jtexpress.sg/robots.txt",
+   "https://www.jtexpress.sg/sitemap.xml"
+  ],
+  "notes": "official_domains: jtexpress.sg (a: 'our official email ends with @jtexpress.sg'; b: serving domain). HubSpot site; sitemap (no lastmod for scam page)."
+ },
+ {
+  "entity_id": "tracxlogis.com",
+  "name": "TracX Logis (formerly Qxpress)",
+  "abbr": null,
+  "aliases": [
+   "Qxpress",
+   "Qxpress Singapore",
+   "TracX Logis",
+   "TracX",
+   "Smartship"
+  ],
+  "sector": "logistics",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "tracxlogis.com",
+   "qxpress.net"
+  ],
+  "official_hosts": [
+   "www.tracxlogis.com",
+   "www.qxpress.net"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.qxpress.net/",
+   "https://www.tracxlogis.com/",
+   "https://www.tracxlogis.com/notices",
+   "https://www.tracxlogis.com/robots.txt"
+  ],
+  "notes": "https://www.qxpress.net/ redirects (2026-11-26) to https://www.tracxlogis.com/ - Qxpress (Qoo10's logistics arm) now operates as TracX Logis; both domains (b). /notices is a dated service-notice list (multi-country, latest 2026-11-20) with no scam items. No scam/security page found. Unverified (search snippet, malwaretips blog): an SPF warning in Nov 2026 reportedly named uParcel, TracX Logis and Park N Parcel in courier-impersonation phishing."
+ },
+ {
+  "entity_id": "shopee.sg",
+  "name": "Shopee Singapore",
+  "abbr": null,
+  "aliases": [
+   "Shopee",
+   "Shopee Singapore",
+   "Shopee Mall",
+   "ShopeePay",
+   "SPayLater",
+   "SPX Express (Shopee logistics)"
+  ],
+  "sector": "ecommerce",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "shopee.sg",
+   "shopee.com"
+  ],
+  "official_hosts": [
+   "shopee.sg",
+   "help.shopee.sg",
+   "sitemap.shopee.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://help.shopee.sg/portal/4/article/76743-%5BScam-Advisory%5D-How-do-I-protect-myself-from-scams",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://help.shopee.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-25 HTTP 200",
+    "sample": "Shopee will only contact you via official channels , such as the Shopee App, our verified social media accounts, or email addresses that end with @shopee.com .",
+    "notes": "Scam hub: QR-payment, parcel-fee, lucky-draw, part-time-job, card-CVV, 'Shopee in Zambia' scams; links the whole [Scam-Advisory] series. Undated; narrative only. Help centre is server-rendered (curl works)."
+   },
+   {
+    "url": "https://help.shopee.sg/sitemap.xml",
+    "kind": "advisory_feed",
+    "lists_indicators": [],
+    "access": "sitemap",
+    "machine_url": "https://help.shopee.sg/sitemap.xml",
+    "item_count": 11,
+    "latest_item_date": null,
+    "verified": "2026-11-25 HTTP 200",
+    "sample": "https://help.shopee.sg/portal/4/article/204789-[Scam-Advisory]-Delivery-Impersonation-Scams",
+    "notes": "Help-centre sitemap (637 URLs, no lastmod) is the machine discovery point for the '[Scam-Advisory]' article series: 11 articles (IDs 76743, 76788 SingPost scam, 76790 part-time job, 76811 lucky draw, 76630 CVV, 109626 Zambia, 125081 marketing-survey WhatsApp, 165293 fake payment QR, 166953 UnionPay, 169794 wrong item, 204789 delivery impersonation). Higher article IDs = newer; no dates published. Filter URLs on 'Scam-Advisory'."
+   },
+   {
+    "url": "https://help.shopee.sg/portal/4/article/83757-%5BAbout-Shopee%5D-What-are-the-official-channels-to-find-information-on-Shopee",
+    "kind": "official_channels",
+    "lists_indicators": [
+     "social_handle",
+     "phone"
+    ],
+    "access": "html",
+    "machine_url": "https://help.shopee.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-25 HTTP 200",
+    "sample": "Shopee's official WhatsApp channels have a verified green tick ... i. Shopee Security ii. Shopee iii. SPayLater SG iv. Return and Refund",
+    "notes": "Lists official social accounts (Facebook, Instagram, LinkedIn) and named official WhatsApp business accounts (names only, no numbers): 'Shopee Security' (auth links/OTPs), 'Shopee' (marketing), 'SPayLater SG', 'Return and Refund'. 'phone' here = WhatsApp business account names (official)."
+   },
+   {
+    "url": "https://help.shopee.sg/portal/4/article/76476-%5BAccount-Safety%5D-How-do-I-ensure-that-I-am-shopping-on-Shopee%E2%80%99s-official-platform",
+    "kind": "official_channels",
+    "lists_indicators": [
+     "domain",
+     "app"
+    ],
+    "access": "html",
+    "machine_url": "https://help.shopee.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "When accessing Shopee via web browsers, please ensure that the link shown on the browser is https://shopee.sg/ ... there is only one (1) official Shopee application",
+    "notes": "Official website + official app; developer names shown in images: iOS 'SHOPEE SINGAPORE PRIVATE LIMITED', Android 'Shopee'. 'Shopee will NEVER ask its users to download any APK files.' Shopee Partner app is for ShopeePay merchants only."
+   },
+   {
+    "url": "https://help.shopee.sg/portal/4/article/204789-%5BScam-Advisory%5D-Delivery-Impersonation-Scams",
+    "kind": "alert_page",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://help.shopee.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "There have been reports of individuals receiving text messages (SMS) and online messages from fraudsters impersonating logistics and delivery providers, including SPX Express, NinjaVan, and other third-party couriers.",
+    "notes": "Newest article in the series (highest ID). Undated; narrative only. Relevant to SPX/Ninja Van brand tags."
+   },
+   {
+    "url": "https://help.shopee.sg/portal/4/article/125081-%5BScam-Advisory%5D-Marketing-Survey-WhatsApp-Scam-Messages",
+    "kind": "alert_page",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://help.shopee.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Shopee will only contact our users via: Verified WhatsApp business account. Official Shopee social media pages. Shopee App notifications. Official email addresses that ends with shopee.com.",
+    "notes": "Undated; narrative only."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [
+    "https://facebook.com/ShopeeSingapore",
+    "https://instagram.com/Shopee_SG",
+    "https://sg.linkedin.com/company/shopee"
+   ],
+   "apps": [
+    "Shopee: Shop and Get Cashback (iOS developer 'SHOPEE SINGAPORE PRIVATE LIMITED'; Android developer 'Shopee'; also Huawei AppGallery)",
+    "Shopee Partner (ShopeePay merchants only)"
+   ],
+   "emails": [
+    "@shopee.com"
+   ]
+  },
+  "evidence": [
+   "https://help.shopee.sg/portal/4/article/76476-%5BAccount-Safety%5D-How-do-I-ensure-that-I-am-shopping-on-Shopee%E2%80%99s-official-platform",
+   "https://help.shopee.sg/portal/4/article/83757-%5BAbout-Shopee%5D-What-are-the-official-channels-to-find-information-on-Shopee",
+   "https://help.shopee.sg/portal/4/article/76743-%5BScam-Advisory%5D-How-do-I-protect-myself-from-scams",
+   "https://help.shopee.sg/portal/4/article/76607-%5BAccount-Security%5D-Is-the-Shopee-OTP/verification-code-I-received-via-WhatsApp-genuine",
+   "https://shopee.sg/robots.txt"
+  ],
+  "notes": "official_domains: shopee.sg (a) 'ensure that the link shown on the browser is https://shopee.sg/'; shopee.com (a) only as official email domain (@shopee.com). help.shopee.sg article pages are server-rendered; JSON API not used. Official WhatsApp: 'Shopee Security' business account with green check (no number published). No concrete fake indicators, no dates. Customer service via in-app chat only (no hotline listed). Social links have '?previousPage=' tracking params stripped. Evidence: 2026-11-25 sub-agent E fetches (digest) + 2026-11-26 re-fetch of 4 articles and 2 app images."
+ },
+ {
+  "entity_id": "carousell.sg",
+  "name": "Carousell (Singapore)",
+  "abbr": null,
+  "aliases": [
+   "Carousell",
+   "Carousell Singapore",
+   "Carousell Protection",
+   "CarouPay"
+  ],
+  "sector": "marketplace",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "carousell.sg",
+   "carousell.com"
+  ],
+  "official_hosts": [
+   "www.carousell.sg",
+   "support.carousell.com"
+  ],
+  "scam_info": [
+   {
+    "url": "https://support.carousell.com/hc/en-us",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 403 (bot protection; not bypassed)",
+    "sample": null,
+    "notes": "Carousell Help Centre (Zendesk). Cloudflare 'Just a moment...' challenge to curl; one WebFetch attempt also HTTP 403. Contents (safety/scam articles) not seen. robots.txt (200) disallows /requests, /registration etc.; /hc articles not disallowed."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.carousell.sg/robots.txt",
+   "https://support.carousell.com/robots.txt",
+   "https://www.police.gov.sg/media-hub/news/2022/12/20221228_police_advisory_on_phishing_scams_involving_fake_buyers_on_carousell"
+  ],
+  "notes": "blocked: www.carousell.sg and support.carousell.com return Cloudflare JS challenge (HTTP 403) to curl; WebFetch on support.carousell.com/hc/en-us also 403. Stopped (no archives/caches). official_domains: carousell.sg and carousell.com are (b) the domains serving the marketplace (robots.txt 200) and help centre (support.carousell.com), and are stated as the only Carousell domains in SPF advisory 2022-12-28 (police.gov.sg, opened): 'Only domains that end with carousell.com or carousell.sg are Carousell domains. URLs such as carousellpay.com, carousell.xxx.com, carousell-pay.com, carousell.pay-sg.com are NOT Carousell domains. Carousell does not send links via SMS, and would only send OTPs via SMS.' Same SPF advisory cites example phishing URLs cutt.ly/31uXCDu, carousell.quick-funds.in/266780736 and a spoofed sender ID with uppercase 'I' + lowercase 'l' (fake; text only, never visited) - these are SPF-published, not Carousell-published. Sector 'marketplace' (C2C classifieds). Carousell's own scam pages could not be read, so no Carousell-side scam_info detail."
+ },
+ {
+  "entity_id": "fairprice.com.sg",
+  "name": "NTUC FairPrice",
+  "abbr": null,
+  "aliases": [
+   "NTUC FairPrice",
+   "FairPrice",
+   "FairPrice Group",
+   "FairPrice Online",
+   "FairPrice Finest",
+   "FairPrice Xtra",
+   "FairPrice Group app"
+  ],
+  "sector": "retail",
+  "parent_entity_id": "ntucenterprise.sg",
+  "country": "SG",
+  "official_domains": [
+   "fairprice.com.sg",
+   "fairpricegroup.com.sg"
+  ],
+  "official_hosts": [
+   "www.fairprice.com.sg",
+   "help.fairprice.com.sg",
+   "promotions.fairprice.com.sg",
+   "www.gift.fairprice.com.sg",
+   "payment.fairprice.com.sg",
+   "www.fairpricegroup.com.sg",
+   "account.ntuclink.com.sg",
+   "pass.link.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://help.fairprice.com.sg/hc/en-us",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 403 (bot protection; not bypassed)",
+    "sample": null,
+    "notes": "FairPrice Help Centre (Zendesk) behind Cloudflare challenge; contents not seen. No scam/security page found on www.fairprice.com.sg (homepage HTML has no 'scam' mention; site search via web search returned none). FairPrice's scam warnings appear to be posted on its Facebook page (per news/search snippets; not fetched)."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/thatsmyfairprice",
+    "https://www.instagram.com/fairpricesg/",
+    "https://www.youtube.com/user/NTUCFairPriceSG"
+   ],
+   "apps": [
+    "FairPrice (iOS App Store id1012365118; Google Play com.fairprice.mcomapp; Huawei AppGallery C101292929)"
+   ],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.fairprice.com.sg/",
+   "https://www.fairprice.com.sg/robots.txt",
+   "https://help.fairprice.com.sg/robots.txt"
+  ],
+  "notes": "official_domains: fairprice.com.sg (b) serving domain; fairpricegroup.com.sg (b) linked from the site's own header navigation. Hosts seen in homepage HTML incl. login hosts account.ntuclink.com.sg and pass.link.sg (NTUC Link SSO) - recorded as hosts only. parent_entity_id ntucenterprise.sg: FairPrice footer links https://www.ntucenterprise.sg/contactus/vulnerability-disclosure-programme/ (NTUC Enterprise group VDP). robots.txt served from storage.googleapis.com (redirect), no Sitemap line. blocked: help.fairprice.com.sg Cloudflare challenge (403). Linkpoints/Link Rewards has a separate record link.sg. Unverified (search snippet, news/SPF): fake gift-card ads ($500 for $9, SPF advisory 2024-09-05 'phishing scams perpetuated via social media advertisements impersonating NTUC FairPrice'); lookalike sender rewards@fairpriceOn.sg (2025 survey scam); fake 'FairPrice Group' APK apps (SPF 2023-10-06); FairPrice spokesperson: promotions only on www.fairprice.com.sg, Facebook 'NTUC FairPrice', Instagram @fairpricesg."
+ },
+ {
+  "entity_id": "link.sg",
+  "name": "NTUC Link (Link Rewards / Linkpoints)",
+  "abbr": null,
+  "aliases": [
+   "Link Rewards",
+   "Linkpoints",
+   "NTUC Link",
+   "NTUC Link Pte Ltd",
+   "Plus! Linkpoints"
+  ],
+  "sector": "retail",
+  "parent_entity_id": "ntucenterprise.sg",
+  "country": "SG",
+  "official_domains": [
+   "link.sg"
+  ],
+  "official_hosts": [
+   "www.link.sg",
+   "support.link.sg",
+   "pass.link.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://support.link.sg/hc/en-us/articles/21169453378969-With-the-recent-scams-how-can-members-be-sure-if-the-communications-received-are-real",
+    "kind": "official_channels",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 403 (bot protection; not bypassed)",
+    "sample": null,
+    "notes": "Found via web search. Cloudflare challenge to curl; one WebFetch attempt also 403. Unverified (search snippet): says Link Rewards communicates with members via FairPrice Group app push notifications, emails and SMSes based on notification preferences. Specific sender IDs/emails not seen."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/LinkRewardsSG",
+    "https://www.instagram.com/linkrewardssg",
+    "https://www.linkedin.com/company/ntuc-link-pte-ltd"
+   ],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.link.sg/",
+   "https://www.fairprice.com.sg/"
+  ],
+  "notes": "Link Rewards programme site www.link.sg (b, 2026-11-26 HTTP 200, Next.js). Separate record because it has its own domain and a scam-related help article. blocked: support.link.sg (Zendesk) Cloudflare challenge. pass.link.sg seen as login host in FairPrice homepage HTML. Parent ntucenterprise.sg (see fairprice.com.sg notes); 'NTUC Link Pte Ltd' from LinkedIn link on link.sg footer."
+ },
+ {
+  "entity_id": "lazada.sg",
+  "name": "Lazada Singapore",
+  "abbr": null,
+  "aliases": [
+   "Lazada",
+   "Lazada Singapore",
+   "LazMall",
+   "RedMart"
+  ],
+  "sector": "ecommerce",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "lazada.sg"
+  ],
+  "official_hosts": [
+   "www.lazada.sg",
+   "pages.lazada.sg",
+   "helpcenter.lazada.sg",
+   "helpcenter-redmart.lazada.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://helpcenter.lazada.sg/s/faq",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200 (JS-only shell; content not visible)",
+    "sample": null,
+    "notes": "Lazada SG Help Center is a JS-rendered SPA (curl returns only 'Help Center'); no scam-specific help articles found via web search; undocumented help-centre APIs not called. Recorded for completeness."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/LazadaSingapore",
+    "https://www.instagram.com/lazada_sg",
+    "https://x.com/lazadasg",
+    "https://www.tiktok.com/@lazada_sg",
+    "https://www.youtube.com/@LazadaSingapore",
+    "https://www.linkedin.com/company/lazada"
+   ],
+   "apps": [
+    "Lazada (iOS App Store id785385147; Google Play com.lazada.android; Huawei AppGallery C100164557)"
+   ],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.lazada.sg/",
+   "https://www.lazada.sg/robots.txt",
+   "https://helpcenter.lazada.sg/s/faq"
+  ],
+  "notes": "official_domains: lazada.sg (b) serving domain; help-centre hosts linked from homepage. No Lazada-published SG scam page found. Scam coverage is via SPF advisories (2019-05-14 fake Lazada Instagram campaign; 2019-11-08 lucky draws; 2021-12-28 e-commerce impersonation phishing; 2022-05-11 spoofed-SMS job scams; 2023-08-02 fake campaigns) - SPF-side. Unverified (search snippet, scamalert.sg story): fake reset emails from look-alike sender noreply@support.lazada.sg."
+ },
+ {
+  "entity_id": "qoo10.sg",
+  "name": "Qoo10 Singapore",
+  "abbr": null,
+  "aliases": [
+   "Qoo10",
+   "Qoo10 Singapore",
+   "Qoo10.sg"
+  ],
+  "sector": "ecommerce",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [],
+  "official_hosts": [],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.qoo10.sg/"
+  ],
+  "notes": "UNREACHED: www.qoo10.sg did not resolve from this host on 2026-11-26 (DNS timeout / EAI_AGAIN for both curl and WebFetch while other domains resolved), so no official page could be opened; evidence lists the attempted URL only. official_domains left empty (entity_id qoo10.sg is the expected primary domain, unverified). No Qoo10-published scam notice found via web search. Unverified (search snippet): SPF advisory 2020-11-23 on social-media impersonation scams describes fake Qoo10 lucky-draw sites pushed via hijacked WhatsApp accounts. Retry later."
+ },
+ {
+  "entity_id": "amazon.sg",
+  "name": "Amazon.sg (Amazon Singapore)",
+  "abbr": null,
+  "aliases": [
+   "Amazon",
+   "Amazon.sg",
+   "Amazon Singapore",
+   "Amazon Prime SG"
+  ],
+  "sector": "ecommerce",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "amazon.sg",
+   "amazon.com"
+  ],
+  "official_hosts": [
+   "www.amazon.sg",
+   "account-status.amazon.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.amazon.sg/gp/help/customer/display.html?nodeId=G4YFYCCNUSENA23B",
+    "kind": "scam_faq",
+    "lists_indicators": [
+     "domain",
+     "email"
+    ],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Only link to sites that begin with \"http://\"something\".amazon.com or amazon.sg\". ... May contain links to websites that resemble Amazon but aren't Amazon, such as \"payments-amazon.sg\".",
+    "notes": "Amazon.sg 'Identifying a Scam' help page (Security and Privacy > Communications from Amazon.sg). Genuine link domains *.amazon.com / *.amazon.sg; example fake domain payments-amazon.sg (fake, text only, never visited); forward suspicious messages to verify@amazon.sg; 'Report a Scam' / unwanted packages at account-status.amazon.sg. Links to sub-pages on fake emails, SMS, calls, websites (not opened). Undated."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [],
+   "apps": [],
+   "emails": [
+    "verify@amazon.sg (report suspected impersonation)"
+   ]
+  },
+  "evidence": [
+   "https://www.amazon.sg/gp/help/customer/display.html?nodeId=G4YFYCCNUSENA23B",
+   "https://www.amazon.sg/robots.txt"
+  ],
+  "notes": "official_domains: amazon.sg and amazon.com are (a) on the SG scam help page. nodeId G4YFYCCNUSENA23B is Amazon's standard 'Identifying a Scam' help node (same ID across Amazon marketplaces); not disallowed by amazon.sg robots.txt. Global amazon.com equivalents not recorded."
+ },
+ {
+  "entity_id": "capitaland.com",
+  "name": "CapitaLand Group",
+  "abbr": null,
+  "aliases": [
+   "Capitaland",
+   "CapitaLand",
+   "CapitaLand Investment",
+   "CapitaLand Development",
+   "CapitaStar",
+   "eCapitaVoucher"
+  ],
+  "sector": "retail",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "capitaland.com",
+   "capitastar.com"
+  ],
+  "official_hosts": [
+   "www.capitaland.com",
+   "www.capitastar.com"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.capitaland.com/en/footer-links/scam-alert.html",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "CapitaLand's name and brand have been used without authorisation in scams, including fake investment, training, recruitment or promotional offers.",
+    "notes": "Tier 2. Group 'Scam Alert' page (footer link): investment/job scams, phishing websites, social-media/messaging 'rewards programme' scams; verify via official CapitaLand Group / Development / Investment sites (all on capitaland.com); report via ScamShield. Narrative; undated. Regional copies exist (/us/en/, /eu/en/, /jp/, /vn/, /au/, /kr/ ...scam-alert.html); a 'Check or Report a Scam' page at screens.capitaland.com (search result, not opened)."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.capitaland.com/en/footer-links/scam-alert.html"
+  ],
+  "notes": "Tier 2 (CapitaStar / eCapitaVoucher brand-tag 'Capitaland'). official_domains: capitaland.com (a/b); capitastar.com (b: CapitaStar rewards site linked from the scam-alert page navigation). No CapitaStar/eCapitaVoucher-specific scam notice found. SPF sample domain fnltvcapblndvn.com (fake; never visited)."
+ },
+ {
+  "entity_id": "singaporeair.com",
+  "name": "Singapore Airlines",
+  "abbr": "SIA",
+  "aliases": [
+   "Singapore Airlines",
+   "SIA",
+   "SQ",
+   "KrisFlyer",
+   "PPS Club",
+   "SingaporeAir app",
+   "Scoot"
+  ],
+  "sector": "travel",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "singaporeair.com"
+  ],
+  "official_hosts": [
+   "www.singaporeair.com",
+   "assets.singaporeair.com",
+   "email.singaporeair.com"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.singaporeair.com/en_UK/sg/corporate/newsroom/newsalert-listing/advisory-on-phishing-scams-and-good-cybersecurity-practice/",
+    "kind": "alert_page",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.singaporeair.com/content/dam/sia/root/sitemap/sg.xml",
+    "item_count": null,
+    "latest_item_date": "2026-11-16",
+    "verified": "2026-11-25 HTTP 200",
+    "sample": "Scammers may: Post fake contact details on the Internet, Google Maps, wiki pages, and community forums. Impersonate SIA through phone calls, social media accounts, messaging apps, or fraudulent email addresses.",
+    "notes": "'Updated on 16 November 2026 ... First posted on 18 July 2017'. SIA sender IDs registered with SG SMS Sender ID Registry (IDs not named here); fake-site/fake-account reporting via https://www.singaporeair.com/get-help/others. Narrative only. Same advisory exists under other country paths (/en_UK/au/, /ca/, /cn/ ...). Re-fetched 2026-11-26 HTTP 200 for full text."
+   },
+   {
+    "url": "https://www.singaporeair.com/en_UK/sg/corporate/newsroom/newsalert-listing/",
+    "kind": "advisory_feed",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.singaporeair.com/content/dam/sia/root/sitemap/sg.xml",
+    "item_count": 7,
+    "latest_item_date": "2026-11-16",
+    "verified": "2026-11-25 HTTP 200",
+    "sample": "16 Nov 2026 Advisory on phishing scams and good cybersecurity practices",
+    "notes": "SG 'News alerts' list (7 dated items, mixed operational advisories; 1 scam-related). Items discoverable via the SG sitemap (child pages under /newsalert-listing/ with lastmod)."
+   },
+   {
+    "url": "https://www.singaporeair.com/en_UK/sg/global_footer/security/",
+    "kind": "official_channels",
+    "lists_indicators": [
+     "sms_sender_id",
+     "email"
+    ],
+    "access": "html",
+    "machine_url": "https://www.singaporeair.com/content/dam/sia/root/sitemap/sg.xml",
+    "item_count": null,
+    "latest_item_date": "2026-01-08",
+    "verified": "2026-11-25 HTTP 200",
+    "sample": "OTP will be sent from an official Singapore Airlines account (SMS: SQbooking and Email: Singapore Airlines).",
+    "notes": "'Keeping your data safe' page: genuine OTP SMS sender 'SQbooking'; official email address singaporeair@email.singaporeair.com; contrasted with a fake example (text only) singair@sporeair.com; 'Always type in the URL of the official Singapore Airlines website ( www.singaporeair.com )'. Says latest security alerts are posted on its Facebook page (https://www.facebook.com/singaporeair/posts/10160143647823679). Date = sitemap lastmod."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "SQbooking"
+   ],
+   "hotlines": [
+    "+65 6223 8888 (Singapore Airlines contact centre, 24 hours)",
+    "+65 67898188 (KrisFlyer members, unrequested OTP)",
+    "1800-2244243 (Lost and found, local)",
+    "+65 6597 4501 (Lost and found, overseas)"
+   ],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/singaporeair",
+    "https://x.com/SingaporeAir",
+    "https://www.instagram.com/singaporeair"
+   ],
+   "apps": [
+    "SingaporeAir (iOS App Store id515287841; Google Play com.amadeus.merci.client.ui)"
+   ],
+   "emails": [
+    "singaporeair@email.singaporeair.com",
+    "public_affairs@singaporeair.com.sg"
+   ]
+  },
+  "evidence": [
+   "https://www.singaporeair.com/en_UK/sg/global_footer/security/",
+   "https://www.singaporeair.com/en_UK/sg/corporate/newsroom/newsalert-listing/advisory-on-phishing-scams-and-good-cybersecurity-practice/",
+   "https://www.singaporeair.com/en_UK/sg/mobile-app/",
+   "https://www.singaporeair.com/en_UK/sg/contact-us/",
+   "https://www.singaporeair.com/en_UK/sg/home/"
+  ],
+  "notes": "SG content under singaporeair.com/en_UK/sg/. robots.txt Crawl-delay 9 (respected). official_domains: singaporeair.com is (b) serving domain and (a) 'official Singapore Airlines website (www.singaporeair.com)'. email.singaporeair.com host is (a) official email sender. singaporeair.com.sg appears only as a PR contact email domain on /contact-us/ (kept in emails, not official_domains). Social from JSON-LD sameAs on homepage. Scoot (flyscoot.com) folded in as alias: no Scoot-specific scam page found (search 2026-11-26). Unverified (search snippet, news): fake addresses hr@singaporeairlinehr.com, members@singaporeair-mail.com cited by press in 2024 SIA warning. Evidence: 2026-11-25 sub-agent G1 fetches (digest) + 2026-11-26 re-fetch of security/advisory pages."
+ },
+ {
+  "entity_id": "moomoo.com",
+  "name": "Moomoo Singapore (Moomoo Financial Singapore Pte. Ltd.)",
+  "abbr": null,
+  "aliases": [
+   "MooMoo",
+   "moomoo",
+   "Moomoo Singapore",
+   "Moomoo SG",
+   "Moomoo Financial Singapore Pte. Ltd.",
+   "Futu"
+  ],
+  "sector": "brokerage",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "moomoo.com"
+  ],
+  "official_hosts": [
+   "www.moomoo.com",
+   "passport.moomoo.com",
+   "openaccount.sg.moomoo.com",
+   "invest.sg.moomoo.com",
+   "smartlink.moomoo.com",
+   "sg.moomoo.com"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.moomoo.com/sg/learn/scam-alert-from-moomoo-singapore",
+    "kind": "official_channels",
+    "lists_indicators": [
+     "phone",
+     "email",
+     "sms_sender_id",
+     "domain"
+    ],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": "2026-08-24",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Customer Service: +65 6321 8888 Whatsapp Business Account: +65 3129 5222* ... Email: clientservice@sg.moomoo.com SMS SenderID: moomoo or moomooSG",
+    "notes": "'Scam Alert: Statement from Moomoo Singapore' (publishTime 2026-08-24 in page JSON; displayed 'Aug 24 15:38'). Lists genuine contact channels; 'Our official website is www.moomoo.com/sg'; 'We do not use any other numbers to contact clients'; no advice via WhatsApp/Telegram/RCS/WeChat; account opening only via moomoo.com/sg/support, no third-party agents. Narrative description of fake sites/apps, fake 'high-risk verification', chat-group impersonation; no concrete fake indicators. URL linked from SG homepage as /sg/learn/detail-scam-alert-from-moomoo-singapore-117972-250689010 (redirects here). Also in zh-Hans/zh-Hant (/sg/hans/..., /sg/hant/...)."
+   },
+   {
+    "url": "https://www.moomoo.com/sg/learn/beware-of-phishing-scams",
+    "kind": "alert_page",
+    "lists_indicators": [
+     "email"
+    ],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": "2026-07-09",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "If the sender's email address does NOT end with @sg.moomoo.com , it is a scam.",
+    "notes": "'Security Alert: Beware of Phishing Scams' (publishTime 2026-07-09). 'email' = official sender domain @sg.moomoo.com (official); phishing example shown only as an image. CS hotline +65-6321 8888."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "moomoo",
+    "moomooSG"
+   ],
+   "hotlines": [
+    "+65 6321 8888 (Moomoo Singapore customer service)",
+    "+65 3129 5222 (official WhatsApp Business account; promotional campaigns only)"
+   ],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/moomooSingapore/",
+    "https://www.instagram.com/moomoosingapore/",
+    "https://twitter.com/moomoosingapore",
+    "https://www.youtube.com/channel/UCK5UGwSKR_6URC4FshaLkyQ",
+    "https://www.tiktok.com/@moomoo.sg?lang=en",
+    "https://t.me/teammoomooSG",
+    "https://www.reddit.com/r/moomoo_official"
+   ],
+   "apps": [
+    "moomoo app (download via www.moomoo.com/sg/download or official app stores; offered by Moomoo Technologies Inc.)"
+   ],
+   "emails": [
+    "clientservice@sg.moomoo.com",
+    "@sg.moomoo.com"
+   ]
+  },
+  "evidence": [
+   "https://www.moomoo.com/sg/learn/scam-alert-from-moomoo-singapore",
+   "https://www.moomoo.com/sg/learn/beware-of-phishing-scams",
+   "https://www.moomoo.com/sg",
+   "https://www.moomoo.com/robots.txt"
+  ],
+  "notes": "SG business under moomoo.com/sg (entity_id = moomoo.com). official_domains: moomoo.com is (a) 'Our official website is www.moomoo.com/sg' and official email domain sg.moomoo.com. Hosts from SG homepage links (passport = login/registration, openaccount.sg / invest.sg, smartlink = AppsFlyer-style app link). Other moomoo-group hosts seen in page source but not added as official_domains: cdn.futustatic.com, blogimg.futunn.com, www.moomooapp.com (static/asset hosts; Futu group). Telegram t.me/teammoomooSG linked from SG footer although the alert says moomoo does not give investment advice via Telegram. Sitemap index (sitemap.xml -> learn/news indexes) not mined for SG scam URLs (support sitemap has 3 URLs). Newsroom: /sg/newsroom/moomoo-southeast-asia-joins-global-anti-scam-alliance-singapore (not opened). Unverified (search snippet): HK SFC alert list names lookalikes moomoo-g.top, moomoo-c.top (not SG; never visited)."
+ },
+ {
+  "entity_id": "itiger.com",
+  "name": "Tiger Brokers (Singapore) Pte. Ltd.",
+  "abbr": null,
+  "aliases": [
+   "Tiger Brokers",
+   "Tiger Brokers Singapore",
+   "Tiger Brokers SG",
+   "TigerTrade",
+   "Tiger Trade",
+   "Tiger Brokers (Singapore) Pte. Ltd."
+  ],
+  "sector": "brokerage",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "itiger.com",
+   "tigerbrokers.com.sg",
+   "tigerfintech.com"
+  ],
+  "official_hosts": [
+   "www.itiger.com",
+   "www.tigerbrokers.com.sg",
+   "developer.tigerbrokers.com.sg",
+   "da.tigerfintech.com",
+   "download.tigerfintech.com"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.itiger.com/sg/help/detail/Fraud%20Awareness",
+    "kind": "official_channels",
+    "lists_indicators": [
+     "domain",
+     "social_handle"
+    ],
+    "access": "html",
+    "machine_url": "https://www.itiger.com/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Please note that our official website is https://www.itiger.com/sg/ . ... Telegram Channels: https://t.me/tigerbrokersofficial https://t.me/TigerBrokersSG https://t.me/TBCashBoost https://t.me/TigerBrokersOptions",
+    "notes": "FAQ 'Notice: Fraudulent Use of the Tiger Brokers Brand': official website, official social accounts (Instagram/Facebook/TikTok @tigerbrokerssg, YouTube @TigerBrokersSingapore), 4 official Telegram channels + named official sub-channels (Tiger Options Bootcamp Batch 1-10, Trade Feed, Prestige Group, Star Contributors Group). 'Should you receive any invitation to any Tiger Brokers sub-channels, that are not listed here, do contact us'. No fake indicators listed. Undated."
+   },
+   {
+    "url": "https://www.itiger.com/sg/fraud-awareness",
+    "kind": "alert_page",
+    "lists_indicators": [
+     "domain",
+     "social_handle"
+    ],
+    "access": "html",
+    "machine_url": "https://www.itiger.com/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2026-07-17",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "2026-07-17 11:05:01 Notification of Fraudulent Use of Tiger Brokers Brand ... fraudulent microsites claiming to be Tiger illegally have been sprouting up",
+    "notes": "Footer-linked 'Fraud Awareness' page (dated 2026-07-17): same official website/social list (2 Telegram channels) plus a pump-and-dump scam reminder linking SPF advisory 2021-08-11. Indicators are official ones."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [
+    "+65 6331 2277 (Client Service call line; also WhatsApp chat)"
+   ],
+   "short_link_domains": [],
+   "social": [
+    "https://www.instagram.com/tigerbrokerssg",
+    "https://www.facebook.com/tigerbrokerssg",
+    "https://www.tiktok.com/@tigerbrokerssg",
+    "https://www.youtube.com/channel/UCV9o1jW6brfQJepdpuVU2Lw",
+    "https://www.linkedin.com/company/tigerbrokerssg/",
+    "https://t.me/tigerbrokersofficial",
+    "https://t.me/TigerBrokersSG",
+    "https://t.me/TBCashBoost",
+    "https://t.me/TigerBrokersOptions",
+    "https://api.whatsapp.com/send?phone=6563312277"
+   ],
+   "apps": [
+    "Tiger Trade mobile app (App Store / Google Play via da.tigerfintech.com)",
+    "TigerTrade desktop (Mac/Windows via download.tigerfintech.com)"
+   ],
+   "emails": [
+    "service@tigerbrokers.com.sg",
+    "media@tigerbrokers.com.sg"
+   ]
+  },
+  "evidence": [
+   "https://www.itiger.com/sg/help/detail/Fraud%20Awareness",
+   "https://www.itiger.com/sg/fraud-awareness",
+   "https://www.itiger.com/sg/?lang=en_US",
+   "https://www.itiger.com/robots.txt"
+  ],
+  "notes": "SG business under itiger.com/sg (entity_id itiger.com, (a) 'our official website is https://www.itiger.com/sg/'). tigerbrokers.com.sg: homepage request 301-redirects to itiger.com/sg; its robots.txt is 'Disallow: /' so nothing else fetched there; kept in official_domains as (b) redirecting official domain and official email domain (service@tigerbrokers.com.sg). tigerfintech.com (b): official app/desktop download hosts linked from site footer. Other Tiger-group hosts in page source not added (c1.itigergrowtha.com, static.tigerbbs.com, sg.tigerkickoff.com, www.itigerup.com, www.tigertrade.app). Note SPF brand-tag 'Tiger Brokers' samples itigereo.top (fake; never visited)."
+ },
+ {
+  "entity_id": "uobkh.com.sg",
+  "name": "UOB Kay Hian Private Limited (Singapore)",
+  "abbr": "UOBKH",
+  "aliases": [
+   "UOB Kay Hian",
+   "UOBKH",
+   "UTRADE",
+   "UOB Kay Hian Singapore"
+  ],
+  "sector": "brokerage",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "uobkh.com.sg",
+   "uobkh.com",
+   "uobkayhian.com",
+   "utrade.com.sg"
+  ],
+  "official_hosts": [
+   "uobkh.com.sg",
+   "options.uobkh.com.sg",
+   "www.uobkh.com",
+   "www.uobkayhian.com",
+   "utradexaccountopening.uobkayhian.com",
+   "marketoverview-prod-sg.uobkayhian.com",
+   "www.utrade.com.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://uobkh.com.sg/en/announcement/beware-of-impersonation-scam-calls",
+    "kind": "alert_page",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://uobkh.com.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2026-08-18",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Scammers may impersonate trusted organisations and even manipulate caller ID to appear as a legitimate phone number. ... UOB Kay Hian will NEVER ask for your password or security credentials.",
+    "notes": "Announcement on impersonation/caller-ID-spoofing scam calls; date = sitemap lastmod. Narrative only; points to official contacts at uobkh.com.sg/en/about/contact. Announcements are discoverable via sitemap (/en/announcement/*, 6 items, only 1 scam-related)."
+   },
+   {
+    "url": "https://uobkh.com.sg/en/about/contact",
+    "kind": "official_channels",
+    "lists_indicators": [
+     "phone",
+     "email"
+    ],
+    "access": "html",
+    "machine_url": "https://uobkh.com.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Client Services Hotline +65 6536 9338 Email cs-sg@uobkh.com",
+    "notes": "Referenced by the scam notice as the official contact-details page."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [
+    "+65 6536 9338 (Client Services Hotline)"
+   ],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/UOBKHSingapore/",
+    "https://www.linkedin.com/company/uob-kay-hian/",
+    "https://www.youtube.com/user/utradesg",
+    "https://www.facebook.com/UOBKayHian.sg/"
+   ],
+   "apps": [],
+   "emails": [
+    "cs-sg@uobkh.com",
+    "dpo-sg@uobkh.com"
+   ]
+  },
+  "evidence": [
+   "https://uobkh.com.sg/en/announcement/beware-of-impersonation-scam-calls",
+   "https://uobkh.com.sg/en/about/contact",
+   "https://uobkh.com.sg/en",
+   "https://www.uobkh.com/",
+   "https://uobkh.com.sg/sitemap.xml"
+  ],
+  "notes": "SG site uobkh.com.sg (a: scam notice says use 'official contact details published on uobkh.com.sg/en/about/contact'). www.uobkayhian.com redirects to www.uobkh.com (group site; @uobkh.com email domain) - both (b). utrade.com.sg (b): UTRADE online-trading platform linked from group and SG navigation. Other UOBKH regional domains seen in nav (uobkh.com.my, uobkh.com.hk, uobkh.co.th, kh.co.id, uobkayhian.com.ph, uobkh.jp, utrade.com.hk, utradedelta.com) not SG; not added. FAQ security articles in SG sitemap (e.g. /en/faq/article/what-is-utrade-secure) not opened. NB fake domain uobkhs.com appeared in an SPF advisory (SPF-side; never visited)."
+ },
+ {
+  "entity_id": "poems.com.sg",
+  "name": "Phillip Securities Pte Ltd (POEMS by PhillipCapital)",
+  "abbr": "POEMS",
+  "aliases": [
+   "POEMS",
+   "Phillip Securities",
+   "PhillipCapital",
+   "Phillip Capital",
+   "POEMS Mobile 3"
+  ],
+  "sector": "brokerage",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "poems.com.sg",
+   "phillip.com.sg"
+  ],
+  "official_hosts": [
+   "www.poems.com.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.poems.com.sg/education/scam-awareness/",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.poems.com.sg/page-sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2026-08-24",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Always check our official website at www.poems.com.sg , mobile app, or our verified social media channels (Facebook, Instagram) for updates on promotions and events.",
+    "notes": "'Scam Awareness' page (footer-linked). Official website www.poems.com.sg; contact talktophillip@phillip.com.sg / 6531 1555. No fake indicators. Date = sitemap lastmod."
+   },
+   {
+    "url": "https://www.poems.com.sg/announcements/security-alert-beware-of-scam-messages/",
+    "kind": "alert_page",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.poems.com.sg/announcements-sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2025-01-14",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "please confirm the authenticity of any unexpected letters, emails, or WhatsApp group invites claiming to be from PhillipCapital.",
+    "notes": "Announcements are discoverable via announcements-sitemap.xml (47 URLs with lastmod); scam-related: lets-stay-vigilant-against-cyber-scams (2023-08-17), beware-of-pump-and-dump-stock-buying-scams (2021-08-12), this one (2025-01-14)."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [
+    "6531 1555 (POEMS / Phillip customer service)"
+   ],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/PhillipCapital",
+    "https://www.instagram.com/phillipcapital"
+   ],
+   "apps": [
+    "POEMS Mobile 3 (App Store / Google Play)"
+   ],
+   "emails": [
+    "talktophillip@phillip.com.sg"
+   ]
+  },
+  "evidence": [
+   "https://www.poems.com.sg/education/scam-awareness/",
+   "https://www.poems.com.sg/announcements/security-alert-beware-of-scam-messages/",
+   "https://www.poems.com.sg/robots.txt",
+   "https://www.poems.com.sg/announcements-sitemap.xml"
+  ],
+  "notes": "official_domains: poems.com.sg (a: 'official website at www.poems.com.sg'); phillip.com.sg (official contact email domain on the same page; phillip.com.sg site itself not fetched). robots.txt blocks only specific bots + some paths. Also 'Privacy & Security' page (/privacy-security/) in sitemap, not opened."
+ },
+ {
+  "entity_id": "changiairport.com",
+  "name": "Changi Airport Group (Singapore Changi Airport)",
+  "abbr": "CAG",
+  "aliases": [
+   "Changi Airport",
+   "Changi Airport Group",
+   "CAG",
+   "iChangi",
+   "iShopChangi",
+   "Changi Rewards",
+   "Jewel Changi Airport"
+  ],
+  "sector": "travel",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "changiairport.com",
+   "jewelchangiairport.com"
+  ],
+  "official_hosts": [
+   "www.changiairport.com"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2019/cag-alerts-public-of-phone-scam-targetting-participants-of-the-be-a-changi-millionaire-promotion.html",
+    "kind": "alert_page",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.changiairport.com/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2019-08-21",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Changi Airport Group alerts public of phone scam targetting participants of the 'Be A Changi Millionaire' promotion",
+    "notes": "Only CAG-published scam item found in the 2,211-URL main sitemap (newsroom 2019, datePublished 2019-08-21). Article body appears JS-loaded (curl got title/nav only). No current scam/security page on changiairport.com; recent fake Changi luggage / iShopChangi scams were covered by SPF advisories (2023-12-07, 2023-12-28) not CAG pages."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [
+    "+65 6595 6868 (Changi Experience Ambassador / customer hotline)",
+    "+65 6956 9898 (Jewel Changi Airport enquiries)",
+    "+65 9615 7555 (WhatsApp chatbot, wa.me link on contact page)"
+   ],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/changiairport",
+    "https://www.instagram.com/changiairport",
+    "https://x.com/changiairport",
+    "https://www.tiktok.com/@changiairport?lang=en",
+    "https://www.linkedin.com/company/changiairportgroup",
+    "https://t.me/changiairportmaxbot"
+   ],
+   "apps": [
+    "iChangi (iOS App Store id391730848; Google Play com.changiairport.cagapp)"
+   ],
+   "emails": [
+    "hubandspoke@changiairport.com",
+    "contact.us@jewelchangiairport.com"
+   ]
+  },
+  "evidence": [
+   "https://www.changiairport.com/en/help/contact-us.html",
+   "https://www.changiairport.com/robots.txt",
+   "https://www.changiairport.com/sitemap.xml"
+  ],
+  "notes": "official_domains: changiairport.com (b); jewelchangiairport.com (b: official Jewel contact email on CAG contact page). changiairportgroup.com not observed in fetched pages (not added). Contact page also references a CAG Fraud and Ethics (whistleblowing) hotline - internal fraud, not consumer scams. Unverified (search snippet): CAG said it does not sell unattended baggage (Dec 2023 luggage scam); 2019 lucky-draw scams, CAG hotline 6595 6868 for verification."
+ },
+ {
+  "entity_id": "moneysmart.sg",
+  "name": "MoneySmart Singapore",
+  "abbr": null,
+  "aliases": [
+   "MoneySmart",
+   "MoneySmart.sg"
+  ],
+  "sector": "other",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [],
+  "official_hosts": [],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.moneysmart.sg/"
+  ],
+  "notes": "Tier 2. blocked: www.moneysmart.sg returns Cloudflare 'Just a moment...' challenge (HTTP 403) to curl on 2026-11-26; not retried (Tier-2 budget). official_domains left empty because no official page could be read (moneysmart.sg is the expected domain, unverified). No MoneySmart-published scam notice found via web search. SPF brand-tag 'MoneySmart' fake domains money-sm.art, moneysmart.money, moneysmart.click, moneysmart.one are SPF-side indicators (never visited)."
+ },
+ {
+  "entity_id": "chanbrothers.com",
+  "name": "Chan Brothers Travel",
+  "abbr": null,
+  "aliases": [
+   "Chan Brothers",
+   "Chan Brothers Travel"
+  ],
+  "sector": "travel",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "chanbrothers.com"
+  ],
+  "official_hosts": [
+   "www.chanbrothers.com"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/ChanBrothersTravelSG",
+    "https://www.instagram.com/chanbrotherstravel/?hl=en",
+    "https://www.tiktok.com/@chanbrothers.sg"
+   ],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.chanbrothers.com/"
+  ],
+  "notes": "Tier 2 (1 request). Official site www.chanbrothers.com (b; HTTP 200). Homepage has no scam/fraud notice or link. SPF brand-tag 'Chan Brothers' sample domain sell.sctt.net is an SPF-side indicator (never visited)."
+ },
+ {
+  "entity_id": "usmartsecurities.com",
+  "name": "uSMART Securities (Singapore) Pte. Ltd.",
+  "abbr": null,
+  "aliases": [
+   "uSMART",
+   "uSMART SG",
+   "uSMART Securities Singapore"
+  ],
+  "sector": "brokerage",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "usmartsecurities.com"
+  ],
+  "official_hosts": [
+   "sg.usmartsecurities.com"
+  ],
+  "scam_info": [
+   {
+    "url": "https://sg.usmartsecurities.com/news/7440654849752055826",
+    "kind": "alert_page",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": "2026-03-20",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "We maintain a zero-tolerance policy towards any attempt to use our platform for illegal financial activities , including o nline fraud",
+    "notes": "Generic anti-fraud statement (displayed '03-20 15:05'; year assumed 2026 - not printed). Narrative only; no fake indicators or official-channel list."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/share/1Kd121SRTb/?mibextid=wwXIfr",
+    "https://instagram.com/usmartsg",
+    "https://twitter.com/usmartsg",
+    "https://youtube.com/usmartsg",
+    "https://tiktok.com/@usmartsg",
+    "https://t.me/usmartsgmandarin",
+    "https://www.linkedin.com/company/usmartsg"
+   ],
+   "apps": [
+    "uSMART SG app"
+   ],
+   "emails": []
+  },
+  "evidence": [
+   "https://sg.usmartsecurities.com/news/7440654849752055826"
+  ],
+  "notes": "Tier 2. SG site sg.usmartsecurities.com (b; found via web search, opened 2026-11-26). CAUTION: 'usmartsg.sg' was listed by SPF as a SCAM domain - not visited, not official. HK entity uses usmart.hk (not SG; not added). Year of the news item is not printed (03-20)."
+ },
+ {
+  "entity_id": "greateasternlife.com",
+  "name": "Great Eastern Life Assurance (Great Eastern Singapore)",
+  "abbr": "GE",
+  "aliases": [
+   "Great Eastern",
+   "Great Eastern Life",
+   "Great Eastern General Insurance",
+   "Great Eastern Financial Advisers",
+   "GEFA",
+   "Great Eastern Holdings"
+  ],
+  "sector": "insurance",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "greateasternlife.com",
+   "greateasterngeneral.com",
+   "greateasternfa.com.sg",
+   "greateasternwomensrun.com",
+   "greateasternfa.sg"
+  ],
+  "official_hosts": [
+   "www.greateasternlife.com",
+   "uip.greateasternlife.com",
+   "greateasternsg.app.link"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.greateasternlife.com/sg/en/privacy-and-security-policy/security-advisory.html",
+    "kind": "official_channels",
+    "lists_indicators": [
+     "domain",
+     "email",
+     "sms_sender_id",
+     "phone"
+    ],
+    "access": "html",
+    "machine_url": "https://www.greateasternlife.com/sg/en/sg-en-sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2026-10-27",
+    "verified": "2026-11-25 HTTP 200",
+    "sample": "Web Domains greateasternlife.com greateasterngeneral.com greateasternfa.com.sg greateasternwomensrun.com ... SMS Domains GE-LIFE GE-GENERAL",
+    "notes": "Security Advisory + 'Great Eastern's Official Communication Channels': caller-ID numbers (Main 6248 2888, Group Insurance 6248 2112), web domains, email domains (incl. @e./@s./@sg.greateasternlife.com, @rep-sg.greateasternlife.com, @rep.GreatEasternFA.sg), SMS sender IDs GE-LIFE / GE-GENERAL (registered with SMS Sender ID Registry), WhatsApp 8227 6993 (marketing, blue badge). 'We will never ask customers to ... Transfer money to bank accounts not listed on our website'. latest_item_date = sitemap lastmod. Linked from a site-wide banner: 'Beware of impersonators claiming to be from Great Eastern or Great Eastern Financial representatives.'"
+   },
+   {
+    "url": "https://www.greateasternlife.com/sg/en/privacy-and-security-policy/security-advisory/false-message-efiling.html",
+    "kind": "alert_page",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.greateasternlife.com/sg/en/sg-en-sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2025-10-15",
+    "verified": "2026-11-25 HTTP 200",
+    "sample": "Great Eastern is aware of a false message circulating on WhatsApp claiming that electronic filing submission (e-file) process for Parkway East Hospital, Mount Elizabeth Hospital...has been removed.",
+    "notes": "Single alert under /security-advisory/ (child pages of the advisory path can be discovered via the SG sitemap). Date = sitemap lastmod. Narrative only."
+   },
+   {
+    "url": "https://www.greateasternlife.com/sg/en/privacy-and-security-policy/security-policy.html",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.greateasternlife.com/sg/en/sg-en-sitemap.xml",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-25 HTTP 200",
+    "sample": "Never click onto a link in an email to go to the GE login page. Always access GE by typing the full website address www.greateasternlife.com into your browser.",
+    "notes": "Generic phishing/smishing/vishing guidance; hotline 1800-248 2888, wecare-sg@greateasternlife.com."
+   },
+   {
+    "url": "https://www.greateasternlife.com/sg/en/personal-insurance/lifepedia/savings-and-investment/how-to-protect-family-from-insurance-services-scams-singapore.html",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.greateasternlife.com/sg/en/sg-en-sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2026-01-08",
+    "verified": "2026-11-25 HTTP 200",
+    "sample": "An insurance services scam involves scammers impersonating insurance staff or service administrators and convincing you that there is an issue with an insurance service linked to your name.",
+    "notes": "Lifepedia explainer article (sitemap lastmod 2026-01-08). Other Lifepedia scam articles in sitemap: 4-tips-to-steer-clear-of-scams, how-to-spot-investment-scam-singapore, be-wary-of-sms-phishing-scams-impersonating-land-transport-authority-lta."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "GE-LIFE",
+    "GE-GENERAL"
+   ],
+   "hotlines": [
+    "1800 248 2888 (Customer Service hotline, local; also for reporting suspicious activity)",
+    "+65 6248 2888 (overseas)",
+    "+65 6248 2211 (product enquiries)",
+    "6248 2888 (Main; displayed caller ID)",
+    "6248 2112 (Group Insurance; displayed caller ID)",
+    "8227 6993 (official WhatsApp Business account, marketing)"
+   ],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/greateasternsingapore",
+    "https://www.instagram.com/greateasternsg/",
+    "https://www.tiktok.com/@greateasternsg",
+    "https://www.linkedin.com/company/great-eastern-group",
+    "https://www.youtube.com/GreatEasternSG"
+   ],
+   "apps": [
+    "Great Eastern App (App Store / Google Play)",
+    "Great Eastern Rewards App (App Store / Google Play)"
+   ],
+   "emails": [
+    "@greateasternlife.com",
+    "@e.greateasternlife.com",
+    "@s.greateasternlife.com",
+    "@sg.greateasternlife.com",
+    "@greateasterngeneral.com",
+    "@rep-sg.greateasternlife.com",
+    "@rep.GreatEasternFA.sg",
+    "wecare-sg@greateasternlife.com"
+   ]
+  },
+  "evidence": [
+   "https://www.greateasternlife.com/sg/en/privacy-and-security-policy/security-advisory.html",
+   "https://www.greateasternlife.com/sg/en/personal-insurance.html",
+   "https://www.greateasternlife.com/sg/en/privacy-and-security-policy/security-policy.html",
+   "https://www.greateasternlife.com/sg/en/sg-en-sitemap.xml"
+  ],
+  "notes": "SG content under greateasternlife.com/sg/en/. official_domains: greateasternlife.com, greateasterngeneral.com, greateasternfa.com.sg, greateasternwomensrun.com are (a) listed as 'Web Domains' on the official-channels page; greateasternfa.sg is (a) only as an email domain (rep.GreatEasternFA.sg) on the same page. Hosts: uip.greateasternlife.com (eConnect login) and greateasternsg.app.link (Branch app-download link) seen in site navigation; app.link is Branch's domain, so only the FQDN is recorded. No concrete fake indicators published. Malaysia equivalent: greateasternlife.com/my/en/other-policies-and-notices/security-advisory.html (not SG; not opened). Evidence from 2026-11-25 sub-agent G2 fetches (transcript digest)."
+ },
+ {
+  "entity_id": "prudential.com.sg",
+  "name": "Prudential Assurance Company Singapore",
+  "abbr": null,
+  "aliases": [
+   "Prudential",
+   "Prudential Singapore",
+   "PRUServices",
+   "PRUSecurity",
+   "Prudential Assurance Company Singapore (Pte) Ltd"
+  ],
+  "sector": "insurance",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "prudential.com.sg",
+   "pru.sg"
+  ],
+  "official_hosts": [
+   "www.prudential.com.sg",
+   "pruservices.prudential.com.sg",
+   "ipay.prudential.com.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.prudential.com.sg/en/others/prusecurity/",
+    "kind": "advisory_feed",
+    "lists_indicators": [
+     "domain",
+     "sms_sender_id"
+    ],
+    "access": "html",
+    "machine_url": "https://www.prudential.com.sg/en/sitemap.xml",
+    "item_count": 12,
+    "latest_item_date": "2026-11-18",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Scammers may try to mimic our websites and use fake URLs such as \"prudentail.com.sg\" or \"prudentia1.com.sg\" ... Our official websites contain \"prudential.com.sg\" or \"pru.sg\".",
+    "notes": "'PRUSecurity - Latest security alert': 12 dated alerts (2021-02-02 .. 2026-11-18; newest 'Anti-SMS Scam and Official Sender ID'). Fake domains (text only, never visited): prudentail.com.sg, prudentia1.com.sg. Official: sender ID 'Prudential' (registered with SSIR), websites prudential.com.sg / pru.sg, PRUServices pruservices.prudential.com.sg, iPay ipay.prudential.com.sg/ipay/login2.do, PRUCustomer Line 1800-333-0-333. 'Prudential corporate office does not use WhatsApp ... for official customer communications'; 'We will never send you a link to make a payment.' Sitemap lastmod 2026-11-19."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "Prudential"
+   ],
+   "hotlines": [
+    "1800-333-0-333 (PRUCustomer Line)"
+   ],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/PrudentialSingapore/",
+    "https://www.instagram.com/prudentialsingapore/?hl=en",
+    "https://www.linkedin.com/company/prudential-assurance-company-singapore/",
+    "https://www.youtube.com/channel/UCWs_Qg2Rahok4kORir5w4eQ"
+   ],
+   "apps": [
+    "Prudential Singapore app"
+   ],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.prudential.com.sg/en/others/prusecurity/",
+   "https://www.prudential.com.sg/robots.txt",
+   "https://www.prudential.com.sg/en/sitemap.xml"
+  ],
+  "notes": "official_domains both (a) on PRUSecurity page ('Our official websites contain prudential.com.sg or pru.sg'). Page is server-rendered; best single scam source for Prudential (dated list + fake domains + sender ID)."
+ },
+ {
+  "entity_id": "aia.com.sg",
+  "name": "AIA Singapore",
+  "abbr": "AIA",
+  "aliases": [
+   "AIA Singapore",
+   "AIA",
+   "AIA+",
+   "AIA Vitality",
+   "AIA Singapore Private Limited"
+  ],
+  "sector": "insurance",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "aia.com.sg",
+   "aia.com"
+  ],
+  "official_hosts": [
+   "www.aia.com.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.aia.com.sg/en/help-support/security-advisory-and-tips",
+    "kind": "advisory_feed",
+    "lists_indicators": [
+     "sms_sender_id",
+     "email"
+    ],
+    "access": "html",
+    "machine_url": "https://www.aia.com.sg/en/sitemap.xml",
+    "item_count": 23,
+    "latest_item_date": "2026-09-10",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "SMS from AIA can be identified using the following SMS Sender ID: AIA SG/AIASG From AIA/FROMAIA AIAVitality Email from AIA can be identified using the following domain: aia.com.sg aia.com",
+    "notes": "Security Advisory hub: banner 'Beware of scammers impersonating as AIA Singapore staff or AIA Consultant', official sender IDs and email domains (official), FAQ, and 'Recent security advisories' list (~23 dated advisories, 2021-11-09 .. 2026-09-10, each 'View Advisory' link). Also lists example spam/phishing sender addresses (fake, text only): john.d@b631.com, john2@catworld.net, abuse@aia.com (spoofed), rich.c@zenzones.com - old generic examples. Sitemap lastmod 2026-09-18."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "AIA SG",
+    "AIASG",
+    "From AIA",
+    "FROMAIA",
+    "AIAVitality"
+   ],
+   "hotlines": [
+    "1800 248 8000 (Customer Care Hotline)",
+    "(65) 6248 8000 (overseas)"
+   ],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/AIASingapore",
+    "https://www.instagram.com/AIAsingapore/",
+    "https://www.linkedin.com/company/aia-singapore",
+    "https://www.youtube.com/SingaporeAIA"
+   ],
+   "apps": [],
+   "emails": [
+    "@aia.com.sg",
+    "@aia.com"
+   ]
+  },
+  "evidence": [
+   "https://www.aia.com.sg/en/help-support/security-advisory-and-tips",
+   "https://www.aia.com.sg/robots.txt",
+   "https://www.aia.com.sg/en/sitemap.xml"
+  ],
+  "notes": "official_domains (a): aia.com.sg and aia.com stated as official email domains; aia.com.sg is the serving domain. Individual advisory PDFs/pages behind 'View Advisory' not opened."
+ },
+ {
+  "entity_id": "income.com.sg",
+  "name": "Income Insurance Limited",
+  "abbr": null,
+  "aliases": [
+   "Income Insurance",
+   "Income",
+   "NTUC Income",
+   "My Income",
+   "SNACK by Income"
+  ],
+  "sector": "insurance",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "income.com.sg",
+   "snackbyincome.sg",
+   "einco.me",
+   "ntucinco.me"
+  ],
+  "official_hosts": [
+   "www.income.com.sg",
+   "send.income.com.sg",
+   "go.income.com.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.income.com.sg/security-advisory",
+    "kind": "official_channels",
+    "lists_indicators": [
+     "domain",
+     "email",
+     "phone"
+    ],
+    "access": "html",
+    "machine_url": "https://www.income.com.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2025-12-12",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Registered website domains: income.com.sg snackbyincome.sg Marketing email addresses: marketing@send.income.com.sg ... Income only uses these domains: income.com.sg, einco.me and ntucinco.me .",
+    "notes": "Security Advisory: top alert on phone scams using the MAS Register of Representatives to impersonate Income reps ('will never call on behalf of MAS'); scam explainers; FAQ listing authorised website domains, marketing email senders (marketing@send.income.com.sg, info@go.income.com.sg), link domains einco.me / ntucinco.me (short links), customer service 6788 1777 and outbound calling numbers 6645 5141 / 6571 6565. Date = sitemap lastmod. No fake indicators. Emails were Cloudflare-obfuscated in HTML (decoded)."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [
+    "6788 1777 (Customer Service; scam victims)",
+    "6645 5141 (outbound servicing calls)",
+    "6571 6565 (outbound servicing calls)"
+   ],
+   "short_link_domains": [
+    "einco.me",
+    "ntucinco.me"
+   ],
+   "social": [
+    "https://www.facebook.com/IncomeInsurance",
+    "https://www.instagram.com/incomeinsurance/",
+    "https://www.linkedin.com/company/income",
+    "https://www.youtube.com/Incomeinsurance"
+   ],
+   "apps": [
+    "My Income app"
+   ],
+   "emails": [
+    "marketing@send.income.com.sg",
+    "info@go.income.com.sg"
+   ]
+  },
+  "evidence": [
+   "https://www.income.com.sg/security-advisory",
+   "https://www.income.com.sg/sitemap.xml",
+   "https://www.income.com.sg/robots.txt"
+  ],
+  "notes": "All four official_domains are (a) explicitly listed on /security-advisory. einco.me / ntucinco.me appear to be link domains ('Ensure legitimacy of shared links. Income only uses these domains'). Press release on motor insurance fraud also in sitemap (/about-us/corporate-information/press-releases/motor-insurance-fraud-cases; not opened)."
+ },
+ {
+  "entity_id": "singlife.com",
+  "name": "Singapore Life Ltd. (Singlife)",
+  "abbr": null,
+  "aliases": [
+   "Singlife",
+   "Singapore Life",
+   "Singlife with Aviva",
+   "dollarDEX",
+   "GROW with Singlife"
+  ],
+  "sector": "insurance",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "singlife.com"
+  ],
+  "official_hosts": [
+   "singlife.com"
+  ],
+  "scam_info": [
+   {
+    "url": "https://singlife.com/en/singlife-security-advisory",
+    "kind": "alert_page",
+    "lists_indicators": [
+     "email"
+    ],
+    "access": "html",
+    "machine_url": "https://singlife.com/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2026-09-21",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Scam messages are created from fake email accounts that closely resemble legitimate one but have subtle changes (e.g., cs_life@singlif1.com instead of cs_life@singlife.com).",
+    "notes": "Security Advisory: scammers posing as Singlife staff/FARs acting for MAS; fake email example cs_life@singlif1.com (fake domain singlif1.com, text only, never visited). Official: emails only from domain singlife.com; numbers registered with SMS Sender ID Registry (IDs not named); hotline 6827 9933. Date = sitemap lastmod. Related: /en/security-practices (not opened)."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [
+    "6827 9933 (Singlife hotline; verify suspected impersonation)"
+   ],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/SinglifeSG",
+    "https://www.instagram.com/singlife/",
+    "https://www.linkedin.com/company/singlife/",
+    "https://www.youtube.com/@singlifesg"
+   ],
+   "apps": [
+    "Singlife App"
+   ],
+   "emails": [
+    "@singlife.com"
+   ]
+  },
+  "evidence": [
+   "https://singlife.com/en/singlife-security-advisory",
+   "https://singlife.com/sitemap.xml",
+   "https://singlife.com/robots.txt"
+  ],
+  "notes": "official_domains: singlife.com (a: 'Emails from Singlife will only be sent under the official domain singlife.com'; b: serving domain). singlife.darwinbox.com (careers, third-party HR platform) seen in links - not added."
+ },
+ {
+  "entity_id": "mediacorp.sg",
+  "name": "Mediacorp Pte Ltd",
+  "abbr": null,
+  "aliases": [
+   "Mediacorp",
+   "MediaCorp",
+   "meWATCH"
+  ],
+  "sector": "media",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "mediacorp.sg",
+   "mewatch.sg"
+  ],
+  "official_hosts": [
+   "www.mediacorp.sg",
+   "uid.mediacorp.sg",
+   "go.mediacorp.sg",
+   "dam.mediacorp.sg",
+   "www.mewatch.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/mediacorp",
+    "https://www.instagram.com/mediacorp",
+    "https://www.youtube.com/mediacorpsg",
+    "https://www.tiktok.com/@mediacorp?lang=en",
+    "https://x.com/mediacorp",
+    "https://www.linkedin.com/company/mediacorppteltd"
+   ],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.mediacorp.sg/",
+   "https://www.mediacorp.sg/robots.txt"
+  ],
+  "notes": "Corporate site www.mediacorp.sg (b); mewatch.sg (b) linked from corporate navigation; uid.mediacorp.sg = Mediacorp account/sign-in host. No Mediacorp-published scam or impersonation advisory found (homepage links, web search 2026-11-26). Mediacorp vulnerability-disclosure programme hosted at mediacorp.vulnerability-disclosure.com (third-party platform; FQDN only, not added). robots.txt sitemaps: /api/v1/sitemap-news-feed, /api/v1/sitemap-video-feed, /api/v1/sitemap-image-feed, /google-topic-sitemap. Unverified (search snippet, news): Mediacorp filed take-down notice over a fake CNA-styled page using presenter Cheryl Fox's likeness. CNA is a child record (channelnewsasia.com)."
+ },
+ {
+  "entity_id": "channelnewsasia.com",
+  "name": "CNA (Channel NewsAsia)",
+  "abbr": "CNA",
+  "aliases": [
+   "CNA",
+   "Channel NewsAsia",
+   "ChannelNewsAsia",
+   "CNA Singapore"
+  ],
+  "sector": "media",
+  "parent_entity_id": "mediacorp.sg",
+  "country": "SG",
+  "official_domains": [
+   "channelnewsasia.com"
+  ],
+  "official_hosts": [
+   "www.channelnewsasia.com"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml&category=10416",
+    "kind": "news_releases",
+    "lists_indicators": [],
+    "access": "rss",
+    "machine_url": "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml&category=10416",
+    "item_count": 20,
+    "latest_item_date": "2026-11-26",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "<rss version=\"2.0\" xml:base=\"https://www.channelnewsasia.com/\"",
+    "notes": "Media coverage feed (CNA Singapore section RSS, published on https://www.channelnewsasia.com/rss; robots.txt explicitly allows /api/v1/rss-outbound-feed). 20 latest items, 0 scam-titled items at fetch time - filter titles for scam|fraud|phish. Other documented feeds: Latest News (no category), Asia 6511, Business 6936, Sport 10296, World 6311, Insider 11156. No dedicated CNA 'scams' topic page found (not in Singapore-section topic links; web search found none)."
+   },
+   {
+    "url": "https://www.channelnewsasia.com/api/v1/sitemap-news-feed",
+    "kind": "news_releases",
+    "lists_indicators": [],
+    "access": "sitemap",
+    "machine_url": "https://www.channelnewsasia.com/api/v1/sitemap-news-feed",
+    "item_count": 50,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": null,
+    "notes": "Google-News sitemap (50 most recent URLs, allowed in robots.txt); 0 scam-slug URLs at fetch time. Media coverage discovery endpoint, not self-impersonation warnings."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/ChannelNewsAsia",
+    "https://x.com/Channelnewsasia",
+    "https://www.youtube.com/user/channelnewsasia",
+    "https://www.linkedin.com/company/channel-newsasia/",
+    "https://www.instagram.com/channelnewsasia"
+   ],
+   "apps": [
+    "CNA - Channel NewsAsia (iOS App Store id520773971; Google Play com.channelnewsasia; Huawei AppGallery C101326503)"
+   ],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.channelnewsasia.com/singapore",
+   "https://www.channelnewsasia.com/rss",
+   "https://www.channelnewsasia.com/robots.txt"
+  ],
+  "notes": "official_domains: channelnewsasia.com (b) serving domain. No CNA page warning about scams impersonating CNA was found (SPF brand tag 'CNA' covers 7 SPF advisories on fake CNA-styled investment articles; those fake domains are SPF-side and were never visited). Unverified (search snippet): Group-IB 'Immediate Era' report (2025-10) describes a fake CNA site with a deepfake of PM Lawrence Wong. Robots: /search disallowed (not used)."
+ },
+ {
+  "entity_id": "sph.com.sg",
+  "name": "SPH Media",
+  "abbr": "SPH",
+  "aliases": [
+   "SPH Media",
+   "SPH Media Limited",
+   "Singapore Press Holdings"
+  ],
+  "sector": "media",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "sph.com.sg"
+  ],
+  "official_hosts": [
+   "www.sph.com.sg",
+   "subscribe.sph.com.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [],
+   "apps": [],
+   "emails": [
+    "circs@sph.com.sg",
+    "stics@sph.com.sg"
+   ]
+  },
+  "evidence": [
+   "https://www.sph.com.sg/",
+   "https://www.straitstimes.com/RSS-Feeds"
+  ],
+  "notes": "Corporate site www.sph.com.sg (b); links to its news platforms straitstimes.com, zaobao.com.sg, businesstimes.com.sg (separate brands; only ST recorded). No SPH-published scam advisory found (homepage, web search). stics@sph.com.sg is the ST 'Reach us' email on straitstimes.com. Unverified (search snippet, Stomp): SPH Media spokeswoman (Nov 17, ~2023) said scammers impersonated its staff (fake 'film critic' WhatsApp job scam)."
+ },
+ {
+  "entity_id": "straitstimes.com",
+  "name": "The Straits Times",
+  "abbr": "ST",
+  "aliases": [
+   "The Straits Times",
+   "Straits Times",
+   "ST"
+  ],
+  "sector": "media",
+  "parent_entity_id": "sph.com.sg",
+  "country": "SG",
+  "official_domains": [
+   "straitstimes.com"
+  ],
+  "official_hosts": [
+   "www.straitstimes.com"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.straitstimes.com/singapore/readers-beware-scammers-using-fake-st-pages-articles-that-depict-prominent-figures",
+    "kind": "alert_page",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.straitstimes.com/sitemap/2025/02/feeds.xml",
+    "item_count": null,
+    "latest_item_date": "2025-02-24",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Fake news articles, misusing the branding of The Straits Times and other news outlets and falsely attributed to their journalists, have been used in a long-running series of cryptocurrency scams.",
+    "notes": "ST's own warning about fake ST-branded pages (published 2025-02-23, updated 2025-02-24). 'Since 2023, at least 27 such fake sites have been reported to CheckMate'. No fake domains listed (narrative). ST says readers should check back on ST web, app and its social/messaging platforms."
+   },
+   {
+    "url": "https://www.straitstimes.com/tags/scams",
+    "kind": "news_releases",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.straitstimes.com/sitemap.xml",
+    "item_count": 10,
+    "latest_item_date": "2026-11-25",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Got a phone call saying you've won FairPrice vouchers? Beware, it may be a scam",
+    "notes": "Media coverage topic page ('Scams', 10 items per load, newest timestamp in page 2026-11-25). No tag-specific RSS; use section RSS https://www.straitstimes.com/news/singapore/rss.xml (listed on /RSS-Feeds) or monthly sitemaps /sitemap/YYYY/MM/feeds.xml and filter for scam. Related tags /tags/fraud, /tags/fake-news."
+   },
+   {
+    "url": "https://www.straitstimes.com/news/singapore/rss.xml",
+    "kind": "news_releases",
+    "lists_indicators": [],
+    "access": "rss",
+    "machine_url": "https://www.straitstimes.com/news/singapore/rss.xml",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200 (listed on /RSS-Feeds; feed itself not fetched)",
+    "sample": null,
+    "notes": "Media coverage section feed; filter titles for scam|fraud|phish. verified refers to the RSS directory page /RSS-Feeds."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/TheStraitsTimes",
+    "https://instagram.com/straits_times",
+    "https://x.com/straits_times",
+    "https://www.tiktok.com/@straitstimes",
+    "https://www.youtube.com/user/StraitsTimesOnline",
+    "https://sg.linkedin.com/company/the-straits-times"
+   ],
+   "apps": [
+    "The Straits Times (Google Play com.buuuk.st)"
+   ],
+   "emails": [
+    "stics@sph.com.sg"
+   ]
+  },
+  "evidence": [
+   "https://www.straitstimes.com/tags/scams",
+   "https://www.straitstimes.com/RSS-Feeds",
+   "https://www.straitstimes.com/robots.txt",
+   "https://www.sph.com.sg/"
+  ],
+  "notes": "Partly paywalled; only public content read. robots.txt respected (generic UA allowed for /singapore, /tags; Google-Extended disallowed). parent sph.com.sg (SPH corporate site links straitstimes.com as its platform). SPF brand tag 'The Straits Times' (fake domain strikeathletics.pro, SPF-side; never visited)."
+ },
+ {
+  "entity_id": "mothership.sg",
+  "name": "Mothership",
+  "abbr": null,
+  "aliases": [
+   "Mothership",
+   "Mothership.SG"
+  ],
+  "sector": "media",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "mothership.sg"
+  ],
+  "official_hosts": [
+   "mothership.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://mothership.sg/2026/08/fake-mothership-rolex-139/",
+    "kind": "alert_page",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": "2026-08-21",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "We are not offering any discounts on watches. This particular scam implies we have S$139 deals on Rolexes. We do not.",
+    "notes": "Mothership self-impersonation warning (fake Mothership Facebook account selling discounted watches). Narrative; fake account names not listed."
+   },
+   {
+    "url": "https://mothership.sg/2025/08/fake-mothership-accounts/",
+    "kind": "alert_page",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": "2025-08-11",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "More fraudulent Facebook accounts impersonating Mothership have been appearing on the feeds of social media users.",
+    "notes": "Series of self-impersonation warnings; others found via search (not opened): /2025/06/fb-impersonate-mothership/, /2026/04/watch-fake-omega-tissot-mothership/, /2026/01/mothership-penny-stocks-fake/ (fake penny-stock page), /2026/06/steven-chia-cna-article-scam/ (fake CNA-style article). No tag/RSS discovery endpoint found (homepage exposes only /category/* links; /tag/scam/ 404)."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [
+    "https://www.instagram.com/mothershipsg/",
+    "https://t.me/mothershipsg"
+   ],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://mothership.sg/",
+   "https://mothership.sg/2025/08/fake-mothership-accounts/",
+   "https://mothership.sg/2026/08/fake-mothership-rolex-139/"
+  ],
+  "notes": "official_domains: mothership.sg (b). robots.txt minimal (disallows /*/fb/*, /*/amp/*). Fake accounts are Facebook pages with pixelated Mothership-like logos; no concrete handles/URLs published. Social links taken from article footer (Facebook/Twitter links there are share buttons, not profiles)."
+ }
+]

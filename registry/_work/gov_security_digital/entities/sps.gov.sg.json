@@ -1,0 +1,56 @@
+{
+ "entity_id": "sps.gov.sg",
+ "name": "Singapore Prison Service",
+ "abbr": "SPS",
+ "aliases": [
+  "Singapore Prison Service (SPS)"
+ ],
+ "sector": "gov.dept",
+ "parent_entity_id": "mha.gov.sg",
+ "country": "SG",
+ "official_domains": [
+  "sps.gov.sg"
+ ],
+ "official_hosts": [
+  "www.sps.gov.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.sps.gov.sg/media/advisory-on-fake-websites-impersonating--mha-and-home-team-agencies/",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2026-08-13",
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "Stay alert for fake websites copying MHA and Home Team agencies. Always verify that official sites end in .gov.sg, and report suspicious sites to Police via ScamShield at 1799.",
+   "notes": "Republication of the MHA 12 Aug 2026 advisory (>500 fake sites, none named). The only SPS scam item in its sitemap (224 URLs) or RSS. Search also shows the URL without /media/."
+  },
+  {
+   "url": "https://www.sps.gov.sg/media/",
+   "kind": "news_releases",
+   "lists_indicators": [],
+   "access": "rss",
+   "machine_url": "https://www.sps.gov.sg/media/rss.xml",
+   "item_count": 135,
+   "latest_item_date": "2026-11-25",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Thu, 13 Aug 2026 | Advisory On Fake Websites Impersonating MHA And Home Team Agencies",
+   "notes": "RSS 2.0 via rel=alternate: 135 items (25 Jan 2011 to 25 Nov 2026), 1 scam-related."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [
+   "gov.sg"
+  ],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": []
+ },
+ "evidence": [
+  "https://www.sgdi.gov.sg/ministries/mha/departments/sps",
+  "https://www.sps.gov.sg/sitemap.xml"
+ ],
+ "notes": "Its site-wide banner says government officials will never ask for money, Singpass credentials or bank log-ins through unofficial channels. Search results also surfaced an ask.gov.sg SPS Q&A (https://ask.gov.sg/spsvco/...), which was not opened."
+}

@@ -1,0 +1,2 @@
+egress proxy on 127.0.0.1:18080 | vantage=direct:gpu25 | log=/home/ankur/scamtrends_feed/logs/egress.jsonl
+egress proxy on 127.0.0.1:18080 | vantage=direct:gpu25 | log=/home/ankur/scamtrends_feed/logs/egress.jsonl

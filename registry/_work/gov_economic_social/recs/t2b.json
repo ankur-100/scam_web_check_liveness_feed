@@ -1,0 +1,243 @@
+[
+ {
+  "entity_id": "cea.gov.sg",
+  "name": "Council for Estate Agencies",
+  "abbr": "CEA",
+  "aliases": [
+   "Council for Estate Agencies (CEA)",
+   "CEA"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "mnd.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "cea.gov.sg"
+  ],
+  "official_hosts": [
+   "www.cea.gov.sg",
+   "eservices.cea.gov.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.cea.gov.sg/consumers/rental-scams/",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "sitemap",
+    "machine_url": "https://www.cea.gov.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2026-06-25",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Scammers are putting up fake property listings online and impersonating property agents to scam victims into making payment to secure an appointment to view or rent the property.",
+    "notes": "Rental-scam guide (last updated 25 Jun 2026); points to CEA Public Register as allowlist of registered agents (eservices.cea.gov.sg/aceas/public-register, cited by IRAS). 4 related CEAnergy blog posts on fake agents/rental scams in sitemap (216 URLs)."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [
+    "1800 643 2555 (CEA, per SGDI)"
+   ],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [
+    "https://www.facebook.com/ceasingapore",
+    "https://www.instagram.com/ceasingapore",
+    "https://www.linkedin.com/company/ceasingapore",
+    "https://www.youtube.com/c/ceasingapore"
+   ],
+   "apps": [],
+   "emails": [
+    "feedback@cea.gov.sg (SGDI)"
+   ]
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/mnd/statutory-boards/cea",
+   "https://www.cea.gov.sg/consumers/rental-scams/"
+  ],
+  "notes": "Public Register of property agents = allowlist vs fake-agent rental scams."
+ },
+ {
+  "entity_id": "caas.gov.sg",
+  "name": "Civil Aviation Authority of Singapore",
+  "abbr": "CAAS",
+  "aliases": [
+   "Civil Aviation Authority of Singapore (CAAS)",
+   "CAAS"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "mot.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "caas.gov.sg"
+  ],
+  "official_hosts": [
+   "www.caas.gov.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.caas.gov.sg/resources/media-and-publication/newsroom/caas-advisory-on-email-scam/",
+    "kind": "alert_page",
+    "lists_indicators": [
+     "email",
+     "domain"
+    ],
+    "access": "sitemap",
+    "machine_url": "https://www.caas.gov.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2020-05-14",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Examples of fake accounts include tenders@caasgov-sg.com and tenders.caas.gov@gmail.com .",
+    "notes": "Procurement/vendor impersonation email scam; fake addresses and lookalike domain caasgov-sg.com (text only, not visited). Only scam page in sitemap (600 URLs)."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [
+    "6542 1122 (CAAS, per SGDI)"
+   ],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [
+    "https://www.facebook.com/SingaporeCAAS/",
+    "https://www.instagram.com/singaporecaas",
+    "https://www.linkedin.com/company/civil-aviation-authority-of-singapore",
+    "https://www.youtube.com/user/SingaporeCAAS"
+   ],
+   "apps": [],
+   "emails": [
+    "qsm@caas.gov.sg (SGDI)"
+   ]
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/mot/statutory-boards/caas",
+   "https://www.caas.gov.sg/resources/media-and-publication/newsroom/caas-advisory-on-email-scam/"
+  ],
+  "notes": ""
+ },
+ {
+  "entity_id": "pa.gov.sg",
+  "name": "People's Association",
+  "abbr": "PA",
+  "aliases": [
+   "People's Association (PA)",
+   "PA",
+   "onePA"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "mccy.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "pa.gov.sg",
+   "onepa.gov.sg"
+  ],
+  "official_hosts": [
+   "www.pa.gov.sg",
+   "www.onepa.gov.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.pa.gov.sg/scam-alert/",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "sitemap",
+    "machine_url": "https://www.pa.gov.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2026-09-07",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Beware of potential scam letters, calls, messages (e.g. over SMS, WhatsApp, or Telegram), social media pages, websites and mobile applications impersonating People\u2019s Association or staff.",
+    "notes": "Narrative; report hotline 6225 5322 (also the CDC Vouchers scam-report line). Last updated 7 Sep 2026."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [
+    "6225 5322 (PA, report suspected scams)"
+   ],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [
+    "https://www.facebook.com/peoplesassociation",
+    "https://www.instagram.com/peoplesassociation/",
+    "https://www.linkedin.com/company/peoplesassociation",
+    "https://www.tiktok.com/@peoplesassociation",
+    "https://www.youtube.com/@peoplesassociationsg",
+    "https://whatsapp.com/channel/0029Va7A5KkCXC3Bf6RIdS01"
+   ],
+   "apps": [],
+   "emails": [
+    "PA_QSM@pa.gov.sg (SGDI)"
+   ]
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/mccy/statutory-boards/pa",
+   "https://www.pa.gov.sg/scam-alert/"
+  ],
+  "notes": "onepa.gov.sg linked from CDC Vouchers FAQ (b). PA administers CDC voucher scam reports."
+ },
+ {
+  "entity_id": "sfa.gov.sg",
+  "name": "Singapore Food Agency",
+  "abbr": "SFA",
+  "aliases": [
+   "Singapore Food Agency (SFA)",
+   "SFA"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "mse.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "sfa.gov.sg"
+  ],
+  "official_hosts": [
+   "www.sfa.gov.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.sfa.gov.sg/news-publications/newsroom/before-2024/advisory-on-phishing-scams",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "sitemap",
+    "machine_url": "https://www.sfa.gov.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2022-10-10",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Some involve misrepresentation of Government agencies or impersonation of Government officers to trick users into making fund transfers or sharing their personal information and passwords.",
+    "notes": "Generic 2022 advisory (page touched 15 Oct 2026). Narrative."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [
+    "6805 2871 (SFA, per SGDI)"
+   ],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [
+    "https://www.facebook.com/SGFoodAgency/",
+    "https://www.instagram.com/SGFoodAgency/",
+    "https://twitter.com/SGFoodAgency",
+    "https://t.me/sgfoodagency",
+    "https://www.tiktok.com/@sgfoodagency",
+    "https://www.youtube.com/sgfoodagency"
+   ],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/mse/statutory-boards/sfa",
+   "https://www.sfa.gov.sg/news-publications/newsroom/before-2024/advisory-on-phishing-scams"
+  ],
+  "notes": ""
+ }
+]

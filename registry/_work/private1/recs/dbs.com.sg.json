@@ -1,0 +1,119 @@
+{
+ "entity_id": "dbs.com.sg",
+ "name": "DBS Bank (Singapore)",
+ "abbr": "DBS",
+ "aliases": [
+  "DBS",
+  "DBS Bank",
+  "DBS PayLah",
+  "DBS PayLah!",
+  "PayLah!",
+  "DBS digibank",
+  "digibank",
+  "DBS Digital Token",
+  "DBS Group"
+ ],
+ "sector": "bank",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "dbs.com.sg",
+  "posb.com.sg",
+  "dbs.com",
+  "dbsvonline.com",
+  "dbs.com.hk",
+  "dbs.com.cn",
+  "dbs.com.tw"
+ ],
+ "official_hosts": [
+  "www.dbs.com.sg",
+  "internet-banking.dbs.com.sg",
+  "www.posb.com.sg",
+  "www.dbs.com",
+  "www.dbsvonline.com",
+  "dbs-digibank.onelink.me",
+  "www.dbs.com.hk"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.dbs.com.sg/personal/scam-defence/recent-scams-fraud.page",
+   "kind": "advisory_feed",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": 13,
+   "latest_item_date": "2026-08-28",
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "SMS Phishing Alert ... Date: 28 August 2026 ... Scammers use phishing SMSes messages urging you to resolve unauthorised PayNow transactions. These phishing SMSes ask you to call a phone number in the SMS.",
+   "notes": "Next.js page. The 2026 tab (6 dated alerts, 2026-01-08..2026-08-28; one 'Updated 15 August 2026') is server-rendered only inside a <noscript> block; the 'Scams & Frauds Alert Archives' tab (#ScaFraAleArc_2, same URL) holds 7 older dated alerts (2023-04-06..2025-09-12). Narrative MOs only: no fake domains/numbers/sender IDs. Not listed in sitemap-personal-2026.xml. Re-fetched 2026-11-26 HTTP 200, unchanged."
+  },
+  {
+   "url": "https://www.dbs.com.sg/personal/scam-defence/default.page",
+   "kind": "scam_faq",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": "https://www.dbs.com.sg/sitemap-personal-2026.xml",
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "Suspect you might be a victim of scam? Call our 24/7 DBS Fraud Hotline immediately at 1800 339 6963.",
+   "notes": "DBS Scam Defence hub: Safety Switch, digiVault, Payment Controls, scam-type explainers. Sitemap lastmod 2026-08-04. robots.txt disallows sibling pages /personal/scam-defence/alerts-and-updates.page, protect-yourself-now.page, learn-about-scams.page, how-we-protect-you.page (not fetched)."
+  },
+  {
+   "url": "https://www.dbs.com.sg/personal/scam-defence/protecting-yourself-online",
+   "kind": "official_channels",
+   "lists_indicators": [
+    "phone",
+    "url"
+   ],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "Call us immediately at our 24-hour DBS Fraud Hotline at 1800 339 6963 or +65 6339 6963 (Overseas) to report fraudulent transactions",
+   "notes": "(official) DBS fraud/customer-service hotlines and per-market contact URLs/numbers (CN 400-820-8988, IN 1-860-210-3456, ID 0804 1500 327, TW (02) 6612 9889 / 0800 808 889); E-Payments User Protection Guidelines FAQ; links scamalert.sg."
+  },
+  {
+   "url": "https://www.dbs.com.sg/personal/support/guide-security-on-scams-and-fraud.html",
+   "kind": "scam_faq",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": "https://www.dbs.com.sg/sitemap-personal-2026.xml",
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "Do not download apps from unknown or unofficial sources.",
+   "notes": "Support guide; gives 1800 339 6963 / (65) 6339 6963 from overseas. This is the page ScamShield's bank-hotline list links to for DBS/POSB. Sitemap lastmod 2026-05-14."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [
+   "1800 339 6963 (24/7 DBS Fraud Hotline)",
+   "+65 6339 6963 (DBS Fraud Hotline, from overseas)",
+   "1800 111 1111 (DBS customer service hotline)",
+   "+65 6327 2265 (DBS customer service, overseas)"
+  ],
+  "short_link_domains": [],
+  "social": [
+   "https://www.facebook.com/dbs.sg",
+   "https://www.instagram.com/dbsbank/?hl=en",
+   "http://www.youtube.com/user/DBS/feed",
+   "https://sg.linkedin.com/company/dbs-bank"
+  ],
+  "apps": [
+   "DBS digibank (iOS and Android; download via dbs-digibank.onelink.me)"
+  ],
+  "emails": []
+ },
+ "evidence": [
+  "https://www.dbs.com.sg/personal/default.page",
+  "https://www.dbs.com.sg/personal/scam-defence/default.page",
+  "https://www.dbs.com.sg/personal/scam-defence/protecting-yourself-online",
+  "https://www.dbs.com.sg/personal/support/guide-security-on-scams-and-fraud.html",
+  "https://www.dbs.com.sg/personal/scam-defence/recent-scams-fraud.page",
+  "https://www.scamshield.gov.sg/bank-s-anti-scam-hotline/"
+ ],
+ "notes": "official_domains: all type (b) - dbs.com.sg serves the site; posb.com.sg, dbs.com (DBS Group/About DBS), dbsvonline.com (DBS Vickers Online) and other-market sites dbs.com.hk/.cn/.tw are linked from the personal-banking header/footer navigation. No page states an explicit 'our official websites are' list. Login host internet-banking.dbs.com.sg seen in homepage links. dbs-digibank.onelink.me is an AppsFlyer (third-party) app-download redirect - kept as FQDN only. Repeated DBS statement on alerts: 'Emails and SMSes from DBS will never include clickable links.' SMS sender ID not published on pages read; web search found none on dbs.com.sg (SGNIC SSIR sender-ID query is reCAPTCHA-gated; its public org list gives names only). go.dbs.com short links appear in search results only - unverified (search snippet). Hotline 1800 339 6963 corroborated by ScamShield bank anti-scam hotline page (updated 20 May 2026). POSB has its own scam pages -> separate child record posb.com.sg. robots.txt: ~1000 Disallow lines incl. 4 scam-defence subpages; Sitemap lines exist (sitemap-personal-2026.xml etc.)."
+}

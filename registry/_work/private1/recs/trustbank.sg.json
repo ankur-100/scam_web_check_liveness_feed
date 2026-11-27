@@ -1,0 +1,84 @@
+{
+ "entity_id": "trustbank.sg",
+ "name": "Trust Bank Singapore Limited",
+ "abbr": "Trust",
+ "aliases": [
+  "Trust Bank",
+  "Trust",
+  "Trust Bank Singapore",
+  "Trust App",
+  "Trust lock"
+ ],
+ "sector": "bank",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "trustbank.sg"
+ ],
+ "official_hosts": [
+  "trustbank.sg",
+  "trust.onelink.me"
+ ],
+ "scam_info": [
+  {
+   "url": "https://trustbank.sg/srf/",
+   "kind": "scam_faq",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": "https://trustbank.sg/sitemap.xml",
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "24/7 Reporting Channel : We offer a 24/7 reporting channel. You can contact our customer service via Trust App or call our hotline at +65 3138 7878.",
+   "notes": "Shared Responsibility Framework page: phishing-scam definition, kill switch (Trust App > Profile > Security), transaction-pause measures from 28 June 2025, notifications, liabilities. Found via web search; content is server-rendered."
+  },
+  {
+   "url": "https://trustbank.sg/security/",
+   "kind": "scam_faq",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": "https://trustbank.sg/sitemap.xml",
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Scammers never rest - but neither do we. Discover our security features to help you bank securely!",
+   "notes": "Security features page (numberless card, Trust lock for Savings Pots with 12-hour cooling period, malware warning, SRF link). In sitemap."
+  },
+  {
+   "url": "https://trustbank.sg/faqs/security/",
+   "kind": "scam_faq",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": "https://trustbank.sg/sitemap.xml",
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 200 via WebFetch",
+   "sample": null,
+   "notes": "JS-rendered FAQ: curl and WebFetch return only navigation/footer (answers loaded client-side; __NEXT_DATA__ empty). Not machine-readable without a browser."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [
+   "+65 3138 7878 (Trust 24/7 reporting channel / customer service hotline)"
+  ],
+  "short_link_domains": [],
+  "social": [
+   "https://www.facebook.com/trustbanksg",
+   "https://www.instagram.com/trustbank.sg",
+   "https://www.linkedin.com/company/trustbank-sg",
+   "https://www.youtube.com/c/trustbanksg"
+  ],
+  "apps": [
+   "Trust App (download via trust.onelink.me)"
+  ],
+  "emails": []
+ },
+ "evidence": [
+  "https://trustbank.sg/",
+  "https://trustbank.sg/srf/",
+  "https://trustbank.sg/security/",
+  "https://trustbank.sg/robots.txt"
+ ],
+ "notes": "Digital bank (Standard Chartered x FairPrice Group partnership; footer links www.sc.com/sg and fairpricegroup.com.sg - partner sites, not added). official_domains (b): trustbank.sg serves site (no www). trust.onelink.me is a third-party AppsFlyer app-download redirect (FQDN only). Not on ScamShield's bank anti-scam hotline list. Sitemap https://trustbank.sg/sitemap.xml (security + faqs/security listed; newsroom has no scam items). No dated scam-alert list; '/announcements/' exists (not fetched). SMS sender ID not stated."
+}

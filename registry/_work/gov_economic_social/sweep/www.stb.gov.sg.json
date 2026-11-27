@@ -1,0 +1,27 @@
+{
+ "host": "www.stb.gov.sg",
+ "robots_status": 200,
+ "robots": "User-Agent: *\nAllow: /\nDisallow: /search\n\nSitemap: https://www.stb.gov.sg/sitemap.xml\n",
+ "sitemaps_declared": [
+  "https://www.stb.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  [
+   "https://www.stb.gov.sg/sitemap.xml",
+   "urlset",
+   404,
+   "https://www.stb.gov.sg/sitemap.xml"
+  ]
+ ],
+ "errors": [],
+ "total_urls": 404,
+ "hosts_in_sitemap": {
+  "www.stb.gov.sg": 404
+ },
+ "matches": [
+  [
+   "https://www.stb.gov.sg/about-stb/media-publications/media-centre/public-advisory-transact-with-licensed-travel-agents-only/",
+   "2026-07-30T17:06:19.172Z"
+  ]
+ ]
+}

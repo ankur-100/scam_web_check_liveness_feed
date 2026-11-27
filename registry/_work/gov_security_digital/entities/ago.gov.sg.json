@@ -1,0 +1,31 @@
+{
+ "entity_id": "ago.gov.sg",
+ "name": "Auditor-General's Office",
+ "abbr": "AGO",
+ "aliases": [
+  "Auditor-General's Office (AGO)"
+ ],
+ "sector": "gov.organ",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "ago.gov.sg"
+ ],
+ "official_hosts": [
+  "www.ago.gov.sg"
+ ],
+ "scam_info": [],
+ "official_channels": {
+  "sms_sender_ids": [
+   "gov.sg"
+  ],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": []
+ },
+ "evidence": [
+  "https://www.sgdi.gov.sg/organs-of-state/ago",
+  "https://www.ago.gov.sg/sitemap.xml"
+ ],
+ "notes": "Tier 2. Sitemap (113 URLs, fetched 2026-11-26) has 0 scam/fraud/phish/impersonat/fake/hoax/spoof slugs. No scam pages found."
+}

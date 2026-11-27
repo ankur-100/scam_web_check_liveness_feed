@@ -1,0 +1,75 @@
+{
+ "entity_id": "income.com.sg",
+ "name": "Income Insurance Limited",
+ "abbr": null,
+ "aliases": [
+  "Income Insurance",
+  "Income",
+  "NTUC Income",
+  "My Income",
+  "SNACK by Income"
+ ],
+ "sector": "insurance",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "income.com.sg",
+  "snackbyincome.sg",
+  "einco.me",
+  "ntucinco.me"
+ ],
+ "official_hosts": [
+  "www.income.com.sg",
+  "send.income.com.sg",
+  "go.income.com.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.income.com.sg/security-advisory",
+   "kind": "official_channels",
+   "lists_indicators": [
+    "domain",
+    "email",
+    "phone"
+   ],
+   "access": "html",
+   "machine_url": "https://www.income.com.sg/sitemap.xml",
+   "item_count": null,
+   "latest_item_date": "2025-12-12",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Registered website domains: income.com.sg snackbyincome.sg Marketing email addresses: marketing@send.income.com.sg ... Income only uses these domains: income.com.sg, einco.me and ntucinco.me .",
+   "notes": "Security Advisory: top alert on phone scams using the MAS Register of Representatives to impersonate Income reps ('will never call on behalf of MAS'); scam explainers; FAQ listing authorised website domains, marketing email senders (marketing@send.income.com.sg, info@go.income.com.sg), link domains einco.me / ntucinco.me (short links), customer service 6788 1777 and outbound calling numbers 6645 5141 / 6571 6565. Date = sitemap lastmod. No fake indicators. Emails were Cloudflare-obfuscated in HTML (decoded)."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [
+   "6788 1777 (Customer Service; scam victims)",
+   "6645 5141 (outbound servicing calls)",
+   "6571 6565 (outbound servicing calls)"
+  ],
+  "short_link_domains": [
+   "einco.me",
+   "ntucinco.me"
+  ],
+  "social": [
+   "https://www.facebook.com/IncomeInsurance",
+   "https://www.instagram.com/incomeinsurance/",
+   "https://www.linkedin.com/company/income",
+   "https://www.youtube.com/Incomeinsurance"
+  ],
+  "apps": [
+   "My Income app"
+  ],
+  "emails": [
+   "marketing@send.income.com.sg",
+   "info@go.income.com.sg"
+  ]
+ },
+ "evidence": [
+  "https://www.income.com.sg/security-advisory",
+  "https://www.income.com.sg/sitemap.xml",
+  "https://www.income.com.sg/robots.txt"
+ ],
+ "notes": "All four official_domains are (a) explicitly listed on /security-advisory. einco.me / ntucinco.me appear to be link domains ('Ensure legitimacy of shared links. Income only uses these domains'). Press release on motor insurance fraud also in sitemap (/about-us/corporate-information/press-releases/motor-insurance-fraud-cases; not opened)."
+}

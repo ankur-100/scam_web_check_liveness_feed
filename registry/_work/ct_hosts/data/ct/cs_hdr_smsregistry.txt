@@ -1,0 +1,12 @@
+HTTP/2 200 
+access-control-allow-origin: *
+cache-control: public, max-age=14400, must-revalidate
+content-type: application/json
+link: <https://api.certspotter.com/issuances?after=18218138095&domain=smsregistry.sg&expand=dns_names&include_subdomains=true>; rel="next"
+server: sslmatehttpd
+vary: Authorization
+x-content-type-options: nosniff
+x-ratelimit-limit: 10
+x-ratelimit-remaining: 9
+date: Thu, 26 Nov 2026 03:56:40 GMT
+

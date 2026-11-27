@@ -1,0 +1,57 @@
+{
+ "host": "www.case.org.sg",
+ "robots_status": 200,
+ "robots": "Sitemap: https://www.case.org.sg/wp-sitemap.xml\n\nUser-agent: *\nDisallow: /casetrust/private/\n\n",
+ "sitemaps_declared": [
+  "https://www.case.org.sg/wp-sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  [
+   "https://www.case.org.sg/wp-sitemap.xml",
+   "index",
+   13,
+   "https://www.case.org.sg/wp-sitemap.xml"
+  ],
+  [
+   "https://www.case.org.sg/wp-sitemap-posts-post-1.xml",
+   "urlset",
+   8,
+   "https://www.case.org.sg/wp-sitemap-posts-post-1.xml"
+  ],
+  [
+   "https://www.case.org.sg/wp-sitemap-posts-page-1.xml",
+   "urlset",
+   24,
+   "https://www.case.org.sg/wp-sitemap-posts-page-1.xml"
+  ],
+  [
+   "https://www.case.org.sg/wp-sitemap-posts-elementskit_template-1.xml",
+   "urlset",
+   2,
+   "https://www.case.org.sg/wp-sitemap-posts-elementskit_template-1.xml"
+  ],
+  [
+   "https://www.case.org.sg/wp-sitemap-posts-committee_member-1.xml",
+   "urlset",
+   7,
+   "https://www.case.org.sg/wp-sitemap-posts-committee_member-1.xml"
+  ],
+  [
+   "https://www.case.org.sg/wp-sitemap-posts-list-1.xml",
+   "urlset",
+   28,
+   "https://www.case.org.sg/wp-sitemap-posts-list-1.xml"
+  ]
+ ],
+ "errors": [],
+ "total_urls": 69,
+ "hosts_in_sitemap": {
+  "www.case.org.sg": 69
+ },
+ "matches": [
+  [
+   "https://www.case.org.sg/company-alert/",
+   "2022-11-01T12:35:46+00:00"
+  ]
+ ]
+}

@@ -1,0 +1,957 @@
+[
+ {
+  "entity_id": "mse.gov.sg",
+  "name": "Ministry of Sustainability and the Environment",
+  "abbr": "MSE",
+  "aliases": [
+   "MSE"
+  ],
+  "sector": "gov.ministry",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "mse.gov.sg"
+  ],
+  "official_hosts": [
+   "www.mse.gov.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.mse.gov.sg/latest-news/misuse-of-mse-logo-in-fraudulent-carbon-credit-trading-scam/",
+    "kind": "advisory_feed",
+    "lists_indicators": [
+     "entity_name"
+    ],
+    "access": "sitemap",
+    "machine_url": "https://www.mse.gov.sg/sitemap.xml",
+    "item_count": 4,
+    "latest_item_date": "2025-10-30",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "The purported scam misuses Government agency logos to mislead users into signing up for a crypto address and depositing funds for trading carbon credits.",
+    "notes": "4 'Scam advisory' items in sitemap (1,705 URLs): this (30 Oct 2025) + impersonation of Climate Impact X, GoNetZero, GenZero (carbon-credit/investment brand impersonation; entity names). Sitemap lastmod bulk."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [
+    "6731 9000 (MSE, per SGDI)"
+   ],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [
+    "https://www.facebook.com/MSEsingapore/",
+    "https://www.instagram.com/msesingapore/",
+    "https://sg.linkedin.com/company/msesingapore",
+    "https://www.tiktok.com/@msesingapore/",
+    "https://www.youtube.com/msesingapore"
+   ],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/mse",
+   "https://www.mse.gov.sg/latest-news/misuse-of-mse-logo-in-fraudulent-carbon-credit-trading-scam/"
+  ],
+  "notes": "Parent of NEA, PUB, SFA."
+ },
+ {
+  "entity_id": "ipos.gov.sg",
+  "name": "Intellectual Property Office of Singapore",
+  "abbr": "IPOS",
+  "aliases": [
+   "IPOS"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "mlaw.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "ipos.gov.sg"
+  ],
+  "official_hosts": [
+   "www.ipos.gov.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.ipos.gov.sg/news/news-collection/scam-alert-public-advisory-on-scammers-2024/",
+    "kind": "alert_page",
+    "lists_indicators": [],
+    "access": "sitemap",
+    "machine_url": "https://www.ipos.gov.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2024-06-03",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "IPOS clarified it will not request personal information or payments over these channels and advised vigilance.",
+    "notes": "Impersonation via phone/SMS/email. Siblings: earlier '-scam-alert--public-advisory-on-scammers-impersonating-ipos-staff', and /manage-ip/unsolicited-ip-services/ (fake IP-renewal invoices; lastmod 2025-03-25, not opened)."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [
+    "+65 6339 8616 (IPOS general enquiries, per SGDI)"
+   ],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [
+    "https://www.facebook.com/IPOSG/",
+    "https://www.instagram.com/ipofficesg/",
+    "https://www.linkedin.com/company/intellectual-property-office-of-singapore/",
+    "https://www.tiktok.com/@ipofficesg",
+    "https://www.twitter.com/ipofficesg/",
+    "https://www.youtube.com/user/IPOSsingapore"
+   ],
+   "apps": [],
+   "emails": [
+    "ipos_enquiry@ipos.gov.sg (SGDI)"
+   ]
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/minlaw/statutory-boards/ipos",
+   "https://www.ipos.gov.sg/news/news-collection/scam-alert-public-advisory-on-scammers-2024/"
+  ],
+  "notes": "Under MinLaw (other partition covers MinLaw itself)."
+ },
+ {
+  "entity_id": "ncss.gov.sg",
+  "name": "National Council of Social Service",
+  "abbr": "NCSS",
+  "aliases": [
+   "NCSS",
+   "Community Chest",
+   "Social Service Institute"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "msf.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "ncss.gov.sg"
+  ],
+  "official_hosts": [
+   "www.ncss.gov.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.ncss.gov.sg/about-us/our-media-centre/announcements-and-advisories/scam-advisory/",
+    "kind": "official_channels",
+    "lists_indicators": [
+     "domain"
+    ],
+    "access": "sitemap",
+    "machine_url": "https://www.ncss.gov.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2025-06-04",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Transactions will be conducted via Giving.sg’s donation site, Community Chest’s website or Social Service Institute’s website. NCSS will NEVER ask you to transfer money",
+    "notes": "Official donation channels (Giving.sg, Community Chest, SSI) vs charity-impersonation scams."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [
+    "6210 2500 (NCSS, per SGDI)"
+   ],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [
+    "https://www.facebook.com/ncss.sg/",
+    "https://www.instagram.com/ncss.sg/",
+    "https://sg.linkedin.com/company/ncss-sg",
+    "https://www.youtube.com/c/NationalCouncilofSocialService"
+   ],
+   "apps": [],
+   "emails": [
+    "ncss_qsm@ncss.gov.sg (SGDI)"
+   ]
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/msf/statutory-boards/ncss",
+   "https://www.ncss.gov.sg/about-us/our-media-centre/announcements-and-advisories/scam-advisory/"
+  ],
+  "notes": "giving.sg named as official donation site (a); domain not added (not opened)."
+ },
+ {
+  "entity_id": "mof.gov.sg",
+  "name": "Ministry of Finance",
+  "abbr": "MOF",
+  "aliases": [
+   "MOF"
+  ],
+  "sector": "gov.ministry",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "mof.gov.sg"
+  ],
+  "official_hosts": [
+   "www.mof.gov.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.mof.gov.sg/news-resources/newsroom/impersonation-of-a-government-agency-or-company-registrar/",
+    "kind": "news_releases",
+    "lists_indicators": [],
+    "access": "sitemap",
+    "machine_url": "https://www.mof.gov.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2018-09-10",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "To ask the Minister for Finance how can the Government better assist or advise businesses which have been deceived or misled into signing contracts with companies purporting to be authorised Government agencies",
+    "notes": "Only PQ replies (5 scam/fraud URLs in sitemap, e.g. fake-organisations, fraudulent claims). No advisory page."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [
+    "1800 2260806 (MOF, per SGDI)"
+   ],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [
+    "https://twitter.com/MOFsg",
+    "https://www.facebook.com/MOFsg/?fref=ts",
+    "https://www.instagram.com/mof_sg/",
+    "https://www.linkedin.com/company/mofsingapore/",
+    "https://www.tiktok.com/@mofspore/",
+    "https://www.youtube.com/@MOF-singapore"
+   ],
+   "apps": [],
+   "emails": [
+    "MOF_QSM@mof.gov.sg (SGDI)"
+   ]
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/mof",
+   "https://www.mof.gov.sg/news-resources/newsroom/impersonation-of-a-government-agency-or-company-registrar/"
+  ],
+  "notes": "Parent of IRAS, ACRA, Customs, Tote Board."
+ },
+ {
+  "entity_id": "nparks.gov.sg",
+  "name": "National Parks Board",
+  "abbr": "NParks",
+  "aliases": [
+   "NParks",
+   "National Parks Board"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "mnd.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "nparks.gov.sg"
+  ],
+  "official_hosts": [
+   "www.nparks.gov.sg",
+   "beta.nparks.gov.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.nparks.gov.sg/noticeboard/phishing-scams",
+    "kind": "alert_page",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": "2023-12-12",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Security advisory: Beware of phishing scams",
+    "notes": "Dated 12 Dec 2023; narrative. robots.txt points sitemap at cms.nparks.prj.simsys.sg (SSL error) -> no usable sitemap."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [
+    "6471 7808 (NParks, per SGDI)"
+   ],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [
+    "https://www.facebook.com/nparksbuzz",
+    "https://www.instagram.com/nparksbuzz",
+    "https://t.me/s/nparksbuzz",
+    "https://www.tiktok.com/@nparkssg",
+    "https://www.youtube.com/NParksSG",
+    "https://sg.linkedin.com/company/nationalparksboardsg"
+   ],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/mnd/statutory-boards/nparks",
+   "https://www.nparks.gov.sg/noticeboard/phishing-scams"
+  ],
+  "notes": "beta.nparks.gov.sg redirects to www."
+ },
+ {
+  "entity_id": "stb.gov.sg",
+  "name": "Singapore Tourism Board",
+  "abbr": "STB",
+  "aliases": [
+   "STB"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "meti.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "stb.gov.sg"
+  ],
+  "official_hosts": [
+   "www.stb.gov.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.stb.gov.sg/about-stb/media-publications/media-centre/public-advisory-transact-with-licensed-travel-agents-only/",
+    "kind": "alert_page",
+    "lists_indicators": [
+     "entity_name"
+    ],
+    "access": "sitemap",
+    "machine_url": "https://www.stb.gov.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2025-10-16",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "an individual, Lim Yi Shoon, and two companies, I-Travel Pte. Ltd. and LikeTravel Pte. Ltd., have allegedly been offering",
+    "notes": "Names unlicensed travel sellers; points to licensed travel-agent register (allowlist)."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [
+    "http://www.facebook.com/STBsingapore",
+    "http://www.instagram.com/stb_ig",
+    "http://www.linkedin.com/company/singapore-tourism-board"
+   ],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/meti/statutory-boards/stb",
+   "https://www.stb.gov.sg/about-stb/media-publications/media-centre/public-advisory-transact-with-licensed-travel-agents-only/"
+  ],
+  "notes": ""
+ },
+ {
+  "entity_id": "case.org.sg",
+  "name": "Consumers Association of Singapore",
+  "abbr": "CASE",
+  "aliases": [
+   "CASE",
+   "Consumers Association of Singapore",
+   "CaseTrust"
+  ],
+  "sector": "quasi_gov",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "case.org.sg"
+  ],
+  "official_hosts": [
+   "www.case.org.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.case.org.sg/company-alert/",
+    "kind": "fake_indicator_list",
+    "lists_indicators": [
+     "entity_name"
+    ],
+    "access": "html",
+    "machine_url": "https://www.case.org.sg/sitemap.xml",
+    "item_count": 28,
+    "latest_item_date": "2025-10-15",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "The Company Alert List is a non-exhaustive list of companies against which CASE has received consumer complaints.",
+    "notes": "28 companies (paginated, filter by year/industry), newest 'DNA Brands Co Pte Ltd' 15 Oct 2025. Errant-retailer names, not scam IOCs. Sitemap (69 URLs) stale (newest match lastmod 2022)."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/casesg",
+    "https://twitter.com/casesg",
+    "https://sg.linkedin.com/company/consumers-association-of-singapore-case-"
+   ],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.case.org.sg/company-alert/"
+  ],
+  "notes": "NGO/quasi-gov (NTUC-linked); CaseTrust accreditation list is an allowlist (not checked)."
+ },
+ {
+  "entity_id": "singaporepools.com.sg",
+  "name": "Singapore Pools",
+  "abbr": "Singapore Pools",
+  "aliases": [
+   "Singapore Pools"
+  ],
+  "sector": "quasi_gov",
+  "parent_entity_id": "toteboard.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "singaporepools.com.sg"
+  ],
+  "official_hosts": [
+   "www.singaporepools.com.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/singaporepoolsresults/",
+    "https://www.facebook.com/Singaporepoolsinthecommunity",
+    "https://instagram.com/sgpools",
+    "https://twitter.com/sgpools",
+    "https://sg.linkedin.com/company/singaporepools",
+    "https://www.youtube.com/@singaporepools4915"
+   ],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.singaporepools.com.sg/"
+  ],
+  "notes": "Tote Board subsidiary, only legal lottery/betting operator (allowlist vs illegal gambling sites). No robots Sitemap (/sitemap.xml returns HTML), homepage has no scam section; not searched further (Tier 2 budget). GRA/illegal-gambling blocking is other partition."
+ },
+ {
+  "entity_id": "meti.gov.sg",
+  "name": "Ministry of Energy, Trade and Industry",
+  "abbr": "METI",
+  "aliases": [
+   "METI",
+   "MTI",
+   "Ministry of Trade and Industry"
+  ],
+  "sector": "gov.ministry",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "meti.gov.sg",
+   "mti.gov.sg"
+  ],
+  "official_hosts": [
+   "www.meti.gov.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/meti"
+  ],
+  "notes": "Tier-2 quick check (robots+sitemap sweep 2026-11-26, URL keyword grep): no scam-information page found. Formerly MTI (mti.gov.sg redirects; same 6,788-URL sitemap). Only scam hit: PQ on scam-compound kidnappings (2026-08-21)."
+ },
+ {
+  "entity_id": "edb.gov.sg",
+  "name": "Economic Development Board",
+  "abbr": "EDB",
+  "aliases": [
+   "EDB"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "meti.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "edb.gov.sg"
+  ],
+  "official_hosts": [
+   "www.edb.gov.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/meti/statutory-boards/edb"
+  ],
+  "notes": "Tier-2 quick check (robots+sitemap sweep 2026-11-26, URL keyword grep): no scam-information page found. Sitemap 2,446 URLs, no scam page."
+ },
+ {
+  "entity_id": "sentosa.com.sg",
+  "name": "Sentosa Development Corporation",
+  "abbr": "SDC",
+  "aliases": [
+   "Sentosa",
+   "Sentosa Development Corporation"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "meti.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "sentosa.com.sg"
+  ],
+  "official_hosts": [
+   "www.sentosa.com.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/meti/statutory-boards/sdc"
+  ],
+  "notes": "Tier-2 quick check (robots+sitemap sweep 2026-11-26, URL keyword grep): no scam-information page found. Sitemap 633 URLs; only keyword hit is an otters advisory. SPF brand tag 'Sentosa' (1 advisory 'Beware of Phishing Scams Impersonating Sentosa'; SPF sample scam domain sentosa-sg.com, not visited) - Sentosa itself publishes nothing found."
+ },
+ {
+  "entity_id": "pub.gov.sg",
+  "name": "PUB, Singapore's National Water Agency",
+  "abbr": "PUB",
+  "aliases": [
+   "PUB"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "mse.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "pub.gov.sg"
+  ],
+  "official_hosts": [
+   "www.pub.gov.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/mse/statutory-boards/pub"
+  ],
+  "notes": "Tier-2 quick check (robots+sitemap sweep 2026-11-26, URL keyword grep): no scam-information page found. Sitemap 479 URLs, hits only flood SMS-alert subscription."
+ },
+ {
+  "entity_id": "sla.gov.sg",
+  "name": "Singapore Land Authority",
+  "abbr": "SLA",
+  "aliases": [
+   "SLA"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "mlaw.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "sla.gov.sg"
+  ],
+  "official_hosts": [
+   "www.sla.gov.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/minlaw/statutory-boards/sla"
+  ],
+  "notes": "Tier-2 quick check (robots+sitemap sweep 2026-11-26, URL keyword grep): no scam-information page found. Sitemap 199 URLs, 0 keyword hits."
+ },
+ {
+  "entity_id": "bca.gov.sg",
+  "name": "Building and Construction Authority",
+  "abbr": "BCA",
+  "aliases": [
+   "BCA"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "mnd.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "bca.gov.sg"
+  ],
+  "official_hosts": [
+   "www.bca.gov.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/mnd/statutory-boards/bca"
+  ],
+  "notes": "Tier-2 quick check (robots+sitemap sweep 2026-11-26, URL keyword grep): no scam-information page found. Sitemap lists only 4 URLs (not usable); no scam page found."
+ },
+ {
+  "entity_id": "mpa.gov.sg",
+  "name": "Maritime and Port Authority of Singapore",
+  "abbr": "MPA",
+  "aliases": [
+   "MPA"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "mot.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "mpa.gov.sg"
+  ],
+  "official_hosts": [
+   "www.mpa.gov.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/mot/statutory-boards/mpa"
+  ],
+  "notes": "Tier-2 quick check (robots+sitemap sweep 2026-11-26, URL keyword grep): no scam-information page found. No robots.txt / sitemap.xml (404); not searched further."
+ },
+ {
+  "entity_id": "ptc.gov.sg",
+  "name": "Public Transport Council",
+  "abbr": "PTC",
+  "aliases": [
+   "PTC"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "mot.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "ptc.gov.sg"
+  ],
+  "official_hosts": [
+   "www.ptc.gov.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/mot/statutory-boards/ptc"
+  ],
+  "notes": "Tier-2 quick check (robots+sitemap sweep 2026-11-26, URL keyword grep): no scam-information page found. Sitemap 125 URLs; hits only 'advisory panel'."
+ },
+ {
+  "entity_id": "sportsingapore.gov.sg",
+  "name": "Sport Singapore",
+  "abbr": "SportSG",
+  "aliases": [
+   "SportSG",
+   "ActiveSG"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "mccy.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "sportsingapore.gov.sg"
+  ],
+  "official_hosts": [
+   "www.sportsingapore.gov.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/mccy/statutory-boards/sportsg"
+  ],
+  "notes": "Tier-2 quick check (robots+sitemap sweep 2026-11-26, URL keyword grep): no scam-information page found. Sitemap 812 URLs; no scam page by URL."
+ },
+ {
+  "entity_id": "singstat.gov.sg",
+  "name": "Department of Statistics Singapore",
+  "abbr": "SingStat",
+  "aliases": [
+   "SingStat",
+   "DOS"
+  ],
+  "sector": "gov.dept",
+  "parent_entity_id": "meti.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "singstat.gov.sg"
+  ],
+  "official_hosts": [
+   "www.singstat.gov.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/meti"
+  ],
+  "notes": "Tier-2 quick check (robots+sitemap sweep 2026-11-26, URL keyword grep): no scam-information page found. Sitemap 1,590 URLs; no scam page by URL. (Survey-interviewer impersonation is a known lure; nothing found.) Evidence is METI SGDI page (parent)."
+ },
+ {
+  "entity_id": "toteboard.gov.sg",
+  "name": "Tote Board",
+  "abbr": "Tote Board",
+  "aliases": [
+   "Tote Board",
+   "Singapore Totalisator Board"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "mof.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "toteboard.gov.sg"
+  ],
+  "official_hosts": [
+   "www.toteboard.gov.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/mof/statutory-boards/tote-board"
+  ],
+  "notes": "Tier-2 quick check (robots+sitemap sweep 2026-11-26, URL keyword grep): no scam-information page found. Sitemap 149 URLs, 0 hits. Parent of Singapore Pools."
+ },
+ {
+  "entity_id": "mnd.gov.sg",
+  "name": "Ministry of National Development",
+  "abbr": "MND",
+  "aliases": [
+   "MND"
+  ],
+  "sector": "gov.ministry",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "mnd.gov.sg"
+  ],
+  "official_hosts": [
+   "www.mnd.gov.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/mnd"
+  ],
+  "notes": "Tier-2 quick check (robots+sitemap sweep 2026-11-26, URL keyword grep): no scam-information page found. No robots/sitemap (404)."
+ },
+ {
+  "entity_id": "ema.gov.sg",
+  "name": "Energy Market Authority",
+  "abbr": "EMA",
+  "aliases": [
+   "EMA"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "meti.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "ema.gov.sg"
+  ],
+  "official_hosts": [
+   "www.ema.gov.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/meti/statutory-boards/ema"
+  ],
+  "notes": "Tier-2 quick check (robots+sitemap sweep 2026-11-26, URL keyword grep): no scam-information page found. No robots.txt; /sitemap.xml returns HTML."
+ },
+ {
+  "entity_id": "jtc.gov.sg",
+  "name": "JTC Corporation",
+  "abbr": "JTC",
+  "aliases": [
+   "JTC"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "meti.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "jtc.gov.sg"
+  ],
+  "official_hosts": [
+   "www.jtc.gov.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/meti/statutory-boards/jtc"
+  ],
+  "notes": "Tier-2 quick check (robots+sitemap sweep 2026-11-26, URL keyword grep): no scam-information page found. /sitemap.xml returns HTML."
+ },
+ {
+  "entity_id": "cda.gov.sg",
+  "name": "Communicable Diseases Agency",
+  "abbr": "CDA",
+  "aliases": [
+   "CDA"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "moh.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "cda.gov.sg"
+  ],
+  "official_hosts": [
+   "www.cda.gov.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/moh/statutory-boards/cda"
+  ],
+  "notes": "Tier-2 quick check (robots+sitemap sweep 2026-11-26, URL keyword grep): no scam-information page found. New 2026 statboard; sitemap 415 URLs, no scam page."
+ }
+]

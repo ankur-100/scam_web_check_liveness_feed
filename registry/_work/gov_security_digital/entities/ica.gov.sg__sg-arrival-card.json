@@ -1,0 +1,67 @@
+{
+ "entity_id": "ica.gov.sg#sg-arrival-card",
+ "name": "SG Arrival Card (ICA e-Service)",
+ "abbr": "SGAC",
+ "aliases": [
+  "SG Arrival Card",
+  "SGAC",
+  "SG Arrival Card with Electronic Health Declaration"
+ ],
+ "sector": "gov.programme",
+ "parent_entity_id": "ica.gov.sg",
+ "country": "SG",
+ "official_domains": [
+  "ica.gov.sg"
+ ],
+ "official_hosts": [
+  "eservices.ica.gov.sg",
+  "www.ica.gov.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.ica.gov.sg/about-ica/news-and-publications/public-advisories/public-advisory-on-the-submission-of-sg-arrival-card-(sgac)",
+   "kind": "fake_indicator_list",
+   "lists_indicators": [
+    "domain",
+    "url"
+   ],
+   "access": "html",
+   "machine_url": null,
+   "item_count": 63,
+   "latest_item_date": "2026-10-30",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Submission of the SGAC is free and should only be done via ICA’s official channels ( SGAC e-Service or MyICA Mobile app ). ... You may refer to the Annex below for some of these entities/websites to avoid. Annex S/N Web Address 1. application[.]singaporevisa[.]com",
+   "notes": "The only official SG government page in this partition with a multi-item domain list. 63 entries, defanged with [.], some with paths, and one has a stray space (\"singapore-arrivaldoc [.]com\"). Dates: header \"Last updated 30 Oct 2026\"; footer \"IMMIGRATION & CHECKPOINTS AUTHORITY Last Updated: 15 September 2026\". The original issue date is not on the page; in Mar 2022 ICA told ST it was aware of 12 such fee-charging sites (https://www.ntu.edu.sg/business/news-events/news/story-detail/websites-charge-travellers-as-much-as-100-dollars-for-help-in-sg-arrival-card-submission). Mix of paid third-party services (e.g. ivisa[.]com) and look-alikes. ICA calls them \"entities/websites to avoid\", not all phishing. Older mirror URLs seen in search: /public-education/public-advisory-on-websites-offering-services-relating-to-the-submission-of-sg-arrival-card. Change detection: diff the annex. Copy saved at registry/_work/gov_security_digital/artifacts/ica_sgac_annex.txt. FULL ANNEX: 1. application[.]singaporevisa[.]com; 2. discovering-sg[.]com; 3. discover-singaporepass[.]com/home; 4. enjoysingapore-pass[.]com; 5. enjoy-singaporetourism[.]com; 6. enter-singapore[.]online; 7. globalsingapore[.]sg/visa-to-singapore/singapore-arrival-card/; 8. govisitsingapore[.]com; 9. ivisa[.]com/singapore-electronic-arrival-card; 10. mysgarrivalcard[.]sg/; 11. natvisa[.]com/singapore-visa; 12. onlinevisa[.]com/singapore-visa; 13. permitsg-travel[.]com/; 14. sg-arrivalcard[.]com; 15. sg-arrivalcard[.]online; 16. sgarrivalonline[.]com; 17. sgarrival-singapore[.]com; 18. sgarrivalcard[.]com; 19. sgarrivalcard[.]sg; 20. sgarrivalcardweb[.]com; 21. sgcard-arrival[.]com; 22. sg-easytourism[.]com; 23. sgentrycard[.]com; 24. sg-go[.]tw; 25. sgportal[.]online; 26. sg-submitonline[.]com/home; 27. sgtourism-pass[.]com; 28. sg-travelling[.]com; 29. sg-travellingdoc[.]com/home; 30. sg-travelpass[.]com; 31. sgtravelsdocs[.]com; 32. sg-travelvisitor[.]com; 33. sg-visit[.]com; 34. sgvisitcard[.]com; 35. sg-visitorpass[.]com; 36. sg-visitpass[.]com; 37. singaporearrivalcard[.]com; 38. singapore[.]arrival[.]edocsllc[.]online/; 39. singapore-arrivalcard[.]com; 40. singapore-arrival-card[.]com; 41. singapore-arrivaldoc [.]com; 42. singapore-arrivalcard[.]visasyst[.]com/; 43. singap-arrival-card[.]com/index[.]html#what-is-sac; 44. singapore-evisa[.]com; 45. singapore-expresspass[.]com; 46. singapore-tourisminfo[.]com; 47. singapore-travel[.]website; 48. singapore-travelling[.]com/home; 49. singapore-visitcard[.]com; 50. singaporetravelcard[.]com; 51. singaporevisa[.]com/arrival-card; 52. singaporevisaonline[.]sg/singapore-arrival-card; 53. singaporevisitcard[.]com; 54. singapore-visitorsg[.]com; 55. singapore.visatravel[.]jp; 56. singapore[.]mlxyvisa[.]com/rjsq[.]asp; 57. travelaround-singapore[.]com; 58. travelonline-singapore[.]com; 59. travelsmarttravelfast[.]com; 60. visagov[.]com/en/sgp-visa-for-singapore; 61. visitingsingapore-form[.]com/home; 62. visiting-singaporepass[.]com; 63. visitpass-sg[.]com"
+  },
+  {
+   "url": "https://www.ica.gov.sg/about-ica/news-and-publications/media-room/public-advisory-on-fake-sg-arrival-card-website",
+   "kind": "alert_page",
+   "lists_indicators": [
+    "domain",
+    "entity_name"
+   ],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2020-12-17",
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "there is a fake SG Arrival Card (SGAC) website named “Online Singapore Arrival Card” (www.singapore-arrival-card.com/) which ... requests for a payment of US$30/- for submission of the card.",
+   "notes": "Issued 17 Dec 2020. The same domain is annex item 40 on the SGAC advisory."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": [],
+  "apps": [
+   "MyICA Mobile app"
+  ]
+ },
+ "evidence": [
+  "https://www.ica.gov.sg/about-ica/news-and-publications/public-advisories/public-advisory-on-the-submission-of-sg-arrival-card-(sgac)",
+  "https://www.ica.gov.sg/information-and-e-services/entry-and-departure/entering-singapore/sg-arrival-card-with-electronic-health-declaration",
+  "https://eservices.ica.gov.sg/arrivalcard"
+ ],
+ "notes": "Official submission is free, only via the SGAC e-Service at eservices.ica.gov.sg (/sgarrivalcard, which redirects to /arrivalcard; 2026-11-26 HTTP 200) or the MyICA app. SPF brand tag \"SG Arrival Card (SGAC)\" (1 advisory). Highest-value concrete list in this partition: a 63-domain annex. Its access is HTML with no feed, so diff the page."
+}

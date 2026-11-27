@@ -1,0 +1,72 @@
+{
+ "entity_id": "poems.com.sg",
+ "name": "Phillip Securities Pte Ltd (POEMS by PhillipCapital)",
+ "abbr": "POEMS",
+ "aliases": [
+  "POEMS",
+  "Phillip Securities",
+  "PhillipCapital",
+  "Phillip Capital",
+  "POEMS Mobile 3"
+ ],
+ "sector": "brokerage",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "poems.com.sg",
+  "phillip.com.sg"
+ ],
+ "official_hosts": [
+  "www.poems.com.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.poems.com.sg/education/scam-awareness/",
+   "kind": "scam_faq",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": "https://www.poems.com.sg/page-sitemap.xml",
+   "item_count": null,
+   "latest_item_date": "2026-08-24",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Always check our official website at www.poems.com.sg , mobile app, or our verified social media channels (Facebook, Instagram) for updates on promotions and events.",
+   "notes": "'Scam Awareness' page (footer-linked). Official website www.poems.com.sg; contact talktophillip@phillip.com.sg / 6531 1555. No fake indicators. Date = sitemap lastmod."
+  },
+  {
+   "url": "https://www.poems.com.sg/announcements/security-alert-beware-of-scam-messages/",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": "https://www.poems.com.sg/announcements-sitemap.xml",
+   "item_count": null,
+   "latest_item_date": "2025-01-14",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "please confirm the authenticity of any unexpected letters, emails, or WhatsApp group invites claiming to be from PhillipCapital.",
+   "notes": "Announcements are discoverable via announcements-sitemap.xml (47 URLs with lastmod); scam-related: lets-stay-vigilant-against-cyber-scams (2023-08-17), beware-of-pump-and-dump-stock-buying-scams (2021-08-12), this one (2025-01-14)."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [
+   "6531 1555 (POEMS / Phillip customer service)"
+  ],
+  "short_link_domains": [],
+  "social": [
+   "https://www.facebook.com/PhillipCapital",
+   "https://www.instagram.com/phillipcapital"
+  ],
+  "apps": [
+   "POEMS Mobile 3 (App Store / Google Play)"
+  ],
+  "emails": [
+   "talktophillip@phillip.com.sg"
+  ]
+ },
+ "evidence": [
+  "https://www.poems.com.sg/education/scam-awareness/",
+  "https://www.poems.com.sg/announcements/security-alert-beware-of-scam-messages/",
+  "https://www.poems.com.sg/robots.txt",
+  "https://www.poems.com.sg/announcements-sitemap.xml"
+ ],
+ "notes": "official_domains: poems.com.sg (a: 'official website at www.poems.com.sg'); phillip.com.sg (official contact email domain on the same page; phillip.com.sg site itself not fetched). robots.txt blocks only specific bots + some paths. Also 'Privacy & Security' page (/privacy-security/) in sitemap, not opened."
+}

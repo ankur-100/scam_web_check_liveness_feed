@@ -1,0 +1,755 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <!-- prettier-ignore -->
+        <script id="web-rum-probe">(function(){var CFG = { threshold: 10000, cap: 30, resBatch: 8, resInterval: 3000, forwardToThirdPartyRum: false, resourceFilterDomains: ["adsrvr\\.org","ads-twitter\\.com","linkedin\\.com","stackadapt\\.com","appsflyer\\.com","baidu\\.com","branch\\.io","yimg\\.com","yahoo\\.com","licdn\\.com","gstatic\\.com","redditstatic\\.com","bugsnag\\.com","bat\\.bing\\.(?:com|net)","googleadservices\\.com","google-analytics\\.com","www\\.google\\.com","reddit\\.com","go-mpulse\\.net","pdst\\.fm","facebook\\.(?:com|net)","akamaihd\\.net","spotify\\.com","doubleclick\\.net","googletagmanager\\.com"], dropOpaqueErrors: true, debug: false };if(!(window.TigerBridge&&window.TigerBridge.reportTrackEvents)){return}var traceId=window.__APP_TRACE_ID__||"";var injectedN=window.__APP_WHITESCREEN_N__;var N=typeof injectedN==="number"&&injectedN>=1e3&&injectedN<=1e5?injectedN:CFG.threshold;var CAP=CFG.cap;var RES_BATCH=CFG.resBatch;var RES_INTERVAL=CFG.resInterval;var forwardToThirdPartyRum=CFG.forwardToThirdPartyRum;var FILTER=CFG.resourceFilterDomains||[];var FILTER_RE=createResourceFilterRegExp(FILTER);var DROP_OPAQUE=CFG.dropOpaqueErrors;var DEBUG=CFG.debug;var errors=[];var resources=[];var sent={};var destroyed=false;var lastSend=-Infinity;var sentCnt=0;var po=null;var resTimer=null;var reportFails=0;var navStart=(new Date).getTime();function clock(){return window.performance&&performance.now?performance.now():(new Date).getTime()-navStart}function now(){return(new Date).getTime()}function genEventId(){return"eventxxxxxxx4xxxyxxxxxxxxxxxxxxx".replace(/[xy]/g,function(c){var r=Math.random()*16|0;return(c==="x"?r:r&3|8).toString(16)})}function push(arr,x){if(arr.length<CAP){arr.push(x)}}function createResourceFilterRegExp(patterns){var validPatterns=[];var i;var pattern;for(i=0;i<patterns.length;i++){pattern=String(patterns[i]||"");if(pattern){validPatterns.push(pattern)}}return validPatterns.length?new RegExp(validPatterns.join("|"),"i"):null}function isFilteredResource(url){return!!(url&&FILTER_RE&&FILTER_RE.test(url))}function createEventItem(type){return{time:now(),type:type,eventId:genEventId(),traceId:traceId,url:window.location.href}}function clampDur(v){return v>0?v:0}function seg(start,end){return start>0&&end>0?clampDur(end-start):-1}function parseTopFrame(stack){if(!stack){return null}var m=/((?:https?|file|capacitor|ionic|webpack-internal):\/\/[^\s)]+?):(\d+):(\d+)/.exec(stack);if(!m){return null}return{name:m[1],line:+m[2],column:+m[3]}}function resInitiatorType(tag){tag=String(tag||"").toUpperCase();if(tag==="SCRIPT"){return"script"}if(tag==="IMG"){return"img"}if(tag==="LINK"){return"link"}if(tag==="VIDEO"||tag==="AUDIO"||tag==="SOURCE"){return"media"}return tag?tag.toLowerCase():"other"}function resStatusCode(url){try{if(url&&window.performance&&performance.getEntriesByName){var es=performance.getEntriesByName(url);if(es&&es.length){var rs=es[es.length-1].responseStatus;if(typeof rs==="number"){return String(rs)}}}}catch(err){}return"0"}function buildResourceItem(entry){var item=createEventItem("resource");var rs=+entry.responseStatus||0;var redirectStart=+entry.redirectStart||0;var redirectEnd=+entry.redirectEnd||0;var dnsStart=+entry.domainLookupStart||0;var dnsEnd=+entry.domainLookupEnd||0;var connectStart=+entry.connectStart||0;var connectEnd=+entry.connectEnd||0;var sslStart=+entry.secureConnectionStart||0;var reqStart=+entry.requestStart||0;var respStart=+entry.responseStart||0;var respEnd=+entry.responseEnd||0;item.name=entry.name||"";item.startTime=+entry.startTime||0;item.duration=+entry.duration||0;item.initiatorType=entry.initiatorType||"";item.nextHopProtocol=entry.nextHopProtocol||"";item.renderBlockingStatus=entry.renderBlockingStatus||"";item.statusCode=String(rs);item.success=rs===0?-1:rs>=400?0:1;item.size=+entry.decodedBodySize||0;item.transferSize=+entry.transferSize||0;item.redirectDuration=redirectStart>0?redirectEnd>0?clampDur(redirectEnd-redirectStart):-1:0;item.dnsDuration=seg(dnsStart,dnsEnd);item.connectDuration=seg(connectStart,connectEnd);item.sslDuration=sslStart>0?clampDur(connectEnd-sslStart):connectEnd>0?0:-1;item.firstByteDuration=seg(reqStart,respStart);item.downloadDuration=seg(respStart,respEnd);return item}function report(items){if(!items||!items.length){return true}var pending=[];var i;for(i=0;i<items.length;i++){if(items[i]&&items[i].eventId&&sent[items[i].eventId]){continue}pending.push(items[i])}if(!pending.length){return true}try{if(window.TigerBridge&&window.TigerBridge.reportTrackEvents){if(DEBUG&&window.console&&console.debug){console.debug("[web-rum] report → TigerBridge.reportTrackEvents",pending)}window.TigerBridge.reportTrackEvents(JSON.stringify({items:pending}));for(i=0;i<pending.length;i++){if(pending[i]&&pending[i].eventId){sent[pending[i].eventId]=1}}return true}return false}catch(e){reportFails++;return false}}function reportNow(){if(sentCnt>=20||clock()-lastSend<200){return}lastSend=clock();sentCnt++;report(errors.slice(-3))}function onError(e){if(destroyed){return}var item;if(e&&e.target&&e.target.tagName){var url=e.target.src||e.target.href||"";if(isFilteredResource(url)){return}item=createEventItem("error");item.errSource="res_error";item.name=url;item.initiatorType=resInitiatorType(e.target.tagName);item.statusCode=resStatusCode(url);item.errStartTime=clock()}else{var message=e.message||"";var stack=e.error&&e.error.stack?String(e.error.stack).slice(0,1e3):"";if(DROP_OPAQUE&&!stack&&(message===""||message==="Script error.")){return}item=createEventItem("error");item.errSource="js_error";item.name=e.filename||"";item.errorName=e.error&&e.error.name?e.error.name:"";item.errMessage=message;item.errStack=stack;item.errLine=e.lineno;item.errColumn=e.colno;item.errStartTime=clock()}push(errors,item);reportNow()}function stringifyRejectionReason(value){if(value===null){return"null"}if(typeof value==="undefined"){return"undefined"}if(typeof value!=="object"){try{return String(value)}catch(e){return"UnserializableValue"}}try{var ancestors=[];var json=JSON.stringify(value,function(key,current){var i;while(ancestors.length&&ancestors[ancestors.length-1]!==this){ancestors.pop()}if(current&&typeof current==="object"){for(i=0;i<ancestors.length;i++){if(ancestors[i]===current){return"[Circular]"}}ancestors.push(current)}return current});if(typeof json!=="undefined"){return json}}catch(e){}var keys=[];try{keys=Object.keys(value)}catch(e){}return"UnserializableObject{keys:"+(keys.length?keys.join(","):"unknown")+"}"}function onRejection(e){if(destroyed){return}var reason=e?e.reason:"";var item=createEventItem("error");var reasonMessage=reason&&reason.message;var isErrorLike=reason&&typeof reason==="object"&&(typeof reason.name==="string"||typeof reason.stack==="string"||typeof reason.message!=="undefined");item.errSource="promise_reject";if(reason&&(reasonMessage||isErrorLike)){item.errorName=reason.name?String(reason.name):"Error";item.errMessage=reasonMessage!==undefined&&reasonMessage!==null&&reasonMessage!==""?stringifyRejectionReason(reasonMessage).slice(0,500):String(reason.name||"Error").slice(0,500);item.errStack=reason.stack?String(reason.stack).slice(0,1e3):"";var frame=parseTopFrame(item.errStack);if(frame){item.name=frame.name;item.errLine=frame.line;item.errColumn=frame.column}}else{item.errMessage=stringifyRejectionReason(reason).slice(0,500)}item.errStartTime=clock();push(errors,item);reportNow()}function flush(){report(resources.concat(errors))}function flushResources(){resTimer=null;if(destroyed||resources.length===0){return}var batch=resources.slice(0,RES_BATCH);if(report(batch)){resources.splice(0,batch.length);if(resources.length>0){scheduleResFlush()}}}function scheduleResFlush(){if(destroyed){return}if(resources.length>=RES_BATCH){if(resTimer){clearTimeout(resTimer)}resTimer=setTimeout(flushResources,0);return}if(!resTimer){resTimer=setTimeout(flushResources,RES_INTERVAL)}}function destroy(){if(destroyed){return}flush();destroyed=true;window.removeEventListener("error",onError,true);window.removeEventListener("unhandledrejection",onRejection);if(resTimer){clearTimeout(resTimer);resTimer=null}if(po){try{po.disconnect()}catch(e){}po=null}}function isBodyEmpty(){if(document.querySelector("[isHtmlLoading]")){return true}var b=document.body;if(!b||b.children.length===0){return true}var text=(b.innerText||b.textContent||"").replace(/^\s+|\s+$/g,"");return text.length===0&&b.querySelectorAll("img,svg,canvas,video").length===0}window.addEventListener("error",onError,true);window.addEventListener("unhandledrejection",onRejection);if(window.PerformanceObserver){try{po=new PerformanceObserver(function(list){if(destroyed){return}try{var es=list.getEntries();var i;for(i=0;i<es.length;i++){if(es[i].entryType==="resource"){var resource=es[i].toJSON();if(resource.initiatorType==="xmlhttprequest"||resource.initiatorType==="fetch"){continue}if(isFilteredResource(resource.name)){continue}push(resources,buildResourceItem(resource))}}scheduleResFlush()}catch(e){}});po.observe({entryTypes:["resource"],buffered:true})}catch(e){}}var wait=N-clock();setTimeout(function(){if(destroyed){return}if(isBodyEmpty()){var item=createEventItem("webview_white_screen");item.white_screen_type="dom_empty";report([item])}},wait>0?wait:0);window.__TIGER_PROBE__={flush:flush,destroy:destroy,forwardToThirdPartyRum:forwardToThirdPartyRum,getData:function(){return{errors:errors,resources:resources,reportFails:reportFails}}}})();</script>
+         <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, shrink-to-fit=no" />
+         <title>Fraud Awareness - Tiger Brokers</title>
+        <meta name="description" content="Notification of Fraudulent Use of Tiger Brokers Brand" />
+        <meta name="keywords" content="Fraud Awareness,Tiger Brokers,Official Website, Scam Report,Social Media" />
+           <meta property="og:site_name" content="Tiger Brokers" />
+        <meta property="og:url" content="" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Fraud Awareness" />
+        <meta property="og:image" content="https://c1.itigergrowtha.com/portal5/static/media/og-logo.0a0bd8dc.png" />
+        <meta property="og:description" content="Notification of Fraudulent Use of Tiger Brokers Brand" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@Tiger_Brokers" />
+        <meta name="twitter:creator" content="@Tiger_Brokers" />
+        <meta name="twitter:url" content="" />
+        <meta name="twitter:title" content="Fraud Awareness" />
+        <meta name="twitter:description" content="Notification of Fraudulent Use of Tiger Brokers Brand" />
+        <meta name="twitter:image" content="https://c1.itigergrowtha.com/portal5/static/media/og-logo.0a0bd8dc.png" />
+         <meta name="author" content="tigerbrokers" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="renderer" content="webkit" />
+        <meta name="apple-itunes-app" content="app-id=1023600494" />
+        <meta name="google-play-app" content="app-id=com.tigerbrokers.stock" />
+        <meta name="theme-color" content="#ffe100" />
+        <meta name="msapplication-TileColor" content="#000000" />
+        <meta name="msapplication-TileImage" content="https://c1.itigergrowtha.com/portal5/static/media/tiger.round.9e976572.png" />
+        <meta name="screen-orientation" content="portrait" />
+        <meta name="x5-orientation" content="portrait" />
+        <meta name="fullscreen" content="yes" />
+        <meta name="full-screen" content="yes" />
+        <meta name="x5-fullscreen" content="true" />
+        <meta name="x5-page-mode" content="app" />
+        <meta name="nightmode" content="disable" />
+        <meta name="wap-font-scale" content="no" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta
+            name="apple-mobile-web-app-title"
+            content="Official Website of Tiger Brokers" />
+        <meta name="facebook-domain-verification" content="uh6rkcckhy6afy4jvfe53jyjed7dzw" />
+         <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="https://c1.itigergrowtha.com/portal5/static/media/logo.152.1b48fddb.png" sizes="152x152" />
+        <link rel="apple-touch-icon" href="https://c1.itigergrowtha.com/portal5/static/media/logo.120.b1a2a198.png" sizes="120x120" />
+        <link rel="apple-touch-icon" href="https://c1.itigergrowtha.com/portal5/static/media/logo.76.f451ce0c.png" sizes="76x76" />
+        <link rel="apple-touch-icon" href="https://c1.itigergrowtha.com/portal5/static/media/logo.60.ebe437a8.png" sizes="60x60" />
+        <meta name="google" content="notranslate" />
+        <link rel="license" href="/info/declaration" />
+        <link rel="me" href="mailto:service@tigerbrokers.com.sg" />
+        <link rel="me" href="sms:+6569500591" />
+    <link rel="stylesheet" href="https://c1.itigergrowtha.com/portal5/static/css/vendor.867bf3dd.css" />
+<link rel="stylesheet" href="https://c1.itigergrowtha.com/portal5/static/css/common.6982df39.css" />
+<link rel="stylesheet" href="https://c1.itigergrowtha.com/portal5/static/css/customPage.7ee7e4b4.css" />
+<noscript>
+    <link rel="preload" as="style" href="https://c1.itigergrowtha.com/portal5/static/js/runtime.fdfe571e.js" />
+    <link rel="preload" as="style" href="https://c1.itigergrowtha.com/portal5/static/js/i18n.14ad6f0c.js" />
+    <link rel="preload" as="style" href="https://c1.itigergrowtha.com/portal5/static/js/vendor.829fb432.js" />
+    <link rel="preload" as="style" href="https://c1.itigergrowtha.com/portal5/static/js/common.725557f0.js" />
+    <link rel="preload" as="style" href="https://c1.itigergrowtha.com/portal5/static/js/customPage.51197f8e.js" />
+</noscript>
+<script>
+       var SETTINGS = {
+           isProfileHost: false,
+           isGenericRequest: false,
+           region: 'SGP',
+           edition: 'fundamental',
+           tenantId: 'TBGLOBAL',
+           entityId: 'TBSG',
+           pathRegion: 'sg',
+           pathLang: '',
+           globalPrefix: '/sg',
+           prefixPattern: ':pathRegion(cn|sg|au|nz|hk)?/:pathLang(en|hans|hant)?',
+           cgWhiteDomainList: ["www.tradeup.com","www.tigerbrokers.nz","www.itigerup.com","www.tigertrader.app","www.tigerhkgo.com","www.gotigerhk.com","www.thetigerbrokers.com","www.tigrgood.com","www-nd.tigerbaas.com","www.itigertrader.com","www.atigrburst.com","www.atigrpulse.com","www.pocboost.com","cn.tigrdw.com","hk.tigrdw.com","au.tigrdw.com","sg.tigrdw.com","nz.tigrdw.com","ms.tigrdw.com","www.tigrdw.com","www.etasphere.com","au.etasphere.com","sg.etasphere.com","tradeup-us-uat1.qa.tigerfintech.com","www.itigertech.com","www.uat.itigertech.com","cn.tigermarketr.com","hk.tigermarketr.com","ms.tigermarketr.com","nz.tigermarketr.com","au.tigermarketw.com","cn.tigermarketw.cn","hk.tigermarketw.com","ms.tigermarketw.com","nz.tigermarketw.com","sg.tigermarketw.com","avnrnz.itigertech.com","www-sg.uat.tigerbrokers.net","itfsua.uat.itigertech.com","itfsub.uat.itigertech.com","www-tbus.uat.tradeup.com","www-wlsec.uat.itigertech.com","www-fswh.uat.itigertech.com","www-csbhk.uat.itigertech.com","www-paob.uat.itigertech.com","www-ituata.uat.itigertech.com","www-ituatb.uat.itigertech.com","avnrhk.uat.itigertech.com","zabank.uat.itigertech.com","cmsihk.uat.itigertech.com","sg.etaspherek.com","hk.tigeractivity.com","au.tigeractivity.com","www-ituata.itigertech.com","ms.tigerreferral.com","hk1.tigermarketr.com","au.tigershowtime.com","cn.tigershowtime.com","hk.tigershowtime.com","ms.tigershowtime.com","nz1.tigershowtime.com","sg.tigerhit.com","sg.tigerkickoff.com","sgp.itiger.com","hkg.itiger.com","aus.itiger.com","nzl.itiger.com","www-paob.itigertech.com"],
+           lang: 'en_US',
+           license: 'TBSG',
+           location: 'SGP',
+           currentUser: null,
+           guestUser: null,
+           promotionMaterial: null,
+       };
+    var __downloadLinks = {"ios":"https://da.tigerfintech.com/r/m","android":"https://da.tigerfintech.com/r/u","androidMarket":"market://details?id=com.tigerbrokers.stock","mac":"https://download.tigerfintech.com/desktop/cdn/f/TigerTrade_latest.dmg","windows":"https://download.tigerfintech.com/desktop/cdn/f/TigerTradeSetup_latest.exe","region":"SGP"};
+</script>
+         <!-- canonical -->
+        <link rel="canonical" href="https://www.itiger.com/sg/fraud-awareness" />
+        <!-- hreflang -->
+        <link rel="alternate" hreflang="en" href="https://www.itiger.com/sg/fraud-awareness" />
+        <link rel="alternate" hreflang="x-default" href="https://www.itiger.com/sg/fraud-awareness" />
+         <!-- Structured Data -->
+        <script type="application/ld+json">
+            {"@context":"https://schema.org","@graph":[]}
+        </script>
+    </head>
+    <!-- prettier-ignore -->
+    <body class="platform-desktop language-en_US region-SGP page-custom ">
+        <div id="wrap">
+  <nav class="site-top-navbar">
+    <div class="container navbar-collapse">
+         <button class="btn location-nav" data-code="SGP">
+            Singapore
+        </button>
+    </div>
+    <script>
+        var _TOPNAV_DATA = {
+            locate: [{"name":"Hot","children":[{"name":"Singapore","code":"SGP","region":"SGP","license":"TBSG"},{"name":"New Zealand","code":"NZL","region":"NZL","license":"TBKIWI"},{"name":"Australia","code":"AUS","region":"AUS","license":"TBAU"},{"name":"Hong Kong SAR","code":"HKG","region":"HKG","license":"TBHK"}]},{"name":"Asia","children":[{"name":"Armenia","code":"ARM","region":"SGP","license":"TBSG"},{"name":"Bangladesh","code":"BGD","region":"SGP","license":"TBSG"},{"name":"Bhutan","code":"BTN","region":"SGP","license":"TBSG"},{"name":"Brunei","code":"BRN","region":"SGP","license":"TBSG"},{"name":"Cambodia","code":"KHM","region":"SGP","license":"TBSG"},{"name":"Georgia","code":"GEO","region":"SGP","license":"TBSG"},{"name":"India","code":"IND","region":"SGP","license":"TBSG"},{"name":"Indonesia","code":"IDN","region":"SGP","license":"TBSG"},{"name":"Israel","code":"ISR","region":"SGP","license":"TBSG"},{"name":"Japan","code":"JPN","region":"SGP","license":"TBSG"},{"name":"Jordan","code":"JOR","region":"SGP","license":"TBSG"},{"name":"Laos","code":"LAO","region":"SGP","license":"TBSG"},{"name":"Macau SAR","code":"MAC","region":"SGP","license":"TBSG"},{"name":"Malaysia","code":"MYS","region":"SGP","license":"TBSG"},{"name":"Maldives","code":"MDV","region":"SGP","license":"TBSG"},{"name":"Mongolia","code":"MNG","region":"SGP","license":"TBSG"},{"name":"Myanmar","code":"MMR","region":"SGP","license":"TBSG"},{"name":"Nepal","code":"NPL","region":"SGP","license":"TBSG"},{"name":"Oman","code":"OMN","region":"SGP","license":"TBSG"},{"name":"Philippines","code":"PHL","region":"SGP","license":"TBSG"},{"name":"Qatar","code":"QAT","region":"SGP","license":"TBSG"},{"name":"Singapore","code":"SGP","region":"SGP","license":"TBSG"},{"name":"South Korea","code":"KOR","region":"SGP","license":"TBSG"},{"name":"Sri Lanka","code":"LKA","region":"SGP","license":"TBSG"},{"name":"Thailand","code":"THA","region":"SGP","license":"TBSG"},{"name":"Timor-Leste","code":"TLS","region":"SGP","license":"TBSG"},{"name":"Turkmenistan","code":"TKM","region":"SGP","license":"TBSG"},{"name":"United Arab Emirates","code":"ARE","region":"SGP","license":"TBSG"},{"name":"Vietnam","code":"VNM","region":"SGP","license":"TBSG"},{"name":"Hong Kong SAR","code":"HKG","region":"HKG","license":"TBHK"}]},{"name":"Europe","children":[{"name":"Andorra","code":"AND","region":"SGP","license":"TBSG"},{"name":"Austria","code":"AUT","region":"SGP","license":"TBSG"},{"name":"Belgium","code":"BEL","region":"SGP","license":"TBSG"},{"name":"Bulgaria","code":"BGR","region":"SGP","license":"TBSG"},{"name":"Croatia","code":"HRV","region":"SGP","license":"TBSG"},{"name":"Czech Republic","code":"CZE","region":"SGP","license":"TBSG"},{"name":"Denmark","code":"DNK","region":"SGP","license":"TBSG"},{"name":"Estonia","code":"EST","region":"SGP","license":"TBSG"},{"name":"Finland","code":"FIN","region":"SGP","license":"TBSG"},{"name":"France","code":"FRA","region":"SGP","license":"TBSG"},{"name":"Germany","code":"DEU","region":"SGP","license":"TBSG"},{"name":"Gibraltar","code":"GIB","region":"SGP","license":"TBSG"},{"name":"Greece","code":"GRC","region":"SGP","license":"TBSG"},{"name":"Greenland","code":"GRL","region":"SGP","license":"TBSG"},{"name":"Guernsey","code":"GGY","region":"SGP","license":"TBSG"},{"name":"Hungary","code":"HUN","region":"SGP","license":"TBSG"},{"name":"Iceland","code":"ISL","region":"SGP","license":"TBSG"},{"name":"Ireland","code":"IRL","region":"SGP","license":"TBSG"},{"name":"Italy","code":"ITA","region":"SGP","license":"TBSG"},{"name":"Latvia","code":"LVA","region":"SGP","license":"TBSG"},{"name":"Liechtenstein","code":"LIE","region":"SGP","license":"TBSG"},{"name":"Lithuania","code":"LTU","region":"SGP","license":"TBSG"},{"name":"Luxembourg","code":"LUX","region":"SGP","license":"TBSG"},{"name":"Netherlands","code":"NLD","region":"SGP","license":"TBSG"},{"name":"North Macedonia","code":"MKD","region":"SGP","license":"TBSG"},{"name":"Norway","code":"NOR","region":"SGP","license":"TBSG"},{"name":"Poland","code":"POL","region":"SGP","license":"TBSG"},{"name":"Portugal","code":"PRT","region":"SGP","license":"TBSG"},{"name":"Romania","code":"ROU","region":"SGP","license":"TBSG"},{"name":"San Marino","code":"SMR","region":"SGP","license":"TBSG"},{"name":"Serbia","code":"SRB","region":"SGP","license":"TBSG"},{"name":"Slovakia","code":"SVK","region":"SGP","license":"TBSG"},{"name":"Slovenia","code":"SVN","region":"SGP","license":"TBSG"},{"name":"Spain","code":"ESP","region":"SGP","license":"TBSG"},{"name":"Sweden","code":"SWE","region":"SGP","license":"TBSG"},{"name":"Switzerland","code":"CHE","region":"SGP","license":"TBSG"},{"name":"United Kingdom","code":"GBR","region":"SGP","license":"TBSG"}]},{"name":"Oceania","children":[{"name":"Australia","code":"AUS","region":"AUS","license":"TBAU"},{"name":"Fiji","code":"FJI","region":"SGP","license":"TBSG"},{"name":"Kiribati","code":"KIR","region":"SGP","license":"TBSG"},{"name":"Micronesia","code":"FSM","region":"SGP","license":"TBSG"},{"name":"New Zealand","code":"NZL","region":"NZL","license":"TBNZ"},{"name":"Niue","code":"NIU","region":"SGP","license":"TBSG"},{"name":"Solomon Islands","code":"SLB","region":"SGP","license":"TBSG"},{"name":"Tonga","code":"TON","region":"SGP","license":"TBSG"}]},{"name":"Africa","children":[{"name":"Cape Verde","code":"CPV","region":"SGP","license":"TBSG"},{"name":"Comoros","code":"COM","region":"SGP","license":"TBSG"},{"name":"Ethiopia","code":"ETH","region":"SGP","license":"TBSG"},{"name":"Gabon","code":"GAB","region":"SGP","license":"TBSG"},{"name":"Gambia","code":"GMB","region":"SGP","license":"TBSG"},{"name":"Lesotho","code":"LSO","region":"SGP","license":"TBSG"},{"name":"Malawi","code":"MWI","region":"SGP","license":"TBSG"},{"name":"Reunion","code":"REU","region":"SGP","license":"TBSG"},{"name":"Rwanda","code":"RWA","region":"SGP","license":"TBSG"},{"name":"Senegal","code":"SEN","region":"SGP","license":"TBSG"}]},{"name":"North America","children":[{"name":"Aruba","code":"ABW","region":"SGP","license":"TBSG"},{"name":"Barbados","code":"BRB","region":"SGP","license":"TBSG"},{"name":"Canada","code":"CAN","region":"SGP","license":"TBSG"},{"name":"Costa Rica","code":"CRI","region":"SGP","license":"TBSG"},{"name":"Dominica","code":"DMA","region":"SGP","license":"TBSG"},{"name":"El Salvador","code":"SLV","region":"SGP","license":"TBSG"},{"name":"Martinique","code":"MTQ","region":"SGP","license":"TBSG"},{"name":"Montserrat","code":"MSR","region":"SGP","license":"TBSG"},{"name":"Saint Lucia","code":"LCA","region":"SGP","license":"TBSG"}]},{"name":"South America","children":[{"name":"Bolivia","code":"BOL","region":"SGP","license":"TBSG"},{"name":"Chile","code":"CHL","region":"SGP","license":"TBSG"},{"name":"French Guiana","code":"GUF","region":"SGP","license":"TBSG"},{"name":"Suriname","code":"SUR","region":"SGP","license":"TBSG"},{"name":"Uruguay","code":"URY","region":"SGP","license":"TBSG"}]}],
+            lang: ["en_US"]
+        }
+    </script>
+</nav>
+<!-- prettier-ignore -->
+<header class="site-header">
+    <div class="container">
+        <h1 class="site-primary-brand">
+            <a
+                class="navbar-brand site-logo-black"
+                href="/sg"
+                title="Tiger Brokers">
+                Tiger Brokers
+            </a>
+        </h1>
+        <div class="site-primary-navbar-container">        <ul class="site-primary-navbar">
+            <li class="nav-item has-children">
+                <a class="nav-link" href="/quote" title="Markets">Markets</a><a class="indicator"><span class="indicator-arrow-right"></span></a>                        <ul class="nav-children nav-children-level-1">
+            <li class="nav-children-item">
+                <a class="nav-link" href="/quote" title="Quotes" target="_blank">Quotes</a>                 </li>
+            <li class="nav-children-item">
+                <a class="nav-link" href="/news/top" title="24/7 News">24/7 News</a>                 </li>
+        </ul>
+ </li>
+            <li class="nav-item products">
+                <a class="nav-link" href="/sg/invest/cash-boost" title="Products">Products</a>                 </li>
+            <li class="nav-item has-children">
+                <a class="nav-link" href="/sg/invest/auto-invest" title="Features">Features</a><a class="indicator"><span class="indicator-arrow-right"></span></a>                        <ul class="nav-children nav-children-level-1">
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/prestige-membership" title="Prestige Membership">Prestige Membership</a>                 </li>
+            <li class="nav-children-item Remiser, Investment Representatives">
+                <a class="nav-link" href="/sg/marketing/InvestmentReps" title="Tiger Investment Representatives" target="_blank">Tiger Investment Representatives</a>                 </li>
+            <li class="nav-children-item has-children">
+                <a class="nav-link" href="https://www.itiger.com/sg/invest/auto-invest" title="Investing Tools">Investing Tools</a><a class="indicator"><span class="indicator-arrow-right"></span></a>                        <ul class="nav-children nav-children-level-2">
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/invest/auto-invest" title="Auto-invest">Auto-invest</a>                 </li>
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/marketing/investwithCPF-SRS" title="Invest with CPF/SRS">Invest with CPF/SRS</a>                 </li>
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/invest/us-fractionalshares" title="US Fractional Shares">US Fractional Shares</a>                 </li>
+        </ul>
+ </li>
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/market/gpt" title="TigerAI">TigerAI</a>                 </li>
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/learn" title="Learn">Learn</a>                 </li>
+        </ul>
+ </li>
+            <li class="nav-item has-children">
+                <a class="nav-link" href="/sg/commissions" title="Pricing">Pricing</a><a class="indicator"><span class="indicator-arrow-right"></span></a>                        <ul class="nav-children nav-children-level-1">
+            <li class="nav-children-item has-children">
+                <a class="nav-link" href="/sg/commissions/fees" title="Prime">Prime</a><a class="indicator"><span class="indicator-arrow-right"></span></a>                        <ul class="nav-children nav-children-level-2">
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/commissions/fees/stocks_etf" title="Stocks &amp; ETFs">Stocks &amp; ETFs</a>                 </li>
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/commissions/fees/options_cbbcs" title="Options, Warrants &amp; CBBCs">Options, Warrants &amp; CBBCs</a>                 </li>
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/commissions/fees/futures" title="Futures">Futures</a>                 </li>
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/commissions/fees/bond" title="Bonds">Bonds</a>                 </li>
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/commissions/fees/fund_mall" title="Fund Mall">Fund Mall</a>                 </li>
+        </ul>
+ </li>
+            <li class="nav-children-item has-children">
+                <a class="nav-link" href="/sg/commissions/cash_boost" title="Cash Boost">Cash Boost</a><a class="indicator"><span class="indicator-arrow-right"></span></a>                        <ul class="nav-children nav-children-level-2">
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/commissions/cash_boost/stocks_etf" title="Stocks &amp; ETFs">Stocks &amp; ETFs</a>                 </li>
+        </ul>
+ </li>
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/commissions/others_fees/financing_interest_rates" title="Financing Interest Rates">Financing Interest Rates</a>                 </li>
+        </ul>
+ </li>
+            <li class="nav-item has-children ttx, ttx 2026">
+                <a class="nav-link" href="https://sg.tigerkickoff.com/activity/market/2026/ttx" title="TTX2026" target="_blank">TTX2026</a><a class="indicator"><span class="indicator-arrow-right"></span></a>                        <ul class="nav-children nav-children-level-1">
+            <li class="nav-children-item">
+                <a class="nav-link" href="https://sg.tigerkickoff.com/activity/market/2026/ttx" title="TTX 2026 (28-29 Nov)" target="_blank">TTX 2026 (28-29 Nov)</a>                 </li>
+        </ul>
+ </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/sg/market/promotion" title="Promotions">Promotions</a>                 </li>
+            <li class="nav-item has-children">
+                <a class="nav-link" href="/sg/help" title="Help">Help</a><a class="indicator"><span class="indicator-arrow-right"></span></a>                        <ul class="nav-children nav-children-level-1">
+            <li class="nav-children-item has-children">
+                <a class="nav-link" href="/sg/help/detail/account-operations" title="Account Operations">Account Operations</a><a class="indicator"><span class="indicator-arrow-right"></span></a>                        <ul class="nav-children nav-children-level-2">
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/help/detail/account-opening" title="How to Open an Account?">How to Open an Account?</a>                 </li>
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/help/detail/account-opening-documents" title="Account Opening Documents">Account Opening Documents</a>                 </li>
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/help/detail/account-types" title="Account Types Available">Account Types Available</a>                 </li>
+        </ul>
+ </li>
+            <li class="nav-children-item has-children">
+                <a class="nav-link" href="/sg/help/detail/transfer-n-pay" title="Transfer &amp; Pay">Transfer &amp; Pay</a><a class="indicator"><span class="indicator-arrow-right"></span></a>                        <ul class="nav-children nav-children-level-2">
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/help/detail/account-funding" title="Account Funding">Account Funding</a>                 </li>
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/help/detail/89960074" title="DDA Fast Deposit">DDA Fast Deposit</a>                 </li>
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/help/detail/funds-withdrawal" title="Funds Withdrawal">Funds Withdrawal</a>                 </li>
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/help/detail/shares-transfer-in" title="Shares Transfer-in">Shares Transfer-in</a>                 </li>
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/help/detail/shares-transfer-out" title="Shares Transfer-out">Shares Transfer-out</a>                 </li>
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/help/detail/currency-conversion" title="Currency Conversion">Currency Conversion</a>                 </li>
+        </ul>
+ </li>
+            <li class="nav-children-item has-children">
+                <a class="nav-link" href="/sg/help/detail/products-n-trading" title="Products &amp; Trading">Products &amp; Trading</a><a class="indicator"><span class="indicator-arrow-right"></span></a>                        <ul class="nav-children nav-children-level-2">
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/help/detail/products-available" title="Products Available">Products Available</a>                 </li>
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/help/detail/order-types" title="Order Types">Order Types</a>                 </li>
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/help/detail/trading-rules" title="Trading Rules">Trading Rules</a>                 </li>
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/help/detail/declaration" title="Declaration">Declaration</a>                 </li>
+        </ul>
+ </li>
+            <li class="nav-children-item has-children">
+                <a class="nav-link" href="/sg/help/detail/margin-trading-n-short-selling" title="Margin Trading &amp; Short Selling">Margin Trading &amp; Short Selling</a><a class="indicator"><span class="indicator-arrow-right"></span></a>                        <ul class="nav-children nav-children-level-2">
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/help/detail/margin-n-leverage" title="Margin &amp; Leverage">Margin &amp; Leverage</a>                 </li>
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/help/detail/risk-management" title="Risk Management">Risk Management</a>                 </li>
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/help/detail/short-selling-risk" title="Short Selling Risk">Short Selling Risk</a>                 </li>
+        </ul>
+ </li>
+            <li class="nav-children-item has-children">
+                <a class="nav-link" href="/sg/help/detail/fund-mall" title="Fund Mall">Fund Mall</a><a class="indicator"><span class="indicator-arrow-right"></span></a>                        <ul class="nav-children nav-children-level-2">
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/help/detail/53925061" title="Open a fund account and transaction">Open a fund account and transaction</a>                 </li>
+        </ul>
+ </li>
+            <li class="nav-children-item has-children">
+                <a class="nav-link" href="/sg/help/detail/21825989" title="Cash Boost Account">Cash Boost Account</a><a class="indicator"><span class="indicator-arrow-right"></span></a>                        <ul class="nav-children nav-children-level-2">
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/help/detail/contra-faq" title="Cash Boost Account FAQ">Cash Boost Account FAQ</a>                 </li>
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/help/detail/06324754" title="How to Open Cash Boost Account">How to Open Cash Boost Account</a>                 </li>
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/help/detail/63375641" title="How to Contra Trade using Cash Boost Account">How to Contra Trade using Cash Boost Account</a>                 </li>
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/help/detail/how-to-link-CDP" title="How to link your CDP Securities Account">How to link your CDP Securities Account</a>                 </li>
+        </ul>
+ </li>
+            <li class="nav-children-item has-children">
+                <a class="nav-link" href="/sg/help/detail/93284971" title="Tiger Boss Debit Card">Tiger Boss Debit Card</a><a class="indicator"><span class="indicator-arrow-right"></span></a>                        <ul class="nav-children nav-children-level-2">
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/help/detail/86919046" title="Frequently Asked Questions">Frequently Asked Questions</a>                 </li>
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/help/detail/24801164" title="Fees of the Debit card">Fees of the Debit card</a>                 </li>
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/help/detail/74200178" title="How to Top-up">How to Top-up</a>                 </li>
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/help/detail/52687302" title="How to use my Debit card">How to use my Debit card</a>                 </li>
+        </ul>
+ </li>
+            <li class="nav-children-item has-children">
+                <a class="nav-link" href="/sg/help/detail/statement-n-more" title="Statement">Statement</a><a class="indicator"><span class="indicator-arrow-right"></span></a>                        <ul class="nav-children nav-children-level-2">
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/help/detail/statement" title="Statement">Statement</a>                 </li>
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/help/detail/dividends" title="Dividends">Dividends</a>                 </li>
+        </ul>
+ </li>
+        </ul>
+ </li>
+            <li class="nav-item has-children">
+                <a class="nav-link" href="/sg/inst" title="Institution">Institution</a><a class="indicator"><span class="indicator-arrow-right"></span></a>                        <ul class="nav-children nav-children-level-1">
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/fund-management" title="Tiger Fund Management">Tiger Fund Management</a>                 </li>
+            <li class="nav-children-item has-children">
+                <a class="nav-link" href="/sg/inst/external-asset" title="Institution Service">Institution Service</a><a class="indicator"><span class="indicator-arrow-right"></span></a>                        <ul class="nav-children nav-children-level-2">
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/inst/external-asset" title="Wealth and asset manager">Wealth and asset manager</a>                 </li>
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/inst/proprietary-trading-group" title="Proprietary trading institutions">Proprietary trading institutions</a>                 </li>
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/inst/introducing-brokers" title="Introducing brokers">Introducing brokers</a>                 </li>
+            <li class="nav-children-item">
+                <a class="nav-link" href="/sg/inst/thirdparty-service" title="Third-party service provider">Third-party service provider</a>                 </li>
+        </ul>
+ </li>
+            <li class="nav-children-item">
+                <a class="nav-link" href="https://developer.tigerbrokers.com.sg/" title="Tiger Open Platform" target="_blank">Tiger Open Platform</a>                 </li>
+        </ul>
+ </li>
+        </ul>
+ </div>
+        <div class="site-navbar-search"></div>
+
+        <div class="site-navbar-search-toggle" title="Search now">
+            <a class="btn btn-search">
+                <svg viewBox="0 0 1024 1024" class="tigericon tigericon-search icon-search a-fadeIn" width="48" height="48" fill="currentColor" aria-hidden="true" focusable="false"><path d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0011.6 0l43.6-43.5a8.2 8.2 0 000-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"></path></svg>
+            </a>
+        </div>
+
+        <ul class="site-navbar-side">
+            <li class="nav-item">
+                <a
+                    href="/login?next=%2Fsg%2Ffraud-awareness"
+                    class="btn btn-navbar btn-ghost position-sticky"
+                    rel="nofollow"
+                    data-sensors-trace='{"type":"导航","name":"登录按钮点击","entrance_type":"Header_login"}'>
+                    LOGIN
+                </a>
+            </li>
+            <li class="nav-item">
+                <a
+                    href="/signup"
+                    rel="nofollow"
+                    class="btn btn-navbar position-sticky dialog-usa-trigger-btn"
+                    data-sensors-trace='{"type":"导航","name":"注册按钮点击","entrance_type":"Header_signup"}'>
+                    SIGN UP
+                </a>
+            </li>
+        </ul>
+
+        <button class="site-mobile-nav-toggle btn">Toggle<span></span></button>
+    </div>
+</header>
+              <div id="container" class="site-container"><div class="container py-5">
+    <div class="page-head mb-4">
+        <h2 class="page-title tiger-title">Fraud Awareness</h2>
+        <div class="text-muted">2026-07-17 11:05:01</div>
+    </div>
+    <div class="entry-content"><h2 style="text-align: left;">Notification of Fraudulent Use of Tiger Brokers Brand</h2><p style="text-align: left;">As Tiger Brokers (“Tiger”) grows in popularity, some fraudulent microsites claiming to be Tiger illegally have been sprouting up via multiple channels on the internet.</p><p style="text-align: left;">Attempts include but not limited to, creation and spread of fake website links and fake online (group) chats, impersonation of Tiger staff, using Tiger staff photo, etc, which were not authorised by Tiger.</p><p style="text-align: left;">Tiger accepts no responsibility for any costs, information leakage, data loss, etc. which were improperly incurred resulted from the fraudulent activities.</p><p style="text-align: left;">&nbsp;</p><h2 style="text-align: left;">Website</h2><p style="text-align: left;">Please note that our official website is <a target="_blank" class="" href="https://www.itiger.com/sg/" title="https://www.itiger.com/sg/">https://www.itiger.com/sg/</a>.</p><p style="text-align: left;">If you are in any doubt about the integrity of a website that uses the Tiger Brokers brand, you may access our websites via the above link.</p><p style="text-align: left;"></p><h2 style="text-align: left;">Official Social Media Accounts</h2><p style="text-align: left;">Instagram: <a target="_blank" href="https://www.instagram.com/tigerbrokerssg" title="@tigerbrokerssg">@tigerbrokerssg</a></p><p style="text-align: left;">Facebook: <a target="_blank" href="https://www.facebook.com/tigerbrokerssg" title="@tigerbrokerssg">@tigerbrokerssg</a></p><p style="text-align: left;">TikTok: <a target="_blank" href="https://www.tiktok.com/@tigerbrokerssg" title="@tigerbrokerssg">@tigerbrokerssg</a></p><p style="text-align: left;">Telegram Channels:</p><ul><li><p style="text-align: left;"><a target="_blank" href="https://t.me/tigerbrokersofficial" title="https://t.me/tigerbrokersofficial">https://t.me/tigerbrokersofficial</a></p></li><li><p style="text-align: left;"><a target="_blank" href="https://t.me/TigerBrokersSG" title="https://t.me/TigerBrokersSG">https://t.me/TigerBrokersSG</a></p></li></ul><p style="text-align: left;">YouTube: <a target="_blank" href="https://www.youtube.com/channel/UCV9o1jW6brfQJepdpuVU2Lw" title="@TigerBrokersSingapore">@TigerBrokersSingapore</a></p><p style="text-align: left;">&nbsp;</p><h2 style="text-align: left;">Scam Report</h2><p style="text-align: left;">We thank you for making Tiger the preferred platform for your investment needs. If you encounter any dubious websites, messages or activities, we encourage you to report to our Client Service at your earliest convenience, so that we can take action as soon as possible. At the same time, you are advised to raise the awareness of fraud and enquire through official channels when you are not sure. Your feedbacks are much appreciated.</p><p style="text-align: left;"></p><h2 style="text-align: left;">Stay alert and vigilant of investment scams</h2><p style="text-align: left;">Tiger Brokers - The Police have seen a resurgence in “pump and dump” scams involving overseas listed companies and would like to remind the public to remain vigilant and be wary of strangers offering stock recommendations or online chat groups discussing coordinated share purchases. To recap, a pump and dump” scam is a form of stock market manipulation where fraudsters would artificially inflate the price of a company’s shares (“pumping”) by spreading false positive news about the company, or creating an appearance of trading activity in order to induce others to buy the shares. As the unwitting victims buy up the shares, the share price rises. The fraudsters then quickly sell their shares in the company while the share price goes up, then stop all activities. With the absence of manipulation, the share price then plunges, resulting in sharp losses for the victims.</p><p style="text-align: left;">To avoid falling prey to these scams, be wary of stock tips provided by people you have befriended online. Stay vigilant and exercise the necessary precautions to protect yourself. For more on "pump and dump" scams, please visit the Singapore Police Force’s website <a target="_blank" class="" href="https://www.police.gov.sg/media-room/news/20210811_police_advisory_on_pump_and_dump_scams_involving_overseas_listed_companies" title="here">here</a>.</p><p style="text-align: left;"></p><p style="text-align: left;">Please refer to our <a target="_blank" class="link rich-text-anchor __anchor-intercept-flag__ text-content-link" href="https://www.itiger.com/sg/help/detail/Fraud%20Awareness" title="">FAQ Fraud Awareness page</a>, for full list of Telegram Sub Channels.</p></div>
+</div>
+</div>
+  <!-- prettier-ignore -->
+<footer class="site-footer">
+    <div class="site-footer-download-bar">
+        <div class="container">
+            <div class="bar-item">
+                <a class="site-logo-white bar-logo mt-2 mr-2" href="/sg" title="Tiger Brokers">Tiger Brokers</a>
+                <div class="d-flex mt-2">
+                            <a
+                                href="/login?next=%2Fsg%2Ffraud-awareness"
+                                class="bottom-bar-btn white mr-2"
+                                data-sensors-trace='{"type":"页面下载条","name":"登录按钮点击","entrance_type":"Header_login"}'>
+                                LOGIN
+                            </a>
+                            <a
+                                href="/signup"
+                                class="bottom-bar-btn"
+                                data-sensors-trace='{"type":"页面下载条","name":"注册按钮点击","entrance_type":"Header_signup"}'>
+                                SIGN UP
+                            </a>
+                </div>
+            </div>
+            <div class="bar-item download-item">
+                <div class="item-body">
+                    <span class="mr-3 opacity-40">Mobile APP</span>
+                    <a class="bottom-bar-btn mr-2 footer-dl-ios" target="_blank" href="https://da.tigerfintech.com/r/m" data-app-ios-link>
+                        <div class="tiger-icon icon-white apple icon-sm mr-1"></div>
+                        APP STORE
+                    </a>
+                    <a
+                        class="bottom-bar-btn mr-4 footer-dl-android"
+                        target="_blank"
+                        data-app-android-link
+                        href="https://da.tigerfintech.com/r/u">
+                        <div class="tiger-icon icon-white google icon-sm mr-1"></div>
+                        GOOGLE PLAY
+                    </a>
+
+                </div>
+                <div class="item-body">
+                    <span class="mr-3 opacity-40">Desktop APP</span>
+                    <div class="body-mac">
+                        <a class="btn bottom-bar-btn mr-2 footer-dl-mac" target="_blank" href="https://download.tigerfintech.com/desktop/cdn/f/TigerTrade_latest.dmg" data-app-mac-link>
+                            <div class="tiger-icon icon-white apple icon-sm mr-1"></div>
+                            Mac
+                        </a>
+                        <p class="mac-text">macOS 10.15 or later</p>
+                    </div>
+                    <a class="btn bottom-bar-btn footer-dl-win" target="_blank" href="https://download.tigerfintech.com/desktop/cdn/f/TigerTradeSetup_latest.exe" data-app-windows-link>
+                        <div class="tiger-icon icon-white windows icon-sm mr-1"></div>
+                        Windows
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="site-footer-mobile-bar">
+        <div class="container">
+            <div class="bar-item">
+                <a class="bottom-bar-btn footer-dl-ios" target="_blank" href="https://da.tigerfintech.com/r/m" data-app-ios-link>
+                    <div class="tiger-icon apple icon-sm mr-1"></div>
+                    APP STORE
+                </a>
+                <a
+                    class="bottom-bar-btn footer-dl-android"
+                    target="_blank"
+                    data-app-android-link
+                    href="https://da.tigerfintech.com/r/u">
+                    <div class="tiger-icon google icon-sm mr-1"></div>
+                    GOOGLE PLAY
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="site-footer-nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 footer-links">
+                    <div class="row">
+                        <div class="col col-12 col-sm-6 col-lg-4 pr-lg-5 my-3">
+                            <h4 class="group-title mb-lg-5 mb-sm-3">Agreements and Declarations</h4>
+                            <div class="row row-cols-2">
+                                <div class="col nav-item">
+                                    <a class="nav-link px-0" href="/sg/info/terms-n-conditions" title="Terms &amp; Conditions" target="_self">
+                                        Terms &amp; Conditions
+                                    </a>
+                                </div>
+                                <div class="col nav-item">
+                                    <a class="nav-link px-0" href="/sg/info/disclaimer" title="Disclaimer" target="_self">
+                                        Disclaimer
+                                    </a>
+                                </div>
+                                <div class="col nav-item">
+                                    <a class="nav-link px-0" href="/agreement/TBSG-RiskDisclosures?skin=2" title="Risk Disclosure" target="_self">
+                                        Risk Disclosure
+                                    </a>
+                                </div>
+                                <div class="col nav-item">
+                                    <a class="nav-link px-0" href="/agreement/TBSG-StandardAgreement?lang=en_US&amp;skin=2" title="Client Agreement" target="_self">
+                                        Client Agreement
+                                    </a>
+                                </div>
+                                <div class="col nav-item">
+                                    <a class="nav-link px-0" href="/agreement/TBSG-OTC?lang=en_US" title="OTC Risk Disclosure" target="_self">
+                                        OTC Risk Disclosure
+                                    </a>
+                                </div>
+                                <div class="col nav-item">
+                                    <a class="nav-link px-0" href="/sg/info/best-execution-policy" title="Best Execution Policy" target="_self">
+                                        Best Execution Policy
+                                    </a>
+                                </div>
+                                <div class="col nav-item">
+                                    <a class="nav-link px-0" href="/agreement/TBSG-BTC-FUT?skin=2" title="PTDs Risk Disclosure" target="_self">
+                                        PTDs Risk Disclosure
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-12 col-sm-6 col-lg-2 my-3">
+                            <h4 class="group-title mb-lg-5 mb-sm-3">Privacy &amp; Security</h4>
+                            <div class="row row-cols-1">
+                                <div class="col nav-item">
+                                    <a class="nav-link px-0" href="/sg/security-n-custody" title="Security &amp; Custody" target="_self">
+                                        Security &amp; Custody
+                                    </a>
+                                </div>
+                                <div class="col nav-item">
+                                    <a class="nav-link px-0" href="/agreement/sgpolicy?skin=2" title="Privacy Policy" target="_self">
+                                        Privacy Policy
+                                    </a>
+                                </div>
+                                <div class="col nav-item">
+                                    <a class="nav-link px-0" href="/sg/tiger-token" title="Tiger Token" target="_self">
+                                        Tiger Token
+                                    </a>
+                                </div>
+                                <div class="col nav-item">
+                                    <a class="nav-link px-0" href="/sg/fraud-awareness" title="Fraud Awareness" target="_self">
+                                        Fraud Awareness
+                                    </a>
+                                </div>
+                                <div class="col nav-item">
+                                    <a class="nav-link px-0" href="https://www.itiger.com/sg/ComplianceCertifications?contentId=344" title="Compliance Certification" target="_self">
+                                        Compliance Certification
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-12 col-sm-6 col-lg-2 my-3">
+                            <h4 class="group-title mb-lg-5 mb-sm-3">Careers</h4>
+                            <div class="row row-cols-1">
+                                <div class="col nav-item">
+                                    <a class="nav-link px-0" href="https://www.linkedin.com/company/tigerbrokerssg/jobs/" title="Join Us" target="_self">
+                                        Join Us
+                                    </a>
+                                </div>
+                                <div class="col nav-item">
+                                    <a class="nav-link px-0" href="https://www.itiger.com/sg/marketing/take-the-leap" title="Tiger L.E.A.P Programme" target="_self">
+                                        Tiger L.E.A.P Programme
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-12 col-sm-6 col-lg-2 my-3">
+                            <h4 class="group-title mb-lg-5 mb-sm-3">About</h4>
+                            <div class="row row-cols-1">
+                                <div class="col nav-item">
+                                    <a class="nav-link px-0" href="/sg/about" title="Corporate Profile" target="_self">
+                                        Corporate Profile
+                                    </a>
+                                </div>
+                                <div class="col nav-item">
+                                    <a class="nav-link px-0" href="/sg/about/news" title="News" target="_self">
+                                        News
+                                    </a>
+                                </div>
+                                <div class="col nav-item">
+                                    <a class="nav-link px-0" href="/sg/about/contactus" title="Contact Us" target="_self">
+                                        Contact Us
+                                    </a>
+                                </div>
+                                <div class="col nav-item">
+                                    <a class="nav-link px-0" href="/sg/about/license" title="Licensing and Regulatory" target="_self">
+                                        Licensing and Regulatory
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 service-contact">
+                    <p>
+                            <span class="contact-us">Contact Us</span><br />
+                            Call Service:<br />
+                            Weekdays 8:30 am - 18:30 pm SGT<br />
+                            Online chat/WhatsApp service:<br />
+                            Weekdays 8:30 am - 5:00 am the following day
+                    </p>
+                            
+                            <div class="telphone"><a class="nav-link" href="tel:+65 6331 2277" title="+65 6331 2277">+65 6331 2277</a></div>
+                            <div class="whatsapp">
+                                <div class="whatsapp-icon"></div>
+                                <a class="nav-link" title="https://api.whatsapp.com/send?phone=6563312277 " href="https://api.whatsapp.com/send?phone=6563312277 " target="_blank">Click to chat</a>
+                                </div>
+                                    <div class="service-email">
+                                        <a class="nav-link" title="service@tigerbrokers.com.sg" href="mailto:service@tigerbrokers.com.sg">Customer Service: service@tigerbrokers.com.sg</a>
+                                    </div>
+                                    <div class="service-email">
+                                        <a class="nav-link" title="media@tigerbrokers.com.sg" href="mailto:media@tigerbrokers.com.sg">Marketing/Media: media@tigerbrokers.com.sg</a>
+                                    </div>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="https://www.youtube.com/channel/UCV9o1jW6brfQJepdpuVU2Lw" target="_blank" rel="nofollow" class="youtube" title="Follow Tiger Brokers&#39; youtube Account">
+                    youtube
+                </a>
+                <a href="https://www.facebook.com/tigerbrokerssg" target="_blank" rel="nofollow" class="facebook" title="Follow Tiger Brokers&#39; facebook Account">
+                    facebook
+                </a>
+                <a href="https://www.linkedin.com/company/tigerbrokerssg/" target="_blank" rel="nofollow" class="linkedin" title="Follow Tiger Brokers&#39; linkedin Account">
+                    linkedin
+                </a>
+                <a href="https://www.instagram.com/tigerbrokerssg" target="_blank" rel="nofollow" class="instagram" title="Follow Tiger Brokers&#39; instagram Account">
+                    instagram
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="site-footer-entities py-5" data-nosnippet>
+        <div class="container">
+                <h3>Regulated Entities</h3>
+            <div class="">
+                <div class="row text-justify">
+                    <div class="col-md-6 pr-lg-5">
+                        <h4>
+ US TIGER SECURITIES, INC.                         </h4>
+                        <div class="entity"><p>US Tiger Securities, Inc. is a broker-dealer registered with the U.S. Securities and Exchange Commission (SEC) (No.: 8-65324), member of the Financial Industry Regulatory Authority (FINRA) (CRD: 120583), member of the Securities Investor Protection Corporation (SIPC), and regulated by FINRA and SEC.</p></div>
+                        <h4>
+ TIGER BROKERS (SINGAPORE) PTE. LTD.                         </h4>
+                        <div class="entity"><p>Tiger Brokers (Singapore) Pte. Ltd. (Reg. No. 201810449W) is licensed and regulated by the Monetary Authority of Singapore and is authorised to operate in Singapore and for avoidance of doubt, is not authorised to operate in any other country. Tiger Brokers (Singapore) Pte. Ltd. does not solicit investors or market services in other jurisdictions such as China, Malaysia, and Vietnam. The content and materials published on this website is for information only and should not be regarded shall not be deemed as an offer, invitation, or solicitation, recommendation or advice to buy, sell, subscribe or dispose of any investment products, financial instruments or other financial services.</p></div>
+                        <h4>
+ TIGER BROKERS (NZ) LIMITED                         </h4>
+                        <div class="entity"><p style="text-align: left"><span>Tiger Brokers (NZ) Limited (NZCN: 5838590) is a client money and property service provider under the Financial Markets Conduct Act 2013. Tiger Brokers (NZ) Limited is not <em>licensed</em> by a New Zealand regulator to provide the client money and property service. Tiger Brokers (NZ) Limited's registration on the New Zealand register of financial service providers does not mean that Tiger Brokers (NZ) Limited is subject to active regulation or oversight by a New Zealand regulator.</span></p></div>
+                        <h4>
+ TIGER BROKERS (HK) GLOBAL LIMITED                         </h4>
+                        <div class="entity"><p style="text-align: left;">Tiger Brokers (HK) Global Limited (Central No. BMU940) is a licensed corporation of the Securities and Futures Commission of Hong Kong holding Type 1 ("Dealing in Securities"), Type 2 ("Dealing in Futures Contracts"), Type 4 ("Advising on Securities"), Type 5 ("Advising on Futures Contracts") and Type 9 (“Asset Management”) licenses.</p></div>
+                    </div>
+                    <div class="col-md-6 pr-lg-5">
+                        <h4>
+ TRADEUP SECURITIES, INC.                         </h4>
+                        <div class="entity"><p>TradeUP Securities, Inc. is a licensed entity registered with the SEC (No.: 8-36754), member of the FINRA (CRD: 18483), member of the SIPC, member of the Depository Trust Company (DTC) and the National Securities Clearing Corporation (NSCC), and regulated by FINRA and SEC.</p></div>
+                        <h4>
+ TIGER BROKERS (AU) PTY LIMITED                         </h4>
+                        <div class="entity"><p>Tiger Brokers (AU) Pty Limited, ABN 12 007 268 386, is licensed and regulated by Australian Securities and Investment Commission (ASIC), Australian Financial Services Licence no. 300767 (AFSL).</p></div>
+                        <h4>
+ TIGER FINTECH (NZ) LIMITED                         </h4>
+                        <div class="entity"><p style="text-align: left">Tiger Fintech (NZ) Limited (NZCN: 8187510) is a client money and property service provider under the Financial Markets Conduct Act 2013. <span>Tiger Fintech (NZ) Limited is not <em>licensed</em> by a New Zealand regulator to provide the client money and property service. Tiger Fintech (NZ) Limited's registration on the New Zealand register of financial service providers does not mean that Tiger Fintech (NZ) Limited is subject to active regulation or oversight by a New Zealand regulator.</span></p></div>
+                    </div>
+                </div>
+            </div>
+            <p class="mt-2">
+                Copyright © Tiger Brokers (Singapore) Pte. Ltd. <a href="https://www.uen.gov.sg/">UEN: 201810449W</a>
+            </p>
+        </div>
+     </div>
+</footer>
+          </div>
+         <!-- Analytics -->
+         <script>
+            function __loadScripts() {
+            /* Start: Google Global site tag(gtag) */
+(function(i,s,o,g,r,a,m){a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.googletagmanager.com/gtag/js?id=AW-331929667');
+window.dataLayer = window.dataLayer || [];window.gtag = function gtag(){dataLayer.push(arguments);}
+window.__gtagConfig={"autoTrackPageView":true,"AW_id":"AW-331929667","GA_id":"G-LECRLCDT1K","cookieDomain":"auto"};
+gtag('js', new Date());
+gtag('config', 'G-LECRLCDT1K', {"cookie_domain":"auto"});
+gtag('config', 'AW-331929667', {"cookie_domain":"auto"});
+/* End: Google Global site tag (gtag) */
+/* Start: Google Tag Manager */
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N5TBBK3');
+    /* End: Google Tag Manager */
+    
+/* Start: Sensors */
+        (function(para) {
+            var p = para.sdk_url, n = para.name, w = window, d = document, s = 'script',x = null,y = null;
+            if(typeof(w['sensorsDataAnalytic201505']) !== 'undefined') {
+                return false;
+            }
+            w['sensorsDataAnalytic201505'] = n;
+            w[n] = w[n] || function(a) {return function() {(w[n]._q = w[n]._q || []).push([a, arguments]);}};
+            var ifs = ['track','quick','register','registerPage','registerOnce','trackSignup', 'trackAbtest', 'setProfile','setOnceProfile','appendProfile', 'incrementProfile', 'deleteProfile', 'unsetProfile', 'identify','login','logout','trackLink','clearAllRegister','getAppStatus','setItem','deleteItem','use'];
+            for (var i = 0; i < ifs.length; i++) {
+              w[n][ifs[i]] = w[n].call(null, ifs[i]);
+            }
+            if (!w[n]._t) {
+              x = d.createElement(s), y = d.getElementsByTagName(s)[0];
+              x.async = 1;
+              x.src = p;
+              x.setAttribute('charset','UTF-8');
+              w[n].para = para;
+              y.parentNode.insertBefore(x, y);
+            }
+          })({"sdk_url":"https://c1.itigergrowtha.com/libs/sensors/1.26.12/sensorsdata.min.js","name":"sensors","server_url":"https://da.tigerfintech.com/sa?project=production","heatmap":{"clickmap":"default","scroll_notice_map":"default","collect_tags":{"div":true,"section":true,"img":true,"li":true,"p":true,"span":true,"h1":true,"h2":true,"h3":true,"h4":true,"h5":true,"h6":true,"label":true,"svg":true,"td":true,"th":true,"canvas":true,"video":true,"header":true,"footer":true,"aside":true,"article":true}},"is_track_single_page":true,"use_client_time":true,"send_type":"beacon","max_string_length":1000,"app_js_bridge":true});
+        sensors.registerPage({ platform: /tigerbrokers|tradeup/i.test(navigator.userAgent) ? 'h5' : 'web' });
+        sensors.quick('useModulePlugin','SiteLinker', { linker: [{"part_url":"tigersecurities.com","after_hash":false},{"part_url":"skytigris.com","after_hash":false},{"part_url":"tigertcp.cn","after_hash":false},{"part_url":"itigergrowth.com","after_hash":false},{"part_url":"itigerup.com","after_hash":false},{"part_url":"itiger.com","after_hash":false},{"part_url":"hellotigr.com","after_hash":false},{"part_url":"itigerup.net.cn","after_hash":false},{"part_url":"itigerup.com.cn","after_hash":false},{"part_url":"goodtigr.com","after_hash":false},{"part_url":"tigerbrokers.com.sg","after_hash":false},{"part_url":"mydigiuc.com","after_hash":false},{"part_url":"tigerfintech.net","after_hash":false},{"part_url":"tigerstocks.com","after_hash":false},{"part_url":"tigerbrokers.com.au","after_hash":false},{"part_url":"tigerbrokers.nz","after_hash":false},{"part_url":"tigerbrokers.com.hk","after_hash":false},{"part_url":"tigerbrokers.hk","after_hash":false},{"part_url":"tigerhkgo.com","after_hash":false},{"part_url":"gotigerhk.com","after_hash":false},{"part_url":"tigerhello.com","after_hash":false},{"part_url":"imtigers.com","after_hash":false},{"part_url":"heytigers.com","after_hash":false},{"part_url":"thetigerbrokers.com","after_hash":false},{"part_url":"mytigerbrokers.com","after_hash":false},{"part_url":"tigertrade.app","after_hash":false},{"part_url":"itigertrade.app","after_hash":false},{"part_url":"itigertrader.com","after_hash":false},{"part_url":"tigertrader.app","after_hash":false},{"part_url":"tradertiger.com","after_hash":false},{"part_url":"itigertrades.com","after_hash":false},{"part_url":"tradetiger.app","after_hash":false},{"part_url":"igrtrade.app","after_hash":false}] });
+        window.__sensorsConfig = {"showLog":false,"heatmap":{"clickmap":"default","scroll_notice_map":"default","collect_tags":{"div":true,"section":true,"img":true,"li":true,"p":true,"span":true,"h1":true,"h2":true,"h3":true,"h4":true,"h5":true,"h6":true,"label":true,"svg":true,"td":true,"th":true,"canvas":true,"video":true,"header":true,"footer":true,"aside":true,"article":true}},"autoTrack":true,"autoTrackArgs":{},"platform":"webBehavior","pageLeave":true,"linkerDomains":["tigersecurities.com","skytigris.com","tigertcp.cn","itigergrowth.com","itigerup.com","itiger.com","hellotigr.com","itigerup.net.cn","itigerup.com.cn","goodtigr.com","tigerbrokers.com.sg","mydigiuc.com","tigerfintech.net","tigerstocks.com","tigerbrokers.com.au","tigerbrokers.nz","tigerbrokers.com.hk","tigerbrokers.hk","tigerhkgo.com","gotigerhk.com","tigerhello.com","imtigers.com","heytigers.com","thetigerbrokers.com","mytigerbrokers.com","tigertrade.app","itigertrade.app","itigertrader.com","tigertrader.app","tradertiger.com","itigertrades.com","tradetiger.app","igrtrade.app"],"app_js_bridge":true};
+sensors.use('PageLeave', { heartbeat_interval_time: 5 });
+sensors.quick('autoTrack', {});
+/* End: Sensors */
+/* Start: fbq */
+!function(f,b,e,v,n,t,s){
+    if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '625055665187138');
+window.__fbqInit = function(appId) {
+	fbq('init', appId);
+};
+fbq('track', 'PageView');
+/* End: fbq */
+/* Start: twq */
+!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
+a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+twq('config', 'odppp');
+/* End: twq */
+/* Start: rdt */
+        !function(w,d){if(!w.rdt){var p=w.rdt=function(){p.sendEvent?p.sendEvent.apply(p,arguments):p.callQueue.push(arguments)};p.callQueue=[];var t=d.createElement("script");t.src="https://www.redditstatic.com/ads/pixel.js",t.async=!0;var s=d.getElementsByTagName("script")[0];s.parentNode.insertBefore(t,s)}}(window,document);
+        rdt('init', 't2_b9hq2vbh');
+rdt('track', 'PageVisit');
+/* End: rdt */
+/* Start: bing */
+        (function(w,d,t,r,u)
+        {var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:'355043013'};o.q=w[u],w[u]=w.UET?new UET(o):[],w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");
+        
+/* End: bing */
+            }
+
+            ;(requestAnimationFrame || setTimeout)(__loadScripts);
+        </script>
+        <!-- End Analytics -->
+<script crossorigin="anonymous" src="https://c1.itigergrowtha.com/portal5/static/js/runtime.fdfe571e.js" type="text/javascript"></script>
+<script crossorigin="anonymous" src="https://c1.itigergrowtha.com/portal5/static/js/i18n.14ad6f0c.js" type="text/javascript"></script>
+<script crossorigin="anonymous" src="https://c1.itigergrowtha.com/portal5/static/js/vendor.829fb432.js" type="text/javascript"></script>
+<script crossorigin="anonymous" src="https://c1.itigergrowtha.com/portal5/static/js/common.725557f0.js" type="text/javascript"></script>
+<script crossorigin="anonymous" src="https://c1.itigergrowtha.com/portal5/static/js/customPage.51197f8e.js" type="text/javascript"></script>
+ <script>
+    !(function (c, b, d, a) {
+        c[a] || (c[a] = {});
+        c[a] = {
+            pid: 'eczp7ijd7o@364c965242ebd91',
+            endpoint: 'https://eczp7ijd7o-default-sea.rum.aliyuncs.com',
+            env: 'prod',
+            version: '7.83.5',
+            spaMode: 'history',
+            properties: {
+                region: 'SGP',
+                userAgent: navigator.userAgent,
+                referrer: document.referrer
+            },
+            filters: {
+                resource: function (url) {
+                    return new RegExp([
+                        'adsrvr.org',
+                        'linkedin.com',
+                        'stackadapt.com',
+                        'yimg.com',
+                        'licdn.com',
+                        'adsrvr.org',
+                        'gstatic.com',
+                        'redditstatic.com',
+                        'bugsnag.com',
+                        'googleadservices.com',
+                        'reddit.com',
+                        'go-mpulse.net',
+                        'facebook.com',
+                        'facebook.net',
+                        'akamaihd.net',
+                        'spotify.com',
+                        'doubleclick.net',
+                        'googletagmanager.com'
+                    ].join('|'), 'i').test(url);
+                }
+            },
+            collectors: {
+                perf: true,
+                webVitals: true,
+                api: true,
+                staticResource: true,
+                jsError: true,
+                consoleError: true,
+                action: true
+            },
+            tracing: true
+        };
+        with (b)
+            with (body)
+                with (insertBefore(createElement('script'), firstChild)) setAttribute('crossorigin', '', (src = d));
+    })(window, document, 'https://sdk.rum.aliyuncs.com/v2/browser-sdk.js', '__rum');
+</script>
+    </body>
+</html>

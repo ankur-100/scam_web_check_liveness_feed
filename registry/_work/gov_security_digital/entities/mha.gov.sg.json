@@ -1,0 +1,76 @@
+{
+ "entity_id": "mha.gov.sg",
+ "name": "Ministry of Home Affairs",
+ "abbr": "MHA",
+ "aliases": [
+  "Ministry of Home Affairs (MHA)",
+  "Home Team"
+ ],
+ "sector": "gov.ministry",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "mha.gov.sg"
+ ],
+ "official_hosts": [
+  "www.mha.gov.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.mha.gov.sg/media-room/newsroom/advisory-on-fake-websites-impersonating-mha-and-home-team-agencies/",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2026-08-12",
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "On 10 August 2026, HTX detected more than 500 fake websites impersonating MHA and Home Team agencies and promptly took steps to take them down. All identified websites were taken down by 11 August 2026.",
+   "notes": "Covers MHA plus 7 agencies (SPF, CNB, SCDF, ICA, SPS, HTX, HTA). Names no domains. Guidance: official sites end with .gov.sg; report via the ScamShield Helpline 1799 or police.gov.sg/i-witness. Republished by SPS on 13 Aug 2026; other agencies did not republish it per their sitemaps."
+  },
+  {
+   "url": "https://www.mha.gov.sg/media-room/newsroom/",
+   "kind": "news_releases",
+   "lists_indicators": [],
+   "access": "rss",
+   "machine_url": "https://www.mha.gov.sg/media-room/newsroom/rss.xml",
+   "item_count": 200,
+   "latest_item_date": "2026-11-25",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Wed, 04 Nov 2026 | Addressing hotel booking phishing cases involving genuine booking details and obligations of hotels and booking platforms to notify affected customers",
+   "notes": "RSS 2.0 declared via <link rel=\"alternate\"> (fields: title, link, guid, pubDate, category, description). Rolling window of 200 items (6 Jun to 25 Nov 2026); 24 mention scam/fraud/phish/impersonat/fake. Mostly parliamentary replies, speeches and policy (e.g. Sentencing (Scams) Bill, 3 Nov 2026). Few public advisories and almost no IOCs. Sitemap https://www.mha.gov.sg/sitemap.xml (3,543 URLs, lastmod) has 193 keyword slugs (187 newsroom, 103 of them PQ/speech). Many lastmods are a bulk 2026-07-30 re-save, so use the RSS pubDate for dating."
+  },
+  {
+   "url": "https://www.mha.gov.sg/media-room/newsroom/number-of-fake-bulk-order-scams-involving-impersonation-of-saf-personnel-and-measures-to-protect-small-businesses-from-such-scams/",
+   "kind": "news_releases",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2025-09-26",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "To ask the Minister for Home Affairs (a) how many cases of fake bulk order scams impersonating SAF personnel have been reported since May 2025",
+   "notes": "Written PQ answer dated 26 Sep 2025 (JSON-LD shows the 2026-07-30 bulk re-save). Siblings: measures-to-enhance-awareness-of-fake-bulk-order-scams and status-of-investigations-into-fake-bulk-order-scams-involving-impersonation-of-saf-personnel. Relevant to MINDEF/SAF impersonation."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [
+   "gov.sg",
+   "70999",
+   "70995",
+   "MHAalert"
+  ],
+  "hotlines": [
+   "1799 (ScamShield Helpline)",
+   "6478 7010 (MHA general line per SGDI)"
+  ],
+  "short_link_domains": [],
+  "social": []
+ },
+ "evidence": [
+  "https://www.sgdi.gov.sg/ministries/mha",
+  "https://www.mha.gov.sg/sitemap.xml",
+  "https://www.sms.gov.sg/exceptions"
+ ],
+ "notes": "Parent of SPF, SCDF, ICA, CNB, SPS, HTA, HTX, GRA and YRSG (SGDI). MHA SMS exceptions per sms.gov.sg: 70999 (Police emergency SMS), 70995 (SCDF 995 SMS), \"MHAalert\" (one-way public alerts in demarcated areas; check page lists it as \"MHA Alert\"). The machine-readable endpoint is the newsroom RSS. Scam content is policy/PQ-heavy with no IOC lists."
+}

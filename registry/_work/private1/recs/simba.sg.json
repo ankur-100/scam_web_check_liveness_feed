@@ -1,0 +1,51 @@
+{
+ "entity_id": "simba.sg",
+ "name": "SIMBA Telecom Pte. Ltd.",
+ "abbr": "SIMBA",
+ "aliases": [
+  "SIMBA",
+  "Simba",
+  "SIMBA Telecom",
+  "TPG Telecom Singapore",
+  "TPG Telecom",
+  "My SIMBA app"
+ ],
+ "sector": "telco",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "simba.sg"
+ ],
+ "official_hosts": [
+  "simba.sg",
+  "www.simba.sg",
+  "registration.simba.sg",
+  "register.simba.sg",
+  "support.simba.sg"
+ ],
+ "scam_info": [],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": [
+   "https://www.facebook.com/SIMBAtelecomSG",
+   "https://www.instagram.com/simbatelecomsg",
+   "https://www.linkedin.com/company/simbatelecom",
+   "https://www.tiktok.com/@simbatelecomsg",
+   "https://www.youtube.com/channel/UCzFUkVZ0Q_fJGGpw7cEU0cg",
+   "https://x.com/SimbaTelecomSG"
+  ],
+  "apps": [
+   "My SIMBA (Apple App Store id1542566692)",
+   "My SIMBA (Google Play com.tpg_sg)"
+  ],
+  "emails": []
+ },
+ "evidence": [
+  "https://www.simba.sg/",
+  "https://simba.sg/robots.txt",
+  "https://simba.sg/sitemap.xml"
+ ],
+ "notes": "Domain verified: www.simba.sg redirects to https://simba.sg/ (HTTP 200, 2026-11-26). official_domains (b): serves site; registration/register/support subdomains linked from homepage. No SIMBA-owned scam/security page found: sitemap.xml (99 URLs) has none, homepage has no scam notice. blocked: support.simba.sg (Zendesk help centre) returns Cloudflare 'Just a moment...' 403 to curl and HTTP 403 to WebFetch - not bypassed, so any help-centre scam articles are unknown. HIGH-VALUE GAP: SIMBA is heavily impersonated in Oct-Nov 2026 - per web search (unverified (search snippet), SPF advisory 21 Oct 2026 via news coverage): >=62 cases / >=S$83,000 losses since Mar 2026 from fake SIMBA top-up sites in Google sponsored results using suffixes like .asia/.shop/.icu/.life/.cfd/.cyou; and >=59 cases / >=S$1.3m in Oct 2026 from callers posing as SIMBA staff then fake police/MAS. A secondary source says the genuine top-up host is topup.simba.sg - unverified (search snippet), not added. The government-side SPF/ScamShield advisories should be taken from the government registry instead."
+}

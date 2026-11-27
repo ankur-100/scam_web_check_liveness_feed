@@ -1,0 +1,22 @@
+{
+ "entity_id": "nea.gov.sg",
+ "name": "National Environment Agency",
+ "abbr": "NEA",
+ "aliases": ["National Environment Agency (NEA)", "NEA", "Clean and Green Singapore", "Climate Vouchers"],
+ "sector": "gov.statboard",
+ "parent_entity_id": "mse.gov.sg",
+ "country": "SG",
+ "official_domains": ["nea.gov.sg"],
+ "official_hosts": ["www.nea.gov.sg"],
+ "scam_info": [
+  {"url": "https://t.me/s/NEASingapore?q=scam", "kind": "advisory_feed", "lists_indicators": [], "access": "html",
+   "machine_url": null, "item_count": 4, "latest_item_date": "2025-10-27", "verified": "2026-11-26 HTTP 200",
+   "sample": "[ Scam Alert] We are aware of a scam involving the impersonation of NEA’s ePortal ( www.nea.gov.sg/e-services ). Individuals have received SMS urging them to pay fines through a phishing site that requests payment details.",
+   "notes": "Public web preview of Telegram channel 'NEA Singapore' (8.98K subscribers) filtered by q=scam: 4 dated scam posts 2024-01-09 (fake Facebook accounts using NEA/Clean and Green Singapore logos), 2024-11-16 (fake NEA ePortal fines SMS), 2025-06-30 (Climate Vouchers: 'The ONLY way to claim ... is through go.gov.sg/cv-claim'), 2025-10-27 (generic). No fake domains/handles named. CAVEAT: channel found via search; not linked from the nea.gov.sg homepage social footer (FB/IG/LinkedIn/TikTok/YouTube) - ownership by NEA is inferred, not verified on nea.gov.sg. t.me robots.txt 404."}
+ ],
+ "official_channels": {"sms_sender_ids": ["gov.sg"], "hotlines": ["6225 5632 (NEA, per SGDI)"], "short_link_domains": ["go.gov.sg"],
+   "social": ["https://www.facebook.com/NEASingapore", "https://www.instagram.com/nea_sg/", "https://www.linkedin.com/company/national-environment-agency", "https://www.tiktok.com/@nea_sg", "https://www.youtube.com/channel/UC-tjEFkd0tT2VpD5vbjyAKA/videos"],
+   "apps": [], "emails": ["nea_qsm@nea.gov.sg (SGDI)"]},
+ "evidence": ["https://www.sgdi.gov.sg/ministries/mse/statutory-boards/nea", "https://www.nea.gov.sg/"],
+ "notes": "No scam page on nea.gov.sg: sitemap.xml is stale (446 URLs, all lastmod 2018-06-27; 'advisories' hits are dengue/haze/licensee advisories); /media/advisories redirects to /media/news (filterable, no scam category). Genuine e-payment entry point per NEA's own Telegram alert: www.nea.gov.sg/e-services (ePortal). Climate Vouchers claim only via go.gov.sg/cv-claim. SPF brand tag 'National Environment Agency (NEA)' (1 advisory; SPF sample scam domain nodequa.net, not visited)."
+}

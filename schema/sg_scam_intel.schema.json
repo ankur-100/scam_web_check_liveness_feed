@@ -1,0 +1,352 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local/sg_scam_intel/v0.1/schema.json",
+  "title": "SG Scam Intelligence — canonical records (draft v0.1)",
+  "description": "Seven record types: entity, source, report, indicator, sighting, liveness_check, feed_event. A record validates against exactly one $defs entry, selected by its `record_type`. See SCHEMA.md for semantics, lifecycle rules and source mappings.",
+  "oneOf": [
+    {"$ref": "#/$defs/entity"}, {"$ref": "#/$defs/source"}, {"$ref": "#/$defs/report"},
+    {"$ref": "#/$defs/indicator"}, {"$ref": "#/$defs/sighting"}, {"$ref": "#/$defs/liveness_check"},
+    {"$ref": "#/$defs/feed_event"}
+  ],
+  "$defs": {
+    "ts": {"type": "string", "format": "date-time"},
+    "ts_or_null": {"type": ["string", "null"], "format": "date-time"},
+    "entity_id": {
+      "type": "string",
+      "description": "Primary official registrable domain (e.g. lta.gov.sg); programme without own domain: <domain>#<slug>; fictitious scam brand: brand:<slug>; placeholder: placeholder:<slug>",
+      "pattern": "^([a-z0-9][a-z0-9.-]*\\.[a-z]{2,}(#[a-z0-9-]+)?|brand:[a-z0-9-]+|placeholder:[a-z0-9-]+)$"
+    },
+    "source_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
+    "indicator_id": {"type": "string", "pattern": "^ind_[0-9a-f]{16}$"},
+    "category": {
+      "type": "string",
+      "description": "SG scam taxonomy v0.1 (base = SPF Scam Category values; see SCHEMA.md §5)",
+      "enum": ["investment", "job", "phishing.banking", "phishing.non_banking", "phishing.unspecified",
+               "impersonation.government", "impersonation.other", "ecommerce", "malware", "loan", "visa",
+               "unlicensed_financial", "romance", "fake_friend_call", "tech_support", "crypto", "other"]
+    },
+    "sector": {
+      "type": "string",
+      "enum": ["gov.ministry", "gov.statboard", "gov.organ", "gov.dept", "gov.programme", "gov.court", "quasi_gov",
+               "bank", "payments", "telco", "logistics", "ecommerce", "marketplace", "transport", "utility", "retail",
+               "travel", "media", "brokerage", "insurance", "healthcare", "tech_platform", "crypto", "other"]
+    },
+    "tlp": {"type": "string", "enum": ["TLP:CLEAR", "TLP:GREEN", "TLP:AMBER", "TLP:AMBER+STRICT", "TLP:RED"]},
+
+    "entity": {
+      "type": "object",
+      "description": "An organisation that issues warnings and/or is impersonated, or a fictitious scam brand. Built from the registry + SPF brand map.",
+      "required": ["record_type", "entity_id", "name", "kind", "country"],
+      "additionalProperties": false,
+      "properties": {
+        "record_type": {"const": "entity"},
+        "entity_id": {"$ref": "#/$defs/entity_id"},
+        "name": {"type": "string"},
+        "abbr": {"type": ["string", "null"]},
+        "aliases": {"type": "array", "items": {"type": "string"}, "description": "Includes exact SPF Brand tag strings that resolve here"},
+        "kind": {"type": "string", "enum": ["organisation", "programme", "fictitious_brand", "placeholder"]},
+        "sector": {"$ref": "#/$defs/sector"},
+        "country": {"type": "string", "description": "ISO 3166-1 alpha-2, or 'ZZ' for global/unknown"},
+        "parent_entity_id": {"anyOf": [{"$ref": "#/$defs/entity_id"}, {"type": "null"}]},
+        "official": {
+          "type": "object",
+          "description": "Allowlist material. Anything here is NEVER emitted as an IOC.",
+          "additionalProperties": false,
+          "properties": {
+            "domains": {"type": "array", "items": {"type": "string"}},
+            "hosts": {"type": "array", "items": {"type": "string"}},
+            "sms_sender_ids": {"type": "array", "items": {"type": "string"}},
+            "hotlines": {"type": "array", "items": {"type": "string"}},
+            "short_link_domains": {"type": "array", "items": {"type": "string"}},
+            "social": {"type": "array", "items": {"type": "string"}}
+          }
+        },
+        "scam_info_source_ids": {"type": "array", "items": {"$ref": "#/$defs/source_id"}, "description": "Sources this entity publishes"},
+        "external_ids": {
+          "type": "object",
+          "properties": {
+            "spf_brand_tag_ids": {"type": "array", "items": {"type": "string"}},
+            "opensanctions_id": {"type": ["string", "null"]},
+            "sgdi_url": {"type": ["string", "null"]},
+            "uen": {"type": ["string", "null"]}
+          }
+        },
+        "evidence": {"type": "array", "items": {"type": "string"}},
+        "verified_at": {"$ref": "#/$defs/ts_or_null"},
+        "notes": {"type": ["string", "null"]}
+      }
+    },
+
+    "source": {
+      "type": "object",
+      "description": "A feed/publication we ingest.",
+      "required": ["record_type", "source_id", "publisher_entity_id", "url", "access", "authority", "lifecycle_semantics", "tlp"],
+      "additionalProperties": false,
+      "properties": {
+        "record_type": {"const": "source"},
+        "source_id": {"$ref": "#/$defs/source_id"},
+        "name": {"type": "string"},
+        "publisher_entity_id": {"$ref": "#/$defs/entity_id"},
+        "url": {"type": "string"},
+        "machine_url": {"type": ["string", "null"]},
+        "access": {"type": "string", "enum": ["html", "html_rsc", "rss", "atom", "sitemap", "json", "csv", "txt", "pdf", "api_documented"]},
+        "auth": {"type": "string", "enum": ["none", "free_key", "paid", "membership"], "default": "none"},
+        "authority": {"type": "string", "enum": ["authoritative", "regulator", "industry", "community", "commercial", "academic"], "description": "Drives default confidence"},
+        "sg_scope": {"type": "string", "enum": ["native", "filtered", "mixed"], "description": "native = SG-only publisher; filtered = global feed passed through sg filter"},
+        "sg_filter_id": {"type": ["string", "null"]},
+        "lifecycle_semantics": {
+          "type": "string",
+          "enum": ["snapshot_full", "active_list", "append_only", "event_stream"],
+          "description": "snapshot_full: each poll returns the whole set (disappearance = removal, e.g. SPF icanact, MAS IAL). active_list: membership = currently active (Phishing.Database ACTIVE). append_only: items accumulate (CSA RSS). event_stream: per-item timestamps with updates (PhishStats)."
+        },
+        "provides_times": {"type": "array", "items": {"type": "string", "enum": ["published", "modified", "first_seen", "last_seen", "listed", "delisted", "none"]}},
+        "licence": {"type": ["string", "null"]},
+        "terms_url": {"type": ["string", "null"]},
+        "tlp": {"$ref": "#/$defs/tlp"},
+        "poll_interval_s": {"type": ["integer", "null"], "minimum": 60},
+        "parser": {"type": ["string", "null"]},
+        "parser_version": {"type": ["string", "null"]},
+        "notes": {"type": ["string", "null"]}
+      }
+    },
+
+    "report": {
+      "type": "object",
+      "description": "One publication item from a source: an SPF advisory, an MAS IAL listing, a CSA advisory, a police.gov.sg news release.",
+      "required": ["record_type", "report_id", "source_id", "native_id", "issuer_entity_id", "title", "first_ingested_at"],
+      "additionalProperties": false,
+      "properties": {
+        "record_type": {"const": "report"},
+        "report_id": {"type": "string", "pattern": "^[a-z0-9-]+:.+$", "description": "<source_id>:<native_id>"},
+        "source_id": {"$ref": "#/$defs/source_id"},
+        "native_id": {"type": "string"},
+        "url": {"type": ["string", "null"]},
+        "issuer_entity_id": {"$ref": "#/$defs/entity_id"},
+        "title": {"type": "string"},
+        "summary": {"type": ["string", "null"]},
+        "body_md": {"type": ["string", "null"]},
+        "language": {"type": "string", "default": "en"},
+        "published_at": {"$ref": "#/$defs/ts_or_null"},
+        "modified_at": {"$ref": "#/$defs/ts_or_null"},
+        "categories": {"type": "array", "items": {"$ref": "#/$defs/category"}},
+        "categories_raw": {"type": "array", "items": {"type": "string"}},
+        "impersonated_entity_ids": {"type": "array", "items": {"$ref": "#/$defs/entity_id"}},
+        "fictitious_brand_ids": {"type": "array", "items": {"$ref": "#/$defs/entity_id"}},
+        "brand_tags_raw": {"type": "array", "items": {"type": "string"}},
+        "indicator_ids": {"type": "array", "items": {"$ref": "#/$defs/indicator_id"}},
+        "media": {"type": "array", "items": {"type": "string"}},
+        "status": {"type": "string", "enum": ["published", "updated", "withdrawn"], "description": "withdrawn = vanished from a snapshot_full source"},
+        "first_ingested_at": {"$ref": "#/$defs/ts"},
+        "last_ingested_at": {"$ref": "#/$defs/ts_or_null"},
+        "withdrawn_at": {"$ref": "#/$defs/ts_or_null"},
+        "raw_sha256": {"type": ["string", "null"], "pattern": "^[0-9a-f]{64}$"},
+        "tlp": {"$ref": "#/$defs/tlp"}
+      }
+    },
+
+    "indicator": {
+      "type": "object",
+      "description": "Canonical, de-duplicated observable. Mutable: lifecycle fields are recomputed from sightings + liveness checks.",
+      "required": ["record_type", "indicator_id", "type", "value", "status", "first_seen", "last_seen", "confidence", "tlp"],
+      "additionalProperties": false,
+      "properties": {
+        "record_type": {"const": "indicator"},
+        "indicator_id": {"$ref": "#/$defs/indicator_id"},
+        "type": {"type": "string", "enum": ["domain", "hostname", "url", "ipv4", "ipv6", "phone", "email", "sms_sender_id",
+                                            "app_package", "app_name", "social_handle", "bank_account", "crypto_address", "entity_name"]},
+        "value": {"type": "string", "description": "Normalised: lowercase IDNA hostnames, E.164 phones, lowercase emails, canonical URL"},
+        "value_defanged": {"type": ["string", "null"]},
+        "values_raw": {"type": "array", "items": {"type": "string"}},
+        "host": {
+          "type": ["object", "null"],
+          "description": "For domain/hostname/url types",
+          "additionalProperties": false,
+          "properties": {
+            "hostname": {"type": "string"},
+            "registrable_domain": {"type": "string", "description": "PSL eTLD+1 incl. private section (pages.dev, wpenginepowered.com)"},
+            "tld": {"type": "string"},
+            "is_shared_platform": {"type": "boolean", "description": "PSL-private suffix or known platform (blogspot, pages.dev, edgeone.dev): never block the platform"},
+            "is_compromised_legit": {"type": ["boolean", "null"], "description": "Malicious host on an otherwise legitimate domain (e.g. iras.<sme>.com.sg)"},
+            "block_scope": {"type": "string", "enum": ["url", "hostname", "registrable_domain"], "description": "Narrowest safe blocking granularity"},
+            "idn_unicode": {"type": ["string", "null"]}
+          }
+        },
+        "sg_signals": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "sg_tld": {"type": "boolean"},
+            "brand_tokens": {"type": "array", "items": {"type": "string"}},
+            "service_tokens": {"type": "array", "items": {"type": "string"}, "description": "e.g. onemotoring, erp, paylah, paynow, cdc, sgac"},
+            "path_tokens": {"type": "array", "items": {"type": "string"}, "description": "kit paths e.g. /bank/dbs/"},
+            "sg_native_source": {"type": "boolean", "description": "Sighted by at least one sg_scope=native source"},
+            "score": {"type": "number", "minimum": 0, "maximum": 1}
+          }
+        },
+        "impersonated_entity_ids": {"type": "array", "items": {"$ref": "#/$defs/entity_id"}},
+        "fictitious_brand_ids": {"type": "array", "items": {"$ref": "#/$defs/entity_id"}},
+        "lookalike_of": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["entity_id", "method", "score"],
+            "additionalProperties": false,
+            "properties": {
+              "entity_id": {"$ref": "#/$defs/entity_id"},
+              "official_domain": {"type": "string"},
+              "method": {"type": "string", "enum": ["brand_token", "service_token", "levenshtein", "homoglyph", "subdomain_abuse", "path_kit"]},
+              "score": {"type": "number", "minimum": 0, "maximum": 1}
+            }
+          }
+        },
+        "categories": {"type": "array", "items": {"$ref": "#/$defs/category"}},
+        "issuer_entity_ids": {"type": "array", "items": {"$ref": "#/$defs/entity_id"}, "description": "Who warned about it (union over reports)"},
+        "report_ids": {"type": "array", "items": {"type": "string"}},
+        "source_ids": {"type": "array", "items": {"$ref": "#/$defs/source_id"}},
+        "n_sightings": {"type": "integer", "minimum": 0},
+        "first_seen": {"$ref": "#/$defs/ts", "description": "min over sightings of (source_first_seen ?? first_ingested_at)"},
+        "last_seen": {"$ref": "#/$defs/ts", "description": "max over sightings of (source_last_seen ?? last_ingested_at)"},
+        "first_reported_at": {"$ref": "#/$defs/ts_or_null", "description": "Earliest published_at of an authoritative report"},
+        "liveness": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "state": {"type": "string", "enum": ["live", "dead", "parked", "sinkholed", "suspended", "blocked", "redirect_benign", "unknown", "not_applicable"]},
+            "state_since": {"$ref": "#/$defs/ts_or_null"},
+            "last_checked_at": {"$ref": "#/$defs/ts_or_null"},
+            "last_live_at": {"$ref": "#/$defs/ts_or_null"},
+            "consecutive_failures": {"type": "integer", "minimum": 0},
+            "last_check_id": {"type": ["string", "null"]},
+            "registration_expires_at": {"$ref": "#/$defs/ts_or_null", "description": "RDAP expiration event: the domain's own 'expires'"},
+            "registry_status": {"type": "array", "items": {"type": "string"}, "description": "RDAP/EPP status e.g. clientHold, serverHold (= takedown)"}
+          }
+        },
+        "status": {
+          "type": "string",
+          "enum": ["active", "inactive", "expired", "revoked", "allowlisted", "unverified"],
+          "description": "Derived; rules in SCHEMA.md §4. allowlisted is never emitted on the IOC feed."
+        },
+        "status_reason": {"type": ["string", "null"]},
+        "valid_from": {"$ref": "#/$defs/ts_or_null"},
+        "valid_until": {"$ref": "#/$defs/ts_or_null", "description": "Policy expiry: max(last_live_at, last_seen) + TTL(type)"},
+        "revoked": {"type": "boolean", "default": false},
+        "confidence": {"type": "integer", "minimum": 0, "maximum": 100},
+        "tlp": {"$ref": "#/$defs/tlp"},
+        "created_at": {"$ref": "#/$defs/ts_or_null"},
+        "updated_at": {"$ref": "#/$defs/ts_or_null"},
+        "version": {"type": "integer", "minimum": 1}
+      }
+    },
+
+    "sighting": {
+      "type": "object",
+      "description": "Assertion by a source that an indicator exists (and in what role). The provenance join between indicator, source and report.",
+      "required": ["record_type", "sighting_id", "indicator_id", "source_id", "role", "first_ingested_at"],
+      "additionalProperties": false,
+      "properties": {
+        "record_type": {"const": "sighting"},
+        "sighting_id": {"type": "string", "pattern": "^sig_[0-9a-f]{16}$"},
+        "indicator_id": {"$ref": "#/$defs/indicator_id"},
+        "source_id": {"$ref": "#/$defs/source_id"},
+        "report_id": {"type": ["string", "null"]},
+        "role": {"type": "string", "enum": ["ioc", "official", "mention_benign", "unknown"],
+                 "description": "ioc = flagged malicious; official = genuine channel (allowlist); mention_benign = genuine domain quoted in advice text"},
+        "source_first_seen": {"$ref": "#/$defs/ts_or_null"},
+        "source_last_seen": {"$ref": "#/$defs/ts_or_null"},
+        "source_status": {"type": ["string", "null"], "description": "Source's own state claim, verbatim (e.g. 'ACTIVE', 'http_code=404', 'listed')"},
+        "first_ingested_at": {"$ref": "#/$defs/ts"},
+        "last_ingested_at": {"$ref": "#/$defs/ts_or_null"},
+        "removed_at": {"$ref": "#/$defs/ts_or_null", "description": "Set when the item disappears from a snapshot_full/active_list source"},
+        "raw": {"type": ["object", "null"], "description": "Source-native fields kept verbatim"}
+      }
+    },
+
+    "liveness_check": {
+      "type": "object",
+      "description": "Immutable observation from our checker (append-only log).",
+      "required": ["record_type", "check_id", "indicator_id", "checked_at", "checker", "verdict"],
+      "additionalProperties": false,
+      "properties": {
+        "record_type": {"const": "liveness_check"},
+        "check_id": {"type": "string"},
+        "indicator_id": {"$ref": "#/$defs/indicator_id"},
+        "checked_at": {"$ref": "#/$defs/ts"},
+        "checker": {
+          "type": "object",
+          "required": ["version", "vantage"],
+          "properties": {
+            "version": {"type": "string"},
+            "vantage": {"type": "string", "description": "e.g. sg-residential, sg-cloud, us-cloud: SG ISPs may show OCHA block pages"},
+            "resolver": {"type": ["string", "null"]}
+          }
+        },
+        "dns": {
+          "type": ["object", "null"],
+          "properties": {
+            "rcode": {"type": "string", "enum": ["NOERROR", "NXDOMAIN", "SERVFAIL", "REFUSED", "TIMEOUT", "NODATA"]},
+            "a": {"type": "array", "items": {"type": "string"}},
+            "aaaa": {"type": "array", "items": {"type": "string"}},
+            "cname": {"type": "array", "items": {"type": "string"}},
+            "ns": {"type": "array", "items": {"type": "string"}}
+          }
+        },
+        "rdap": {
+          "type": ["object", "null"],
+          "properties": {
+            "status": {"type": "array", "items": {"type": "string"}},
+            "registered_at": {"$ref": "#/$defs/ts_or_null"},
+            "expires_at": {"$ref": "#/$defs/ts_or_null"},
+            "registrar": {"type": ["string", "null"]},
+            "error": {"type": ["string", "null"]}
+          }
+        },
+        "tls": {
+          "type": ["object", "null"],
+          "properties": {
+            "issuer": {"type": ["string", "null"]},
+            "not_before": {"$ref": "#/$defs/ts_or_null"},
+            "not_after": {"$ref": "#/$defs/ts_or_null"}
+          }
+        },
+        "http": {
+          "type": ["object", "null"],
+          "properties": {
+            "status": {"type": ["integer", "null"]},
+            "final_url": {"type": ["string", "null"]},
+            "redirect_chain": {"type": "array", "items": {"type": "string"}},
+            "title": {"type": ["string", "null"]},
+            "content_sha256": {"type": ["string", "null"]},
+            "bytes": {"type": ["integer", "null"]},
+            "server": {"type": ["string", "null"]},
+            "error": {"type": ["string", "null"]}
+          }
+        },
+        "fingerprints": {
+          "type": "array",
+          "items": {"type": "string", "enum": ["parking_page", "sinkhole_ns", "sinkhole_ip", "hosting_suspended", "registrar_hold",
+                                                "isp_block_page", "browser_phish_interstitial", "takedown_notice", "redirect_to_official"]}
+        },
+        "verdict": {"type": "string", "enum": ["live", "dead", "parked", "sinkholed", "suspended", "blocked", "redirect_benign", "inconclusive", "error", "not_applicable"], "description": "inconclusive = e.g. DNS-only result on a wildcard/shared platform, or TIMEOUT without RDAP corroboration"}
+      }
+    },
+
+    "feed_event": {
+      "type": "object",
+      "description": "Output contract: change log that consumers poll with ?since=<seq>.",
+      "required": ["record_type", "seq", "emitted_at", "op", "object_type", "object_id", "version"],
+      "additionalProperties": false,
+      "properties": {
+        "record_type": {"const": "feed_event"},
+        "seq": {"type": "integer", "minimum": 1, "description": "Monotonic cursor"},
+        "emitted_at": {"$ref": "#/$defs/ts"},
+        "op": {"type": "string", "enum": ["upsert", "status_change", "revoke", "delete"]},
+        "object_type": {"type": "string", "enum": ["indicator", "report", "entity"]},
+        "object_id": {"type": "string"},
+        "version": {"type": "integer", "minimum": 1},
+        "changed_fields": {"type": "array", "items": {"type": "string"}},
+        "previous_status": {"type": ["string", "null"]},
+        "snapshot": {"type": ["object", "null"], "description": "Denormalised view of the object at this version (see SCHEMA.md §6)"}
+      }
+    }
+  }
+}

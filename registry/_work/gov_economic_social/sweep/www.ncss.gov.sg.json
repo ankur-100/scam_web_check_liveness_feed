@@ -1,0 +1,35 @@
+{
+ "host": "www.ncss.gov.sg",
+ "robots_status": 200,
+ "robots": "User-Agent: *\nAllow: /\nDisallow: /search\n\nSitemap: https://www.ncss.gov.sg/sitemap.xml\n",
+ "sitemaps_declared": [
+  "https://www.ncss.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  [
+   "https://www.ncss.gov.sg/sitemap.xml",
+   "urlset",
+   521,
+   "https://www.ncss.gov.sg/sitemap.xml"
+  ]
+ ],
+ "errors": [],
+ "total_urls": 521,
+ "hosts_in_sitemap": {
+  "www.ncss.gov.sg": 521
+ },
+ "matches": [
+  [
+   "https://www.ncss.gov.sg/about-us/our-media-centre/announcements-and-advisories/",
+   "2026-07-30T17:18:56.248Z"
+  ],
+  [
+   "https://www.ncss.gov.sg/about-us/our-media-centre/announcements-and-advisories/scam-advisory/",
+   "2026-07-30T17:18:56.248Z"
+  ],
+  [
+   "https://www.ncss.gov.sg/research-and-insights/capability-capacity/innovation-digitalisation/data-protection-advisory-guidelines/",
+   "2024-12-24T02:24:59.165Z"
+  ]
+ ]
+}

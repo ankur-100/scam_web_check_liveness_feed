@@ -1,0 +1,23 @@
+{
+ "host": "www.istana.gov.sg",
+ "robots": "User-Agent: *\nAllow: /\nDisallow: /search\n\nSitemap: https://www.istana.gov.sg/sitemap.xml\n",
+ "robots_status": 200,
+ "sitemaps_declared": [
+  "https://www.istana.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  "https://www.istana.gov.sg/sitemap.xml[200:1074]"
+ ],
+ "n_urls": 1074,
+ "hits": [
+  [
+   "https://www.istana.gov.sg/newsroom/president-tharman-shanmugaratnam-to-co-chair-world-banks-high-level-advisory-council-on-jobs/",
+   "2026-07-30T18:19:01.281Z"
+  ],
+  [
+   "https://www.istana.gov.sg/newsroom/president-tharman-shanmugaratnam-fireside-chat-at-the-high-level-advisory-council/",
+   "2026-07-30T18:19:01.281Z"
+  ]
+ ],
+ "newest_lastmod": "2026-11-20T17:23:04.767Z"
+}

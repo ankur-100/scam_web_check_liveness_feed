@@ -1,0 +1,94 @@
+[
+{
+ "entity_id": "swda.gov.sg",
+ "name": "Skills and Workforce Development Agency",
+ "abbr": "SWDA",
+ "aliases": ["Skills and Workforce Development Agency (SWDA)", "SWDA", "SkillsFuture Singapore", "SSG", "Workforce Singapore", "WSG", "SkillsFuture"],
+ "sector": "gov.statboard",
+ "parent_entity_id": "mom.gov.sg",
+ "country": "SG",
+ "official_domains": ["swda.gov.sg", "ssg.gov.sg", "wsg.gov.sg", "skillsfuture.gov.sg", "tpgateway.gov.sg"],
+ "official_hosts": ["www.swda.gov.sg", "service-portal.swda.gov.sg", "www.skillsfuture.gov.sg", "www.tpgateway.gov.sg"],
+ "scam_info": [
+  {"url": "https://www.swda.gov.sg/home/skills-career-resources/private-education-resources/alerts-and-advisories", "kind": "fake_indicator_list", "lists_indicators": ["entity_name", "domain"], "access": "sitemap",
+   "machine_url": "https://www.swda.gov.sg/sitemap.xml", "item_count": 1, "latest_item_date": "2026-11-04", "verified": "2026-11-26 HTTP 200",
+   "sample": "an organisation known as “Singapore Business School” (“SBS”) has been advertising Master's Degree programmes through its website, www.sbs-online.world . ... SBS is NOT a private education institution (“PEI”) registered with SWDA.",
+   "notes": "Private-education 'Alerts and advisories' page (sitemap lastmod 2026-11-04 = latest_item_date); currently one alert naming an unregistered PEI and its website (domain sbs-online.world, text only, not visited). Other SWDA scam-keyword URLs are SkillsFuture-grant fraud convictions (newsroom, 2026-09). Legacy https://www.ssg.gov.sg/scam-advisory/ now redirects to www.swda.gov.sg/scam-advisory -> HTTP 404 (retired after SSG+WSG merger into SWDA in 2026). skillsfuture.gov.sg sitemap (100 URLs) has no scam page."}
+ ],
+ "official_channels": {"sms_sender_ids": ["gov.sg"], "hotlines": [], "short_link_domains": ["go.gov.sg"],
+   "social": ["https://www.facebook.com/skillsandworkforcedevelopmentagency", "https://www.instagram.com/swda_sg", "https://www.linkedin.com/company/skillsandworkforcedevelopmentagency", "https://www.tiktok.com/@swda_sg", "https://www.youtube.com/@swda_sg"],
+   "apps": [], "emails": []},
+ "evidence": ["https://www.sgdi.gov.sg/ministries/mom/statutory-boards/swda", "https://www.swda.gov.sg/home/skills-career-resources/private-education-resources/alerts-and-advisories"],
+ "notes": "2026 restructuring per SGDI: SkillsFuture Singapore (SSG) + Workforce Singapore (WSG) -> SWDA; www.ssg.gov.sg and www.wsg.gov.sg redirect to www.swda.gov.sg (same 392-395 URL sitemap) (b). skillsfuture.gov.sg and tpgateway.gov.sg linked from SWDA nav (b). MyCareersFuture (www.mycareersfuture.gov.sg, national jobs portal; 135k+ URLs incl. /companies/<name>-<UEN>) is a job-scam ALLOWLIST source (company names + UEN) - no scam pages found. Unverified (search snippet): 2017 SPF/SSG advisory on door-to-door impersonators harvesting Singpass for SkillsFuture Credit claims."
+},
+{
+ "entity_id": "moe.gov.sg",
+ "name": "Ministry of Education",
+ "abbr": "MOE",
+ "aliases": ["Ministry of Education (MOE)", "MOE"],
+ "sector": "gov.ministry",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": ["moe.gov.sg"],
+ "official_hosts": ["www.moe.gov.sg"],
+ "scam_info": [
+  {"url": "https://www.moe.gov.sg/scam-alert", "kind": "scam_faq", "lists_indicators": [], "access": "sitemap",
+   "machine_url": "https://www.moe.gov.sg/sitemap.xml", "item_count": null, "latest_item_date": "2025-12-05", "verified": "2026-11-26 HTTP 200",
+   "sample": "Government officials will NEVER do these things over a phone call: Ask you to transfer money. Ask you to disclose bank log-in details. ...",
+   "notes": "Generic whole-of-government scam page + 'Contact us to report MOE-related scams or phishing attempts.' Narrative. Sitemap (5,943 URLs, lastmod) otherwise has only PQ replies on scam education (latest 2026-11-03 'expanding financial literacy and scam awareness modules')."}
+ ],
+ "official_channels": {"sms_sender_ids": ["gov.sg"], "hotlines": ["6872 2220 (MOE, per SGDI)"], "short_link_domains": ["go.gov.sg"],
+   "social": ["https://www.facebook.com/moesingapore", "https://www.linkedin.com/company/ministry-of-education-singapore/", "https://www.youtube.com/user/MOESpore", "https://x.com/MOEsg"],
+   "apps": [], "emails": ["MOE_QSM@moe.gov.sg (SGDI)"]},
+ "evidence": ["https://www.sgdi.gov.sg/ministries/moe", "https://www.moe.gov.sg/scam-alert"],
+ "notes": "official_domains moe.gov.sg (b; SGDI)."
+},
+{
+ "entity_id": "msf.gov.sg",
+ "name": "Ministry of Social and Family Development",
+ "abbr": "MSF",
+ "aliases": ["Ministry of Social and Family Development (MSF)", "MSF"],
+ "sector": "gov.ministry",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": ["msf.gov.sg"],
+ "official_hosts": ["www.msf.gov.sg"],
+ "scam_info": [
+  {"url": "https://www.msf.gov.sg/scam-advisory", "kind": "scam_faq", "lists_indicators": [], "access": "sitemap",
+   "machine_url": "https://www.msf.gov.sg/sitemap.xml", "item_count": null, "latest_item_date": "2026-10-06", "verified": "2026-11-26 HTTP 200",
+   "sample": "Beware of scams. MSF will not ask you to send money, give us your credit card information, banking login details or One-Time Passwords (OTP) via SMS or messaging apps.",
+   "notes": "Narrative; gov.sg SMS sender-ID infographic (EN/ZH/MS/TA); MSF hotline 1800 111 2222 to report MSF-related scams; still cites old anti-scam helpline 1800 772 6688 and Scam Alert site. latest_item_date = sitemap lastmod. robots.txt declares no sitemap; /sitemap.xml fetched directly (1,655 URLs)."}
+ ],
+ "official_channels": {"sms_sender_ids": ["gov.sg"], "hotlines": ["1800 111 2222 (MSF hotline)"], "short_link_domains": [],
+   "social": ["https://www.facebook.com/MSFSingapore", "https://www.instagram.com/msfcares/", "https://www.linkedin.com/company/ministry-of-social-and-family-development-singapore", "https://www.tiktok.com/@msfcares"],
+   "apps": [], "emails": ["msf_qsm@msf.gov.sg (SGDI)"]},
+ "evidence": ["https://www.sgdi.gov.sg/ministries/msf", "https://www.msf.gov.sg/scam-advisory"],
+ "notes": "official_domains msf.gov.sg (b). Assistance-scheme payouts (e.g. ComCare) are common scam lures but MSF lists no fake sites."
+},
+{
+ "entity_id": "ccs.gov.sg",
+ "name": "Competition and Consumer Commission of Singapore",
+ "abbr": "CCS",
+ "aliases": ["Competition and Consumer Commission of Singapore (CCS)", "CCS", "CCCS", "Competition and Consumer Commission of Singapore (CCCS)"],
+ "sector": "gov.statboard",
+ "parent_entity_id": "meti.gov.sg",
+ "country": "SG",
+ "official_domains": ["ccs.gov.sg", "cccs.gov.sg"],
+ "official_hosts": ["www.ccs.gov.sg"],
+ "scam_info": [
+  {"url": "https://www.ccs.gov.sg/consumer-protection/legislation-and-guidelines/ccs-s-investigations-into-fake-online-reviews/", "kind": "fake_indicator_list", "lists_indicators": ["entity_name"], "access": "sitemap",
+   "machine_url": "https://www.ccs.gov.sg/sitemap.xml", "item_count": 45, "latest_item_date": "2026-10-09", "verified": "2026-11-26 HTTP 200",
+   "sample": "The following 45 businesses have admitted to procuring fake reviews as part of the first phase of CCS’s investigations: List of businesses who have procured fake reviews S/N Registered business name",
+   "notes": "Table of 45 registered business names that procured fake online reviews (plus a fake-review provider). Last updated 9 October 2026. Consumer-deception, not scam IOCs per se."},
+  {"url": "https://www.ccs.gov.sg/case-register/public-register/consumer-protection--fair-trading-/ccs-takes-action-against-45-businesses-and-a-fake-review-provider-for-fabricating-online-reviews/", "kind": "news_releases", "lists_indicators": ["entity_name"], "access": "sitemap",
+   "machine_url": "https://www.ccs.gov.sg/sitemap.xml", "item_count": 32, "latest_item_date": "2026-10-09", "verified": "2026-11-26 sitemap only (page not fetched)",
+   "sample": null,
+   "notes": "CPFTA (Consumer Protection (Fair Trading) Act) public case register: 32 case URLs under /case-register/public-register/consumer-protection--fair-trading-/ naming errant retailers (e.g. fake reviews: Lambency Detailing on sgcarmart.com, Loft Home Furnishing). latest = sitemap lastmod."}
+ ],
+ "official_channels": {"sms_sender_ids": ["gov.sg"], "hotlines": ["1800-3258282 (CCS, per SGDI)"], "short_link_domains": ["go.gov.sg"],
+   "social": ["https://sg.linkedin.com/company/ccs-singapore", "https://www.facebook.com/ccs.singapore", "https://www.instagram.com/ccs_singapore", "https://www.youtube.com/@ccs_singapore"],
+   "apps": [], "emails": []},
+ "evidence": ["https://www.sgdi.gov.sg/ministries/meti/statutory-boards/ccs", "https://www.ccs.gov.sg/consumer-protection/legislation-and-guidelines/ccs-s-investigations-into-fake-online-reviews/"],
+ "notes": "2026 rename CCCS -> CCS (SGDI); www.cccs.gov.sg serves the same sitemap as www.ccs.gov.sg (b). Consumer complaints are handled by CASE (case.org.sg)."
+}
+]

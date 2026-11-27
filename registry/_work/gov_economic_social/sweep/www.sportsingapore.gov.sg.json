@@ -1,0 +1,43 @@
+{
+ "host": "www.sportsingapore.gov.sg",
+ "robots_status": 200,
+ "robots": "User-Agent: *\nAllow: /\nDisallow: /search\n\nSitemap: https://www.sportsingapore.gov.sg/sitemap.xml\n",
+ "sitemaps_declared": [
+  "https://www.sportsingapore.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  [
+   "https://www.sportsingapore.gov.sg/sitemap.xml",
+   "urlset",
+   812,
+   "https://www.sportsingapore.gov.sg/sitemap.xml"
+  ]
+ ],
+ "errors": [],
+ "total_urls": 812,
+ "hosts_in_sitemap": {
+  "www.sportsingapore.gov.sg": 812
+ },
+ "matches": [
+  [
+   "https://www.sportsingapore.gov.sg/media-centre/advisory-for-resumption-of-sport-and-physical-exercise/",
+   "2026-10-05T08:46:58.415Z"
+  ],
+  [
+   "https://www.sportsingapore.gov.sg/media-centre/advisory-on-tightened-measures-for-sport-and-physical-exercise-during/",
+   "2026-07-30T17:25:10.667Z"
+  ],
+  [
+   "https://www.sportsingapore.gov.sg/media-centre/cyber-security-advisory-stay-alert/",
+   "2026-10-02T09:03:25.046Z"
+  ],
+  [
+   "https://www.sportsingapore.gov.sg/media-centre/road-closures-and-restrictions-advisory-for-the-28th-sea-games/",
+   "2026-07-30T17:25:10.667Z"
+  ],
+  [
+   "https://www.sportsingapore.gov.sg/our-work/sportcares/our-team/patron-and-advisory-board/",
+   "2026-05-22T09:16:24.071Z"
+  ]
+ ]
+}

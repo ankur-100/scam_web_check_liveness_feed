@@ -1,0 +1,95 @@
+{
+ "host": "www.mof.gov.sg",
+ "robots_status": 200,
+ "robots": "User-Agent: *\nAllow: /\nDisallow: /search\n\nSitemap: https://www.mof.gov.sg/sitemap.xml\n",
+ "sitemaps_declared": [
+  "https://www.mof.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  [
+   "https://www.mof.gov.sg/sitemap.xml",
+   "urlset",
+   3332,
+   "https://www.mof.gov.sg/sitemap.xml"
+  ]
+ ],
+ "errors": [],
+ "total_urls": 3332,
+ "hosts_in_sitemap": {
+  "www.mof.gov.sg": 3332
+ },
+ "matches": [
+  [
+   "https://www.mof.gov.sg/news-resources/newsroom/cases-of-fraud-in-productivity-and-innovation-credit-scheme/",
+   "2026-07-30T17:46:06.436Z"
+  ],
+  [
+   "https://www.mof.gov.sg/news-resources/newsroom/fraudulent-claims-for-government-schemes/",
+   "2026-07-30T17:46:06.436Z"
+  ],
+  [
+   "https://www.mof.gov.sg/news-resources/newsroom/government-agency-to-protect-companies-from-fake-organisations/",
+   "2026-07-30T17:46:06.436Z"
+  ],
+  [
+   "https://www.mof.gov.sg/news-resources/newsroom/impersonation-of-a-government-agency-or-company-registrar/",
+   "2026-07-30T17:46:06.436Z"
+  ],
+  [
+   "https://www.mof.gov.sg/news-resources/newsroom/keynote-address-by-ms-indranee-rajah-minister-in-the-prime-minister-s-office-second-minister-for-finance-at-the-asia-sustainable-infrastructure-advisory--asia--panel-discussion-2021-on-8-november-2021-marina-bay-sands-expo-and-convention-centre/",
+   "2026-07-30T17:46:06.436Z"
+  ],
+  [
+   "https://www.mof.gov.sg/news-resources/newsroom/leveraging-on-ai-and-data-analytics-to-improve-financial-governance-detect-fraud-or-enhance-policy-decision-making/",
+   "2026-07-30T17:46:06.436Z"
+  ],
+  [
+   "https://www.mof.gov.sg/news-resources/newsroom/ministerial-statement-on-support-measures-for-phase-2-heightened-alert--26-july-2021-/",
+   "2026-07-30T17:46:06.436Z"
+  ],
+  [
+   "https://www.mof.gov.sg/news-resources/newsroom/ministerial-statement-on-support-measures-for-phase-2-heightened-alert-and-phase-3-heightened-alert-/",
+   "2026-07-30T17:46:06.436Z"
+  ],
+  [
+   "https://www.mof.gov.sg/news-resources/newsroom/round-up-speech-for-debate-on-ministerial-statements-on-support-measures-for-phase-2-heightened-alert-and-phase-3-heightened-alert-at-the-parliament-27-jul-2021/",
+   "2026-07-30T17:46:06.436Z"
+  ],
+  [
+   "https://www.mof.gov.sg/news-resources/newsroom/second-minister-for-finance-mrs-lim-hwee-hua-to-attend-united-nations-high-level-advisory-group-on-climate-change-financing-agf-second-principals-m/",
+   "2026-07-30T17:46:06.436Z"
+  ],
+  [
+   "https://www.mof.gov.sg/news-resources/newsroom/speech-by-dr-richard-hu-minister-for-finance-for-the-corporate-governance-forum-held-in-conjunction-with-3rd-apec-business-advisory-council-2001-meeti/",
+   "2026-07-30T17:46:06.436Z"
+  ],
+  [
+   "https://www.mof.gov.sg/news-resources/newsroom/speech-by-mr-tharman-shanmugaratnam-deputy-prime-minister-minister-for-finance-at-the-official-launch-of-the-singapore-business-advisors-and-consultan/",
+   "2026-07-30T17:46:06.436Z"
+  ],
+  [
+   "https://www.mof.gov.sg/news-resources/newsroom/speech-by-mr-tharman-shanmugaratnam-deputy-prime-minister-minister-for-finance-and-advisor-to-jurong-grc-grassroots-organisations-at-the-national-citi/",
+   "2026-07-30T17:46:06.436Z"
+  ],
+  [
+   "https://www.mof.gov.sg/news-resources/newsroom/speech-by-mr-tharman-shanmugaratnam-minister-for-finance-and-chairman-council-of-advisors-of-the-singapore-industrial-and-services-employees-union-s/",
+   "2026-07-30T17:46:06.436Z"
+  ],
+  [
+   "https://www.mof.gov.sg/news-resources/newsroom/support-measures-enhanced-to-help-individuals-and-businesses-during-phase-2-heightened-alert-/",
+   "2026-07-30T17:46:06.436Z"
+  ],
+  [
+   "https://www.mof.gov.sg/news-resources/newsroom/support-package-to-help-workers-and-businesses-during-phase-two-heightened-alert-/",
+   "2026-07-30T17:46:06.436Z"
+  ],
+  [
+   "https://www.mof.gov.sg/news-resources/newsroom/transcript-of-minister-lawrence-wong-s-opening-remarks-at-the-virtual-doorstop-interview-on-enhanced-support-measure-for-phase-2-heightened-alert-on-28-may-2021/",
+   "2026-07-30T17:46:06.436Z"
+  ],
+  [
+   "https://www.mof.gov.sg/news-resources/newsroom/welcome-address-by-ms-indranee-rajah-minister-in-the-prime-minister-s-office-second-minister-for-finance-at-the-asia-sustainable-infrastructure-advisory--asia--panel-discussion-2021-on-8-november-2021-at-marina-bay-sands-expo-and-convention-centre/",
+   "2026-07-30T17:46:06.436Z"
+  ]
+ ]
+}

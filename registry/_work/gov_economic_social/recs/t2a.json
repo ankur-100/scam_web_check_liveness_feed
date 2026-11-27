@@ -1,0 +1,24 @@
+[
+{"entity_id":"enterprisesg.gov.sg","name":"Enterprise Singapore","abbr":"EnterpriseSG","aliases":["Enterprise Singapore","EnterpriseSG","ESG","SEEDS Capital"],"sector":"gov.statboard","parent_entity_id":"meti.gov.sg","country":"SG",
+ "official_domains":["enterprisesg.gov.sg"],"official_hosts":["www.enterprisesg.gov.sg","subscribe.enterprisesg.com.sg"],
+ "scam_info":[{"url":"https://www.enterprisesg.gov.sg/scam-advisory","kind":"advisory_feed","lists_indicators":["entity_name"],"access":"sitemap","machine_url":"https://www.enterprisesg.gov.sg/sitemap.xml","item_count":5,"latest_item_date":"2025-07-04","verified":"2026-11-26 HTTP 200",
+   "sample":"4 Jul 2025 - Unauthorised use of the SEEDS Capital name and branding ... misuse of the SEEDS Capital name, branding and reputation by a group operating primarily in China.",
+   "notes":"'Latest scam advisories' list, 5 dated items 21 Sep 2023 .. 4 Jul 2025. Mostly brand-misuse/impersonation narrative; no domains in text. Also /grow-your-business/fake-navigation-with-redirection (sitemap, not opened)."}],
+ "official_channels":{"sms_sender_ids":["gov.sg"],"hotlines":["+65 6898 1800 (EnterpriseSG, per SGDI)"],"short_link_domains":["go.gov.sg"],
+   "social":["https://www.facebook.com/enterprisesingapore","https://www.instagram.com/enterprisesg/","https://www.linkedin.com/company/enterprisesg","https://www.youtube.com/enterprisesingapore"],"apps":[],"emails":["enquiries-reply@enterprisesg.gov.sg (SGDI)"]},
+ "evidence":["https://www.sgdi.gov.sg/ministries/meti/statutory-boards/enterprisesg","https://www.enterprisesg.gov.sg/scam-advisory"],
+ "notes":"subscribe.enterprisesg.com.sg linked from page (host only; enterprisesg.com.sg not asserted as official domain)."},
+{"entity_id":"ura.gov.sg","name":"Urban Redevelopment Authority","abbr":"URA","aliases":["Urban Redevelopment Authority (URA)","URA"],"sector":"gov.statboard","parent_entity_id":"mnd.gov.sg","country":"SG",
+ "official_domains":["ura.gov.sg"],"official_hosts":["www.ura.gov.sg","eservice.ura.gov.sg","parking.ura.gov.sg"],
+ "scam_info":[
+  {"url":"https://www.ura.gov.sg/news/media/scam-advisory2026/","kind":"alert_page","lists_indicators":[],"access":"sitemap","machine_url":"https://www.ura.gov.sg/sitemap.xml","item_count":null,"latest_item_date":"2026-05-05","verified":"2026-11-26 HTTP 200",
+   "sample":"This email is NOT from URA. ... Official URA notices for parking fine payments are sent in hardcopy via post and electronically via platforms with the ‘gov.sg’ Sender ID.",
+   "notes":"Fake parking-fine email with 'Pay Now' button (screenshot PNG). Official: pay URA parking fines only via URA website or AXS. Older sibling /news/media/scam-advisory/ (sitemap, not opened)."},
+  {"url":"https://www.ura.gov.sg/guidelines/best-practices/remaining-vigilant-phishing-scams/","kind":"official_channels","lists_indicators":["bank_account"],"access":"sitemap","machine_url":"https://www.ura.gov.sg/sitemap.xml","item_count":null,"latest_item_date":null,"verified":"2026-11-26 HTTP 200",
+   "sample":"please ensure that fund transfers are made only to the official URA bank account, which you can verify on the URA website at www.ura.gov.sg/ms/banks",
+   "notes":"URA will not SMS QPs/owners on development-charge payments; genuine bank accounts listed at www.ura.gov.sg/ms/banks (official, not opened)."}],
+ "official_channels":{"sms_sender_ids":["gov.sg"],"hotlines":[],"short_link_domains":["go.gov.sg"],
+   "social":["https://sg.linkedin.com/company/urasingapore","https://www.facebook.com/URASingapore","https://www.instagram.com/urasingapore/","https://www.tiktok.com/@urasingapore","https://www.youtube.com/@URAsingapore"],"apps":[],"emails":[]},
+ "evidence":["https://www.sgdi.gov.sg/ministries/mnd/statutory-boards/ura","https://www.ura.gov.sg/news/media/scam-advisory2026/"],
+ "notes":"Parking-fine phishing overlaps LTA/OneMotoring lures. Sitemap 9,424 URLs (lastmod bulk 2026-07-30)."}
+]

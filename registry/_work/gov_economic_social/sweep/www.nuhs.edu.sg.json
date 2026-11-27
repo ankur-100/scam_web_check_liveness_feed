@@ -1,0 +1,33 @@
+{
+ "host": "www.nuhs.edu.sg",
+ "robots_status": 200,
+ "robots": "User-agent: GPTBot\r\nUser-agent: ChatGPT-User\r\nUser-agent: OAI-SearchBot\r\nUser-agent: Google-Extended\r\nUser-agent: Google-InspectionTool\r\nUser-agent: GoogleOther\r\nUser-agent: Google-CloudVertexBot\r\nUser-agent: PerplexityBot\r\nUser-agent: Perplexity-User\r\nUser-agent: GrokBot\r\nUser-agent: xAI-Grok\r\nUser-agent: Grok-DeepSearch\r\nUser-agent: Applebot\r\nUser-agent: Applebot-Extended\r\nUser-agent: Meta-ExternalAgent\r\nUser-agent: Facebookbot\r\nUser-agent: ClaudeBot\r\nUser-agent: Claude-User\r\nUser-agent: Claude-SearchBot\r\nUser-agent: anthropic-ai\r\nUser-agent: Bytespider\r\nUser-agent: CCBot\r\nUser-agent: Diffbot\r\nUser-agent: Omgilibot\r\nUser-agent: webzio-extended\r\nUser-agent: *\r\nDisallow: /micro-content/\r\n\r\nSitemap: https://www.nuhs.edu.sg/sitemap/sitemap-index.xml",
+ "sitemaps_declared": [
+  "https://www.nuhs.edu.sg/sitemap/sitemap-index.xml"
+ ],
+ "sitemaps_fetched": [
+  [
+   "https://www.nuhs.edu.sg/sitemap/sitemap-index.xml",
+   "index",
+   1,
+   "https://www.nuhs.edu.sg/sitemap/sitemap-index.xml"
+  ],
+  [
+   "https://www.nuhs.edu.sg/sitemap/sitemap.xml",
+   "urlset",
+   2131,
+   "https://www.nuhs.edu.sg/sitemap/sitemap.xml"
+  ]
+ ],
+ "errors": [],
+ "total_urls": 2131,
+ "hosts_in_sitemap": {
+  "www.nuhs.edu.sg": 2131
+ },
+ "matches": [
+  [
+   "https://www.nuhs.edu.sg/security-advisory",
+   null
+  ]
+ ]
+}

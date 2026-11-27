@@ -1,0 +1,14 @@
+{
+ "host": "www.singpass.gov.sg",
+ "robots": "User-agent: *\nAllow: /\n\nSitemap: https://www.singpass.gov.sg/sitemap.xml\n",
+ "robots_status": 200,
+ "sitemaps_declared": [
+  "https://www.singpass.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  "https://www.singpass.gov.sg/sitemap.xml[200:5]"
+ ],
+ "n_urls": 5,
+ "hits": [],
+ "newest_lastmod": null
+}

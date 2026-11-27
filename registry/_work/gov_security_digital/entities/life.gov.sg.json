@@ -1,0 +1,34 @@
+{
+ "entity_id": "life.gov.sg",
+ "name": "LifeSG",
+ "abbr": "LifeSG",
+ "aliases": [
+  "LifeSG app"
+ ],
+ "sector": "gov.programme",
+ "parent_entity_id": "tech.gov.sg",
+ "country": "SG",
+ "official_domains": [
+  "life.gov.sg"
+ ],
+ "official_hosts": [
+  "www.life.gov.sg"
+ ],
+ "scam_info": [],
+ "official_channels": {
+  "sms_sender_ids": [
+   "gov.sg"
+  ],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": [],
+  "apps": [
+   "LifeSG app"
+  ]
+ },
+ "evidence": [
+  "https://www.life.gov.sg/sitemap.xml",
+  "https://www.life.gov.sg/"
+ ],
+ "notes": "Tier 1 checked: no scam pages. The two sitemaps (sitemap.xml 118 URLs + sitemap-cms.xml 84 URLs, lastmod 2026-11-25) have 0 scam-keyword URLs. The homepage is JS-rendered (no server text). WebSearch found no LifeSG-specific scam advisory; related government-service phishing (RedeemSG/CDC vouchers, SG60 vouchers) is covered by SPF advisories."
+}

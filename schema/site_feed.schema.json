@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sgintel.local/schema/site_feed/1.0",
+  "title": "SG impersonating-site feed (site-feed/1.0)",
+  "description": "Output contract of the sgintel pipeline (SCOPE.md). Two record types, one JSON object per line (JSONL): SiteRecord = current state of one impersonating site (snapshot files); SiteEvent = one state change (append-only event files). Timestamps are ISO-8601 UTC ('Z'). Values are live scam indicators: use value_defanged when displaying.",
+  "oneOf": [{"$ref": "#/$defs/SiteRecord"}, {"$ref": "#/$defs/SiteEvent"}],
+  "$defs": {
+    "ts": {"type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}(T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?Z)?$"},
+    "strings": {"type": "array", "items": {"type": "string"}},
+    "Bucket": {"enum": ["taken_down", "flagged", "live", "inconclusive", null],
+               "description": "taken_down=(a) not reachable; flagged=(b) serving behind a bypassable browser/host warning; live=(c) serving, no warning seen; inconclusive=not decidable from this vantage; null=not yet checked"},
+    "SiteRecord": {
+      "type": "object", "additionalProperties": false,
+      "required": ["record", "schema_version", "site_id", "type", "value", "value_defanged", "hostname", "registrable_domain", "is_shared_platform",
+                   "listing_role", "impersonation", "provenance", "liveness", "registration", "lifecycle_status"],
+      "properties": {
+        "record": {"const": "site"},
+        "schema_version": {"const": "site-feed/1.0"},
+        "site_id": {"type": "string", "pattern": "^ind_[0-9a-f]{16}$", "description": "stable id = hash(type, canonical value)"},
+        "type": {"enum": ["domain", "hostname", "url"]},
+        "value": {"type": "string", "description": "canonical value (LIVE indicator - do not render as a link)"},
+        "value_defanged": {"type": "string"},
+        "hostname": {"type": "string"},
+        "registrable_domain": {"type": ["string", "null"]},
+        "is_shared_platform": {"type": "boolean", "description": "hosted on a shared platform (pages.dev, workers.dev, netlify.app, ...): liveness unit is the full hostname"},
+        "listing_role": {"enum": ["listing", "adjacent"], "description": "listing = named in an impersonation advisory; adjacent = MAS Investor Alert List (unlicensed entity)"},
+        "impersonation": {
+          "type": "object", "additionalProperties": false,
+          "required": ["kind", "target_entity_id", "target_name", "target_method", "authentic_hosts", "other_brands"],
+          "properties": {
+            "kind": {"enum": ["clone", "brand_abuse", "fictitious", "unresolved", null]},
+            "target_entity_id": {"type": ["string", "null"], "description": "primary impersonated entity = its primary official domain (e.g. lta.gov.sg) or parent#programme"},
+            "target_name": {"type": ["string", "null"]},
+            "target_method": {"type": ["string", "null"], "description": "report_tag | lookalike+tag:<m> | lookalike:<m> | publisher_self"},
+            "authentic_hosts": {"$ref": "#/$defs/strings", "description": "official domains/hosts of the target (the authentic site)"},
+            "other_brands": {"$ref": "#/$defs/strings", "description": "secondary candidate entities (multi-brand advisories, fictitious brands)"}
+          }
+        },
+        "provenance": {
+          "type": "object", "additionalProperties": false,
+          "required": ["publishers", "publications", "first_published_at", "first_listed_at"],
+          "properties": {
+            "publishers": {"$ref": "#/$defs/strings", "description": "publisher entity ids that named this site (multi-valued)"},
+            "publications": {"$ref": "#/$defs/strings", "description": "URLs of every publication naming this site"},
+            "first_published_at": {"$ref": "#/$defs/ts", "description": "earliest publication date claimed by a publisher"},
+            "first_listed_at": {"$ref": "#/$defs/ts", "description": "when this pipeline first ingested it"}
+          }
+        },
+        "liveness": {
+          "type": "object", "additionalProperties": false,
+          "required": ["bucket", "chrome_state", "reason", "reach", "flag", "bucket_since", "consecutive_checks_in_bucket", "last_checked_at", "last_live_at", "next_check_at", "evidence"],
+          "properties": {
+            "bucket": {"$ref": "#/$defs/Bucket"},
+            "chrome_state": {"enum": ["a", "b", "c", null], "description": "a=taken down, b=flagged/bypassable, c=fully live; null when inconclusive/unchecked"},
+            "reason": {"type": ["string", "null"], "description": "reason code, e.g. dns_nxdomain, registry_hold, seized, parked_or_for_sale, host_interstitial, tls_invalid, serving, timeout, <code>_unconfirmed"},
+            "reach": {"enum": ["gone", "serving", "unknown", null]},
+            "flag": {"enum": ["flagged", "clear", "not_checked", "unknown", null], "description": "not_checked while Safe Browsing is off (SCOPE.md D6)"},
+            "bucket_since": {"$ref": "#/$defs/ts"},
+            "consecutive_checks_in_bucket": {"type": "integer", "minimum": 0},
+            "last_checked_at": {"$ref": "#/$defs/ts"},
+            "last_live_at": {"$ref": "#/$defs/ts"},
+            "next_check_at": {"$ref": "#/$defs/ts", "description": "null = archived (90 days without serving)"},
+            "evidence": {
+              "type": ["object", "null"], "additionalProperties": false,
+              "properties": {
+                "checked_at": {"$ref": "#/$defs/ts"},
+                "vantage": {"type": ["string", "null"]},
+                "probe_policy": {"enum": ["P0", "P1", null]},
+                "dns_rcode": {"type": ["string", "null"]},
+                "resolver": {"type": ["string", "null"]},
+                "addresses": {"$ref": "#/$defs/strings"},
+                "http_status": {"type": ["integer", "null"]},
+                "final_url": {"type": ["string", "null"]},
+                "page_title": {"type": ["string", "null"]},
+                "tls": {"type": ["string", "null"]},
+                "flag_reasons": {"$ref": "#/$defs/strings"},
+                "signatures": {"$ref": "#/$defs/strings"},
+                "sig_version": {"type": ["string", "null"]}
+              }
+            }
+          }
+        },
+        "registration": {
+          "type": "object", "additionalProperties": false, "required": ["registry_status", "expires_at"],
+          "properties": {"registry_status": {"$ref": "#/$defs/strings"}, "expires_at": {"$ref": "#/$defs/ts"}}
+        },
+        "lifecycle_status": {"enum": ["active", "inactive", "expired", "revoked", "allowlisted", "unverified"]}
+      }
+    },
+    "SiteEvent": {
+      "type": "object", "additionalProperties": false,
+      "required": ["record", "schema_version", "seq", "emitted_at", "event", "site_id", "previous", "current", "site"],
+      "properties": {
+        "record": {"const": "event"},
+        "schema_version": {"const": "site-feed/1.0"},
+        "seq": {"type": "integer", "description": "monotonic; consumers resume from the last seq they processed"},
+        "emitted_at": {"$ref": "#/$defs/ts"},
+        "event": {"enum": ["site.listed", "site.live", "site.flagged", "site.taken_down", "site.resurrected", "site.target_changed"]},
+        "site_id": {"type": "string"},
+        "previous": {"type": ["string", "null"], "description": "previous bucket (or previous target entity for site.target_changed)"},
+        "current": {"type": ["string", "null"], "description": "new bucket (or new target entity for site.target_changed)"},
+        "site": {"oneOf": [{"$ref": "#/$defs/SiteRecord"}, {"type": "null"}], "description": "site state at the moment of the event (evidence is null in events)"}
+      }
+    }
+  }
+}

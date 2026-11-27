@@ -1,0 +1,49 @@
+{
+ "host": "www.msf.gov.sg",
+ "robots_status": 200,
+ "robots": "User-Agent: *\n\n",
+ "sitemaps_declared": [],
+ "sitemaps_fetched": [
+  [
+   "https://www.msf.gov.sg/sitemap.xml",
+   "urlset",
+   1655,
+   "https://www.msf.gov.sg/sitemap.xml"
+  ]
+ ],
+ "errors": [],
+ "total_urls": 1655,
+ "hosts_in_sitemap": {
+  "www.msf.gov.sg": 1655
+ },
+ "matches": [
+  [
+   "https://www.msf.gov.sg/scam-advisory",
+   "2026-10-06T15:37:13.694Z"
+  ],
+  [
+   "https://www.msf.gov.sg/media-room/article/new-international-advisory-committee-to-strengthen-preschool-quality",
+   "2026-09-25T05:41:59.341Z"
+  ],
+  [
+   "https://www.msf.gov.sg/media-room/article/Number-of-Lasting-Powers-of-Attorney-Cases-Involving-Fraud-or-Abuse-in-Past-Three-Years",
+   "2026-02-25T06:42:47.176Z"
+  ],
+  [
+   "https://www.msf.gov.sg/media-room/article/COVID-19-Recovery-Grant-Temporary-CRG-T-For-Workers-Affected-By-Heightened-Alert-Measures",
+   "2026-02-25T06:26:40.392Z"
+  ],
+  [
+   "https://www.msf.gov.sg/media-room/article/effectiveness-of-sensemaking-alerts-for-frontline-engagement-and-response-SAFER",
+   "2026-10-07T04:35:08.865Z"
+  ],
+  [
+   "https://www.msf.gov.sg/media-room/article/Pre-school-Fee-Rebates-for-Children-at-Home-during-the-Phase-2-Heightened-Alert",
+   "2026-02-25T06:37:06.292Z"
+  ],
+  [
+   "https://www.msf.gov.sg/media-room/article/Additional-Precautions-for-Pre-school-Students-taking-part-in-Indoor-Activities-during-Phase-2-Heightened-Alert",
+   "2026-02-25T07:11:26.610Z"
+  ]
+ ]
+}

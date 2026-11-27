@@ -1,0 +1,62 @@
+{
+ "entity_id": "singlife.com",
+ "name": "Singapore Life Ltd. (Singlife)",
+ "abbr": null,
+ "aliases": [
+  "Singlife",
+  "Singapore Life",
+  "Singlife with Aviva",
+  "dollarDEX",
+  "GROW with Singlife"
+ ],
+ "sector": "insurance",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "singlife.com"
+ ],
+ "official_hosts": [
+  "singlife.com"
+ ],
+ "scam_info": [
+  {
+   "url": "https://singlife.com/en/singlife-security-advisory",
+   "kind": "alert_page",
+   "lists_indicators": [
+    "email"
+   ],
+   "access": "html",
+   "machine_url": "https://singlife.com/sitemap.xml",
+   "item_count": null,
+   "latest_item_date": "2026-09-21",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Scam messages are created from fake email accounts that closely resemble legitimate one but have subtle changes (e.g., cs_life@singlif1.com instead of cs_life@singlife.com).",
+   "notes": "Security Advisory: scammers posing as Singlife staff/FARs acting for MAS; fake email example cs_life@singlif1.com (fake domain singlif1.com, text only, never visited). Official: emails only from domain singlife.com; numbers registered with SMS Sender ID Registry (IDs not named); hotline 6827 9933. Date = sitemap lastmod. Related: /en/security-practices (not opened)."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [
+   "6827 9933 (Singlife hotline; verify suspected impersonation)"
+  ],
+  "short_link_domains": [],
+  "social": [
+   "https://www.facebook.com/SinglifeSG",
+   "https://www.instagram.com/singlife/",
+   "https://www.linkedin.com/company/singlife/",
+   "https://www.youtube.com/@singlifesg"
+  ],
+  "apps": [
+   "Singlife App"
+  ],
+  "emails": [
+   "@singlife.com"
+  ]
+ },
+ "evidence": [
+  "https://singlife.com/en/singlife-security-advisory",
+  "https://singlife.com/sitemap.xml",
+  "https://singlife.com/robots.txt"
+ ],
+ "notes": "official_domains: singlife.com (a: 'Emails from Singlife will only be sent under the official domain singlife.com'; b: serving domain). singlife.darwinbox.com (careers, third-party HR platform) seen in links - not added."
+}

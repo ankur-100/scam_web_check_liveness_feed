@@ -1,0 +1,80 @@
+{
+ "entity_id": "abs.org.sg",
+ "name": "The Association of Banks in Singapore",
+ "abbr": "ABS",
+ "aliases": [
+  "ABS",
+  "Association of Banks in Singapore",
+  "Canny the Anti-Scam Mascot",
+  "PayNow"
+ ],
+ "sector": "other",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "abs.org.sg"
+ ],
+ "official_hosts": [
+  "www.abs.org.sg",
+  "abs.org.sg",
+  "sips.abs.org.sg",
+  "responsiblefinancing.abs.org.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://abs.org.sg/newsroom/press-releases",
+   "kind": "news_releases",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": 155,
+   "latest_item_date": "2026-11-18",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "29 Apr PayNow Nickname Feature to Cease from 6 June 2026 to Strengthen Protection Against Impersonation Scams",
+   "notes": "Year-grouped list 2006-2026 (155 dated items; dates shown as 'DD Mon' under year headers; releases are PDFs under /docs/library/). Scam-relevant 2025-26 items: 2025-10-03 'Banks to Launch Enhanced Safeguards from 15 Oct 2025 to Better Protect Accounts'; 2026-04-29 PayNow nickname cessation; 17 Feb 'Major card issuing banks to step up measures to combat card provisioning scams'; 2024-11-06 Canny launch; 2024-07-09 anti-phishing measures. Narrative only. No robots.txt (/robots.txt redirects to homepage); no sitemap found."
+  },
+  {
+   "url": "https://abs.org.sg/consumer-banking/canny-the-anti-scam-mascot",
+   "kind": "scam_faq",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "When you see Canny, remember to STOP, CHECK, DON'T CLICK YET!",
+   "notes": "Industry anti-scam campaign page; generic advice only."
+  },
+  {
+   "url": "https://abs.org.sg/e-payments/pay-now",
+   "kind": "scam_faq",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Verify that the recipient's name is correct before confirming the transfer. ... The PayNow nickname feature will no longer be available from 6 June 2026",
+   "notes": "PayNow consumer page (/consumer-banking/pay-now redirects here). Scheme description, cross-border linkages; minimal anti-scam content (recipient-name check, nickname removal). Not enough dedicated scam content for a separate abs.org.sg#paynow record."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [
+   "(65) 6224 4300 (ABS office line)"
+  ],
+  "short_link_domains": [],
+  "social": [],
+  "apps": [],
+  "emails": [
+   "banks@abs.org.sg"
+  ]
+ },
+ "evidence": [
+  "https://www.abs.org.sg/",
+  "https://abs.org.sg/consumer-banking/canny-the-anti-scam-mascot",
+  "https://abs.org.sg/e-payments/pay-now",
+  "https://abs.org.sg/newsroom/press-releases"
+ ],
+ "notes": "Industry association (sector 'other'); historically operated the PayNow scheme - 28 Oct 2026 press release says the new Singapore Payments Network (SPN) will govern Singapore's national payment schemes (title only; PDF not read). official_domains (b): abs.org.sg serves the site (www redirects to apex). No list of member-bank hotlines or official channels on pages read; consumer-banking menu also has 'Mobile Malware targeting Mobile Banking Customers' and 'FAQ - E Payment Guidelines' pages (not fetched). Homepage links SDIC, FIDReC, CCS, Credit Bureau (third parties, not added). No social links on homepage apart from tracking pixels."
+}

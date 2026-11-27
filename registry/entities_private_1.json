@@ -1,0 +1,2250 @@
+[
+ {
+  "entity_id": "dbs.com.sg",
+  "name": "DBS Bank (Singapore)",
+  "abbr": "DBS",
+  "aliases": [
+   "DBS",
+   "DBS Bank",
+   "DBS PayLah",
+   "DBS PayLah!",
+   "PayLah!",
+   "DBS digibank",
+   "digibank",
+   "DBS Digital Token",
+   "DBS Group"
+  ],
+  "sector": "bank",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "dbs.com.sg",
+   "posb.com.sg",
+   "dbs.com",
+   "dbsvonline.com",
+   "dbs.com.hk",
+   "dbs.com.cn",
+   "dbs.com.tw"
+  ],
+  "official_hosts": [
+   "www.dbs.com.sg",
+   "internet-banking.dbs.com.sg",
+   "www.posb.com.sg",
+   "www.dbs.com",
+   "www.dbsvonline.com",
+   "dbs-digibank.onelink.me",
+   "www.dbs.com.hk"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.dbs.com.sg/personal/scam-defence/recent-scams-fraud.page",
+    "kind": "advisory_feed",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": null,
+    "item_count": 13,
+    "latest_item_date": "2026-08-28",
+    "verified": "2026-11-25 HTTP 200",
+    "sample": "SMS Phishing Alert ... Date: 28 August 2026 ... Scammers use phishing SMSes messages urging you to resolve unauthorised PayNow transactions. These phishing SMSes ask you to call a phone number in the SMS.",
+    "notes": "Next.js page. The 2026 tab (6 dated alerts, 2026-01-08..2026-08-28; one 'Updated 15 August 2026') is server-rendered only inside a <noscript> block; the 'Scams & Frauds Alert Archives' tab (#ScaFraAleArc_2, same URL) holds 7 older dated alerts (2023-04-06..2025-09-12). Narrative MOs only: no fake domains/numbers/sender IDs. Not listed in sitemap-personal-2026.xml. Re-fetched 2026-11-26 HTTP 200, unchanged."
+   },
+   {
+    "url": "https://www.dbs.com.sg/personal/scam-defence/default.page",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.dbs.com.sg/sitemap-personal-2026.xml",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-25 HTTP 200",
+    "sample": "Suspect you might be a victim of scam? Call our 24/7 DBS Fraud Hotline immediately at 1800 339 6963.",
+    "notes": "DBS Scam Defence hub: Safety Switch, digiVault, Payment Controls, scam-type explainers. Sitemap lastmod 2026-08-04. robots.txt disallows sibling pages /personal/scam-defence/alerts-and-updates.page, protect-yourself-now.page, learn-about-scams.page, how-we-protect-you.page (not fetched)."
+   },
+   {
+    "url": "https://www.dbs.com.sg/personal/scam-defence/protecting-yourself-online",
+    "kind": "official_channels",
+    "lists_indicators": [
+     "phone",
+     "url"
+    ],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-25 HTTP 200",
+    "sample": "Call us immediately at our 24-hour DBS Fraud Hotline at 1800 339 6963 or +65 6339 6963 (Overseas) to report fraudulent transactions",
+    "notes": "(official) DBS fraud/customer-service hotlines and per-market contact URLs/numbers (CN 400-820-8988, IN 1-860-210-3456, ID 0804 1500 327, TW (02) 6612 9889 / 0800 808 889); E-Payments User Protection Guidelines FAQ; links scamalert.sg."
+   },
+   {
+    "url": "https://www.dbs.com.sg/personal/support/guide-security-on-scams-and-fraud.html",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.dbs.com.sg/sitemap-personal-2026.xml",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-25 HTTP 200",
+    "sample": "Do not download apps from unknown or unofficial sources.",
+    "notes": "Support guide; gives 1800 339 6963 / (65) 6339 6963 from overseas. This is the page ScamShield's bank-hotline list links to for DBS/POSB. Sitemap lastmod 2026-05-14."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [
+    "1800 339 6963 (24/7 DBS Fraud Hotline)",
+    "+65 6339 6963 (DBS Fraud Hotline, from overseas)",
+    "1800 111 1111 (DBS customer service hotline)",
+    "+65 6327 2265 (DBS customer service, overseas)"
+   ],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/dbs.sg",
+    "https://www.instagram.com/dbsbank/?hl=en",
+    "http://www.youtube.com/user/DBS/feed",
+    "https://sg.linkedin.com/company/dbs-bank"
+   ],
+   "apps": [
+    "DBS digibank (iOS and Android; download via dbs-digibank.onelink.me)"
+   ],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.dbs.com.sg/personal/default.page",
+   "https://www.dbs.com.sg/personal/scam-defence/default.page",
+   "https://www.dbs.com.sg/personal/scam-defence/protecting-yourself-online",
+   "https://www.dbs.com.sg/personal/support/guide-security-on-scams-and-fraud.html",
+   "https://www.dbs.com.sg/personal/scam-defence/recent-scams-fraud.page",
+   "https://www.scamshield.gov.sg/bank-s-anti-scam-hotline/"
+  ],
+  "notes": "official_domains: all type (b) - dbs.com.sg serves the site; posb.com.sg, dbs.com (DBS Group/About DBS), dbsvonline.com (DBS Vickers Online) and other-market sites dbs.com.hk/.cn/.tw are linked from the personal-banking header/footer navigation. No page states an explicit 'our official websites are' list. Login host internet-banking.dbs.com.sg seen in homepage links. dbs-digibank.onelink.me is an AppsFlyer (third-party) app-download redirect - kept as FQDN only. Repeated DBS statement on alerts: 'Emails and SMSes from DBS will never include clickable links.' SMS sender ID not published on pages read; web search found none on dbs.com.sg (SGNIC SSIR sender-ID query is reCAPTCHA-gated; its public org list gives names only). go.dbs.com short links appear in search results only - unverified (search snippet). Hotline 1800 339 6963 corroborated by ScamShield bank anti-scam hotline page (updated 20 May 2026). POSB has its own scam pages -> separate child record posb.com.sg. robots.txt: ~1000 Disallow lines incl. 4 scam-defence subpages; Sitemap lines exist (sitemap-personal-2026.xml etc.)."
+ },
+ {
+  "entity_id": "posb.com.sg",
+  "name": "POSB (DBS Bank)",
+  "abbr": "POSB",
+  "aliases": [
+   "POSB",
+   "POSB Bank",
+   "POSB digibank",
+   "Post Office Savings Bank"
+  ],
+  "sector": "bank",
+  "parent_entity_id": "dbs.com.sg",
+  "country": "SG",
+  "official_domains": [
+   "posb.com.sg",
+   "dbs.com.sg"
+  ],
+  "official_hosts": [
+   "www.posb.com.sg",
+   "internet-banking.dbs.com.sg",
+   "posb-digibank.onelink.me"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.posb.com.sg/personal/scam-defence/recent-scams-fraud.page",
+    "kind": "advisory_feed",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": null,
+    "item_count": 13,
+    "latest_item_date": "2026-08-28",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "SMS Phishing Alert Scammers are using SMS alerts to steal and perform unauthorised transactions on your DBS accounts and cards. Date: 28 August 2026",
+    "notes": "Mirror of the DBS recent-scams page under the POSB domain: same 6 dated 2026 alerts (in <noscript>) + 7 archive items. Narrative only."
+   },
+   {
+    "url": "https://www.posb.com.sg/personal/scam-defence/default.page",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "POSB Scam Defence - Your security is our priority ... Call our 24/7 DBS Fraud Hotline immediately at 1800 339 6963.",
+    "notes": "POSB-branded scam hub (Safety Switch, digiVault, Payment Controls). Related POSB pages in sitemap-posb-2026.xml: /personal/deposits/bank-with-ease/how-to-spot-a-scam, /personal/deposits/bank-with-ease/scam-defence, /personal/support/guide-security-on-scams-and-fraud.html. robots.txt disallows the same 4 scam-defence subpages as DBS."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [
+    "1800 339 6963 (24/7 DBS Fraud Hotline, shown on POSB scam hub)",
+    "1800 111 1111 (POSB/DBS customer service, tel link on POSB homepage)"
+   ],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/POSB",
+    "https://twitter.com/posb",
+    "https://www.youtube.com/user/POSBSingapore"
+   ],
+   "apps": [
+    "POSB digibank (download via posb-digibank.onelink.me)"
+   ],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.posb.com.sg/personal/default.page",
+   "https://www.posb.com.sg/personal/scam-defence/default.page",
+   "https://www.posb.com.sg/personal/scam-defence/recent-scams-fraud.page",
+   "https://www.posb.com.sg/robots.txt"
+  ],
+  "notes": "POSB is a DBS brand with its own registrable domain and its own scam-defence pages, hence a child record. official_domains type (b): posb.com.sg serves the site; dbs.com.sg linked in nav and login host internet-banking.dbs.com.sg. Sitemap: https://www.posb.com.sg/sitemap-posb-2026.xml (474 URLs; scam-defence/default.page and recent-scams-fraud.page not listed). posb-digibank.onelink.me is a third-party AppsFlyer redirect (FQDN only)."
+ },
+ {
+  "entity_id": "ocbc.com",
+  "name": "OCBC Bank (Oversea-Chinese Banking Corporation)",
+  "abbr": "OCBC",
+  "aliases": [
+   "OCBC",
+   "OCBC Bank",
+   "OCBC Singapore",
+   "OCBC Digital",
+   "OCBC app",
+   "Be A Pro Against Cons",
+   "OCBC Money Lock",
+   "OCBC Kill Switch"
+  ],
+  "sector": "bank",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "ocbc.com",
+   "ocbc.com.sg",
+   "iocbc.com",
+   "ocbc.com.my",
+   "ocbc.id",
+   "ocbc.com.hk",
+   "ocbc.com.cn"
+  ],
+  "official_hosts": [
+   "www.ocbc.com",
+   "internet.ocbc.com",
+   "go.ocbc.com",
+   "www.iocbc.com",
+   "zn9qpdwtioy9utowp-ocbc.siteintercept.qualtrics.com"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.ocbc.com/personal-banking/security/security-advisories.page",
+    "kind": "advisory_feed",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.ocbc.com/sitemap.xml",
+    "item_count": 67,
+    "latest_item_date": "2025-06-12",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Think that call is real? Think again. 12 June 2025 ... In this edition of 'Be A Pro Against Cons with OCBC', we shed light on two kinds of impersonation scams that are on the rise",
+    "notes": "67 dated advisory editions (2021-11-24 .. 2025-06-12); no new edition since June 2025. Narrative MOs only (no fake domains/numbers); only OCBC's own hotline 6363 3333 / 1800 363 3333 and 'OCBC URL: internet.ocbc.com' (official) appear. Sitemap lastmod 2025-11-05."
+   },
+   {
+    "url": "https://www.ocbc.com/personal-banking/security/secure-banking-ways/ocbc-contact-banking-channels",
+    "kind": "official_channels",
+    "lists_indicators": [
+     "url",
+     "app",
+     "social_handle",
+     "phone"
+    ],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Keep a record of our channels ... OCBC Internet Banking: https://internet.ocbc.com/internet-banking/ The OCBC app: Apple's App Store Google Play Store Our social media pages: https://www.facebook.com/OCBCBank/",
+    "notes": "(official) Explicit list of genuine OCBC channels: internet-banking URL, app-store links (OCBC Digital id292506828 / com.ocbc.mobile), 4 social URLs, contact tel +6563633333."
+   },
+   {
+    "url": "https://www.ocbc.com/personal-banking/security/secure-banking-ways/phishing-scams.page",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Do not call any numbers or click on any links in SMSes that claim to be from OCBC. OCBC will never send you SMSes or emails with clickable URLs.",
+    "notes": "Page ScamShield's bank-hotline list links to for OCBC. Gives 1800 363 3333 (+65 6363 3333 overseas), press 8 for fraud/kill switch."
+   },
+   {
+    "url": "https://www.ocbc.com/personal-banking/security/secure-banking-ways/ocbc-killswitch.page",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.ocbc.com/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200 (sitemap entry only)",
+    "sample": "OCBC Kill Switch",
+    "notes": "Listed in sitemap (lastmod 2025-11-05) together with ocbc-moneylock.page, shared-responsibility-framework, need-help.page and per-scam-type pages (job/investment/loan/love/malware/ecommerce/impersonation-scams); page itself not fetched (budget)."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [
+    "1800 363 3333 (OCBC Personal Banking hotline; press 8 to report fraud / activate kill switch)",
+    "+65 6363 3333 (OCBC Personal Banking hotline, overseas; also listed as 6363 3333)"
+   ],
+   "short_link_domains": [
+    "go.ocbc.com"
+   ],
+   "social": [
+    "https://www.facebook.com/OCBCBank/",
+    "https://twitter.com/ocbcbank",
+    "https://www.youtube.com/user/channelocbc/featured",
+    "https://www.linkedin.com/company/ocbc-bank"
+   ],
+   "apps": [
+    "OCBC Digital (Apple App Store id292506828)",
+    "OCBC app (Google Play com.ocbc.mobile)"
+   ],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.ocbc.com/personal-banking/security/secure-banking-ways/ocbc-contact-banking-channels",
+   "https://www.ocbc.com/personal-banking/security/security-advisories.page",
+   "https://www.ocbc.com/personal-banking/security/secure-banking-ways/phishing-scams.page",
+   "https://www.ocbc.com/personal-banking/",
+   "https://www.scamshield.gov.sg/bank-s-anti-scam-hotline/"
+  ],
+  "notes": "official_domains: ocbc.com (a: internet.ocbc.com stated as the OCBC internet-banking URL on the official-channels page and as 'OCBC URL' in advisories; b: serves site). ocbc.com.sg (b: https://www.ocbc.com.sg/ 301-redirects to www.ocbc.com, checked 2026-11-26). iocbc.com (OCBC Securities), ocbc.com.my, ocbc.id, ocbc.com.hk, ocbc.com.cn: (b) group/other-market links in site navigation. Qualtrics site-intercept host kept as FQDN only (third party). SMS sender ID not named on pages read: advisories only say 'check that SMS notifications are sent from the bank's official sender ID, not a mobile number'. ScamShield bank-hotline list gives 'OCBC Dial 6363 3333' (matches). Context only: ScamShield alert 2026-11-20 about fake 'OCBC card suspended' SMSes (not on OCBC's own pages)."
+ },
+ {
+  "entity_id": "uob.com.sg",
+  "name": "United Overseas Bank (UOB) Singapore",
+  "abbr": "UOB",
+  "aliases": [
+   "UOB",
+   "United Overseas Bank",
+   "UOB Group",
+   "UOB TMRW",
+   "TMRW",
+   "UOB Personal Internet Banking",
+   "UOB Money Lock"
+  ],
+  "sector": "bank",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "uob.com.sg",
+   "uobgroup.com",
+   "uob.com",
+   "uobam.com.sg",
+   "uobkayhian.com.sg",
+   "uoi.com.sg",
+   "uob.com.my",
+   "uob.co.id",
+   "uob.co.th",
+   "uob.com.vn",
+   "uobchina.com.cn"
+  ],
+  "official_hosts": [
+   "www.uob.com.sg",
+   "pib.uob.com.sg",
+   "forms.uob.com.sg",
+   "go.uob.com",
+   "www.uobgroup.com",
+   "infinity.uobgroup.com",
+   "uobsme.uobgroup.com",
+   "secure.uobam.com.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.uob.com.sg/personal/digital-banking/news-and-announcements.page",
+    "kind": "advisory_feed",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.uob.com.sg/personal/sitemap.xml",
+    "item_count": 19,
+    "latest_item_date": "2026-08-28",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Scam alert: 30 Apr 2026 Investment Scam Be vigilant against online investment scams, particularly ads that claim guaranteed returns and appear to be endorsed by or coming from our staff.",
+    "notes": "'Scam Alerts' section: 19 alert blocks headed 'Scam alert: <dates>' (many re-issued on several dates; newest 28 Aug 2026, oldest May 2024). Narrative only - no fake domains/numbers. 14 May 2024 item gives allowlist rule: 'verify ... if the web domain comes from \"uob.com.sg\" or \"uobgroup.com\"'. Mentions authorised seller link kkday.me/WaterbombUOB (official partner, not scam). Earlier survey thought it undated - it is dated."
+   },
+   {
+    "url": "https://www.uob.com.sg/personal/digital-banking/pib/security/index.page",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.uob.com.sg/personal/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Always access UOB services through the UOB TMRW app or official website. If unsure, call our Fraud Hotline at 6255 0160 and activate Money Lock in the UOB TMRW app",
+    "notes": "UOB Security hub with 'Latest Alerts' cards (same alerts as news page, undated cards) and links: How UOB protects you, Security Tips, Changes to SMS Alerts, Report Scam."
+   },
+   {
+    "url": "https://go.uob.com/reportscam",
+    "kind": "report_portal",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Contact our dedicated 24/7 Fraud Hotline at 6255 0160 and press \"1\" to report a case",
+    "notes": "Short link redirects to https://www.uob.com.sg/personal/digital-banking/pib/security/what-to-do-if-you-have-been-scammed/index.page (step-by-step: lock cards in TMRW, kill switch, fraud hotline options 1/3). Not an online form."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [
+    "6255 0160 (UOB dedicated 24/7 Fraud Hotline; press 1 to report a case, 3 to block cards)",
+    "+65 6255 0160 (tel link on UOB homepage)"
+   ],
+   "short_link_domains": [
+    "go.uob.com"
+   ],
+   "social": [
+    "https://www.facebook.com/UOB.sg",
+    "https://www.instagram.com/uobgroup",
+    "https://www.linkedin.com/company/uob",
+    "https://www.tiktok.com/@uobgroup",
+    "https://www.youtube.com/uob?sub_confirmation=1"
+   ],
+   "apps": [
+    "UOB TMRW (Apple App Store id1049286296)",
+    "UOB TMRW (Google Play com.uob.mighty.app)",
+    "UOB TMRW (Huawei AppGallery C101835237)"
+   ],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.uob.com.sg/personal/digital-banking/news-and-announcements.page",
+   "https://www.uob.com.sg/personal/index.page",
+   "https://www.uob.com.sg/personal/digital-banking/pib/security/index.page",
+   "https://go.uob.com/reportscam",
+   "https://www.scamshield.gov.sg/bank-s-anti-scam-hotline/"
+  ],
+  "notes": "official_domains: uob.com.sg and uobgroup.com are (a) - explicitly named as the authentic UOB Singapore web domains in the 14 May 2024 scam alert. uob.com (b): go.uob.com short links on UOB pages redirect to uob.com.sg. uobam.com.sg (UOB Asset Management login secure.uobam.com.sg), uobkayhian.com.sg, uoi.com.sg and other-market sites uob.com.my/.co.id/.co.th/.com.vn/uobchina.com.cn are (b) group links in homepage navigation; uobtravel.com/uobvm.com.sg/uobglobal.com also linked but not added. Login host pib.uob.com.sg. SMS sender ID not stated on pages read (changes-to-sms-alerts page fetched, no sender ID). ScamShield bank-hotline list: 'UOB Dial 6255 0160' (matches; ScamShield links UOB to uobgroup.com/uobgroup/contact-us/index.page). Robots.txt lists 10 sitemaps incl. uobgroup.com ones."
+ },
+ {
+  "entity_id": "abs.org.sg",
+  "name": "The Association of Banks in Singapore",
+  "abbr": "ABS",
+  "aliases": [
+   "ABS",
+   "Association of Banks in Singapore",
+   "Canny the Anti-Scam Mascot",
+   "PayNow"
+  ],
+  "sector": "other",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "abs.org.sg"
+  ],
+  "official_hosts": [
+   "www.abs.org.sg",
+   "abs.org.sg",
+   "sips.abs.org.sg",
+   "responsiblefinancing.abs.org.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://abs.org.sg/newsroom/press-releases",
+    "kind": "news_releases",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": null,
+    "item_count": 155,
+    "latest_item_date": "2026-11-18",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "29 Apr PayNow Nickname Feature to Cease from 6 June 2026 to Strengthen Protection Against Impersonation Scams",
+    "notes": "Year-grouped list 2006-2026 (155 dated items; dates shown as 'DD Mon' under year headers; releases are PDFs under /docs/library/). Scam-relevant 2025-26 items: 2025-10-03 'Banks to Launch Enhanced Safeguards from 15 Oct 2025 to Better Protect Accounts'; 2026-04-29 PayNow nickname cessation; 17 Feb 'Major card issuing banks to step up measures to combat card provisioning scams'; 2024-11-06 Canny launch; 2024-07-09 anti-phishing measures. Narrative only. No robots.txt (/robots.txt redirects to homepage); no sitemap found."
+   },
+   {
+    "url": "https://abs.org.sg/consumer-banking/canny-the-anti-scam-mascot",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "When you see Canny, remember to STOP, CHECK, DON'T CLICK YET!",
+    "notes": "Industry anti-scam campaign page; generic advice only."
+   },
+   {
+    "url": "https://abs.org.sg/e-payments/pay-now",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Verify that the recipient's name is correct before confirming the transfer. ... The PayNow nickname feature will no longer be available from 6 June 2026",
+    "notes": "PayNow consumer page (/consumer-banking/pay-now redirects here). Scheme description, cross-border linkages; minimal anti-scam content (recipient-name check, nickname removal). Not enough dedicated scam content for a separate abs.org.sg#paynow record."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [
+    "(65) 6224 4300 (ABS office line)"
+   ],
+   "short_link_domains": [],
+   "social": [],
+   "apps": [],
+   "emails": [
+    "banks@abs.org.sg"
+   ]
+  },
+  "evidence": [
+   "https://www.abs.org.sg/",
+   "https://abs.org.sg/consumer-banking/canny-the-anti-scam-mascot",
+   "https://abs.org.sg/e-payments/pay-now",
+   "https://abs.org.sg/newsroom/press-releases"
+  ],
+  "notes": "Industry association (sector 'other'); historically operated the PayNow scheme - 28 Oct 2026 press release says the new Singapore Payments Network (SPN) will govern Singapore's national payment schemes (title only; PDF not read). official_domains (b): abs.org.sg serves the site (www redirects to apex). No list of member-bank hotlines or official channels on pages read; consumer-banking menu also has 'Mobile Malware targeting Mobile Banking Customers' and 'FAQ - E Payment Guidelines' pages (not fetched). Homepage links SDIC, FIDReC, CCS, Credit Bureau (third parties, not added). No social links on homepage apart from tracking pixels."
+ },
+ {
+  "entity_id": "citibank.com.sg",
+  "name": "Citibank Singapore",
+  "abbr": "Citi",
+  "aliases": [
+   "Citibank",
+   "Citi",
+   "Citibank Singapore Limited",
+   "Citi Singapore",
+   "Citi Mobile App",
+   "CitiPhone"
+  ],
+  "sector": "bank",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "citibank.com.sg",
+   "citi.com",
+   "citibank.com",
+   "findmyciti.com",
+   "citiworldprivileges.com"
+  ],
+  "official_hosts": [
+   "www.citibank.com.sg",
+   "www1.citibank.com.sg",
+   "www.ipb.citibank.com.sg",
+   "experience.citi.com",
+   "thankyou.citi.com",
+   "jobs.citi.com",
+   "www.cdn.citibank.com",
+   "marketingportal.citibank.com",
+   "www.findmyciti.com",
+   "www.citiworldprivileges.com"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.citibank.com.sg/personal-banking/online-services/secure-banking/online-security-tips/",
+    "kind": "advisory_feed",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.citibank.com.sg/sitemap.xml",
+    "item_count": 19,
+    "latest_item_date": "2023-09-15",
+    "verified": "2026-11-25 HTTP 200",
+    "sample": "Customers of Citibank Singapore Limited are advised to check this page regularly for the latest security alerts and/or news. ... Introducing new security updates on your Citi Mobile ® App Date: 15 September 2023",
+    "notes": "Security Centre 'Latest Security Alert' list: 19 dated items 2018-05-20..2023-09-15 (stale). Narrative MOs, incl. 'Beware of Calls from Spoof Citibank Hotlines & Fake SMSes with Spoof Citibank Headers' (11 June 2021). The 14 April 2019 item 'Citi Email Addresses' lists GENUINE sender addresses (see official_channels.emails) - official, not scam indicators."
+   },
+   {
+    "url": "https://www.citibank.com.sg/static/contact",
+    "kind": "official_channels",
+    "lists_indicators": [
+     "phone",
+     "sms_sender_id"
+    ],
+    "access": "html",
+    "machine_url": "https://www.citibank.com.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-25 HTTP 200",
+    "sample": "To report a fraud or scam, please contact us immediately at: (1) Citibank Fraud hotline: (65) 6337 5519 OR (2) CitiPhone hotline: (65) 6225 5225 ... If you receive an SMS from Citibank (Sender number: 72484)",
+    "notes": "(official) Fraud/CitiPhone hotlines and the genuine SMS sender number 72484 used for card-charge authorisation (reply 1/2). ScamShield bank-hotline list links Citibank here and gives 6337 5519 (matches)."
+   },
+   {
+    "url": "https://www.citibank.com.sg/static1/static/prevention-protection/",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.citibank.com.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-25 HTTP 200",
+    "sample": "Citibank 24-hour card emergency number: +65 6225 5225.",
+    "notes": "Credit-card fraud prevention tips (footer link 'Credit Card and Fraud')."
+   },
+   {
+    "url": "https://www.citibank.com.sg/wealth-management/wealth-insights/financial-fraud-how-to-stay-safe-from-scams",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.citibank.com.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-25 HTTP 200",
+    "sample": "Financial fraud: how to stay safe from scams",
+    "notes": "Generic article; sitemap lastmod 2026-10-23. Related sitemap pages: /digital-banking/secured-banking/enhanced-security and /digital-banking/secured-banking/money-lock (lastmod 2026-10-23; enhanced-security fetched HTTP 200)."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "72484"
+   ],
+   "hotlines": [
+    "(65) 6337 5519 (Citibank Fraud hotline)",
+    "(65) 6225 5225 (CitiPhone hotline; also 24-hour card emergency +65 6225 5225)",
+    "(65) 6224-5757 (CitiPhone, International Personal Bank clients)"
+   ],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/citisingapore",
+    "https://www.instagram.com/citisingapore",
+    "https://www.youtube.com/CitiSG"
+   ],
+   "apps": [
+    "Citibank SG / Citi Mobile App (Apple App Store id370773317)",
+    "Citi Mobile App (Google Play com.citibank.mobile.sg)",
+    "Citibank IPB SG (Apple App Store id463403661)"
+   ],
+   "emails": [
+    "alerts@citibank.com.sg",
+    "statements@citibank.com.sg",
+    "advices@citibank.com.sg",
+    "welcome@citibank.com.sg",
+    "marketing@citibank.com.sg",
+    "services@citibank.com.sg",
+    "chargeback@citibank.com.sg",
+    "customerservice@citibank.com.sg",
+    "client@experience.citi.com",
+    "customerservice@thankyou.citi.com"
+   ]
+  },
+  "evidence": [
+   "https://www.citibank.com.sg/",
+   "https://www.citibank.com.sg/static/contact",
+   "https://www.citibank.com.sg/personal-banking/online-services/secure-banking/online-security-tips/",
+   "https://www.citibank.com.sg/static1/static/prevention-protection/",
+   "https://www.scamshield.gov.sg/bank-s-anti-scam-hotline/"
+  ],
+  "notes": "Evidence gathered 2026-11-25 by the earlier sub-agent run (digest), reused. official_domains: citibank.com.sg (a: 'check that the citibank.com.sg website has a valid certificate marked Citigroup Inc.'; b: serves site); citi.com (a: official sender emails @experience.citi.com and @thankyou.citi.com listed on the security page); citibank.com (b: www.cdn.citibank.com / marketingportal.citibank.com serve page assets); findmyciti.com, citiworldprivileges.com (b: homepage navigation). IPB login host www.ipb.citibank.com.sg. www1.citibank.com.sg/digital-banking/secured-banking/ timed out (HTTP 000) on 2026-11-25; www1.citibank.com.sg/credit-cards/manage-your-card/card-security returned 200. robots.txt lists sitemap-index.xml and sitemap.xml (Screaming Frog-generated, lastmod 2026-10-23)."
+ },
+ {
+  "entity_id": "hsbc.com.sg",
+  "name": "HSBC Bank (Singapore) Limited",
+  "abbr": "HSBC",
+  "aliases": [
+   "HSBC",
+   "HSBC Singapore",
+   "HSBC Bank Singapore",
+   "HSBC Singapore app",
+   "HSBC Safeguard"
+  ],
+  "sector": "bank",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "hsbc.com.sg",
+   "hsbc.com",
+   "hsbc.com.hk"
+  ],
+  "official_hosts": [
+   "www.hsbc.com.sg",
+   "www.business.hsbc.com.sg",
+   "www.about.hsbc.com.sg",
+   "internationalservices.hsbc.com",
+   "www.homeandaway.hsbc.com",
+   "www.asia.privatebanking.hsbc.com.hk",
+   "hsbcsg.in1.echosign.com",
+   "hsbcsg.in1.adobesign.com"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.hsbc.com.sg/help/security-centre/fraud-guide/",
+    "kind": "official_channels",
+    "lists_indicators": [
+     "url",
+     "social_handle",
+     "email",
+     "phone"
+    ],
+    "access": "html",
+    "machine_url": "https://www.hsbc.com.sg/sitemaps-pages.xml",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Always verify before you engage, our official channels are: Instagram: @hsbc_sg Facebook: facebook.com/HSBCSingapore LinkedIn: linkedin.com/company/hsbc/ YouTube: @HSBC_SG Website: ... https://www.hsbc.com.sg",
+    "notes": "(official) Fraud guide by scam type (impersonation, investment, e-commerce, phishing/smishing/vishing, malware, love) plus explicit list of genuine HSBC SG channels; 'only access websites starting with hsbc.com.sg'; report phishing to phishing@hsbc.com; fraud line +65 6-HSBC NOW (6-4722 669). ScamShield bank-hotline list links HSBC here. No dated alerts, no fake indicators."
+   },
+   {
+    "url": "https://www.hsbc.com.sg/help/security-centre/",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.hsbc.com.sg/sitemaps-pages.xml",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "The Monetary Authority of Singapore (MAS) and Infocomm Media Development Authority of Singapore (IMDA) announced on 24 October 2024 that the Shared Responsibility Framework (SRF) for phishing scams ...",
+    "notes": "Security Centre hub; subpages in sitemap: transaction-monitoring, fraud-guide, hsbc-safeguard, prevent-fraud, how-to-bank-securely-online (+ zh-sg versions). No dated alert list found."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [
+    "+65 6-HSBC NOW (6-4722 669) (HSBC fraud reporting line, per fraud guide)",
+    "1800 472 2669 (HSBC anti-scam hotline from Singapore, per ScamShield list; corroboration only)"
+   ],
+   "short_link_domains": [],
+   "social": [
+    "https://www.instagram.com/HSBC_SG",
+    "https://www.facebook.com/HSBCSingapore",
+    "http://linkedin.com/company/hsbc",
+    "https://www.youtube.com/@HSBC_SG"
+   ],
+   "apps": [
+    "HSBC Singapore (Apple App Store id1339115277)",
+    "HSBC Singapore (Google Play sg.com.hsbc.hsbcsingapore)"
+   ],
+   "emails": [
+    "phishing@hsbc.com (report phishing)"
+   ]
+  },
+  "evidence": [
+   "https://www.hsbc.com.sg/help/security-centre/fraud-guide/",
+   "https://www.hsbc.com.sg/help/security-centre/",
+   "https://www.hsbc.com.sg/",
+   "https://www.scamshield.gov.sg/bank-s-anti-scam-hotline/"
+  ],
+  "notes": "official_domains: hsbc.com.sg (a: 'only access websites starting with hsbc.com.sg'; 'Access banking services by typing https://www.hsbc.com.sg'); hsbc.com (a: phishing@hsbc.com reporting address; b: internationalservices/homeandaway hosts linked); hsbc.com.hk (b: private-banking link). Adobe Sign/EchoSign hosts are third-party e-signature FQDNs linked from the page (official_hosts only). robots.txt sitemap -> https://www.hsbc.com.sg/sitemaps.xml (index) -> sitemaps-pages.xml. SMS sender ID not stated on pages read. Homepage/robots fetched 2026-11-25 HTTP 200 (digest)."
+ },
+ {
+  "entity_id": "sc.com",
+  "name": "Standard Chartered Bank (Singapore) Limited",
+  "abbr": "SCB",
+  "aliases": [
+   "Standard Chartered",
+   "Standard Chartered Singapore",
+   "StanChart",
+   "SC Mobile",
+   "SC Mobile Singapore"
+  ],
+  "sector": "bank",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "sc.com",
+   "standardchartered.com"
+  ],
+  "official_hosts": [
+   "www.sc.com",
+   "retail.sc.com",
+   "ob.sc.com",
+   "av.sc.com",
+   "s2b.standardchartered.com",
+   "www.standardchartered.com"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.sc.com/sg/fraud-scam/",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "If you suspect any unauthorized access or transactions have been made to your account, please close the mobile app or web browser and contact us immediately at +65 6747 7000",
+    "notes": "SG fraud & scam hub: Shared Responsibility Framework, typologies (compromised device, impersonation), how we protect you, disable digital services. No dated alerts, no indicators."
+   },
+   {
+    "url": "https://www.sc.com/sg/fraud-scam/help/",
+    "kind": "report_portal",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "To activate the kill-switch, please contact us immediately at +65 6747 7000, and press option 9.",
+    "notes": "Reporting page (linked from ScamShield bank-hotline list): kill switch, police report, e-mail police report to SG.FraudResponse@sc.com / SG.Fraud_Investigation@sc.com, report phishing/smishing/vishing/fake social accounts to phishing@sc.com, security issues to security@sc.com."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [
+    "(+65) 6747 7000 (Standard Chartered Personal Banking, 24-hour; option 1 report fraud, option 9 kill switch)",
+    "(+65) 6846 8000 (Priority Banking)"
+   ],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/Standardcharteredsg",
+    "https://twitter.com/StanChart",
+    "https://www.linkedin.com/company/standardchartered"
+   ],
+   "apps": [
+    "SC Mobile Singapore (Apple App Store id367337298)",
+    "SC Mobile Singapore (Google Play air.app.scb.breeze.android.main.sg.prod)"
+   ],
+   "emails": [
+    "SG.FraudResponse@sc.com",
+    "SG.Fraud_Investigation@sc.com",
+    "phishing@sc.com (report phishing)",
+    "security@sc.com"
+   ]
+  },
+  "evidence": [
+   "https://www.sc.com/sg/fraud-scam/",
+   "https://www.sc.com/sg/fraud-scam/help/",
+   "https://www.sc.com/sg/",
+   "https://www.scamshield.gov.sg/bank-s-anti-scam-hotline/"
+  ],
+  "notes": "SG business lives under the global domain path www.sc.com/sg (entity_id sc.com, country SG). official_domains (b): sc.com serves the site; standardchartered.com via Straight2Bank login s2b.standardchartered.com linked in header. No separate SG registrable domain seen. ScamShield list gives 'Standard Chartered Dial 6747 7000' (matches). Sitemaps: robots.txt lists https://www.sc.com/sg/sitemap.xml (WordPress index of monthly sitemap-pt-*.xml); fraud-scam pages not found in the 2024-12/2026-01/09/10/11 page sitemaps checked. Also linked: https://www.sc.com/global/security-tips/ and /sg/cybersecurity/ (not fetched). SMS sender ID not stated on pages read."
+ },
+ {
+  "entity_id": "maybank2u.com.sg",
+  "name": "Maybank Singapore Limited",
+  "abbr": "Maybank",
+  "aliases": [
+   "Maybank",
+   "Maybank Singapore",
+   "Maybank2u",
+   "Maybank2u SG",
+   "M2U",
+   "Malayan Banking"
+  ],
+  "sector": "bank",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "maybank2u.com.sg",
+   "maybank.com.sg",
+   "maybank.com",
+   "maybank2e.com"
+  ],
+  "official_hosts": [
+   "www.maybank2u.com.sg",
+   "sslsecure.maybank.com.sg",
+   "cib.maybank2u.com.sg",
+   "cardspromo.maybank2u.com.sg",
+   "www.maybank2e.com",
+   "mytreats.maybank.com",
+   "www.maybank.com"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.maybank2u.com.sg/en/personal/eservices/security-alerts/online-threats/scams.page",
+    "kind": "advisory_feed",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": null,
+    "item_count": 31,
+    "latest_item_date": "2026-11-23",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Advisory on Phishing Scams Impersonating Courier Companies 23 November 2026 Beware of phishing scams involving scammers impersonating courier companies through unsolicited messages.",
+    "notes": "'New Scam Alerts' list: 31 dated advisories 2024-01-17..2026-11-23 (actively maintained). Narrative MOs (courier, hotel-booking, inheritance, LTA/government impersonation, W-8BEN compliance phishing emails since Jan 2026); no concrete fake domains/numbers. Static .page HTML; site has no robots.txt (404) and /sitemap.xml 404."
+   },
+   {
+    "url": "https://www.maybank2u.com.sg/en/personal/eservices/security-alerts/online-threats/measures-to-protect-you-from-scams.page",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Maybank has removed all clickable links from its emails and SMSes since 31 January 2022. If you have received a message from Maybank with a clickable link, it's likely that the message is not legitimate.",
+    "notes": "Linked from ScamShield bank-hotline list. Kill switch, card block, 12-hour cooling period from 26 Oct 2025, anti-malware app checks ('Unofficial M2U Mobile Banking App Downloaded'); links anti-scam FAQ PDFs under /iwov-resources/sg/pdf/faq/personal/eservices/security-alerts/online-threats/ (maybank-anti-scam-faq.pdf, enhanced-security-measures-against-malware-scams-faq.pdf)."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [
+    "1800-MAYBANK (1800-629 2265) (Maybank hotline; press *1 to report unauthorised transactions / kill switch)",
+    "(65) 6533 5229 (Maybank hotline, overseas)"
+   ],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/MaybankSingapore",
+    "https://www.instagram.com/maybanksg",
+    "https://www.linkedin.com/company/maybank/jobs"
+   ],
+   "apps": [
+    "Maybank2u SG app (named on page; store link not seen)"
+   ],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.maybank2u.com.sg/en/personal/index.page",
+   "https://www.maybank2u.com.sg/en/personal/eservices/security-alerts/online-threats/scams.page",
+   "https://www.maybank2u.com.sg/en/personal/eservices/security-alerts/online-threats/measures-to-protect-you-from-scams.page",
+   "https://www.scamshield.gov.sg/bank-s-anti-scam-hotline/"
+  ],
+  "notes": "Primary SG domain verified: https://www.maybank.com.sg/ lands on www.maybank2u.com.sg (meta refresh to /en/personal/index.page; fetched 2026-11-25 by earlier run). official_domains all (b): maybank2u.com.sg serves site; maybank.com.sg (login/email-us host sslsecure.maybank.com.sg linked); maybank.com (group, mytreats.maybank.com); maybank2e.com (business banking link). Other-market Maybank sites (maybank2u.com.my, maybank.co.id, maybank.com.ph, maybank2u.com.kh) are linked in footer - not added. ScamShield list: 'Maybank Dial 1800 629 2265 (from Singapore) or +65 6533 5229 (from overseas)' (matches). SMS sender ID not stated."
+ },
+ {
+  "entity_id": "trustbank.sg",
+  "name": "Trust Bank Singapore Limited",
+  "abbr": "Trust",
+  "aliases": [
+   "Trust Bank",
+   "Trust",
+   "Trust Bank Singapore",
+   "Trust App",
+   "Trust lock"
+  ],
+  "sector": "bank",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "trustbank.sg"
+  ],
+  "official_hosts": [
+   "trustbank.sg",
+   "trust.onelink.me"
+  ],
+  "scam_info": [
+   {
+    "url": "https://trustbank.sg/srf/",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://trustbank.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "24/7 Reporting Channel : We offer a 24/7 reporting channel. You can contact our customer service via Trust App or call our hotline at +65 3138 7878.",
+    "notes": "Shared Responsibility Framework page: phishing-scam definition, kill switch (Trust App > Profile > Security), transaction-pause measures from 28 June 2025, notifications, liabilities. Found via web search; content is server-rendered."
+   },
+   {
+    "url": "https://trustbank.sg/security/",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://trustbank.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Scammers never rest - but neither do we. Discover our security features to help you bank securely!",
+    "notes": "Security features page (numberless card, Trust lock for Savings Pots with 12-hour cooling period, malware warning, SRF link). In sitemap."
+   },
+   {
+    "url": "https://trustbank.sg/faqs/security/",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://trustbank.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200 via WebFetch",
+    "sample": null,
+    "notes": "JS-rendered FAQ: curl and WebFetch return only navigation/footer (answers loaded client-side; __NEXT_DATA__ empty). Not machine-readable without a browser."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [
+    "+65 3138 7878 (Trust 24/7 reporting channel / customer service hotline)"
+   ],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/trustbanksg",
+    "https://www.instagram.com/trustbank.sg",
+    "https://www.linkedin.com/company/trustbank-sg",
+    "https://www.youtube.com/c/trustbanksg"
+   ],
+   "apps": [
+    "Trust App (download via trust.onelink.me)"
+   ],
+   "emails": []
+  },
+  "evidence": [
+   "https://trustbank.sg/",
+   "https://trustbank.sg/srf/",
+   "https://trustbank.sg/security/",
+   "https://trustbank.sg/robots.txt"
+  ],
+  "notes": "Digital bank (Standard Chartered x FairPrice Group partnership; footer links www.sc.com/sg and fairpricegroup.com.sg - partner sites, not added). official_domains (b): trustbank.sg serves site (no www). trust.onelink.me is a third-party AppsFlyer app-download redirect (FQDN only). Not on ScamShield's bank anti-scam hotline list. Sitemap https://trustbank.sg/sitemap.xml (security + faqs/security listed; newsroom has no scam items). No dated scam-alert list; '/announcements/' exists (not fetched). SMS sender ID not stated."
+ },
+ {
+  "entity_id": "gxs.com.sg",
+  "name": "GXS Bank Pte. Ltd.",
+  "abbr": "GXS",
+  "aliases": [
+   "GXS Bank",
+   "GXS",
+   "GXS Bank app",
+   "GXS Business Banking"
+  ],
+  "sector": "bank",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "gxs.com.sg"
+  ],
+  "official_hosts": [
+   "www.gxs.com.sg",
+   "help.gxs.com.sg",
+   "business.gxs.com.sg",
+   "gxsbank.onelink.me"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.gxs.com.sg/security",
+    "kind": "official_channels",
+    "lists_indicators": [
+     "phone",
+     "social_handle"
+    ],
+    "access": "html",
+    "machine_url": "https://www.gxs.com.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Legit ways we will contact you ... Calls from GXS Collections Team: 6039 0308 Official GXS Bank WhatsApp: 8963 1223 (verified with a blue tick) Official GXS Business Banking WhatsApp: 8963 5506",
+    "notes": "(official) Explicit list of the ONLY channels GXS uses to contact customers: push notifications, in-app, email, SMS, collections calls 6039 0308, verified WhatsApp 8963 1223 / 8963 5506 (outgoing only, not monitored). Also security tips: 'See a +65? That's a tell-tale sign that the caller is contacting you with a fake Singapore number', malware app-blocking. No dated alerts."
+   },
+   {
+    "url": "https://www.gxs.com.sg/news-press/gxs-bank-customers-have-an-additional-protection-against-scams-with-the-launch-of-money-lock",
+    "kind": "news_releases",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.gxs.com.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-25 HTTP 200 (sitemap entry; page not fetched)",
+    "sample": null,
+    "notes": "Press release on GXS Money Lock found in sitemap (Webflow site, sitemap lastmod values current to 2026-11-24)."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [
+    "6039 0308 (GXS Collections Team - outgoing calls only)"
+   ],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/gxsbank",
+    "https://www.instagram.com/gxsbank",
+    "https://www.linkedin.com/company/gxsbank",
+    "https://www.youtube.com/channel/UCpE9x1HTTQAFvxDy57CqNqg",
+    "WhatsApp 8963 1223 (Official GXS Bank WhatsApp, blue tick, outgoing only)",
+    "WhatsApp 8963 5506 (Official GXS Business Banking WhatsApp, blue tick, outgoing only)"
+   ],
+   "apps": [
+    "GXS Bank app (download via gxsbank.onelink.me)"
+   ],
+   "emails": [
+    "help@gxs.com.sg"
+   ]
+  },
+  "evidence": [
+   "https://www.gxs.com.sg/security",
+   "https://www.gxs.com.sg/",
+   "https://www.gxs.com.sg/sitemap.xml"
+  ],
+  "notes": "official_domains (b): gxs.com.sg serves site; help/business subdomains linked from footer. gxs.com.sg is also listed in Singtel's 'official Singtel web domains' list (GXS is a Grab-Singtel digital bank). gxsbank.onelink.me = third-party AppsFlyer redirect; marketing.sgbank.st and cdn.prod.website-files.com (Webflow) are third-party hosts, not added. No fraud hotline number on the security page (says 'Live chat with us via the app, call or email us'). Not on ScamShield's bank hotline list. WhatsApp numbers placed in social as text because they are genuine contact handles (not URLs)."
+ },
+ {
+  "entity_id": "maribank.sg",
+  "name": "MariBank Singapore Private Limited",
+  "abbr": "MariBank",
+  "aliases": [
+   "MariBank",
+   "Mari Bank",
+   "MariBank Singapore",
+   "Mari Savings Account",
+   "MariBank app"
+  ],
+  "sector": "bank",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "maribank.sg",
+   "maribank.com.sg"
+  ],
+  "official_hosts": [
+   "www.maribank.sg",
+   "onelink.maribank.sg",
+   "cs.maribank.com.sg",
+   "banking-aka-storage.maribank.com.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.maribank.sg/info/latest-security-alerts",
+    "kind": "advisory_feed",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.maribank.sg/sitemap.xml",
+    "item_count": 7,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Latest Security Alerts: Detecting and Responding to Deepfake Scams; Latest Malware and Scam Tactics; Anti-Malware Security Features; Beware SMS phishing scams involving Singpass",
+    "notes": "List of 7 undated alert articles (each its own URL under /info/latest-security-alerts/..., all in sitemap). Narrative only."
+   },
+   {
+    "url": "https://www.maribank.sg/security",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.maribank.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Scam Advisory Beware of Government Official Impersonation Scams",
+    "notes": "Security hub: identifying-and-reporting-scams, freeze-account-activities, scam advisories (/security/scam-advisories-investment-scams, -gois, -job-scams, -business-email-compromise-scams), detecting impersonation / card-transaction scams. Sitemap (140 KB) lastmod 2026-11-25. Help-centre article 10182 'What are official Android app stores' also in sitemap (not fetched)."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [
+    "+65 6995 8688 (MariBank customer service; in-app live chat recommended)"
+   ],
+   "short_link_domains": [],
+   "social": [
+    "https://www.instagram.com/maribank_sg",
+    "https://www.linkedin.com/company/maribank"
+   ],
+   "apps": [
+    "MariBank (Apple App Store id1658919834)",
+    "MariBank (Google Play sg.com.maribankmobile.digitalbank)",
+    "MariBank (Huawei AppGallery C105796295)"
+   ],
+   "emails": [
+    "help@maribank.sg"
+   ]
+  },
+  "evidence": [
+   "https://www.maribank.sg/security",
+   "https://www.maribank.sg/info/latest-security-alerts",
+   "https://www.maribank.sg/security/identifying-and-reporting-scams",
+   "https://www.maribank.sg/sitemap.xml"
+  ],
+  "notes": "Sea Group digital bank. official_domains (b): maribank.sg serves site; maribank.com.sg hosts (cs./banking-aka-storage.) linked/embedded from the official pages. No explicit official-domain statement. No fraud-specific hotline seen (footer: +65 6995 8688). Not on ScamShield's bank hotline list. robots.txt: 'Allow: /' only."
+ },
+ {
+  "entity_id": "singtel.com",
+  "name": "Singapore Telecommunications Limited (Singtel)",
+  "abbr": "Singtel",
+  "aliases": [
+   "Singtel",
+   "SingTel",
+   "Singapore Telecommunications",
+   "Singtel Group",
+   "My Singtel app",
+   "SingNet",
+   "GOMO",
+   "GOMO by Singtel",
+   "Singtel Scam Call Protect"
+  ],
+  "sector": "telco",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "singtel.com",
+   "singtelcrm.com",
+   "singteltvgo.com",
+   "singtelge.com",
+   "gomo.sg",
+   "singteldigital.com",
+   "dash.com.sg"
+  ],
+  "official_hosts": [
+   "www.singtel.com",
+   "shop.singtel.com",
+   "onepass.singtel.com",
+   "api.singtel.com",
+   "vdp.singtel.com",
+   "groupcareers.singtel.com",
+   "cdn1.singteldigital.com",
+   "cdn2.singteldigital.com",
+   "portal.singtelge.com",
+   "singtelcares.syd1.qualtrics.com",
+   "singtelge.app.bigtincan.com.au",
+   "www.gomo.sg",
+   "apple.com",
+   "applemusic.com",
+   "amazon-prime-opui.openplatform.co",
+   "bookful.app",
+   "e-station2.axs.com.sg",
+   "fairprice.com.sg",
+   "fortumo.eu",
+   "gxs.com.sg",
+   "heya.sg",
+   "home.mcafee.com",
+   "income.com",
+   "jamf.com",
+   "magzter.com",
+   "mcafee.ly",
+   "office.com",
+   "perplexity.ai",
+   "qustodio.com",
+   "singtelemi.bynder.com",
+   "sg.banglaflix.com.bd",
+   "sph.com.sg",
+   "storytel.com",
+   "sunnxt.com",
+   "viu.com",
+   "wanderjoy.com",
+   "www.cast.sg",
+   "www.heya.sg",
+   "www.jcu.edu.sg",
+   "www.mysam.sg",
+   "www.vivifi.me",
+   "www.wandera.com",
+   "www.wogi.sg",
+   "www.wtfast.com",
+   "www.zonealarm.com",
+   "nba-leaguepass-sg.mobi",
+   "help.netflix.com"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.singtel.com/personal/support/scam-advisory",
+    "kind": "advisory_feed",
+    "lists_indicators": [
+     "entity_name"
+    ],
+    "access": "html",
+    "machine_url": "https://www.singtel.com/sitemap-support.xml",
+    "item_count": 23,
+    "latest_item_date": "2026-10-23",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Posted on 23 October 2026 Receiving a email titled Feedback formRec Singtel REF-XXXX-XXXX-XXXX stating you're eligible for a eFill refund, asking for your action to complete a short refund request form.",
+    "notes": "'Latest scams' + 'Other scams to be aware of' accordions: 28 entries, 23 with 'Posted (on) <date>' (2022-09-19..2026-10-23). Content lives in AEM <ux-*> datamodel JSON attributes in the page HTML (parse with html.unescape + json). Mostly narrative + screenshot images (cdn2.singteldigital.com/.../scam-advisory/*.png); names third-party site 'Postclic' (not authorised by Singtel) and lure email subjects (e.g. 'SingNet - Subscription Cancellation'). Also explains '+65' prefix and 'Likely-SCAM' SMS headers. /business/support/scam-advisory redirects here (?dispatcher=302)."
+   },
+   {
+    "url": "https://www.singtel.com/personal/support/scam-advisory#Officialdomains",
+    "kind": "official_channels",
+    "lists_indicators": [
+     "domain",
+     "url",
+     "phone"
+    ],
+    "access": "html",
+    "machine_url": "https://www.singtel.com/sitemap-support.xml",
+    "item_count": 43,
+    "latest_item_date": "2025-09-15",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "All domain links with '.singtel.com' belongs to our official web domain and are legitimate (e.g., empower.singtel.com, info.singtel.com).",
+    "notes": "(official) 'List of official Singtel web domains': 6 'Singtel web domains' (singtel.com*, portal.singtelge.com, singtelcares.syd1.qualtrics.com, singtelcrm.com, singtelge.app.bigtincan.com.au, singteltvgo.com; updated 9 Oct 2023) + 37 partner domains/links (updated 15 Sept 25). Machine-extractable from the ux-heading-text datamodel blob. Also: 'Singtel would only call customers from official hotlines (e.g 1688)'."
+   },
+   {
+    "url": "https://www.singtel.com/personal/support/scam-advisory/report-scam",
+    "kind": "report_portal",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-25 HTTP 200",
+    "sample": "Report a scam ... Scam type: Website / SMS / Email ... Please include the date received, page links, email addresses or phone numbers that you have spotted.",
+    "notes": "Web form (reCAPTCHA) for reporting Singtel-impersonation websites/SMS/emails; submissions not public."
+   },
+   {
+    "url": "https://www.singtel.com/personal/products-services/lifestyle-services/my-smart-network/scamcallprotect",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.singtel.com/sitemap-explore.xml",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-25 HTTP 200",
+    "sample": "Since implementing Scam Call Protect, more than 30 million scam calls and 20 million scam SMSes have been blocked monthly, across our network (on average per month, based on statistics from December 2022).",
+    "notes": "Network-level scam call/SMS blocking via IMDA-managed blacklist and SMS firewall; also Barring Service (block overseas calls), Mobile Protect, Protect eSIM. Covers Postpaid, Prepaid, GOMO and fixed line."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [
+    "1688 (Singtel customer hotline; 'Singtel would only call customers from official hotlines (e.g 1688)')"
+   ],
+   "short_link_domains": [],
+   "social": [],
+   "apps": [
+    "My Singtel app (Apple App Store id1054859191)",
+    "My Singtel app (Google Play com.singtel.mysingtel)"
+   ],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.singtel.com/personal/support/scam-advisory",
+   "https://www.singtel.com/",
+   "https://www.singtel.com/sitemap-explore.xml",
+   "https://www.singtel.com/personal/support/scam-advisory/report-scam",
+   "https://www.singtel.com/personal/products-services/lifestyle-services/my-smart-network/scamcallprotect"
+  ],
+  "notes": "official_domains: singtel.com, singtelcrm.com, singteltvgo.com, singtelge.com (a: listed under 'Singtel web domains'; portal.singtelge.com is the listed host); gomo.sg (a: in partner list; b: 149 www.gomo.sg URLs in Singtel's own sitemap-explore.xml); dash.com.sg (a: in list; Singtel Dash, operated by Singtel subsidiary SingCash - see child record dash.com.sg); singteldigital.com (b: cdn1/cdn2 asset hosts of the official site). Third-party/partner entries from the list are kept as exact FQDNs in official_hosts (qualtrics, bigtincan, apple.com, office.com, netflix, viu, mcafee, gxs.com.sg [separate GXS Bank record], www.vivifi.me, heya.sg/www.heya.sg [ownership not verified from Singtel pages; www.heya.sg timed out], etc.) - legitimate in Singtel communications but not Singtel-owned; one entry is a full URL https://nba-leaguepass-sg.mobi/en-SG/lp/nba-lp (host recorded). SMS sender ID not stated on pages read. Social links not found in static HTML of pages fetched. Robots allows all except /business/node/; sitemap index https://www.singtel.com/sitemap-index.xml (support/explore/business/shop + shop.singtel.com)."
+ },
+ {
+  "entity_id": "dash.com.sg",
+  "name": "Singtel Dash (SingCash Pte. Ltd.)",
+  "abbr": "Dash",
+  "aliases": [
+   "Singtel Dash",
+   "Dash",
+   "SingCash",
+   "Dash app"
+  ],
+  "sector": "payments",
+  "parent_entity_id": "singtel.com",
+  "country": "SG",
+  "official_domains": [
+   "dash.com.sg"
+  ],
+  "official_hosts": [
+   "www.dash.com.sg",
+   "dash.com.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://dash.com.sg/report-fraud-scam",
+    "kind": "report_portal",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Stay secure! Scammers impersonating Dash may target you via fake Facebook pages or SMS phishing. Beware of clickable links on SMSes and do not share your OTP",
+    "notes": "How to report fraud: customer care 6438-3274 (option 5, 8.30am-8.30pm) and reportfraud@dash.com.sg. Narrative warning only."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [
+    "6438-3274 (Dash customer care; select '5' to report fraud)"
+   ],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/SingtelDash",
+    "https://www.instagram.com/singteldash",
+    "https://www.youtube.com/channel/UCseMPQgmOdCSGEC7a0ioMNA"
+   ],
+   "apps": [
+    "Singtel Dash (Apple App Store id640036406)",
+    "Singtel Dash (Google Play com.SingTel.mWallet)"
+   ],
+   "emails": [
+    "reportfraud@dash.com.sg"
+   ]
+  },
+  "evidence": [
+   "https://www.dash.com.sg/",
+   "https://dash.com.sg/report-fraud-scam",
+   "https://www.singtel.com/personal/support/scam-advisory"
+  ],
+  "notes": "Singtel's mobile wallet (footer: '2026 SingCash Pte. Ltd.'). Child of singtel.com because it has its own registrable domain and its own fraud/scam page; dash.com.sg also appears in Singtel's official-domain list. official_domains (a: Singtel list; b: serves site)."
+ },
+ {
+  "entity_id": "starhub.com",
+  "name": "StarHub Ltd",
+  "abbr": "StarHub",
+  "aliases": [
+   "StarHub",
+   "Starhub",
+   "My StarHub app",
+   "StarHub ScamSafe",
+   "ScamSafe",
+   "SafeHub+",
+   "StarHub TV+"
+  ],
+  "sector": "telco",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "starhub.com",
+   "starhubtvplus.com"
+  ],
+  "official_hosts": [
+   "www.starhub.com",
+   "consumer.starhub.com",
+   "corporate.starhub.com",
+   "secure.starhub.com",
+   "email.starhub.com",
+   "links.starhub.com",
+   "vdp.starhub.com",
+   "www.starhubtvplus.com"
+  ],
+  "scam_info": [
+   {
+    "url": "https://corporate.starhub.com/about-us/legal-notices-and-terms/clickable-links.html",
+    "kind": "official_channels",
+    "lists_indicators": [
+     "url",
+     "phone",
+     "email"
+    ],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "We will generally use the following types of links in our communications to customers: starhub.com/XXX for SMS communications. email.starhub.com/XXX for email communications. links.starhub.com/Wkp6/XXX for links directing customers to the My StarHub app.",
+    "notes": "(official) Explicit genuine-link patterns for SMS/email/app links; hotline 1633; report phishing/scam sites and messages impersonating StarHub to report-phish@starhub.com. Linked from site footer ('Clickable Links')."
+   },
+   {
+    "url": "https://consumer.starhub.com/personal/scamsafe",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": null,
+    "notes": "ScamSafe product page is an OutSystems JS app - curl returns only a loader shell (content not readable without JS). Per StarHub press release 18 Aug 2025 (corporate.starhub.com newsroom, HTTP 200): 'Developed with Gogolook ... ScamSafe caller automatically blocks known scam calls and filters suspicious SMS messages'; part of SafeHub+."
+   },
+   {
+    "url": "https://corporate.starhub.com/about-us/newsroom/2025/aug/starhub-launches-scamsafe-where-scam-prevention-is-made-simple.html",
+    "kind": "news_releases",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": "2025-08-18",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "StarHub Launches ScamSafe: Where Scam Prevention is Made Simple | New mobile app proactively blocks scam calls and SMSes—free for everyone in Singapore for the first six months",
+    "notes": "Single press release (newsroom index not crawled). Whoscall/Gogolook engine behind ScamSafe."
+   },
+   {
+    "url": "https://www.starhub.com/personal/mobile/mobile-phones-plans/value-added-services/blockoverseascalls.html",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.starhub.com/personal.xml",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200 (sitemap entry only)",
+    "sample": null,
+    "notes": "Overseas-call blocking service (anti-scam), listed in personal.xml sitemap (lastmod 2025-11-13); page not fetched. Also /personal/how-to/what-is-cyber-security.html (lastmod 2026-06-24)."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [
+    "1633 (StarHub customer hotline)"
+   ],
+   "short_link_domains": [
+    "links.starhub.com"
+   ],
+   "social": [
+    "https://www.facebook.com/starhub",
+    "https://instagram.com/starhub",
+    "https://twitter.com/StarHub",
+    "https://www.youtube.com/user/StarHub"
+   ],
+   "apps": [
+    "My StarHub (Apple App Store id470460379)",
+    "My StarHub (Google Play com.starhub.csselfhelp)"
+   ],
+   "emails": [
+    "@email.starhub.com (link domain for emails)",
+    "report-phish@starhub.com (report phishing)"
+   ]
+  },
+  "evidence": [
+   "https://corporate.starhub.com/about-us/legal-notices-and-terms/clickable-links.html",
+   "https://www.starhub.com/",
+   "https://corporate.starhub.com/about-us/newsroom/2025/aug/starhub-launches-scamsafe-where-scam-prevention-is-made-simple.html"
+  ],
+  "notes": "official_domains: starhub.com (a: clickable-links policy names starhub.com / email.starhub.com / links.starhub.com as the genuine link hosts; b: serves site - https://www.starhub.com/ redirects to /personal.html); starhubtvplus.com (b: homepage link). No dedicated dated scam-alert list found: two 'how-to' scam pages surfaced by search (beware-of-scam-emails.html, report-scam-calls-in-singapore.html) now return HTTP 404. Sitemap index https://www.starhub.com/sitemap.xml -> personal.xml OK, but personal/support.xml returns an HTML page instead of XML. SMS sender ID not stated. Earlier survey: StarHub ScamSafe is powered by Whoscall (Gogolook) - confirmed by the press release."
+ },
+ {
+  "entity_id": "m1.com.sg",
+  "name": "M1 Limited",
+  "abbr": "M1",
+  "aliases": [
+   "M1",
+   "M1 Limited",
+   "My M1+ App",
+   "My M1 App"
+  ],
+  "sector": "telco",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "m1.com.sg"
+  ],
+  "official_hosts": [
+   "www.m1.com.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.m1.com.sg/support/security-announcement",
+    "kind": "advisory_feed",
+    "lists_indicators": [
+     "social_handle"
+    ],
+    "access": "html",
+    "machine_url": "https://www.m1.com.sg/sitemap-en-support.xml",
+    "item_count": 17,
+    "latest_item_date": "2026-10-29",
+    "verified": "2026-11-26 HTTP 200 via WebFetch",
+    "sample": "Scam Alert: Impersonation of M1 Staff (30 Oct 2025; updated 21 Nov 2025, 13 Feb 2026, 25 Mar 2026, 29 Oct 2026) ... \"M1 does not send contracts via WhatsApp.\"",
+    "notes": "curl gets a Radware Captcha page (blocked: www.m1.com.sg Radware bot manager); read once via WebFetch, content summarised by the fetch model (treat details as medium confidence). 17 dated security alerts 2019-04-18..2025-10-30 (newest update 29 Oct 2026). Concrete fake indicator: fake 'M1 Australia' Facebook page https://www.facebook.com/M1Australia/ (2019); other items narrative (bit.ly link in fake billing SMS without full URL, fake WhatsApp chatbot, Telegram impersonation, 'Likely-SCAM' SSIR notice 27 Jan 2023). robots.txt also hides several security-announcement images from Googlebot-Image."
+   },
+   {
+    "url": "https://www.m1.com.sg/support/security-announcement/faq",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.m1.com.sg/sitemap-en-support.xml",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 sitemap entry only (page behind Radware; not fetched)",
+    "sample": null,
+    "notes": "Listed in sitemap-en-support.xml with /support/security-announcement/how-to and /support/faq/all-topics/mobile-phones-plans/block-international-incoming-calls-and-sms."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [
+    "1627 (M1 customer service hotline; service termination only via 1627)",
+    "1622 (legitimate M1 incoming caller ID)",
+    "1623 (legitimate M1 incoming caller ID)",
+    "1693 (legitimate M1 incoming caller ID)"
+   ],
+   "short_link_domains": [],
+   "social": [],
+   "apps": [
+    "My M1+ App"
+   ],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.m1.com.sg/support/security-announcement",
+   "https://www.m1.com.sg/robots.txt",
+   "https://www.m1.com.sg/sitemap-en-support.xml"
+  ],
+  "notes": "blocked: www.m1.com.sg Radware bot manager (curl homepage redirected to 'Radware Captcha Page' 2026-11-26); not bypassed. robots.txt and sitemaps (sitemap.xml index of 25 child sitemaps) are served normally. The security-announcement page was read once via WebFetch per brief; official channels above come from that read: official website www.m1.com.sg, hotline 1627, genuine caller IDs 1622/1627/1623/1693, official WhatsApp business account carries a Meta Verified blue tick, 'M1 does not have a telegram channel'. Footer social handles reported by WebFetch (not exact URLs, so not put in social): Facebook m1limited, Instagram m1.sg, X m1singapore, LinkedIn m1-limited, YouTube. official_domains (a/b): m1.com.sg cited as M1's website."
+ },
+ {
+  "entity_id": "simba.sg",
+  "name": "SIMBA Telecom Pte. Ltd.",
+  "abbr": "SIMBA",
+  "aliases": [
+   "SIMBA",
+   "Simba",
+   "SIMBA Telecom",
+   "TPG Telecom Singapore",
+   "TPG Telecom",
+   "My SIMBA app"
+  ],
+  "sector": "telco",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "simba.sg"
+  ],
+  "official_hosts": [
+   "simba.sg",
+   "www.simba.sg",
+   "registration.simba.sg",
+   "register.simba.sg",
+   "support.simba.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/SIMBAtelecomSG",
+    "https://www.instagram.com/simbatelecomsg",
+    "https://www.linkedin.com/company/simbatelecom",
+    "https://www.tiktok.com/@simbatelecomsg",
+    "https://www.youtube.com/channel/UCzFUkVZ0Q_fJGGpw7cEU0cg",
+    "https://x.com/SimbaTelecomSG"
+   ],
+   "apps": [
+    "My SIMBA (Apple App Store id1542566692)",
+    "My SIMBA (Google Play com.tpg_sg)"
+   ],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.simba.sg/",
+   "https://simba.sg/robots.txt",
+   "https://simba.sg/sitemap.xml"
+  ],
+  "notes": "Domain verified: www.simba.sg redirects to https://simba.sg/ (HTTP 200, 2026-11-26). official_domains (b): serves site; registration/register/support subdomains linked from homepage. No SIMBA-owned scam/security page found: sitemap.xml (99 URLs) has none, homepage has no scam notice. blocked: support.simba.sg (Zendesk help centre) returns Cloudflare 'Just a moment...' 403 to curl and HTTP 403 to WebFetch - not bypassed, so any help-centre scam articles are unknown. HIGH-VALUE GAP: SIMBA is heavily impersonated in Oct-Nov 2026 - per web search (unverified (search snippet), SPF advisory 21 Oct 2026 via news coverage): >=62 cases / >=S$83,000 losses since Mar 2026 from fake SIMBA top-up sites in Google sponsored results using suffixes like .asia/.shop/.icu/.life/.cfd/.cyou; and >=59 cases / >=S$1.3m in Oct 2026 from callers posing as SIMBA staff then fake police/MAS. A secondary source says the genuine top-up host is topup.simba.sg - unverified (search snippet), not added. The government-side SPF/ScamShield advisories should be taken from the government registry instead."
+ },
+ {
+  "entity_id": "circles.life",
+  "name": "Circles.Life (Circles Asia) Singapore",
+  "abbr": "Circles.Life",
+  "aliases": [
+   "Circles.Life",
+   "Circles Life",
+   "Circles",
+   "CirclesLife"
+  ],
+  "sector": "telco",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "circles.life"
+  ],
+  "official_hosts": [
+   "www.circles.life",
+   "activate-shop.circles.life"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.circles.life/sg/blog/safety-guide-protecting-and-reporting-against-scammer/",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.circles.life/sg/sitemap_index.xml",
+    "item_count": null,
+    "latest_item_date": "2025-01-30",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Received a Scam Call? Report It and Stay Protected | Last updated: 30 Jan 2025 | Written by: Circles.Life",
+    "notes": "Generic blog guide on reporting scam calls; no Circles-specific alerts or indicators. Other security blog posts in sitemap: mobile-security-travel-tips, information-guide-how-to-secure-your-mobile-phone, is-esim-safe-..."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.circles.life/sg/",
+   "https://www.circles.life/robots.txt",
+   "https://www.circles.life/sg/sitemap_index.xml"
+  ],
+  "notes": "SG business lives under the path www.circles.life/sg (entity_id circles.life, country SG). official_domains (b): serves site; activate-shop.circles.life linked from homepage. No dedicated scam-advisory or official-channels page found in the Yoast sitemaps (first 8 child sitemaps grepped). robots.txt disallows /sg/guides-and-faqs/. Social/app links not present in static homepage HTML (Contentful/JS)."
+ },
+ {
+  "entity_id": "grab.com",
+  "name": "Grab Singapore (Grab Holdings)",
+  "abbr": "Grab",
+  "aliases": [
+   "Grab",
+   "GrabPay",
+   "GrabFood",
+   "GrabCar",
+   "GrabExpress",
+   "Grab Driver",
+   "GrabMerchant",
+   "GrabPIN",
+   "GrabDefence",
+   "Grab superapp"
+  ],
+  "sector": "transport",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "grab.com",
+   "grab.careers"
+  ],
+  "official_hosts": [
+   "www.grab.com",
+   "help.grab.com",
+   "assets.grab.com",
+   "food.grab.com",
+   "merchant.grab.com",
+   "express.grab.com",
+   "gifts.grab.com",
+   "dineout.grab.com",
+   "limo.grab.com",
+   "grabmaps.grab.com",
+   "grabacademyportal.grab.com",
+   "investors.grab.com",
+   "developer.grab.com",
+   "engineering.grab.com",
+   "partners.grab.com",
+   "grab.onelink.me",
+   "grabdriver.onelink.me",
+   "grabcn.onelnk.com"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.grab.com/sg/phishing-2/",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.grab.com/sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-25 HTTP 200",
+    "sample": "Phishing is a popular form of cyberattack that attempts to steal your money, or your identity, by getting you to reveal personal information ... So, here are six ways to recognise a potential phishing scam",
+    "notes": "'Learn about phishing and legitimate communications' (sitemap lastmod 2024-03-14). Generic; what to do if phished (reset password/GrabPIN, block GrabPay Card)."
+   },
+   {
+    "url": "https://www.grab.com/sg/how-to-avoid-scams-fraud-and-identity-theft/",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.grab.com/sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-25 HTTP 200",
+    "sample": "Never share your One Time Password (OTP) ... Only download legitimate and credible apps from the Google Play Store and Apple Store.",
+    "notes": "8 anti-fraud tips; lastmod 2024-03-14."
+   },
+   {
+    "url": "https://www.grab.com/sg/pay/spot-the-fake/",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.grab.com/sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-25 HTTP 200",
+    "sample": "One key indicator of a fake site is a misspelled URL. Fraudsters may change up a URL name slightly, like using Go0gle.com",
+    "notes": "Spot-the-fake-website guide (GrabPay, lastmod 2022-03-16); links official app-store listings."
+   },
+   {
+    "url": "https://www.grab.com/sg/about/trust-and-safety/",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.grab.com/sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-25 HTTP 200",
+    "sample": "Security email alerts: Alerts are sent to the email address on the user's account when a device change is detected or a new social account is linked.",
+    "notes": "Trust & Safety overview (GrabPIN 2FA, FairPlay fraud-reporting programme, number masking); lastmod 2026-05-11. Related: /sg/your-security-is-in-our-care/, /sg/consumer/finance/security/, /sg/keeping-your-grab-account-safe/, /sg/account-security-sg/, /sg/security-guide-consumer/ (all HTTP 200)."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [
+    "grab.onelink.me"
+   ],
+   "social": [
+    "https://www.facebook.com/Grab",
+    "https://www.instagram.com/grab_sg",
+    "https://twitter.com/grabsg",
+    "https://www.tiktok.com/@grabsingapore",
+    "https://www.linkedin.com/company/grabapp",
+    "https://www.youtube.com/c/GrabOfficialSEA"
+   ],
+   "apps": [
+    "Grab - Superapp (Apple App Store id647268330; Google Play com.grabtaxi.passenger)",
+    "Grab Driver (Apple App Store id1257641454; Google Play com.grabtaxi.driver2)",
+    "GrabMerchant (Apple App Store id1282271764; Google Play com.grab.merchant)",
+    "Grab (Huawei AppGallery C100447517)"
+   ],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.grab.com/sg/",
+   "https://www.grab.com/sg/phishing-2/",
+   "https://www.grab.com/sg/pay/spot-the-fake/",
+   "https://www.grab.com/sg/about/trust-and-safety/",
+   "https://www.grab.com/robots.txt"
+  ],
+  "notes": "Evidence gathered 2026-11-25 by the earlier sub-agent run (digest), reused. SG content under path www.grab.com/sg (entity_id grab.com, country SG). official_domains (b): grab.com serves site; grab.careers linked in footer. onelink.me/onelnk.com hosts are AppsFlyer (third-party) app-download redirects - FQDN only; grab.onelink.me used as Grab's app short-link. No dated scam-alert list and no concrete fake indicators on Grab SG pages; no hotline/tel links on pages read. Unverified (search snippet, from grab.com/ph page): 'all legitimate emails end with @grab.com or @grabtaxi.com' and 'All legitimate Grab websites will always contain grab.com in the domain' - not added. help.grab.com is a JS SPA (help-centre API not used). Sitemaps: robots lists /sg/sitemap.xml (1562 URLs) and /nextjs-sitemap/index.xml. SPF brand tag 'Grab' (sample fake domain grabk.vip in SPF data)."
+ },
+ {
+  "entity_id": "gojek.com",
+  "name": "Gojek Singapore",
+  "abbr": "Gojek",
+  "aliases": [
+   "Gojek",
+   "GoJek",
+   "Gojek Singapore",
+   "GoTo",
+   "Gojek app"
+  ],
+  "sector": "transport",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "gojek.com",
+   "go-jek.com"
+  ],
+  "official_hosts": [
+   "www.gojek.com",
+   "cdn-site.gojek.com",
+   "lelogama.go-jek.com"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.gojek.com/sg/safety",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Your personal information – including trip and payment details – is kept safely on our system.",
+    "notes": "Ride-safety page only (insurance, trip sharing, 24/7 support); no scam/phishing content."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [],
+   "apps": [
+    "Gojek (Apple App Store id944875099)",
+    "Gojek (Google Play com.gojek.app)"
+   ],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.gojek.com/sg/",
+   "https://www.gojek.com/robots.txt",
+   "https://www.gojek.com/sitemap-sg-blog.xml"
+  ],
+  "notes": "SG content under www.gojek.com/sg (entity_id gojek.com verified; /sg redirects to /sg/). official_domains (b): gojek.com serves site; go-jek.com asset hosts (lelogama.go-jek.com) embedded in official pages. No SG scam/phishing advisory found: sitemap-sg-help.xml has 2 URLs, sitemap-sg-blog.xml (206 URLs) has no scam/fraud posts. Social links not in static SG homepage HTML. Low value as a source; allowlist value only."
+ },
+ {
+  "entity_id": "comfortdelgro.com",
+  "name": "ComfortDelGro Corporation",
+  "abbr": "CDG",
+  "aliases": [
+   "ComfortDelGro",
+   "CDG",
+   "ComfortDelGro Taxi",
+   "CDG Zig",
+   "Zig",
+   "Comfort Taxi",
+   "CityCab"
+  ],
+  "sector": "transport",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "comfortdelgro.com",
+   "cdgtaxi.com.sg"
+  ],
+  "official_hosts": [
+   "www.comfortdelgro.com",
+   "www.cdgtaxi.com.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [
+    "https://www.linkedin.com/company/comfortdelgro",
+    "https://www.facebook.com/ZigbyComfortDelGro",
+    "https://www.instagram.com/cdgtaxi",
+    "https://t.me/ComfortDelGroTaxi",
+    "https://www.linkedin.com/company/comfortdelgro-taxi"
+   ],
+   "apps": [
+    "CDG Zig - Taxis & Cars (Apple App Store id954951647; seen in search result only)"
+   ],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.comfortdelgro.com/",
+   "https://www.cdgtaxi.com.sg/",
+   "https://www.comfortdelgro.com/robots.txt",
+   "https://www.cdgtaxi.com.sg/robots.txt"
+  ],
+  "notes": "No scam/security pages found on either site: Rank Math sitemap indexes of comfortdelgro.com and cdgtaxi.com.sg (first 6 child sitemaps each) contain no scam/fraud/phishing/advisory URLs; homepages have no scam notice; web search found no ComfortDelGro scam advisory. official_domains (b): comfortdelgro.com (group site) and cdgtaxi.com.sg (taxi/CDG Zig site; social links from its footer); cdgtaxi.com.sg also hosts the official 'CDG Zig Platform' terms PDF (search). Taxi booking hotline not found in static HTML. CDG Zig app listing id954951647 seen only in search results - unverified (search snippet) as to linkage from official site. Allowlist value only."
+ },
+ {
+  "entity_id": "smrt.com.sg",
+  "name": "SMRT Corporation Ltd",
+  "abbr": "SMRT",
+  "aliases": [
+   "SMRT",
+   "SMRT Corporation",
+   "SMRT Trains",
+   "SMRT Buses",
+   "SMRT Taxis",
+   "SMRTConnect",
+   "Wink+"
+  ],
+  "sector": "transport",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "smrt.com.sg"
+  ],
+  "official_hosts": [
+   "www.smrt.com.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/SMRTCorpSG",
+    "https://www.instagram.com/SMRTSingapore",
+    "https://www.linkedin.com/company/smrt",
+    "https://www.youtube.com/user/SMRTCorpSG",
+    "https://x.com/SMRT_Singapore"
+   ],
+   "apps": [
+    "SMRTConnect (Apple App Store id481605674; Google Play sg.com.smrt.smrtconnect)",
+    "Wink+ (Apple App Store id1071049933; Google Play smrt.media.wink)"
+   ],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.smrt.com.sg/",
+   "https://www.smrt.com.sg/robots.txt",
+   "https://www.smrt.com.sg/sitemap.xml"
+  ],
+  "notes": "No SMRT scam/fraud advisory page: sitemap.xml (116 URLs) only has /sustainability/governance/cybersecurity-data-protection/ (corporate governance, not consumer scams); homepage has no scam notice; web search found no SMRT-specific advisory. official_domains (b): smrt.com.sg serves site. Allowlist value only."
+ },
+ {
+  "entity_id": "sbstransit.com.sg",
+  "name": "SBS Transit Ltd",
+  "abbr": "SBST",
+  "aliases": [
+   "SBS Transit",
+   "SBST",
+   "SBS Transit app"
+  ],
+  "sector": "transport",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "sbstransit.com.sg"
+  ],
+  "official_hosts": [
+   "www.sbstransit.com.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.sbstransit.com.sg/",
+    "kind": "alert_page",
+    "lists_indicators": [
+     "app"
+    ],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "SCAM ALERT: If you receive a message claiming you've won a prize from SBS Transit, please delete it immediately as it's not from us. A fake SBS Transit app has also been found on parallel app stores.",
+    "notes": "Homepage scam-alert banner (undated): fake prize messages and a fake SBS Transit app on 'parallel app stores' (no app name/store given) - 'Only download or update our app through the official Apple App Store or Google Play Store.' Points to ScamShield helpline 1799. /security page (HTTP 200) is about transit security, no scam content."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/sbstransitltd",
+    "https://twitter.com/SBSTransit_Ltd"
+   ],
+   "apps": [
+    "SBS Transit Mobile App (official Apple App Store / Google Play only, per homepage)"
+   ],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sbstransit.com.sg/",
+   "https://www.sbstransit.com.sg/robots.txt"
+  ],
+  "notes": "official_domains (b): serves site. robots.txt (13 KB, many Disallow lines, no Sitemap line). Fake-app warning is the only scam content; 'app' in lists_indicators refers to the existence of a fake app, not a named one. No dated advisory list."
+ },
+ {
+  "entity_id": "ezlink.com.sg",
+  "name": "EZ-Link Pte Ltd",
+  "abbr": "EZ-Link",
+  "aliases": [
+   "EZ-Link",
+   "EZLink",
+   "ez-link",
+   "EZ-Link card",
+   "EZ-Link app"
+  ],
+  "sector": "payments",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "ezlink.com.sg"
+  ],
+  "official_hosts": [
+   "www.ezlink.com.sg",
+   "ezlink.simplygo.com.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://ezlink.simplygo.com.sg/wordpress/wp-content/uploads/2024/01/Scam-Notice-Updated-31012024.pdf",
+    "kind": "alert_page",
+    "lists_indicators": [],
+    "access": "pdf",
+    "machine_url": "https://ezlink.simplygo.com.sg/wordpress/wp-content/uploads/2024/01/Scam-Notice-Updated-31012024.pdf",
+    "item_count": null,
+    "latest_item_date": "2024-01-31",
+    "verified": "2026-11-26 HTTP 404",
+    "sample": null,
+    "notes": "EZ-Link 'Scam Notice' (updated 31 Jan 2024) found via web search; now returns 404. Per search snippet only - unverified: it told customers to check that website links belong to the official EZ-Link domain (ending with ezlink.com.sg)."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.ezlink.com.sg/"
+  ],
+  "notes": "https://www.ezlink.com.sg/ now 301-redirects to https://ezlink.simplygo.com.sg/ (EZ-Link folded under the SimplyGo brand; SimplyGo is LTA/TransitLink = quasi-government, no record here per instructions). blocked: ezlink.simplygo.com.sg returns HTTP 403 Forbidden (Apache) to curl and to WebFetch for the homepage; robots.txt 404 - not bypassed, so no on-site content verified. official_domains (b): ezlink.com.sg is the legacy official domain that redirects to the SimplyGo-hosted site; simplygo.com.sg not added (government-side). Context from web search - unverified (search snippet): SPF advisories (Mar 2025: >=97 reports / >=S$156,000; Sep 2025: >=S$59,000 since 1 Aug) on fake social-media ads for cheap/unlimited-travel EZ-Link cards leading to phishing sites; 'All promotions for EZ-Link cards are conducted only on SimplyGo websites and the social media pages of SimplyGo and EZ-Link'; SimplyGo hotline 1800-2255-663. SPF brand tag 'SimplyGo' relates."
+ },
+ {
+  "entity_id": "nets.com.sg",
+  "name": "Network for Electronic Transfers (Singapore) Pte Ltd",
+  "abbr": "NETS",
+  "aliases": [
+   "NETS",
+   "NETS App",
+   "NETS FlashPay",
+   "NETS QR",
+   "Network for Electronic Transfers"
+  ],
+  "sector": "payments",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "nets.com.sg"
+  ],
+  "official_hosts": [
+   "www.nets.com.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.nets.com.sg/policies/security",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.nets.com.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Only install apps that are downloaded from official app stores. Unofficial app stores may carry malicious apps.",
+    "notes": "Generic security-tips policy page (OTP, email attachments, apps). No dated alerts, no indicators."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/NETS.SG",
+    "https://www.instagram.com/nets_sg/?hl=en",
+    "https://www.youtube.com/user/SingaporeNETS",
+    "https://sg.linkedin.com/company/nets"
+   ],
+   "apps": [
+    "NETS App (Apple App Store id1582745910)",
+    "NETS App (Google Play com.mls.nets.reader)"
+   ],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.nets.com.sg/",
+   "https://www.nets.com.sg/policies/security",
+   "https://www.nets.com.sg/sitemap.xml"
+  ],
+  "notes": "official_domains (b): serves site. Sitemap (150 URLs, WordPress) has no scam advisory pages; only /policies/security. No fraud hotline on pages read. Allowlist value only."
+ },
+ {
+  "entity_id": "spgroup.com.sg",
+  "name": "SP Group (Singapore Power)",
+  "abbr": "SP",
+  "aliases": [
+   "SP Group",
+   "Singapore Power",
+   "SP Services",
+   "SP Utilities",
+   "SP app",
+   "SP Utilities Portal",
+   "SP Mobility"
+  ],
+  "sector": "utility",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "spgroup.com.sg",
+   "spservices.sg",
+   "spdigital.sg",
+   "spmobility.sg",
+   "spgroup-asia.com",
+   "singaporepower.com.sg"
+  ],
+  "official_hosts": [
+   "www.spgroup.com.sg",
+   "services.spservices.sg",
+   "chat.spservices.sg",
+   "ebiz.spgroup.com.sg",
+   "openaccount.spgroup.com.sg",
+   "closeaccount.spgroup.com.sg",
+   "trackyouraccount.spgroup.com.sg",
+   "rescheduleaccount.spgroup.com.sg",
+   "contractorportal.spgroup.com.sg",
+   "srm.spgroup.com.sg",
+   "www.spdigital.sg",
+   "www.spmobility.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.spgroup.com.sg/about-us/media-resources/news-and-media-releases/Advisory-On-Fake-Emails",
+    "kind": "alert_page",
+    "lists_indicators": [
+     "email"
+    ],
+    "access": "html",
+    "machine_url": "https://www.spgroup.com.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2016-08-31",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Notice that while the sender address states < ebillsummary@singaporepower.com.sg >, the actual sender is <tonylow@sanlaksa.com.sg>.",
+    "notes": "Old (2016) fake e-bill email advisory. Indicators: displayed (spoofed) sender ebillsummary@singaporepower.com.sg = genuine SP Services address being spoofed; actual sender tonylow@sanlaksa.com.sg (fake/compromised). 'The official SP Services bill summary sent by email does NOT contain any attachment.'"
+   },
+   {
+    "url": "https://www.spgroup.com.sg/about-us/media-resources/news-and-media-releases/Recruitment-Scam",
+    "kind": "alert_page",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.spgroup.com.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2018-08-24",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "SP Group has been alerted to cases of fraudulent recruiters claiming to be our Human Resource officers.",
+    "notes": "Narrative only."
+   },
+   {
+    "url": "https://www.spgroup.com.sg/sitemap.xml",
+    "kind": "news_releases",
+    "lists_indicators": [],
+    "access": "sitemap",
+    "machine_url": "https://www.spgroup.com.sg/sitemap.xml",
+    "item_count": 84,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "https://www.spgroup.com.sg/about-us/media-resources/news-and-media-releases/Advisory-On-Fake-Emails",
+    "notes": "Sitemap (90 URLs) lists 84 news-and-media-releases pages; the advisories above are the only scam ones found. The Nov 2024 SP Group phishing wave (fake double-charge/refund emails) appears on SPF/news/Facebook per web search - unverified (search snippet) - not as a page on spgroup.com.sg."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/SPGroupSG",
+    "https://www.instagram.com/spgroup.sg",
+    "https://www.linkedin.com/company/singapore-power-ltd",
+    "https://www.youtube.com/c/SPGroupSG"
+   ],
+   "apps": [],
+   "emails": [
+    "ebillsummary@singaporepower.com.sg (genuine SP Services e-bill sender, as stated in 2016 advisory)"
+   ]
+  },
+  "evidence": [
+   "https://www.spgroup.com.sg/",
+   "https://www.spgroup.com.sg/about-us/media-resources/news-and-media-releases/Advisory-On-Fake-Emails",
+   "https://www.spgroup.com.sg/sitemap.xml"
+  ],
+  "notes": "Next.js site. official_domains: spgroup.com.sg (b: serves site + portal subdomains); spservices.sg (b: SP Utilities Portal services.spservices.sg and chat linked in header); spdigital.sg, spmobility.sg, spgroup-asia.com (b: group links); singaporepower.com.sg (a: ebillsummary@singaporepower.com.sg described as the genuine SP Services sender address, 2016). No current scam advisory list, no SMS sender ID or hotline on pages read; '/fraud-whistleblowing' is an internal-fraud whistleblowing page. SPF brand tag 'SP Group' (sample scam domain samgirasg.com in SPF data)."
+ },
+ {
+  "entity_id": "chargeplus.com",
+  "name": "Charge+ (EV charging)",
+  "abbr": "Charge+",
+  "aliases": [
+   "Charge+",
+   "ChargePlus",
+   "Charge Plus"
+  ],
+  "sector": "other",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "chargeplus.com",
+   "chargeplus.com.sg"
+  ],
+  "official_hosts": [
+   "www.chargeplus.com",
+   "www.chargeplus.com.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [
+    "http://linkedin.com/company/chargeplusofficial",
+    "https://www.instagram.com/chargeplus_global",
+    "https://fb.me/chargeplusofficialpage"
+   ],
+   "apps": [
+    "Charge+ (Apple App Store id1481750244)",
+    "Charge+ (Google Play com.chargeplus.chargeapp)"
+   ],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.chargeplus.com.sg/"
+  ],
+  "notes": "Tier 2 (1 request). SPF brand tag 'Charge+' (investment-scam impersonation; sample scam domain chargingpiles.autos in SPF data). https://www.chargeplus.com.sg/ redirects to https://www.chargeplus.com/sg (Wix site) - SG content under path; entity_id chargeplus.com. official_domains (b). No scam/fake-investment notice seen on the SG homepage text; site not crawled further. sector 'other' (EV charging operator)."
+ },
+ {
+  "entity_id": "cimb.com.sg",
+  "name": "CIMB Bank Berhad, Singapore",
+  "abbr": "CIMB",
+  "aliases": [
+   "CIMB",
+   "CIMB Singapore",
+   "CIMB Bank"
+  ],
+  "sector": "bank",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "cimb.com.sg"
+  ],
+  "official_hosts": [
+   "www.cimb.com.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.cimb.com.sg/en/personal/help-support/security-fraud.html",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Never share your banking credentials, OTPs, or Singpass details. Avoid clickable links in unsolicited SMSes or emails. Download apps only from official app stores",
+    "notes": "Tier 2 (quick). Security & Fraud hub; generic tips, credit-card 24h hotline. No dated alert list seen."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [
+    "+65 6333 7777 (CIMB At-Your-Service, 9am-7pm daily)",
+    "+65 6333 6666 (CIMB Credit Card 24-hour hotline)"
+   ],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/CIMBSingapore",
+    "https://www.instagram.com/cimbbanksg",
+    "https://www.youtube.com/channel/UC5VCFz3loyAPkvZHf40GhgQ"
+   ],
+   "apps": [],
+   "emails": [
+    "atyourservice@cimb.com.sg (partially seen on contact page; verify)"
+   ]
+  },
+  "evidence": [
+   "https://www.cimb.com.sg/en/personal/help-support/contact-us.html",
+   "https://www.cimb.com.sg/en/personal/help-support/security-fraud.html",
+   "https://www.scamshield.gov.sg/bank-s-anti-scam-hotline/"
+  ],
+  "notes": "Tier 2, 3 requests. official_domains (b): serves site. ScamShield bank-hotline list: 'CIMB Dial 6333 7777' and links CIMB's contact page (matches). Email address truncated in extracted text ('atyourservice@cimb.c...')."
+ }
+]

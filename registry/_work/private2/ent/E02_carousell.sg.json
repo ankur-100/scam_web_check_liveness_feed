@@ -1,0 +1,50 @@
+{
+ "entity_id": "carousell.sg",
+ "name": "Carousell (Singapore)",
+ "abbr": null,
+ "aliases": [
+  "Carousell",
+  "Carousell Singapore",
+  "Carousell Protection",
+  "CarouPay"
+ ],
+ "sector": "marketplace",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "carousell.sg",
+  "carousell.com"
+ ],
+ "official_hosts": [
+  "www.carousell.sg",
+  "support.carousell.com"
+ ],
+ "scam_info": [
+  {
+   "url": "https://support.carousell.com/hc/en-us",
+   "kind": "scam_faq",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 403 (bot protection; not bypassed)",
+   "sample": null,
+   "notes": "Carousell Help Centre (Zendesk). Cloudflare 'Just a moment...' challenge to curl; one WebFetch attempt also HTTP 403. Contents (safety/scam articles) not seen. robots.txt (200) disallows /requests, /registration etc.; /hc articles not disallowed."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": [],
+  "apps": [],
+  "emails": []
+ },
+ "evidence": [
+  "https://www.carousell.sg/robots.txt",
+  "https://support.carousell.com/robots.txt",
+  "https://www.police.gov.sg/media-hub/news/2022/12/20221228_police_advisory_on_phishing_scams_involving_fake_buyers_on_carousell"
+ ],
+ "notes": "blocked: www.carousell.sg and support.carousell.com return Cloudflare JS challenge (HTTP 403) to curl; WebFetch on support.carousell.com/hc/en-us also 403. Stopped (no archives/caches). official_domains: carousell.sg and carousell.com are (b) the domains serving the marketplace (robots.txt 200) and help centre (support.carousell.com), and are stated as the only Carousell domains in SPF advisory 2022-12-28 (police.gov.sg, opened): 'Only domains that end with carousell.com or carousell.sg are Carousell domains. URLs such as carousellpay.com, carousell.xxx.com, carousell-pay.com, carousell.pay-sg.com are NOT Carousell domains. Carousell does not send links via SMS, and would only send OTPs via SMS.' Same SPF advisory cites example phishing URLs cutt.ly/31uXCDu, carousell.quick-funds.in/266780736 and a spoofed sender ID with uppercase 'I' + lowercase 'l' (fake; text only, never visited) - these are SPF-published, not Carousell-published. Sector 'marketplace' (C2C classifieds). Carousell's own scam pages could not be read, so no Carousell-side scam_info detail."
+}

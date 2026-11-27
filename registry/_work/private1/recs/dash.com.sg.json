@@ -1,0 +1,60 @@
+{
+ "entity_id": "dash.com.sg",
+ "name": "Singtel Dash (SingCash Pte. Ltd.)",
+ "abbr": "Dash",
+ "aliases": [
+  "Singtel Dash",
+  "Dash",
+  "SingCash",
+  "Dash app"
+ ],
+ "sector": "payments",
+ "parent_entity_id": "singtel.com",
+ "country": "SG",
+ "official_domains": [
+  "dash.com.sg"
+ ],
+ "official_hosts": [
+  "www.dash.com.sg",
+  "dash.com.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://dash.com.sg/report-fraud-scam",
+   "kind": "report_portal",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Stay secure! Scammers impersonating Dash may target you via fake Facebook pages or SMS phishing. Beware of clickable links on SMSes and do not share your OTP",
+   "notes": "How to report fraud: customer care 6438-3274 (option 5, 8.30am-8.30pm) and reportfraud@dash.com.sg. Narrative warning only."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [
+   "6438-3274 (Dash customer care; select '5' to report fraud)"
+  ],
+  "short_link_domains": [],
+  "social": [
+   "https://www.facebook.com/SingtelDash",
+   "https://www.instagram.com/singteldash",
+   "https://www.youtube.com/channel/UCseMPQgmOdCSGEC7a0ioMNA"
+  ],
+  "apps": [
+   "Singtel Dash (Apple App Store id640036406)",
+   "Singtel Dash (Google Play com.SingTel.mWallet)"
+  ],
+  "emails": [
+   "reportfraud@dash.com.sg"
+  ]
+ },
+ "evidence": [
+  "https://www.dash.com.sg/",
+  "https://dash.com.sg/report-fraud-scam",
+  "https://www.singtel.com/personal/support/scam-advisory"
+ ],
+ "notes": "Singtel's mobile wallet (footer: '2026 SingCash Pte. Ltd.'). Child of singtel.com because it has its own registrable domain and its own fraud/scam page; dash.com.sg also appears in Singtel's official-domain list. official_domains (a: Singtel list; b: serves site)."
+}

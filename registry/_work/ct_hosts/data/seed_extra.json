@@ -1,0 +1,630 @@
+[
+ {
+  "host": "faqs.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "CSA FAQ host; single cert 2022-03 only"
+ },
+ {
+  "host": "web.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "legacy web host; certs 2019-11..2022-11"
+ },
+ {
+  "host": "www-origin.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "origin for www (CDN); certs to 2024-02"
+ },
+ {
+  "host": "www-origin-uat.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "UAT origin"
+ },
+ {
+  "host": "www-stg.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "staging; single cert 2018-01"
+ },
+ {
+  "host": "origin1-www.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "old origin; cert 2019-08 only"
+ },
+ {
+  "host": "www.origin1-www.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "old origin; cert 2019-08 only"
+ },
+ {
+  "host": "web-intranet.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "intranet; certs 2022-10..2023-10"
+ },
+ {
+  "host": "web-intranet-uat.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "intranet UAT"
+ },
+ {
+  "host": "ihp.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "Internet Hygiene Portal (website/email security ratings, incl. DMARC); not scam advisories"
+ },
+ {
+  "host": "www.ihp.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "IHP www; certs to 2023-07"
+ },
+ {
+  "host": "api.ihp.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "IHP API"
+ },
+ {
+  "host": "enterpriseapi.ihp.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "IHP enterprise API"
+ },
+ {
+  "host": "ihp-stg.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "IHP staging (+ wildcard *.ihp-stg)"
+ },
+ {
+  "host": "www.ihp-stg.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "IHP staging"
+ },
+ {
+  "host": "api.ihp-stg.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "IHP staging API"
+ },
+ {
+  "host": "enterpriseapi.ihp-stg.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "IHP staging API"
+ },
+ {
+  "host": "nc3.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "unidentified system 'nc3' (single cert 2026-02)"
+ },
+ {
+  "host": "dev-nc3.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "dev of nc3"
+ },
+ {
+  "host": "uat-nc3.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "UAT of nc3"
+ },
+ {
+  "host": "logpipe.amrs.nc3.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "log pipeline (internal)"
+ },
+ {
+  "host": "uat.logpipe.amrs.nc3.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "log pipeline UAT (internal)"
+ },
+ {
+  "host": "dev-cardinal.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "unidentified system 'cardinal' (dev)"
+ },
+ {
+  "host": "uat-cardinal.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "unidentified system 'cardinal' (UAT)"
+ },
+ {
+  "host": "pslc.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "unidentified 'pslc' site (Sectigo DV certs 2025-04..2026-10)"
+ },
+ {
+  "host": "www.pslc.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "www of pslc"
+ },
+ {
+  "host": "ssix-a1.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "www.ssix-a1.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "ssix-a2.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "www.ssix-a2.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "ssix-a3.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "www.ssix-a3.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "ssix-a4.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "www.ssix-a4.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "ssix-a5.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "www.ssix-a5.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "ssix-a6.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "www.ssix-a6.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "ssix-b1.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "www.ssix-b1.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "ssix-b2.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "www.ssix-b2.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "ssix-b3.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "www.ssix-b3.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "ssix-b4.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "www.ssix-b4.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "www.gosafeonline.sg",
+  "registrable_domain": "gosafeonline.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "yes",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "legacy CSA GoSafeOnline cyber-hygiene/scam-awareness portal (content now at www.csa.gov.sg/GoSafeOnline); Amazon certs 2012-04..2026-08"
+ },
+ {
+  "host": "gosafeonline.sg",
+  "registrable_domain": "gosafeonline.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "yes",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "apex of legacy GoSafeOnline"
+ },
+ {
+  "host": "singcert.org.sg",
+  "registrable_domain": "singcert.org.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "legacy SingCERT domain (cPanel/Entrust certs 2014..2022-11); cPanel service names collapsed here"
+ },
+ {
+  "host": "www.singcert.org.sg",
+  "registrable_domain": "singcert.org.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "legacy SingCERT www; certs end 2022-11"
+ },
+ {
+  "host": "eservices.police.gov.sg",
+  "registrable_domain": "police.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "police.gov.sg",
+  "notes": "original e-services host; certs end 2024-04 (superseded by eservices1-5); police e-report portal family (www.<name> alias also in CT; sit/uat/qa/stg variants omitted). No scam-named hosts among 127 police.gov.sg CT names (crt.sh %.police.gov.sg 2026-11-26)",
+  "cert_first_seen": "2018-04-23",
+  "cert_last_seen": "2024-04-11"
+ },
+ {
+  "host": "eservices2.police.gov.sg",
+  "registrable_domain": "police.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "police.gov.sg",
+  "notes": "SPF e-services cluster 2; police e-report portal family (www.<name> alias also in CT; sit/uat/qa/stg variants omitted). No scam-named hosts among 127 police.gov.sg CT names (crt.sh %.police.gov.sg 2026-11-26)",
+  "cert_first_seen": "2021-04-23",
+  "cert_last_seen": "2026-09-27"
+ },
+ {
+  "host": "eservices3.police.gov.sg",
+  "registrable_domain": "police.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "police.gov.sg",
+  "notes": "SPF e-services cluster 3; certs end 2024-06; police e-report portal family (www.<name> alias also in CT; sit/uat/qa/stg variants omitted). No scam-named hosts among 127 police.gov.sg CT names (crt.sh %.police.gov.sg 2026-11-26)",
+  "cert_first_seen": "2022-05-31",
+  "cert_last_seen": "2024-06-04"
+ },
+ {
+  "host": "eservices4.police.gov.sg",
+  "registrable_domain": "police.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "police.gov.sg",
+  "notes": "SPF e-services cluster 4; police e-report portal family (www.<name> alias also in CT; sit/uat/qa/stg variants omitted). No scam-named hosts among 127 police.gov.sg CT names (crt.sh %.police.gov.sg 2026-11-26)",
+  "cert_first_seen": "2024-01-22",
+  "cert_last_seen": "2025-12-22"
+ },
+ {
+  "host": "eservices5.police.gov.sg",
+  "registrable_domain": "police.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "police.gov.sg",
+  "notes": "SPF e-services cluster 5; police e-report portal family (www.<name> alias also in CT; sit/uat/qa/stg variants omitted). No scam-named hosts among 127 police.gov.sg CT names (crt.sh %.police.gov.sg 2026-11-26)",
+  "cert_first_seen": "2024-01-23",
+  "cert_last_seen": null
+ },
+ {
+  "host": "phishing.sg",
+  "registrable_domain": "phishing.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": null,
+  "notes": "owner unknown (no web-search hits); Cloudflare; subdomains read./resources./www. active to 2026-10; could be a phishing-awareness/simulation vendor; not visited (non-official)"
+ },
+ {
+  "host": "www.phishing.sg",
+  "registrable_domain": "phishing.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": null,
+  "notes": "owner unknown; not visited (non-official)"
+ },
+ {
+  "host": "read.phishing.sg",
+  "registrable_domain": "phishing.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": null,
+  "notes": "owner unknown; not visited (non-official)"
+ },
+ {
+  "host": "resources.phishing.sg",
+  "registrable_domain": "phishing.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": null,
+  "notes": "owner unknown; not visited (non-official)"
+ },
+ {
+  "host": "cybersafe.sg",
+  "registrable_domain": "cybersafe.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": null,
+  "notes": "owner unknown; cPanel/Cloudflare, earlier staged at cybersafe.sg.ewr.com.sg (SG web agency); subdomains old./sm./sm-dev. + cPanel service names; not visited (non-official)"
+ },
+ {
+  "host": "www.cybersafe.sg",
+  "registrable_domain": "cybersafe.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": null,
+  "notes": "owner unknown; not visited"
+ },
+ {
+  "host": "checkscam.sg",
+  "registrable_domain": "checkscam.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": null,
+  "notes": "owner unknown; only LE certs 2023-06 (+wildcard); NXDOMAIN now -> retired/lapsed registration"
+ },
+ {
+  "host": "www.checkmate.sg",
+  "registrable_domain": "checkmate.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "yes",
+  "owner_entity_id": "checkmate.sg",
+  "notes": "CheckMate (volunteer, NOT official); CheckMate site (www)"
+ },
+ {
+  "host": "scam-game.checkmate.sg",
+  "registrable_domain": "checkmate.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "yes",
+  "owner_entity_id": "checkmate.sg",
+  "notes": "CheckMate (volunteer, NOT official); scam-awareness game (+wildcard), single cert 2026-10-03 - new"
+ },
+ {
+  "host": "game.checkmate.sg",
+  "registrable_domain": "checkmate.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "checkmate.sg",
+  "notes": "CheckMate (volunteer, NOT official); game host (+wildcard), cert 2026-07"
+ },
+ {
+  "host": "search.checkmate.sg",
+  "registrable_domain": "checkmate.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "checkmate.sg",
+  "notes": "CheckMate (volunteer, NOT official); search of checked messages? certs 2026-02..2026-08"
+ },
+ {
+  "host": "checkers.checkmate.sg",
+  "registrable_domain": "checkmate.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "checkmate.sg",
+  "notes": "CheckMate (volunteer, NOT official); volunteer checkers portal"
+ },
+ {
+  "host": "accounts.cpf.checkmate.sg",
+  "registrable_domain": "checkmate.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "checkmate.sg",
+  "notes": "CheckMate (volunteer, NOT official); 'cpf' tenant (accounts/clerk + cpf.staging) certs 2025-11..2026-09 - possibly a CPF-focused deployment; unverified"
+ },
+ {
+  "host": "smsregistry.sg",
+  "registrable_domain": "smsregistry.sg",
+  "discovered_via": "certspotter",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "sgnic.sg",
+  "notes": "Singapore SMS Sender ID Registry (SGNIC/IMDA): public list of organisations with registered sender IDs at /web/org/public-listing (allowlist vs SMS spoofing). crt.sh 502 x2 on 2026-11-26; certspotter (current certs only): apex + *.smsregistry.sg 2026-07, feature./staging./testing. envs",
+  "cert_first_seen": null,
+  "cert_last_seen": "2026-07-18"
+ },
+ {
+  "host": "www.osc.gov.sg",
+  "registrable_domain": "osc.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "osc.gov.sg",
+  "notes": "Online Safety Commission site (online-harms relief; overlaps impersonation, not scam-specific); found via guessed-zone CT query; preprod-/uat-report, osc-int* omitted"
+ },
+ {
+  "host": "report.osc.gov.sg",
+  "registrable_domain": "osc.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "osc.gov.sg",
+  "notes": "OSC online-harms report portal (certs from 2026-04); found via guessed-zone CT query; preprod-/uat-report, osc-int* omitted"
+ },
+ {
+  "host": "osc.gov.sg",
+  "registrable_domain": "osc.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "osc.gov.sg",
+  "notes": "apex; found via guessed-zone CT query; preprod-/uat-report, osc-int* omitted"
+ },
+ {
+  "host": "www.dnc.gov.sg",
+  "registrable_domain": "dnc.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "pdpc.gov.sg",
+  "notes": "Do Not Call Registry (telemarketing opt-out), checked via guessed-zone CT query; not a scam-info source; portal.dnc.gov.sg also in CT"
+ },
+ {
+  "host": "scamsexposed-cf.app.optical.gov.sg",
+  "registrable_domain": "optical.gov.sg",
+  "discovered_via": "link",
+  "scam_relevant": "no",
+  "owner_entity_id": "icanactagainstscams.gov.sg",
+  "notes": "CNAME target of www.icanactagainstscams.gov.sg (DNS); hosting alias revealing internal project codename 'scamsexposed'; not a separate site, no GET"
+ },
+ {
+  "host": "scamsexposed-cf.staging.optical.gov.sg",
+  "registrable_domain": "optical.gov.sg",
+  "discovered_via": "link",
+  "scam_relevant": "no",
+  "owner_entity_id": "icanactagainstscams.gov.sg",
+  "notes": "CNAME target of stg.icanactagainstscams.gov.sg (DNS); hosting alias revealing internal project codename 'scamsexposed'; not a separate site, no GET"
+ },
+ {
+  "host": "p-gvt-gasp-scamsexposed.on.tc2.airbase.tech.gov.sg",
+  "registrable_domain": "tech.gov.sg",
+  "discovered_via": "link",
+  "scam_relevant": "no",
+  "owner_entity_id": "icanactagainstscams.gov.sg",
+  "notes": "CNAME target of www.beta.icanactagainstscams.gov.sg (DNS); hosting alias revealing internal project codename 'scamsexposed'; not a separate site, no GET"
+ },
+ {
+  "host": "s-gvt-gasp-scamsexposed.on.tc2.airbase.tech.gov.sg",
+  "registrable_domain": "tech.gov.sg",
+  "discovered_via": "link",
+  "scam_relevant": "no",
+  "owner_entity_id": "icanactagainstscams.gov.sg",
+  "notes": "CNAME target of www.stg.icanactagainstscams.gov.sg (DNS); hosting alias revealing internal project codename 'scamsexposed'; not a separate site, no GET"
+ }
+]

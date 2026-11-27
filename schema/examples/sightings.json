@@ -1,0 +1,268 @@
+[
+ {
+  "record_type": "sighting",
+  "sighting_id": "sig_e90ccc6bdabd2df9",
+  "indicator_id": "ind_29c0928d3a51e6a0",
+  "source_id": "spf-icanact",
+  "report_id": "spf-icanact:b633b3b7-f3f5-4e06-b96c-05f0ce86c9ed",
+  "role": "ioc",
+  "source_first_seen": "2026-11-24T02:23:28.255Z",
+  "source_last_seen": "2026-11-24T02:28:09.810Z",
+  "source_status": "listed",
+  "first_ingested_at": "2026-11-26T03:42:10Z",
+  "last_ingested_at": "2026-11-26T03:42:10Z",
+  "removed_at": null,
+  "raw": {
+   "scam_site_urls_entry": "drbypass-proxy.pages.dev",
+   "advisory_id": "b633b3b7-f3f5-4e06-b96c-05f0ce86c9ed"
+  }
+ },
+ {
+  "record_type": "sighting",
+  "sighting_id": "sig_0779fdb6f50d144e",
+  "indicator_id": "ind_7e35d65d1a18205b",
+  "source_id": "spf-icanact",
+  "report_id": "spf-icanact:97b86ce3-c986-4962-82bc-2e5ee2dce447",
+  "role": "ioc",
+  "source_first_seen": "2026-07-06T01:30:32.790Z",
+  "source_last_seen": "2026-07-06T01:30:35.487Z",
+  "source_status": "listed",
+  "first_ingested_at": "2026-11-26T03:42:10Z",
+  "last_ingested_at": "2026-11-26T03:42:10Z",
+  "removed_at": null,
+  "raw": {
+   "scam_site_urls_entry": "feevr.top",
+   "advisory_id": "97b86ce3-c986-4962-82bc-2e5ee2dce447"
+  }
+ },
+ {
+  "record_type": "sighting",
+  "sighting_id": "sig_5605756ee4583c19",
+  "indicator_id": "ind_5c5c3891afa205ee",
+  "source_id": "spf-icanact",
+  "report_id": "spf-icanact:97b86ce3-c986-4962-82bc-2e5ee2dce447",
+  "role": "ioc",
+  "source_first_seen": "2026-07-06T01:30:32.790Z",
+  "source_last_seen": "2026-07-06T01:30:35.487Z",
+  "source_status": "listed",
+  "first_ingested_at": "2026-11-26T03:42:10Z",
+  "last_ingested_at": "2026-11-26T03:42:10Z",
+  "removed_at": null,
+  "raw": {
+   "scam_site_urls_entry": "feekt.top",
+   "advisory_id": "97b86ce3-c986-4962-82bc-2e5ee2dce447"
+  }
+ },
+ {
+  "record_type": "sighting",
+  "sighting_id": "sig_9fe8080024844449",
+  "indicator_id": "ind_34405593f2ff4fc5",
+  "source_id": "spf-icanact",
+  "report_id": "spf-icanact:0be0ee02-a712-40e4-823e-ddc5b89667f2",
+  "role": "ioc",
+  "source_first_seen": "2026-04-21T02:05:35.642Z",
+  "source_last_seen": "2026-04-21T02:05:38.143Z",
+  "source_status": "listed",
+  "first_ingested_at": "2026-11-26T03:42:10Z",
+  "last_ingested_at": "2026-11-26T03:42:10Z",
+  "removed_at": null,
+  "raw": {
+   "scam_site_urls_entry": "iras.nakadaniko.com.sg",
+   "advisory_id": "0be0ee02-a712-40e4-823e-ddc5b89667f2"
+  }
+ },
+ {
+  "record_type": "sighting",
+  "sighting_id": "sig_73df48ffeb74b47f",
+  "indicator_id": "ind_0aca4f79fbcddb18",
+  "source_id": "mas-ial-opensanctions",
+  "report_id": "mas-ial-opensanctions:6017",
+  "role": "ioc",
+  "source_first_seen": "2026-11-02T00:00:00Z",
+  "source_last_seen": "2026-11-02T16:59:58.695Z",
+  "source_status": "listed",
+  "first_ingested_at": "2026-11-26T03:42:10Z",
+  "last_ingested_at": "2026-11-26T03:42:10Z",
+  "removed_at": null,
+  "raw": {
+   "field": "unregulatedpersons_s"
+  }
+ },
+ {
+  "record_type": "sighting",
+  "sighting_id": "sig_6579bb4c2c3f6769",
+  "indicator_id": "ind_688b98112333feba",
+  "source_id": "mas-ial-opensanctions",
+  "report_id": "mas-ial-opensanctions:6017",
+  "role": "ioc",
+  "source_first_seen": "2026-11-02T00:00:00Z",
+  "source_last_seen": "2026-11-02T16:59:58.695Z",
+  "source_status": "listed",
+  "first_ingested_at": "2026-11-26T03:42:10Z",
+  "last_ingested_at": "2026-11-26T03:42:10Z",
+  "removed_at": null,
+  "raw": {
+   "field": "website_s",
+   "raw_value": "https://handsworthadvisory.com/\nhttps://vaulterro.com/"
+  }
+ },
+ {
+  "record_type": "sighting",
+  "sighting_id": "sig_8edd8803a7f9684e",
+  "indicator_id": "ind_f5857c50337c52c1",
+  "source_id": "mas-ial-opensanctions",
+  "report_id": "mas-ial-opensanctions:6017",
+  "role": "ioc",
+  "source_first_seen": "2026-11-02T00:00:00Z",
+  "source_last_seen": "2026-11-02T16:59:58.695Z",
+  "source_status": "listed",
+  "first_ingested_at": "2026-11-26T03:42:10Z",
+  "last_ingested_at": "2026-11-26T03:42:10Z",
+  "removed_at": null,
+  "raw": {
+   "field": "website_s",
+   "raw_value": "https://handsworthadvisory.com/\nhttps://vaulterro.com/"
+  }
+ },
+ {
+  "record_type": "sighting",
+  "sighting_id": "sig_23b87559c11a1663",
+  "indicator_id": "ind_dce3bbe4f143e690",
+  "source_id": "mas-ial-opensanctions",
+  "report_id": "mas-ial-opensanctions:6017",
+  "role": "ioc",
+  "source_first_seen": "2026-11-02T00:00:00Z",
+  "source_last_seen": "2026-11-02T16:59:58.695Z",
+  "source_status": "listed",
+  "first_ingested_at": "2026-11-26T03:42:10Z",
+  "last_ingested_at": "2026-11-26T03:42:10Z",
+  "removed_at": null,
+  "raw": {
+   "field": "phonenumber_s"
+  }
+ },
+ {
+  "record_type": "sighting",
+  "sighting_id": "sig_04a8554d2211733d",
+  "indicator_id": "ind_0a7dbd9f002f52ab",
+  "source_id": "mas-ial-opensanctions",
+  "report_id": "mas-ial-opensanctions:6017",
+  "role": "ioc",
+  "source_first_seen": "2026-11-02T00:00:00Z",
+  "source_last_seen": "2026-11-02T16:59:58.695Z",
+  "source_status": "listed",
+  "first_ingested_at": "2026-11-26T03:42:10Z",
+  "last_ingested_at": "2026-11-26T03:42:10Z",
+  "removed_at": null,
+  "raw": {
+   "field": "email_s"
+  }
+ },
+ {
+  "record_type": "sighting",
+  "sighting_id": "sig_3d83867d3dfca641",
+  "indicator_id": "ind_ff7f9a4fe09272b5",
+  "source_id": "mas-ial-opensanctions",
+  "report_id": "mas-ial-opensanctions:6017",
+  "role": "ioc",
+  "source_first_seen": "2026-11-02T00:00:00Z",
+  "source_last_seen": "2026-11-02T16:59:58.695Z",
+  "source_status": "listed",
+  "first_ingested_at": "2026-11-26T03:42:10Z",
+  "last_ingested_at": "2026-11-26T03:42:10Z",
+  "removed_at": null,
+  "raw": {
+   "field": "email_s"
+  }
+ },
+ {
+  "record_type": "sighting",
+  "sighting_id": "sig_ff975ca700ccce3b",
+  "indicator_id": "ind_c9d644e9b4e5e11f",
+  "source_id": "mas-ial-opensanctions",
+  "report_id": "mas-ial-opensanctions:6017",
+  "role": "ioc",
+  "source_first_seen": "2026-11-02T00:00:00Z",
+  "source_last_seen": "2026-11-02T16:59:58.695Z",
+  "source_status": "listed",
+  "first_ingested_at": "2026-11-26T03:42:10Z",
+  "last_ingested_at": "2026-11-26T03:42:10Z",
+  "removed_at": null,
+  "raw": {
+   "field": "email_s"
+  }
+ },
+ {
+  "record_type": "sighting",
+  "sighting_id": "sig_1a4145fa8d639d39",
+  "indicator_id": "ind_d7f8487b3aa51c64",
+  "source_id": "mas-ial-opensanctions",
+  "report_id": "mas-ial-opensanctions:6017",
+  "role": "ioc",
+  "source_first_seen": "2026-11-02T00:00:00Z",
+  "source_last_seen": "2026-11-02T16:59:58.695Z",
+  "source_status": "listed",
+  "first_ingested_at": "2026-11-26T03:42:10Z",
+  "last_ingested_at": "2026-11-26T03:42:10Z",
+  "removed_at": null,
+  "raw": {
+   "field": "email_s"
+  }
+ },
+ {
+  "record_type": "sighting",
+  "sighting_id": "sig_934165efa1e45f86",
+  "indicator_id": "ind_9ff29105c207ba68",
+  "source_id": "phishdb-links-active",
+  "report_id": null,
+  "role": "ioc",
+  "source_first_seen": null,
+  "source_last_seen": null,
+  "source_status": "ACTIVE",
+  "first_ingested_at": "2026-11-26T03:42:10Z",
+  "last_ingested_at": "2026-11-26T03:42:10Z",
+  "removed_at": null,
+  "raw": {
+   "list": "phishing-links-ACTIVE.txt"
+  }
+ },
+ {
+  "record_type": "sighting",
+  "sighting_id": "sig_85a3539c525c8663",
+  "indicator_id": "ind_e1d234a1714beafe",
+  "source_id": "phishdb-links-active",
+  "report_id": null,
+  "role": "ioc",
+  "source_first_seen": null,
+  "source_last_seen": null,
+  "source_status": "ACTIVE",
+  "first_ingested_at": "2026-11-26T03:42:10Z",
+  "last_ingested_at": "2026-11-26T03:42:10Z",
+  "removed_at": null,
+  "raw": {
+   "list": "phishing-links-ACTIVE.txt"
+  }
+ },
+ {
+  "record_type": "sighting",
+  "sighting_id": "sig_8d25b712ab33376c",
+  "indicator_id": "ind_81bd2a82db55264f",
+  "source_id": "phishstats-api",
+  "report_id": null,
+  "role": "ioc",
+  "source_first_seen": "2026-06-02T11:40:01Z",
+  "source_last_seen": "2026-11-21T20:56:18Z",
+  "source_status": "http_code=404",
+  "first_ingested_at": "2026-11-26T03:42:10Z",
+  "last_ingested_at": "2026-11-26T03:42:10Z",
+  "removed_at": null,
+  "raw": {
+   "id": 11875004,
+   "asn": "AS52925",
+   "isp": "AS52925 - Ascenty Data Centers e Telecomunicacoes S/A",
+   "score": 8,
+   "domain_registered_n_days_ago": 36,
+   "tags": "cdn"
+  }
+ }
+]

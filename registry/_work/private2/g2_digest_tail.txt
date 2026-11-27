@@ -1,0 +1,496 @@
+### [tool_use ToolSearch]
+{"query": "select:WebSearch,WebFetch", "max_results": 2}
+
+### [tool_result]
+
+
+### [tool_use Bash]
+{"command": "mkdir -p /tmp/claude-1003/-home-ankur/d6fae8d2-b05b-46ce-92ff-521ba4485ee2/scratchpad/registry_work/private/G2 && cat > /tmp/claude-1003/-home-ankur/d6fae8d2-b05b-46ce-92ff-521ba4485ee2/scratchpad/registry_work/private/G2/g2.py <<'EOF'\n#!/usr/bin/env python3\n\"\"\"G2 helper: polite fetch (browser UA, >=1.1s sleep), raw saved under G2/raw/.\nUsage:\n  g2.py page URL...            status/title/feeds/dates + visible text (MAXC env)\n  g2.py links URL [regex]      hrefs (from saved or fresh fetch) matching regex (default social/app/login)\n  g2.py robots URL             robots.txt summary (UA * groups + Sitemap lines)\n  g2.py sitemap URL [maxfiles] fetch sitemap(s) (index -> children up to maxfiles), grep scam keywords\n  g2.py grep URL regex [ctx]   fetch page, print visible-text lines matching regex\n\"\"\"\nimport re, subprocess, sys, html, time, hashlib, os, gzip\nUA = \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36\"\nD = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'raw'); os.makedirs(D, exist_ok=True)\nKW = re.compile(r'scam|fraud|phish|secur|impersonat|fake|beware|official|sender|vigilant|alert|protect', re.I)\n_cache = {}\ndef fn_of(url):\n    slug = re.sub(r'[^A-Za-z0-9]+', '_', url.split('://', 1)[-1])[:90]\n    return os.path.join(D, slug + '_' + hashlib.md5(url.encode()).hexdigest()[:6])\ndef get(url, timeout=30):\n    if url in _cache: return _cache[url]\n    fn = fn_of(url)\n    p = subprocess.run(['curl', '-sS', '-L', '--max-redirs', '6', '-A', UA, '-m', str(timeout), '--compressed',\n                        '-H', 'Accept-Language: en-SG,en;q=0.9',\n                        '-o', fn, '-w', '%{http_code} %{url_effective}'], input=None, capture_output=True) if False else \\\n        subprocess.run(['curl', '-sS', '-L', '--max-redirs', '6', '-A', UA, '-m', str(timeout), '--compressed',\n                        '-H', 'Accept-Language: en-SG,en;q=0.9', '-o', fn, '-w', '%{http_code} %{url_effective}', url],\n                       capture_output=True)\n    meta = p.stdout.decode(errors='replace').split(' ', 1)\n    code = int(meta[0]) if meta and meta[0].isdigit() else 0\n    final = meta[1] if len(meta) > 1 else url\n    try: body = open(fn, 'rb').read()\n    except FileNotFoundError: body = b''\n    if body[:2] == b'\\x1f\\x8b':\n        try: body = gzip.decompress(body)\n        except Exception: pass\n    time.sleep(1.1)\n    r = (code, final, body.decode
+
+### [tool_result]
+ok
+
+### [tool_use Bash]
+{"command": "cd /tmp/claude-1003/-home-ankur/d6fae8d2-b05b-46ce-92ff-521ba4485ee2/scratchpad/registry_work/private/G2; G=./g2.py; python3 $G robots https://www.greateasternlife.com; python3 - <<'EOF'\nimport sys; sys.argv=['x']; exec(open('g2.py').read().split(\"if __name__ == '__main__':\")[0])\ncode, final, h, err = get('https://www.greateasternlife.com/sg/en/personal-insurance.html')\nprint(code, final, len(h))\nimport re\nt=text_of(h, keep_navfoot=True)\nfor ln in t.splitlines():\n    if re.search(r'scam|fraud|secur|official|hotline|whatsapp|app|1800|6248|\\+65', ln, re.I): print('  T:', ln.strip()[:200])\nEOF\npython3 $G links https://www.greateasternlife.com/sg/en/personal-insurance.html", "description": "Great Eastern robots, homepage text and links"}
+
+### [tool_result]
+## robots https://www.greateasternlife.com 200 https://www.greateasternlife.com/robots.txt bytes 866
+User-Agent: *
+    Disallow: */errors*
+Sitemap: https://www.greateasternlife.com/achievers/geachievers-en-sitemap.xml
+Sitemap: https://www.greateasternlife.com/bn/en/bn-en-sitemap.xml
+Sitemap: https://www.greateasternlife.com/id/in/id-in-sitemap.xml
+Sitemap: https://www.greateasternlife.com/my/en/my-en-sitemap.xml
+Sitemap: https://www.greateasternlife.com/sg/en/sg-en-sitemap.xml
+Sitemap: https://www.greateasternlife.com/sg/zh/sg-zh-sitemap.xml
+Sitemap: https://www.greateasternlife.com/greateasternwomensrun/wr-en-sitemap.xml
+Sitemap: https://www.greateasternlife.com/sg/adviser/adp-gels-sitemap.xml
+Sitemap: https://www.greateasternlife.com/my/en/my-en-video-sitemap.xml
+Sitemap: https://www.greateasternlife.com/private/en/sitemap.xml
+Sitemap: https://www.greateasternlife.com/private/sc/sitemap.xml
+Sitemap: https://www.greateasternlife.com/private/tc/sitemap.xml
+200 https://www.greateasternlife.com/sg/en/personal-insurance.html 112154
+  T: Announcement : Beware of impersonators claiming to be from Great Eastern or Great Eastern Financial representatives. Protect yourself against scams. Refer to our Security Advisory page (https://www.gr
+  T: National schemes > MediSave-approved">
+  T: MediSave-approved
+  T: National schemes > MediSave-approved">
+  T: MediSave-approved
+  T: <span class=\"leo-icon leo-icon--color-icon leo-icon--custom-size\" data-width=\"48px\" data-height=\"48px\" data-type=\"external-link\">&nbsp;&nbsp;</span><span class=\"leo-font-bold font-size-inheri
+  T: This link will bring you to a third-party website which Great Eastern has no control ("3rd Party Website"). Any use of the 3rd Party Website will be subject to and any information you provide will be 
+  T: Local 1800 248 2888
+  T: Overseas +65 6248 2888
+  T: Product enquiries +65 6248 2211
+  T: Great Eastern App
+  T: Great Eastern Rewards App
+  T: Great Eastern App
+  T: App Store
+  T: Great Eastern Rewards App
+  T: App Store
+  T: Privacy and security
+## https://www.greateasternlife.com/sg/en/personal-insurance.html 200 https://www.greateasternlife.com/sg/en/personal-insurance.html
+   https://uip.greateasternlife.com/econnect-new/#/login
+   https://www.facebook.com/greateasternsingapore
+   https://www.instagram.com/greateasternsg/
+   https://www.tiktok.com/@greateasternsg
+   https://www.linkedin.com/company/great-eastern-group
+   https://www.youtube.com/GreatEasternSG
+   https://greateasternsg.app.link/geapp/download/GE_page
+
+### [tool_use Bash]
+{"command": "cd /tmp/claude-1003/-home-ankur/d6fae8d2-b05b-46ce-92ff-521ba4485ee2/scratchpad/registry_work/private/G2; G=./g2.py; python3 - <<'EOF'\nimport re,html\nexec(open('g2.py').read().split(\"if __name__ == '__main__':\")[0])\ncode, final, h, err = get('https://www.greateasternlife.com/sg/en/personal-insurance.html')\nt=text_of(h, keep_navfoot=True)\ni=t.find('Announcement')\nprint(t[i:i+600])\nfor m in re.findall(r'''href\\s*=\\s*[\"']([^\"']+)[\"']''', h):\n    if re.search(r'apple|play\\.google|security|scam|fraud|privacy|app\\.link|onelink|contact', m, re.I): print('  L:', html.unescape(m))\nEOF\nPICK='sg-en' python3 $G sitemap https://www.greateasternlife.com/sg/en/sg-en-sitemap.xml 2", "description": "Great Eastern announcement text and SG sitemap keyword grep"}
+
+### [tool_result]
+Announcement : Beware of impersonators claiming to be from Great Eastern or Great Eastern Financial representatives. Protect yourself against scams. Refer to our Security Advisory page (https://www.greateasternlife.com/sg/en/privacy-and-security-policy/security-advisory.html) for more information. 
+ Skip to main content 
+ Personal Insurance 
+ Products
+ Life and health
+ Life and health > Life">
+ Life 
+ Life and health > Health">
+ Health 
+ Life and health > Personal accident">
+ Personal accident 
+ Life and health > Critical illness">
+ Critical illness 
+ Wealth
+ Wealth > Retirement income">
+ Reti
+  L: https://www.greateasternlife.com/sg/en/privacy-and-security-policy/security-advisory.html
+  L: /sg/en/corporate-solutions/contact-us-form.html
+  L: /sg/en/customer-services/contact-us.html
+  L: https://greateasternsg.app.link/geapp/download/GE_page
+  L: https://greateasternsg.app.link/geapp/download/GE_page
+  L: /sg/en/privacy-and-security-policy.html
+## sitemap https://www.greateasternlife.com/sg/en/sg-en-sitemap.xml -> 200 1247 locs
+## total urls 1247; keyword hits 169
+   https://www.greateasternlife.com/sg/en/privacy-and-security-policy.html
+   https://www.greateasternlife.com/sg/en/privacy-and-security-policy/customer-advisory-alliance-medinet-cyber-incident.html
+   https://www.greateasternlife.com/sg/en/privacy-and-security-policy/dps-policyholders.html
+   https://www.greateasternlife.com/sg/en/privacy-and-security-policy/eldershield-policyholders.html
+   https://www.greateasternlife.com/sg/en/privacy-and-security-policy/general-public.html
+   https://www.greateasternlife.com/sg/en/privacy-and-security-policy/security-advisory.html
+   https://www.greateasternlife.com/sg/en/privacy-and-security-policy/security-policy.html
+   https://www.greateasternlife.com/sg/en/about-us/investor-relations/email-alerts.html
+   https://www.greateasternlife.com/sg/en/customer-services/dependants-protection-scheme-dps/apply-for-policy-top-up.html
+   https://www.greateasternlife.com/sg/en/customer-services/dependants-protection-scheme-dps/change-payment-method-and-cpf-authorisation-for-dps.html
+   https://www.greateasternlife.com/sg/en/customer-services/dependants-protection-scheme-dps/make-a-health-declaration-for-dps.html
+   https://www.greateasternlife.com/sg/en/customer-services/dependants-protection-scheme-dps/opt-out-of-dps.html
+   https://www.greateasternlife.com/sg/en/customer-services/dependants-protection-scheme-dps/reinstate-policy-for-dps.html
+   https://www.greateasternlife.com/sg/en/customer-services/home-protection-scheme-hps/apply-for-exemption-from-hps.html
+   https://www.greateasternlife.com/sg/en/personal-insurance/financial-planning/my-protection-explorer.html
+   https://www.greateasternlife.com/sg/en/personal-insurance/lifepedia/life-protection.html
+   https://www.greateasternlife.com/sg/en/personal-insurance/lifepedia/lifestyle-protection.html
+   https://www.greateasternlife.com/sg/en/privacy-and-security-policy/security-advisory/false-message-efiling.html
+   https://www.greateasternlife.com/sg/en/about-us/media-centre/media-releases/gefa-offer-advisory-securities-structured-deposits.html
+   https://www.greateasternlife.com/sg/en/about-us/media-centre/media-releases/great-ev-protect.html
+   https://www.greateasternlife.com/sg/en/about-us/media-centre/media-releases/my-protection-explorer.html
+   https://www.greateasternlife.com/sg/en/about-us/media-centre/media-releases/singtel-home-protect.html
+   https://www.greateasternlife.com/sg/en/about-us/media-centre/media-releases/singtel-home-protect-flexi.html
+   https://www.greateasternlife.com/sg/en/about-us/sustainability/conducting-our-business-responsibly/cybersecurity-and-data-protection.html
+   https://www.greateasternlife.com/sg/en/personal-insurance/lifepedia/life-protection/10-things-to-know-about-pre-planning.html
+   https://www.greateasternlife.com/sg/en/personal-insurance/lifepedia/life-protection/2025-wrapped.html
+   https://www.greateasternlife.com/sg/en/personal-insurance/lifepedia/life-protection/4-reasons-need-life-insurance.html
+   https://www.greateasternlife.com/sg/en/personal-insurance/lifepedia/life-protection/5-reasons-you-should-change-your-will-as-you-age.html
+   https://www.greateasternlife.com/sg/en/personal-insurance/lifepedia/life-protection/5-things-for-end-of-life-planning.html
+   https://www.greateasternlife.com/sg/en/personal-insurance/lifepedia/life-protection/5-tips-to-prevent-sports-injuries-in-kids.html
+   https://www.greateasternlife.com/sg/en/personal-insurance/lifepedia/life-protection/6-reasons-to-buy-term-insurance-before-you-are-30.html
+   https://www.greateasternlife.com/sg/en/personal-insurance/lifepedia/life-protection/am-i-overpaying-for-insurance-in-singapore.html
+   https://www.greateasternlife.com/sg/en/personal-insurance/lifepedia/life-protection/are-low-premiums-the-only-sexy-thing-in-life-insurance.html
+   https://www.greateasternlife.com/sg/en/personal-insurance/lifepedia/life-protection/blue-zone-living-to-be-100-part-2.html
+   https://www.greateasternlife.com/sg/en/personal-insurance/lifepedia/life-protection/critical-illness-insurance-5-common-misconceptions-you-may-have.html
+   https://www.greateasternlife.com/sg/en/personal-insurance/lifepedia/life-protection/dear-young-singaporeans-why-wont-you-swipe-right-on-me.html
+   https://www.greateasternlife.com/sg/en/personal-insurance/lifepedia/life-protection/financial-planning.html
+   https://www.greateasternlife.com/sg/en/personal-insurance/lifepedia/life-protection/food-revelations-personality-test.html
+   https://www.greateasternlife.com/sg/en/personal-insurance/lifepedia/life-protection/how-great-life-multiplier-protects-grandparents-and-grandchildren.html
+   https://www.greateasternlife.com/sg/en/personal-insurance/lifepedia/life-protection/how-much-inheritance-should-you-leave-your-children.html
+   https://www.greateasternlife.com/sg/en/personal-insurance/lifepedia/life-protection/how-to-leave-a-legacy-when-you-dont-have-millions.htm
+
+### [tool_use Bash]
+{"command": "cd /tmp/claude-1003/-home-ankur/d6fae8d2-b05b-46ce-92ff-521ba4485ee2/scratchpad/registry_work/private/G2; ls raw | grep sg_en_sg_en_sitemap; f=$(ls raw/*sg_en_sg_en_sitemap* | head -1); grep -o '<loc>[^<]*</loc>' $f | sed 's/<[^>]*>//g' | grep -i -E 'scam|fraud|phish|impersonat|fake|beware|advisory|vigilant|sender|official-|security' | grep -v -i 'lifepedia/life-protection'; echo; grep -c '<lastmod>' $f; MAXC=6000 python3 g2.py page https://www.greateasternlife.com/sg/en/privacy-and-security-policy/security-advisory.html", "description": "Refine GE sitemap grep and read Security Advisory page"}
+
+### [tool_result]
+www_greateasternlife_com_sg_en_sg_en_sitemap_xml_289f7c
+https://www.greateasternlife.com/sg/en/privacy-and-security-policy.html
+https://www.greateasternlife.com/sg/en/privacy-and-security-policy/customer-advisory-alliance-medinet-cyber-incident.html
+https://www.greateasternlife.com/sg/en/privacy-and-security-policy/dps-policyholders.html
+https://www.greateasternlife.com/sg/en/privacy-and-security-policy/eldershield-policyholders.html
+https://www.greateasternlife.com/sg/en/privacy-and-security-policy/general-public.html
+https://www.greateasternlife.com/sg/en/privacy-and-security-policy/security-advisory.html
+https://www.greateasternlife.com/sg/en/privacy-and-security-policy/security-policy.html
+https://www.greateasternlife.com/sg/en/privacy-and-security-policy/security-advisory/false-message-efiling.html
+https://www.greateasternlife.com/sg/en/about-us/media-centre/media-releases/gefa-offer-advisory-securities-structured-deposits.html
+https://www.greateasternlife.com/sg/en/about-us/sustainability/conducting-our-business-responsibly/cybersecurity-and-data-protection.html
+https://www.greateasternlife.com/sg/en/personal-insurance/lifepedia/career/why-financial-advisory-endures-as-a-career.html
+https://www.greateasternlife.com/sg/en/personal-insurance/lifepedia/lifestyle-protection/be-wary-of-sms-phishing-scams-impersonating-land-transport-authority-lta.html
+https://www.greateasternlife.com/sg/en/personal-insurance/lifepedia/savings-and-investment/4-tips-to-steer-clear-of-scams.html
+https://www.greateasternlife.com/sg/en/personal-insurance/lifepedia/savings-and-investment/how-to-protect-family-from-insurance-services-scams-singapore.html
+https://www.greateasternlife.com/sg/en/personal-insurance/lifepedia/savings-and-investment/how-to-spot-investment-scam-singapore.html
+https://www.greateasternlife.com/sg/en/personal-insurance/lifepedia/savings-and-investment/why-earning-more-does-not-always-lead-to-long-term-financial-security-in-singapore.html
+
+1247
+==========================================================================================
+URL: https://www.greateasternlife.com/sg/en/privacy-and-security-policy/security-advisory.html
+STATUS: 200 FINAL: https://www.greateasternlife.com/sg/en/privacy-and-security-policy/security-advisory.html 
+BYTES: 87610 TITLE: Security Advisory | Privacy and Security Policy | Great Eastern Singapore
+TEXTLEN: 10494
+Skip to main content 
+ Personal Insurance 
+ Products
+ Life and health
+ Life and health > Life">
+ Life 
+ Life and health > Health">
+ Health 
+ Life and health > Personal accident">
+ Personal accident 
+ Life and health > Critical illness">
+ Critical illness 
+ Wealth
+ Wealth > Retirement income">
+ Retirement income 
+ Wealth > Wealth accumulation">
+ Wealth accumulation 
+ Wealth > Our funds">
+ Our funds 
+ National schemes
+ National schemes > Dependants' Protection Scheme">
+ Dependants' Protection Scheme 
+ National schemes > Great Legacy Programme">
+ Great Legacy Programme 
+ National schemes > MediSave-approved">
+ MediSave-approved 
+ Lifestyle
+ Lifestyle > Travel">
+ Travel 
+ Lifestyle > Car">
+ Car 
+ Lifestyle > Home">
+ Home 
+ Lifestyle > Maid">
+ Maid 
+ Prestige series
+ Prestige series > Prestige series">
+ Prestige series 
+ Life and health > Life">
+ Life 
+ Life and health > Health">
+ Health 
+ Life and health > Personal accident">
+ Personal accident 
+ Life and health > Critical illness">
+ Critical illness 
+ National schemes > Dependants' Protection Scheme">
+ Dependants' Protection Scheme 
+ National schemes > Great Legacy Programme">
+ Great Legacy Programme 
+ National schemes > MediSave-approved">
+ MediSave-approved 
+ Wealth > Retirement income">
+ Retirement income 
+ Wealth > Wealth accumulation">
+ Wealth accumulation 
+ Wealth > Our funds">
+ Our funds 
+ Lifestyle > Travel">
+ Travel 
+ Lifestyle > Car">
+ Car 
+ Lifestyle > Home">
+ Home 
+ Lifestyle > Maid">
+ Maid 
+ Prestige series > Prestige series">
+ Prestige series 
+ Explore
+ QuickLinks > Financial planning">
+ Financial planning 
+ Reach for Great financial expertise and award-winning financial tools
+ QuickLinks > Rewards and promotions">
+ Rewards and promotions 
+ Always here to surprise and delight you
+ QuickLinks > Lifepedia">
+ Lifepedia 
+ Insurance and financial planning knowledge in digestible nuggets
+ Corporate Solutions 
+ For employees">
+ For employees 
+ For business">
+ For business 
+ Corporate wellbeing">
+ Corporate wellbeing 
+ Contact us">
+ Contact us 
+ About Us 
+ Brand">
+ Brand 
+ Leadership">
+ Leadership 
+ Sustainability">
+ Sustainability 
+ Great Eastern Cares">
+ Great Eastern Cares 
+ Media Centre">
+ Media Centre 
+ Investor Relations">
+ Investor Relations 
+ Awards">
+ Awards 
+ Contact Us 
+ Self-service guides 
+ Log in
+ Profile
+ View portfolio">View portfolio 
+ View profile">View profile 
+ Change Password">Change Password 
+ Sign Out">Sign Out 
+ Search 
+ Clear 
+ Search 
+ Popular searches 
+ Critical illness ,
+ GREAT CareShield ,
+ Claims 
+ Your search history 
+ No search history
+ Privacy and Security Policy 
+ Security Advisory 
+ Security Advisory</h2>\r\n<p>Great Eastern is committed to ensuring your security when you transact with us. We will never ask customers to:</p>\r\n<ol>\r\n<li>Disclose passwords, PINs or One-Time Passwords (OTPs)</li>\r\n<li>Transfer money to bank accounts not listed on our website<br>\r\n(Premium payments should be made through our <a href=\"/content/corp-site/sg/en/customer-services/payment/make-renewal-or-regular-premium-payments.html\">official payment channels</a>)</li>\r\n<li>Download unfamiliar applications or remote-access software</li>\r\n<li>Keep a transaction secret or act under pressure or threats</li>\r\n</ol>\r\n<p>For your peace of mind, our staff or financial representatives can send a follow-up email after a call at your request, to verify if the call is legitimate. In certain instances, we&nbsp;may send an email before we call.</p>\r\n"}}" data-query-param-personalise="false" id="text-52fce0bf17" class="cmp-text leo-mt-xl ">
+ Security Advisory
+ Great Eastern is comm
+
+### [tool_use Bash]
+{"command": "cd /tmp/claude-1003/-home-ankur/d6fae8d2-b05b-46ce-92ff-521ba4485ee2/scratchpad/registry_work/private/G2; python3 - <<'EOF'\nimport re,html\nexec(open('g2.py').read().split(\"if __name__ == '__main__':\")[0])\ncode, final, h, err = get('https://www.greateasternlife.com/sg/en/privacy-and-security-policy/security-advisory.html')\nt=text_of(h, keep_navfoot=True)\n# drop the escaped-json duplicates\nlines=[l for l in t.splitlines() if '\\\\r\\\\n' not in l and '\\\\\"' not in l]\nt2='\\n'.join(lines)\ni=t2.find('Check and Report')\nif i<0: i=t2.find('Hang up the call')\nprint(t2[i:i+5000])\nprint('-----LINKS')\nfor m in re.findall(r'''href\\s*=\\s*[\"']([^\"']+)[\"']''', h):\n    m=html.unescape(m)\n    if re.search(r'false-message|advisory|scam|fraud|apple|play\\.google|mailto|tel:', m, re.I): print('  L:', m)\nEOF", "description": "Extract rest of GE Security Advisory page"}
+
+### [tool_result]
+Check and Report A Suspicious Activity / Scam 
+ Verify the source of communication 
+ Check against Great Eastern’s official communication channels .
+ Check if an SMS message from Great Eastern carries the "Likely Scam" identifier
+(note : All official Great Eastern numbers are registered with the SMS Sender ID Registry and will not appear as “Likely Scam).
+ Use the ScamShield app to check if a suspicious call, message or link is a scam.
+ To report a suspicious activity / scam,
+ Call the Great Eastern Customer Service hotline at 1800 248 2888 (9am to 5.30pm, Mondays to Fridays)
+ Call the ScamShield Helpline at 1799, which is available 24/7. Alternatively, report a scam using the ScamShield app or website 
+ Lodge a police report if a scam results in any financial loss
+ To prevent unauthorized access to your Great Eastern app or eConnect account, you are strongly encouraged to 
+ Change your password(s) immediately using the Forgot your password link on the login page
+ Monitor your account(s) for unusual or unauthorised activity.
+ Great Eastern’s Official Communication Channels 
+ Displayed Customer Service Numbers on Caller IDs 
+ Main: 6248 2888
+ Group Insurance: 6248 2112
+ Web Domains 
+ greateasternlife.com
+ greateasterngeneral.com
+ greateasternfa.com.sg
+ greateasternwomensrun.com
+ Email Domains 
+ xxx@greateasternlife.com
+ xxx@e.greateasternlife.com (marketing)
+ xxx@s.greateasternlife.com (servicing)
+ xxx@sg.greateasternlife.com
+ xxx@greateasterngeneral.com
+ Financial Advisors (representatives)
+ xxx@rep-sg.greateasternlife.com
+ xxx@rep.GreatEasternFA.sg
+ SMS Domains 
+ GE-LIFE
+ GE-GENERAL
+ WhatsApp Business Account 
+ Great Eastern’s official WhatsApp business account features a blue verification badge 
+ WhatsApp Number: 8227 6993 (marketing)
+ You will be redirected to an external link
+">
+ External Link Notification 
+ This link will bring you to a third-party website which Great Eastern has no control ("3rd Party Website"). Any use of the 3rd Party Website will be subject to and any information you provide will be governed by the terms of the 3rd Party Website, including those relating to confidentiality, data privacy and security.
+ Proceed 
+ Contact us 
+ Weekdays 9.00am to 5.30pm
+ Local 1800 248 2888 
+ Overseas +65 6248 2888 
+ Product enquiries +65 6248 2211 
+ About us 
+ Company profile 
+ Investor relations 
+ Media Centre 
+ Sustainability 
+ Careers 
+ Corporate 
+ Financial representative 
+ Financial Representative 
+ Find a Financial Representative 
+ Great Eastern Financial Advisers (GEFA) 
+ Great Eastern Private Partners 
+ Lifehub sign in 
+ SurGE sign in 
+ Check out our digital services 
+ Great Eastern App
+ Great Eastern Rewards App
+ Great Eastern App
+ Available on the 
+ App Store 
+ Get it on 
+ Google Play 
+ Great Eastern Rewards App
+ Available on the 
+ App Store 
+ Get it on 
+ Google Play 
+ Terms and conditions 
+ Marketing consent preferences 
+ Privacy and security 
+ Other Policies and Notices 
+ Copyright © 2026 Great Eastern Holdings Limited (Reg No 1999 03008M)
+ Great Eastern Holdings Ltd | The Great Eastern Life Assurance Company Limited | Great Eastern General Insurance Ltd
+ Singapore 
+ English 
+ Select your country and language
+ Singapore 
+ English 
+ 中文 
+ Malaysia 
+ English 
+ Malaysia (Takaful) 
+ English 
+ Bahasa 
+ Indonesia 
+ Bahasa 
+ Indonesia 
+ Brunei 
+ English
+-----LINKS
+  L: https://www.greateasternlife.com/sg/en/privacy-and-security-policy/security-advisory.html
+  L: https://www.scamshield.gov.sg/check-for-scams/how-to-check-for-scams-on-scamshield-app/
+  L: tel:18002482888
+  L: https://www.scamshield.gov.sg/
+  L: tel:18002482888
+  L: tel:+6562482888
+  L: tel:+6562482211
+
+### [tool_use Bash]
+{"command": "cd /tmp/claude-1003/-home-ankur/d6fae8d2-b05b-46ce-92ff-521ba4485ee2/scratchpad/registry_work/private/G2; f=$(ls raw/*sg_en_sg_en_sitemap* | head -1); python3 - \"$f\" <<'EOF'\nimport re,sys\nx=open(sys.argv[1]).read()\nfor blk in re.findall(r'<url>(.*?)</url>', x, re.S):\n    if re.search(r'security-advisory|false-message|insurance-services-scams|medinet|general-public|steer-clear', blk):\n        print(re.sub(r'\\s+',' ',blk)[:300])\nEOF\ngrep -o -E 'https?://(apps\\.apple\\.com|play\\.google\\.com)[^\"'\"'\"' ]*' raw/*greateasternlife_com_sg_en_privacy_and_security_policy_security_advisory* | sort -u\nMAXC=2500 python3 g2.py page https://www.greateasternlife.com/sg/en/privacy-and-security-policy/security-advisory/false-message-efiling.html 2>&1 | grep -v -E '^ (Life|Health|Wealth|National|Lifestyle|Prestige|Personal|Critical|Retirement|Our funds|Dependants|Great Legacy|MediSave|Travel|Car|Home|Maid|Explore|QuickLinks|Financial|Reach|Rewards|Always|Lifepedia|Insurance and|Corporate|For |Contact|About|Brand|Leadership|Sustain|Great Eastern Cares|Media|Investor|Awards|Self|Log in|Profile|View|Change|Sign|Search|Clear|Popular|GREAT|Claims|Your search|No search)' | head -60", "description": "GE sitemap lastmods, app links, eFiling false-message alert"}
+
+### [tool_result]
+ <loc>https://www.greateasternlife.com/sg/en/privacy-and-security-policy/customer-advisory-alliance-medinet-cyber-incident.html</loc> <lastmod>2026-10-24</lastmod> <changefreq>monthly</changefreq> <priority>0.5</priority> 
+ <loc>https://www.greateasternlife.com/sg/en/privacy-and-security-policy/general-public.html</loc> <lastmod>2025-06-20</lastmod> <changefreq>monthly</changefreq> <priority>0.5</priority> 
+ <loc>https://www.greateasternlife.com/sg/en/privacy-and-security-policy/security-advisory.html</loc> <lastmod>2026-10-27</lastmod> <changefreq>monthly</changefreq> <priority>0.5</priority> 
+ <loc>https://www.greateasternlife.com/sg/en/privacy-and-security-policy/security-advisory/false-message-efiling.html</loc> <lastmod>2025-10-15</lastmod> <changefreq>monthly</changefreq> <priority>0.5</priority> 
+ <loc>https://www.greateasternlife.com/sg/en/personal-insurance/lifepedia/savings-and-investment/4-tips-to-steer-clear-of-scams.html</loc> <lastmod>2023-12-07</lastmod> <changefreq>monthly</changefreq> <priority>0.5</priority> 
+ <loc>https://www.greateasternlife.com/sg/en/personal-insurance/lifepedia/savings-and-investment/how-to-protect-family-from-insurance-services-scams-singapore.html</loc> <lastmod>2026-01-08</lastmod> <changefreq>monthly</changefreq> <priority>0.5</priority> 
+==========================================================================================
+URL: https://www.greateasternlife.com/sg/en/privacy-and-security-policy/security-advisory/false-message-efiling.html
+STATUS: 200 FINAL: https://www.greateasternlife.com/sg/en/privacy-and-security-policy/security-advisory/false-message-efiling.html 
+BYTES: 79277 TITLE: False message on removal of e-filing | Privacy and Security Policy | Great Eastern Singapore
+TEXTLEN: 6628
+Skip to main content 
+ Products
+ GRE
+
+### [tool_use Bash]
+{"command": "cd /tmp/claude-1003/-home-ankur/d6fae8d2-b05b-46ce-92ff-521ba4485ee2/scratchpad/registry_work/private/G2; python3 - <<'EOF'\nimport re,html\nexec(open('g2.py').read().split(\"if __name__ == '__main__':\")[0])\ncode, final, h, err = get('https://www.greateasternlife.com/sg/en/privacy-and-security-policy/security-advisory/false-message-efiling.html')\nt=text_of(h, keep_navfoot=True)\nlines=[l for l in t.splitlines() if '\\\\r\\\\n' not in l and '\\\\\"' not in l]\nt2='\\n'.join(lines)\ni=t2.find('Security Advisory')\nj=t2.find('You will be redirected')\nprint(code, t2[i:j][:2500])\nEOF\ngrep -l -i 'apple.com\\|play.google' raw/* | head; grep -o -h -i -E '(apps\\.apple\\.com|itunes\\.apple\\.com|play\\.google\\.com)[^\"&]{0,120}' raw/* | sort -u | head", "description": "Read GE eFiling false-message alert and find app store links"}
+
+### [tool_result]
+200 Security Advisory 
+ False message on removal of e-filing 
+ Great Eastern is aware of a false message circulating regarding removal of e-filing 
+ Great Eastern is aware of a false message circulating on WhatsApp claiming that electronic filing submission (e-file) process for Parkway East Hospital, Mount Elizabeth Hospital, Mount Elizabeth Novena, and Gleneagles Hospital has been removed. e-file is a national Ministry of Health (MOH) system for submitting electronic claims from accredited facilities, such as hospitals and specialist clinics, to Integrated Shield Plan (IP) insurers. This system is mandatory and cannot be suspended by any insurer, including Great Eastern.
+Great Eastern is investigating the source of this false message. Customers seeking or planning treatment can be assured their IP benefits and claim processes remain unchanged.
+Customers are encouraged not to rely on unverified messages and to contact our customer service centre or their Financial Representative for any clarification.
+
+### [tool_use WebSearch]
+{"query": "Great Eastern Singapore scam alert impersonation fake website greateasternlife.com", "mode": "standard"}
+
+### [tool_result]
+Web search results for query: "Great Eastern Singapore scam alert impersonation fake website greateasternlife.com"
+
+Links: [{"title":"greateasternlife.com","url":"https://greateasternlife.com/content/GreatEastern/sg/en/index.html"},{"title":"digital services","url":"https://greateasternlife.com/sg/en/personal-insurance/get-help/digital-services.html"},{"title":"Security Advisory","url":"https://greateasternlife.com/sg/en/privacy-and-security-policy/security-advisory.html"},{"title":"20240109 swift intervention by great eastern ocbc and anti scam centre","url":"https://police.gov.sg/Media-Room/News/20240109_swift_intervention_by_great_eastern_ocbc_and_anti_scam_centre"},{"title":"20240109 swift intervention by great eastern ocbc and anti scam centre","url":"https://www.police.gov.sg/Media-Hub/News/2024/20240109_swift_intervention_by_great_eastern_ocbc_and_anti_scam_centre"},{"title":"greateasternlife.com","url":"https://greateasternlife.com/playday"},{"title":"20240109 swift intervention by great eastern ocbc and anti scam centre","url":"https://www.police.gov.sg/media-hub/news/2024/20240109_swift_intervention_by_great_eastern_ocbc_and_anti_scam_centre"},{"title":"greateasternlife.com","url":"https://greateasternlife.com/sg/en/personal-insurance/lifepedia/medical-coverage/hospitalisation.html"},{"title":"how to protect family from insurance services scams singapore","url":"https://www.greateasternlife.com/sg/en/personal-insurance/lifepedia/savings-and-investment/how-to-protect-family-from-insurance-services-scams-singapore.html"},{"title":"greateasternlife.com","url":"https://greateasternlife.com/sg/en/personal-insurance/rewards.html"},{"title":"security policy","url":"https://www.greateasternlife.com/sg/en/privacy-and-security-policy/security-policy.html"},{"title":"greateasternlife.com","url":"https://greateasternlife.com/content/GreatEastern/bn/en/index.html"},{"title":"20241107 police advisory on phishing scams involving the impersonation of sp group","url":"https://www.police.gov.sg/media-room/news/20241107_police_advisory_on_phishing_scams_involving_the_impersonation_of_sp_group"},{"title":"security advisory","url":"https://www.greateasternlife.com/my/en/other-policies-and-notices/security-advisory.html"},{"title":"20241111 police advisory on impersonation scam variation","url":"https://police.gov.sg/Media-Room/News/20241111_police_advisory_on_impersonation_scam_variation"},{"title":"20180405 others advisory fake sg police website cid","url":"https://police.gov.sg/Media-Room/News/20180405_others_advisory_fake_sg_police_website_cid"},{"title":"20210217 police adviso
+
+Based on the search results, here's what I found about Great Eastern scam alerts:
+
+## Scam Alert Information
+
+Great Eastern has been alerted of scammers impersonating as Great Eastern to direct recipients of emails to receive a cash refund. This email is not sent by Great Eastern, and you should not respond to the email.
+
+## Key Security Warnings
+
+Scammers may target you through SMS or emails and direct you to a phishing website to trick you into disclosing your Singpass login.
+
+Be wary of messages claiming issues with your account or social media posting offering free gifts purportedly from Great Eastern, and do not click on any suspicious links which can be phishing links that lead you to fake Websites.
+
+## How to Verify the Legitimate Website
+
+If you wish to access the Great Eastern website, please type www.greateasternlife.com directly in your browser.
+
+## Getting Help
+
+For assistance, you can contact Great Eastern at 1800 248 2888 or wecare-sg@greateasternlife.com. Additionally, you can call the 24/7 ScamShield Helpline at 1799 if you are unsure if something is a scam.
+
+
+REMINDER: You MUST include the sources above in your response to the user using markdown hyperlinks.
+
+### [tool_use Bash]
+{"command": "cd /tmp/claude-1003/-home-ankur/d6fae8d2-b05b-46ce-92ff-521ba4485ee2/scratchpad/registry_work/private/G2; python3 - <<'EOF'\nimport re,html\nexec(open('g2.py').read().split(\"if __name__ == '__main__':\")[0])\nfor u in ['https://www.greateasternlife.com/sg/en/privacy-and-security-policy/security-policy.html',\n          'https://www.greateasternlife.com/sg/en/personal-insurance/lifepedia/savings-and-investment/how-to-protect-family-from-insurance-services-scams-singapore.html']:\n    code, final, h, err = get(u)\n    t=text_of(h, keep_navfoot=True)\n    lines=[l.strip() for l in t.splitlines() if '\\\\r\\\\n' not in l and '\\\\\"' not in l]\n    print('=====',u,code,final)\n    for m in re.findall(r'\"date(?:Published|Modified)\"\\s*:\\s*\"([^\"]+)\"', h)[:2]: print('JSONLD', m)\n    for m in re.findall(r'(?i)(?:published|updated|date)[^<]{0,40}(20\\d\\d)', h)[:3]: pass\n    hit=False\n    for i,l in enumerate(lines):\n        if re.search(r'scam|phish|fake|impersonat|www\\.|@|official|hotline|1800|SMS|whatsapp|never', l, re.I) and len(l)>15:\n            print('  ', l[:260])\nEOF", "description": "GE security-policy page and insurance-scams article"}
+
+### [tool_result]
+===== https://www.greateasternlife.com/sg/en/privacy-and-security-policy/security-policy.html 200 https://www.greateasternlife.com/sg/en/privacy-and-security-policy/security-policy.html
+   Before entering your user ID and password, you should always ensure that the website you are visiting belongs to Great Eastern. This can be verified by the URL displayed in your browser as well as the Great Eastern's URL in its digital certificate. To verify t
+   4. Avoiding Hoax Emails (Phishing emails)
+   6. Protect yourself from Smishing (SMS Phishing)
+   7. Vishing (Voice Phishing)
+   Never use the same password for other web-based services (Financial or Non-Financial) such as for email, online services, particularly when they related to different websites.
+   Malicious program (or malware) is usually sent as an attachment or URL link (when clicked, will redirect to websites embedded with malicious contents) in emails claiming to be from someone you know, or disguised as genuine software coming from an official site
+   4. Avoiding Hoax Emails (Phishing emails)
+   Phishing are fraud emails sent by fraudsters which trick you into providing your personal information, or downloading a virus that can steal your information.
+   When in doubt or suspicious about the authenticity of the request, do not provide personal or financial information, always double-check with Great Eastern. Contact us via our official channels: www.greateasternlife.com. Never rely on any information or link f
+   Never click onto a link in an email to go to the GE login page. Always access GE by typing the full website address www.greateasternlife.com into your browser.
+   Never send sensitive information by email.
+   Never download files from PCs or sites which you aren't sure about its safety.
+   Never blindly type commands that others tell you to type, or go to web addresses mentioned by strangers, or run pre-fabricated programs or scripts
+   Customers are also encouraged to use the latest versions of Internet browsers available, which may provide advanced security features such as anti-phishing and forged website identification. If such features are available, customers are advised to turn them on
+   6. Protect yourself from Smishing (SMS Phishing)
+   Smishing or SMS Phishing is a phishing scam used in mobile devices. Fraudsters send you text messages that contain different methods of capturing your personal banking information by pretending to be representatives of legitimate organisations.
+   You receive unsolicited text messages (SMS) from representatives claiming to be from organisations such as your Bank, Insurance company or Internet Service Provider. When you call or reply back, they ask questions that lead you to reveal personal banking infor
+   Never reply to SMSes, calls or emails on transactions that you did not perform. Do not reply to a text message that asks for your confidential information either.
+   Never click on any website links found in unsolicited SMS or multi-media messages (MMS) from unknown sources. Do not reply to such SMSes and delete them immediately.
+   7. Vishing (Voice Phishing)
+   Vishing (also known as Voice Phishing) is a form of phishing, where the attacker uses a phone call to lure you into giving your personal or policy information. The phone call can either be live or automated.
+   You receive a suspicious call or voice mail claiming that your policy account will be cancelled if you do not call their hotline and enter your personal information.
+   Validate that the calls you receive about Great Eastern policy account are from trustworthy sources by contacting our customer service hotline.
+   Some smart phones have features that allow data synchronisation between your mobile device and online storage or cloud services in near real time. Information that could be synchronized includes SMS, email, etc.
+   If you have enabled the abovementioned data synchronisation, sensitive information sent via SMS or emails by financial institutions (FIs), such as one-time passwords (OTPs), could be accessed by criminals if your login credentials to the online storage or clou
+   If you suspect that security breaches may have occurred and online transaction(s) might have been fraudulently accessed please do not hesitate to call our Hotline help: 1800 - 248 2888 or E-mail us at : wecare-sg@greateasternlife.com .
+   Local 1800 248 2888
+===== https://www.greateasternlife.com/sg/en/personal-insurance/lifepedia/savings-and-investment/how-to-protect-family-from-insurance-services-scams-singapore.html 200 https://www.greateasternlife.com/sg/en/personal-insurance/lifepedia/savings-and-investment/how-to-protect-family-from-insurance-services-scams-singapore.html
+   How to protect your family from insurance services scams in Singapore
+   How to protect your family from insurance services scams in Singapore
+   Financial Literacy 101: How to spot an insurance services scam and what you should do
+   By the time the caller ends the conversation, some people find themselves sharing sensitive information, making payments, or even transferring their own money. Not because they were careless, but because the interaction sounded official, procedural, and famili
+   These are not get-rich-quick frauds. They are insurance services scams , designed to resemble routine insurance housekeeping and administrative follow-ups.
+   According to the Singapore Police Force’s Mid-Year Scam and Cybercrime Brief 2025, insurance services scams emerged as a distinct scam category in 2025, with 791 reported cases and approximately S$21.3 million in losses in the first half of 2025 alone . That s
+   What is an insurance services scam?
+   An insurance services scam involves scammers impersonating insurance staff or service administrators and convincing you that there is an issue with an insurance service linked to your name.
+   The scam escalates when the caller guides you into actions that cause financial loss, such as:
+   What distinguishes insur
+
+### [assistant text]

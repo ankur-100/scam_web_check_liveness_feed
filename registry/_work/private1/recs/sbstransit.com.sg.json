@@ -1,0 +1,53 @@
+{
+ "entity_id": "sbstransit.com.sg",
+ "name": "SBS Transit Ltd",
+ "abbr": "SBST",
+ "aliases": [
+  "SBS Transit",
+  "SBST",
+  "SBS Transit app"
+ ],
+ "sector": "transport",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "sbstransit.com.sg"
+ ],
+ "official_hosts": [
+  "www.sbstransit.com.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.sbstransit.com.sg/",
+   "kind": "alert_page",
+   "lists_indicators": [
+    "app"
+   ],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "SCAM ALERT: If you receive a message claiming you've won a prize from SBS Transit, please delete it immediately as it's not from us. A fake SBS Transit app has also been found on parallel app stores.",
+   "notes": "Homepage scam-alert banner (undated): fake prize messages and a fake SBS Transit app on 'parallel app stores' (no app name/store given) - 'Only download or update our app through the official Apple App Store or Google Play Store.' Points to ScamShield helpline 1799. /security page (HTTP 200) is about transit security, no scam content."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": [
+   "https://www.facebook.com/sbstransitltd",
+   "https://twitter.com/SBSTransit_Ltd"
+  ],
+  "apps": [
+   "SBS Transit Mobile App (official Apple App Store / Google Play only, per homepage)"
+  ],
+  "emails": []
+ },
+ "evidence": [
+  "https://www.sbstransit.com.sg/",
+  "https://www.sbstransit.com.sg/robots.txt"
+ ],
+ "notes": "official_domains (b): serves site. robots.txt (13 KB, many Disallow lines, no Sitemap line). Fake-app warning is the only scam content; 'app' in lists_indicators refers to the existence of a fake app, not a named one. No dated advisory list."
+}

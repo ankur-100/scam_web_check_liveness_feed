@@ -1,0 +1,55 @@
+{
+ "host": "www.swda.gov.sg",
+ "robots_status": 200,
+ "robots": "User-agent: *\nAllow: /\nDisallow: /search-result?\n\nSitemap: https://www.swda.gov.sg/sitemap.xml",
+ "sitemaps_declared": [
+  "https://www.swda.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  [
+   "https://www.swda.gov.sg/sitemap.xml",
+   "urlset",
+   392,
+   "https://www.swda.gov.sg/sitemap.xml"
+  ]
+ ],
+ "errors": [],
+ "total_urls": 392,
+ "hosts_in_sitemap": {
+  "www.swda.gov.sg": 392
+ },
+ "matches": [
+  [
+   "https://www.swda.gov.sg/home/newsroom/trainer-convicted-for-fraud-against-then-singapore-workforce-development-agency-wda-training-grants",
+   "2026-09-22T09:18:06.814Z"
+  ],
+  [
+   "https://www.swda.gov.sg/home/newsroom/two-key-members-of-criminal-syndicate-convicted-for-their-involvement-in-multi-million-dollar-fraud-on-skillsfuture-singapore-ssg",
+   "2026-09-30T08:06:57.891Z"
+  ],
+  [
+   "https://www.swda.gov.sg/home/newsroom/workforce-singapores-volunteer-career-advisors-empower-individuals-with-industry-insights-and-peer-support-1",
+   "2026-06-25T03:08:05.356Z"
+  ],
+  [
+   "https://www.swda.gov.sg/home/newsroom/volunteer-career-advisor-initiative-to-be-expanded-to-guide-young-workforce-entrants-in-career-planning-with-industry-insights",
+   "2026-06-25T03:08:06.190Z"
+  ],
+  [
+   "https://www.swda.gov.sg/home/skills-career-resources/private-education-resources/alerts-and-advisories",
+   "2026-11-04T12:20:19.718Z"
+  ],
+  [
+   "https://www.swda.gov.sg/home/career-practitioners-training-provider/volunteer-career-advisors-initiative",
+   "2026-10-16T09:31:35.011Z"
+  ],
+  [
+   "https://www.swda.gov.sg/home/individuals/skills-career-planning/career-skills-advisory",
+   "2026-11-18T08:05:21.682Z"
+  ],
+  [
+   "https://www.swda.gov.sg/home/career-practitioners-training-providers/career-practitioners/foundation-programmes/career-advisory-programme",
+   "2026-06-26T14:33:51.707Z"
+  ]
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "entity_id": "psc.gov.sg",
+ "name": "Public Service Commission",
+ "abbr": "PSC",
+ "aliases": [
+  "Public Service Commission (PSC)"
+ ],
+ "sector": "gov.organ",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "psc.gov.sg"
+ ],
+ "official_hosts": [
+  "www.psc.gov.sg"
+ ],
+ "scam_info": [],
+ "official_channels": {
+  "sms_sender_ids": [
+   "gov.sg"
+  ],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": []
+ },
+ "evidence": [
+  "https://www.sgdi.gov.sg/organs-of-state/psc",
+  "https://www.psc.gov.sg/sitemap.xml"
+ ],
+ "notes": "Tier 2. Sitemap (190 URLs, fetched 2026-11-26) has 0 scam/fraud/phish/impersonat/fake/hoax/spoof slugs. No scam pages found."
+}

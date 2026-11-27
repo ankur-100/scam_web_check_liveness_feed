@@ -1,0 +1,22 @@
+{
+ "host": "vouchers.cdc.gov.sg",
+ "robots_status": 200,
+ "robots": "User-Agent: *\nAllow: /\nDisallow: /search\n\nSitemap: https://vouchers.cdc.gov.sg/sitemap.xml\n",
+ "sitemaps_declared": [
+  "https://vouchers.cdc.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  [
+   "https://vouchers.cdc.gov.sg/sitemap.xml",
+   "urlset",
+   62,
+   "https://vouchers.cdc.gov.sg/sitemap.xml"
+  ]
+ ],
+ "errors": [],
+ "total_urls": 62,
+ "hosts_in_sitemap": {
+  "vouchers.cdc.gov.sg": 62
+ },
+ "matches": []
+}

@@ -1,0 +1,27 @@
+{
+ "host": "www.psd.gov.sg",
+ "robots": "User-Agent: *\nAllow: /\nDisallow: /search\n\nSitemap: https://www.psd.gov.sg/sitemap.xml\n",
+ "robots_status": 200,
+ "sitemaps_declared": [
+  "https://www.psd.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  "https://www.psd.gov.sg/sitemap.xml[200:665]"
+ ],
+ "n_urls": 665,
+ "hits": [
+  [
+   "https://www.psd.gov.sg/challenge/articles/bits--bytes--and-battles-for-cybersecurity-in-singapore/",
+   "2026-07-30T17:45:01.126Z"
+  ],
+  [
+   "https://www.psd.gov.sg/challenge/articles/smarter-homes-safer-workplaces-fighting-scams-and-more-how-the-public-service-transforms-for-a-better-singapore/",
+   "2026-07-30T17:45:01.126Z"
+  ],
+  [
+   "https://www.psd.gov.sg/newsroom/public-service-job-openings-reposted-on-unauthorised-job-scam-site/",
+   "2026-07-30T17:45:01.126Z"
+  ]
+ ],
+ "newest_lastmod": "2026-11-25T09:03:35.452Z"
+}

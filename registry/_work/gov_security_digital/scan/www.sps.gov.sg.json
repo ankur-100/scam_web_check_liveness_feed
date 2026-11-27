@@ -1,0 +1,19 @@
+{
+ "host": "www.sps.gov.sg",
+ "robots": "User-Agent: *\nAllow: /\nDisallow: /search\n\nSitemap: https://www.sps.gov.sg/sitemap.xml\n",
+ "robots_status": 200,
+ "sitemaps_declared": [
+  "https://www.sps.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  "https://www.sps.gov.sg/sitemap.xml[200:224]"
+ ],
+ "n_urls": 224,
+ "hits": [
+  [
+   "https://www.sps.gov.sg/media/advisory-on-fake-websites-impersonating--mha-and-home-team-agencies/",
+   "2026-09-08T03:16:33.235Z"
+  ]
+ ],
+ "newest_lastmod": "2026-11-25T08:31:23.957Z"
+}

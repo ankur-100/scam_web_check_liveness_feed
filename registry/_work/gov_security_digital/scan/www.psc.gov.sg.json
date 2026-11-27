@@ -1,0 +1,14 @@
+{
+ "host": "www.psc.gov.sg",
+ "robots": "User-Agent: *\nAllow: /\nDisallow: /search\n\nSitemap: https://www.psc.gov.sg/sitemap.xml\n",
+ "robots_status": 200,
+ "sitemaps_declared": [
+  "https://www.psc.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  "https://www.psc.gov.sg/sitemap.xml[200:190]"
+ ],
+ "n_urls": 190,
+ "hits": [],
+ "newest_lastmod": "2026-11-20T07:09:45.666Z"
+}

@@ -1,0 +1,38 @@
+[
+{
+ "entity_id": "mot.gov.sg",
+ "name": "Ministry of Transport",
+ "abbr": "MOT",
+ "aliases": ["Ministry of Transport (MOT)", "MOT"],
+ "sector": "gov.ministry",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": ["mot.gov.sg"],
+ "official_hosts": ["www.mot.gov.sg"],
+ "scam_info": [],
+ "official_channels": {"sms_sender_ids": ["gov.sg"], "hotlines": ["6375 7871 (MOT, per SGDI)"], "short_link_domains": ["go.gov.sg"],
+   "social": ["https://www.facebook.com/motsg", "https://www.instagram.com/motsingapore/?hl=en", "https://www.tiktok.com/@motsingapore"], "apps": [], "emails": ["mot@mot.gov.sg (SGDI)"]},
+ "evidence": ["https://www.sgdi.gov.sg/ministries/mot", "https://www.mot.gov.sg/news-resources/newsroom/applications-for-2025-public-transport-voucher-exercise-to-open-from-20-january-2026/"],
+ "notes": "No scam pages: sitemap (2,642 URLs) keyword hits are all 'advisory panel'/'alert' false positives. Parent of LTA, PTC, CAAS, MPA. PTV programme in mot.gov.sg#public-transport-voucher."
+},
+{
+ "entity_id": "mot.gov.sg#public-transport-voucher",
+ "name": "Public Transport Voucher (PTV) Exercise",
+ "abbr": "PTV",
+ "aliases": ["Public Transport Voucher (PTVE)", "Public Transport Voucher", "PTV", "PTVE"],
+ "sector": "gov.programme",
+ "parent_entity_id": "mot.gov.sg",
+ "country": "SG",
+ "official_domains": ["mot.gov.sg"],
+ "official_hosts": ["go.gov.sg"],
+ "scam_info": [
+  {"url": "https://www.mot.gov.sg/news-resources/newsroom/applications-for-2025-public-transport-voucher-exercise-to-open-from-20-january-2026/", "kind": "official_channels", "lists_indicators": ["url"], "access": "sitemap",
+   "machine_url": "https://www.mot.gov.sg/sitemap.xml", "item_count": null, "latest_item_date": "2026-01-19", "verified": "2026-11-26 HTTP 200",
+   "sample": "households ... can apply for PTVs online at https://go.gov.sg/ptv (opens in new tab) or in person at their local Community Centres/Clubs (CCs).",
+   "notes": "Only GENUINE apply channels: https://go.gov.sg/ptv or in person at CCs; 2025 exercise second stage 20 Jan - 31 Oct 2026; PTVs top up fare cards/monthly passes; households also get PTV notification letters. No scam text on MOT. Newer PTV release in sitemap: /newsroom/60-public-transport-vouchers-to-provide-support-for-lower-income-households/ (lastmod 2026-09-17, not opened)."}
+ ],
+ "official_channels": {"sms_sender_ids": ["gov.sg"], "hotlines": [], "short_link_domains": ["go.gov.sg"], "social": [], "apps": [], "emails": []},
+ "evidence": ["https://www.mot.gov.sg/news-resources/newsroom/applications-for-2025-public-transport-voucher-exercise-to-open-from-20-january-2026/"],
+ "notes": "SPF brand tag 'Public Transport Voucher (PTVE)' (1 advisory; SPF sample scam domain gtva.link, not visited). Scam warnings are SPF's: unverified (search snippet) 20260813 'telegram account compromise from fake public transport voucher scheme' - Telegram infographics + phishing for Telegram codes; 'MOT will never send messages via Telegram or requests ... to click on a link to claim a voucher'."
+}
+]

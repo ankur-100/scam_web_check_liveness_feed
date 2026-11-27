@@ -1,0 +1,9 @@
+{"entity_id":"circles.life","name":"Circles.Life (Circles Asia) Singapore","abbr":"Circles.Life","aliases":["Circles.Life","Circles Life","Circles","CirclesLife"],
+"sector":"telco","parent_entity_id":null,"country":"SG",
+"official_domains":["circles.life"],
+"official_hosts":["www.circles.life","activate-shop.circles.life"],
+"scam_info":[
+ {"url":"https://www.circles.life/sg/blog/safety-guide-protecting-and-reporting-against-scammer/","kind":"scam_faq","lists_indicators":[],"access":"html","machine_url":"https://www.circles.life/sg/sitemap_index.xml","item_count":null,"latest_item_date":"2025-01-30","verified":"2026-11-26 HTTP 200","sample":"Received a Scam Call? Report It and Stay Protected | Last updated: 30 Jan 2025 | Written by: Circles.Life","notes":"Generic blog guide on reporting scam calls; no Circles-specific alerts or indicators. Other security blog posts in sitemap: mobile-security-travel-tips, information-guide-how-to-secure-your-mobile-phone, is-esim-safe-..."}],
+"official_channels":{"sms_sender_ids":[],"hotlines":[],"short_link_domains":[],"social":[],"apps":[],"emails":[]},
+"evidence":["https://www.circles.life/sg/","https://www.circles.life/robots.txt","https://www.circles.life/sg/sitemap_index.xml"],
+"notes":"SG business lives under the path www.circles.life/sg (entity_id circles.life, country SG). official_domains (b): serves site; activate-shop.circles.life linked from homepage. No dedicated scam-advisory or official-channels page found in the Yoast sitemaps (first 8 child sitemaps grepped). robots.txt disallows /sg/guides-and-faqs/. Social/app links not present in static homepage HTML (Contentful/JS)."}

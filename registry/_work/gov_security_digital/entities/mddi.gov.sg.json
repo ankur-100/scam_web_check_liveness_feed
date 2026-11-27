@@ -1,0 +1,57 @@
+{
+ "entity_id": "mddi.gov.sg",
+ "name": "Ministry of Digital Development and Information",
+ "abbr": "MDDI",
+ "aliases": [
+  "Ministry of Digital Development and Information (previously MCI)",
+  "MCI"
+ ],
+ "sector": "gov.ministry",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "mddi.gov.sg"
+ ],
+ "official_hosts": [
+  "www.mddi.gov.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.mddi.gov.sg/other-pages/anti-scam-efforts/",
+   "kind": "statistics",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2026-11-02",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Government agencies will make calls using numbers that start with a common Government prefix, and these calls will display a recognisable Government caller name. The Singapore Police Force will pilot the use of the common prefix from 2 November 2026",
+   "notes": "Whole-of-government anti-scam hub covering MDDI, IMDA, CSA, GovTech and OGP measures. Jan-Jun 2026 stats: >70M scam calls blocked, 77,500 lines disrupted, 11M scam SMS blocked, >3.3M suspicious app installs blocked, >52,500 websites blocked via SPF orders, 39,700 more disrupted through industry, >31,600 monikers/ads disrupted. Also covers SIM-card limits (max 10 postpaid SIMs across telcos from 28 Feb 2026) and gov.sg sender ID stats (391M SMS sent). Aggregates and policy only, no IOCs."
+  },
+  {
+   "url": "https://www.mddi.gov.sg/newsroom/",
+   "kind": "news_releases",
+   "lists_indicators": [],
+   "access": "rss",
+   "machine_url": "https://www.mddi.gov.sg/newsroom/rss.xml",
+   "item_count": 29,
+   "latest_item_date": "2026-11-22",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "newsroom/singapore-police-force-is-first-government-agency-to-launch-single-caller-id----6000-0999----to-protect-public-against-scams-impersonating-singapore-government-officials/",
+   "notes": "Newsroom RSS via rel=alternate: 200 items (7 May to 22 Nov 2026), 4 scam-related (latest 1 Nov 2026 SPF single caller ID). The sitemap https://www.mddi.gov.sg/sitemap.xml (1,712 URLs, lastmod; bulk 2026-07-30 re-save) has 29 scam/phish/fake/spoof/sender-id slugs: PQ replies on +65 scam calls, overseas call blocking, NRIC-citing callers and local-number spoofing; joint-advisory-on-government-official-impersonation-scam; launch-of-gov-sg-single-sender-id; shutdown-of-anti-sms-spoofing-registry. item_count = sitemap keyword slugs. No IOCs."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [
+   "gov.sg"
+  ],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": []
+ },
+ "evidence": [
+  "https://www.sgdi.gov.sg/ministries/mddi",
+  "https://www.mddi.gov.sg/sitemap.xml"
+ ],
+ "notes": "Parent of IMDA, GovTech, CSA and the gov.sg portal (SGDI). MDDI co-developed the SPF single caller ID (6000 0999) and will roll out a common government call prefix and caller name."
+}

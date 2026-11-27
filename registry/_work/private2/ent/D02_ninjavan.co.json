@@ -1,0 +1,66 @@
+{
+ "entity_id": "ninjavan.co",
+ "name": "Ninja Van Singapore (Ninja Logistics Pte. Ltd.)",
+ "abbr": null,
+ "aliases": [
+  "Ninjavan",
+  "Ninja Van",
+  "Ninja Van SG",
+  "NinjaVan",
+  "Ninja Logistics Pte. Ltd.",
+  "NinjaChat"
+ ],
+ "sector": "logistics",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "ninjavan.co"
+ ],
+ "official_hosts": [
+  "www.ninjavan.co",
+  "dashboard.ninjavan.co",
+  "delivery.ninjavan.co",
+  "walrus.ninjavan.co"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.ninjavan.co/en-sg/parcel-scams-advisory",
+   "kind": "fake_indicator_list",
+   "lists_indicators": [
+    "domain"
+   ],
+   "access": "html",
+   "machine_url": "https://www.ninjavan.co/sitemap.xml",
+   "item_count": 4,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "We have been alerted to two fake e-commerce sites claiming to be associated with Ninja Van (ninjavanmall.com and ninjavanshopping.com)",
+   "notes": "'Parcel Delivery Scams Advisory' (SG): 'Latest scam updates' (email phishing as 'Ninja Van SG') + 3 previous updates (SMS phishing, fraudulent WhatsApp surveys, fake Ninja Van mall sites). Undated. Fake domains (text only, never visited): ninjavanmall.com, ninjavanshopping.com. Official channels stated: NinjaChat (Facebook Messenger / Telegram bot / Viber), verified social media and WhatsApp accounts (no number given), emails ending @ninjavan.co; COD PayNow payee 'Ninja Logistics Pte. Ltd.' UEN201412014EB2B (official). Same content also at /en-sg/support/recipient-support/parcel-scams-advisory (both in sitemap; no lastmod)."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": [
+   "https://www.facebook.com/ninjavansingapore/",
+   "https://www.instagram.com/ninjavan_sg/",
+   "https://www.tiktok.com/@ninjavan_sg",
+   "https://www.linkedin.com/company/ninja-van",
+   "https://t.me/NinjaVanBot",
+   "https://www.messenger.com/t/957138134486129",
+   "viber://pa?chatURI=NinjaVan"
+  ],
+  "apps": [],
+  "emails": [
+   "@ninjavan.co"
+  ]
+ },
+ "evidence": [
+  "https://www.ninjavan.co/en-sg/parcel-scams-advisory",
+  "https://www.ninjavan.co/en-sg",
+  "https://www.ninjavan.co/sitemap.xml",
+  "https://www.ninjavan.co/robots.txt"
+ ],
+ "notes": "SG pages under ninjavan.co/en-sg. official_domains: ninjavan.co is (b) serving domain and (a) official email domain ('email addresses that end with ninjavan.co'). Hosts dashboard./delivery./walrus.ninjavan.co seen in homepage links. NinjaChat channels (Telegram bot, Messenger, Viber) are the official notification channels; t.me/NinjaVanBot and messenger.com/t/957138134486129 linked from footer. ninjaxpress.co (Indonesia sister brand) appears in the same sitemap but is not SG; not added. SMS: Ninja Van tells users to use NinjaChat instead of SMS (no SG sender ID published). Shopee's delivery-impersonation advisory also names NinjaVan."
+}

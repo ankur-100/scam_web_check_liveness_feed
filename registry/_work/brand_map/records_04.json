@@ -1,0 +1,612 @@
+{
+ "JKF": {
+  "resolution": "ambiguous",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "low",
+  "evidence": [],
+  "notes": "Never explained in advisory text; co-tagged with TikTok/BizVibe/B2B Wave/flance on job-task scam sites (coupang-vip.com, wwwshopee.net, bigbuy.rest). No company \"JKF\" linked to task/e-commerce jobs found (web search 2026-11-26). Could be a fake platform label read from screenshots. Needs human review."
+ },
+ "CTX": {
+  "resolution": "ambiguous",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "low",
+  "evidence": [],
+  "notes": "Not explained in advisory text; scam site ctxpublic.online on crypto-mining investment scams (co-tagged Doge Mining, GN Mall, Coinbase, PUMP MINING, Novartis AG VIP). Could be a fictitious platform or misuse of a ticker (e.g. Cryptex Finance CTX). Unresolved."
+ },
+ "JUST": {
+  "resolution": "ambiguous",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "low",
+  "evidence": [
+   "https://just.network/"
+  ],
+  "notes": "Investment-scam sites usttt.net / uuttt.cc / ustt.work \"claim to represent known brands like JUST\". Best candidate: JUST (TRON DeFi ecosystem, just.network - opened 2026-11-26), but SPF gives no detail; could be fictitious."
+ },
+ "Dell Player": {
+  "resolution": "ambiguous",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "low",
+  "evidence": [],
+  "notes": "SPF: scammers \"falsely claiming association with brands such as Dell Player\" (taishang8.top). No product called \"Dell Player\" exists; either misuse of the Dell name (dell.com) or a fake app name in the media-player-name pattern (cf. GOM Player, MPC-HC, Televizo)."
+ },
+ "Citadel": {
+  "resolution": "real_entity",
+  "entity_id": "citadel.com",
+  "official_domains": [
+   "citadel.com",
+   "citadelsecurities.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "brokerage",
+  "confidence": "high",
+  "evidence": [],
+  "notes": "Citadel (hedge fund) / Citadel Securities (market maker); typosquat citadiel.com. Both sites behind Cloudflare (403 to curl); domains from established knowledge."
+ },
+ "Chan Brothers": {
+  "resolution": "real_entity",
+  "entity_id": "chanbrothers.com",
+  "official_domains": [
+   "chanbrothers.com",
+   "chanbrothers.com.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "travel",
+  "confidence": "high",
+  "evidence": [
+   "https://www.chanbrothers.com/",
+   "https://www.chanbrothers.com.sg/"
+  ],
+  "notes": "SG travel agency (chanbrothers.com.sg redirects to chanbrothers.com). Phishing page sell.sctt.net."
+ },
+ "SEI": {
+  "resolution": "ambiguous",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "low",
+  "evidence": [
+   "https://www.sei.io/"
+  ],
+  "notes": "Named by SPF as a brand linked to suspicious investment site seeee.cc. Candidates: Sei blockchain / SEI token (sei.io, opened 2026-11-26) - most consistent with crypto co-tags - or SEI Investments (seic.com). Unresolved."
+ },
+ "Skild AI": {
+  "resolution": "real_entity",
+  "entity_id": "skild.ai",
+  "official_domains": [
+   "skild.ai"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "medium",
+  "evidence": [
+   "https://www.skild.ai/"
+  ],
+  "notes": "Real robotics-AI startup; name misused for fake investment (skdai001.xyz)."
+ },
+ "Starview": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "low",
+  "evidence": [],
+  "notes": "Job-task site starview.cyou; no real company found (web search 2026-11-26). SPF calls it a \"legitimate company\" but evidence of one is lacking."
+ },
+ "GREY": {
+  "resolution": "real_entity",
+  "entity_id": "grey.com",
+  "official_domains": [
+   "grey.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "medium",
+  "evidence": [
+   "https://www.grey.com/"
+  ],
+  "notes": "Grey Group advertising agency; fake job \"work hub\" greygroupworkhub.com."
+ },
+ "Coinbase": {
+  "resolution": "real_entity",
+  "entity_id": "coinbase.com",
+  "official_domains": [
+   "coinbase.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "crypto",
+  "confidence": "high",
+  "evidence": [],
+  "notes": "Typosquat oinbase-staking.com (fake staking). coinbase.com behind Cloudflare (403 to curl); domain from established knowledge."
+ },
+ "PUMP MINING": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [],
+  "notes": "Fake crypto-mining platform (pumpmining.top); not named in body text."
+ },
+ "Novartis AG VIP": {
+  "resolution": "real_entity",
+  "entity_id": "novartis.com",
+  "official_domains": [
+   "novartis.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "healthcare",
+  "confidence": "medium",
+  "evidence": [
+   "https://www.novartis.com/"
+  ],
+  "notes": "Fake \"VIP\" investment scheme built on the Novartis name (herb6.vip). Real-company name cloned by a fake platform."
+ },
+ "CNPC": {
+  "resolution": "real_entity",
+  "entity_id": "cnpc.com.cn",
+  "official_domains": [
+   "cnpc.com.cn"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "medium",
+  "evidence": [],
+  "notes": "China National Petroleum Corporation; tag not explained in body (themostprofitableapp.us, long-termprojects.us oil-investment lure). cnpc.com.cn answered HTTP 412 to curl; domain from established knowledge."
+ },
+ "Virtu": {
+  "resolution": "real_entity",
+  "entity_id": "virtu.com",
+  "official_domains": [
+   "virtu.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "brokerage",
+  "confidence": "medium",
+  "evidence": [
+   "https://www.virtu.com/"
+  ],
+  "notes": "Virtu Financial (market maker); name misused on same fake investment sites as CNPC."
+ },
+ "GDC Mining": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [],
+  "notes": "Fake crypto-mining platform (gdcmining.shop)."
+ },
+ "Hotorders": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [],
+  "notes": "Fake investment platform (hotorders.org)."
+ },
+ "Velo Trust": {
+  "resolution": "ambiguous",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "low",
+  "evidence": [],
+  "notes": "SPF: sites \"impersonating Velo Trust\" (velotrust-exchanges.com). A London bitcoin OTC desk/custodian \"Velo Trust\" appears in old crypto directories (CryptoSlate), status/official domain unverified; could equally be a fictitious platform."
+ },
+ "IRUN": {
+  "resolution": "real_entity",
+  "entity_id": "irunsg.com",
+  "official_domains": [
+   "irunsg.com"
+  ],
+  "is_singapore_entity": true,
+  "sector": "retail",
+  "confidence": "high",
+  "evidence": [
+   "https://irunsg.com/"
+  ],
+  "notes": "iRUN Singapore running-gear retailer; lookalike irunsg.shop."
+ },
+ "Motor AI": {
+  "resolution": "real_entity",
+  "entity_id": "motor-ai.com",
+  "official_domains": [
+   "motor-ai.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "medium",
+  "evidence": [
+   "https://www.motor-ai.com/"
+  ],
+  "notes": "MOTOR Ai, Berlin autonomous-driving startup; job scam site motorai.net."
+ },
+ "Facebook": {
+  "resolution": "real_entity",
+  "entity_id": "facebook.com",
+  "official_domains": [
+   "facebook.com",
+   "meta.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "tech_platform",
+  "confidence": "high",
+  "evidence": [],
+  "notes": "Meta platform used as a lure brand in job scams. facebook.com returned HTTP 400 to curl; domain from established knowledge."
+ },
+ "VanguardETFs": {
+  "resolution": "real_entity",
+  "entity_id": "vanguard.com",
+  "official_domains": [
+   "vanguard.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "brokerage",
+  "confidence": "medium",
+  "evidence": [
+   "https://www.vanguard.com/"
+  ],
+  "notes": "Vanguard (fund manager); fake vanguardetfs.xyz. Tag not named in body text."
+ },
+ "GTS": {
+  "resolution": "ambiguous",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "low",
+  "evidence": [],
+  "notes": "SPF says investment sites (veobike.vip, yushiai.vip) \"impersonate legitimate brands like VEO and GTS\"; no specific GTS entity identifiable."
+ },
+ "VEO": {
+  "resolution": "real_entity",
+  "entity_id": "veoride.com",
+  "official_domains": [
+   "veoride.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "transport",
+  "confidence": "low",
+  "evidence": [
+   "https://www.veoride.com/"
+  ],
+  "notes": "Probably Veo (VeoRide) shared e-bike/scooter operator: scam site veobike.vip fits the \"invest in shared bikes\" pattern also seen with Lyft Bikes. Low confidence."
+ },
+ "BTC MINING": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [],
+  "notes": "Generic-named fake cloud-mining platform (btc-mining.trade)."
+ },
+ "Audi Capital": {
+  "resolution": "ambiguous",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "low",
+  "evidence": [],
+  "notes": "Not explained in body (innovative-finance.cc, nvidialisuj.top). Candidates: Audi Capital, a Riyadh asset manager (search results only, domain unverified), or misuse of the Audi brand. Needs review."
+ },
+ "V&A MINING": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [],
+  "notes": "Fake mining platform (vandamining.net)."
+ },
+ "QUALCOMM invest": {
+  "resolution": "real_entity",
+  "entity_id": "qualcomm.com",
+  "official_domains": [
+   "qualcomm.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "medium",
+  "evidence": [
+   "https://www.qualcomm.com/"
+  ],
+  "notes": "Fake \"QUALCOMM invest\" platform (qumbep.net) cloning the Qualcomm name."
+ },
+ "Bear World": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [],
+  "notes": "Fake investment platform (bear-world.org)."
+ },
+ "Rolex": {
+  "resolution": "real_entity",
+  "entity_id": "rolex.com",
+  "official_domains": [
+   "rolex.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "retail",
+  "confidence": "high",
+  "evidence": [],
+  "notes": "Luxury brand used in fake investment scheme (zylanto.site). rolex.com blocks curl (403); domain from established knowledge."
+ },
+ "Aurum Exchange": {
+  "resolution": "ambiguous",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "low",
+  "evidence": [],
+  "notes": "SPF lists it among \"fake investment platforms\" (aurumexchanges.com). A crypto \"Aurum Exchange\" by Aurum Foundation (aurum.trading) exists per search results but has a mixed reputation and was not verified. Clone vs. fictitious unclear."
+ },
+ "BeReal": {
+  "resolution": "real_entity",
+  "entity_id": "bereal.com",
+  "official_domains": [
+   "bereal.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "tech_platform",
+  "confidence": "high",
+  "evidence": [
+   "https://bereal.com/"
+  ],
+  "notes": "Typosquat bereall.com used in investment scam."
+ },
+ "LdnBit": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "high",
+  "evidence": [],
+  "notes": "SPF explicitly calls LdnBit a fake investment platform."
+ },
+ "Carousell": {
+  "resolution": "real_entity",
+  "entity_id": "carousell.sg",
+  "official_domains": [
+   "carousell.sg",
+   "carousell.com"
+  ],
+  "is_singapore_entity": true,
+  "sector": "marketplace",
+  "confidence": "high",
+  "evidence": [],
+  "notes": "SG-HQ classifieds marketplace; \"free goods\" phishing allfreegoods.shop. carousell.sg/.com behind Cloudflare (403); domains from established knowledge."
+ },
+ "MalaysiaArrivalCard": {
+  "resolution": "real_entity",
+  "entity_id": "imi.gov.my#mdac",
+  "official_domains": [
+   "imi.gov.my",
+   "imigresen-online.imi.gov.my"
+  ],
+  "is_singapore_entity": false,
+  "sector": "gov.programme",
+  "confidence": "high",
+  "evidence": [
+   "https://imigresen-online.imi.gov.my/mdac/main",
+   "https://www.imi.gov.my/"
+  ],
+  "notes": "Malaysia Digital Arrival Card (MDAC), Immigration Department of Malaysia; free official form at imigresen-online.imi.gov.my/mdac. Fee-charging lookalikes arrivalsmalaysia.com, earrivalform.com."
+ },
+ "Malaysia Digital Arrival Card": {
+  "resolution": "real_entity",
+  "entity_id": "imi.gov.my#mdac",
+  "official_domains": [
+   "imi.gov.my",
+   "imigresen-online.imi.gov.my"
+  ],
+  "is_singapore_entity": false,
+  "sector": "gov.programme",
+  "confidence": "high",
+  "evidence": [
+   "https://imigresen-online.imi.gov.my/mdac/main",
+   "https://www.imi.gov.my/"
+  ],
+  "notes": "Same entity as \"MalaysiaArrivalCard\" tag."
+ },
+ "Web3.0": {
+  "resolution": "generic_or_placeholder",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "high",
+  "evidence": [],
+  "notes": "Generic technology term used as investment lure, not an organisation."
+ },
+ "Sentosa": {
+  "resolution": "real_entity",
+  "entity_id": "sentosa.com.sg",
+  "official_domains": [
+   "sentosa.com.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "gov.statboard",
+  "confidence": "high",
+  "evidence": [
+   "https://www.sentosa.com.sg/"
+  ],
+  "notes": "Sentosa Development Corporation (statutory board); lookalike sentosa-sg.com."
+ },
+ "Climate Vouchers": {
+  "resolution": "real_entity",
+  "entity_id": "climate-friendly-households.gov.sg",
+  "official_domains": [
+   "climate-friendly-households.gov.sg",
+   "redeem.gov.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "gov.programme",
+  "confidence": "high",
+  "evidence": [
+   "https://www.climate-friendly-households.gov.sg/"
+  ],
+  "notes": "Climate Friendly Households Programme (MSE/NEA). Genuine voucher links start with voucher.redeem.gov.sg (RedeemSG). Fake site goov.up.railway.app."
+ },
+ "Ministry of Home Affairs (MHA)": {
+  "resolution": "real_entity",
+  "entity_id": "mha.gov.sg",
+  "official_domains": [
+   "mha.gov.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "gov.ministry",
+  "confidence": "high",
+  "evidence": [
+   "https://www.mha.gov.sg/"
+  ],
+  "notes": "Fake MHA directory site mhadirectories-1.top."
+ },
+ "Violafi": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [],
+  "notes": "Fake investment site violafi.com (with lieshou.vip)."
+ },
+ "Tiger Brokers": {
+  "resolution": "real_entity",
+  "entity_id": "itiger.com",
+  "official_domains": [
+   "itiger.com",
+   "tigerbrokers.com.sg"
+  ],
+  "is_singapore_entity": false,
+  "sector": "brokerage",
+  "confidence": "high",
+  "evidence": [
+   "https://www.tigerbrokers.com.sg/"
+  ],
+  "notes": "tigerbrokers.com.sg redirects to itiger.com/sg (observed). SG arm Tiger Brokers (Singapore) Pte Ltd; parent UP Fintech. Lookalikes itigereo.top, moomoes.top."
+ },
+ "ApMatrix": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "low",
+  "evidence": [],
+  "notes": "Not named in body (harmonyreel.net, apxcw.com); no real \"ApMatrix\" platform found."
+ },
+ "Sky Marine Hotel": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "high",
+  "evidence": [],
+  "notes": "SPF: \"Sky Marine Hotel Singapore is a fraudulent hotel listing\" on Google Maps etc. (skymarinehotel.com)."
+ },
+ "AI Robot": {
+  "resolution": "generic_or_placeholder",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [],
+  "notes": "Generic \"AI trading robot\" descriptor (airobotbep.top), not an organisation."
+ },
+ "uSMART": {
+  "resolution": "real_entity",
+  "entity_id": "usmart.sg",
+  "official_domains": [
+   "usmart.sg"
+  ],
+  "is_singapore_entity": false,
+  "sector": "brokerage",
+  "confidence": "high",
+  "evidence": [
+   "https://www.usmart.sg/"
+  ],
+  "notes": "uSMART Securities (Singapore) online broker (parent HK-based); lookalike usmartsg.sg."
+ },
+ "MPC-HC": {
+  "resolution": "real_entity",
+  "entity_id": "mpc-hc.org",
+  "official_domains": [
+   "mpc-hc.org"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "medium",
+  "evidence": [
+   "https://mpc-hc.org/",
+   "https://github.com/clsid2/mpc-hc"
+  ],
+  "notes": "Media Player Classic - Home Cinema, open-source player; maintained fork at github.com/clsid2/mpc-hc. Job-scam site mpc-hc789.shop."
+ },
+ "Space Seven": {
+  "resolution": "real_entity",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": false,
+  "sector": "crypto",
+  "confidence": "low",
+  "evidence": [],
+  "notes": "Likely SpaceSeven (SpaceSeven AG, Zug; NFT marketplace built by Tacans; Swiss company register shows it in liquidation 2026). Scam domains spacesevenag.com / spaceiseven.com copy the \"Space Seven AG\" name. Official domain not verified (presumably spaceseven.com), so entity_id left null."
+ },
+ "MedWOW": {
+  "resolution": "real_entity",
+  "entity_id": "medwow.com",
+  "official_domains": [
+   "medwow.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "marketplace",
+  "confidence": "medium",
+  "evidence": [],
+  "notes": "MedWOW = online marketplace for used medical equipment (NY/Cyprus). Job scam site medwow.cc. www.medwow.com did not respond to curl; domain from search results (Crunchbase/Trustpilot), not opened."
+ },
+ "BizVibe": {
+  "resolution": "real_entity",
+  "entity_id": "bizvibe.com",
+  "official_domains": [
+   "bizvibe.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "marketplace",
+  "confidence": "medium",
+  "evidence": [
+   "https://www.bizvibe.com/"
+  ],
+  "notes": "Real B2B marketplace; job-task scams (bigbuy.rest, tiktokvipshops.com, ebayhot.com) cite its name."
+ }
+}

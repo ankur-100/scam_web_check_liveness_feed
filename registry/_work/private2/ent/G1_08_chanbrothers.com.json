@@ -1,0 +1,35 @@
+{
+ "entity_id": "chanbrothers.com",
+ "name": "Chan Brothers Travel",
+ "abbr": null,
+ "aliases": [
+  "Chan Brothers",
+  "Chan Brothers Travel"
+ ],
+ "sector": "travel",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "chanbrothers.com"
+ ],
+ "official_hosts": [
+  "www.chanbrothers.com"
+ ],
+ "scam_info": [],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": [
+   "https://www.facebook.com/ChanBrothersTravelSG",
+   "https://www.instagram.com/chanbrotherstravel/?hl=en",
+   "https://www.tiktok.com/@chanbrothers.sg"
+  ],
+  "apps": [],
+  "emails": []
+ },
+ "evidence": [
+  "https://www.chanbrothers.com/"
+ ],
+ "notes": "Tier 2 (1 request). Official site www.chanbrothers.com (b; HTTP 200). Homepage has no scam/fraud notice or link. SPF brand-tag 'Chan Brothers' sample domain sell.sctt.net is an SPF-side indicator (never visited)."
+}

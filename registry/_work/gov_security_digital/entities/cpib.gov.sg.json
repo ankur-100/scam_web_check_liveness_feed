@@ -1,0 +1,56 @@
+{
+ "entity_id": "cpib.gov.sg",
+ "name": "Corrupt Practices Investigation Bureau",
+ "abbr": "CPIB",
+ "aliases": [
+  "Corrupt Practices Investigation Bureau (CPIB)"
+ ],
+ "sector": "gov.dept",
+ "parent_entity_id": "pmo.gov.sg",
+ "country": "SG",
+ "official_domains": [
+  "cpib.gov.sg"
+ ],
+ "official_hosts": [
+  "www.cpib.gov.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.cpib.gov.sg/advisory/",
+   "kind": "scam_faq",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2026-06-25",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Government officials will NEVER do these things over a phone call: Ask you to transfer money; Ask you to disclose bank log-in details;",
+   "notes": "GOIS guidance page (same template as SPF /advisories/scams)."
+  },
+  {
+   "url": "https://www.cpib.gov.sg/press-room/advisory-phone-impersonation-scams/",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2018-04-02",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "members of the public have recently received calls from the Corrupt Practices Investigation Bureau (CPIB) hotline relating to the collection of documents/parcel. The CPIB would like to clarify that these calls were not made by our officers.",
+   "notes": "Spoofed CPIB hotline (number not stated in the text extract). Sitemap 576 URLs; other \"fraud\" hits are GST-refund fraud prosecutions."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [
+   "gov.sg"
+  ],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": []
+ },
+ "evidence": [
+  "https://www.sgdi.gov.sg/ministries/pmo/departments/cpib",
+  "https://www.cpib.gov.sg/sitemap.xml"
+ ],
+ "notes": "Narrative only."
+}

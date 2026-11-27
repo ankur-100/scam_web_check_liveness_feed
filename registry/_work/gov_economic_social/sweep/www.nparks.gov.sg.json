@@ -1,0 +1,18 @@
+{
+ "host": "www.nparks.gov.sg",
+ "robots_status": 200,
+ "robots": "User-agent: *\r\nSitemap: https://cms.nparks.prj.simsys.sg/sitemap/sitemap-index.xml",
+ "sitemaps_declared": [
+  "https://cms.nparks.prj.simsys.sg/sitemap/sitemap-index.xml"
+ ],
+ "sitemaps_fetched": [],
+ "errors": [
+  [
+   "https://cms.nparks.prj.simsys.sg/sitemap/sitemap-index.xml",
+   "ERR SSLError"
+  ]
+ ],
+ "total_urls": 0,
+ "hosts_in_sitemap": {},
+ "matches": []
+}

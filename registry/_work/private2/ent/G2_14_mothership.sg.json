@@ -1,0 +1,61 @@
+{
+ "entity_id": "mothership.sg",
+ "name": "Mothership",
+ "abbr": null,
+ "aliases": [
+  "Mothership",
+  "Mothership.SG"
+ ],
+ "sector": "media",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "mothership.sg"
+ ],
+ "official_hosts": [
+  "mothership.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://mothership.sg/2026/08/fake-mothership-rolex-139/",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2026-08-21",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "We are not offering any discounts on watches. This particular scam implies we have S$139 deals on Rolexes. We do not.",
+   "notes": "Mothership self-impersonation warning (fake Mothership Facebook account selling discounted watches). Narrative; fake account names not listed."
+  },
+  {
+   "url": "https://mothership.sg/2025/08/fake-mothership-accounts/",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2025-08-11",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "More fraudulent Facebook accounts impersonating Mothership have been appearing on the feeds of social media users.",
+   "notes": "Series of self-impersonation warnings; others found via search (not opened): /2025/06/fb-impersonate-mothership/, /2026/04/watch-fake-omega-tissot-mothership/, /2026/01/mothership-penny-stocks-fake/ (fake penny-stock page), /2026/06/steven-chia-cna-article-scam/ (fake CNA-style article). No tag/RSS discovery endpoint found (homepage exposes only /category/* links; /tag/scam/ 404)."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": [
+   "https://www.instagram.com/mothershipsg/",
+   "https://t.me/mothershipsg"
+  ],
+  "apps": [],
+  "emails": []
+ },
+ "evidence": [
+  "https://mothership.sg/",
+  "https://mothership.sg/2025/08/fake-mothership-accounts/",
+  "https://mothership.sg/2026/08/fake-mothership-rolex-139/"
+ ],
+ "notes": "official_domains: mothership.sg (b). robots.txt minimal (disallows /*/fb/*, /*/amp/*). Fake accounts are Facebook pages with pixelated Mothership-like logos; no concrete handles/URLs published. Social links taken from article footer (Facebook/Twitter links there are share buttons, not profiles)."
+}

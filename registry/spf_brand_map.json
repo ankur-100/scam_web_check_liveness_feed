@@ -1,0 +1,2598 @@
+[
+ {
+  "brand_value": "Land Transport Authority (LTA)",
+  "tag_id": "d08ce456-358c-4297-ab61-ea654c314afd",
+  "resolution": "real_entity",
+  "entity_id": "lta.gov.sg",
+  "official_domains": [
+   "lta.gov.sg",
+   "onemotoring.lta.gov.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "gov.statboard",
+  "confidence": "high",
+  "evidence": [
+   "https://www.lta.gov.sg/",
+   "https://onemotoring.lta.gov.sg/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-lta-d417b83d",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-lta-websites-impersonating-land-transport-authority-cd50b0fc"
+  ],
+  "notes": "Impersonated (18 advisories). Scam sites imitate OneMotoring / ERP & parking-fine / road-tax payment pages (e.g. onemotoring-iza.top, citepay.top)."
+ },
+ {
+  "brand_value": "WhatsApp",
+  "tag_id": "528c22fe-54db-436a-9f05-cdf257003c71",
+  "resolution": "real_entity",
+  "entity_id": "whatsapp.com",
+  "official_domains": [
+   "whatsapp.com",
+   "wa.me"
+  ],
+  "is_singapore_entity": false,
+  "sector": "tech_platform",
+  "confidence": "high",
+  "evidence": [
+   "https://www.whatsapp.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/impersonation-scams-using-fake-whatsapp-websites-9f2d51f4",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/whatsapp-impersonation-scams-c1724f8f"
+  ],
+  "notes": "Meta-owned messenger. Impersonated via fake WhatsApp/WhatsApp Web lookalike domains (whasgapp.com, whetsap.cam) for account takeover; also the channel for job/investment lures. www.whatsapp.com answered HTTP 400 to curl but is the well-known official domain; wa.me is the official click-to-chat short link."
+ },
+ {
+  "brand_value": "CNA",
+  "tag_id": "8d3f3eb7-bdf7-4395-845f-1b8ee6bbaec4",
+  "resolution": "real_entity",
+  "entity_id": "channelnewsasia.com",
+  "official_domains": [
+   "channelnewsasia.com"
+  ],
+  "is_singapore_entity": true,
+  "sector": "media",
+  "confidence": "high",
+  "evidence": [
+   "https://www.channelnewsasia.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-cna-investment-schemes-5a8178c7",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-cna-f62f8c29"
+  ],
+  "notes": "CNA = Mediacorp news channel (www.channelnewsasia.com). Scammers clone CNA news articles/ads with fake endorsements to push investment platforms (truedesignsolutions.shop, zenvaroe.com, avernovat.com)."
+ },
+ {
+  "brand_value": "TikTok",
+  "tag_id": "840ed2d8-1859-4af2-980d-b4adca830e7c",
+  "resolution": "real_entity",
+  "entity_id": "tiktok.com",
+  "official_domains": [
+   "tiktok.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "tech_platform",
+  "confidence": "high",
+  "evidence": [
+   "https://www.tiktok.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/job-scams-impersonating-tiktok-27609357",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-job-scams-impersonating-tiktok-0fe35827"
+  ],
+  "notes": "Job scams: fake TikTok \"like/follow\" tasks and TikTok-Shop-style merchant task sites (e.g. tiktokvipshops.com)."
+ },
+ {
+  "brand_value": "UnionPay",
+  "tag_id": "09fc1dc2-70b6-4820-8dad-5df0d4fe739a",
+  "resolution": "real_entity",
+  "entity_id": "unionpayintl.com",
+  "official_domains": [
+   "unionpayintl.com",
+   "unionpay.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "payments",
+  "confidence": "high",
+  "evidence": [
+   "https://www.unionpayintl.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/scam-websites-impersonating-unionpay-8f10118c",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-unionpay-security-check-scam-websites-b4bd3436"
+  ],
+  "notes": "Card scheme (UnionPay International). Fake UnionPay \"security check\" pages on .cfd domains harvest card/login data; SPF advisory itself cites unionpayintl.com as the official site. unionpay.com = China UnionPay parent (established knowledge)."
+ },
+ {
+  "brand_value": "DBS",
+  "tag_id": "238adae4-4989-4799-87bd-5fbb2c210e70",
+  "resolution": "real_entity",
+  "entity_id": "dbs.com.sg",
+  "official_domains": [
+   "dbs.com.sg",
+   "dbs.com",
+   "posb.com.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "bank",
+  "confidence": "high",
+  "evidence": [
+   "https://www.dbs.com.sg/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-dbs-banking-websites-8b05d3bf",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-dbs-bank-b07bb49a"
+  ],
+  "notes": "Banking phishing (dbsi-banking.com etc.). dbs.com = DBS Group site, posb.com.sg = POSB (DBS) brand."
+ },
+ {
+  "brand_value": "Singapore Police Force (SPF)",
+  "tag_id": "43f2fb2d-7e5d-42c9-a8e9-047002c0c06d",
+  "resolution": "real_entity",
+  "entity_id": "police.gov.sg",
+  "official_domains": [
+   "police.gov.sg",
+   "eservices.police.gov.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "gov.dept",
+  "confidence": "high",
+  "evidence": [
+   "https://www.police.gov.sg/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-singapore-police-force-websites-and-messages-b633b3b7",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-spf-websites-impersonating-the-police-7f6b01a2"
+  ],
+  "notes": "Government-official impersonation: fake SPF websites/messages (workers.dev / pages.dev hosts, policegov.eu.cc). SPF is a Home Team department under MHA."
+ },
+ {
+  "brand_value": "Ninjavan",
+  "tag_id": "2e777c36-4936-4f8d-8aca-ad5c20408a35",
+  "resolution": "real_entity",
+  "entity_id": "ninjavan.co",
+  "official_domains": [
+   "ninjavan.co"
+  ],
+  "is_singapore_entity": true,
+  "sector": "logistics",
+  "confidence": "high",
+  "evidence": [
+   "https://www.ninjavan.co/en-sg",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/ninjavan-phishing-scams-verify-delivery-links-eb00e021",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-ninjavan-902ac1dc"
+  ],
+  "notes": "Ninja Van (Singapore-founded parcel courier). Fake redelivery / address-update pages on random .cfd domains."
+ },
+ {
+  "brand_value": "Inland Revenue Authority of Singapore (IRAS)",
+  "tag_id": "8b801dfe-e7d7-4183-9356-9229da6ec614",
+  "resolution": "real_entity",
+  "entity_id": "iras.gov.sg",
+  "official_domains": [
+   "iras.gov.sg",
+   "mytax.iras.gov.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "gov.statboard",
+  "confidence": "high",
+  "evidence": [
+   "https://www.iras.gov.sg/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-iras-e5b21e8b",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/malware-scams-impersonating-government-agencies-like-iras-f6b4a762"
+  ],
+  "notes": "Fake tax-refund / myTax Portal phishing and malware lures (irasz.com, govment.cc)."
+ },
+ {
+  "brand_value": "SingPost",
+  "tag_id": "955db5a1-1984-480e-8726-3ce2c4b4f6e2",
+  "resolution": "real_entity",
+  "entity_id": "singpost.com",
+  "official_domains": [
+   "singpost.com"
+  ],
+  "is_singapore_entity": true,
+  "sector": "logistics",
+  "confidence": "high",
+  "evidence": [
+   "https://www.singpost.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-singpost-websites-992f28d2",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-singpost-websites-and-phishing-scams-1231e754"
+  ],
+  "notes": "Parcel-delivery phishing (failed delivery / redelivery fee)."
+ },
+ {
+  "brand_value": "CDC Vouchers",
+  "tag_id": "7dc1f2ce-ff50-4b3d-973c-92c3e8ba3862",
+  "resolution": "real_entity",
+  "entity_id": "cdc.gov.sg#cdc-vouchers",
+  "official_domains": [
+   "cdc.gov.sg",
+   "vouchers.cdc.gov.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "gov.programme",
+  "confidence": "high",
+  "evidence": [
+   "https://vouchers.cdc.gov.sg/",
+   "https://www.cdc.gov.sg/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/impersonation-scams-involving-cdc-vouchers-96d1792c",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/impersonation-scams-targeting-cdc-vouchers-1b23e217"
+  ],
+  "notes": "CDC Vouchers Scheme (Community Development Councils). Official claim site vouchers.cdc.gov.sg; scam clones hosted on herokuapp/koyeb."
+ },
+ {
+  "brand_value": "MooMoo",
+  "tag_id": "0ff7972c-d720-468e-a010-e7b83b604991",
+  "resolution": "real_entity",
+  "entity_id": "moomoo.com",
+  "official_domains": [
+   "moomoo.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "brokerage",
+  "confidence": "high",
+  "evidence": [
+   "https://www.moomoo.com/sg",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-moomoo-7c5e3240",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-moomoo-e414f159"
+  ],
+  "notes": "Moomoo (Futu Holdings) trading app; SG arm Moomoo Financial Singapore Pte Ltd (MAS-licensed), parent foreign. Credential-phishing clones on random .live domains."
+ },
+ {
+  "brand_value": "Booking.com",
+  "tag_id": "be1d6781-9c33-43b6-a162-d369c0253821",
+  "resolution": "real_entity",
+  "entity_id": "booking.com",
+  "official_domains": [
+   "booking.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "travel",
+  "confidence": "high",
+  "evidence": [
+   "https://www.booking.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-booking-com-1bd87ee3",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-booking-com-observed-51d3835b"
+  ],
+  "notes": "Hotel-reservation \"verify your booking/card\" phishing (reserv-advanced*.com, secureresverify.com)."
+ },
+ {
+  "brand_value": "Lalamove",
+  "tag_id": "39b81e0e-800f-439b-ad9a-eecb05ca1f21",
+  "resolution": "real_entity",
+  "entity_id": "lalamove.com",
+  "official_domains": [
+   "lalamove.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "logistics",
+  "confidence": "high",
+  "evidence": [
+   "https://www.lalamove.com/en-sg/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-lalamove-phishing-sites-2fe43f17",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-lalamove-phishing-sites-and-messages-aecfc6bc"
+  ],
+  "notes": "On-demand delivery (HK-HQ). Phishing via lalamove.eu.cc and random domains."
+ },
+ {
+  "brand_value": "JKF",
+  "tag_id": "4e7cbded-353a-49f8-9455-150bd2fc2c9c",
+  "resolution": "ambiguous",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "low",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/act-against-job-scams-impersonating-e-commerce-platforms-507e8d21",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-job-offers-on-suspicious-websites-5c206874"
+  ],
+  "notes": "Never explained in advisory text; co-tagged with TikTok/BizVibe/B2B Wave/flance on job-task scam sites (coupang-vip.com, wwwshopee.net, bigbuy.rest). No company \"JKF\" linked to task/e-commerce jobs found (web search 2026-11-26). Could be a fake platform label read from screenshots. Needs human review."
+ },
+ {
+  "brand_value": "UOB",
+  "tag_id": "ee7cd37c-160b-4dc6-b4ef-a7c72c7ef8c2",
+  "resolution": "real_entity",
+  "entity_id": "uob.com.sg",
+  "official_domains": [
+   "uob.com.sg",
+   "uobgroup.com"
+  ],
+  "is_singapore_entity": true,
+  "sector": "bank",
+  "confidence": "high",
+  "evidence": [
+   "https://www.uob.com.sg/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-uob-8c77d271",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-banking-websites-impersonating-dbs-and-uob-17e317a7"
+  ],
+  "notes": "United Overseas Bank. Banking phishing pages hosted on compromised third-party sites."
+ },
+ {
+  "brand_value": "B2B Wave",
+  "tag_id": "b4c56fde-f962-4e34-a9a3-5d0939e36e22",
+  "resolution": "real_entity",
+  "entity_id": "b2bwave.com",
+  "official_domains": [
+   "b2bwave.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "tech_platform",
+  "confidence": "medium",
+  "evidence": [
+   "https://www.b2bwave.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-online-job-scams-impersonating-b2b-wave-and-other-bf2a0de7",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/job-scam-advisory-b2b-wave-impersonation-c8362285"
+  ],
+  "notes": "Real B2B e-commerce SaaS platform. Job-task scam sites (bigbuy.rest, bigbuyshops.*, cdiscountsb.com, argos-online.me) claim the B2B Wave name; the scams also clone retailers BigBuy, Cdiscount, Argos."
+ },
+ {
+  "brand_value": "NVIDIA",
+  "tag_id": "2d6181ab-90bc-4473-a493-bf9cf146979c",
+  "resolution": "real_entity",
+  "entity_id": "nvidia.com",
+  "official_domains": [
+   "nvidia.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "high",
+  "evidence": [
+   "https://www.nvidia.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-scams-impersonating-nvidia-8f376e4b",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-brands-and-promising-high-5f3bf932"
+  ],
+  "notes": "Brand/logo misused for fake investment platforms (security-platform.vip, nvidialisuj.top). Not a financial firm."
+ },
+ {
+  "brand_value": "Singpass",
+  "tag_id": "cab679f4-ea70-4841-b20f-8b9766a54dcd",
+  "resolution": "real_entity",
+  "entity_id": "singpass.gov.sg",
+  "official_domains": [
+   "singpass.gov.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "gov.programme",
+  "confidence": "high",
+  "evidence": [
+   "https://www.singpass.gov.sg/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/protect-your-singpass-account-from-phishing-scams-9d383d52",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-singpass-79416ee2"
+  ],
+  "notes": "National digital identity (GovTech). Credential-phishing clones on workers.dev / compromised sites."
+ },
+ {
+  "brand_value": "Park N Parcel",
+  "tag_id": "ba0dc063-53b2-44e0-9ebf-3e2df2f56a90",
+  "resolution": "real_entity",
+  "entity_id": "parknparcel.com.sg",
+  "official_domains": [
+   "parknparcel.com.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "logistics",
+  "confidence": "high",
+  "evidence": [
+   "https://www.parknparcel.com.sg/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/park-n-parcel-phishing-scams-048a90c9",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scam-alert-impersonation-of-park-n-parcel-688792d5"
+  ],
+  "notes": "SG parcel collection-point network. Fake parcel-payment pages (parcel-*.top); SPF advisory cites parknparcel.com.sg as official."
+ },
+ {
+  "brand_value": "LG",
+  "tag_id": "7754ccf5-e6c3-4950-bd35-91be42b07941",
+  "resolution": "real_entity",
+  "entity_id": "lg.com",
+  "official_domains": [
+   "lg.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "high",
+  "evidence": [
+   "https://www.lg.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-scams-impersonating-lg-32f2462b",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-opportunities-impersonating-lg-c5711533"
+  ],
+  "notes": "LG Electronics name misused for fake \"new energy\" investment sites (lgnewenergy.com, gaouga.app)."
+ },
+ {
+  "brand_value": "No Brand",
+  "tag_id": "43a9b1bf-998b-48ee-b042-afed910b9fb5",
+  "resolution": "generic_or_placeholder",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "high",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-online-shopping-deals-e-commerce-scams-563a08b7",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/phishing-websites-impersonating-events-f413d34c"
+  ],
+  "notes": "SPF placeholder tag used when no brand is identified (generic fake shopping deals; fake event-registration phishing page ite-pm-event.netlify.app)."
+ },
+ {
+  "brand_value": "SPX",
+  "tag_id": "2533d436-6c3b-4e6f-a66d-21a3c44f3d49",
+  "resolution": "real_entity",
+  "entity_id": "spx.sg",
+  "official_domains": [
+   "spx.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "logistics",
+  "confidence": "high",
+  "evidence": [
+   "https://spx.sg/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-spx-af5b556c",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-spx-8d095f94"
+  ],
+  "notes": "SPX Express (Shopee/Sea Group courier). Parcel-fee phishing (llkw.top, villen.cyou); SPF advisory cites spx.sg as official."
+ },
+ {
+  "brand_value": "Gov.sg",
+  "tag_id": "928a05fc-c262-4cec-9f90-f348632230c8",
+  "resolution": "real_entity",
+  "entity_id": "gov.sg",
+  "official_domains": [
+   "gov.sg",
+   "go.gov.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "gov.programme",
+  "confidence": "high",
+  "evidence": [
+   "https://www.gov.sg/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/gov-sg-impersonation-scams-6e617672",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-gov-sg-websites-impersonating-official-government-69398265"
+  ],
+  "notes": "Gov.sg = Singapore Government official communications channel (site www.gov.sg, SMS sender ID \"gov.sg\", short links go.gov.sg). Note gov.sg is also the public suffix of all SG government domains. Scam pages on workers.dev / .online."
+ },
+ {
+  "brand_value": "Immigration & Checkpoints Authority of Singapore (ICA)",
+  "tag_id": "13ffa1e1-3c4e-416c-83a2-a6d6a39297d5",
+  "resolution": "real_entity",
+  "entity_id": "ica.gov.sg",
+  "official_domains": [
+   "ica.gov.sg",
+   "eservices.ica.gov.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "gov.dept",
+  "confidence": "high",
+  "evidence": [
+   "https://www.ica.gov.sg/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/scams-impersonating-ica-d4e85cc7",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/scams-impersonating-the-immigration-checkpoints-authority-f5d99f78"
+  ],
+  "notes": "Fake ICA sites (ica-gov.com). ICA is a Home Team department under MHA."
+ },
+ {
+  "brand_value": "MoneySmart",
+  "tag_id": "e584a7bc-2966-43b6-841b-1742688a1c50",
+  "resolution": "real_entity",
+  "entity_id": "moneysmart.sg",
+  "official_domains": [
+   "moneysmart.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "other",
+  "confidence": "medium",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-moneysmart-890fa625",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-moneysmart-3966078d"
+  ],
+  "notes": "SG personal-finance comparison/rewards site. Lookalikes money-sm.art, moneysmart.money, moneysmart.click. www.moneysmart.sg returned a Cloudflare challenge (403) to curl; domain from established knowledge."
+ },
+ {
+  "brand_value": "Netflix",
+  "tag_id": "9b2649ac-09ef-4ee4-9d68-94e0c1729323",
+  "resolution": "real_entity",
+  "entity_id": "netflix.com",
+  "official_domains": [
+   "netflix.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "media",
+  "confidence": "high",
+  "evidence": [
+   "https://www.netflix.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-netflix-4d0d8c71",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/spotting-fake-netflix-websites-a-phishing-scam-advisory-0a590275"
+  ],
+  "notes": "Subscription/payment-update phishing (netflix-home.info, streamhelpcenter.com)."
+ },
+ {
+  "brand_value": "Telegram",
+  "tag_id": "2e6980f3-2808-4144-90b3-7fbd3d0f9394",
+  "resolution": "real_entity",
+  "entity_id": "telegram.org",
+  "official_domains": [
+   "telegram.org",
+   "t.me"
+  ],
+  "is_singapore_entity": false,
+  "sector": "tech_platform",
+  "confidence": "high",
+  "evidence": [
+   "https://telegram.org/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/telegram-impersonation-scams-87e3673a",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/impersonation-scams-on-telegram-c2c224ba"
+  ],
+  "notes": "Fake Telegram login/Premium pages (telegrinim-tg.cc). t.me = official link domain."
+ },
+ {
+  "brand_value": "CTX",
+  "tag_id": "b43d1611-742f-4cbd-9f8e-a5dcdd874e9e",
+  "resolution": "ambiguous",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "low",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-scams-promising-high-returns-4e5d1698",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-websites-impersonating-popular-brands-6335bfca"
+  ],
+  "notes": "Not explained in advisory text; scam site ctxpublic.online on crypto-mining investment scams (co-tagged Doge Mining, GN Mall, Coinbase, PUMP MINING, Novartis AG VIP). Could be a fictitious platform or misuse of a ticker (e.g. Cryptex Finance CTX). Unresolved."
+ },
+ {
+  "brand_value": "JUST",
+  "tag_id": "574386f1-1952-4fb9-9344-fa0266ccfc21",
+  "resolution": "ambiguous",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "low",
+  "evidence": [
+   "https://just.network/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-using-suspicious-websites-8d042bc2",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-websites-f7c4335d"
+  ],
+  "notes": "Investment-scam sites usttt.net / uuttt.cc / ustt.work \"claim to represent known brands like JUST\". Best candidate: JUST (TRON DeFi ecosystem, just.network - opened 2026-11-26), but SPF gives no detail; could be fictitious."
+ },
+ {
+  "brand_value": "Singtel",
+  "tag_id": "097e25f0-1d77-43bf-b61f-2808ab70bd19",
+  "resolution": "real_entity",
+  "entity_id": "singtel.com",
+  "official_domains": [
+   "singtel.com"
+  ],
+  "is_singapore_entity": true,
+  "sector": "telco",
+  "confidence": "high",
+  "evidence": [
+   "https://www.singtel.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/recent-phishing-scams-impersonate-popular-brands-stay-e8009338",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-singtel-9349a400"
+  ],
+  "notes": "Telco bill/reward phishing (servicesmetalinkion.shop, onepass.xin)."
+ },
+ {
+  "brand_value": "Airdrop Pepe",
+  "tag_id": "866b38c7-2539-47d2-9083-d5bf5e69214f",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-brands-b5974029",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-platforms-promising-high-returns-a273ec6f"
+  ],
+  "notes": "SPF calls it a \"trending topic\" lure: a fake PEPE-memecoin \"airdrop\"/mining platform (pepemining.cc, zylanto.site). PEPE is a real meme token but not an organisation and \"Airdrop Pepe\" is not a genuine platform."
+ },
+ {
+  "brand_value": "moburst",
+  "tag_id": "453b920b-c918-4d51-bf4d-0b4146f0cf15",
+  "resolution": "real_entity",
+  "entity_id": "moburst.com",
+  "official_domains": [
+   "moburst.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "high",
+  "evidence": [
+   "https://moburst.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/job-scams-impersonating-brands-like-moburst-dd460ff3"
+  ],
+  "notes": "Moburst = real mobile/digital marketing agency (US/IL). Job-task scam site lt-moburstmobile.pages.dev uses its name. Same entity_id for any \"Moburst\" casing variant."
+ },
+ {
+  "brand_value": "Koka Kona",
+  "tag_id": "c5e964d1-229d-4286-bcda-0959a00bee82",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-koka-kona-investment-scams-58bf1784"
+  ],
+  "notes": "No company or product called \"Koka Kona\" found (web search 2026-11-26); fake investment app akk500.com. Name may be a play on Coca-Cola, but SPF treats it as the scam brand itself."
+ },
+ {
+  "brand_value": "Red Bull",
+  "tag_id": "1782e551-4d39-445d-a4d3-e4e21833bfbe",
+  "resolution": "real_entity",
+  "entity_id": "redbull.com",
+  "official_domains": [
+   "redbull.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "high",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-brands-like-red-bull-8904bc32"
+  ],
+  "notes": "Name/logo misused on fake investment site angel-investment.cc. www.redbull.com blocks curl (403 Akamai); official domain from established knowledge."
+ },
+ {
+  "brand_value": "SimplyGo",
+  "tag_id": "74f392cc-42c6-4390-9bc6-2128c837a531",
+  "resolution": "real_entity",
+  "entity_id": "simplygo.com.sg",
+  "official_domains": [
+   "simplygo.com.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "transport",
+  "confidence": "high",
+  "evidence": [
+   "https://www.simplygo.com.sg/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-simplygo-detected-7e815834"
+  ],
+  "notes": "SimplyGo (public-transport fare system, LTA/TransitLink). Phishing page on compromised .be site."
+ },
+ {
+  "brand_value": "SingHealth",
+  "tag_id": "fb6e90c0-3db9-4041-8dea-0b576e81a172",
+  "resolution": "real_entity",
+  "entity_id": "singhealth.com.sg",
+  "official_domains": [
+   "singhealth.com.sg",
+   "polyclinic.singhealth.com.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "healthcare",
+  "confidence": "high",
+  "evidence": [
+   "https://www.singhealth.com.sg/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-singhealth-and-polyclinic-websites-08f61cb1"
+  ],
+  "notes": "Singapore Health Services cluster; scam polyclinic-a.top imitates SingHealth Polyclinics (polyclinic.singhealth.com.sg host from established knowledge)."
+ },
+ {
+  "brand_value": "Dance Prize",
+  "tag_id": "7616c5f8-24fc-478e-a9b7-1bbb45b7160e",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-dance-prize-impersonation-scams-199bb391"
+  ],
+  "notes": "Fake \"Dance Prize\" voting/competition used for credential phishing (votegrand.sbs); SPF says it is used to impersonate legitimate organisations generally, no specific real entity."
+ },
+ {
+  "brand_value": "Genwrk Store",
+  "tag_id": "23beb957-de27-4dcb-bc7c-7ed619a3e776",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/job-scams-impersonating-genwrk-store-42d843b9"
+  ],
+  "notes": "Fake job-task \"store\" (genwrk.com); no real company of that name found (web search 2026-11-26)."
+ },
+ {
+  "brand_value": "uParcel",
+  "tag_id": "6a166180-e629-4770-b596-36cbc816a2c3",
+  "resolution": "real_entity",
+  "entity_id": "uparcel.sg",
+  "official_domains": [
+   "uparcel.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "logistics",
+  "confidence": "high",
+  "evidence": [
+   "https://www.uparcel.sg/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/uparcel-phishing-scams-bc9ecb00"
+  ],
+  "notes": "SG same-day courier/3PL. Parcel phishing on llvtx.cfd."
+ },
+ {
+  "brand_value": "SG Arrival Card (SGAC)",
+  "tag_id": "494c4b68-fa94-46c6-a4ff-7b76f2498f22",
+  "resolution": "real_entity",
+  "entity_id": "ica.gov.sg#sg-arrival-card",
+  "official_domains": [
+   "ica.gov.sg",
+   "eservices.ica.gov.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "gov.programme",
+  "confidence": "high",
+  "evidence": [
+   "https://eservices.ica.gov.sg/sgarrivalcard/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-sg-arrival-card-sgac-e096af4f"
+  ],
+  "notes": "ICA SG Arrival Card (free e-service at eservices.ica.gov.sg/sgarrivalcard -> /arrivalcard). Fee-charging lookalike digitalarrivalform.com."
+ },
+ {
+  "brand_value": "UOB Kay Hian",
+  "tag_id": "3043e7ad-587a-40c6-aad6-0af8df26fa94",
+  "resolution": "real_entity",
+  "entity_id": "uobkh.com",
+  "official_domains": [
+   "uobkh.com",
+   "uobkh.com.sg",
+   "uobkayhian.com",
+   "utrade.com.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "brokerage",
+  "confidence": "high",
+  "evidence": [
+   "https://www.uobkayhian.com/",
+   "https://www.utrade.com.sg/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/phishing-websites-impersonating-uob-kay-hian-6a4770f6"
+  ],
+  "notes": "SG stockbroker. uobkayhian.com -> uobkh.com and utrade.com.sg -> uobkh.com.sg (redirects observed 2026-11-26). Lookalike uobkhs.com."
+ },
+ {
+  "brand_value": "Youlemei Mall",
+  "tag_id": "8e0ea025-2011-482e-9085-9f330a0cfcb3",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/job-scams-impersonating-youlemei-mall-d5f9d517"
+  ],
+  "notes": "Fake e-commerce \"mall\" for task/boosting job scams (youlemeimall.vip); no real company found (web search 2026-11-26)."
+ },
+ {
+  "brand_value": "SP Group",
+  "tag_id": "123eefaa-fe96-4ba4-bb83-ad97b3048c07",
+  "resolution": "real_entity",
+  "entity_id": "spgroup.com.sg",
+  "official_domains": [
+   "spgroup.com.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "utility",
+  "confidence": "high",
+  "evidence": [
+   "https://www.spgroup.com.sg/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-sp-group-8610a542"
+  ],
+  "notes": "SG power/utilities provider; billing phishing via samgirasg.com."
+ },
+ {
+  "brand_value": "PETROBRAS",
+  "tag_id": "dcefe341-89a3-4d43-ba3a-cce61cc49075",
+  "resolution": "real_entity",
+  "entity_id": "petrobras.com.br",
+  "official_domains": [
+   "petrobras.com.br"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "high",
+  "evidence": [
+   "https://petrobras.com.br/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-petrobras-c4925bba"
+  ],
+  "notes": "Brazilian state oil company; name misused for fake oil investment app (peshiyou.top)."
+ },
+ {
+  "brand_value": "ADGM MONEY",
+  "tag_id": "9862a281-9044-419f-8967-26bb44eb55ea",
+  "resolution": "real_entity",
+  "entity_id": "adgm.com",
+  "official_domains": [
+   "adgm.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "medium",
+  "evidence": [
+   "https://www.adgm.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-adgm-money-investment-scams-66b4fd53"
+  ],
+  "notes": "Fake investment platform name built on ADGM (Abu Dhabi Global Market, a real financial centre/regulator). No genuine ADGM product called \"ADGM MONEY\"; SPF says scammers use \"names similar to ADGM MONEY\" to impersonate financial entities. Real-entity clone; human may prefer fictitious_scam_brand."
+ },
+ {
+  "brand_value": "Central Provident Fund (CPF) Board",
+  "tag_id": "c8bc09ef-ecf3-4e36-9193-74ce09514e60",
+  "resolution": "real_entity",
+  "entity_id": "cpf.gov.sg",
+  "official_domains": [
+   "cpf.gov.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "gov.statboard",
+  "confidence": "high",
+  "evidence": [
+   "https://www.cpf.gov.sg/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-cpf-board-ce5013ab"
+  ],
+  "notes": "CPF account phishing (managelist.com)."
+ },
+ {
+  "brand_value": "Best Hotel Reservation",
+  "tag_id": "bc8e1f33-3a53-4117-bf6d-c64339bd0c71",
+  "resolution": "generic_or_placeholder",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "low",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-hotel-reservation-services-62503fcc"
+  ],
+  "notes": "Tag not mentioned in advisory body; SPF text speaks generically of \"hotel reservation services\" phishing (gardes-holdenjp.com). Probably the fake page's display name; does not identify a real organisation."
+ },
+ {
+  "brand_value": "GitHub",
+  "tag_id": "861240da-d654-4170-b605-f2a535fc0635",
+  "resolution": "real_entity",
+  "entity_id": "github.com",
+  "official_domains": [
+   "github.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "tech_platform",
+  "confidence": "high",
+  "evidence": [
+   "https://github.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-using-fake-websites-and-unofficial-links-548fb848"
+  ],
+  "notes": "GitHub name misused on fake investment site goudann.top."
+ },
+ {
+  "brand_value": "QNT",
+  "tag_id": "6f5af561-780e-4acf-8c7c-6282c5dba576",
+  "resolution": "real_entity",
+  "entity_id": "quant.network",
+  "official_domains": [
+   "quant.network"
+  ],
+  "is_singapore_entity": false,
+  "sector": "crypto",
+  "confidence": "medium",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-qnt-investment-platforms-b1bd3b69"
+  ],
+  "notes": "QNT = token of Quant Network (UK). Fake \"QNT AI\" investment site qntai.top. quant.network returned a Cloudflare challenge to curl; domain from established knowledge."
+ },
+ {
+  "brand_value": "Miniex",
+  "tag_id": "d075d7d9-f6d3-4bdc-8d17-8c240ed28f2a",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [
+   "https://mini7841.zendesk.com/hc/en-us/articles/35526373278737-MiniEx-micro-exchange-development-history",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/miniex-investment-scams-a77fab77"
+  ],
+  "notes": "\"MiniEx\" self-describes (only on a zendesk help-centre) as a Chicago-founded licensed exchange with no independent confirmation; SPF names it as the scam brand with miniexi.com. Treated as the fraudulent platform itself."
+ },
+ {
+  "brand_value": "GOM Player",
+  "tag_id": "e2d2da73-ee80-482a-a096-898108fc34f2",
+  "resolution": "real_entity",
+  "entity_id": "gomlab.com",
+  "official_domains": [
+   "gomlab.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "medium",
+  "evidence": [
+   "https://www.gomlab.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-on-suspicious-websites-and-unrelated-brands-527d40ac"
+  ],
+  "notes": "GOM Player = media player by GOM & Company (KR). SPF: investment scam sites \"misuse the names of well-known, unrelated brands\". Same media-player-name pattern as MPC-HC and Televizo tags."
+ },
+ {
+  "brand_value": "Litecoin",
+  "tag_id": "0df135af-b3ac-47d0-8194-7725b24abb8e",
+  "resolution": "real_entity",
+  "entity_id": "litecoin.org",
+  "official_domains": [
+   "litecoin.org"
+  ],
+  "is_singapore_entity": false,
+  "sector": "crypto",
+  "confidence": "high",
+  "evidence": [
+   "https://litecoin.org/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-litecoin-investment-websites-989fc633"
+  ],
+  "notes": "Fake LTC mining-machine platform (litecoin-machine.co)."
+ },
+ {
+  "brand_value": "Immediate Edge",
+  "tag_id": "688c98a7-5787-4a85-a072-ae5bdd3d0120",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "high",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-immediate-edge-investment-scams-15e08137"
+  ],
+  "notes": "Well-known fake auto-trading \"robot\" brand (part of the Immediate Edge/Connect/etc. family promoted via fake celebrity ads); SPF calls it a \"legitimate-sounding platform\". Not a real firm."
+ },
+ {
+  "brand_value": "BHP",
+  "tag_id": "12c465c2-e6b7-46ed-b5f5-ee9f9d46ac52",
+  "resolution": "real_entity",
+  "entity_id": "bhp.com",
+  "official_domains": [
+   "bhp.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "high",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-scams-impersonating-bhp-799b7b46"
+  ],
+  "notes": "Australian mining major; name misused for fake gold investment (2025gold.net). bhp.com blocks curl (403); domain from established knowledge."
+ },
+ {
+  "brand_value": "lyft bikes",
+  "tag_id": "b14539d7-a7e0-4cde-8e61-bb9c43358646",
+  "resolution": "real_entity",
+  "entity_id": "lyft.com",
+  "official_domains": [
+   "lyft.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "transport",
+  "confidence": "high",
+  "evidence": [
+   "https://www.lyft.com/bikes",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-lyft-bikes-8bd34ade"
+  ],
+  "notes": "Lyft bikeshare (lyft.com/bikes). Fake \"invest in shared bikes\" platform lyft098236.work."
+ },
+ {
+  "brand_value": "The Straits Times",
+  "tag_id": "13cead50-154f-4ef4-b46a-f5357d1c730d",
+  "resolution": "real_entity",
+  "entity_id": "straitstimes.com",
+  "official_domains": [
+   "straitstimes.com"
+  ],
+  "is_singapore_entity": true,
+  "sector": "media",
+  "confidence": "high",
+  "evidence": [
+   "https://www.straitstimes.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/scam-websites-impersonating-the-straits-times-for-fake-cfef5783"
+  ],
+  "notes": "SPH Media newspaper; fake ST-branded articles/ads push investment scams (strikeathletics.pro)."
+ },
+ {
+  "brand_value": "Public Transport Voucher (PTVE)",
+  "tag_id": "75913255-010a-4126-9c00-2760447bb232",
+  "resolution": "real_entity",
+  "entity_id": "mot.gov.sg#public-transport-vouchers",
+  "official_domains": [
+   "mot.gov.sg",
+   "go.gov.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "gov.programme",
+  "confidence": "high",
+  "evidence": [
+   "https://www.mot.gov.sg/what-we-do/public-transport/public-transport-vouchers",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/scams-impersonating-public-transport-voucher-ptve-fe0a0d12"
+  ],
+  "notes": "MOT Public Transport Voucher Exercise; genuine application link is go.gov.sg/ptv (per MOT news release found via search). Fake claim site gtva.link."
+ },
+ {
+  "brand_value": "National Environment Agency (NEA)",
+  "tag_id": "4917fdd7-3b5c-470e-aafd-f97658a9d105",
+  "resolution": "real_entity",
+  "entity_id": "nea.gov.sg",
+  "official_domains": [
+   "nea.gov.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "gov.statboard",
+  "confidence": "high",
+  "evidence": [
+   "https://www.nea.gov.sg/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/scams-impersonating-national-environment-agency-nea-0737bcb5"
+  ],
+  "notes": "Government-agency impersonation (nodequa.net)."
+ },
+ {
+  "brand_value": "Grab",
+  "tag_id": "d5f00781-3f33-45f3-b7f2-436e0d433ca6",
+  "resolution": "real_entity",
+  "entity_id": "grab.com",
+  "official_domains": [
+   "grab.com"
+  ],
+  "is_singapore_entity": true,
+  "sector": "transport",
+  "confidence": "high",
+  "evidence": [
+   "https://www.grab.com/sg/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-grab-27eb0977"
+  ],
+  "notes": "SG-HQ super-app (ride-hailing/food/payments). Phishing grabk.vip."
+ },
+ {
+  "brand_value": "Home Team Science & Technology Agency (HTX)",
+  "tag_id": "bae7413b-4dfd-4d92-81c5-c20b86b84efd",
+  "resolution": "real_entity",
+  "entity_id": "htx.gov.sg",
+  "official_domains": [
+   "htx.gov.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "gov.statboard",
+  "confidence": "high",
+  "evidence": [
+   "https://www.htx.gov.sg/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-htx-7d47da27"
+  ],
+  "notes": "HTX statutory board under MHA; phishing qer012.online."
+ },
+ {
+  "brand_value": "Apple",
+  "tag_id": "13994f54-8ee8-487e-8cd4-0cea75590b84",
+  "resolution": "real_entity",
+  "entity_id": "apple.com",
+  "official_domains": [
+   "apple.com",
+   "icloud.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "tech_platform",
+  "confidence": "high",
+  "evidence": [
+   "https://www.apple.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-apple-icloud-a1c2d3f9"
+  ],
+  "notes": "iCloud/Apple ID phishing (icloud.qpon)."
+ },
+ {
+  "brand_value": "DBS PayLah",
+  "tag_id": "bb48866f-d56e-4062-a42a-1942b5c770db",
+  "resolution": "real_entity",
+  "entity_id": "dbs.com.sg",
+  "official_domains": [
+   "dbs.com.sg",
+   "dbs.com",
+   "posb.com.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "bank",
+  "confidence": "high",
+  "evidence": [
+   "https://www.dbs.com.sg/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/dbs-paylah-phishing-scams-using-fake-websites-2e842273"
+  ],
+  "notes": "PayLah! = DBS/POSB mobile wallet; same entity_id as \"DBS\". Scam posb.live."
+ },
+ {
+  "brand_value": "XCN",
+  "tag_id": "0390be45-3c18-4aca-9381-87f3731b8579",
+  "resolution": "real_entity",
+  "entity_id": "onyx.org",
+  "official_domains": [
+   "onyx.org"
+  ],
+  "is_singapore_entity": false,
+  "sector": "crypto",
+  "confidence": "low",
+  "evidence": [
+   "https://onyx.org/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-using-suspicious-websites-0a4b2200"
+  ],
+  "notes": "XCN = Onyxcoin token of Onyx Protocol (onyx.org). SPF body only names the site xcnc.top, so the tag most likely refers to this token name being misused; low confidence."
+ },
+ {
+  "brand_value": "BNBPULSE",
+  "tag_id": "b776f889-cbcd-45b9-b726-0d04ca110e2b",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/online-investment-scams-8da4b5bc"
+  ],
+  "notes": "BNB-themed fake investment platform (2125578.com); SPF: \"masquerading as legitimate investment opportunities\". Not a BNB Chain product."
+ },
+ {
+  "brand_value": "Saudi Aramco",
+  "tag_id": "051bfa84-d52a-4604-b162-61fec60f3286",
+  "resolution": "real_entity",
+  "entity_id": "aramco.com",
+  "official_domains": [
+   "aramco.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "high",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/impersonation-investment-scams-2784b6c7"
+  ],
+  "notes": "Oil major name misused for fake \"currency-oil\" investment (currency-oil.com). aramco.com timed out to curl; domain from established knowledge."
+ },
+ {
+  "brand_value": "INFO",
+  "tag_id": "ff1c1fb8-6fb1-4ac5-8ca9-2aae5482c0fa",
+  "resolution": "generic_or_placeholder",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "low",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/suspicious-online-investment-platforms-like-mineverse-cc-042e6b7d"
+  ],
+  "notes": "Tag never appears in the advisory text (about mineverse.cc crypto-mining scam); probably a word read off a screenshot. No identifiable brand. Human review suggested."
+ },
+ {
+  "brand_value": "Compass Mining",
+  "tag_id": "bbc7df08-9faf-4f55-bc8b-c1a5d86417c0",
+  "resolution": "real_entity",
+  "entity_id": "compassmining.io",
+  "official_domains": [
+   "compassmining.io"
+  ],
+  "is_singapore_entity": false,
+  "sector": "crypto",
+  "confidence": "medium",
+  "evidence": [
+   "https://compassmining.io/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-opportunities-impersonating-compass-mining-d8f3f0e5"
+  ],
+  "notes": "Real US bitcoin-mining hardware/hosting marketplace; SPF says scammers impersonate it (ssessoomm.com)."
+ },
+ {
+  "brand_value": "BNB",
+  "tag_id": "b24fd317-255a-46a6-b1c2-757ce6605a30",
+  "resolution": "real_entity",
+  "entity_id": "bnbchain.org",
+  "official_domains": [
+   "bnbchain.org",
+   "binance.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "crypto",
+  "confidence": "medium",
+  "evidence": [
+   "https://www.bnbchain.org/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-bnb-731d7dec"
+  ],
+  "notes": "BNB = native token of BNB Chain (Binance ecosystem). Fake BNB investment site bbconbnb.com. binance.com from established knowledge."
+ },
+ {
+  "brand_value": "JoyBuy",
+  "tag_id": "e82dcd83-b6b0-446b-b3d2-19d8e714f00e",
+  "resolution": "real_entity",
+  "entity_id": "joybuy.com",
+  "official_domains": [
+   "joybuy.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "ecommerce",
+  "confidence": "medium",
+  "evidence": [
+   "https://www.joybuy.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-job-offers-impersonating-joybuy-ecbe2af3"
+  ],
+  "notes": "Joybuy = JD.com international e-commerce brand. Job-task scam (maill-top.net) uses its name."
+ },
+ {
+  "brand_value": "GoMining",
+  "tag_id": "c1d18f9b-751b-46f7-8e1e-6c66b550d573",
+  "resolution": "real_entity",
+  "entity_id": "gomining.com",
+  "official_domains": [
+   "gomining.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "crypto",
+  "confidence": "medium",
+  "evidence": [
+   "https://gomining.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-schemes-promoting-gomining-896fe6ac"
+  ],
+  "notes": "Real bitcoin-mining platform; fake clone go-mining66.top. SPF wording leaves open whether GoMining itself is endorsed - treat as impersonated brand."
+ },
+ {
+  "brand_value": "Nova Quant",
+  "tag_id": "9a3f9b19-f153-475f-8a16-596c930a020c",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-schemes-impersonating-nova-quant-88c98812"
+  ],
+  "notes": "Fake quant-trading investment brand (novaxmr.xyz). Web search finds only unrelated hobby \"NovaQuant\" charting tools on pages.dev/netlify; no regulated firm."
+ },
+ {
+  "brand_value": "A2",
+  "tag_id": "a74938d8-43ae-4652-b278-40884fc1672f",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-a2-4e53fae5"
+  ],
+  "notes": "\"A2\" investment-club brand (a2.mom). Web search shows NZ FMA repeatedly flagged \"A2 Capital Appreciation Plan\" WhatsApp pump-and-dump schemes on IOSCO I-SCAN (search result only; iosco.org returned 403). Not the a2 Milk Company."
+ },
+ {
+  "brand_value": "ZFuse",
+  "tag_id": "1c6621ef-835d-4b08-973c-16cbdec98dd7",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/job-scams-impersonating-zfuse-and-tubi-8ec3caa4"
+  ],
+  "notes": "Job-task scam brand (baoffu.vip); no real company \"ZFuse\" found (web search 2026-11-26)."
+ },
+ {
+  "brand_value": "TUbi",
+  "tag_id": "3b47e4c3-832d-4a4b-9a9f-e1ae34283141",
+  "resolution": "real_entity",
+  "entity_id": "tubitv.com",
+  "official_domains": [
+   "tubitv.com",
+   "tubi.tv"
+  ],
+  "is_singapore_entity": false,
+  "sector": "media",
+  "confidence": "medium",
+  "evidence": [
+   "https://tubitv.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/job-scams-impersonating-zfuse-and-tubi-8ec3caa4"
+  ],
+  "notes": "Tubi = Fox-owned free streaming service; job scam \"rate movies\" site tubirating.com. tubitv.com geo-redirects to gdpr.tubi.tv outside the US."
+ },
+ {
+  "brand_value": "Pilbara Mining",
+  "tag_id": "2281fb87-fab4-4770-a40a-8008ef090d53",
+  "resolution": "real_entity",
+  "entity_id": "pls.com",
+  "official_domains": [
+   "pls.com",
+   "pilbaraminerals.com.au"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "medium",
+  "evidence": [
+   "https://www.pilbaraminerals.com.au/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-schemes-impersonating-companies-ca6d788e"
+  ],
+  "notes": "Most likely Pilbara Minerals (ASX lithium miner, now PLS): pilbaraminerals.com.au redirects to pls.com (observed 2026-11-26; site behind Cloudflare). Fake mining investment piarjuy.top."
+ },
+ {
+  "brand_value": "DJI",
+  "tag_id": "f98a7139-4299-4ca0-b985-651c61adcc62",
+  "resolution": "real_entity",
+  "entity_id": "dji.com",
+  "official_domains": [
+   "dji.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "high",
+  "evidence": [
+   "https://www.dji.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-schemes-impersonating-dji-a5c06b60"
+  ],
+  "notes": "Drone maker name misused for fake investment (dji8.top)."
+ },
+ {
+  "brand_value": "Shopee",
+  "tag_id": "192163ec-93b6-4c87-b93d-ad78544087f1",
+  "resolution": "real_entity",
+  "entity_id": "shopee.sg",
+  "official_domains": [
+   "shopee.sg",
+   "shopee.com"
+  ],
+  "is_singapore_entity": true,
+  "sector": "ecommerce",
+  "confidence": "high",
+  "evidence": [
+   "https://shopee.sg/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/job-scams-impersonating-shopee-45733c6d"
+  ],
+  "notes": "Sea Group marketplace (SG). Job-task scam vis3367.shop."
+ },
+ {
+  "brand_value": "MBRAIMSolar Park",
+  "tag_id": "8f7b00ae-b5f2-4045-8ee3-3e7aea22a004",
+  "resolution": "real_entity",
+  "entity_id": "dewa.gov.ae",
+  "official_domains": [
+   "dewa.gov.ae"
+  ],
+  "is_singapore_entity": false,
+  "sector": "utility",
+  "confidence": "medium",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/emerging-online-investment-scams-355047ed"
+  ],
+  "notes": "Mohammed bin Rashid Al Maktoum Solar Park (Dubai, operated by DEWA). Fake solar-park investment (yyujgg.vip, mprmspus.top). dewa.gov.ae blocks curl (403); domain from established knowledge."
+ },
+ {
+  "brand_value": "Televizo",
+  "tag_id": "a9669f2b-7141-4fc1-9495-367f65058fc0",
+  "resolution": "real_entity",
+  "entity_id": "televizo.net",
+  "official_domains": [
+   "televizo.net"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "low",
+  "evidence": [
+   "https://televizo.net/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/emerging-online-investment-scams-355047ed"
+  ],
+  "notes": "Televizo = IPTV player app (Andrey Menscikov). SPF calls it an \"unfamiliar brand name\" used by an investment scam; part of the media-player-name pattern (GOM Player, MPC-HC). Name misuse, not targeted impersonation."
+ },
+ {
+  "brand_value": "Avenis",
+  "tag_id": "5edbfd6d-9fcd-4f6a-b44f-4d8978399547",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "low",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/phishing-job-scams-using-unofficial-websites-5f7a18e9"
+  ],
+  "notes": "Job-scam portal avenisportalglobe1.asia; no matching real company \"Avenis\" found (only Aveni/Avenica etc.)."
+ },
+ {
+  "brand_value": "RiverQuode",
+  "tag_id": "cf298da3-33cb-4d4f-8183-0a75db6f953e",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-online-investment-scams-promising-high-returns-10800b70"
+  ],
+  "notes": "Fake crypto investment platform (river-quode.net, 980.it.com); name not found elsewhere."
+ },
+ {
+  "brand_value": "USDT Tether",
+  "tag_id": "c6cbfac5-7be7-47f8-a61c-29815c5c11eb",
+  "resolution": "real_entity",
+  "entity_id": "tether.to",
+  "official_domains": [
+   "tether.to"
+  ],
+  "is_singapore_entity": false,
+  "sector": "crypto",
+  "confidence": "high",
+  "evidence": [
+   "https://tether.to/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-online-investment-scams-promising-high-returns-10800b70"
+  ],
+  "notes": "USDT stablecoin issuer; used as the deposit asset/lure on fake platforms."
+ },
+ {
+  "brand_value": "copililis",
+  "tag_id": "471b13a6-c635-43ce-b88c-93381b21fe53",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "high",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/e-commerce-scams-beware-of-sites-like-copililis-393dfe78"
+  ],
+  "notes": "SPF identifies \"Copililis\" (copililis.com) itself as a fake shopping website."
+ },
+ {
+  "brand_value": "RapidApp",
+  "tag_id": "19ca4eca-547e-4541-8d6e-a7e1ad61a874",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "high",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-platform-rapidapp-detected-6a0af9aa"
+  ],
+  "notes": "SPF: \"purported platform named RapidApp\" (rapid-app.net) - fake investment app."
+ },
+ {
+  "brand_value": "AI-QT",
+  "tag_id": "b6324c7a-d59f-4bd7-a989-4877f5a49161",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-opportunities-impersonating-ai-qt-e52918f6"
+  ],
+  "notes": "Fake AI quant-trading platform ai-qt.vip; SPF says not affiliated with any legitimate firm."
+ },
+ {
+  "brand_value": "Snapchat",
+  "tag_id": "03539c98-b3cb-4dec-9f03-f808ae48ccd7",
+  "resolution": "real_entity",
+  "entity_id": "snapchat.com",
+  "official_domains": [
+   "snapchat.com",
+   "snap.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "tech_platform",
+  "confidence": "high",
+  "evidence": [
+   "https://www.snapchat.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-using-snapchats-brand-7b1caa77"
+  ],
+  "notes": "Snap name misused (makingvideos.app investment scam)."
+ },
+ {
+  "brand_value": "Crypto.com",
+  "tag_id": "ff012640-92c0-4df2-9935-5a32bba53056",
+  "resolution": "real_entity",
+  "entity_id": "crypto.com",
+  "official_domains": [
+   "crypto.com"
+  ],
+  "is_singapore_entity": true,
+  "sector": "crypto",
+  "confidence": "high",
+  "evidence": [
+   "https://crypto.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-crypto-com-4bcc0639"
+  ],
+  "notes": "Crypto exchange headquartered in Singapore (MAS-licensed SG entity). Impersonated by kdmwj.com."
+ },
+ {
+  "brand_value": "Charge+",
+  "tag_id": "962cdb0c-0a5f-40f6-9fdd-58673ec40394",
+  "resolution": "real_entity",
+  "entity_id": "chargeplus.com",
+  "official_domains": [
+   "chargeplus.com"
+  ],
+  "is_singapore_entity": true,
+  "sector": "other",
+  "confidence": "high",
+  "evidence": [
+   "https://www.chargeplus.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-charge-investment-schemes-fab4c30d"
+  ],
+  "notes": "Singapore-HQ EV-charging operator. Scam sells fake \"charging pile\" investments (chargingpiles.autos)."
+ },
+ {
+  "brand_value": "SmartView",
+  "tag_id": "12bb8745-6d0e-498a-9336-3644eed17dfe",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-job-offers-associated-with-smartviewad-com-6b231b41"
+  ],
+  "notes": "Job-task site smartviewad.com; no real \"SmartView\" ad company found (only unrelated apps)."
+ },
+ {
+  "brand_value": "Imperialist Investment",
+  "tag_id": "030fec9d-0c9e-4905-aefb-39466bb3315a",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "high",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-schemes-promoting-imperialist-investment-5b6a4b18"
+  ],
+  "notes": "SPF: \"fraudulent entity named Imperialist Investment\" (goldwind.app)."
+ },
+ {
+  "brand_value": "Marriott Bonvoy",
+  "tag_id": "41cf8f44-77a3-40ac-af87-f637931d6812",
+  "resolution": "real_entity",
+  "entity_id": "marriott.com",
+  "official_domains": [
+   "marriott.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "travel",
+  "confidence": "high",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-reputable-brands-31f06e15"
+  ],
+  "notes": "Marriott loyalty brand misused for fake hotel-booking \"investment\" tasks (marrioot.net typosquat). marriott.com blocks curl (403); domain from established knowledge."
+ },
+ {
+  "brand_value": "Barrick Gold",
+  "tag_id": "4c1a5fb8-2445-47aa-9f42-8a0bffd09f2c",
+  "resolution": "real_entity",
+  "entity_id": "barrick.com",
+  "official_domains": [
+   "barrick.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "high",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-reputable-brands-31f06e15"
+  ],
+  "notes": "Gold miner name misused (baobeiwa.bond). barrick.com behind Cloudflare (403); domain from established knowledge."
+ },
+ {
+  "brand_value": "NECTA",
+  "tag_id": "4babaf46-aa63-42ad-a7bf-b82f9818e374",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "low",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-job-offers-online-ac4e392c"
+  ],
+  "notes": "Never mentioned in advisory text (job scam nexvltd.com / fi20fa26cups.click); no matching employer found. Unrelated real NECTA (Tanzania exam council, necta.go.tz) is not plausible here."
+ },
+ {
+  "brand_value": "NEXVLTD",
+  "tag_id": "465fedcd-e00c-490a-a81f-3950a72078a8",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-job-offers-online-ac4e392c"
+  ],
+  "notes": "Job-scam company name taken from site nexvltd.com; no real firm found."
+ },
+ {
+  "brand_value": "Shell",
+  "tag_id": "d924e64e-0d85-40be-ab4a-e47e5cbe9838",
+  "resolution": "real_entity",
+  "entity_id": "shell.com",
+  "official_domains": [
+   "shell.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "high",
+  "evidence": [
+   "https://www.shell.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/shell-branded-investment-scams-90bd97b3"
+  ],
+  "notes": "Oil major name misused (shell-vip.com)."
+ },
+ {
+  "brand_value": "SIMO",
+  "tag_id": "81315df7-f582-42ef-a0fb-c3872529704a",
+  "resolution": "ambiguous",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "low",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/impersonation-investment-scams-fee99317"
+  ],
+  "notes": "SPF calls SIMO a \"legitimate company\" impersonated alongside B2Gold (simog.top, b2goldmining.shop), but no matching mining/finance company found. Possibly a fictitious brand; needs human review."
+ },
+ {
+  "brand_value": "B2Gold",
+  "tag_id": "15d1f711-7869-4d5a-b74b-ff4118dc979f",
+  "resolution": "real_entity",
+  "entity_id": "b2gold.com",
+  "official_domains": [
+   "b2gold.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "high",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/impersonation-investment-scams-fee99317"
+  ],
+  "notes": "Canadian gold miner; fake b2goldmining.shop. b2gold.com behind Cloudflare (403); domain from established knowledge."
+ },
+ {
+  "brand_value": "NTUC FairPrice",
+  "tag_id": "abf70921-f8a2-42bc-8c62-8b9a4c206d23",
+  "resolution": "real_entity",
+  "entity_id": "fairprice.com.sg",
+  "official_domains": [
+   "fairprice.com.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "retail",
+  "confidence": "high",
+  "evidence": [
+   "https://www.fairprice.com.sg/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-ntuc-fairprice-d9b59549"
+  ],
+  "notes": "SG supermarket chain; voucher/reward phishing (ghuow.buzz, tlncs.buzz)."
+ },
+ {
+  "brand_value": "X2PAY",
+  "tag_id": "65d54e92-1693-4497-85e6-876f27340510",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-platforms-promising-high-returns-f4bc11d4"
+  ],
+  "notes": "Fake investment/payment platform (x2pay.click)."
+ },
+ {
+  "brand_value": "USDT AI Quantify",
+  "tag_id": "4b0bf956-487f-4182-9a76-6130e7a26fce",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-platforms-promising-high-returns-f4bc11d4"
+  ],
+  "notes": "Fake USDT \"AI quantitative trading\" platform (usdtaiquantify2.com)."
+ },
+ {
+  "brand_value": "Thaitouristvisa",
+  "tag_id": "d1431268-a99a-462d-9e51-6b80a0983db6",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [
+   "https://www.thaievisa.go.th/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-visa-application-websites-5079d52e"
+  ],
+  "notes": "\"Thaitouristvisa\" is the name of the fake visa site itself (thaitouristvisa.com). Genuine counterpart: Thailand e-Visa portal thaievisa.go.th (Thai MFA)."
+ },
+ {
+  "brand_value": "ExpresszFundings SG",
+  "tag_id": "a9313f26-eb97-4a97-ab98-1ac5da51681e",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/loan-scams-impersonating-expresszfundings-sg-37365d36"
+  ],
+  "notes": "Fake moneylender (expresszfundings.com). No \"Express(z) Funding(s)\" found among licensed moneylenders in a search of MinLaw Registry of Moneylenders results."
+ },
+ {
+  "brand_value": "Alvopetro",
+  "tag_id": "634af37e-b795-4f4d-87a1-908b9b83f144",
+  "resolution": "real_entity",
+  "entity_id": "alvopetro.com",
+  "official_domains": [
+   "alvopetro.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "high",
+  "evidence": [
+   "https://alvopetro.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-legitimate-companies-04a4a367"
+  ],
+  "notes": "Canadian/Brazilian oil & gas company; fake oil investment (aloilvip.shop, autonomo-income.com)."
+ },
+ {
+  "brand_value": "Hochschild",
+  "tag_id": "be7d49d8-7aae-4bfc-8710-6e66ae19210f",
+  "resolution": "real_entity",
+  "entity_id": "hochschildmining.com",
+  "official_domains": [
+   "hochschildmining.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "high",
+  "evidence": [
+   "https://www.hochschildmining.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-legitimate-companies-04a4a367"
+  ],
+  "notes": "Hochschild Mining (precious metals); name misused by same scam as Alvopetro."
+ },
+ {
+  "brand_value": "ROGin AI",
+  "tag_id": "f48615a2-dfb0-4aa8-aa6d-fa15b466a6f5",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-ai-and-cryptocurrency-d2da0567"
+  ],
+  "notes": "Fake AI investment platform (roginai.org)."
+ },
+ {
+  "brand_value": "SatoshiMine",
+  "tag_id": "571be892-3046-4e32-bd6d-86c9251c665c",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-ai-and-cryptocurrency-d2da0567"
+  ],
+  "notes": "Fake BTC cloud-mining platform (satoshiminebtc.com)."
+ },
+ {
+  "brand_value": "Doge Mining",
+  "tag_id": "93c8cdbf-3b86-470c-ae7c-3084a1693210",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-scams-promising-high-returns-4e5d1698"
+  ],
+  "notes": "Fake DOGE mining platform (doge-miningbank.vip); not named in body text."
+ },
+ {
+  "brand_value": "GN Mall",
+  "tag_id": "9efb5952-9b6c-4704-bc0f-15e7519f6049",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-scams-promising-high-returns-4e5d1698"
+  ],
+  "notes": "Fake \"mall\" investment platform (gnfmall.com); not named in body text."
+ },
+ {
+  "brand_value": "Capitaland",
+  "tag_id": "ac342698-10f4-4402-8526-e0d7b3c51294",
+  "resolution": "real_entity",
+  "entity_id": "capitaland.com",
+  "official_domains": [
+   "capitaland.com"
+  ],
+  "is_singapore_entity": true,
+  "sector": "other",
+  "confidence": "high",
+  "evidence": [
+   "https://www.capitaland.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-capitaland-investment-websites-28b6f5df"
+  ],
+  "notes": "SG real-estate group; fake investment site fnltvcapblndvn.com."
+ },
+ {
+  "brand_value": "Burberry",
+  "tag_id": "91898bbb-db0b-4f4d-8fc6-f01a4d37867f",
+  "resolution": "real_entity",
+  "entity_id": "burberry.com",
+  "official_domains": [
+   "burberry.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "retail",
+  "confidence": "high",
+  "evidence": [
+   "https://www.burberry.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/act-against-scams-watch-out-for-fake-online-shopping-sites-0d3e3526"
+  ],
+  "notes": "Luxury brand used on fake outlet shops (premium-bag-sg.shop, shop-adidasoutlet.com)."
+ },
+ {
+  "brand_value": "flance",
+  "tag_id": "6876eb74-c152-493e-bd2f-d74791c6874a",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "low",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-job-offers-on-suspicious-websites-5c206874"
+  ],
+  "notes": "Not named in advisory text; job-task site companyflc.business. Likely the scam platform's own name (from \"freelance\")."
+ },
+ {
+  "brand_value": "Dell Player",
+  "tag_id": "0c83ffe9-23d6-49f5-ad6f-df7fee3134e1",
+  "resolution": "ambiguous",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "low",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/act-against-investment-scams-verify-online-platforms-and-b4c1c6cd"
+  ],
+  "notes": "SPF: scammers \"falsely claiming association with brands such as Dell Player\" (taishang8.top). No product called \"Dell Player\" exists; either misuse of the Dell name (dell.com) or a fake app name in the media-player-name pattern (cf. GOM Player, MPC-HC, Televizo)."
+ },
+ {
+  "brand_value": "Citadel",
+  "tag_id": "96e2e94b-7133-4d83-8a4e-e7d53bc23f2e",
+  "resolution": "real_entity",
+  "entity_id": "citadel.com",
+  "official_domains": [
+   "citadel.com",
+   "citadelsecurities.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "brokerage",
+  "confidence": "high",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/act-against-investment-scams-verify-online-platforms-and-b4c1c6cd"
+  ],
+  "notes": "Citadel (hedge fund) / Citadel Securities (market maker); typosquat citadiel.com. Both sites behind Cloudflare (403 to curl); domains from established knowledge."
+ },
+ {
+  "brand_value": "Chan Brothers",
+  "tag_id": "cf307082-ffeb-41a1-a39d-6106a9313b49",
+  "resolution": "real_entity",
+  "entity_id": "chanbrothers.com",
+  "official_domains": [
+   "chanbrothers.com",
+   "chanbrothers.com.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "travel",
+  "confidence": "high",
+  "evidence": [
+   "https://www.chanbrothers.com/",
+   "https://www.chanbrothers.com.sg/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-chan-brothers-311e108a"
+  ],
+  "notes": "SG travel agency (chanbrothers.com.sg redirects to chanbrothers.com). Phishing page sell.sctt.net."
+ },
+ {
+  "brand_value": "SEI",
+  "tag_id": "199942da-2edd-439e-8e48-e27875a97a59",
+  "resolution": "ambiguous",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "low",
+  "evidence": [
+   "https://www.sei.io/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-using-suspicious-websites-8d042bc2"
+  ],
+  "notes": "Named by SPF as a brand linked to suspicious investment site seeee.cc. Candidates: Sei blockchain / SEI token (sei.io, opened 2026-11-26) - most consistent with crypto co-tags - or SEI Investments (seic.com). Unresolved."
+ },
+ {
+  "brand_value": "Skild AI",
+  "tag_id": "bacc3cc3-7e92-4251-8cc6-a1933826cca4",
+  "resolution": "real_entity",
+  "entity_id": "skild.ai",
+  "official_domains": [
+   "skild.ai"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "medium",
+  "evidence": [
+   "https://www.skild.ai/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-using-suspicious-websites-8d042bc2"
+  ],
+  "notes": "Real robotics-AI startup; name misused for fake investment (skdai001.xyz)."
+ },
+ {
+  "brand_value": "Starview",
+  "tag_id": "fa4b635b-2382-4726-9215-f5a7394ec102",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "low",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/job-scams-impersonating-companies-35a161bf"
+  ],
+  "notes": "Job-task site starview.cyou; no real company found (web search 2026-11-26). SPF calls it a \"legitimate company\" but evidence of one is lacking."
+ },
+ {
+  "brand_value": "GREY",
+  "tag_id": "a1e76081-fc53-49bb-854f-956d1532edee",
+  "resolution": "real_entity",
+  "entity_id": "grey.com",
+  "official_domains": [
+   "grey.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "medium",
+  "evidence": [
+   "https://www.grey.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/job-scams-impersonating-companies-35a161bf"
+  ],
+  "notes": "Grey Group advertising agency; fake job \"work hub\" greygroupworkhub.com."
+ },
+ {
+  "brand_value": "Coinbase",
+  "tag_id": "36ec78e9-9582-4120-bca4-2f79fd1e5b0e",
+  "resolution": "real_entity",
+  "entity_id": "coinbase.com",
+  "official_domains": [
+   "coinbase.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "crypto",
+  "confidence": "high",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-websites-impersonating-popular-brands-6335bfca"
+  ],
+  "notes": "Typosquat oinbase-staking.com (fake staking). coinbase.com behind Cloudflare (403 to curl); domain from established knowledge."
+ },
+ {
+  "brand_value": "PUMP MINING",
+  "tag_id": "cf917abf-343d-4f26-8ae9-ba8013f29924",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-websites-impersonating-popular-brands-6335bfca"
+  ],
+  "notes": "Fake crypto-mining platform (pumpmining.top); not named in body text."
+ },
+ {
+  "brand_value": "Novartis AG VIP",
+  "tag_id": "c5b94603-c3a8-48f6-9991-7419c9b3dc15",
+  "resolution": "real_entity",
+  "entity_id": "novartis.com",
+  "official_domains": [
+   "novartis.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "healthcare",
+  "confidence": "medium",
+  "evidence": [
+   "https://www.novartis.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-websites-impersonating-popular-brands-6335bfca"
+  ],
+  "notes": "Fake \"VIP\" investment scheme built on the Novartis name (herb6.vip). Real-company name cloned by a fake platform."
+ },
+ {
+  "brand_value": "CNPC",
+  "tag_id": "6b79b9b6-1dc9-4fa0-9754-0a98e425e1cb",
+  "resolution": "real_entity",
+  "entity_id": "cnpc.com.cn",
+  "official_domains": [
+   "cnpc.com.cn"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "medium",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-promising-high-returns-522e3e03"
+  ],
+  "notes": "China National Petroleum Corporation; tag not explained in body (themostprofitableapp.us, long-termprojects.us oil-investment lure). cnpc.com.cn answered HTTP 412 to curl; domain from established knowledge."
+ },
+ {
+  "brand_value": "Virtu",
+  "tag_id": "5359143c-7166-42eb-9686-c0133ae01838",
+  "resolution": "real_entity",
+  "entity_id": "virtu.com",
+  "official_domains": [
+   "virtu.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "brokerage",
+  "confidence": "medium",
+  "evidence": [
+   "https://www.virtu.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-promising-high-returns-522e3e03"
+  ],
+  "notes": "Virtu Financial (market maker); name misused on same fake investment sites as CNPC."
+ },
+ {
+  "brand_value": "GDC Mining",
+  "tag_id": "69ffc26c-4975-4559-913b-54f0eda98d44",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-websites-f7c4335d"
+  ],
+  "notes": "Fake crypto-mining platform (gdcmining.shop)."
+ },
+ {
+  "brand_value": "Hotorders",
+  "tag_id": "1eb4347d-5a86-4ebd-8b7c-178b358080cc",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-platforms-like-velo-trust-and-hotorders-ef886cf6"
+  ],
+  "notes": "Fake investment platform (hotorders.org)."
+ },
+ {
+  "brand_value": "Velo Trust",
+  "tag_id": "c61876d0-5e75-4259-aa15-b2268311cd5f",
+  "resolution": "ambiguous",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "low",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-platforms-like-velo-trust-and-hotorders-ef886cf6"
+  ],
+  "notes": "SPF: sites \"impersonating Velo Trust\" (velotrust-exchanges.com). A London bitcoin OTC desk/custodian \"Velo Trust\" appears in old crypto directories (CryptoSlate), status/official domain unverified; could equally be a fictitious platform."
+ },
+ {
+  "brand_value": "IRUN",
+  "tag_id": "b71c235f-3455-403e-8d2f-1123da42a94e",
+  "resolution": "real_entity",
+  "entity_id": "irunsg.com",
+  "official_domains": [
+   "irunsg.com"
+  ],
+  "is_singapore_entity": true,
+  "sector": "retail",
+  "confidence": "high",
+  "evidence": [
+   "https://irunsg.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/recent-phishing-scams-impersonate-popular-brands-stay-e8009338"
+  ],
+  "notes": "iRUN Singapore running-gear retailer; lookalike irunsg.shop."
+ },
+ {
+  "brand_value": "Motor AI",
+  "tag_id": "36452345-655e-4690-99b2-f15f680998d6",
+  "resolution": "real_entity",
+  "entity_id": "motor-ai.com",
+  "official_domains": [
+   "motor-ai.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "medium",
+  "evidence": [
+   "https://www.motor-ai.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/rising-job-scams-9b5a348c"
+  ],
+  "notes": "MOTOR Ai, Berlin autonomous-driving startup; job scam site motorai.net."
+ },
+ {
+  "brand_value": "Facebook",
+  "tag_id": "068a970d-f974-441b-9d16-09a8c09cd8e6",
+  "resolution": "real_entity",
+  "entity_id": "facebook.com",
+  "official_domains": [
+   "facebook.com",
+   "meta.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "tech_platform",
+  "confidence": "high",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/rising-job-scams-9b5a348c"
+  ],
+  "notes": "Meta platform used as a lure brand in job scams. facebook.com returned HTTP 400 to curl; domain from established knowledge."
+ },
+ {
+  "brand_value": "VanguardETFs",
+  "tag_id": "29527920-f4d0-4b5d-b6c8-fbe16cecf22c",
+  "resolution": "real_entity",
+  "entity_id": "vanguard.com",
+  "official_domains": [
+   "vanguard.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "brokerage",
+  "confidence": "medium",
+  "evidence": [
+   "https://www.vanguard.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-cna-investment-schemes-f4e465b3"
+  ],
+  "notes": "Vanguard (fund manager); fake vanguardetfs.xyz. Tag not named in body text."
+ },
+ {
+  "brand_value": "GTS",
+  "tag_id": "9eeb74f7-2321-4b9d-85f7-8b44e47dabb7",
+  "resolution": "ambiguous",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "low",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-brands-18b422ea"
+  ],
+  "notes": "SPF says investment sites (veobike.vip, yushiai.vip) \"impersonate legitimate brands like VEO and GTS\"; no specific GTS entity identifiable."
+ },
+ {
+  "brand_value": "VEO",
+  "tag_id": "eb1aebec-d9ae-4b38-a1e9-27cb748151c8",
+  "resolution": "real_entity",
+  "entity_id": "veoride.com",
+  "official_domains": [
+   "veoride.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "transport",
+  "confidence": "low",
+  "evidence": [
+   "https://www.veoride.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-brands-18b422ea"
+  ],
+  "notes": "Probably Veo (VeoRide) shared e-bike/scooter operator: scam site veobike.vip fits the \"invest in shared bikes\" pattern also seen with Lyft Bikes. Low confidence."
+ },
+ {
+  "brand_value": "BTC MINING",
+  "tag_id": "34988156-4bff-4953-9318-60127fccbb5b",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-cryptocurrency-investment-platforms-like-btc-mining-9b8a7319"
+  ],
+  "notes": "Generic-named fake cloud-mining platform (btc-mining.trade)."
+ },
+ {
+  "brand_value": "Audi Capital",
+  "tag_id": "64ad9fad-21cc-4897-96f1-d0bed42629a1",
+  "resolution": "ambiguous",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "low",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-brands-and-promising-high-5f3bf932"
+  ],
+  "notes": "Not explained in body (innovative-finance.cc, nvidialisuj.top). Candidates: Audi Capital, a Riyadh asset manager (search results only, domain unverified), or misuse of the Audi brand. Needs review."
+ },
+ {
+  "brand_value": "V&A MINING",
+  "tag_id": "aa0ee480-307c-4081-b952-89b131738f9c",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-websites-impersonating-brands-f50d5a6c"
+  ],
+  "notes": "Fake mining platform (vandamining.net)."
+ },
+ {
+  "brand_value": "QUALCOMM invest",
+  "tag_id": "d7b173f7-1690-48b7-9829-449c8620935a",
+  "resolution": "real_entity",
+  "entity_id": "qualcomm.com",
+  "official_domains": [
+   "qualcomm.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "medium",
+  "evidence": [
+   "https://www.qualcomm.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-websites-impersonating-brands-f50d5a6c"
+  ],
+  "notes": "Fake \"QUALCOMM invest\" platform (qumbep.net) cloning the Qualcomm name."
+ },
+ {
+  "brand_value": "Bear World",
+  "tag_id": "9ef383a9-c1e6-4666-896b-a8af4a05e851",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-websites-impersonating-brands-f50d5a6c"
+  ],
+  "notes": "Fake investment platform (bear-world.org)."
+ },
+ {
+  "brand_value": "Rolex",
+  "tag_id": "e0ec8aa7-3ff0-4da6-bd87-c6888cfdf618",
+  "resolution": "real_entity",
+  "entity_id": "rolex.com",
+  "official_domains": [
+   "rolex.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "retail",
+  "confidence": "high",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-brands-b5974029"
+  ],
+  "notes": "Luxury brand used in fake investment scheme (zylanto.site). rolex.com blocks curl (403); domain from established knowledge."
+ },
+ {
+  "brand_value": "Aurum Exchange",
+  "tag_id": "373d8480-3685-425a-bf02-c07ac510f504",
+  "resolution": "ambiguous",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "low",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-platforms-promising-high-returns-a273ec6f"
+  ],
+  "notes": "SPF lists it among \"fake investment platforms\" (aurumexchanges.com). A crypto \"Aurum Exchange\" by Aurum Foundation (aurum.trading) exists per search results but has a mixed reputation and was not verified. Clone vs. fictitious unclear."
+ },
+ {
+  "brand_value": "BeReal",
+  "tag_id": "beb497d1-1f19-428c-9267-74c3d8076ddc",
+  "resolution": "real_entity",
+  "entity_id": "bereal.com",
+  "official_domains": [
+   "bereal.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "tech_platform",
+  "confidence": "high",
+  "evidence": [
+   "https://bereal.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-platforms-promising-high-returns-a273ec6f"
+  ],
+  "notes": "Typosquat bereall.com used in investment scam."
+ },
+ {
+  "brand_value": "LdnBit",
+  "tag_id": "b8f094a2-4ee5-4657-90a0-30b2f057fe7d",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "high",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-platforms-promising-high-returns-a273ec6f"
+  ],
+  "notes": "SPF explicitly calls LdnBit a fake investment platform."
+ },
+ {
+  "brand_value": "Carousell",
+  "tag_id": "d01809eb-7d6a-4a9e-a2e9-d1620d15402d",
+  "resolution": "real_entity",
+  "entity_id": "carousell.sg",
+  "official_domains": [
+   "carousell.sg",
+   "carousell.com"
+  ],
+  "is_singapore_entity": true,
+  "sector": "marketplace",
+  "confidence": "high",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-targeting-carousell-users-f67d0cc5"
+  ],
+  "notes": "SG-HQ classifieds marketplace; \"free goods\" phishing allfreegoods.shop. carousell.sg/.com behind Cloudflare (403); domains from established knowledge."
+ },
+ {
+  "brand_value": "MalaysiaArrivalCard",
+  "tag_id": "20ec6210-5ae0-46d9-9dad-89a76f6b897f",
+  "resolution": "real_entity",
+  "entity_id": "imi.gov.my#mdac",
+  "official_domains": [
+   "imi.gov.my",
+   "imigresen-online.imi.gov.my"
+  ],
+  "is_singapore_entity": false,
+  "sector": "gov.programme",
+  "confidence": "high",
+  "evidence": [
+   "https://imigresen-online.imi.gov.my/mdac/main",
+   "https://www.imi.gov.my/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-malaysia-digital-arrival-card-websites-50338214"
+  ],
+  "notes": "Malaysia Digital Arrival Card (MDAC), Immigration Department of Malaysia; free official form at imigresen-online.imi.gov.my/mdac. Fee-charging lookalikes arrivalsmalaysia.com, earrivalform.com."
+ },
+ {
+  "brand_value": "Malaysia Digital Arrival Card",
+  "tag_id": "e0b078df-c53d-4b73-b4de-785fa144d309",
+  "resolution": "real_entity",
+  "entity_id": "imi.gov.my#mdac",
+  "official_domains": [
+   "imi.gov.my",
+   "imigresen-online.imi.gov.my"
+  ],
+  "is_singapore_entity": false,
+  "sector": "gov.programme",
+  "confidence": "high",
+  "evidence": [
+   "https://imigresen-online.imi.gov.my/mdac/main",
+   "https://www.imi.gov.my/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-malaysia-digital-arrival-card-websites-50338214"
+  ],
+  "notes": "Same entity as \"MalaysiaArrivalCard\" tag."
+ },
+ {
+  "brand_value": "Web3.0",
+  "tag_id": "9d5fd2e2-bf35-4fb5-b9e6-3e53febece0e",
+  "resolution": "generic_or_placeholder",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "high",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/whatsapp-and-web3-0-scams-89b5d82d"
+  ],
+  "notes": "Generic technology term used as investment lure, not an organisation."
+ },
+ {
+  "brand_value": "Sentosa",
+  "tag_id": "a7b6b3a9-dc06-4520-b64b-d65e6b4bcbab",
+  "resolution": "real_entity",
+  "entity_id": "sentosa.com.sg",
+  "official_domains": [
+   "sentosa.com.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "gov.statboard",
+  "confidence": "high",
+  "evidence": [
+   "https://www.sentosa.com.sg/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-sentosa-29cd5b89"
+  ],
+  "notes": "Sentosa Development Corporation (statutory board); lookalike sentosa-sg.com."
+ },
+ {
+  "brand_value": "Climate Vouchers",
+  "tag_id": "c4edf08b-cd37-41b0-98c1-c6dd1a42eda9",
+  "resolution": "real_entity",
+  "entity_id": "climate-friendly-households.gov.sg",
+  "official_domains": [
+   "climate-friendly-households.gov.sg",
+   "redeem.gov.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "gov.programme",
+  "confidence": "high",
+  "evidence": [
+   "https://www.climate-friendly-households.gov.sg/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-climate-voucher-websites-68469ab8"
+  ],
+  "notes": "Climate Friendly Households Programme (MSE/NEA). Genuine voucher links start with voucher.redeem.gov.sg (RedeemSG). Fake site goov.up.railway.app."
+ },
+ {
+  "brand_value": "Ministry of Home Affairs (MHA)",
+  "tag_id": "708f2975-382a-4903-b008-79f62a111398",
+  "resolution": "real_entity",
+  "entity_id": "mha.gov.sg",
+  "official_domains": [
+   "mha.gov.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "gov.ministry",
+  "confidence": "high",
+  "evidence": [
+   "https://www.mha.gov.sg/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/fake-ministry-of-home-affairs-mha-websites-b209b510"
+  ],
+  "notes": "Fake MHA directory site mhadirectories-1.top."
+ },
+ {
+  "brand_value": "Violafi",
+  "tag_id": "cfd5f7bd-f7ae-4319-a1ec-edb1172d4fae",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/investment-scam-advisory-violafi-and-lieshou-vip-8b65be57"
+  ],
+  "notes": "Fake investment site violafi.com (with lieshou.vip)."
+ },
+ {
+  "brand_value": "Tiger Brokers",
+  "tag_id": "f1864867-7358-491a-a352-a6e279531e3b",
+  "resolution": "real_entity",
+  "entity_id": "itiger.com",
+  "official_domains": [
+   "itiger.com",
+   "tigerbrokers.com.sg"
+  ],
+  "is_singapore_entity": false,
+  "sector": "brokerage",
+  "confidence": "high",
+  "evidence": [
+   "https://www.tigerbrokers.com.sg/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-moomoo-and-tiger-brokers-b433ddc2"
+  ],
+  "notes": "tigerbrokers.com.sg redirects to itiger.com/sg (observed). SG arm Tiger Brokers (Singapore) Pte Ltd; parent UP Fintech. Lookalikes itigereo.top, moomoes.top."
+ },
+ {
+  "brand_value": "ApMatrix",
+  "tag_id": "feae412a-c78c-4d9c-827d-2d9172cd8890",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "low",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-be-cautious-of-harmonyreel-net-and-apxcw-5e81e3b2"
+  ],
+  "notes": "Not named in body (harmonyreel.net, apxcw.com); no real \"ApMatrix\" platform found."
+ },
+ {
+  "brand_value": "Sky Marine Hotel",
+  "tag_id": "e950d8e2-76f4-4262-a8f5-3a9a8a9df53e",
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "high",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-claiming-to-be-sky-marine-hotel-40797f97"
+  ],
+  "notes": "SPF: \"Sky Marine Hotel Singapore is a fraudulent hotel listing\" on Google Maps etc. (skymarinehotel.com)."
+ },
+ {
+  "brand_value": "AI Robot",
+  "tag_id": "9c57334e-12e5-4a2b-885d-ed99bc22d1fe",
+  "resolution": "generic_or_placeholder",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/phishing-investment-scams-impersonating-usmart-and-ai-d89fd46c"
+  ],
+  "notes": "Generic \"AI trading robot\" descriptor (airobotbep.top), not an organisation."
+ },
+ {
+  "brand_value": "uSMART",
+  "tag_id": "f6092e39-ed0e-4640-8756-123d56920514",
+  "resolution": "real_entity",
+  "entity_id": "usmart.sg",
+  "official_domains": [
+   "usmart.sg"
+  ],
+  "is_singapore_entity": false,
+  "sector": "brokerage",
+  "confidence": "high",
+  "evidence": [
+   "https://www.usmart.sg/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/phishing-investment-scams-impersonating-usmart-and-ai-d89fd46c"
+  ],
+  "notes": "uSMART Securities (Singapore) online broker (parent HK-based); lookalike usmartsg.sg."
+ },
+ {
+  "brand_value": "MPC-HC",
+  "tag_id": "8b150c22-6ad0-4ab9-b28f-1fb9b1c65d03",
+  "resolution": "real_entity",
+  "entity_id": "mpc-hc.org",
+  "official_domains": [
+   "mpc-hc.org"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "medium",
+  "evidence": [
+   "https://mpc-hc.org/",
+   "https://github.com/clsid2/mpc-hc",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/job-scam-alert-mpc-hc-impersonation-b25671fb"
+  ],
+  "notes": "Media Player Classic - Home Cinema, open-source player; maintained fork at github.com/clsid2/mpc-hc. Job-scam site mpc-hc789.shop."
+ },
+ {
+  "brand_value": "Space Seven",
+  "tag_id": "388fb942-834b-49cd-9772-069e0cb491ce",
+  "resolution": "real_entity",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": false,
+  "sector": "crypto",
+  "confidence": "low",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/job-scam-alert-impersonation-of-space-seven-76d17ff4"
+  ],
+  "notes": "Likely SpaceSeven (SpaceSeven AG, Zug; NFT marketplace built by Tacans; Swiss company register shows it in liquidation 2026). Scam domains spacesevenag.com / spaceiseven.com copy the \"Space Seven AG\" name. Official domain not verified (presumably spaceseven.com), so entity_id left null."
+ },
+ {
+  "brand_value": "MedWOW",
+  "tag_id": "40016c1d-bb07-47b2-aa05-1c1d72528e3c",
+  "resolution": "real_entity",
+  "entity_id": "medwow.com",
+  "official_domains": [
+   "medwow.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "marketplace",
+  "confidence": "medium",
+  "evidence": [
+   "https://www.icanactagainstscams.gov.sg/scam-trends/job-scam-alert-impersonating-medwow-b82ef79e"
+  ],
+  "notes": "MedWOW = online marketplace for used medical equipment (NY/Cyprus). Job scam site medwow.cc. www.medwow.com did not respond to curl; domain from search results (Crunchbase/Trustpilot), not opened."
+ },
+ {
+  "brand_value": "BizVibe",
+  "tag_id": "9ff59d70-b99f-49ad-a7df-645935174ef9",
+  "resolution": "real_entity",
+  "entity_id": "bizvibe.com",
+  "official_domains": [
+   "bizvibe.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "marketplace",
+  "confidence": "medium",
+  "evidence": [
+   "https://www.bizvibe.com/",
+   "https://www.icanactagainstscams.gov.sg/scam-trends/job-scam-alert-be-cautious-of-suspicious-online-job-offers-a56c929e"
+  ],
+  "notes": "Real B2B marketplace; job-task scams (bigbuy.rest, tiktokvipshops.com, ebayhot.com) cite its name."
+ }
+]

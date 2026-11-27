@@ -1,0 +1,43 @@
+{
+ "host": "www.cea.gov.sg",
+ "robots_status": 200,
+ "robots": "User-Agent: *\nAllow: /\nDisallow: /search\n\nSitemap: https://www.cea.gov.sg/sitemap.xml\n",
+ "sitemaps_declared": [
+  "https://www.cea.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  [
+   "https://www.cea.gov.sg/sitemap.xml",
+   "urlset",
+   216,
+   "https://www.cea.gov.sg/sitemap.xml"
+  ]
+ ],
+ "errors": [],
+ "total_urls": 216,
+ "hosts_in_sitemap": {
+  "www.cea.gov.sg": 216
+ },
+ "matches": [
+  [
+   "https://www.cea.gov.sg/about-cea/newsroom-publications/ceanergy-blog/four-things-to-note-when-engaging-property-agents-and-tips-to-protect-yourself-against-scams-by-fake-agents/",
+   "2026-07-30T17:31:54.873Z"
+  ],
+  [
+   "https://www.cea.gov.sg/about-cea/newsroom-publications/ceanergy-blog/how-to-avoid-rental-scams/",
+   "2026-07-30T17:31:54.873Z"
+  ],
+  [
+   "https://www.cea.gov.sg/about-cea/newsroom-publications/ceanergy-blog/rental-scam-keo-issued-letter-of-censure-and-fined-for-failing-to-do-due-diligence-checks/",
+   "2026-07-30T17:31:54.873Z"
+  ],
+  [
+   "https://www.cea.gov.sg/about-cea/newsroom-publications/ceanergy-blog/vigilant-ress-prevented-their-clients-properties-from-being-used-for-rental-scams/",
+   "2026-07-30T17:31:54.873Z"
+  ],
+  [
+   "https://www.cea.gov.sg/consumers/rental-scams/",
+   "2026-06-25T01:31:22.656Z"
+  ]
+ ]
+}

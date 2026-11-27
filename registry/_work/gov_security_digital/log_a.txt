@@ -1,0 +1,6 @@
+== www.scdf.gov.sg: robots=200 declared=1 fetched=1 urls=1228 hits=19 newest_lastmod=None
+   sitemaps: https://www.scdf.gov.sg/sitemap/sitemap.xml[200:1228]
+== www.police.gov.sg: robots=200 declared=1 fetched=1 urls=5170 hits=1122 newest_lastmod=None
+   sitemaps: https://www.police.gov.sg/sitemap/sitemap.xml[200:5170]
+== www.ica.gov.sg: robots=200 declared=1 fetched=1 urls=1484 hits=34 newest_lastmod=None
+   sitemaps: https://www.ica.gov.sg/sitemap/sitemap.xml[200:1484]

@@ -1,0 +1,70 @@
+{
+ "entity_id": "uparcel.sg",
+ "name": "uParcel Singapore",
+ "abbr": null,
+ "aliases": [
+  "uParcel",
+  "uParcel SG"
+ ],
+ "sector": "logistics",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "uparcel.sg"
+ ],
+ "official_hosts": [
+  "www.uparcel.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.uparcel.sg/blog/uparcel-scam-alert-how-to-spot-fake-delivery-messages-and-websites",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": "https://www.uparcel.sg/blog-sitemap.xml",
+   "item_count": null,
+   "latest_item_date": "2026-11-04",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "The Singapore Police Force's Scam Public Education Office alerted us to this uParcel scam on 31 October 2026 ... uParcel never asks for cash or payment by SMS or WhatsApp.",
+   "notes": "Dated alert (datePublished 04 Nov 2026; sitemap lastmod 2026-10-31) on iMessage phishing with lookalike uParcel sites. No concrete fake URLs/numbers. Official channels stated: website uparcel.sg ('A link that isn't uparcel.sg ... is off'), email express@uparcel.sg, uParcel app (App Store/Google Play), SMS only from 'the official uParcel sender ID'."
+  },
+  {
+   "url": "https://www.uparcel.sg/blog/how-to-avoid-falling-victim-to-cash-on-delivery-cod-scams",
+   "kind": "scam_faq",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": "https://www.uparcel.sg/blog-sitemap.xml",
+   "item_count": null,
+   "latest_item_date": "2021-08-25",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "How to avoid falling victim to Cash on Delivery (COD) scams",
+   "notes": "Older generic blog explainer (datePublished 25 Aug 2021); content not analysed further."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [
+   "uParcel"
+  ],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": [
+   "https://www.facebook.com/uParcel/",
+   "https://www.instagram.com/uparcel.sg",
+   "https://www.linkedin.com/company/uparcel/",
+   "https://www.youtube.com/@uParcelSingapore"
+  ],
+  "apps": [
+   "uParcel app (App Store / Google Play; homepage download link https://onelink.to/u2tsrn)"
+  ],
+  "emails": [
+   "express@uparcel.sg"
+  ]
+ },
+ "evidence": [
+  "https://www.uparcel.sg/blog/uparcel-scam-alert-how-to-spot-fake-delivery-messages-and-websites",
+  "https://www.uparcel.sg/",
+  "https://www.uparcel.sg/robots.txt",
+  "https://www.uparcel.sg/blog-sitemap.xml"
+ ],
+ "notes": "official_domains: uparcel.sg is (a) stated in the scam alert ('Go to uparcel.sg by typing it into your browser') and (b) serving domain. sms_sender_ids 'uParcel' is inferred from 'Our SMS always come from the official uParcel sender ID' (exact string not printed). Blog sitemap (blog-sitemap.xml, lastmod per URL) is the discovery endpoint; 3 scam/protection posts. No hotline published (contact via email/app). onelink.to is a third-party link service (FQDN only in apps note)."
+}

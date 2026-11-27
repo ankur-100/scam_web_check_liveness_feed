@@ -1,0 +1,27 @@
+{
+ "host": "www.sentosa.com.sg",
+ "robots_status": 200,
+ "robots": "# robots.txt for https://www.sentosa.com.sg - version 1.0\r\n\r\nUser-agent: *\r\nDisallow: /*/?i_cid=*\r\nDisallow: /?hash*\r\nDisallow: /?s_cid*\r\nDisallow: /?cx_tag_filter*\r\nDisallow: /Account/.*\r\nDisallow: /en/search-listing/*\r\nDisallow: /sitecore/*\r\nAllow: /sitecore/api\r\n\r\nSitemap: https://www.sentosa.com.sg/sitemap.xml",
+ "sitemaps_declared": [
+  "https://www.sentosa.com.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  [
+   "https://www.sentosa.com.sg/sitemap.xml",
+   "urlset",
+   633,
+   "https://www.sentosa.com.sg/sitemap.xml"
+  ]
+ ],
+ "errors": [],
+ "total_urls": 633,
+ "hosts_in_sitemap": {
+  "www.sentosa.com.sg": 633
+ },
+ "matches": [
+  [
+   "https://www.sentosa.com.sg/en/get-inspired/sentosa-guides/otters-advisory/",
+   "2026-05-11T01:12:18+00:00"
+  ]
+ ]
+}

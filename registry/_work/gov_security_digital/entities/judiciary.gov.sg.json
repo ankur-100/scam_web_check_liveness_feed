@@ -1,0 +1,141 @@
+{
+ "entity_id": "judiciary.gov.sg",
+ "name": "Singapore Courts (Judiciary: Supreme Court, State Courts, Family Justice Courts)",
+ "abbr": "SG Courts",
+ "aliases": [
+  "Singapore Courts",
+  "Supreme Court",
+  "State Courts",
+  "Family Justice Courts",
+  "Subordinate Courts (former)"
+ ],
+ "sector": "gov.court",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "judiciary.gov.sg",
+  "courts.gov.sg",
+  "supremecourt.gov.sg",
+  "statecourts.gov.sg",
+  "supcourt.gov.sg"
+ ],
+ "official_hosts": [
+  "www.judiciary.gov.sg",
+  "www.courts.gov.sg",
+  "www.supremecourt.gov.sg",
+  "www.statecourts.gov.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.judiciary.gov.sg/news-and-resources/news/news-details/media-advisory--public-alert--scam-involving-fake-sg-courts-court-orders-and-fund-transfers",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2026-03-17",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "SG Courts’ documents such as court orders (i.e. Orders of Court) do not include the following: Unsolicited Payment Instructions ... Mismatched Branding: The use of logos from other agencies, such as the Monetary Authority of Singapore (MAS)",
+   "notes": "Fake \"SG Courts\" court orders that demand bank transfers. Narrative and red flags only."
+  },
+  {
+   "url": "https://www.judiciary.gov.sg/news-and-resources/news/news-details/advisory-on-impersonation-scams",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2025-04-30",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Officers from the Singapore Courts will never do these things over a phone call: Ask you to transfer money. Ask you to disclose bank login details.",
+   "notes": "GOIS guidance."
+  },
+  {
+   "url": "https://www.judiciary.gov.sg/news-and-resources/news/news-details/press-release-beware-of-phishing-emails-purportedly-sent-from-supreme-court",
+   "kind": "alert_page",
+   "lists_indicators": [
+    "email"
+   ],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2022-01-19",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "The phishing email is sent from info1@judiciary.gov.sg by the “Supreme Judiciary Council” and contains a PDF attachment that reads “GOV.SG-LETTER011822.PDF”.",
+   "notes": "Spoofed sender on an official domain (Dropbox Business lure)."
+  },
+  {
+   "url": "https://www.judiciary.gov.sg/news-and-resources/news/news-details/press-release-beware-of-scam-calls-and-phishing-emails-from-scammers-impersonating-as-supreme-court-officers",
+   "kind": "alert_page",
+   "lists_indicators": [
+    "email"
+   ],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2020-04-22",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "potential phishing emails sent purportedly from the Supreme Court but originating from an email address “ kk@sunyouth.jp ”.",
+   "notes": "Also lists the official registry contact SUPCOURT_Registry@supcourt.gov.sg / 6557 7495. Sibling advisory dated 01 Apr 2020 repeats kk@sunyouth.jp."
+  },
+  {
+   "url": "https://www.judiciary.gov.sg/news-and-resources/news/news-details/advisory-on-scam-calls-and-phishing-emails-from-scammers-impersonating-as-supreme-court-officers",
+   "kind": "alert_page",
+   "lists_indicators": [
+    "phone"
+   ],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2021-04-26",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "In some cases, the phone number following the prefix may even be a Supreme Court number, i.e. 6336 0644.",
+   "notes": "Spoofed official number. Also 15 Jul 2022 media-release-advisory-on-phone-scam-involving-court-directed-process (cites 6336 0644)."
+  },
+  {
+   "url": "https://www.judiciary.gov.sg/news-and-resources/news/news-details/advisory-unsolicited-messages-about-court-matters",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2018-04-25",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "received unsolicited SMSes informing them that they had an ongoing case in the State Courts. Please note that such SMSes are not sent by or on behalf of the State Courts.",
+   "notes": "Older items: advisory-on-phone-scam-17-jul-2017, advisory-on-phone-scam-25-jun-2018, advisory-the-state-courts-do-not-request-payments-through-the-phone (03 Nov 2016; robocall \"settle payment for summons\")."
+  },
+  {
+   "url": "https://www.judiciary.gov.sg/news-and-resources/news",
+   "kind": "news_releases",
+   "lists_indicators": [],
+   "access": "sitemap",
+   "machine_url": "https://www.judiciary.gov.sg/sitemap/sitemap.xml",
+   "item_count": 12,
+   "latest_item_date": "2026-03-17",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "news-details/media-advisory--public-alert--scam-involving-fake-sg-courts-court-orders-and-fund-transfers",
+   "notes": "Sitemap from robots.txt: 2,508 URLs, 705 news-details, no lastmod. About 12 scam/impersonation advisories (2016-2026), all fetched 2026-11-26. Site-wide banner: \"Officers from the Singapore Courts will never ask you to transfer money...\". No RSS seen."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [
+   "gov.sg"
+  ],
+  "hotlines": [
+   "6557 7495 (Supreme Court Registry)",
+   "6587 8423 (State Courts)",
+   "6336 0644 (Supreme Court number; has been spoofed)"
+  ],
+  "short_link_domains": [],
+  "social": [],
+  "emails": [
+   "SUPCOURT_Registry@supcourt.gov.sg",
+   "contact@statecourts.gov.sg"
+  ]
+ },
+ "evidence": [
+  "https://www.sgdi.gov.sg/organs-of-state/supcourt",
+  "https://www.judiciary.gov.sg/sitemap/sitemap.xml"
+ ],
+ "notes": "www.courts.gov.sg, www.supremecourt.gov.sg and www.statecourts.gov.sg all redirect to www.judiciary.gov.sg (2026-11-26). supcourt.gov.sg and statecourts.gov.sg are still used as email domains. Concrete IOCs: kk@sunyouth.jp; spoofed info1@judiciary.gov.sg; spoofed 6336 0644. SPF 20260808 covered iMessage \"District Court\" phishing."
+}

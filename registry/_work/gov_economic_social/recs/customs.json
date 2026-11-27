@@ -1,0 +1,26 @@
+{
+ "entity_id": "customs.gov.sg",
+ "name": "Singapore Customs",
+ "abbr": null,
+ "aliases": ["Singapore Customs", "Customs", "S.G. Customs"],
+ "sector": "gov.dept",
+ "parent_entity_id": "mof.gov.sg",
+ "country": "SG",
+ "official_domains": ["customs.gov.sg", "ntp.gov.sg"],
+ "official_hosts": ["www.customs.gov.sg", "www.ntp.gov.sg"],
+ "scam_info": [
+  {"url": "https://www.customs.gov.sg/news/beware-of-scams/", "kind": "advisory_feed", "lists_indicators": ["entity_name"], "access": "sitemap",
+   "machine_url": "https://www.customs.gov.sg/sitemap.xml", "item_count": 7, "latest_item_date": "2024-09-17", "verified": "2026-11-26 HTTP 200",
+   "sample": "The iMessage FALSELY claims to be from Singapore Customs by identifying itself as ‘S.G. Customs’. We do NOT use ‘SGCustoms’ (or any variation of this) as part of our corporate identity",
+   "notes": "7 scam advisories under /news/ (category Advisories), all opened: 2018-03-15 public-advisory-on-scams; 2019-10-30 be-aware-of-scams (fake letters with crest); 2020-06-30 be-aware-of-scams-bearing-singapore-customs-crest; 2020-08-14 be-aware-of-scam-documents (fake payment notices); 2021-01-28 be-aware-of-scam-calls-and-messages (screenshots); 2022-03-14 fake-customs-website; 2024-09-17 beware-of-scams (iMessage 'S.G. Customs'). Mostly narrative; fake sender display name 'S.G. Customs'/'SGCustoms' (entity_name); fake website not named in text. Sitemap lastmod is bulk (2026-07-30) - use page date. No RSS."},
+  {"url": "https://www.customs.gov.sg/news/fake-customs-website/", "kind": "official_channels", "lists_indicators": ["url"], "access": "sitemap",
+   "machine_url": "https://www.customs.gov.sg/sitemap.xml", "item_count": null, "latest_item_date": "2022-03-14", "verified": "2026-11-26 HTTP 200",
+   "sample": "Members of the public are advised to use only the official Singapore Customs website at https://www.customs.gov.sg/ and the Networked Trade Platform at https://www.ntp.gov.sg/home/",
+   "notes": "Fake site reported but NOT named. Official URLs (official): www.customs.gov.sg, www.ntp.gov.sg."}
+ ],
+ "official_channels": {"sms_sender_ids": ["gov.sg"], "hotlines": ["6355 2000 (Singapore Customs, to verify correspondence)"], "short_link_domains": ["go.gov.sg"],
+   "social": ["https://www.facebook.com/SingaporeCustoms", "https://www.instagram.com/singaporecustoms/", "https://www.linkedin.com/company/ministry-of-finance-singapore-customs/", "https://www.tiktok.com/@singaporecustoms", "https://www.youtube.com/user/SingaporeCustoms"],
+   "apps": [], "emails": ["customs_feedback@customs.gov.sg", "@customs.gov.sg (no Gmail/Yahoo/Hotmail)"]},
+ "evidence": ["https://www.customs.gov.sg/news/fake-customs-website/", "https://www.customs.gov.sg/news/public-advisory-on-scams/", "https://www.customs.gov.sg/news/be-aware-of-scam-calls-and-messages/"],
+ "notes": "official_domains customs.gov.sg (a) and ntp.gov.sg (a: 'use only the official ... Networked Trade Platform at https://www.ntp.gov.sg'). Customs 'does not send official correspondence from personal email accounts such as Gmail, Yahoo, Hotmail'. Department under MOF (SGDI lists it under MOF departments; not re-fetched). Parcel-detention impersonation overlaps courier scams."
+}

@@ -1,0 +1,16 @@
+{
+ "host": "www.life.gov.sg",
+ "robots": "# *\nUser-agent: *\nDisallow: /app-security\nDisallow: /digital-services/\nDisallow: /services-tools/book-virtual-appointment-hdb\nDisallow: /services-tools/book-virtual-appointment-minlaw\nDisallow: /icecap-web/\n\n# Host\nHost: https://www.life.gov.sg\n\n# Sitemaps\nSitemap: https://www.life.gov.sg/sitemap.xml\nSitemap: https://www.life.gov.sg/sitemap-cms.xml\n",
+ "robots_status": 200,
+ "sitemaps_declared": [
+  "https://www.life.gov.sg/sitemap.xml",
+  "https://www.life.gov.sg/sitemap-cms.xml"
+ ],
+ "sitemaps_fetched": [
+  "https://www.life.gov.sg/sitemap.xml[200:118]",
+  "https://www.life.gov.sg/sitemap-cms.xml[200:84]"
+ ],
+ "n_urls": 202,
+ "hits": [],
+ "newest_lastmod": "2026-11-25T14:59:24.679+08:00"
+}

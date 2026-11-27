@@ -1,0 +1,55 @@
+{
+ "host": "www.sfa.gov.sg",
+ "robots_status": 200,
+ "robots": "User-agent: SearchSG\nDisallow: \n \nUser-agent: *\nAllow: /\n \nSitemap: https://www.sfa.gov.sg/sitemap.xml",
+ "sitemaps_declared": [
+  "https://www.sfa.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  [
+   "https://www.sfa.gov.sg/sitemap.xml",
+   "urlset",
+   754,
+   "https://www.sfa.gov.sg/sitemap.xml"
+  ]
+ ],
+ "errors": [],
+ "total_urls": 754,
+ "hosts_in_sitemap": {
+  "www.sfa.gov.sg": 754
+ },
+ "matches": [
+  [
+   "https://www.sfa.gov.sg/rss/annual-listing-food-alerts",
+   "2026-11-26T03:44:29.964Z"
+  ],
+  [
+   "https://www.sfa.gov.sg/news-publications/circulars-and-notices/food-alerts-and-recalls",
+   "2026-11-26T03:44:29.964Z"
+  ],
+  [
+   "https://www.sfa.gov.sg/redirection-external-pages/agri-food-career-advisors",
+   "2026-11-26T03:44:29.965Z"
+  ],
+  [
+   "https://www.sfa.gov.sg/redirection-external-pages/consumer-advisory-for-group-buy-activities",
+   "2026-11-26T03:44:29.965Z"
+  ],
+  [
+   "https://www.sfa.gov.sg/redirection-external-pages/genetic-modification-advisory-committee--gmac",
+   "2026-11-26T03:44:29.965Z"
+  ],
+  [
+   "https://www.sfa.gov.sg/news-publications/newsroom/updated-advisory-on-wearing-of-masks-or-spit-guards-by-food-handlers",
+   "2026-11-26T03:44:29.965Z"
+  ],
+  [
+   "https://www.sfa.gov.sg/news-publications/newsroom/before-2024/advisory-on-phishing-scams",
+   "2026-11-26T03:44:29.965Z"
+  ],
+  [
+   "https://www.sfa.gov.sg/news-publications/newsroom/2025/updated-advisory-on-wearing-of-masks-or-spit-guards-by-food-handlers",
+   "2026-11-26T03:44:29.965Z"
+  ]
+ ]
+}

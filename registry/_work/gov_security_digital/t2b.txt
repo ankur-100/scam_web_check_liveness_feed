@@ -1,0 +1,6 @@
+== www.istana.gov.sg: robots=200 declared=1 fetched=1 urls=1074 hits=2 newest_lastmod=2026-11-20T17:23:04.767Z
+   sitemaps: https://www.istana.gov.sg/sitemap.xml[200:1074]
+== www.psc.gov.sg: robots=200 declared=1 fetched=1 urls=190 hits=0 newest_lastmod=2026-11-20T07:09:45.666Z
+   sitemaps: https://www.psc.gov.sg/sitemap.xml[200:190]
+== www.ago.gov.sg: robots=200 declared=1 fetched=1 urls=113 hits=0 newest_lastmod=2026-11-04T09:02:04.121Z
+   sitemaps: https://www.ago.gov.sg/sitemap.xml[200:113]

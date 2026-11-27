@@ -1,0 +1,27 @@
+{
+ "entity_id": "moneysmart.sg",
+ "name": "MoneySmart Singapore",
+ "abbr": null,
+ "aliases": [
+  "MoneySmart",
+  "MoneySmart.sg"
+ ],
+ "sector": "other",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [],
+ "official_hosts": [],
+ "scam_info": [],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": [],
+  "apps": [],
+  "emails": []
+ },
+ "evidence": [
+  "https://www.moneysmart.sg/"
+ ],
+ "notes": "Tier 2. blocked: www.moneysmart.sg returns Cloudflare 'Just a moment...' challenge (HTTP 403) to curl on 2026-11-26; not retried (Tier-2 budget). official_domains left empty because no official page could be read (moneysmart.sg is the expected domain, unverified). No MoneySmart-published scam notice found via web search. SPF brand-tag 'MoneySmart' fake domains money-sm.art, moneysmart.money, moneysmart.click, moneysmart.one are SPF-side indicators (never visited)."
+}

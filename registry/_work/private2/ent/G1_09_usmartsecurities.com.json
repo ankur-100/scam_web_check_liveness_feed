@@ -1,0 +1,55 @@
+{
+ "entity_id": "usmartsecurities.com",
+ "name": "uSMART Securities (Singapore) Pte. Ltd.",
+ "abbr": null,
+ "aliases": [
+  "uSMART",
+  "uSMART SG",
+  "uSMART Securities Singapore"
+ ],
+ "sector": "brokerage",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "usmartsecurities.com"
+ ],
+ "official_hosts": [
+  "sg.usmartsecurities.com"
+ ],
+ "scam_info": [
+  {
+   "url": "https://sg.usmartsecurities.com/news/7440654849752055826",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2026-03-20",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "We maintain a zero-tolerance policy towards any attempt to use our platform for illegal financial activities , including o nline fraud",
+   "notes": "Generic anti-fraud statement (displayed '03-20 15:05'; year assumed 2026 - not printed). Narrative only; no fake indicators or official-channel list."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": [
+   "https://www.facebook.com/share/1Kd121SRTb/?mibextid=wwXIfr",
+   "https://instagram.com/usmartsg",
+   "https://twitter.com/usmartsg",
+   "https://youtube.com/usmartsg",
+   "https://tiktok.com/@usmartsg",
+   "https://t.me/usmartsgmandarin",
+   "https://www.linkedin.com/company/usmartsg"
+  ],
+  "apps": [
+   "uSMART SG app"
+  ],
+  "emails": []
+ },
+ "evidence": [
+  "https://sg.usmartsecurities.com/news/7440654849752055826"
+ ],
+ "notes": "Tier 2. SG site sg.usmartsecurities.com (b; found via web search, opened 2026-11-26). CAUTION: 'usmartsg.sg' was listed by SPF as a SCAM domain - not visited, not official. HK entity uses usmart.hk (not SG; not added). Year of the news item is not printed (03-20)."
+}

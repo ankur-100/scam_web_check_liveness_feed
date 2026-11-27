@@ -1,0 +1,55 @@
+{
+ "host": "www.agc.gov.sg",
+ "robots": "User-Agent: *\nAllow: /\nDisallow: /search\n\nSitemap: https://www.agc.gov.sg/sitemap.xml\n",
+ "robots_status": 200,
+ "sitemaps_declared": [
+  "https://www.agc.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  "https://www.agc.gov.sg/sitemap.xml[200:352]"
+ ],
+ "n_urls": 352,
+ "hits": [
+  [
+   "https://www.agc.gov.sg/our-roles/government-legal-advisor/overview-of-functions/",
+   "2025-06-24T09:37:42.094Z"
+  ],
+  [
+   "https://www.agc.gov.sg/our-roles/government-legal-advisor/legal-profession-and-professionals/",
+   "2025-09-30T10:37:50.710Z"
+  ],
+  [
+   "https://www.agc.gov.sg/our-roles/government-legal-advisor/",
+   "2025-09-30T10:42:51.698Z"
+  ],
+  [
+   "https://www.agc.gov.sg/our-roles/international-law-advisor/",
+   "2025-11-19T04:31:59.665Z"
+  ],
+  [
+   "https://www.agc.gov.sg/our-roles/international-law-advisor/overview-of-functions/",
+   "2026-01-22T07:19:37.836Z"
+  ],
+  [
+   "https://www.agc.gov.sg/newsroom/ag-s-keynote-speech-at-the-pacific-rim-advisory-council-conference/",
+   "2026-07-30T17:38:20.600Z"
+  ],
+  [
+   "https://www.agc.gov.sg/newsroom/agc-media-release-3-weeks-jail-for-man-who-impersonated-chinese-female-to-post-racially-offensive-tweets/",
+   "2026-07-30T17:38:20.600Z"
+  ],
+  [
+   "https://www.agc.gov.sg/newsroom/agc-media-release---public-advisory-on-scam-letter-bearing-agc-letterhead-and-forged-signature/",
+   "2026-07-30T17:38:20.600Z"
+  ],
+  [
+   "https://www.agc.gov.sg/newsroom/forum-of-chief-legal-advisors-2024-welcome-address-by-ag-lucien-wong/",
+   "2026-07-30T17:38:20.600Z"
+  ],
+  [
+   "https://www.agc.gov.sg/newsroom/media-statement-stern-warning-administered-for-pmo-website-hoax/",
+   "2026-07-30T17:38:20.600Z"
+  ]
+ ],
+ "newest_lastmod": "2026-11-12T14:10:26.874Z"
+}

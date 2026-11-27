@@ -1,0 +1,16 @@
+{
+ "host": "www.mnd.gov.sg",
+ "robots_status": 404,
+ "robots": "",
+ "sitemaps_declared": [],
+ "sitemaps_fetched": [],
+ "errors": [
+  [
+   "https://www.mnd.gov.sg/sitemap.xml",
+   404
+  ]
+ ],
+ "total_urls": 0,
+ "hosts_in_sitemap": {},
+ "matches": []
+}

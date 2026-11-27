@@ -1,0 +1,37 @@
+{
+ "entity_id": "sph.com.sg",
+ "name": "SPH Media",
+ "abbr": "SPH",
+ "aliases": [
+  "SPH Media",
+  "SPH Media Limited",
+  "Singapore Press Holdings"
+ ],
+ "sector": "media",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "sph.com.sg"
+ ],
+ "official_hosts": [
+  "www.sph.com.sg",
+  "subscribe.sph.com.sg"
+ ],
+ "scam_info": [],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": [],
+  "apps": [],
+  "emails": [
+   "circs@sph.com.sg",
+   "stics@sph.com.sg"
+  ]
+ },
+ "evidence": [
+  "https://www.sph.com.sg/",
+  "https://www.straitstimes.com/RSS-Feeds"
+ ],
+ "notes": "Corporate site www.sph.com.sg (b); links to its news platforms straitstimes.com, zaobao.com.sg, businesstimes.com.sg (separate brands; only ST recorded). No SPH-published scam advisory found (homepage, web search). stics@sph.com.sg is the ST 'Reach us' email on straitstimes.com. Unverified (search snippet, Stomp): SPH Media spokeswoman (Nov 17, ~2023) said scammers impersonated its staff (fake 'film critic' WhatsApp job scam)."
+}

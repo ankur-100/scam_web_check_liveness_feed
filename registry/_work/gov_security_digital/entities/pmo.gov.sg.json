@@ -1,0 +1,31 @@
+{
+ "entity_id": "pmo.gov.sg",
+ "name": "Prime Minister's Office",
+ "abbr": "PMO",
+ "aliases": [
+  "Prime Minister's Office Singapore"
+ ],
+ "sector": "gov.ministry",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "pmo.gov.sg"
+ ],
+ "official_hosts": [
+  "www.pmo.gov.sg"
+ ],
+ "scam_info": [],
+ "official_channels": {
+  "sms_sender_ids": [
+   "gov.sg"
+  ],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": []
+ },
+ "evidence": [
+  "https://www.sgdi.gov.sg/ministries/pmo",
+  "https://www.pmo.gov.sg/sitemap.xml"
+ ],
+ "notes": "Sitemap 3,648 URLs, 0 strict scam slugs (the 11 broad hits are not scams). Senior-official deepfake/impersonation scams (SPF 20260506, 20260516) and the 2015 fake-PMO-webpage hoax (AGC) are published by other agencies. Parent of CPIB, ELD, PSD, NSCS and MAS."
+}

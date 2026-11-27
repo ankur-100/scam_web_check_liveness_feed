@@ -1,0 +1,56 @@
+{
+ "entity_id": "imda.gov.sg",
+ "name": "Infocomm Media Development Authority",
+ "abbr": "IMDA",
+ "aliases": [
+  "Infocomm Media Development Authority (IMDA)"
+ ],
+ "sector": "gov.statboard",
+ "parent_entity_id": "mddi.gov.sg",
+ "country": "SG",
+ "official_domains": [
+  "imda.gov.sg"
+ ],
+ "official_hosts": [
+  "www.imda.gov.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.imda.gov.sg/how-we-can-help/anti-scam-measures",
+   "kind": "scam_faq",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2026-11-04",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Anti-Scam Measures | IMDA (page body is client-side rendered; server HTML has title and tags only)",
+   "notes": "IMDA anti-scam hub (sitemap lastmod 2026-11-04). The content loads via JavaScript from a backend not documented for public use, so it was NOT fetched (per ground rules). Known measures (from search results and the MDDI hub): Full SSIR regime from 31 Jan 2023, where unregistered alphanumeric sender IDs are labelled \"Likely-SCAM\"; blocking of spoofed +65 international calls; \"+\" prefix on overseas calls; telcos blocking scam SMS and malicious links since 2019."
+  },
+  {
+   "url": "https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches/enhanced-measures-against-scam-sms",
+   "kind": "news_releases",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2023-01-25",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Enhanced Measures Against Scam SMS | 25 Jan 2023",
+   "notes": "Press release on the Full SSIR regime (body JS-rendered). Related sitemap items: full-sms-sender-id-registration-to-be-required-by-january-2023, enhancing-protection-against-scams-imda-proposes-full-sms-sender-id-registration..., mas-imda-shared-responsibility-framework-for-phishing-scams, imda-acma-scam-and-spam-communications-mou, sg-and-hk-signed-mou-to-combat-scams, anti-scam-guide-and-enhanced-cable-guidelines (ASEAN). Sitemap https://www.imda.gov.sg/sitemap.xml has 11,353 URLs and 13 scam-keyword slugs."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [
+   "gov.sg"
+  ],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": []
+ },
+ "evidence": [
+  "https://www.sgdi.gov.sg/ministries/mddi/statutory-boards/imda",
+  "https://www.imda.gov.sg/sitemap.xml"
+ ],
+ "notes": "Telecom regulator (SSIR via SGNIC, call/SMS scam controls, SIM registration limits). The site is JS-rendered; no RSS found; nothing scraped beyond titles. No IOC lists (telco blocklists are not public)."
+}

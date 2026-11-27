@@ -1,0 +1,54 @@
+{
+ "entity_id": "amazon.sg",
+ "name": "Amazon.sg (Amazon Singapore)",
+ "abbr": null,
+ "aliases": [
+  "Amazon",
+  "Amazon.sg",
+  "Amazon Singapore",
+  "Amazon Prime SG"
+ ],
+ "sector": "ecommerce",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "amazon.sg",
+  "amazon.com"
+ ],
+ "official_hosts": [
+  "www.amazon.sg",
+  "account-status.amazon.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.amazon.sg/gp/help/customer/display.html?nodeId=G4YFYCCNUSENA23B",
+   "kind": "scam_faq",
+   "lists_indicators": [
+    "domain",
+    "email"
+   ],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Only link to sites that begin with \"http://\"something\".amazon.com or amazon.sg\". ... May contain links to websites that resemble Amazon but aren't Amazon, such as \"payments-amazon.sg\".",
+   "notes": "Amazon.sg 'Identifying a Scam' help page (Security and Privacy > Communications from Amazon.sg). Genuine link domains *.amazon.com / *.amazon.sg; example fake domain payments-amazon.sg (fake, text only, never visited); forward suspicious messages to verify@amazon.sg; 'Report a Scam' / unwanted packages at account-status.amazon.sg. Links to sub-pages on fake emails, SMS, calls, websites (not opened). Undated."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": [],
+  "apps": [],
+  "emails": [
+   "verify@amazon.sg (report suspected impersonation)"
+  ]
+ },
+ "evidence": [
+  "https://www.amazon.sg/gp/help/customer/display.html?nodeId=G4YFYCCNUSENA23B",
+  "https://www.amazon.sg/robots.txt"
+ ],
+ "notes": "official_domains: amazon.sg and amazon.com are (a) on the SG scam help page. nodeId G4YFYCCNUSENA23B is Amazon's standard 'Identifying a Scam' help node (same ID across Amazon marketplaces); not disallowed by amazon.sg robots.txt. Global amazon.com equivalents not recorded."
+}

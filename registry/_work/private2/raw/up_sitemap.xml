@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- updated with uParcel additions and removals -->
+
+<url>
+  <loc>https://www.uparcel.sg/</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/services</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/services/warehouse-storage-services</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/services/ecommerce-enabler</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/services/ecommerce-last-mile-fulfillment</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/services/api-solution</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/services/technology-consultancy</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/services/document-courier-delivery</loc>
+  <lastmod>2026-04-15T11:32:52+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/services/medicine-delivery</loc>
+  <lastmod>2026-04-15T11:32:52+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/services/food-delivery</loc>
+  <lastmod>2026-04-15T11:32:52+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/services/cake-and-flowers-delivery</loc>
+  <lastmod>2026-04-15T11:32:52+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/services/van-truck-delivery</loc>
+  <lastmod>2026-04-15T11:32:52+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/services/night-delivery</loc>
+  <lastmod>2026-04-15T11:32:52+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/services/additional-services</loc>
+  <lastmod>2026-04-15T11:32:52+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/services/3pl-singapore</loc>
+  <lastmod>2026-04-15T11:32:52+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/services/outsource-logistics</loc>
+  <lastmod>2026-04-15T11:32:52+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/services/door-to-door-delivery</loc>
+  <lastmod>2026-04-15T11:32:52+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/services/same-day-courier-delivery-services</loc>
+  <lastmod>2026-04-15T11:32:52+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/services/express-courier-same-day-delivery-services</loc>
+  <lastmod>2026-04-15T11:32:52+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/sign-in/</loc>
+  <lastmod>2026-04-15T04:54:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/sign-up/</loc>
+  <lastmod>2026-04-15T04:54:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/sign-up/?tab=partner-fleet</loc>
+  <lastmod>2026-04-15T04:54:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/sign-in/?tab=partner-fleet</loc>
+  <lastmod>2026-04-15T04:54:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/reset_password/</loc>
+  <lastmod>2026-04-15T04:54:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/blog</loc>
+  <lastmod>2026-04-15T11:32:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/career</loc>
+  <lastmod>2026-04-15T11:32:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/how-we-work</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/how-we-work?activeItem=our-technology</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/how-we-work?activeItem=milestones</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/how-we-work?activeItem=sustainability</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/how-we-work?activeItem=esg</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/rates</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/corporate-features</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/promotions</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/track</loc>
+  <lastmod>2026-04-14T11:32:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/delivery-agent/freelance</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/delivery-agent/subcontractors</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/delivery-agent/benefits</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/partner-fleets</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/affiliate-programme</loc>
+  <lastmod>2026-04-14T11:32:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/contact-us</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/customer-stories/ecommerce</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/customer-stories/colorich</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/customer-stories/whitecoat</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/customer-stories/tiktok</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/customer-stories/overseasexpansion</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/faq</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/services/ecommerce-enabler/social-commerce</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/services/ecommerce-enabler/get-a-quote</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/services/ecommerce-enabler/inbound-customs</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/services/ecommerce-enabler/store-management</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/services/ecommerce-enabler/seo-and-same-day-delivery</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/services/ecommerce-enabler/fulfilment-warehousing</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/services/api-solution/shopify</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/services/api-solution/shopee</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/services/api-solution/lazada</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/services/api-solution/ushop</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/guides/agent-tutorial</loc>
+  <lastmod>2026-04-15T11:32:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/guides/customer-tutorial</loc>
+  <lastmod>2026-04-15T11:32:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/tools/quotation</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/warehousing-fulfillment-lp</loc>
+  <lastmod>2026-04-14T11:32:53+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/document/api-documentation</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/terms-and-conditions</loc>
+  <lastmod>2026-04-14T11:32:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.uparcel.sg/api/download-quote/?quotationNumber=notyetcomputed</loc>
+  <lastmod>2026-04-15T04:54:51+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+</urlset>

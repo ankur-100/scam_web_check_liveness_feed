@@ -1,0 +1,62 @@
+[
+{
+ "entity_id": "moh.gov.sg",
+ "name": "Ministry of Health",
+ "abbr": "MOH",
+ "aliases": ["Ministry of Health (MOH)", "MOH", "Healthier SG"],
+ "sector": "gov.ministry",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": ["moh.gov.sg"],
+ "official_hosts": ["www.moh.gov.sg"],
+ "scam_info": [
+  {"url": "https://www.moh.gov.sg/", "kind": "alert_page", "lists_indicators": [], "access": "html", "machine_url": "https://www.moh.gov.sg/sitemap.xml",
+   "item_count": null, "latest_item_date": null, "verified": "2026-11-26 HTTP 200",
+   "sample": "Government officials will never ask you to transfer money over a phone call. If you're unsure if something is a scam, call ScamShield (opens in new tab) at 1799.",
+   "notes": "Generic whole-of-government banner only. MOH sitemap (11,326 URLs; lastmod bulk-set 2026-07-30) has NO scam/phishing/impersonation advisory page; 'fraud' hits are healthcare-fraud enforcement/PQ replies (e.g. /newsroom/clinics-taken-to-task-for-fraudulent-claims/). Low value; included so the pipeline knows MOH publishes nothing scam-specific."}
+ ],
+ "official_channels": {"sms_sender_ids": ["gov.sg"], "hotlines": ["6325 9220 (MOH, per SGDI)"], "short_link_domains": ["go.gov.sg"],
+   "social": ["https://www.facebook.com/SingaporeMOH/", "https://www.instagram.com/mohsingapore", "https://twitter.com/MOHSingapore", "https://tiktok.com/@MOHSingapore", "https://sg.linkedin.com/company/moh-sg", "https://www.youtube.com/user/MOHSingapore?gl=SG&amp;hl=en-GB", "https://www.whatsapp.com/channel/0029Vb6V58WBqbr2jdEOxl38"],
+   "apps": [], "emails": []},
+ "evidence": ["https://www.sgdi.gov.sg/ministries/moh", "https://www.moh.gov.sg/"],
+ "notes": "official_domains moh.gov.sg (b; SGDI). Unverified (search snippet of SPF 20230905 advisory on fake HealthHub app SMS): legitimate MOH messages used sender ID 'MOH' (pre-July-2024; now gov.sg) and were not sent from mobile numbers. Healthcare impersonation scams (SingHealth/polyclinic, HealthHub) are published by SPF/ScamShield and the clusters, not MOH. Communicable Diseases Agency (cda.gov.sg) is a new 2026 MOH statboard per SGDI."
+},
+{
+ "entity_id": "hpb.gov.sg",
+ "name": "Health Promotion Board",
+ "abbr": "HPB",
+ "aliases": ["Health Promotion Board (HPB)", "HPB"],
+ "sector": "gov.statboard",
+ "parent_entity_id": "moh.gov.sg",
+ "country": "SG",
+ "official_domains": ["hpb.gov.sg"],
+ "official_hosts": ["www.hpb.gov.sg"],
+ "scam_info": [],
+ "official_channels": {"sms_sender_ids": ["gov.sg"], "hotlines": ["1800-2231313 (HPB, per SGDI)"], "short_link_domains": ["go.gov.sg"],
+   "social": ["https://www.facebook.com/hpbsg", "https://www.instagram.com/hpbsg", "https://www.linkedin.com/company/health-promotion-board", "https://www.youtube.com/user/HPBsg?"],
+   "apps": [], "emails": ["hpb_mailbox@hpb.gov.sg (SGDI)"]},
+ "evidence": ["https://www.sgdi.gov.sg/ministries/moh/statutory-boards/hpb", "https://www.hpb.gov.sg/"],
+ "notes": "No scam pages: sitemap (395 URLs) only keyword hit is an advisory-committee release; homepage has no scam text. HPB consumer content lives on healthhub.sg (linked from HPB homepage)."
+},
+{
+ "entity_id": "healthhub.sg",
+ "name": "HealthHub",
+ "abbr": null,
+ "aliases": ["HealthHub", "HealthHub SG"],
+ "sector": "gov.programme",
+ "parent_entity_id": "moh.gov.sg",
+ "country": "SG",
+ "official_domains": ["healthhub.sg"],
+ "official_hosts": ["www.healthhub.sg", "eservices.healthhub.sg", "support.healthhub.sg", "cdn.healthhub.sg"],
+ "scam_info": [
+  {"url": "https://www.healthhub.sg/highlights-and-insights/health-safety-advisory/stay-safe-when-shopping-online", "kind": "scam_faq", "lists_indicators": [], "access": "sitemap",
+   "machine_url": "https://www.healthhub.sg/sitemap.xml", "item_count": null, "latest_item_date": "2025-08-25", "verified": "2026-11-26 HTTP 200",
+   "sample": "it’s hard to tell who the sellers are, and whether they are selling fake health products or if their services are safe.",
+   "notes": "Part of 'health-safety-advisory' section (13 URLs in sitemap, lastmod 2025-08..2026-10) incl. protect-yourself-from-fake-and-illegal-health-products, protect-yourself-from-unlicensed-healthcare-services-and-professionals. Narrative consumer-safety guidance (mirrors HSA). latest_item_date = sitemap lastmod."}
+ ],
+ "official_channels": {"sms_sender_ids": [], "hotlines": [], "short_link_domains": [],
+   "social": ["https://t.me/HealthHubSG", "https://www.tiktok.com/@healthhub.sg"], "apps": [], "emails": []},
+ "evidence": ["https://www.hpb.gov.sg/", "https://www.healthhub.sg/highlights-and-insights/health-safety-advisory/stay-safe-when-shopping-online"],
+ "notes": "National health portal linked from HPB homepage; page links moh.gov.sg, hsa.gov.sg and synapxe.sg (operator) - ownership stated as MOH-family by linkage only (b). Listed on gov.sg Trusted Sites per earlier survey. SPF impersonation: unverified (search snippet) 2023 SPF advisory 'new scam variant involving SMS to fake HealthHub application'. Sitemap 16,444 URLs with lastmod."
+}
+]

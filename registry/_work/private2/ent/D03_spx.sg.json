@@ -1,0 +1,35 @@
+{
+ "entity_id": "spx.sg",
+ "name": "SPX Express Singapore",
+ "abbr": "SPX",
+ "aliases": [
+  "SPX",
+  "SPX Express",
+  "Shopee Express"
+ ],
+ "sector": "logistics",
+ "parent_entity_id": "shopee.sg",
+ "country": "SG",
+ "official_domains": [
+  "spx.sg"
+ ],
+ "official_hosts": [
+  "spx.sg"
+ ],
+ "scam_info": [],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": [],
+  "apps": [],
+  "emails": []
+ },
+ "evidence": [
+  "https://spx.sg/en",
+  "https://spx.sg/robots.txt",
+  "https://spx.sg/sitemap/index.xml",
+  "https://spx.sg/sitemap/en.xml"
+ ],
+ "notes": "Official site spx.sg (b: serving domain; robots.txt Sitemap -> /sitemap/index.xml, 31 URLs; no scam/security page in sitemap). Support FAQ https://spx.sg/en/support-center/faq is JS-rendered (curl returns only the title; one WebFetch attempt also saw only the title) - recorded and moved on. Homepage footer gives address 'Shopee Building, Singapore 118265' and links careers.shopee.sg, hence parent_entity_id shopee.sg (Shopee logistics arm). No SPX-published scam page, sender ID, hotline or social links found. SPX impersonation is covered by Shopee help article 204789 '[Scam-Advisory] Delivery Impersonation Scams' (see shopee.sg record) and by SPF advisories 2026-07-15 and 2026-08-05/2026-08-20 on courier/iMessage phishing naming SPX (unverified (search snippet); belong to SPF registry)."
+}

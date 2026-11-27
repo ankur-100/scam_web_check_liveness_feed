@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /sg/circles18
+Disallow: /sg/combo-plan-black/*
+Disallow: /sg/plans/esim/single-page-checkout/
+Disallow: /sg/guides-and-faqs/
+Disallow: /sg/plans/psim/single-page-checkout/
+Disallow: /sg/wp-content/elementor/*
+Disallow: /sg/wp-content/plugins/elementor/*
+Disallow: /sg/wp-includes/*
+Allow: /
+
+Sitemap: https://www.circles.life/sg/sitemap_index.xml

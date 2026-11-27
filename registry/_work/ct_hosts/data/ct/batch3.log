@@ -1,0 +1,23 @@
+scamalert.sg	OK rows=304 in 20s (attempt 1)
+%.scamalert.sg	FAIL HTTP 502 in 2s
+pango.gov.sg	OK rows=6 in 18s (attempt 1)
+ncpc.gov.sg	OK rows=3 in 10s (attempt 1)
+scamshield.sg	OK rows=169 in 7s (attempt 1)
+scam.sg	OK rows=524 in 30s (attempt 1)
+scams.sg	OK rows=44 in 17s (attempt 1)
+checkscam.sg	OK rows=2 in 38s (attempt 2)
+phishing.sg	OK rows=314 in 19s (attempt 1)
+gosafeonline.sg	OK rows=31 in 39s (attempt 2)
+cybersafe.sg	OK rows=156 in 33s (attempt 1)
+singcert.org.sg	OK rows=51 in 41s (attempt 2)
+csa.gov.sg	OK rows=218 in 19s (attempt 1)
+police.gov.sg	FAIL HTTP 502 in 1s
+checkmate.sg	OK rows=1190 in 28s (attempt 1)
+moneysense.gov.sg	OK rows=85 in 44s (attempt 1)
+digitalforlife.gov.sg	OK rows=202 in 4s (attempt 1)
+smsregistry.sg	FAIL HTTP 502 in 1s
+ask.gov.sg	OK rows=467 in 99s (attempt 1)
+ocha.gov.sg	OK rows=0 in 17s (attempt 1)
+dnc.gov.sg	OK rows=116 in 1s (attempt 1)
+osc.gov.sg	OK rows=219 in 7s (attempt 1)
+scamshield.com.sg	OK rows=0 in 19s (attempt 1)

@@ -1,0 +1,87 @@
+{
+ "host": "www.mot.gov.sg",
+ "robots_status": 200,
+ "robots": "User-Agent: *\nAllow: /\nDisallow: /search\n\nSitemap: https://www.mot.gov.sg/sitemap.xml\n",
+ "sitemaps_declared": [
+  "https://www.mot.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  [
+   "https://www.mot.gov.sg/sitemap.xml",
+   "urlset",
+   2642,
+   "https://www.mot.gov.sg/sitemap.xml"
+  ]
+ ],
+ "errors": [],
+ "total_urls": 2642,
+ "hosts_in_sitemap": {
+  "www.mot.gov.sg": 2642
+ },
+ "matches": [
+  [
+   "https://www.mot.gov.sg/news-resources/newsroom/address-by-minister-for-transport-and-minister-in-charge-of-trade-relations-mr-s-iswaran-advisor-to-the-tamil-language-council-at-the-launch-of-tamil-language-councils-20th-anniversary-commemorative-publication/",
+   "2026-07-30T18:20:10.647Z"
+  ],
+  [
+   "https://www.mot.gov.sg/news-resources/newsroom/fruitful-discussions-at-maritime-international-advisory-panel-on-pathways-and-measures-to-strengthen-the-maritime-ecosystem-and-advance-digitalisation/",
+   "2026-07-30T18:20:10.647Z"
+  ],
+  [
+   "https://www.mot.gov.sg/news-resources/newsroom/government-accepts-all-recommendations-from-the-active-mobility-advisory-panel/",
+   "2026-07-30T18:20:10.647Z"
+  ],
+  [
+   "https://www.mot.gov.sg/news-resources/newsroom/government-accepts-land-transport-master-plan-2040-advisory-panel-s-recommendations/",
+   "2026-07-30T18:20:10.647Z"
+  ],
+  [
+   "https://www.mot.gov.sg/news-resources/newsroom/government-accepts-recommendation-from-the-active-mobility-advisory-panel-to-mandate-brakes-on-bicycles-used-on-public-paths-and-roads/",
+   "2026-07-30T18:20:10.647Z"
+  ],
+  [
+   "https://www.mot.gov.sg/news-resources/newsroom/government-accepts-recommendations-from-the-active-mobility-advisory-panel-on-regulations-for-cargo-bicycles-cargo-tricycles-rider-only-tricycles-and-recumbents-on-paths-and-roads/",
+   "2026-07-30T18:20:10.647Z"
+  ],
+  [
+   "https://www.mot.gov.sg/news-resources/newsroom/government-accepts-recommendations-from-the-active-mobility-advisory-panel-on-regulations-for-personal-mobility-aids/",
+   "2026-07-30T18:20:10.647Z"
+  ],
+  [
+   "https://www.mot.gov.sg/news-resources/newsroom/government-accepts-recommendations-from-the-active-mobility-advisory-panel-to-enhance-road-safety/",
+   "2026-07-30T18:20:10.647Z"
+  ],
+  [
+   "https://www.mot.gov.sg/news-resources/newsroom/government-accepts-recommendations-of-active-mobility-advisory-panel-for-safer-path-sharing/",
+   "2026-07-30T18:20:10.647Z"
+  ],
+  [
+   "https://www.mot.gov.sg/news-resources/newsroom/keynote-address-by-minister-for-transport-mr-ong-ye-kung-for-the-apec-business-advisory-council-dialogue-on-reopening-borders-for-safe-and-seamless-travel/",
+   "2026-07-30T18:20:10.647Z"
+  ],
+  [
+   "https://www.mot.gov.sg/news-resources/newsroom/opening-address-by-senior-advisor-mr-yap-ong-heng-at-the-opening-ceremony-of-the-3rd-advanced-maritime-leaders-programme/",
+   "2026-07-30T18:20:10.647Z"
+  ],
+  [
+   "https://www.mot.gov.sg/news-resources/newsroom/written-reply-to-parliamentary-question-on-active-monitoring-alert-system-to-detect-oil-spillage-to-ensure-more-effective-and-expedient-recovery-efforts/",
+   "2026-07-30T18:20:10.647Z"
+  ],
+  [
+   "https://www.mot.gov.sg/news-resources/newsroom/written-reply-to-parliamentary-question-on-government-advisories-on-funding-by-private-developments-for-sheltered-walkways-that-connect-to-nearest-bus-stops/",
+   "2026-07-30T18:20:10.647Z"
+  ],
+  [
+   "https://www.mot.gov.sg/news-resources/newsroom/written-reply-to-parliamentary-question-on-reviewing-accident-prone-road-and-traffic-junctions-and-increasing-awareness-to-alert-motorists-and-users/",
+   "2026-07-30T18:20:10.647Z"
+  ],
+  [
+   "https://www.mot.gov.sg/news-resources/newsroom/written-reply-to-parliamentary-question-on-selection-criteria-for-members-of-active-mobility-advisory-panel/",
+   "2026-07-30T18:20:10.647Z"
+  ],
+  [
+   "https://www.mot.gov.sg/news-resources/newsroom/written-reply-to-parliamentary-question-on-signs-to-alert-cyclists-at-smart-traffic-light-junctions/",
+   "2026-07-30T18:20:10.647Z"
+  ]
+ ]
+}

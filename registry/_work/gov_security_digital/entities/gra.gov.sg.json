@@ -1,0 +1,72 @@
+{
+ "entity_id": "gra.gov.sg",
+ "name": "Gambling Regulatory Authority of Singapore",
+ "abbr": "GRA",
+ "aliases": [
+  "Gambling Regulatory Authority (GRA)"
+ ],
+ "sector": "gov.statboard",
+ "parent_entity_id": "mha.gov.sg",
+ "country": "SG",
+ "official_domains": [
+  "gra.gov.sg"
+ ],
+ "official_hosts": [
+  "www.gra.gov.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.gra.gov.sg/harm-minimisation/unlawful-remote-gambling-activities",
+   "kind": "scam_faq",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "With effect from 1 January 2025, the Singapore Police Force (SPF) has taken over the functions of blocking access to unlawful remote gambling services, the advertising of such services and payment transactions.",
+   "notes": "Gives the official allowlist fact: \"Singapore Pools (Private) Limited is the only operator licensed by GRA to provide remote gambling services\". Report unlawful gambling sites/apps to SPF via I-Witness. No block list is published (MHA said >3,800 sites were blocked by end-2024). The older URL /harm-minimisation/unlawful-online-gambling, still in search results, returns 404 (2026-11-26)."
+  },
+  {
+   "url": "https://www.gra.gov.sg/newsroom/enforcement-actions",
+   "kind": "statistics",
+   "lists_indicators": [
+    "entity_name"
+   ],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2026",
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "Resorts World at Sentosa Pte. Ltd. | Section 138(1) of the Casino Control Act 2006 | ... | Letter of Censure",
+   "notes": "Enforcement table (FY2022-FY2026) against licensed operators (RWS, MBS, Singapore Pools, SAFRA, BMM Australia). These are regulatory breaches, not scams; included only because it is GRA's only named-entity list. Low relevance. Sitemap lastmod 2026-10-19."
+  },
+  {
+   "url": "https://www.gra.gov.sg/resources/advisories",
+   "kind": "scam_faq",
+   "lists_indicators": [],
+   "access": "sitemap",
+   "machine_url": "https://www.gra.gov.sg/sitemap.xml",
+   "item_count": 11,
+   "latest_item_date": "2026-08-27",
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "resources/advisories/remote-games-of-chance",
+   "notes": "11 legality advisories (social gambling, minimum age, trade-promotion and fundraiser lotteries, remote games of chance). They help classify \"lucky draw\" or \"game of chance\" lures, but are not scam alerts. The sitemap (90 URLs, with lastmod, newest 2026-11-05) is at /sitemap.xml; robots.txt does not declare it."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [
+   "gov.sg"
+  ],
+  "hotlines": [
+   "1799 (ScamShield Helpline, per site banner)"
+  ],
+  "short_link_domains": [],
+  "social": []
+ },
+ "evidence": [
+  "https://www.sgdi.gov.sg/ministries/mha/statutory-boards/gra",
+  "https://www.gra.gov.sg/sitemap.xml"
+ ],
+ "notes": "Publishes no list of illegal gambling sites. Blocking powers for unlawful remote gambling moved to SPF on 1 Jan 2025, and those block lists are not published. Licensed remote-gambling allowlist: Singapore Pools only."
+}

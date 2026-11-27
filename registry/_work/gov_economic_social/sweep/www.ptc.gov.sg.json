@@ -1,0 +1,39 @@
+{
+ "host": "www.ptc.gov.sg",
+ "robots_status": 200,
+ "robots": "User-Agent: *\nAllow: /\nDisallow: /search\n\nSitemap: https://www.ptc.gov.sg/sitemap.xml\n",
+ "sitemaps_declared": [
+  "https://www.ptc.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  [
+   "https://www.ptc.gov.sg/sitemap.xml",
+   "urlset",
+   125,
+   "https://www.ptc.gov.sg/sitemap.xml"
+  ]
+ ],
+ "errors": [],
+ "total_urls": 125,
+ "hosts_in_sitemap": {
+  "www.ptc.gov.sg": 125
+ },
+ "matches": [
+  [
+   "https://www.ptc.gov.sg/media-centre/newsroom/advisory-panel-submits-recommendations-to-make-land-transport-system-more-family-friendly/",
+   "2026-07-30T18:20:02.799Z"
+  ],
+  [
+   "https://www.ptc.gov.sg/media-centre/newsroom/new-advisory-panel-set-up-to-recommend-how-land-transport-system-can-be-more-family-friendly/",
+   "2026-07-30T18:20:02.799Z"
+  ],
+  [
+   "https://www.ptc.gov.sg/media-centre/publications/1st-advisory-reports/",
+   "2026-07-30T18:20:02.799Z"
+  ],
+  [
+   "https://www.ptc.gov.sg/media-centre/publications/2nd-advisory-report/",
+   "2026-07-30T18:20:02.799Z"
+  ]
+ ]
+}

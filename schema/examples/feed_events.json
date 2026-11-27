@@ -1,0 +1,140 @@
+[
+ {
+  "record_type": "feed_event",
+  "seq": 1,
+  "emitted_at": "2026-11-26T03:42:10Z",
+  "op": "upsert",
+  "object_type": "indicator",
+  "object_id": "ind_29c0928d3a51e6a0",
+  "version": 1,
+  "changed_fields": [
+   "*"
+  ],
+  "previous_status": null,
+  "snapshot": {
+   "indicator_id": "ind_29c0928d3a51e6a0",
+   "type": "domain",
+   "value": "drbypass-proxy.pages.dev",
+   "value_defanged": "drbypass-proxy[.]pages[.]dev",
+   "status": "unverified",
+   "status_reason": "not yet checked / inconclusive",
+   "first_seen": "2026-11-24T02:23:28.255Z",
+   "last_seen": "2026-11-24T02:28:09.810Z",
+   "valid_until": "2027-02-22T02:28:09.810000Z",
+   "confidence": 90,
+   "categories": [
+    "impersonation.government"
+   ],
+   "impersonated_entity_ids": [
+    "police.gov.sg"
+   ],
+   "issuer_entity_ids": [
+    "police.gov.sg"
+   ],
+   "report_ids": [
+    "spf-icanact:b633b3b7-f3f5-4e06-b96c-05f0ce86c9ed"
+   ],
+   "tlp": "TLP:CLEAR",
+   "registrable_domain": "drbypass-proxy.pages.dev",
+   "block_scope": "hostname",
+   "liveness": {
+    "state": "unknown",
+    "last_checked_at": "2026-11-26T03:42:10Z",
+    "last_live_at": null,
+    "registration_expires_at": null
+   }
+  }
+ },
+ {
+  "record_type": "feed_event",
+  "seq": 2,
+  "emitted_at": "2026-11-26T03:42:10Z",
+  "op": "upsert",
+  "object_type": "indicator",
+  "object_id": "ind_7e35d65d1a18205b",
+  "version": 1,
+  "changed_fields": [
+   "*"
+  ],
+  "previous_status": null,
+  "snapshot": {
+   "indicator_id": "ind_7e35d65d1a18205b",
+   "type": "domain",
+   "value": "feevr.top",
+   "value_defanged": "feevr[.]top",
+   "status": "inactive",
+   "status_reason": "registrar hold (takedown)",
+   "first_seen": "2026-07-06T01:30:32.790Z",
+   "last_seen": "2026-07-06T01:30:35.487Z",
+   "valid_until": "2026-10-04T01:30:35.487000Z",
+   "confidence": 90,
+   "categories": [
+    "phishing.non_banking"
+   ],
+   "impersonated_entity_ids": [
+    "lta.gov.sg"
+   ],
+   "issuer_entity_ids": [
+    "police.gov.sg"
+   ],
+   "report_ids": [
+    "spf-icanact:97b86ce3-c986-4962-82bc-2e5ee2dce447"
+   ],
+   "tlp": "TLP:CLEAR",
+   "registrable_domain": "feevr.top",
+   "block_scope": "registrable_domain",
+   "liveness": {
+    "state": "dead",
+    "last_checked_at": "2026-11-26T03:42:10Z",
+    "last_live_at": null,
+    "registration_expires_at": "2027-07-01T04:34:59Z"
+   }
+  }
+ },
+ {
+  "record_type": "feed_event",
+  "seq": 3,
+  "emitted_at": "2026-11-26T03:42:10Z",
+  "op": "upsert",
+  "object_type": "indicator",
+  "object_id": "ind_5c5c3891afa205ee",
+  "version": 1,
+  "changed_fields": [
+   "*"
+  ],
+  "previous_status": null,
+  "snapshot": {
+   "indicator_id": "ind_5c5c3891afa205ee",
+   "type": "domain",
+   "value": "feekt.top",
+   "value_defanged": "feekt[.]top",
+   "status": "inactive",
+   "status_reason": "registrar hold (takedown)",
+   "first_seen": "2026-07-06T01:30:32.790Z",
+   "last_seen": "2026-07-06T01:30:35.487Z",
+   "valid_until": "2026-10-04T01:30:35.487000Z",
+   "confidence": 90,
+   "categories": [
+    "phishing.non_banking"
+   ],
+   "impersonated_entity_ids": [
+    "lta.gov.sg"
+   ],
+   "issuer_entity_ids": [
+    "police.gov.sg"
+   ],
+   "report_ids": [
+    "spf-icanact:97b86ce3-c986-4962-82bc-2e5ee2dce447"
+   ],
+   "tlp": "TLP:CLEAR",
+   "registrable_domain": "feekt.top",
+   "block_scope": "registrable_domain",
+   "liveness": {
+    "state": "dead",
+    "last_checked_at": "2026-11-26T03:42:10Z",
+    "last_live_at": null,
+    "registration_expires_at": "2027-06-30T06:53:53Z"
+   }
+  }
+ }
+]

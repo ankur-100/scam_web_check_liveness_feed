@@ -1,0 +1,43 @@
+{
+ "host": "www.cpib.gov.sg",
+ "robots": "User-Agent: *\nAllow: /\nDisallow: /search\n\nSitemap: https://www.cpib.gov.sg/sitemap.xml\n",
+ "robots_status": 200,
+ "sitemaps_declared": [
+  "https://www.cpib.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  "https://www.cpib.gov.sg/sitemap.xml[200:576]"
+ ],
+ "n_urls": 576,
+ "hits": [
+  [
+   "https://www.cpib.gov.sg/advisory/",
+   "2026-06-25T07:51:39.846Z"
+  ],
+  [
+   "https://www.cpib.gov.sg/press-room/advisory-fictitious-cpib-documents/",
+   "2026-07-30T18:35:00.225Z"
+  ],
+  [
+   "https://www.cpib.gov.sg/press-room/advisory-phone-impersonation-scams/",
+   "2026-07-30T18:35:00.225Z"
+  ],
+  [
+   "https://www.cpib.gov.sg/press-room/former-iras-tax-investigator-and-a-director-charged-for-alleged-offences-under-the-computer-misuse-and-cybersecurity-act-and-the-official-secrets-act/",
+   "2026-07-30T18:35:00.225Z"
+  ],
+  [
+   "https://www.cpib.gov.sg/press-room/four-men-fined-and-sentenced-jail-fraudulent-gst-tourist-refund-claims/",
+   "2026-07-30T18:35:00.225Z"
+  ],
+  [
+   "https://www.cpib.gov.sg/press-room/sentenced-18-months-imprisonment-corruption-gst-tourist-refund-fraud-and/",
+   "2026-07-30T18:35:00.225Z"
+  ],
+  [
+   "https://www.cpib.gov.sg/press-room/six-charged-corrupt-and-fraudulent-gst-tourist-refund-claims/",
+   "2026-07-30T18:35:00.225Z"
+  ]
+ ],
+ "newest_lastmod": "2026-11-24T03:09:44.105Z"
+}

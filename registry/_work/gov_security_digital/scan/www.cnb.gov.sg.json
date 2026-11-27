@@ -1,0 +1,43 @@
+{
+ "host": "www.cnb.gov.sg",
+ "robots": "User-Agent: *\nAllow: /\nDisallow: /search\n\nSitemap: https://www.cnb.gov.sg/sitemap.xml\n",
+ "robots_status": 200,
+ "sitemaps_declared": [
+  "https://www.cnb.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  "https://www.cnb.gov.sg/sitemap.xml[200:870]"
+ ],
+ "n_urls": 870,
+ "hits": [
+  [
+   "https://www.cnb.gov.sg/singapore-drug-situation/myths-and-facts-about-drugs/cannabis/advisory-regarding-medical-cannabis/",
+   "2026-04-16T09:42:18.604Z"
+  ],
+  [
+   "https://www.cnb.gov.sg/mediaroom/news/4th-drug-advisory-programme-focal-point-meeting-speech-by-mr-amrin-amin-parliamentary-secretary-ministry-of-home-affairs-ministry-of-health-parkroyal-hotel-beach-road-monday-23-october-2017/",
+   "2026-07-30T18:17:07.388Z"
+  ],
+  [
+   "https://www.cnb.gov.sg/mediaroom/news/advisory-on-the-abuse-possession-sale-and-importation-of-cannabis-and-cannabis-products/",
+   "2026-07-30T18:17:07.388Z"
+  ],
+  [
+   "https://www.cnb.gov.sg/mediaroom/news/anti-drug-abuse-photo-contest-email-impersonating-cnb-and-sp/",
+   "2026-07-30T18:17:07.388Z"
+  ],
+  [
+   "https://www.cnb.gov.sg/mediaroom/news/cnb-advisory-incidents-of-impersonation/",
+   "2026-07-30T18:17:07.388Z"
+  ],
+  [
+   "https://www.cnb.gov.sg/mediaroom/news/colombo-plan-4th-drug-advisory-programme-focal-point-meeting-singapore-23-25-october-2017/",
+   "2026-07-30T18:17:07.388Z"
+  ],
+  [
+   "https://www.cnb.gov.sg/mediaroom/news/email-scam-sent-using-fake-central-narcotics-bureau-cnb-email-address/",
+   "2026-07-30T18:17:07.388Z"
+  ]
+ ],
+ "newest_lastmod": "2026-11-23T07:56:06.678Z"
+}

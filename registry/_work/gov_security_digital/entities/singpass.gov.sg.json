@@ -1,0 +1,56 @@
+{
+ "entity_id": "singpass.gov.sg",
+ "name": "Singpass",
+ "abbr": "Singpass",
+ "aliases": [
+  "SingPass",
+  "Singapore Personal Access"
+ ],
+ "sector": "gov.programme",
+ "parent_entity_id": "tech.gov.sg",
+ "country": "SG",
+ "official_domains": [
+  "singpass.gov.sg"
+ ],
+ "official_hosts": [
+  "www.singpass.gov.sg",
+  "portal.singpass.gov.sg",
+  "developer.singpass.gov.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.singpass.gov.sg/security",
+   "kind": "scam_faq",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Singpass will never send you links or QR codes via SMS or WhatsApp.",
+   "notes": "Official anti-phishing guidance: check for singpass.gov.sg plus the lock icon; passkeys only work on official Singpass logins. Offers account suspension and unauthorised-access reporting. The sitemap has only 5 URLs (/, /download, /help, /passkeys, /security; no lastmod). No scam alert list or feed. Singpass phishing advisories are published by SPF (e.g. 20220318, 20221002, 20220728 joint with IRAS)."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [
+   "gov.sg"
+  ],
+  "hotlines": [
+   "6335 3533 (Singpass helpdesk, per SPF advisory 20220318)"
+  ],
+  "short_link_domains": [
+   "go.gov.sg"
+  ],
+  "social": [],
+  "apps": [
+   "Singpass app"
+  ]
+ },
+ "evidence": [
+  "https://www.singpass.gov.sg/sitemap.xml",
+  "https://www.singpass.gov.sg/security",
+  "https://www.sms.gov.sg/check",
+  "https://www.police.gov.sg/media-hub/news/2022/03/20220318_police_advisory_phishing_scam_involving_singpass"
+ ],
+ "notes": "Heavily impersonated (SPF brand tag \"Singpass\", 2 advisories; fake login pages on workers.dev). Hosts seen in page links: portal.singpass.gov.sg, developer.singpass.gov.sg. sms.gov.sg lists Singpass as sending from gov.sg; older SPF advisories (2022) mention \"Singpass\"/\"SingPass\" sender IDs from before the 1 Jul 2024 consolidation. go.gov.sg/even-safer-singpass is an official short link. The helpdesk number 6335 3533 and \"The official website for Singpass is singpass.gov.sg\" are from SPF advisory 20220318 (fetched 2026-11-26 HTTP 200)."
+}

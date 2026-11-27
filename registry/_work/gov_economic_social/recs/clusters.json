@@ -1,0 +1,113 @@
+[
+{
+ "entity_id": "singhealth.com.sg",
+ "name": "Singapore Health Services (SingHealth)",
+ "abbr": "SingHealth",
+ "aliases": ["SingHealth", "SingHealth Polyclinics", "SHP", "Polyclinic"],
+ "sector": "healthcare",
+ "parent_entity_id": "moh.gov.sg",
+ "country": "SG",
+ "official_domains": ["singhealth.com.sg", "cgh.com.sg", "kkh.com.sg", "skh.com.sg", "nccs.com.sg", "nhcs.com.sg", "nni.com.sg", "snec.com.sg", "ndcs.com.sg", "egh.com.sg", "healthxchange.sg", "singhealthacademy.edu.sg", "singhealthdukenus.com.sg"],
+ "official_hosts": ["www.singhealth.com.sg", "polyclinic.singhealth.com.sg"],
+ "scam_info": [
+  {"url": "https://www.singhealth.com.sg/about-singhealth/news/check-fake-news", "kind": "report_portal", "lists_indicators": [], "access": "sitemap",
+   "machine_url": "https://www.singhealth.com.sg/sitemap-index.xml", "item_count": null, "latest_item_date": "2025-04-23", "verified": "2026-11-26 HTTP 200",
+   "sample": "Heard news about SingHealth or one of its institutions that you’re unsure of? Email us at checkfakenews@singhealth.com.sg to verify its authenticity.",
+   "notes": "Verification channel only (official email checkfakenews@singhealth.com.sg). Polyclinic equivalent at https://polyclinic.singhealth.com.sg/about-shp/news/check-fake-news (seen in search, not opened). Sitemap index (7 children, lastmod) has no other scam page; scam alerts for SingHealth institutions live on sgh.com.sg (separate record). Unverified (search snippet): ScamShield flagged fake 'SingHealth Polyclinics' outstanding-bill iMessages on 7 Nov 2026; SPF advisory 'Beware of Fake SingHealth and Polyclinic Websites' (SPF sample domain polyclinic-a.top, not visited)."}
+ ],
+ "official_channels": {"sms_sender_ids": [], "hotlines": [], "short_link_domains": ["for.sg"],
+   "social": ["https://www.facebook.com/singhealth", "https://www.instagram.com/SingHealth.SG", "https://www.linkedin.com/company/singhealth/", "https://www.tiktok.com/@singhealth?_t=8ohAFy7fToO&_r=1", "https://www.youtube.com/@SingaporeHealth"],
+   "apps": [], "emails": ["checkfakenews@singhealth.com.sg"]},
+ "evidence": ["https://www.singhealth.com.sg/about-singhealth/news/check-fake-news"],
+ "notes": "Public healthcare cluster (MOH Holdings-owned; parent set to moh.gov.sg). official_domains: singhealth.com.sg (b) + SingHealth institution sites linked from the SingHealth footer (b): CGH, KKH, SKH, NCCS, NHCS, NNI, SNEC, NDCS, EGH, HealthXchange, SingHealth Academy, SingHealth Duke-NUS; sgh.com.sg has its own record. Official bill-payment host per SGH page: eservices.healthhub.sg/public/payments. SPF brand tag 'SingHealth' (1 advisory)."
+},
+{
+ "entity_id": "sgh.com.sg",
+ "name": "Singapore General Hospital",
+ "abbr": "SGH",
+ "aliases": ["Singapore General Hospital (SGH)", "SGH"],
+ "sector": "healthcare",
+ "parent_entity_id": "singhealth.com.sg",
+ "country": "SG",
+ "official_domains": ["sgh.com.sg"],
+ "official_hosts": ["www.sgh.com.sg", "eservices.healthhub.sg"],
+ "scam_info": [
+  {"url": "https://www.sgh.com.sg/patient-services/patient-finance/spot-scam-at-sgh", "kind": "fake_indicator_list", "lists_indicators": ["url"], "access": "html",
+   "machine_url": null, "item_count": null, "latest_item_date": null, "verified": "2026-11-26 HTTP 200",
+   "sample": "Only log in to make a payment at this secure link on the MOH HealthHub portal, never elsewhere: https://eservices.healthhub.sg/public/payments ... Examples: https://sgh-xxx.com.sg or https://sgh-sgauth.com",
+   "notes": "Fake-link PATTERN examples (sgh-xxx.com.sg placeholder, sgh-sgauth.com) plus the single OFFICIAL payment URL (eservices.healthhub.sg/public/payments). Undated. 'A link can contain the word \"SGH\", \"SingHealth\" or \"HealthHub\" and still be fake.'"},
+  {"url": "https://www.sgh.com.sg/about-sgh/scam-alert", "kind": "scam_faq", "lists_indicators": [], "access": "html",
+   "machine_url": null, "item_count": null, "latest_item_date": null, "verified": "2026-11-26 HTTP 200",
+   "sample": "Verify SGH's official website is www.sgh.com.sg and government sites use .gov.sg",
+   "notes": "'Scam Alert: Protect Yourself from Healthcare Impersonation Scams' - narrative + official-website statement (a). Unverified (search snippet): SGH also flagged a fake YouTube ad claiming an eye-drop product was developed by SGH (Nov 2026)."},
+  {"url": "https://www.sgh.com.sg/news/patient-care/sgh-nhg-health-warn-of-fake-ads-promoting-health-products", "kind": "news_releases", "lists_indicators": [], "access": "html",
+   "machine_url": null, "item_count": null, "latest_item_date": "2026-07-07", "verified": "2026-11-26 HTTP 200",
+   "sample": "Beware of fake advertisements featuring individuals dressed in Singapore General Hospital’s (SGH) or NHG Health garb to promote health products that have been circulating online",
+   "notes": "Republished Straits Times article (7 Jul 2026) on fake TikTok ads impersonating SGH/NHG Health staff. No handles given."}
+ ],
+ "official_channels": {"sms_sender_ids": [], "hotlines": [], "short_link_domains": [],
+   "social": ["https://www.facebook.com/SingaporeGeneralHospital/", "https://www.instagram.com/sghseen/", "https://www.linkedin.com/company/singapore-general-hospital/", "https://www.tiktok.com/@sghseen", "https://www.youtube.com/user/mysghonline/"],
+   "apps": [], "emails": []},
+ "evidence": ["https://www.sgh.com.sg/about-sgh/scam-alert", "https://www.sgh.com.sg/patient-services/patient-finance/spot-scam-at-sgh"],
+ "notes": "official_domains sgh.com.sg (a: 'SGH's official website is www.sgh.com.sg'). eservices.healthhub.sg is the official bill-payment host named by SGH (a; HealthHub record). sgh.com.sg robots/sitemap not swept."
+},
+{
+ "entity_id": "nuhs.edu.sg",
+ "name": "National University Health System",
+ "abbr": "NUHS",
+ "aliases": ["NUHS", "National University Health System"],
+ "sector": "healthcare",
+ "parent_entity_id": "moh.gov.sg",
+ "country": "SG",
+ "official_domains": ["nuhs.edu.sg", "nuhsplus.edu.sg", "ntfgh.com.sg", "ah.com.sg", "jch.com.sg", "ncis.com.sg", "nuhcs.com.sg", "nup.com.sg", "nucohs.com.sg"],
+ "official_hosts": ["www.nuhs.edu.sg", "coe.nuhs.edu.sg", "discovery.nuhs.edu.sg", "www.nuhsplus.edu.sg"],
+ "scam_info": [
+  {"url": "https://www.nuhs.edu.sg/security-advisory", "kind": "scam_faq", "lists_indicators": [], "access": "sitemap",
+   "machine_url": "https://www.nuhs.edu.sg/sitemap/sitemap.xml", "item_count": 1, "latest_item_date": "2026-04-01", "verified": "2026-11-26 HTTP 200",
+   "sample": "Beware of Rising Impersonation Calls, SMSes and Email Phishing Scams Created: 27 January 2022 Updated: 1 April 2026",
+   "notes": "Single advisory, narrative (enter credentials only on NUHS App or official websites; verify via www.nuhs.edu.sg/about-nuhs/contact-us). Site-wide banner 'NUHS Institutions will NEVER ask you to transfer money or disclose bank details over a call.' Sitemap (2,131 URLs) has no lastmod. Legacy URL /Pages/security-advisory.aspx (search)."}
+ ],
+ "official_channels": {"sms_sender_ids": [], "hotlines": ["+65 6908 2222 (NUHS)"], "short_link_domains": ["for.sg"],
+   "social": ["https://www.facebook.com/NationalUniversityHealthSystem/", "https://instagram.com/nuhsofficial", "https://www.linkedin.com/company/national-university-health-system", "https://www.tiktok.com/@nuhsofficial"],
+   "apps": ["NUHS App"], "emails": []},
+ "evidence": ["https://www.nuhs.edu.sg/security-advisory"],
+ "notes": "Public healthcare cluster. official_domains: nuhs.edu.sg (b) + cluster institution sites linked from NUHS nav/footer (b): NUHS Plus, Ng Teng Fong GH, Alexandra Hospital, Jurong Community Hospital, NCIS, NUHCS, National University Polyclinics, NUCOHS; nuh.com.sg has its own record."
+},
+{
+ "entity_id": "nuh.com.sg",
+ "name": "National University Hospital",
+ "abbr": "NUH",
+ "aliases": ["National University Hospital (NUH)", "NUH"],
+ "sector": "healthcare",
+ "parent_entity_id": "nuhs.edu.sg",
+ "country": "SG",
+ "official_domains": ["nuh.com.sg"],
+ "official_hosts": ["www.nuh.com.sg"],
+ "scam_info": [
+  {"url": "https://www.nuh.com.sg/beware-of-scams-impersonating-nuh", "kind": "scam_faq", "lists_indicators": [], "access": "html",
+   "machine_url": null, "item_count": 1, "latest_item_date": "2024-06-21", "verified": "2026-11-26 HTTP 200",
+   "sample": "NUH will NEVER ask you to transfer money or disclose bank details over a call. We also do not endorse, sell or promote products on social media.",
+   "notes": "Dated 2024/06/21. Narrative; official verification channels: 6908-2222, contactus@nuhs.edu.sg, OneNUHS App. Still cites retired scamalert.sg and 1800-722-6688 anti-scam helpline."}
+ ],
+ "official_channels": {"sms_sender_ids": [], "hotlines": ["6908-2222 (NUH/NUHS, to verify calls/SMS/emails)"], "short_link_domains": [],
+   "social": ["https://www.facebook.com/NationalUniversityHospital/", "https://www.instagram.com/nuhig/", "https://www.linkedin.com/company/national-university-hospital", "https://www.tiktok.com/@nuhsg_official", "https://www.youtube.com/@nuh-sg"],
+   "apps": ["OneNUHS App"], "emails": ["contactus@nuhs.edu.sg"]},
+ "evidence": ["https://www.nuh.com.sg/beware-of-scams-impersonating-nuh"],
+ "notes": "official_domains nuh.com.sg (b). Not swept (robots/sitemap)."
+},
+{
+ "entity_id": "nhghealth.com.sg",
+ "name": "NHG Health (National Healthcare Group)",
+ "abbr": "NHG",
+ "aliases": ["NHG Health", "National Healthcare Group", "NHG", "NHG Polyclinics"],
+ "sector": "healthcare",
+ "parent_entity_id": "moh.gov.sg",
+ "country": "SG",
+ "official_domains": ["nhghealth.com.sg"],
+ "official_hosts": ["www.nhghealth.com.sg"],
+ "scam_info": [],
+ "official_channels": {"sms_sender_ids": [], "hotlines": [], "short_link_domains": [], "social": [], "apps": [], "emails": []},
+ "evidence": ["https://www.nhghealth.com.sg/", "https://www.sgh.com.sg/news/patient-care/sgh-nhg-health-warn-of-fake-ads-promoting-health-products"],
+ "notes": "BLOCKED: www.nhghealth.com.sg returned HTTP 429 to robots.txt, /sitemap.xml and homepage (curl), and HTTP 429 via WebFetch (2026-11-26); legacy www.nhg.com.sg also 429 (2026-11-25). Stopped per policy, not bypassed. Domain taken from search results (www.nhghealth.com.sg/, /ncid, /nhg-diagnostics) - not confirmed on an opened page. Known scam info (via SGH-hosted ST article, 7 Jul 2026): NHG Health Facebook post (6 Jul 2026) warned of videos of an individual in NHG uniform selling medical products. Cluster covers TTSH, KTPH, Woodlands Hospital, IMH, NSC, NCID, NHG Polyclinics."
+}
+]

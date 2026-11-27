@@ -1,0 +1,89 @@
+{
+ "entity_id": "hsbc.com.sg",
+ "name": "HSBC Bank (Singapore) Limited",
+ "abbr": "HSBC",
+ "aliases": [
+  "HSBC",
+  "HSBC Singapore",
+  "HSBC Bank Singapore",
+  "HSBC Singapore app",
+  "HSBC Safeguard"
+ ],
+ "sector": "bank",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "hsbc.com.sg",
+  "hsbc.com",
+  "hsbc.com.hk"
+ ],
+ "official_hosts": [
+  "www.hsbc.com.sg",
+  "www.business.hsbc.com.sg",
+  "www.about.hsbc.com.sg",
+  "internationalservices.hsbc.com",
+  "www.homeandaway.hsbc.com",
+  "www.asia.privatebanking.hsbc.com.hk",
+  "hsbcsg.in1.echosign.com",
+  "hsbcsg.in1.adobesign.com"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.hsbc.com.sg/help/security-centre/fraud-guide/",
+   "kind": "official_channels",
+   "lists_indicators": [
+    "url",
+    "social_handle",
+    "email",
+    "phone"
+   ],
+   "access": "html",
+   "machine_url": "https://www.hsbc.com.sg/sitemaps-pages.xml",
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Always verify before you engage, our official channels are: Instagram: @hsbc_sg Facebook: facebook.com/HSBCSingapore LinkedIn: linkedin.com/company/hsbc/ YouTube: @HSBC_SG Website: ... https://www.hsbc.com.sg",
+   "notes": "(official) Fraud guide by scam type (impersonation, investment, e-commerce, phishing/smishing/vishing, malware, love) plus explicit list of genuine HSBC SG channels; 'only access websites starting with hsbc.com.sg'; report phishing to phishing@hsbc.com; fraud line +65 6-HSBC NOW (6-4722 669). ScamShield bank-hotline list links HSBC here. No dated alerts, no fake indicators."
+  },
+  {
+   "url": "https://www.hsbc.com.sg/help/security-centre/",
+   "kind": "scam_faq",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": "https://www.hsbc.com.sg/sitemaps-pages.xml",
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "The Monetary Authority of Singapore (MAS) and Infocomm Media Development Authority of Singapore (IMDA) announced on 24 October 2024 that the Shared Responsibility Framework (SRF) for phishing scams ...",
+   "notes": "Security Centre hub; subpages in sitemap: transaction-monitoring, fraud-guide, hsbc-safeguard, prevent-fraud, how-to-bank-securely-online (+ zh-sg versions). No dated alert list found."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [
+   "+65 6-HSBC NOW (6-4722 669) (HSBC fraud reporting line, per fraud guide)",
+   "1800 472 2669 (HSBC anti-scam hotline from Singapore, per ScamShield list; corroboration only)"
+  ],
+  "short_link_domains": [],
+  "social": [
+   "https://www.instagram.com/HSBC_SG",
+   "https://www.facebook.com/HSBCSingapore",
+   "http://linkedin.com/company/hsbc",
+   "https://www.youtube.com/@HSBC_SG"
+  ],
+  "apps": [
+   "HSBC Singapore (Apple App Store id1339115277)",
+   "HSBC Singapore (Google Play sg.com.hsbc.hsbcsingapore)"
+  ],
+  "emails": [
+   "phishing@hsbc.com (report phishing)"
+  ]
+ },
+ "evidence": [
+  "https://www.hsbc.com.sg/help/security-centre/fraud-guide/",
+  "https://www.hsbc.com.sg/help/security-centre/",
+  "https://www.hsbc.com.sg/",
+  "https://www.scamshield.gov.sg/bank-s-anti-scam-hotline/"
+ ],
+ "notes": "official_domains: hsbc.com.sg (a: 'only access websites starting with hsbc.com.sg'; 'Access banking services by typing https://www.hsbc.com.sg'); hsbc.com (a: phishing@hsbc.com reporting address; b: internationalservices/homeandaway hosts linked); hsbc.com.hk (b: private-banking link). Adobe Sign/EchoSign hosts are third-party e-signature FQDNs linked from the page (official_hosts only). robots.txt sitemap -> https://www.hsbc.com.sg/sitemaps.xml (index) -> sitemaps-pages.xml. SMS sender ID not stated on pages read. Homepage/robots fetched 2026-11-25 HTTP 200 (digest)."
+}

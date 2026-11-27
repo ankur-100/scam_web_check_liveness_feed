@@ -1,0 +1,28 @@
+{
+ "entity_id": "qoo10.sg",
+ "name": "Qoo10 Singapore",
+ "abbr": null,
+ "aliases": [
+  "Qoo10",
+  "Qoo10 Singapore",
+  "Qoo10.sg"
+ ],
+ "sector": "ecommerce",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [],
+ "official_hosts": [],
+ "scam_info": [],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": [],
+  "apps": [],
+  "emails": []
+ },
+ "evidence": [
+  "https://www.qoo10.sg/"
+ ],
+ "notes": "UNREACHED: www.qoo10.sg did not resolve from this host on 2026-11-26 (DNS timeout / EAI_AGAIN for both curl and WebFetch while other domains resolved), so no official page could be opened; evidence lists the attempted URL only. official_domains left empty (entity_id qoo10.sg is the expected primary domain, unverified). No Qoo10-published scam notice found via web search. Unverified (search snippet): SPF advisory 2020-11-23 on social-media impersonation scams describes fake Qoo10 lucky-draw sites pushed via hijacked WhatsApp accounts. Retry later."
+}

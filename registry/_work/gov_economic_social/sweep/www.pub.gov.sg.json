@@ -1,0 +1,31 @@
+{
+ "host": "www.pub.gov.sg",
+ "robots_status": 200,
+ "robots": "User-agent: * \r\nAllow: / \r\n\r\nDisallow: /sitecore/ \r\nDisallow: /api/ \r\nDisallow: /404 \r\nDisallow: /500 \r\n\r\nSitemap: https://www.pub.gov.sg/sitemap.xml\r\n",
+ "sitemaps_declared": [
+  "https://www.pub.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  [
+   "https://www.pub.gov.sg/sitemap.xml",
+   "urlset",
+   479,
+   "https://www.pub.gov.sg/sitemap.xml"
+  ]
+ ],
+ "errors": [],
+ "total_urls": 479,
+ "hosts_in_sitemap": {
+  "www.pub.gov.sg": 479
+ },
+ "matches": [
+  [
+   "https://www.pub.gov.sg/Public/KeyInitiatives/Flood-Resilience/Flood-Forecasting-and-Monitoring/Subscribe-to-SMS-Alerts",
+   "2024-10-03"
+  ],
+  [
+   "https://www.pub.gov.sg/Public/KeyInitiatives/Flood-Resilience/Flood-Forecasting-and-Monitoring/Unsubscribe-to-SMS-Alerts",
+   "2026-03-03"
+  ]
+ ]
+}

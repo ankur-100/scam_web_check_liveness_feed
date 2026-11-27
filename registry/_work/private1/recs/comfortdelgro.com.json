@@ -1,0 +1,49 @@
+{
+ "entity_id": "comfortdelgro.com",
+ "name": "ComfortDelGro Corporation",
+ "abbr": "CDG",
+ "aliases": [
+  "ComfortDelGro",
+  "CDG",
+  "ComfortDelGro Taxi",
+  "CDG Zig",
+  "Zig",
+  "Comfort Taxi",
+  "CityCab"
+ ],
+ "sector": "transport",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "comfortdelgro.com",
+  "cdgtaxi.com.sg"
+ ],
+ "official_hosts": [
+  "www.comfortdelgro.com",
+  "www.cdgtaxi.com.sg"
+ ],
+ "scam_info": [],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": [
+   "https://www.linkedin.com/company/comfortdelgro",
+   "https://www.facebook.com/ZigbyComfortDelGro",
+   "https://www.instagram.com/cdgtaxi",
+   "https://t.me/ComfortDelGroTaxi",
+   "https://www.linkedin.com/company/comfortdelgro-taxi"
+  ],
+  "apps": [
+   "CDG Zig - Taxis & Cars (Apple App Store id954951647; seen in search result only)"
+  ],
+  "emails": []
+ },
+ "evidence": [
+  "https://www.comfortdelgro.com/",
+  "https://www.cdgtaxi.com.sg/",
+  "https://www.comfortdelgro.com/robots.txt",
+  "https://www.cdgtaxi.com.sg/robots.txt"
+ ],
+ "notes": "No scam/security pages found on either site: Rank Math sitemap indexes of comfortdelgro.com and cdgtaxi.com.sg (first 6 child sitemaps each) contain no scam/fraud/phishing/advisory URLs; homepages have no scam notice; web search found no ComfortDelGro scam advisory. official_domains (b): comfortdelgro.com (group site) and cdgtaxi.com.sg (taxi/CDG Zig site; social links from its footer); cdgtaxi.com.sg also hosts the official 'CDG Zig Platform' terms PDF (search). Taxi booking hotline not found in static HTML. CDG Zig app listing id954951647 seen only in search results - unverified (search snippet) as to linkage from official site. Allowlist value only."
+}

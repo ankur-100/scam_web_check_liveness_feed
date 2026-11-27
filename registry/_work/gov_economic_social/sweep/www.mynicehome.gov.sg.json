@@ -1,0 +1,22 @@
+{
+ "host": "www.mynicehome.gov.sg",
+ "robots_status": 200,
+ "robots": "User-Agent: *\nAllow: /\nDisallow: /search\n\nSitemap: https://www.mynicehome.gov.sg/sitemap.xml\n",
+ "sitemaps_declared": [
+  "https://www.mynicehome.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  [
+   "https://www.mynicehome.gov.sg/sitemap.xml",
+   "urlset",
+   45,
+   "https://www.mynicehome.gov.sg/sitemap.xml"
+  ]
+ ],
+ "errors": [],
+ "total_urls": 45,
+ "hosts_in_sitemap": {
+  "www.mynicehome.gov.sg": 45
+ },
+ "matches": []
+}

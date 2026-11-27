@@ -1,0 +1,31 @@
+{
+ "entity_id": "nscs.gov.sg",
+ "name": "National Security Coordination Secretariat",
+ "abbr": "NSCS",
+ "aliases": [
+  "National Security Coordination Secretariat (NSCS)"
+ ],
+ "sector": "gov.dept",
+ "parent_entity_id": "pmo.gov.sg",
+ "country": "SG",
+ "official_domains": [
+  "nscs.gov.sg"
+ ],
+ "official_hosts": [
+  "www.nscs.gov.sg"
+ ],
+ "scam_info": [],
+ "official_channels": {
+  "sms_sender_ids": [
+   "gov.sg"
+  ],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": []
+ },
+ "evidence": [
+  "https://www.sgdi.gov.sg/ministries/pmo/departments/nscs",
+  "https://www.nscs.gov.sg/sitemap.xml"
+ ],
+ "notes": "Tier 2. Sitemap (9 URLs, fetched 2026-11-26) has 0 scam/fraud/phish/impersonat/fake/hoax/spoof slugs. No scam pages found."
+}

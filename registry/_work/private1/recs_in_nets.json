@@ -1,0 +1,11 @@
+{"entity_id":"nets.com.sg","name":"Network for Electronic Transfers (Singapore) Pte Ltd","abbr":"NETS","aliases":["NETS","NETS App","NETS FlashPay","NETS QR","Network for Electronic Transfers"],
+"sector":"payments","parent_entity_id":null,"country":"SG",
+"official_domains":["nets.com.sg"],
+"official_hosts":["www.nets.com.sg"],
+"scam_info":[
+ {"url":"https://www.nets.com.sg/policies/security","kind":"scam_faq","lists_indicators":[],"access":"html","machine_url":"https://www.nets.com.sg/sitemap.xml","item_count":null,"latest_item_date":null,"verified":"2026-11-26 HTTP 200","sample":"Only install apps that are downloaded from official app stores. Unofficial app stores may carry malicious apps.","notes":"Generic security-tips policy page (OTP, email attachments, apps). No dated alerts, no indicators."}],
+"official_channels":{"sms_sender_ids":[],"hotlines":[],"short_link_domains":[],
+ "social":["https://www.facebook.com/NETS.SG","https://www.instagram.com/nets_sg/?hl=en","https://www.youtube.com/user/SingaporeNETS","https://sg.linkedin.com/company/nets"],
+ "apps":["NETS App (Apple App Store id1582745910)","NETS App (Google Play com.mls.nets.reader)"],"emails":[]},
+"evidence":["https://www.nets.com.sg/","https://www.nets.com.sg/policies/security","https://www.nets.com.sg/sitemap.xml"],
+"notes":"official_domains (b): serves site. Sitemap (150 URLs, WordPress) has no scam advisory pages; only /policies/security. No fraud hotline on pages read. Allowlist value only."}

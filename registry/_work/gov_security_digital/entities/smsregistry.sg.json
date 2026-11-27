@@ -1,0 +1,64 @@
+{
+ "entity_id": "smsregistry.sg",
+ "name": "SMS Sender ID Registry (SGNIC, IMDA subsidiary)",
+ "abbr": "SSIR",
+ "aliases": [
+  "SMS Sender ID Registry",
+  "Singapore Network Information Centre (SGNIC)"
+ ],
+ "sector": "quasi_gov",
+ "parent_entity_id": "imda.gov.sg",
+ "country": "SG",
+ "official_domains": [
+  "smsregistry.sg",
+  "sgnic.sg"
+ ],
+ "official_hosts": [
+  "smsregistry.sg",
+  "www.sgnic.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://smsregistry.sg/web/org/public-listing",
+   "kind": "official_channels",
+   "lists_indicators": [
+    "entity_name"
+   ],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2026-11-25",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "List of Organisations with At Least One Whitelisted Sender ID Last Updated: 25 Nov 2026 23:59 ... ZINGKEY PTE. LTD. TRAVELUSTAZ PTE. LTD.",
+   "notes": "Allowlist of organisation names only (no sender IDs). Paginated 50 per page (~68 pages, ~3,400 orgs per survey); updated daily. Linked from sgnic.sg. The robots.txt URL serves an \"Under Construction\" page. Only page 1 was fetched."
+  },
+  {
+   "url": "https://www.sgnic.sg/smsregistry/overview",
+   "kind": "scam_faq",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "from 31 January 2023 onwards, all organisations intending to use alpha/numeric/alphanumeric Sender IDs in their SMS messages to Singapore mobile users must first register the Sender IDs via the SSIR portal. All non-registered Sender IDs will be marked as “Likely-SCAM”.",
+   "notes": "Defines the \"Likely-SCAM\" sender label used by SG telcos. Contact smsregistry@sgnic.sg."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [
+   "Likely-SCAM (label applied by telcos to unregistered sender IDs)"
+  ],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": [],
+  "emails": [
+   "smsregistry@sgnic.sg"
+  ]
+ },
+ "evidence": [
+  "https://www.sgnic.sg/smsregistry/overview",
+  "https://smsregistry.sg/web/org/public-listing"
+ ],
+ "notes": "Sender-ID allowlisting infrastructure. The public \"Sender ID Query\" offers no bulk lookup (per survey). Use the org list only as weak evidence of a legitimate SMS sender."
+}

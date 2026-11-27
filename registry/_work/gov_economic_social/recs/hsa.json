@@ -1,0 +1,26 @@
+{
+ "entity_id": "hsa.gov.sg",
+ "name": "Health Sciences Authority",
+ "abbr": "HSA",
+ "aliases": ["Health Sciences Authority (HSA)", "HSA"],
+ "sector": "gov.statboard",
+ "parent_entity_id": "moh.gov.sg",
+ "country": "SG",
+ "official_domains": ["hsa.gov.sg"],
+ "official_hosts": ["www.hsa.gov.sg"],
+ "scam_info": [
+  {"url": "https://www.hsa.gov.sg/announcements/hsa-alerts-the-public-on-fake-tiktok-accounts/", "kind": "alert_page", "lists_indicators": ["social_handle"], "access": "sitemap",
+   "machine_url": "https://www.hsa.gov.sg/sitemap.xml", "item_count": null, "latest_item_date": "2022-10-19", "verified": "2026-11-26 HTTP 200",
+   "sample": "The first fake account, with the username ‘hsa_sg’, has put up videos on HSA’s tobacco enforcement actions and vaccine approvals. The other fake account, with the username ‘hsasingaporeofficial’",
+   "notes": "One of 3 fake-HSA-account alerts (all migrated legacy pages): fake TikTok (19 Oct 2022: hsa_sg, hsasingaporeofficial), fake Instagram (14 Sep 2022: hsa_sg, hsa.gov.sg; /announcements/hsa-alerts-on-fake-hsa-instagram-accounts/), fake Facebook (/announcements/fake-hsa-account-on-facebook/, not opened). Also /announcements/fake-hsa-laboratory-report-used-to-promote-a-health-supplement-online/ (not opened). Pages say HSA then had no TikTok/Instagram; current site footer links https://www.instagram.com/hsa.singapore/ as official."},
+  {"url": "https://www.hsa.gov.sg/announcements/hsa-alert-cococurv-chocofit-hamercandy/", "kind": "advisory_feed", "lists_indicators": ["entity_name"], "access": "sitemap",
+   "machine_url": "https://www.hsa.gov.sg/sitemap.xml", "item_count": 263, "latest_item_date": "2026-10-07", "verified": "2026-11-26 HTTP 200",
+   "sample": "The three products are: Product name | Potent ingredients | ‘Coco Curv’ | Sibutramine – banned in Singapore | ‘Choco Fit’ | ...",
+   "notes": "HSA 'Announcements' (2,115 URLs in sitemap) include ~263 illegal/adulterated health-product alerts (URL keyword hsa-alert|illegal|undeclared|adulterat|banned|potent; 102 start 'hsa-alert'). Each names products (entity_name = PRODUCT names, sometimes seller channels: 'sold on local e-commerce platforms such as Shopee and Qoo10, or social media platforms such as Facebook and Instagram'); usually no seller URLs. Product photos in PDF annexes. Sitemap has lastmod (newest product alerts lastmod 2026-10-07, e.g. hsa-alert--nutriline-bluvelle--...; sample page dated 6 Aug 2020). Isomer site; robots allows all except /search. This is illegal-health-product consumer-safety data rather than scam IOCs."}
+ ],
+ "official_channels": {"sms_sender_ids": ["gov.sg"], "hotlines": ["6213 0838 (HSA, per SGDI)", "6866 3485 (HSA enquiries on product alerts)"], "short_link_domains": ["go.gov.sg"],
+   "social": ["https://sg.linkedin.com/company/health-sciences-authority", "https://www.instagram.com/hsa.singapore/", "https://www.youtube.com/user/HSAsingapore", "https://x.com/hsasg"],
+   "apps": [], "emails": ["hsa_info@hsa.gov.sg (SGDI)", "hsa_is@hsa.gov.sg (product alerts enquiries)"]},
+ "evidence": ["https://www.sgdi.gov.sg/ministries/moh/statutory-boards/hsa", "https://www.hsa.gov.sg/", "https://www.hsa.gov.sg/announcements/hsa-alerts-the-public-on-fake-tiktok-accounts/", "https://www.hsa.gov.sg/announcements/hsa-alert-cococurv-chocofit-hamercandy/"],
+ "notes": "official_domains hsa.gov.sg (b; SGDI). Fake social handles (fake): hsa_sg (TikTok+Instagram), hsasingaporeofficial (TikTok), hsa.gov.sg (Instagram). Legacy pages have mojibake (UTF-8 served/decoded as Latin-1 in some clients). No RSS; sitemap.xml with lastmod is the change feed. hcsa.gov.sg and healthinfo.gov.sg linked from footer (MOH portals)."
+}

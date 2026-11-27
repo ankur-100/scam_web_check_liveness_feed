@@ -1,0 +1,10 @@
+User-Agent: *
+Disallow: /admin/
+Disallow: /thank-you
+Disallow: /*?csrfmiddlewaretoken=
+Disallow: /api/opt-via-call/
+Disallow: /sign-up/
+Disallow: /activate/
+Disallow: /login/
+Sitemap: https://www.uparcel.sg/sitemap.xml
+Sitemap: https://www.uparcel.sg/blog-sitemap.xml

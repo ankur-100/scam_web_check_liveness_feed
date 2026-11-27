@@ -1,0 +1,53 @@
+{
+ "host": "www.singhealth.com.sg",
+ "robots_status": 200,
+ "robots": "User-agent: *\n\nDisallow: /libs\nDisallow: /content/singhealth\nDisallow: /content/dam\nAllow: /content/dam/singhealth-web/favicon/*\n\nSitemap: https://www.singhealth.com.sg/sitemap-index.xml",
+ "sitemaps_declared": [
+  "https://www.singhealth.com.sg/sitemap-index.xml"
+ ],
+ "sitemaps_fetched": [
+  [
+   "https://www.singhealth.com.sg/sitemap-index.xml",
+   "index",
+   7,
+   "https://www.singhealth.com.sg/sitemap-index.xml"
+  ],
+  [
+   "https://www.singhealth.com.sg/en.sitemap.xml",
+   "urlset",
+   963,
+   "https://www.singhealth.com.sg/en.sitemap.xml"
+  ],
+  [
+   "https://www.singhealth.com.sg/medicines-sitemap.sitemap.xml",
+   "urlset",
+   886,
+   "https://www.singhealth.com.sg/medicines-sitemap.sitemap.xml"
+  ],
+  [
+   "https://www.singhealth.com.sg/news-sitemap.sitemap.xml",
+   "urlset",
+   565,
+   "https://www.singhealth.com.sg/news-sitemap.sitemap.xml"
+  ]
+ ],
+ "errors": [],
+ "total_urls": 2414,
+ "hosts_in_sitemap": {
+  "www.singhealth.com.sg": 2414
+ },
+ "matches": [
+  [
+   "https://www.singhealth.com.sg/about-singhealth/news/check-fake-news",
+   "2025-04-23T21:52:49+08:00"
+  ],
+  [
+   "https://www.singhealth.com.sg/symptoms-treatments/dialysis/general-education-and-advisory-for-the-first-visit-with-renal-medicine-clinic",
+   "2026-10-26T15:08:08+08:00"
+  ],
+  [
+   "https://www.singhealth.com.sg/news/tomorrows-medicine/emerging-from-the-pandemic-stronger-and-better-the-academic-medicine-advisory-council-amac-meeting-2022",
+   "2025-04-12T02:17:26+08:00"
+  ]
+ ]
+}

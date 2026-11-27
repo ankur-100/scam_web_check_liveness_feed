@@ -1,0 +1,55 @@
+{
+ "host": "www.edb.gov.sg",
+ "robots_status": 200,
+ "robots": "User-agent: *\nAllow: /\n\nSitemap: https://www.edb.gov.sg/sitemap.xml",
+ "sitemaps_declared": [
+  "https://www.edb.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  [
+   "https://www.edb.gov.sg/sitemap.xml",
+   "urlset",
+   2446,
+   "https://www.edb.gov.sg/sitemap.xml"
+  ]
+ ],
+ "errors": [],
+ "total_urls": 2446,
+ "hosts_in_sitemap": {
+  "www.edb.gov.sg": 2446
+ },
+ "matches": [
+  [
+   "https://www.edb.gov.sg/en/news-and-insights/edb-tt-foundation-advisors-launch-fund-for-high-impact-carbon-projects",
+   "2026-11-26T03:42:30.605Z"
+  ],
+  [
+   "https://www.edb.gov.sg/en/news-and-insights/malina-platon-a-romanian-tech-advisor-shares-her-journey-of-growing-global-tech-businesses-and-setting-up-a-regional-headquarters-in-singapore",
+   "2026-11-26T03:42:30.606Z"
+  ],
+  [
+   "https://www.edb.gov.sg/en/news-and-insights/navigating-southeast-asias-evolving-carbon-certification-landscape-opportunities-for-advisory-and-technical-service-providers",
+   "2026-11-26T03:42:30.606Z"
+  ],
+  [
+   "https://www.edb.gov.sg/en/news-and-insights/pwc-singapore-opens-trade-advisory-hub-for-businesses",
+   "2026-11-26T03:42:30.607Z"
+  ],
+  [
+   "https://www.edb.gov.sg/en/news-and-insights/tum-asia-forms-industry-advisory-board-for-future-ready-workforce",
+   "2026-11-26T03:42:30.608Z"
+  ],
+  [
+   "https://www.edb.gov.sg/en/corporate-news/edb-appoints-new-chairman-to-its-international-advisory-council",
+   "2026-11-26T03:42:30.608Z"
+  ],
+  [
+   "https://www.edb.gov.sg/en/corporate-news/edb-appoints-new-chairman-to-its-international-advisory-council-iac",
+   "2026-11-26T03:42:30.608Z"
+  ],
+  [
+   "https://www.edb.gov.sg/cn/about-edb/our-team/international-advisory-council.html",
+   "2026-03-18"
+  ]
+ ]
+}

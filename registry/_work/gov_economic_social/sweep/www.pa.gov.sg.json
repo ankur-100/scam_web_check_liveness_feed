@@ -1,0 +1,27 @@
+{
+ "host": "www.pa.gov.sg",
+ "robots_status": 200,
+ "robots": "User-Agent: *\nAllow: /\nDisallow: /search\n\nSitemap: https://www.pa.gov.sg/sitemap.xml\n",
+ "sitemaps_declared": [
+  "https://www.pa.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  [
+   "https://www.pa.gov.sg/sitemap.xml",
+   "urlset",
+   427,
+   "https://www.pa.gov.sg/sitemap.xml"
+  ]
+ ],
+ "errors": [],
+ "total_urls": 427,
+ "hosts_in_sitemap": {
+  "www.pa.gov.sg": 427
+ },
+ "matches": [
+  [
+   "https://www.pa.gov.sg/scam-alert/",
+   "2026-09-07T04:29:01.056Z"
+  ]
+ ]
+}

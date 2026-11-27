@@ -1,0 +1,60 @@
+{
+ "entity_id": "mfa.gov.sg",
+ "name": "Ministry of Foreign Affairs",
+ "abbr": "MFA",
+ "aliases": [
+  "Ministry of Foreign Affairs (MFA)"
+ ],
+ "sector": "gov.ministry",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "mfa.gov.sg"
+ ],
+ "official_hosts": [
+  "www.mfa.gov.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.mfa.gov.sg/newsroom/announcements-and-highlights/advisory-on-fraudulent-activities/",
+   "kind": "alert_page",
+   "lists_indicators": [
+    "phone"
+   ],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2019-06-18",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "The phone number displayed on the receivers’ phones is that of the MFA Main Line - 6379 8000. ... Scammers are able to use spoofing technology to mask the actual phone number to display MFA’s number.",
+   "notes": "Spoofed official number."
+  },
+  {
+   "url": "https://www.mfa.gov.sg/newsroom/press-statements-transcripts-and-photos/mfa-spokesmans-comments-in-response-to-media-queries-on-callers-impersonating-mfa-officers-in-scam-c-22-apr-2015/",
+   "kind": "news_releases",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2015-04-22",
+   "verified": "2026-11-26 (sitemap listing; not fetched)",
+   "sample": "mfa-spokesmans-comments-in-response-to-media-queries-on-callers-impersonating-mfa-officers-in-scam-c-22-apr-2015",
+   "notes": "Plus a follow-up dated 11 May 2015. Also 2026-11-19 \"statement-of-principles-of-the-contact-group-on-countering-criminal-online-scams-and-scam-centers\" (policy). Sitemap 8,786 URLs; only 6 strict scam slugs. Overseas missions (Overseas Missions in SGDI) were not crawled."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [
+   "gov.sg"
+  ],
+  "hotlines": [
+   "6379 8000 (MFA main line; has been spoofed)"
+  ],
+  "short_link_domains": [],
+  "social": []
+ },
+ "evidence": [
+  "https://www.sgdi.gov.sg/ministries/mfa",
+  "https://www.mfa.gov.sg/sitemap.xml"
+ ],
+ "notes": "Low volume. Consular/fake-embassy scams are mostly reported via SPF advisories. Embassy sites (mfa.gov.sg/<mission>) were not individually checked."
+}

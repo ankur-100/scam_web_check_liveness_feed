@@ -1,0 +1,22 @@
+User-agent: *
+
+Allow: /
+
+Disallow: /content/sg-wise-testing/en/*
+Disallow: /en/search
+Disallow: /en/aiaplus/vitality
+Disallow: /en/aiaplus/marketing
+Disallow: /content/dam/sg-wise/en/docs/hsg/hsg-rider-premium-revision.pdf
+Disallow: /content/dam/sg-wise/en/docs/aiaformlibrary/HNW-panel-doctors-listing.pdf
+Disallow: /content/dam/sg-wise/en/docs/aiaformlibrary/medical-exam-facilities-for-retail-plans.pdf
+Disallow: /en/agent-profile
+
+User-agent: Twitterbot
+Disallow: /
+
+Disallow: /content/dam/sg-wise/en/docs/hsg/hsg-rider-premium-revision.pdf
+Disallow: /content/dam/sg-wise/en/docs/aiaformlibrary/HNW-panel-doctors-listing.pdf
+Disallow: /content/dam/sg-wise/en/docs/aiaformlibrary/medical-exam-facilities-for-retail-plans.pdf
+Disallow: /en/agent-profile
+
+Sitemap: https://www.aia.com.sg/en/sitemap.xml

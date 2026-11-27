@@ -1,0 +1,103 @@
+[
+ {
+  "record_type": "source",
+  "source_id": "spf-icanact",
+  "name": "SPF I can ACT against scams: Scam Trends",
+  "publisher_entity_id": "police.gov.sg",
+  "url": "https://www.icanactagainstscams.gov.sg/scam-trends",
+  "machine_url": null,
+  "access": "html_rsc",
+  "auth": "none",
+  "authority": "authoritative",
+  "sg_scope": "native",
+  "sg_filter_id": null,
+  "lifecycle_semantics": "snapshot_full",
+  "provides_times": [
+   "published",
+   "modified"
+  ],
+  "licence": null,
+  "terms_url": "https://www.icanactagainstscams.gov.sg/terms-of-use",
+  "tlp": "TLP:CLEAR",
+  "poll_interval_s": 3600,
+  "parser": "extract.py",
+  "parser_version": "0.1",
+  "notes": "Whole collection embedded as RSC prop scamAdvisories"
+ },
+ {
+  "record_type": "source",
+  "source_id": "mas-ial-opensanctions",
+  "name": "MAS Investor Alert List (OpenSanctions mirror)",
+  "publisher_entity_id": "mas.gov.sg",
+  "url": "https://www.mas.gov.sg/investor-alert-list",
+  "machine_url": "https://data.opensanctions.org/datasets/latest/sg_mas_investor_alert/source.json",
+  "access": "json",
+  "auth": "none",
+  "authority": "regulator",
+  "sg_scope": "native",
+  "sg_filter_id": null,
+  "lifecycle_semantics": "snapshot_full",
+  "provides_times": [
+   "listed",
+   "modified",
+   "first_seen",
+   "last_seen"
+  ],
+  "licence": "CC-BY-NC-4.0 (OpenSanctions)",
+  "terms_url": null,
+  "tlp": "TLP:CLEAR",
+  "poll_interval_s": 86400,
+  "parser": null,
+  "parser_version": null,
+  "notes": "website_s/phonenumber_s are free text"
+ },
+ {
+  "record_type": "source",
+  "source_id": "phishdb-links-active",
+  "name": "Phishing.Database ACTIVE links",
+  "publisher_entity_id": "github.com#phishing-database",
+  "url": "https://github.com/Phishing-Database/Phishing.Database",
+  "machine_url": null,
+  "access": "txt",
+  "auth": "none",
+  "authority": "community",
+  "sg_scope": "filtered",
+  "sg_filter_id": "sgfilter-v1",
+  "lifecycle_semantics": "active_list",
+  "provides_times": [
+   "none"
+  ],
+  "licence": "MIT",
+  "terms_url": null,
+  "tlp": "TLP:CLEAR",
+  "poll_interval_s": 3600,
+  "parser": null,
+  "parser_version": null,
+  "notes": null
+ },
+ {
+  "record_type": "source",
+  "source_id": "phishstats-api",
+  "name": "PhishStats public API",
+  "publisher_entity_id": "phishstats.info",
+  "url": "https://phishstats.info/",
+  "machine_url": "https://api.phishstats.info/api/phishing",
+  "access": "api_documented",
+  "auth": "none",
+  "authority": "community",
+  "sg_scope": "filtered",
+  "sg_filter_id": "sgfilter-v1",
+  "lifecycle_semantics": "event_stream",
+  "provides_times": [
+   "first_seen",
+   "last_seen"
+  ],
+  "licence": null,
+  "terms_url": null,
+  "tlp": "TLP:CLEAR",
+  "poll_interval_s": 3600,
+  "parser": null,
+  "parser_version": null,
+  "notes": "50 req/day anonymous"
+ }
+]

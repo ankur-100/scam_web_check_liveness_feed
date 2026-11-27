@@ -1,0 +1,126 @@
+{
+ "entity_id": "greateasternlife.com",
+ "name": "Great Eastern Life Assurance (Great Eastern Singapore)",
+ "abbr": "GE",
+ "aliases": [
+  "Great Eastern",
+  "Great Eastern Life",
+  "Great Eastern General Insurance",
+  "Great Eastern Financial Advisers",
+  "GEFA",
+  "Great Eastern Holdings"
+ ],
+ "sector": "insurance",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "greateasternlife.com",
+  "greateasterngeneral.com",
+  "greateasternfa.com.sg",
+  "greateasternwomensrun.com",
+  "greateasternfa.sg"
+ ],
+ "official_hosts": [
+  "www.greateasternlife.com",
+  "uip.greateasternlife.com",
+  "greateasternsg.app.link"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.greateasternlife.com/sg/en/privacy-and-security-policy/security-advisory.html",
+   "kind": "official_channels",
+   "lists_indicators": [
+    "domain",
+    "email",
+    "sms_sender_id",
+    "phone"
+   ],
+   "access": "html",
+   "machine_url": "https://www.greateasternlife.com/sg/en/sg-en-sitemap.xml",
+   "item_count": null,
+   "latest_item_date": "2026-10-27",
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "Web Domains greateasternlife.com greateasterngeneral.com greateasternfa.com.sg greateasternwomensrun.com ... SMS Domains GE-LIFE GE-GENERAL",
+   "notes": "Security Advisory + 'Great Eastern's Official Communication Channels': caller-ID numbers (Main 6248 2888, Group Insurance 6248 2112), web domains, email domains (incl. @e./@s./@sg.greateasternlife.com, @rep-sg.greateasternlife.com, @rep.GreatEasternFA.sg), SMS sender IDs GE-LIFE / GE-GENERAL (registered with SMS Sender ID Registry), WhatsApp 8227 6993 (marketing, blue badge). 'We will never ask customers to ... Transfer money to bank accounts not listed on our website'. latest_item_date = sitemap lastmod. Linked from a site-wide banner: 'Beware of impersonators claiming to be from Great Eastern or Great Eastern Financial representatives.'"
+  },
+  {
+   "url": "https://www.greateasternlife.com/sg/en/privacy-and-security-policy/security-advisory/false-message-efiling.html",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": "https://www.greateasternlife.com/sg/en/sg-en-sitemap.xml",
+   "item_count": null,
+   "latest_item_date": "2025-10-15",
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "Great Eastern is aware of a false message circulating on WhatsApp claiming that electronic filing submission (e-file) process for Parkway East Hospital, Mount Elizabeth Hospital...has been removed.",
+   "notes": "Single alert under /security-advisory/ (child pages of the advisory path can be discovered via the SG sitemap). Date = sitemap lastmod. Narrative only."
+  },
+  {
+   "url": "https://www.greateasternlife.com/sg/en/privacy-and-security-policy/security-policy.html",
+   "kind": "scam_faq",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": "https://www.greateasternlife.com/sg/en/sg-en-sitemap.xml",
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "Never click onto a link in an email to go to the GE login page. Always access GE by typing the full website address www.greateasternlife.com into your browser.",
+   "notes": "Generic phishing/smishing/vishing guidance; hotline 1800-248 2888, wecare-sg@greateasternlife.com."
+  },
+  {
+   "url": "https://www.greateasternlife.com/sg/en/personal-insurance/lifepedia/savings-and-investment/how-to-protect-family-from-insurance-services-scams-singapore.html",
+   "kind": "scam_faq",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": "https://www.greateasternlife.com/sg/en/sg-en-sitemap.xml",
+   "item_count": null,
+   "latest_item_date": "2026-01-08",
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "An insurance services scam involves scammers impersonating insurance staff or service administrators and convincing you that there is an issue with an insurance service linked to your name.",
+   "notes": "Lifepedia explainer article (sitemap lastmod 2026-01-08). Other Lifepedia scam articles in sitemap: 4-tips-to-steer-clear-of-scams, how-to-spot-investment-scam-singapore, be-wary-of-sms-phishing-scams-impersonating-land-transport-authority-lta."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [
+   "GE-LIFE",
+   "GE-GENERAL"
+  ],
+  "hotlines": [
+   "1800 248 2888 (Customer Service hotline, local; also for reporting suspicious activity)",
+   "+65 6248 2888 (overseas)",
+   "+65 6248 2211 (product enquiries)",
+   "6248 2888 (Main; displayed caller ID)",
+   "6248 2112 (Group Insurance; displayed caller ID)",
+   "8227 6993 (official WhatsApp Business account, marketing)"
+  ],
+  "short_link_domains": [],
+  "social": [
+   "https://www.facebook.com/greateasternsingapore",
+   "https://www.instagram.com/greateasternsg/",
+   "https://www.tiktok.com/@greateasternsg",
+   "https://www.linkedin.com/company/great-eastern-group",
+   "https://www.youtube.com/GreatEasternSG"
+  ],
+  "apps": [
+   "Great Eastern App (App Store / Google Play)",
+   "Great Eastern Rewards App (App Store / Google Play)"
+  ],
+  "emails": [
+   "@greateasternlife.com",
+   "@e.greateasternlife.com",
+   "@s.greateasternlife.com",
+   "@sg.greateasternlife.com",
+   "@greateasterngeneral.com",
+   "@rep-sg.greateasternlife.com",
+   "@rep.GreatEasternFA.sg",
+   "wecare-sg@greateasternlife.com"
+  ]
+ },
+ "evidence": [
+  "https://www.greateasternlife.com/sg/en/privacy-and-security-policy/security-advisory.html",
+  "https://www.greateasternlife.com/sg/en/personal-insurance.html",
+  "https://www.greateasternlife.com/sg/en/privacy-and-security-policy/security-policy.html",
+  "https://www.greateasternlife.com/sg/en/sg-en-sitemap.xml"
+ ],
+ "notes": "SG content under greateasternlife.com/sg/en/. official_domains: greateasternlife.com, greateasterngeneral.com, greateasternfa.com.sg, greateasternwomensrun.com are (a) listed as 'Web Domains' on the official-channels page; greateasternfa.sg is (a) only as an email domain (rep.GreatEasternFA.sg) on the same page. Hosts: uip.greateasternlife.com (eConnect login) and greateasternsg.app.link (Branch app-download link) seen in site navigation; app.link is Branch's domain, so only the FQDN is recorded. No concrete fake indicators published. Malaysia equivalent: greateasternlife.com/my/en/other-policies-and-notices/security-advisory.html (not SG; not opened). Evidence from 2026-11-25 sub-agent G2 fetches (transcript digest)."
+}

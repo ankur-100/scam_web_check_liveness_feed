@@ -1,0 +1,3 @@
+%.police.gov.sg	OK rows=868 in 11s (attempt 2)
+%.smsregistry.sg	FAIL HTTP 502 in 1s
+scamshield	OK rows=0 in 10s (attempt 2)

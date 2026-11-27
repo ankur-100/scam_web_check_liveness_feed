@@ -1,0 +1,130 @@
+{
+ "entity_id": "shopee.sg",
+ "name": "Shopee Singapore",
+ "abbr": null,
+ "aliases": [
+  "Shopee",
+  "Shopee Singapore",
+  "Shopee Mall",
+  "ShopeePay",
+  "SPayLater",
+  "SPX Express (Shopee logistics)"
+ ],
+ "sector": "ecommerce",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "shopee.sg",
+  "shopee.com"
+ ],
+ "official_hosts": [
+  "shopee.sg",
+  "help.shopee.sg",
+  "sitemap.shopee.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://help.shopee.sg/portal/4/article/76743-%5BScam-Advisory%5D-How-do-I-protect-myself-from-scams",
+   "kind": "scam_faq",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": "https://help.shopee.sg/sitemap.xml",
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "Shopee will only contact you via official channels , such as the Shopee App, our verified social media accounts, or email addresses that end with @shopee.com .",
+   "notes": "Scam hub: QR-payment, parcel-fee, lucky-draw, part-time-job, card-CVV, 'Shopee in Zambia' scams; links the whole [Scam-Advisory] series. Undated; narrative only. Help centre is server-rendered (curl works)."
+  },
+  {
+   "url": "https://help.shopee.sg/sitemap.xml",
+   "kind": "advisory_feed",
+   "lists_indicators": [],
+   "access": "sitemap",
+   "machine_url": "https://help.shopee.sg/sitemap.xml",
+   "item_count": 11,
+   "latest_item_date": null,
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "https://help.shopee.sg/portal/4/article/204789-[Scam-Advisory]-Delivery-Impersonation-Scams",
+   "notes": "Help-centre sitemap (637 URLs, no lastmod) is the machine discovery point for the '[Scam-Advisory]' article series: 11 articles (IDs 76743, 76788 SingPost scam, 76790 part-time job, 76811 lucky draw, 76630 CVV, 109626 Zambia, 125081 marketing-survey WhatsApp, 165293 fake payment QR, 166953 UnionPay, 169794 wrong item, 204789 delivery impersonation). Higher article IDs = newer; no dates published. Filter URLs on 'Scam-Advisory'."
+  },
+  {
+   "url": "https://help.shopee.sg/portal/4/article/83757-%5BAbout-Shopee%5D-What-are-the-official-channels-to-find-information-on-Shopee",
+   "kind": "official_channels",
+   "lists_indicators": [
+    "social_handle",
+    "phone"
+   ],
+   "access": "html",
+   "machine_url": "https://help.shopee.sg/sitemap.xml",
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "Shopee's official WhatsApp channels have a verified green tick ... i. Shopee Security ii. Shopee iii. SPayLater SG iv. Return and Refund",
+   "notes": "Lists official social accounts (Facebook, Instagram, LinkedIn) and named official WhatsApp business accounts (names only, no numbers): 'Shopee Security' (auth links/OTPs), 'Shopee' (marketing), 'SPayLater SG', 'Return and Refund'. 'phone' here = WhatsApp business account names (official)."
+  },
+  {
+   "url": "https://help.shopee.sg/portal/4/article/76476-%5BAccount-Safety%5D-How-do-I-ensure-that-I-am-shopping-on-Shopee%E2%80%99s-official-platform",
+   "kind": "official_channels",
+   "lists_indicators": [
+    "domain",
+    "app"
+   ],
+   "access": "html",
+   "machine_url": "https://help.shopee.sg/sitemap.xml",
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "When accessing Shopee via web browsers, please ensure that the link shown on the browser is https://shopee.sg/ ... there is only one (1) official Shopee application",
+   "notes": "Official website + official app; developer names shown in images: iOS 'SHOPEE SINGAPORE PRIVATE LIMITED', Android 'Shopee'. 'Shopee will NEVER ask its users to download any APK files.' Shopee Partner app is for ShopeePay merchants only."
+  },
+  {
+   "url": "https://help.shopee.sg/portal/4/article/204789-%5BScam-Advisory%5D-Delivery-Impersonation-Scams",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": "https://help.shopee.sg/sitemap.xml",
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "There have been reports of individuals receiving text messages (SMS) and online messages from fraudsters impersonating logistics and delivery providers, including SPX Express, NinjaVan, and other third-party couriers.",
+   "notes": "Newest article in the series (highest ID). Undated; narrative only. Relevant to SPX/Ninja Van brand tags."
+  },
+  {
+   "url": "https://help.shopee.sg/portal/4/article/125081-%5BScam-Advisory%5D-Marketing-Survey-WhatsApp-Scam-Messages",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": "https://help.shopee.sg/sitemap.xml",
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Shopee will only contact our users via: Verified WhatsApp business account. Official Shopee social media pages. Shopee App notifications. Official email addresses that ends with shopee.com.",
+   "notes": "Undated; narrative only."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": [
+   "https://facebook.com/ShopeeSingapore",
+   "https://instagram.com/Shopee_SG",
+   "https://sg.linkedin.com/company/shopee"
+  ],
+  "apps": [
+   "Shopee: Shop and Get Cashback (iOS developer 'SHOPEE SINGAPORE PRIVATE LIMITED'; Android developer 'Shopee'; also Huawei AppGallery)",
+   "Shopee Partner (ShopeePay merchants only)"
+  ],
+  "emails": [
+   "@shopee.com"
+  ]
+ },
+ "evidence": [
+  "https://help.shopee.sg/portal/4/article/76476-%5BAccount-Safety%5D-How-do-I-ensure-that-I-am-shopping-on-Shopee%E2%80%99s-official-platform",
+  "https://help.shopee.sg/portal/4/article/83757-%5BAbout-Shopee%5D-What-are-the-official-channels-to-find-information-on-Shopee",
+  "https://help.shopee.sg/portal/4/article/76743-%5BScam-Advisory%5D-How-do-I-protect-myself-from-scams",
+  "https://help.shopee.sg/portal/4/article/76607-%5BAccount-Security%5D-Is-the-Shopee-OTP/verification-code-I-received-via-WhatsApp-genuine",
+  "https://shopee.sg/robots.txt"
+ ],
+ "notes": "official_domains: shopee.sg (a) 'ensure that the link shown on the browser is https://shopee.sg/'; shopee.com (a) only as official email domain (@shopee.com). help.shopee.sg article pages are server-rendered; JSON API not used. Official WhatsApp: 'Shopee Security' business account with green check (no number published). No concrete fake indicators, no dates. Customer service via in-app chat only (no hotline listed). Social links have '?previousPage=' tracking params stripped. Evidence: 2026-11-25 sub-agent E fetches (digest) + 2026-11-26 re-fetch of 4 articles and 2 app images."
+}

@@ -1,0 +1,16 @@
+{
+ "host": "www.nhghealth.com.sg",
+ "robots_status": 429,
+ "robots": "",
+ "sitemaps_declared": [],
+ "sitemaps_fetched": [],
+ "errors": [
+  [
+   "https://www.nhghealth.com.sg/sitemap.xml",
+   429
+  ]
+ ],
+ "total_urls": 0,
+ "hosts_in_sitemap": {},
+ "matches": []
+}

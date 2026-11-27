@@ -1,0 +1,200 @@
+{
+ "entity_id": "ica.gov.sg",
+ "name": "Immigration & Checkpoints Authority",
+ "abbr": "ICA",
+ "aliases": [
+  "Immigration and Checkpoints Authority",
+  "Immigration & Checkpoints Authority (ICA)"
+ ],
+ "sector": "gov.dept",
+ "parent_entity_id": "mha.gov.sg",
+ "country": "SG",
+ "official_domains": [
+  "ica.gov.sg",
+  "vica.gov.sg"
+ ],
+ "official_hosts": [
+  "www.ica.gov.sg",
+  "ica.gov.sg",
+  "eservices.ica.gov.sg",
+  "webchat.vica.gov.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.ica.gov.sg/about-ica/news-and-publications/media-room/advisory-on-scams-involving-the-immigration---checkpoints-authority-(ica)",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2026-09-25",
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "Scam variant #1: Calls from scammers impersonating ICA officers ... The calls would then be transferred to another scammer impersonating a China official.",
+   "notes": "Joint SPF-ICA advisory issued 25 Sep 2026 (page \"Last updated 18 Oct 2026\"), with two variants. Mirrors SPF news 20260925_advisory_on_scams_involving_the_immigration_checkpoints_authority_ica."
+  },
+  {
+   "url": "https://www.ica.gov.sg/about-ica/news-and-publications/media-room/public-advisory-on-scams-involving-ica",
+   "kind": "alert_page",
+   "lists_indicators": [
+    "phone"
+   ],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2026-06-10",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "scammers impersonate ICA officers through phone or video calls. To appear legitimate, they may use the ICA crest as a profile picture, or wear attire resembling ICA’s uniforms during video calls.",
+   "notes": "Issued 10 June 2026. Lists what an ICA caller will never do. The only phone given is the official verification line (call agents 6391 6100)."
+  },
+  {
+   "url": "https://www.ica.gov.sg/about-ica/news-and-publications/media-room/public-advisory-on-fake-letters-bearing-ica-letterhead-and-forged-signature",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2026-03-28",
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "ICA was alerted to a fake letter and tax invoice that were received by a member of the public bearing the ICA letterhead and a signature of an officer allegedly from the ICA.",
+   "notes": "Issued 28 Mar 2026. PR-application agent fraud (fee close to $5,000). Names no entity."
+  },
+  {
+   "url": "https://www.ica.gov.sg/about-ica/news-and-publications/media-room/public-advisory-on-scam-callers-impersonating-as-ica-officers-2024",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2024-07-05",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Usually originated from spoofed ICA numbers and unknown numbers, which might or might not contain the “+” prefix.",
+   "notes": "Issued 05 Jul 2024: about 500 scam-call cases in Apr-Jun 2024."
+  },
+  {
+   "url": "https://www.ica.gov.sg/about-ica/news-and-publications/media-room/public-advisory-on-scam-callers-impersonating-as-ica-officers",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2023-07-28",
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "(issued 28 July 2023) scam calls impersonating ICA officers; page cites official helplines 1800-255-0000 and 1800-722-6688",
+   "notes": "Lists only official numbers."
+  },
+  {
+   "url": "https://www.ica.gov.sg/about-ica/news-and-publications/media-room/public-advisory-on-scam-calls-from-ica-sto",
+   "kind": "alert_page",
+   "lists_indicators": [
+    "phone"
+   ],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2021-08-13",
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "members of the public have been receiving calls from “+65 6812 5555”, which is similar to our SafeTravel Enquiries Helpline “6812 5555”.",
+   "notes": "Issued 13 Aug 2021. Spoofed caller ID = an official ICA number. This is a caller-ID-spoofing indicator, not a scam-owned line."
+  },
+  {
+   "url": "https://www.ica.gov.sg/about-ica/news-and-publications/media-room/public-advisory-on-fake-ica-website",
+   "kind": "alert_page",
+   "lists_indicators": [
+    "domain"
+   ],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2021-02-25",
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "there is a fake ICA website [ica-mom.online] that looks identical to the official ICA website [www.ica.gov.sg].",
+   "notes": "Issued 25 Feb 2021."
+  },
+  {
+   "url": "https://www.ica.gov.sg/about-ica/news-and-publications/media-room/public-advisory-on-scam-calls-from-ica",
+   "kind": "alert_page",
+   "lists_indicators": [
+    "phone"
+   ],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2019-08-06",
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "members of the public have been receiving calls from different numbers, such as the Immigration Offender hotline “1800 3916150”",
+   "notes": "Issued 6 Aug 2019. Spoofed official number."
+  },
+  {
+   "url": "https://www.ica.gov.sg/about-ica/news-and-publications/media-room/public-advisory-on-scam-letters-from-ica",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2019-08-08",
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "(issued 8 August 2019) Public Advisory On Scam Letters From ICA",
+   "notes": "Narrative only."
+  },
+  {
+   "url": "https://www.ica.gov.sg/about-ica/news-and-publications/media-room/public-advisory-on-scam-call-from-ica",
+   "kind": "alert_page",
+   "lists_indicators": [
+    "phone"
+   ],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2019-06-28",
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "On 25 June 2019, a member of public received a call from the Immigration & Checkpoints Authority (ICA)’s Call Centre number “6391 6100”.",
+   "notes": "Issued 28 Jun 2019. Spoofed official number."
+  },
+  {
+   "url": "https://www.ica.gov.sg/about-ica/news-and-publications/public-advisories/advisory-on-fake-or-misleading-websites",
+   "kind": "scam_faq",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2026-10-20",
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "The official ICA website is https://www.ica.gov.sg/ and all of ICA’s official e-Services can be found on the Information and e-Services page .",
+   "notes": "Last updated 20 Oct 2026. General guidance; lists no domains. Official ICA website and e-Service URLs contain \".ica.gov.sg\". Reports go to the anti-scam helpline 1800 722 6688 or i-witness."
+  },
+  {
+   "url": "https://www.ica.gov.sg/about-ica/news-and-publications/media-room",
+   "kind": "news_releases",
+   "lists_indicators": [],
+   "access": "sitemap",
+   "machine_url": "https://www.ica.gov.sg/sitemap/sitemap.xml",
+   "item_count": 709,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "media-room/public-advisory-on-scams-involving-ica",
+   "notes": "Sitemap (from robots.txt; 1,484 URLs; no lastmod) lists 709 media-room URLs. 12 match scam/fake/impersonat/phish/misleading. Public-advisories listing shows \"1-12 of 80 Listings\" (latest 19 Aug 2026, MyICA Mobile Application). No RSS. Issue dates are in the page footer (\"IMMIGRATION & CHECKPOINTS AUTHORITY <date>\"); the \"Last updated 18 Oct 2026\" header is a bulk re-save date, not the issue date."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [
+   "gov.sg"
+  ],
+  "hotlines": [
+   "6391 6100 (ICA call centre; use to verify ICA calls)",
+   "6812 5555 (SafeTravel enquiries; has been spoofed)",
+   "1800 3916150 (Immigration Offender hotline; has been spoofed)"
+  ],
+  "short_link_domains": [],
+  "social": [],
+  "apps": [
+   "MyICA Mobile app (official; SGAC can be submitted via MyICA or the SGAC e-Service)"
+  ],
+  "emails": []
+ },
+ "evidence": [
+  "https://www.sgdi.gov.sg/ministries/mha/departments/ica",
+  "https://www.ica.gov.sg/sitemap/sitemap.xml",
+  "https://www.sms.gov.sg/exceptions"
+ ],
+ "notes": "Concrete indicators: fake site ica-mom.online (2021); spoofed ICA numbers. The SG Arrival Card annex of 63 paid/fake SGAC sites is under ica.gov.sg#sg-arrival-card. Hosts seen in page links: eservices.ica.gov.sg (/sgarrivalcard, /ecert), webchat.vica.gov.sg (VICA virtual assistant chat). api-vica-bp.vica.gov.sg was also referenced and not visited. ICA was among the 7 Home Team agencies in the MHA advisory of 12 Aug 2026 on >500 fake look-alike sites. SPF brand tags include \"Immigration & Checkpoints Authority of Singapore (ICA)\" (2 advisories)."
+}

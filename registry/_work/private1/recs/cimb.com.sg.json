@@ -1,0 +1,56 @@
+{
+ "entity_id": "cimb.com.sg",
+ "name": "CIMB Bank Berhad, Singapore",
+ "abbr": "CIMB",
+ "aliases": [
+  "CIMB",
+  "CIMB Singapore",
+  "CIMB Bank"
+ ],
+ "sector": "bank",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "cimb.com.sg"
+ ],
+ "official_hosts": [
+  "www.cimb.com.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.cimb.com.sg/en/personal/help-support/security-fraud.html",
+   "kind": "scam_faq",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Never share your banking credentials, OTPs, or Singpass details. Avoid clickable links in unsolicited SMSes or emails. Download apps only from official app stores",
+   "notes": "Tier 2 (quick). Security & Fraud hub; generic tips, credit-card 24h hotline. No dated alert list seen."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [
+   "+65 6333 7777 (CIMB At-Your-Service, 9am-7pm daily)",
+   "+65 6333 6666 (CIMB Credit Card 24-hour hotline)"
+  ],
+  "short_link_domains": [],
+  "social": [
+   "https://www.facebook.com/CIMBSingapore",
+   "https://www.instagram.com/cimbbanksg",
+   "https://www.youtube.com/channel/UC5VCFz3loyAPkvZHf40GhgQ"
+  ],
+  "apps": [],
+  "emails": [
+   "atyourservice@cimb.com.sg (partially seen on contact page; verify)"
+  ]
+ },
+ "evidence": [
+  "https://www.cimb.com.sg/en/personal/help-support/contact-us.html",
+  "https://www.cimb.com.sg/en/personal/help-support/security-fraud.html",
+  "https://www.scamshield.gov.sg/bank-s-anti-scam-hotline/"
+ ],
+ "notes": "Tier 2, 3 requests. official_domains (b): serves site. ScamShield bank-hotline list: 'CIMB Dial 6333 7777' and links CIMB's contact page (matches). Email address truncated in extracted text ('atyourservice@cimb.c...')."
+}

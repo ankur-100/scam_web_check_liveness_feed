@@ -1,0 +1,27 @@
+{
+ "host": "www.hpb.gov.sg",
+ "robots_status": 200,
+ "robots": "User-Agent: *\nAllow: /\nDisallow: /search\n\nSitemap: https://www.hpb.gov.sg/sitemap.xml\n",
+ "sitemaps_declared": [
+  "https://www.hpb.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  [
+   "https://www.hpb.gov.sg/sitemap.xml",
+   "urlset",
+   395,
+   "https://www.hpb.gov.sg/sitemap.xml"
+  ]
+ ],
+ "errors": [],
+ "total_urls": 395,
+ "hosts_in_sitemap": {
+  "www.hpb.gov.sg": 395
+ },
+ "matches": [
+  [
+   "https://www.hpb.gov.sg/newsroom/hpb-reviews-and-refines-health-programmes-for-women-with-help-from-newly-formed-women-s-health-advisory-committee/",
+   "2026-07-30T18:42:41.776Z"
+  ]
+ ]
+}

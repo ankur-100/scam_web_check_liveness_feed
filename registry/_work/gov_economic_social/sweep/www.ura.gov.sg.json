@@ -1,0 +1,91 @@
+{
+ "host": "www.ura.gov.sg",
+ "robots_status": 200,
+ "robots": "User-Agent: *\nAllow: /\nDisallow: /search\n\nSitemap: https://www.ura.gov.sg/sitemap.xml\n",
+ "sitemaps_declared": [
+  "https://www.ura.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  [
+   "https://www.ura.gov.sg/sitemap.xml",
+   "urlset",
+   9424,
+   "https://www.ura.gov.sg/sitemap.xml"
+  ]
+ ],
+ "errors": [],
+ "total_urls": 9424,
+ "hosts_in_sitemap": {
+  "www.ura.gov.sg": 9424
+ },
+ "matches": [
+  [
+   "https://www.ura.gov.sg/guidelines/best-practices/remaining-vigilant-phishing-scams/",
+   "2026-07-30T18:36:21.788Z"
+  ],
+  [
+   "https://www.ura.gov.sg/guidelines/property-and-business-owners/property/renovating-private-residential-property/landed-housing-e-advisor/",
+   "2026-06-12T02:26:00.551Z"
+  ],
+  [
+   "https://www.ura.gov.sg/guidelines/property-and-business-owners/property/renovating-private-residential-property/landed-housing-e-advisor/detached-houses/",
+   "2026-06-03T07:39:14.651Z"
+  ],
+  [
+   "https://www.ura.gov.sg/guidelines/property-and-business-owners/property/renovating-private-residential-property/landed-housing-e-advisor/detached-houses/exterior/",
+   "2026-06-03T07:44:01.153Z"
+  ],
+  [
+   "https://www.ura.gov.sg/guidelines/property-and-business-owners/property/renovating-private-residential-property/landed-housing-e-advisor/detached-houses/interior/",
+   "2026-06-03T07:44:13.931Z"
+  ],
+  [
+   "https://www.ura.gov.sg/guidelines/property-and-business-owners/property/renovating-private-residential-property/landed-housing-e-advisor/detached-houses/roof/",
+   "2026-06-03T07:44:32.901Z"
+  ],
+  [
+   "https://www.ura.gov.sg/guidelines/property-and-business-owners/property/renovating-private-residential-property/landed-housing-e-advisor/semi-detached-houses/",
+   "2026-06-06T15:59:32.119Z"
+  ],
+  [
+   "https://www.ura.gov.sg/guidelines/property-and-business-owners/property/renovating-private-residential-property/landed-housing-e-advisor/semi-detached-houses/exterior/",
+   "2026-06-06T16:05:24.406Z"
+  ],
+  [
+   "https://www.ura.gov.sg/guidelines/property-and-business-owners/property/renovating-private-residential-property/landed-housing-e-advisor/semi-detached-houses/interior/",
+   "2026-06-06T16:06:10.495Z"
+  ],
+  [
+   "https://www.ura.gov.sg/guidelines/property-and-business-owners/property/renovating-private-residential-property/landed-housing-e-advisor/semi-detached-houses/roof/",
+   "2026-06-06T16:08:17.854Z"
+  ],
+  [
+   "https://www.ura.gov.sg/guidelines/property-and-business-owners/property/renovating-private-residential-property/landed-housing-e-advisor/terrace-houses/",
+   "2026-06-06T16:13:47.922Z"
+  ],
+  [
+   "https://www.ura.gov.sg/guidelines/property-and-business-owners/property/renovating-private-residential-property/landed-housing-e-advisor/terrace-houses/exterior/",
+   "2026-06-06T16:21:35.376Z"
+  ],
+  [
+   "https://www.ura.gov.sg/guidelines/property-and-business-owners/property/renovating-private-residential-property/landed-housing-e-advisor/terrace-houses/interior/",
+   "2026-06-06T16:24:06.795Z"
+  ],
+  [
+   "https://www.ura.gov.sg/guidelines/property-and-business-owners/property/renovating-private-residential-property/landed-housing-e-advisor/terrace-houses/roof/",
+   "2026-06-06T16:25:50.770Z"
+  ],
+  [
+   "https://www.ura.gov.sg/news/media/scam-advisory/",
+   "2026-07-30T18:36:21.788Z"
+  ],
+  [
+   "https://www.ura.gov.sg/news/media/scam-advisory2026/",
+   "2026-07-30T18:36:21.788Z"
+  ],
+  [
+   "https://www.ura.gov.sg/security-advisory/",
+   "2026-09-01T02:02:34.111Z"
+  ]
+ ]
+}

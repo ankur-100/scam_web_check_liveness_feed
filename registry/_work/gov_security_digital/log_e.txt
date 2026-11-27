@@ -1,0 +1,16 @@
+== www.mfa.gov.sg: robots=200 declared=1 fetched=1 urls=8786 hits=219 newest_lastmod=2026-11-25T21:57:50.660Z
+   sitemaps: https://www.mfa.gov.sg/sitemap.xml[200:8786]
+== www.mindef.gov.sg: robots=200 declared=1 fetched=1 urls=5711 hits=533 newest_lastmod=2026-11-26T02:49:44.713Z
+   sitemaps: https://www.mindef.gov.sg/sitemap.xml[200:5711]
+== www.cmpb.gov.sg: robots=200 declared=1 fetched=1 urls=119 hits=0 newest_lastmod=2026-11-23T02:09:57.902Z
+   sitemaps: https://www.cmpb.gov.sg/sitemap.xml[200:119]
+== www.pmo.gov.sg: robots=200 declared=1 fetched=1 urls=3648 hits=11 newest_lastmod=2026-11-25T09:11:17.207Z
+   sitemaps: https://www.pmo.gov.sg/sitemap.xml[200:3648]
+== www.psd.gov.sg: robots=200 declared=1 fetched=1 urls=665 hits=3 newest_lastmod=2026-11-25T09:03:35.452Z
+   sitemaps: https://www.psd.gov.sg/sitemap.xml[200:665]
+== www.cpib.gov.sg: robots=200 declared=1 fetched=1 urls=576 hits=7 newest_lastmod=2026-11-24T03:09:44.105Z
+   sitemaps: https://www.cpib.gov.sg/sitemap.xml[200:576]
+== www.mha.gov.sg: robots=200 declared=1 fetched=1 urls=3543 hits=233 newest_lastmod=2026-11-25T11:32:55.501Z
+   sitemaps: https://www.mha.gov.sg/sitemap.xml[200:3543]
+== www.cnb.gov.sg: robots=200 declared=1 fetched=1 urls=870 hits=7 newest_lastmod=2026-11-23T07:56:06.678Z
+   sitemaps: https://www.cnb.gov.sg/sitemap.xml[200:870]

@@ -1,0 +1,129 @@
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: Sogou
+Disallow: /
+
+User-agent: 360Spider
+Disallow: /
+
+User-agent: HaoSouSpider
+Disallow: /
+
+User-agent: YisouSpider
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: ChatGLM-Spider
+Disallow: /
+
+User-agent: Alexibot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: curl
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: Go-http-client
+Disallow: /
+
+User-agent: HTTrack
+Disallow: /
+
+User-agent: larbin
+Disallow: /
+
+User-agent: LexiBot
+Disallow: /
+
+User-agent: libwww-perl
+Disallow: /
+
+User-agent: MegaIndex
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: MSIECrawler
+Disallow: /
+
+User-agent: Nutch
+Disallow: /
+
+User-agent: Openbot
+Disallow: /
+
+User-agent: Python-urllib
+Disallow: /
+
+User-agent: Scrapy
+Disallow: /
+
+User-agent: SeznamBot
+Disallow: /
+
+User-agent: TweetmemeBot
+Disallow: /
+
+User-agent: WebCopier
+Disallow: /
+
+User-agent: WebZIP
+Disallow: /
+
+User-agent: Wget
+Disallow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.uob.com.sg/personal/sitemap.xml
+Sitemap: https://www.uob.com.sg/business/sitemap.xml
+Sitemap: https://www.uob.com.sg/wealthbanking/sitemap.xml
+Sitemap: https://www.uob.com.sg/privilegebanking/sitemap.xml
+Sitemap: https://www.uob.com.sg/private/sitemap.xml
+Sitemap: https://www.uob.com.sg/private-zh/sitemap.xml
+Sitemap: https://www.uobgroup.com/foreign-direct-investment/sitemap.xml
+Sitemap: https://www.uobgroup.com/industry-insights/sitemap.xml
+Sitemap: https://www.uob.com.sg/online-branch/sitemap.xml
+Sitemap: https://www.uobgroup.com/uobgroup/sitemap.xml
+Sitemap: https://www.uobgroup.com/careers/sitemap.xml
+Sitemap: https://www.uobgroup.com/careers-zh/sitemap.xml
+Sitemap: https://www.uobgroup.com/careers-id/sitemap.xml
+Sitemap: https://www.uobgroup.com/careers-th/sitemap.xml
+Sitemap: https://www.uobgroup.com/careers-vn/sitemap.xml
+Sitemap: https://www.uobgroup.com/sustainability/sitemap.xml
+Sitemap: https://www.uobgroup.com/research/sitemap.xml
+Sitemap: https://www.uobgroup.com/sustainable-solutions/sitemap.xml
+Sitemap: https://www.uobgroup.com/brunei/sitemap.xml
+Sitemap: https://www.uobgroup.com/hk/sitemap.xml
+Sitemap: https://www.uobgroup.com/hk-zh/sitemap.xml
+Sitemap: https://www.uobgroup.com/in/sitemap.xml
+Sitemap: https://www.uobgroup.com/ph/sitemap.xml
+Sitemap: https://www.uobgroup.com/kr/sitemap.xml
+Sitemap: https://www.uobgroup.com/tw/sitemap.xml
+Sitemap: https://www.uobgroup.com/tw-en/sitemap.xml
+Sitemap: https://www.uobgroup.com/jp/sitemap.xml
+Sitemap: https://www.uobgroup.com/myanmar/sitemap.xml
+Sitemap: https://www.uobam.com.sg/uobam/sitemap.xml
+Sitemap: https://www.uobtravel.com/uobtravel/sitemap.xml
+Sitemap: https://www.uoi.com.sg/uoi/sitemap.xml
+Sitemap: https://www.uobgroup.com/techecosystem/sitemap.xml
+Sitemap: https://www.uob.com.sg/personal/sitemap-finlit.xml
+Sitemap: https://www.uob.com.sg/business/smehub-sitemap.xml
+Sitemap: https://www.uobgroup.com/asean-insights-sitemap.xml
+Sitemap: https://www.uobgroup.com/uobgroup/sitemap-newsroom.xml

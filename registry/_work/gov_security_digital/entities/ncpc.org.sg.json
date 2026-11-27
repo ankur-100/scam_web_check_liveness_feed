@@ -1,0 +1,70 @@
+{
+ "entity_id": "ncpc.org.sg",
+ "name": "National Crime Prevention Council",
+ "abbr": "NCPC",
+ "aliases": [
+  "National Crime Prevention Council (NCPC)",
+  "ScamAlert.sg (former)"
+ ],
+ "sector": "quasi_gov",
+ "parent_entity_id": "police.gov.sg",
+ "country": "SG",
+ "official_domains": [
+  "ncpc.org.sg"
+ ],
+ "official_hosts": [
+  "www.ncpc.org.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.ncpc.org.sg/scamshield/",
+   "kind": "official_channels",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2026-09-28",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "We have received reports of scammers attempting to impersonate NCPC. NCPC staff will never ask you to transfer money or disclose your bank login details, nor transfer your calls to other organisations.",
+   "notes": "The sample is a site-wide NCPC self-impersonation banner (seen on all pages 2026-11-26). The page describes the ScamShield suite (1799 helpline, app, website, alerts). NCPC co-runs ScamShield and its ScamAlert.sg was absorbed into scamshield.gov.sg."
+  },
+  {
+   "url": "https://www.ncpc.org.sg/crime-prevention-advisories/individuals/cybercrime/",
+   "kind": "scam_faq",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2026-09-08",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Information and tips to help you stay informed, prevent, and respond to online threats.",
+   "notes": "Generic crime-prevention advisory. Siblings: /crime-prevention-advisories/senior-citizen/, /youth/internet-safety/. No IOCs."
+  },
+  {
+   "url": "https://www.ncpc.org.sg/media-releases/",
+   "kind": "news_releases",
+   "lists_indicators": [],
+   "access": "rss",
+   "machine_url": "https://www.ncpc.org.sg/media-releases/rss.xml",
+   "item_count": 29,
+   "latest_item_date": "2026-09-04",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Mon, 15 Sep 2025 | 1st Anniversary Of The 1799 Scamshield Helpline",
+   "notes": "RSS via rel=alternate: 29 items (2016 to 4 Sep 2026), 9 scam-related. Items are PDFs on isomer-user-content.by.gov.sg. Sitemap https://www.ncpc.org.sg/sitemap.xml (98 URLs, lastmod) also lists campaigns /campaigns/xiamthescams/ and /campaigns/anti-illegal-betting/, and publication \"duped-singaporeans--the-most-tech-savvy-targets-in-history\"."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [
+   "1799 (ScamShield Helpline, operated with NCPC)"
+  ],
+  "short_link_domains": [],
+  "social": []
+ },
+ "evidence": [
+  "https://www.ncpc.org.sg/",
+  "https://www.ncpc.org.sg/sitemap.xml",
+  "https://www.scamshield.gov.sg/"
+ ],
+ "notes": "Non-government council partnered with SPF that runs the 1799 helpline. Former scamalert.sg owner; the domain now 301s to www.scamshield.gov.sg (see scamshield.gov.sg record). The site is an Isomer build on .org.sg yet shows the \"A Singapore Government Agency Website\" masthead. No IOC lists."
+}

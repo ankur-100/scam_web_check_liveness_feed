@@ -1,0 +1,60 @@
+{
+ "entity_id": "jtexpress.sg",
+ "name": "J&T Express Singapore",
+ "abbr": null,
+ "aliases": [
+  "J&T Express",
+  "J&T Express Singapore",
+  "J&T",
+  "JNT Express"
+ ],
+ "sector": "logistics",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "jtexpress.sg"
+ ],
+ "official_hosts": [
+  "www.jtexpress.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.jtexpress.sg/scam-alert",
+   "kind": "scam_faq",
+   "lists_indicators": [
+    "email"
+   ],
+   "access": "html",
+   "machine_url": "https://www.jtexpress.sg/sitemap.xml",
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Always countercheck the sender's email address, our official email ends with @jtexpress.sg . Never click on any links if the countercheck is not done",
+   "notes": "'Public Advisory On Scams' (linked from homepage banner 'Exercise Caution Against Scams'): fake job ads (official hiring only via JobStreet, FastJobs, MyCareersFuture, corporate site, official socials), email/phishing scams, COD scams. 'email' = official sender domain @jtexpress.sg; report to cs.sg@jtexpress.sg. Narrative; no fake indicators; undated."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": [
+   "https://www.facebook.com/jtexpresssg",
+   "https://www.instagram.com/jtexpresssg/",
+   "https://sg.linkedin.com/company/jtexpresssg"
+  ],
+  "apps": [
+   "J&T app (download link on homepage)"
+  ],
+  "emails": [
+   "@jtexpress.sg",
+   "cs.sg@jtexpress.sg"
+  ]
+ },
+ "evidence": [
+  "https://www.jtexpress.sg/scam-alert",
+  "https://www.jtexpress.sg/",
+  "https://www.jtexpress.sg/robots.txt",
+  "https://www.jtexpress.sg/sitemap.xml"
+ ],
+ "notes": "official_domains: jtexpress.sg (a: 'our official email ends with @jtexpress.sg'; b: serving domain). HubSpot site; sitemap (no lastmod for scam page)."
+}

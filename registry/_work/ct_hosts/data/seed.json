@@ -1,0 +1,2143 @@
+[
+ {
+  "host": "www.scamshield.gov.sg",
+  "registrable_domain": "scamshield.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "yes",
+  "owner_entity_id": "scamshield.gov.sg",
+  "notes": "ScamShield one-stop anti-scam portal (SPF+NCPC+OGP): /resources/scam-alert/, /check-for-scams/, anti-scam resource guide, bank anti-scam hotlines; also on gov.sg Trusted Sites list (Table 1)"
+ },
+ {
+  "host": "scamshield.gov.sg",
+  "registrable_domain": "scamshield.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "yes",
+  "owner_entity_id": "scamshield.gov.sg",
+  "notes": "apex of ScamShield portal; wildcard *.scamshield.gov.sg certs 2020-05-19..2026-07-23 (crt.sh)"
+ },
+ {
+  "host": "guide.scamshield.gov.sg",
+  "registrable_domain": "scamshield.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "yes",
+  "owner_entity_id": "scamshield.gov.sg",
+  "notes": "ScamShield user guide (search-indexed /llms-full.txt)"
+ },
+ {
+  "host": "wa-bot.scamshield.gov.sg",
+  "registrable_domain": "scamshield.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "scamshield.gov.sg",
+  "notes": "name suggests ScamShield WhatsApp bot endpoint (backend, not public content; no GET)"
+ },
+ {
+  "host": "dashboard.scamshield.gov.sg",
+  "registrable_domain": "scamshield.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "scamshield.gov.sg",
+  "notes": "ScamShield dashboard (search snippet: admin dashboard used by police to verify reports); login app, no GET"
+ },
+ {
+  "host": "dashboardguide.scamshield.gov.sg",
+  "registrable_domain": "scamshield.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "scamshield.gov.sg",
+  "notes": "guide for the ScamShield dashboard"
+ },
+ {
+  "host": "dashboard-staging.scamshield.gov.sg",
+  "registrable_domain": "scamshield.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "scamshield.gov.sg",
+  "notes": "staging environment; no GET"
+ },
+ {
+  "host": "dashboard-vapt.scamshield.gov.sg",
+  "registrable_domain": "scamshield.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "scamshield.gov.sg",
+  "notes": "VAPT (pen-test) environment; no GET"
+ },
+ {
+  "host": "status.scamshield.gov.sg",
+  "registrable_domain": "scamshield.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "scamshield.gov.sg",
+  "notes": "service status page"
+ },
+ {
+  "host": "grafana-new.scamshield.gov.sg",
+  "registrable_domain": "scamshield.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "scamshield.gov.sg",
+  "notes": "internal monitoring; no GET"
+ },
+ {
+  "host": "app.beta.scamshield.gov.sg",
+  "registrable_domain": "scamshield.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "scamshield.gov.sg",
+  "notes": "beta web app; certs stop 2026-01"
+ },
+ {
+  "host": "app-beta.scamshield.gov.sg",
+  "registrable_domain": "scamshield.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "scamshield.gov.sg",
+  "notes": "beta web app; only certs Feb-Mar 2024"
+ },
+ {
+  "host": "www.scamshield.org.sg",
+  "registrable_domain": "scamshield.org.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "yes",
+  "owner_entity_id": "scamshield.gov.sg",
+  "notes": "ScamShield Bot microsite (/about-bot, /bot-faqs, /set-up-bot per search); 01_sg_official.md: 302 -> www.scamshield.gov.sg"
+ },
+ {
+  "host": "scamshield.org.sg",
+  "registrable_domain": "scamshield.org.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "yes",
+  "owner_entity_id": "scamshield.gov.sg",
+  "notes": "apex of ScamShield Bot microsite; wildcard *.scamshield.org.sg certs to 2026-09"
+ },
+ {
+  "host": "scamshield.sg",
+  "registrable_domain": "scamshield.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "scamshield.gov.sg",
+  "notes": "2020-era ScamShield app address (search: Nov-2020 Mothership article pointed to scamshield.sg; app built by OGP for NCPC); Cloudflare/LE certs to 2026-08"
+ },
+ {
+  "host": "www.scamshield.sg",
+  "registrable_domain": "scamshield.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "scamshield.gov.sg",
+  "notes": "legacy ScamShield app site; certs stop 2024-08"
+ },
+ {
+  "host": "api.scamshield.sg",
+  "registrable_domain": "scamshield.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "scamshield.gov.sg",
+  "notes": "legacy ScamShield app API (Amazon certs 2020-2024); backend, no GET"
+ },
+ {
+  "host": "classifier-api.scamshield.sg",
+  "registrable_domain": "scamshield.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "scamshield.gov.sg",
+  "notes": "legacy ScamShield SMS classifier API (certs 2020-2024); backend, no GET"
+ },
+ {
+  "host": "grafana.scamshield.sg",
+  "registrable_domain": "scamshield.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "scamshield.gov.sg",
+  "notes": "internal monitoring; single cert Feb 2023"
+ },
+ {
+  "host": "www.icanactagainstscams.gov.sg",
+  "registrable_domain": "icanactagainstscams.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "yes",
+  "owner_entity_id": "icanactagainstscams.gov.sg",
+  "notes": "SPF 'I Can ACT Against Scams' site: /scam-trends advisories with scam_site_urls + Brand/Category tags (baseline feed, ../FINDINGS.md); parent police.gov.sg"
+ },
+ {
+  "host": "icanactagainstscams.gov.sg",
+  "registrable_domain": "icanactagainstscams.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "yes",
+  "owner_entity_id": "icanactagainstscams.gov.sg",
+  "notes": "apex; wildcard cert 2025-08..2025-10"
+ },
+ {
+  "host": "www.beta.icanactagainstscams.gov.sg",
+  "registrable_domain": "icanactagainstscams.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "icanactagainstscams.gov.sg",
+  "notes": "beta site (certs Oct-Nov 2025; also inside a shared multi-SAN Isomer cert seen via certspotter)"
+ },
+ {
+  "host": "stg.icanactagainstscams.gov.sg",
+  "registrable_domain": "icanactagainstscams.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "icanactagainstscams.gov.sg",
+  "notes": "staging; no GET"
+ },
+ {
+  "host": "www.stg.icanactagainstscams.gov.sg",
+  "registrable_domain": "icanactagainstscams.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "icanactagainstscams.gov.sg",
+  "notes": "staging; no GET"
+ },
+ {
+  "host": "pango.gov.sg",
+  "registrable_domain": "pango.gov.sg",
+  "discovered_via": "search",
+  "scam_relevant": "yes",
+  "owner_entity_id": "pango.gov.sg",
+  "notes": "AntiScam Pango (GovTech on-device scam-message detector, Android beta 4 Nov 2026) official site per tech.gov.sg release; parent tech.gov.sg; also in crt.sh"
+ },
+ {
+  "host": "www.pango.gov.sg",
+  "registrable_domain": "pango.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "yes",
+  "owner_entity_id": "pango.gov.sg",
+  "notes": "AntiScam Pango site (www)"
+ },
+ {
+  "host": "api.pango.gov.sg",
+  "registrable_domain": "pango.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "pango.gov.sg",
+  "notes": "app API backend; no GET"
+ },
+ {
+  "host": "api.stg.pango.gov.sg",
+  "registrable_domain": "pango.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "pango.gov.sg",
+  "notes": "staging API; no GET"
+ },
+ {
+  "host": "api.dev.pango.gov.sg",
+  "registrable_domain": "pango.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "pango.gov.sg",
+  "notes": "dev API; no GET"
+ },
+ {
+  "host": "www.ncpc.org.sg",
+  "registrable_domain": "ncpc.org.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "yes",
+  "owner_entity_id": "ncpc.org.sg",
+  "notes": "National Crime Prevention Council: anti-scam campaigns/resources (e.g. /xiamthescams); also on gov.sg Trusted Sites list (Table 4)"
+ },
+ {
+  "host": "ncpc.org.sg",
+  "registrable_domain": "ncpc.org.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "yes",
+  "owner_entity_id": "ncpc.org.sg",
+  "notes": "apex; wildcard *.ncpc.org.sg certs 2018-2026"
+ },
+ {
+  "host": "link.ncpc.org.sg",
+  "registrable_domain": "ncpc.org.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "ncpc.org.sg",
+  "notes": "cPanel/LE certs 2022-08..2024-08 only; purpose unknown (link hub?)"
+ },
+ {
+  "host": "ncpc.gov.sg",
+  "registrable_domain": "ncpc.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "ncpc.org.sg",
+  "notes": "old NCPC .gov.sg domain; only certs 2015-08..2016-01 (+wildcard)"
+ },
+ {
+  "host": "xiamthescams.sqkii.com",
+  "registrable_domain": "sqkii.com",
+  "discovered_via": "search",
+  "scam_relevant": "yes",
+  "owner_entity_id": "ncpc.org.sg",
+  "notes": "#XiamTheScams NCPC/SPF/MHA anti-scam web game built by vendor Sqkii, ran 24 Oct 2024-22 Jan 2025 (search); vendor-hosted"
+ },
+ {
+  "host": "www.scamalert.sg",
+  "registrable_domain": "scamalert.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "yes",
+  "owner_entity_id": "ncpc.org.sg",
+  "notes": "NCPC ScamAlert portal, retired into ScamShield Suite (Sep 2024); 01_sg_official.md: 301 -> www.scamshield.gov.sg; scraped corpus 2016-20 exists"
+ },
+ {
+  "host": "scamalert.sg",
+  "registrable_domain": "scamalert.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "yes",
+  "owner_entity_id": "ncpc.org.sg",
+  "notes": "apex; wildcard *.scamalert.sg certs 2018-2026; cPanel service names (cpanel/cpcalendars/cpcontacts/webdisk/webmail/mail/autodiscover, also under forms./lp./makeathon./quiz.) collapsed here, all certs ended 2018-2022"
+ },
+ {
+  "host": "quiz.scamalert.sg",
+  "registrable_domain": "scamalert.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "yes",
+  "owner_entity_id": "ncpc.org.sg",
+  "notes": "NCPC scam quiz; certs 2020-07..2025-01"
+ },
+ {
+  "host": "www.quiz.scamalert.sg",
+  "registrable_domain": "scamalert.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "yes",
+  "owner_entity_id": "ncpc.org.sg",
+  "notes": "certs 2020-07..2021-10"
+ },
+ {
+  "host": "forms.scamalert.sg",
+  "registrable_domain": "scamalert.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "ncpc.org.sg",
+  "notes": "forms (scam report/feedback?); certs 2020-12..2024-09"
+ },
+ {
+  "host": "www.forms.scamalert.sg",
+  "registrable_domain": "scamalert.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "ncpc.org.sg",
+  "notes": "certs 2020-12..2021-10"
+ },
+ {
+  "host": "lp.scamalert.sg",
+  "registrable_domain": "scamalert.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "ncpc.org.sg",
+  "notes": "landing pages (campaign); certs 2020-08..2024-08"
+ },
+ {
+  "host": "www.lp.scamalert.sg",
+  "registrable_domain": "scamalert.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "ncpc.org.sg",
+  "notes": "certs 2020-08..2021-09"
+ },
+ {
+  "host": "makeathon.scamalert.sg",
+  "registrable_domain": "scamalert.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "ncpc.org.sg",
+  "notes": "Anti-Scam Makeathon event site; certs 2019-09..2021-06"
+ },
+ {
+  "host": "www.makeathon.scamalert.sg",
+  "registrable_domain": "scamalert.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "ncpc.org.sg",
+  "notes": "certs 2019-09..2021-06"
+ },
+ {
+  "host": "www.police.gov.sg",
+  "registrable_domain": "police.gov.sg",
+  "discovered_via": "search",
+  "scam_relevant": "yes",
+  "owner_entity_id": "police.gov.sg",
+  "notes": "SPF: /advisories/scams, media-hub news (354 scam advisories in sitemap), scam & cybercrime briefs"
+ },
+ {
+  "host": "eservices1.police.gov.sg",
+  "registrable_domain": "police.gov.sg",
+  "discovered_via": "search",
+  "scam_relevant": "yes",
+  "owner_entity_id": "police.gov.sg",
+  "notes": "SPF e-services: online police report for scams (/phub/eservices/landingpage/police-report per search); report_portal"
+ },
+ {
+  "host": "www.mha.gov.sg",
+  "registrable_domain": "mha.gov.sg",
+  "discovered_via": "search",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "mha.gov.sg",
+  "notes": "MHA newsroom: anti-scam speeches/COS, E-commerce Marketplace Transaction Safety Ratings"
+ },
+ {
+  "host": "www.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "yes",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "CSA/SingCERT alerts & advisories (RSS), /GoSafeOnline, report-a-phishing-email, SG Cyber Safe Seniors; latest issuance 2026-11-19 per certspotter (crt.sh lagging)",
+  "cert_last_seen": "2026-11-19"
+ },
+ {
+  "host": "csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "yes",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "apex; wildcard *.csa.gov.sg certs 2019-2026"
+ },
+ {
+  "host": "www.mas.gov.sg",
+  "registrable_domain": "mas.gov.sg",
+  "discovered_via": "link",
+  "scam_relevant": "yes",
+  "owner_entity_id": "mas.gov.sg",
+  "notes": "MAS Investor Alert List at /ial (from sources/01_sg_official.md)"
+ },
+ {
+  "host": "eservices.mas.gov.sg",
+  "registrable_domain": "mas.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "mas.gov.sg",
+  "notes": "MAS e-services: Financial Institutions Directory (/fid, allowlist) and the IAL search backend used by third-party scrapers (not probed)"
+ },
+ {
+  "host": "www.moneysense.gov.sg",
+  "registrable_domain": "moneysense.gov.sg",
+  "discovered_via": "search",
+  "scam_relevant": "yes",
+  "owner_entity_id": "moneysense.gov.sg",
+  "notes": "MoneySense (MAS financial education): /scams/, how-to-spot-an-investment-scam; parent mas.gov.sg"
+ },
+ {
+  "host": "reports.open.gov.sg",
+  "registrable_domain": "open.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "open.gov.sg",
+  "notes": "OGP product reports: /scamshield/overview, /scamshield/metrics, /scamshield/updates (search); host is multi-product"
+ },
+ {
+  "host": "products.open.gov.sg",
+  "registrable_domain": "open.gov.sg",
+  "discovered_via": "search",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "open.gov.sg",
+  "notes": "OGP product pages incl. /scamshield; name also present in crt.sh open.gov.sg set"
+ },
+ {
+  "host": "www.open.gov.sg",
+  "registrable_domain": "open.gov.sg",
+  "discovered_via": "search",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "open.gov.sg",
+  "notes": "OGP site: /products/scamshield"
+ },
+ {
+  "host": "ask.gov.sg",
+  "registrable_domain": "ask.gov.sg",
+  "discovered_via": "search",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "ask.gov.sg",
+  "notes": "AskGov Q&A platform: ScamShield FAQ at /scamshield and AntiScam Pango help at /pango; multi-agency host (crt.sh q=ask.gov.sg 502 twice on 2026-11-25)"
+ },
+ {
+  "host": "go.ask.gov.sg",
+  "registrable_domain": "ask.gov.sg",
+  "discovered_via": "search",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "ask.gov.sg",
+  "notes": "AskGov short links, e.g. go.ask.gov.sg/scamshield"
+ },
+ {
+  "host": "www.tech.gov.sg",
+  "registrable_domain": "tech.gov.sg",
+  "discovered_via": "search",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "tech.gov.sg",
+  "notes": "GovTech: /products-and-services/for-citizens/scam-prevention/ (ScamShield, SATIS, Pango) + technews scam explainers"
+ },
+ {
+  "host": "phishmon.gcsoc.tech.gov.sg",
+  "registrable_domain": "tech.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "tech.gov.sg",
+  "notes": "GovTech GCSOC phishing-monitoring service (name); internal, certs 2023-03..2025-05; no GET"
+ },
+ {
+  "host": "stg.phishmon.gcsoc.tech.gov.sg",
+  "registrable_domain": "tech.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "tech.gov.sg",
+  "notes": "staging of phishmon; certs end 2025-05"
+ },
+ {
+  "host": "dev.phishmon.gcsoc.tech.gov.sg",
+  "registrable_domain": "tech.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "tech.gov.sg",
+  "notes": "dev of phishmon; certs end 2025-05"
+ },
+ {
+  "host": "www.smartnation.gov.sg",
+  "registrable_domain": "smartnation.gov.sg",
+  "discovered_via": "search",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "smartnation.gov.sg",
+  "notes": "/initiatives/scamshield"
+ },
+ {
+  "host": "www.mddi.gov.sg",
+  "registrable_domain": "mddi.gov.sg",
+  "discovered_via": "search",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "mddi.gov.sg",
+  "notes": "/other-pages/anti-scam-efforts/ (lists SIMCardHowMany, ScamShield, roadshow)"
+ },
+ {
+  "host": "www.imda.gov.sg",
+  "registrable_domain": "imda.gov.sg",
+  "discovered_via": "search",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "imda.gov.sg",
+  "notes": "/how-we-can-help/anti-scam-measures (SMS sender ID, SSIR)"
+ },
+ {
+  "host": "services2-ctoaascam-ez.in.imda.gov.sg",
+  "registrable_domain": "imda.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "imda.gov.sg",
+  "notes": "keyword false positive ('ctoaas'+'cam'); internal"
+ },
+ {
+  "host": "services2-ctoaascam-ez-stg.in.imda.gov.sg",
+  "registrable_domain": "imda.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "imda.gov.sg",
+  "notes": "keyword false positive; internal staging"
+ },
+ {
+  "host": "www.digitalforlife.gov.sg",
+  "registrable_domain": "digitalforlife.gov.sg",
+  "discovered_via": "search",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "digitalforlife.gov.sg",
+  "notes": "IMDA Digital for Life: scam-spotting learning resources, festival; parent imda.gov.sg"
+ },
+ {
+  "host": "form.gov.sg",
+  "registrable_domain": "form.gov.sg",
+  "discovered_via": "search",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "open.gov.sg",
+  "notes": "FormSG platform; hosts IMDA/GovTech SIMCardHowMany postpaid-SIM checker (anti-scam tool, beta 26 Feb 2026) at a form path; multi-tenant host"
+ },
+ {
+  "host": "www.gov.sg",
+  "registrable_domain": "gov.sg",
+  "discovered_via": "search",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "gov.sg",
+  "notes": "hosts the Trusted Sites allowlist (/trusted-sites/, last updated 6 Nov 2026) and scam explainers"
+ },
+ {
+  "host": "checkmate.sg",
+  "registrable_domain": "checkmate.sg",
+  "discovered_via": "search",
+  "scam_relevant": "yes",
+  "owner_entity_id": "checkmate.sg",
+  "notes": "CheckMate: volunteer-run (bettersg) WhatsApp scam/misinformation checker; NOT official. crt.sh: ~57 names; infra (admin, api.backend, portkey, stripe, webhook, whatsapp, evals, datasets, workspace, corporate, line, qr, ref, screenshots, files, data, certificates, measure, hi) + staging.* collapsed here"
+ },
+ {
+  "host": "scam.sg",
+  "registrable_domain": "scam.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": null,
+  "notes": "owner unknown (no web-search hits); CT shows an app stack (accounts/clerk/dashboard/cms/crawl4ai/searxng/browserless/n8n/verified.) => looks like a private scam-check service; not visited (non-official)"
+ },
+ {
+  "host": "scams.sg",
+  "registrable_domain": "scams.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": null,
+  "notes": "owner unknown; Sectigo DV certs 2025-01..2026-10 (+wildcard); not visited (non-official)"
+ },
+ {
+  "host": "www.scam.sg",
+  "registrable_domain": "scam.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": null,
+  "notes": "owner unknown; certs 2023-12..2026-04; not visited"
+ },
+ {
+  "host": "verified.scam.sg",
+  "registrable_domain": "scam.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": null,
+  "notes": "owner unknown; certs 2024-08..2026-10; not visited"
+ },
+ {
+  "host": "dashboard.scam.sg",
+  "registrable_domain": "scam.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": null,
+  "notes": "owner unknown; certs 2024-09..2026-07; children accounts./clerk./dev. dashboard.scam.sg; not visited"
+ },
+ {
+  "host": "faqs.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "CSA FAQ host; single cert 2022-03 only"
+ },
+ {
+  "host": "web.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "legacy web host; certs 2019-11..2022-11"
+ },
+ {
+  "host": "www-origin.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "origin for www (CDN); certs to 2024-02"
+ },
+ {
+  "host": "www-origin-uat.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "UAT origin"
+ },
+ {
+  "host": "www-stg.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "staging; single cert 2018-01"
+ },
+ {
+  "host": "origin1-www.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "old origin; cert 2019-08 only"
+ },
+ {
+  "host": "www.origin1-www.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "old origin; cert 2019-08 only"
+ },
+ {
+  "host": "web-intranet.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "intranet; certs 2022-10..2023-10"
+ },
+ {
+  "host": "web-intranet-uat.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "intranet UAT"
+ },
+ {
+  "host": "ihp.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "Internet Hygiene Portal (website/email security ratings, incl. DMARC); not scam advisories"
+ },
+ {
+  "host": "www.ihp.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "IHP www; certs to 2023-07"
+ },
+ {
+  "host": "api.ihp.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "IHP API"
+ },
+ {
+  "host": "enterpriseapi.ihp.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "IHP enterprise API"
+ },
+ {
+  "host": "ihp-stg.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "IHP staging (+ wildcard *.ihp-stg)"
+ },
+ {
+  "host": "www.ihp-stg.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "IHP staging"
+ },
+ {
+  "host": "api.ihp-stg.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "IHP staging API"
+ },
+ {
+  "host": "enterpriseapi.ihp-stg.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "IHP staging API"
+ },
+ {
+  "host": "nc3.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "unidentified system 'nc3' (single cert 2026-02)"
+ },
+ {
+  "host": "dev-nc3.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "dev of nc3"
+ },
+ {
+  "host": "uat-nc3.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "UAT of nc3"
+ },
+ {
+  "host": "logpipe.amrs.nc3.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "log pipeline (internal)"
+ },
+ {
+  "host": "uat.logpipe.amrs.nc3.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "log pipeline UAT (internal)"
+ },
+ {
+  "host": "dev-cardinal.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "unidentified system 'cardinal' (dev)"
+ },
+ {
+  "host": "uat-cardinal.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "unidentified system 'cardinal' (UAT)"
+ },
+ {
+  "host": "pslc.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "unidentified 'pslc' site (Sectigo DV certs 2025-04..2026-10)"
+ },
+ {
+  "host": "www.pslc.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "www of pslc"
+ },
+ {
+  "host": "ssix-a1.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "www.ssix-a1.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "ssix-a2.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "www.ssix-a2.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "ssix-a3.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "www.ssix-a3.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "ssix-a4.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "www.ssix-a4.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "ssix-a5.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "www.ssix-a5.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "ssix-a6.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "www.ssix-a6.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "ssix-b1.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "www.ssix-b1.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "ssix-b2.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "www.ssix-b2.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "ssix-b3.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "www.ssix-b3.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "ssix-b4.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "www.ssix-b4.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure)"
+ },
+ {
+  "host": "www.gosafeonline.sg",
+  "registrable_domain": "gosafeonline.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "yes",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "legacy CSA GoSafeOnline cyber-hygiene/scam-awareness portal (content now at www.csa.gov.sg/GoSafeOnline); Amazon certs 2012-04..2026-08"
+ },
+ {
+  "host": "gosafeonline.sg",
+  "registrable_domain": "gosafeonline.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "yes",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "apex of legacy GoSafeOnline"
+ },
+ {
+  "host": "singcert.org.sg",
+  "registrable_domain": "singcert.org.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "legacy SingCERT domain (cPanel/Entrust certs 2014..2022-11); cPanel service names collapsed here"
+ },
+ {
+  "host": "www.singcert.org.sg",
+  "registrable_domain": "singcert.org.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "legacy SingCERT www; certs end 2022-11"
+ },
+ {
+  "host": "eservices.police.gov.sg",
+  "registrable_domain": "police.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "police.gov.sg",
+  "notes": "original e-services host; certs end 2024-04 (superseded by eservices1-5); police e-report portal family (www.<name> alias also in CT; sit/uat/qa/stg variants omitted). No scam-named hosts among 127 police.gov.sg CT names (crt.sh %.police.gov.sg 2026-11-26)",
+  "cert_first_seen": "2018-04-23",
+  "cert_last_seen": "2024-04-11"
+ },
+ {
+  "host": "eservices2.police.gov.sg",
+  "registrable_domain": "police.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "police.gov.sg",
+  "notes": "SPF e-services cluster 2; police e-report portal family (www.<name> alias also in CT; sit/uat/qa/stg variants omitted). No scam-named hosts among 127 police.gov.sg CT names (crt.sh %.police.gov.sg 2026-11-26)",
+  "cert_first_seen": "2021-04-23",
+  "cert_last_seen": "2026-09-27"
+ },
+ {
+  "host": "eservices3.police.gov.sg",
+  "registrable_domain": "police.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "police.gov.sg",
+  "notes": "SPF e-services cluster 3; certs end 2024-06; police e-report portal family (www.<name> alias also in CT; sit/uat/qa/stg variants omitted). No scam-named hosts among 127 police.gov.sg CT names (crt.sh %.police.gov.sg 2026-11-26)",
+  "cert_first_seen": "2022-05-31",
+  "cert_last_seen": "2024-06-04"
+ },
+ {
+  "host": "eservices4.police.gov.sg",
+  "registrable_domain": "police.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "police.gov.sg",
+  "notes": "SPF e-services cluster 4; police e-report portal family (www.<name> alias also in CT; sit/uat/qa/stg variants omitted). No scam-named hosts among 127 police.gov.sg CT names (crt.sh %.police.gov.sg 2026-11-26)",
+  "cert_first_seen": "2024-01-22",
+  "cert_last_seen": "2025-12-22"
+ },
+ {
+  "host": "eservices5.police.gov.sg",
+  "registrable_domain": "police.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "police.gov.sg",
+  "notes": "SPF e-services cluster 5; police e-report portal family (www.<name> alias also in CT; sit/uat/qa/stg variants omitted). No scam-named hosts among 127 police.gov.sg CT names (crt.sh %.police.gov.sg 2026-11-26)",
+  "cert_first_seen": "2024-01-23",
+  "cert_last_seen": null
+ },
+ {
+  "host": "phishing.sg",
+  "registrable_domain": "phishing.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": null,
+  "notes": "owner unknown (no web-search hits); Cloudflare; subdomains read./resources./www. active to 2026-10; could be a phishing-awareness/simulation vendor; not visited (non-official)"
+ },
+ {
+  "host": "www.phishing.sg",
+  "registrable_domain": "phishing.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": null,
+  "notes": "owner unknown; not visited (non-official)"
+ },
+ {
+  "host": "read.phishing.sg",
+  "registrable_domain": "phishing.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": null,
+  "notes": "owner unknown; not visited (non-official)"
+ },
+ {
+  "host": "resources.phishing.sg",
+  "registrable_domain": "phishing.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": null,
+  "notes": "owner unknown; not visited (non-official)"
+ },
+ {
+  "host": "cybersafe.sg",
+  "registrable_domain": "cybersafe.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": null,
+  "notes": "owner unknown; cPanel/Cloudflare, earlier staged at cybersafe.sg.ewr.com.sg (SG web agency); subdomains old./sm./sm-dev. + cPanel service names; not visited (non-official)"
+ },
+ {
+  "host": "www.cybersafe.sg",
+  "registrable_domain": "cybersafe.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": null,
+  "notes": "owner unknown; not visited"
+ },
+ {
+  "host": "checkscam.sg",
+  "registrable_domain": "checkscam.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": null,
+  "notes": "owner unknown; only LE certs 2023-06 (+wildcard); NXDOMAIN now -> retired/lapsed registration"
+ },
+ {
+  "host": "www.checkmate.sg",
+  "registrable_domain": "checkmate.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "yes",
+  "owner_entity_id": "checkmate.sg",
+  "notes": "CheckMate (volunteer, NOT official); CheckMate site (www)"
+ },
+ {
+  "host": "scam-game.checkmate.sg",
+  "registrable_domain": "checkmate.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "yes",
+  "owner_entity_id": "checkmate.sg",
+  "notes": "CheckMate (volunteer, NOT official); scam-awareness game (+wildcard), single cert 2026-10-03 - new"
+ },
+ {
+  "host": "game.checkmate.sg",
+  "registrable_domain": "checkmate.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "checkmate.sg",
+  "notes": "CheckMate (volunteer, NOT official); game host (+wildcard), cert 2026-07"
+ },
+ {
+  "host": "search.checkmate.sg",
+  "registrable_domain": "checkmate.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "checkmate.sg",
+  "notes": "CheckMate (volunteer, NOT official); search of checked messages? certs 2026-02..2026-08"
+ },
+ {
+  "host": "checkers.checkmate.sg",
+  "registrable_domain": "checkmate.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "checkmate.sg",
+  "notes": "CheckMate (volunteer, NOT official); volunteer checkers portal"
+ },
+ {
+  "host": "accounts.cpf.checkmate.sg",
+  "registrable_domain": "checkmate.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "checkmate.sg",
+  "notes": "CheckMate (volunteer, NOT official); 'cpf' tenant (accounts/clerk + cpf.staging) certs 2025-11..2026-09 - possibly a CPF-focused deployment; unverified"
+ },
+ {
+  "host": "smsregistry.sg",
+  "registrable_domain": "smsregistry.sg",
+  "discovered_via": "certspotter",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "sgnic.sg",
+  "notes": "Singapore SMS Sender ID Registry (SGNIC/IMDA): public list of organisations with registered sender IDs at /web/org/public-listing (allowlist vs SMS spoofing). crt.sh 502 x2 on 2026-11-26; certspotter (current certs only): apex + *.smsregistry.sg 2026-07, feature./staging./testing. envs",
+  "cert_first_seen": null,
+  "cert_last_seen": "2026-07-18"
+ },
+ {
+  "host": "www.osc.gov.sg",
+  "registrable_domain": "osc.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "osc.gov.sg",
+  "notes": "Online Safety Commission site (online-harms relief; overlaps impersonation, not scam-specific); found via guessed-zone CT query; preprod-/uat-report, osc-int* omitted"
+ },
+ {
+  "host": "report.osc.gov.sg",
+  "registrable_domain": "osc.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "osc.gov.sg",
+  "notes": "OSC online-harms report portal (certs from 2026-04); found via guessed-zone CT query; preprod-/uat-report, osc-int* omitted"
+ },
+ {
+  "host": "osc.gov.sg",
+  "registrable_domain": "osc.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "osc.gov.sg",
+  "notes": "apex; found via guessed-zone CT query; preprod-/uat-report, osc-int* omitted"
+ },
+ {
+  "host": "www.dnc.gov.sg",
+  "registrable_domain": "dnc.gov.sg",
+  "discovered_via": "crt.sh",
+  "scam_relevant": "no",
+  "owner_entity_id": "pdpc.gov.sg",
+  "notes": "Do Not Call Registry (telemarketing opt-out), checked via guessed-zone CT query; not a scam-info source; portal.dnc.gov.sg also in CT"
+ },
+ {
+  "host": "scamsexposed-cf.app.optical.gov.sg",
+  "registrable_domain": "optical.gov.sg",
+  "discovered_via": "link",
+  "scam_relevant": "no",
+  "owner_entity_id": "icanactagainstscams.gov.sg",
+  "notes": "CNAME target of www.icanactagainstscams.gov.sg (DNS); hosting alias revealing internal project codename 'scamsexposed'; not a separate site, no GET"
+ },
+ {
+  "host": "scamsexposed-cf.staging.optical.gov.sg",
+  "registrable_domain": "optical.gov.sg",
+  "discovered_via": "link",
+  "scam_relevant": "no",
+  "owner_entity_id": "icanactagainstscams.gov.sg",
+  "notes": "CNAME target of stg.icanactagainstscams.gov.sg (DNS); hosting alias revealing internal project codename 'scamsexposed'; not a separate site, no GET"
+ },
+ {
+  "host": "p-gvt-gasp-scamsexposed.on.tc2.airbase.tech.gov.sg",
+  "registrable_domain": "tech.gov.sg",
+  "discovered_via": "link",
+  "scam_relevant": "no",
+  "owner_entity_id": "icanactagainstscams.gov.sg",
+  "notes": "CNAME target of www.beta.icanactagainstscams.gov.sg (DNS); hosting alias revealing internal project codename 'scamsexposed'; not a separate site, no GET"
+ },
+ {
+  "host": "s-gvt-gasp-scamsexposed.on.tc2.airbase.tech.gov.sg",
+  "registrable_domain": "tech.gov.sg",
+  "discovered_via": "link",
+  "scam_relevant": "no",
+  "owner_entity_id": "icanactagainstscams.gov.sg",
+  "notes": "CNAME target of www.stg.icanactagainstscams.gov.sg (DNS); hosting alias revealing internal project codename 'scamsexposed'; not a separate site, no GET"
+ },
+ {
+  "host": "www.activehealth.sg",
+  "registrable_domain": "activehealth.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "activehealth.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: ActiveHealth; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.artweek.sg",
+  "registrable_domain": "artweek.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "artweek.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: Artweek.sg; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.aseanip.org",
+  "registrable_domain": "aseanip.org",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "aseanip.org",
+  "notes": "gov.sg Trusted Sites list (Table 1: ASEAN IP Portal; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "dsta.x0pa.ai",
+  "registrable_domain": "x0pa.ai",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "dsta.gov.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: DSTA Talent Outreach & Acquisition Application; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source; vendor/third-party-hosted, owner inferred from list entry name"
+ },
+ {
+  "host": "www.familiesforlife.sg",
+  "registrable_domain": "familiesforlife.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "familiesforlife.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: Families for Life; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.forwardsingapore.gov.sg",
+  "registrable_domain": "forwardsingapore.gov.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "forwardsingapore.gov.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: Forward Singapore; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "fulcrum.sg",
+  "registrable_domain": "fulcrum.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "fulcrum.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: Fulcrum.sg; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.healthhub.sg",
+  "registrable_domain": "healthhub.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "healthhub.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: HealthHub; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.elitigation.sg",
+  "registrable_domain": "elitigation.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "elitigation.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: Integrated Electronic Litigation system; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.bilingualism.sg",
+  "registrable_domain": "bilingualism.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "bilingualism.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: Lee Kuan Yew Fund for Bilingualism; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.activesgcircle.gov.sg",
+  "registrable_domain": "activesgcircle.gov.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "activesgcircle.gov.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: MyActiveSG; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.nlb.gov.sg",
+  "registrable_domain": "nlb.gov.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "nlb.gov.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: National Library Online; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.ns.gov.sg",
+  "registrable_domain": "ns.gov.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "ns.gov.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: NS Portal; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.parking.sg",
+  "registrable_domain": "parking.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "parking.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: Parking.sg; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.sentosa.com.sg",
+  "registrable_domain": "sentosa.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "sentosa.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: Sentosa; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.digitalgateway.sg",
+  "registrable_domain": "digitalgateway.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "digitalgateway.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: Singapore Digital Gateway; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.singaporeopportunityindex.sg",
+  "registrable_domain": "singaporeopportunityindex.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "singaporeopportunityindex.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: Singapore Opportunity Index; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.sportsync.gov.sg",
+  "registrable_domain": "sportsync.gov.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "sportsync.gov.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: SportSync; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.sysnmh.org.sg",
+  "registrable_domain": "sysnmh.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "sysnmh.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: Sun Yat Sen Nanyang Memorial Hall; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "sleb.sg",
+  "registrable_domain": "sleb.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "sleb.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: Super Low Energy Building (SLEB); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.teamsingapore.sg",
+  "registrable_domain": "teamsingapore.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "teamsingapore.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: Team Singapore; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "tradetrust.io",
+  "registrable_domain": "tradetrust.io",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "tradetrust.io",
+  "notes": "gov.sg Trusted Sites list (Table 1: TradeTrust; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.tal.sg",
+  "registrable_domain": "tal.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "tal.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: Tripartite Alliance Limited; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.visitsingapore.com",
+  "registrable_domain": "visitsingapore.com",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "visitsingapore.com",
+  "notes": "gov.sg Trusted Sites list (Table 1: VisitSingapore; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.ktph.com.sg",
+  "registrable_domain": "ktph.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "ktph.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: Admiralty Medical Centre - Khoo Teck Puat Hospital; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.aic.sg",
+  "registrable_domain": "aic.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "aic.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: Agency for Integrated Care (AIC); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.ah.com.sg",
+  "registrable_domain": "ah.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "ah.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: Alexandra Hospital; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.imh.com.sg",
+  "registrable_domain": "imh.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "imh.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: Institute of Mental Health (IMH); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.jch.com.sg",
+  "registrable_domain": "jch.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "jch.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: Jurong Community Hospital; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.kkh.com.sg",
+  "registrable_domain": "kkh.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "kkh.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: KK Women's and Children's Hospital; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.mohh.com.sg",
+  "registrable_domain": "mohh.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "mohh.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: MOH Holdings (MOHH); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.moht.com.sg",
+  "registrable_domain": "moht.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "moht.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: MOH Office for Healthcare Transformation; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.nccs.com.sg",
+  "registrable_domain": "nccs.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "nccs.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: National Cancer Centre Singapore; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.ndcs.com.sg",
+  "registrable_domain": "ndcs.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "ndcs.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: National Dental Centre Singapore (NDCS); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "corp.nhg.com.sg",
+  "registrable_domain": "nhg.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "nhg.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: National Healthcare Group (NHG); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.nhgp.com.sg",
+  "registrable_domain": "nhgp.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "nhgp.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: National Healthcare Group Polyclinics (NHGP); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.nhcs.com.sg",
+  "registrable_domain": "nhcs.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "nhcs.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: National Heart Centre Singapore; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.nni.com.sg",
+  "registrable_domain": "nni.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "nni.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: National Neuroscience Institute (NNI); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.nsc.com.sg",
+  "registrable_domain": "nsc.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "nsc.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: National Skin Centre; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.ncis.com.sg",
+  "registrable_domain": "ncis.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "ncis.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: National University Cancer Institute, Singapore; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.nucohs.com.sg",
+  "registrable_domain": "nucohs.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "nucohs.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: National University Centre for Oral Health, Singapore (NUCOHS); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.nuhs.edu.sg",
+  "registrable_domain": "nuhs.edu.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "nuhs.edu.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: National University Health System (NUHS); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.nuhcs.com.sg",
+  "registrable_domain": "nuhcs.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "nuhcs.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: National University Heart Centre, Singapore; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.nuh.com.sg",
+  "registrable_domain": "nuh.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "nuh.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: National University Hospital (NUH); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.nup.com.sg",
+  "registrable_domain": "nup.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "nup.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: National University Polyclinics; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.ntfgh.com.sg",
+  "registrable_domain": "ntfgh.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "ntfgh.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: Ng Teng Fong General Hospital (NTFGH); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.skh.com.sg",
+  "registrable_domain": "skh.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "skh.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: Sengkang General Hospital; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.sgh.com.sg",
+  "registrable_domain": "sgh.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "sgh.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: Singapore General Hospital; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.snec.com.sg",
+  "registrable_domain": "snec.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "snec.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: Singapore National Eye Centre (SNEC); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.singhealth.com.sg",
+  "registrable_domain": "singhealth.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "singhealth.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: SingHealth; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.ttsh.com.sg",
+  "registrable_domain": "ttsh.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "ttsh.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: Tan Tock Seng Hospital (TTSH); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.yishuncommunityhospital.com.sg",
+  "registrable_domain": "yishuncommunityhospital.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "yishuncommunityhospital.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: Yishun Community Hospital; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.ahtc.sg",
+  "registrable_domain": "ahtc.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "ahtc.sg",
+  "notes": "gov.sg Trusted Sites list (Table 3: Aljunied-Hougang Town Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.amktc.org.sg",
+  "registrable_domain": "amktc.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "amktc.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 3: Ang Mo Kio Town Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.btptc.org.sg",
+  "registrable_domain": "btptc.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "btptc.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 3: Bishan-Toa Payoh Town Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.ccktc.org.sg",
+  "registrable_domain": "ccktc.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "ccktc.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 3: Chua Chu Kang Town Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "ectc.org.sg",
+  "registrable_domain": "ectc.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "ectc.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 3: East Coast Town Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.hbptc.org.sg",
+  "registrable_domain": "hbptc.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "hbptc.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 3: Holland-Bukit Panjang Town Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.jbtc.org.sg",
+  "registrable_domain": "jbtc.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "jbtc.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 3: Jalan Besar Town Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.jktc.org.sg",
+  "registrable_domain": "jktc.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "jktc.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 3: Jalan Kayu Town Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.jrbbtc.org.sg",
+  "registrable_domain": "jrbbtc.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "jrbbtc.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 3: Jurong-Clementi-Bukit Batok Town Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.mbtc.org.sg",
+  "registrable_domain": "mbtc.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "mbtc.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 3: Marine Parade-Braddell Heights Town Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.myttc.org.sg",
+  "registrable_domain": "myttc.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "myttc.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 3: Marsiling-Yew Tee Town Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.nstc.org.sg",
+  "registrable_domain": "nstc.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "nstc.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 3: Nee Soon Town Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "pasirrischangi-tc.org.sg",
+  "registrable_domain": "pasirrischangi-tc.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "pasirrischangi-tc.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 3: Pasir Ris-Changi Town Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "punggol-tc.org.sg",
+  "registrable_domain": "punggol-tc.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "punggol-tc.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 3: Punggol Town Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.sbtc.org.sg",
+  "registrable_domain": "sbtc.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "sbtc.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 3: Sembawang Town Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.sktc.sg",
+  "registrable_domain": "sktc.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "sktc.sg",
+  "notes": "gov.sg Trusted Sites list (Table 3: Sengkang Town Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.tampines.org.sg",
+  "registrable_domain": "tampines.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "tampines.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 3: Tampines Town Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.tptc.org.sg",
+  "registrable_domain": "tptc.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "tptc.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 3: Tanjong Pagar Town Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "wctc.org.sg",
+  "registrable_domain": "wctc.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "wctc.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 3: West Coast-Jurong West Town Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "aseangeospatial.org",
+  "registrable_domain": "aseangeospatial.org",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "aseangeospatial.org",
+  "notes": "gov.sg Trusted Sites list (Table 4: ASEAN GeoSpatial; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "asmc.asean.org",
+  "registrable_domain": "asean.org",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": null,
+  "notes": "gov.sg Trusted Sites list (Table 4: ASEAN Specialised Meteorological Centre; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source; vendor/third-party-hosted, owner inferred from list entry name"
+ },
+ {
+  "host": "www.aas.com.sg",
+  "registrable_domain": "aas.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "aas.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: Automobile Association of Singapore; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "info.bbdc.sg",
+  "registrable_domain": "bbdc.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "bbdc.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: Bukit Batok Driving Centre Pte Ltd (BBDC); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.caretogobeyond.sg",
+  "registrable_domain": "caretogobeyond.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "caretogobeyond.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: Care To Go Beyond; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "ingeus.com.sg",
+  "registrable_domain": "ingeus.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "ingeus.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: Career Matching Provider; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.chas.sg",
+  "registrable_domain": "chas.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "chas.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: Community Health Assist Scheme (CHAS); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.cosem.org.sg",
+  "registrable_domain": "cosem.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "cosem.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: COSEM Safety & Security Services Pte Ltd; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.giving.sg",
+  "registrable_domain": "giving.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "giving.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: Giving SG; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.globalfinancialgovernance.org",
+  "registrable_domain": "globalfinancialgovernance.org",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "globalfinancialgovernance.org",
+  "notes": "gov.sg Trusted Sites list (Table 4: Global Financial Governance; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.healthcarescholarships.sg",
+  "registrable_domain": "healthcarescholarships.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "healthcarescholarships.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: Healthcare Scholarship; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.ipi-singapore.org",
+  "registrable_domain": "ipi-singapore.org",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "ipi-singapore.org",
+  "notes": "gov.sg Trusted Sites list (Table 4: Innovation Partner for Impact (IPI); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.mlc.sg",
+  "registrable_domain": "mlc.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "mlc.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: Media Literacy Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source; Media Literacy Council publishes online-falsehood/scam literacy material"
+ },
+ {
+  "host": "www.ncpg.org.sg",
+  "registrable_domain": "ncpg.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "ncpg.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: National Council on Problem Gambling; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.nfec.org.sg",
+  "registrable_domain": "nfec.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "nfec.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: National Fire and Civil Emergency Preparedness Council (NFEC); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.npcc.org.sg",
+  "registrable_domain": "npcc.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "npcc.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: National Police Cadet Corp (NPCC); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.ncada.org.sg",
+  "registrable_domain": "ncada.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "ncada.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: National Council Against Drug Abuse (NCADA); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.publichygienecouncil.sg",
+  "registrable_domain": "publichygienecouncil.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "publichygienecouncil.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: Public Hygiene Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "rpace.floralms.com",
+  "registrable_domain": "floralms.com",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "rp.edu.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: RP Online Courses; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source; vendor/third-party-hosted, owner inferred from list entry name"
+ },
+ {
+  "host": "www.sentosacove.com",
+  "registrable_domain": "sentosacove.com",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "sentosacove.com",
+  "notes": "gov.sg Trusted Sites list (Table 4: Sentosa Cove; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.sgenable.sg",
+  "registrable_domain": "sgenable.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "sgenable.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: SG Enable; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "sce.org.sg",
+  "registrable_domain": "sce.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "sce.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: Singapore Cooperation Enterprise (SCE); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.sfemc.org",
+  "registrable_domain": "sfemc.org",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "sfemc.org",
+  "notes": "gov.sg Trusted Sites list (Table 4: Singapore Foreign Exchange Market Committee; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "srsc.org.sg",
+  "registrable_domain": "srsc.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "srsc.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: Singapore Road Safety Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "ssdcl.com.sg",
+  "registrable_domain": "ssdcl.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "ssdcl.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: Singapore Safety Driving Centre (SSDC); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.sgwomenintech.sg",
+  "registrable_domain": "sgwomenintech.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "sgwomenintech.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: Singapore Women in Tech; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.searado.com",
+  "registrable_domain": "searado.com",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "searado.com",
+  "notes": "gov.sg Trusted Sites list (Table 4: Southeast Asia Regional Anti-Doping Organisation (SEARADO); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.sntc.org.sg",
+  "registrable_domain": "sntc.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "sntc.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: Special Needs Trust Company; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.synapxe.sg",
+  "registrable_domain": "synapxe.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "synapxe.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: Synapxe; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "taxacademy.sg",
+  "registrable_domain": "taxacademy.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "taxacademy.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: Tax Academy of Singapore; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "trustplatform.sg",
+  "registrable_domain": "trustplatform.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "trustplatform.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: TRUST (Trusted Real-World Utilisation and Sharing Tech); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.yri.com.sg",
+  "registrable_domain": "yri.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "yri.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: Yellow Ribbon Industries; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.asiatechxsg.com",
+  "registrable_domain": "asiatechxsg.com",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "asiatechxsg.com",
+  "notes": "gov.sg Trusted Sites list (Table 5: Asia Tech x Singapore; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.ibew.sg",
+  "registrable_domain": "ibew.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "ibew.sg",
+  "notes": "gov.sg Trusted Sites list (Table 5: International Built Environment Week (IBEW); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.siww.com.sg",
+  "registrable_domain": "siww.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "siww.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 5: Singapore International Water Week (SIWW); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.smw.sg",
+  "registrable_domain": "smw.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "smw.sg",
+  "notes": "gov.sg Trusted Sites list (Table 5: Singapore Maritime Week; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "switchsg.org",
+  "registrable_domain": "switchsg.org",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "switchsg.org",
+  "notes": "gov.sg Trusted Sites list (Table 5: Singapore Week of Innovation & Technology (SWITCH); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.singaporewritersfestival.com",
+  "registrable_domain": "singaporewritersfestival.com",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "singaporewritersfestival.com",
+  "notes": "gov.sg Trusted Sites list (Table 5: Singapore Writers Festival; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "www.worldcitiessummit.com.sg",
+  "registrable_domain": "worldcitiessummit.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "worldcitiessummit.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 5: World Cities Summit; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "go.gov.sg",
+  "registrable_domain": "go.gov.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "go.gov.sg",
+  "notes": "gov.sg Trusted Sites list (official short-link bullet) - ALLOWLIST: official Government short-link domain used in scam-verification advice"
+ },
+ {
+  "host": "for.sg",
+  "registrable_domain": "for.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "for.sg",
+  "notes": "gov.sg Trusted Sites list (short-link bullets: For.sg short link for healthcare institution websites; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "for.edu.sg",
+  "registrable_domain": "for.edu.sg",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "for.edu.sg",
+  "notes": "gov.sg Trusted Sites list (short-link bullets: For.edu.sg short link for education institution websites; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source"
+ },
+ {
+  "host": "iali-aiit.org",
+  "registrable_domain": "iali-aiit.org",
+  "discovered_via": "trusted_sites_list",
+  "scam_relevant": "no",
+  "owner_entity_id": "iali-aiit.org",
+  "notes": "only in GitHub mirror elliotwutingfeng/GovSGTrustedSites allowlist.txt, NOT on current official page (stale?) - ALLOWLIST"
+ }
+]

@@ -1,0 +1,428 @@
+{
+ "moburst": {
+  "resolution": "real_entity",
+  "entity_id": "moburst.com",
+  "official_domains": [
+   "moburst.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "high",
+  "evidence": [
+   "https://moburst.com/"
+  ],
+  "notes": "Moburst = real mobile/digital marketing agency (US/IL). Job-task scam site lt-moburstmobile.pages.dev uses its name. Same entity_id for any \"Moburst\" casing variant."
+ },
+ "Koka Kona": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [],
+  "notes": "No company or product called \"Koka Kona\" found (web search 2026-11-26); fake investment app akk500.com. Name may be a play on Coca-Cola, but SPF treats it as the scam brand itself."
+ },
+ "Red Bull": {
+  "resolution": "real_entity",
+  "entity_id": "redbull.com",
+  "official_domains": [
+   "redbull.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "high",
+  "evidence": [],
+  "notes": "Name/logo misused on fake investment site angel-investment.cc. www.redbull.com blocks curl (403 Akamai); official domain from established knowledge."
+ },
+ "SimplyGo": {
+  "resolution": "real_entity",
+  "entity_id": "simplygo.com.sg",
+  "official_domains": [
+   "simplygo.com.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "transport",
+  "confidence": "high",
+  "evidence": [
+   "https://www.simplygo.com.sg/"
+  ],
+  "notes": "SimplyGo (public-transport fare system, LTA/TransitLink). Phishing page on compromised .be site."
+ },
+ "SingHealth": {
+  "resolution": "real_entity",
+  "entity_id": "singhealth.com.sg",
+  "official_domains": [
+   "singhealth.com.sg",
+   "polyclinic.singhealth.com.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "healthcare",
+  "confidence": "high",
+  "evidence": [
+   "https://www.singhealth.com.sg/"
+  ],
+  "notes": "Singapore Health Services cluster; scam polyclinic-a.top imitates SingHealth Polyclinics (polyclinic.singhealth.com.sg host from established knowledge)."
+ },
+ "Dance Prize": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [],
+  "notes": "Fake \"Dance Prize\" voting/competition used for credential phishing (votegrand.sbs); SPF says it is used to impersonate legitimate organisations generally, no specific real entity."
+ },
+ "Genwrk Store": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [],
+  "notes": "Fake job-task \"store\" (genwrk.com); no real company of that name found (web search 2026-11-26)."
+ },
+ "uParcel": {
+  "resolution": "real_entity",
+  "entity_id": "uparcel.sg",
+  "official_domains": [
+   "uparcel.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "logistics",
+  "confidence": "high",
+  "evidence": [
+   "https://www.uparcel.sg/"
+  ],
+  "notes": "SG same-day courier/3PL. Parcel phishing on llvtx.cfd."
+ },
+ "SG Arrival Card (SGAC)": {
+  "resolution": "real_entity",
+  "entity_id": "ica.gov.sg#sg-arrival-card",
+  "official_domains": [
+   "ica.gov.sg",
+   "eservices.ica.gov.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "gov.programme",
+  "confidence": "high",
+  "evidence": [
+   "https://eservices.ica.gov.sg/sgarrivalcard/"
+  ],
+  "notes": "ICA SG Arrival Card (free e-service at eservices.ica.gov.sg/sgarrivalcard -> /arrivalcard). Fee-charging lookalike digitalarrivalform.com."
+ },
+ "UOB Kay Hian": {
+  "resolution": "real_entity",
+  "entity_id": "uobkh.com",
+  "official_domains": [
+   "uobkh.com",
+   "uobkh.com.sg",
+   "uobkayhian.com",
+   "utrade.com.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "brokerage",
+  "confidence": "high",
+  "evidence": [
+   "https://www.uobkayhian.com/",
+   "https://www.utrade.com.sg/"
+  ],
+  "notes": "SG stockbroker. uobkayhian.com -> uobkh.com and utrade.com.sg -> uobkh.com.sg (redirects observed 2026-11-26). Lookalike uobkhs.com."
+ },
+ "Youlemei Mall": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [],
+  "notes": "Fake e-commerce \"mall\" for task/boosting job scams (youlemeimall.vip); no real company found (web search 2026-11-26)."
+ },
+ "SP Group": {
+  "resolution": "real_entity",
+  "entity_id": "spgroup.com.sg",
+  "official_domains": [
+   "spgroup.com.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "utility",
+  "confidence": "high",
+  "evidence": [
+   "https://www.spgroup.com.sg/"
+  ],
+  "notes": "SG power/utilities provider; billing phishing via samgirasg.com."
+ },
+ "PETROBRAS": {
+  "resolution": "real_entity",
+  "entity_id": "petrobras.com.br",
+  "official_domains": [
+   "petrobras.com.br"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "high",
+  "evidence": [
+   "https://petrobras.com.br/"
+  ],
+  "notes": "Brazilian state oil company; name misused for fake oil investment app (peshiyou.top)."
+ },
+ "ADGM MONEY": {
+  "resolution": "real_entity",
+  "entity_id": "adgm.com",
+  "official_domains": [
+   "adgm.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "medium",
+  "evidence": [
+   "https://www.adgm.com/"
+  ],
+  "notes": "Fake investment platform name built on ADGM (Abu Dhabi Global Market, a real financial centre/regulator). No genuine ADGM product called \"ADGM MONEY\"; SPF says scammers use \"names similar to ADGM MONEY\" to impersonate financial entities. Real-entity clone; human may prefer fictitious_scam_brand."
+ },
+ "Central Provident Fund (CPF) Board": {
+  "resolution": "real_entity",
+  "entity_id": "cpf.gov.sg",
+  "official_domains": [
+   "cpf.gov.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "gov.statboard",
+  "confidence": "high",
+  "evidence": [
+   "https://www.cpf.gov.sg/"
+  ],
+  "notes": "CPF account phishing (managelist.com)."
+ },
+ "Best Hotel Reservation": {
+  "resolution": "generic_or_placeholder",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "low",
+  "evidence": [],
+  "notes": "Tag not mentioned in advisory body; SPF text speaks generically of \"hotel reservation services\" phishing (gardes-holdenjp.com). Probably the fake page's display name; does not identify a real organisation."
+ },
+ "GitHub": {
+  "resolution": "real_entity",
+  "entity_id": "github.com",
+  "official_domains": [
+   "github.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "tech_platform",
+  "confidence": "high",
+  "evidence": [
+   "https://github.com/"
+  ],
+  "notes": "GitHub name misused on fake investment site goudann.top."
+ },
+ "QNT": {
+  "resolution": "real_entity",
+  "entity_id": "quant.network",
+  "official_domains": [
+   "quant.network"
+  ],
+  "is_singapore_entity": false,
+  "sector": "crypto",
+  "confidence": "medium",
+  "evidence": [],
+  "notes": "QNT = token of Quant Network (UK). Fake \"QNT AI\" investment site qntai.top. quant.network returned a Cloudflare challenge to curl; domain from established knowledge."
+ },
+ "Miniex": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [
+   "https://mini7841.zendesk.com/hc/en-us/articles/35526373278737-MiniEx-micro-exchange-development-history"
+  ],
+  "notes": "\"MiniEx\" self-describes (only on a zendesk help-centre) as a Chicago-founded licensed exchange with no independent confirmation; SPF names it as the scam brand with miniexi.com. Treated as the fraudulent platform itself."
+ },
+ "GOM Player": {
+  "resolution": "real_entity",
+  "entity_id": "gomlab.com",
+  "official_domains": [
+   "gomlab.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "medium",
+  "evidence": [
+   "https://www.gomlab.com/"
+  ],
+  "notes": "GOM Player = media player by GOM & Company (KR). SPF: investment scam sites \"misuse the names of well-known, unrelated brands\". Same media-player-name pattern as MPC-HC and Televizo tags."
+ },
+ "Litecoin": {
+  "resolution": "real_entity",
+  "entity_id": "litecoin.org",
+  "official_domains": [
+   "litecoin.org"
+  ],
+  "is_singapore_entity": false,
+  "sector": "crypto",
+  "confidence": "high",
+  "evidence": [
+   "https://litecoin.org/"
+  ],
+  "notes": "Fake LTC mining-machine platform (litecoin-machine.co)."
+ },
+ "Immediate Edge": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "high",
+  "evidence": [],
+  "notes": "Well-known fake auto-trading \"robot\" brand (part of the Immediate Edge/Connect/etc. family promoted via fake celebrity ads); SPF calls it a \"legitimate-sounding platform\". Not a real firm."
+ },
+ "BHP": {
+  "resolution": "real_entity",
+  "entity_id": "bhp.com",
+  "official_domains": [
+   "bhp.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "high",
+  "evidence": [],
+  "notes": "Australian mining major; name misused for fake gold investment (2025gold.net). bhp.com blocks curl (403); domain from established knowledge."
+ },
+ "lyft bikes": {
+  "resolution": "real_entity",
+  "entity_id": "lyft.com",
+  "official_domains": [
+   "lyft.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "transport",
+  "confidence": "high",
+  "evidence": [
+   "https://www.lyft.com/bikes"
+  ],
+  "notes": "Lyft bikeshare (lyft.com/bikes). Fake \"invest in shared bikes\" platform lyft098236.work."
+ },
+ "The Straits Times": {
+  "resolution": "real_entity",
+  "entity_id": "straitstimes.com",
+  "official_domains": [
+   "straitstimes.com"
+  ],
+  "is_singapore_entity": true,
+  "sector": "media",
+  "confidence": "high",
+  "evidence": [
+   "https://www.straitstimes.com/"
+  ],
+  "notes": "SPH Media newspaper; fake ST-branded articles/ads push investment scams (strikeathletics.pro)."
+ },
+ "Public Transport Voucher (PTVE)": {
+  "resolution": "real_entity",
+  "entity_id": "mot.gov.sg#public-transport-vouchers",
+  "official_domains": [
+   "mot.gov.sg",
+   "go.gov.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "gov.programme",
+  "confidence": "high",
+  "evidence": [
+   "https://www.mot.gov.sg/what-we-do/public-transport/public-transport-vouchers"
+  ],
+  "notes": "MOT Public Transport Voucher Exercise; genuine application link is go.gov.sg/ptv (per MOT news release found via search). Fake claim site gtva.link."
+ },
+ "National Environment Agency (NEA)": {
+  "resolution": "real_entity",
+  "entity_id": "nea.gov.sg",
+  "official_domains": [
+   "nea.gov.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "gov.statboard",
+  "confidence": "high",
+  "evidence": [
+   "https://www.nea.gov.sg/"
+  ],
+  "notes": "Government-agency impersonation (nodequa.net)."
+ },
+ "Grab": {
+  "resolution": "real_entity",
+  "entity_id": "grab.com",
+  "official_domains": [
+   "grab.com"
+  ],
+  "is_singapore_entity": true,
+  "sector": "transport",
+  "confidence": "high",
+  "evidence": [
+   "https://www.grab.com/sg/"
+  ],
+  "notes": "SG-HQ super-app (ride-hailing/food/payments). Phishing grabk.vip."
+ },
+ "Home Team Science & Technology Agency (HTX)": {
+  "resolution": "real_entity",
+  "entity_id": "htx.gov.sg",
+  "official_domains": [
+   "htx.gov.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "gov.statboard",
+  "confidence": "high",
+  "evidence": [
+   "https://www.htx.gov.sg/"
+  ],
+  "notes": "HTX statutory board under MHA; phishing qer012.online."
+ },
+ "Apple": {
+  "resolution": "real_entity",
+  "entity_id": "apple.com",
+  "official_domains": [
+   "apple.com",
+   "icloud.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "tech_platform",
+  "confidence": "high",
+  "evidence": [
+   "https://www.apple.com/"
+  ],
+  "notes": "iCloud/Apple ID phishing (icloud.qpon)."
+ },
+ "DBS PayLah": {
+  "resolution": "real_entity",
+  "entity_id": "dbs.com.sg",
+  "official_domains": [
+   "dbs.com.sg",
+   "dbs.com",
+   "posb.com.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "bank",
+  "confidence": "high",
+  "evidence": [
+   "https://www.dbs.com.sg/"
+  ],
+  "notes": "PayLah! = DBS/POSB mobile wallet; same entity_id as \"DBS\". Scam posb.live."
+ },
+ "XCN": {
+  "resolution": "real_entity",
+  "entity_id": "onyx.org",
+  "official_domains": [
+   "onyx.org"
+  ],
+  "is_singapore_entity": false,
+  "sector": "crypto",
+  "confidence": "low",
+  "evidence": [
+   "https://onyx.org/"
+  ],
+  "notes": "XCN = Onyxcoin token of Onyx Protocol (onyx.org). SPF body only names the site xcnc.top, so the tag most likely refers to this token name being misused; low confidence."
+ }
+}

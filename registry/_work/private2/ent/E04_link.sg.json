@@ -1,0 +1,54 @@
+{
+ "entity_id": "link.sg",
+ "name": "NTUC Link (Link Rewards / Linkpoints)",
+ "abbr": null,
+ "aliases": [
+  "Link Rewards",
+  "Linkpoints",
+  "NTUC Link",
+  "NTUC Link Pte Ltd",
+  "Plus! Linkpoints"
+ ],
+ "sector": "retail",
+ "parent_entity_id": "ntucenterprise.sg",
+ "country": "SG",
+ "official_domains": [
+  "link.sg"
+ ],
+ "official_hosts": [
+  "www.link.sg",
+  "support.link.sg",
+  "pass.link.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://support.link.sg/hc/en-us/articles/21169453378969-With-the-recent-scams-how-can-members-be-sure-if-the-communications-received-are-real",
+   "kind": "official_channels",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 403 (bot protection; not bypassed)",
+   "sample": null,
+   "notes": "Found via web search. Cloudflare challenge to curl; one WebFetch attempt also 403. Unverified (search snippet): says Link Rewards communicates with members via FairPrice Group app push notifications, emails and SMSes based on notification preferences. Specific sender IDs/emails not seen."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": [
+   "https://www.facebook.com/LinkRewardsSG",
+   "https://www.instagram.com/linkrewardssg",
+   "https://www.linkedin.com/company/ntuc-link-pte-ltd"
+  ],
+  "apps": [],
+  "emails": []
+ },
+ "evidence": [
+  "https://www.link.sg/",
+  "https://www.fairprice.com.sg/"
+ ],
+ "notes": "Link Rewards programme site www.link.sg (b, 2026-11-26 HTTP 200, Next.js). Separate record because it has its own domain and a scam-related help article. blocked: support.link.sg (Zendesk) Cloudflare challenge. pass.link.sg seen as login host in FairPrice homepage HTML. Parent ntucenterprise.sg (see fairprice.com.sg notes); 'NTUC Link Pte Ltd' from LinkedIn link on link.sg footer."
+}

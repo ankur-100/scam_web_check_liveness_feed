@@ -1,0 +1,47 @@
+{
+ "entity_id": "smrt.com.sg",
+ "name": "SMRT Corporation Ltd",
+ "abbr": "SMRT",
+ "aliases": [
+  "SMRT",
+  "SMRT Corporation",
+  "SMRT Trains",
+  "SMRT Buses",
+  "SMRT Taxis",
+  "SMRTConnect",
+  "Wink+"
+ ],
+ "sector": "transport",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "smrt.com.sg"
+ ],
+ "official_hosts": [
+  "www.smrt.com.sg"
+ ],
+ "scam_info": [],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": [
+   "https://www.facebook.com/SMRTCorpSG",
+   "https://www.instagram.com/SMRTSingapore",
+   "https://www.linkedin.com/company/smrt",
+   "https://www.youtube.com/user/SMRTCorpSG",
+   "https://x.com/SMRT_Singapore"
+  ],
+  "apps": [
+   "SMRTConnect (Apple App Store id481605674; Google Play sg.com.smrt.smrtconnect)",
+   "Wink+ (Apple App Store id1071049933; Google Play smrt.media.wink)"
+  ],
+  "emails": []
+ },
+ "evidence": [
+  "https://www.smrt.com.sg/",
+  "https://www.smrt.com.sg/robots.txt",
+  "https://www.smrt.com.sg/sitemap.xml"
+ ],
+ "notes": "No SMRT scam/fraud advisory page: sitemap.xml (116 URLs) only has /sustainability/governance/cybersecurity-data-protection/ (corporate governance, not consumer scams); homepage has no scam notice; web search found no SMRT-specific advisory. official_domains (b): smrt.com.sg serves site. Allowlist value only."
+}

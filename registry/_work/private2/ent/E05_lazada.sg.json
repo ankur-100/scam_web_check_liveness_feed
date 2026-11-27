@@ -1,0 +1,60 @@
+{
+ "entity_id": "lazada.sg",
+ "name": "Lazada Singapore",
+ "abbr": null,
+ "aliases": [
+  "Lazada",
+  "Lazada Singapore",
+  "LazMall",
+  "RedMart"
+ ],
+ "sector": "ecommerce",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "lazada.sg"
+ ],
+ "official_hosts": [
+  "www.lazada.sg",
+  "pages.lazada.sg",
+  "helpcenter.lazada.sg",
+  "helpcenter-redmart.lazada.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://helpcenter.lazada.sg/s/faq",
+   "kind": "scam_faq",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 200 (JS-only shell; content not visible)",
+   "sample": null,
+   "notes": "Lazada SG Help Center is a JS-rendered SPA (curl returns only 'Help Center'); no scam-specific help articles found via web search; undocumented help-centre APIs not called. Recorded for completeness."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": [
+   "https://www.facebook.com/LazadaSingapore",
+   "https://www.instagram.com/lazada_sg",
+   "https://x.com/lazadasg",
+   "https://www.tiktok.com/@lazada_sg",
+   "https://www.youtube.com/@LazadaSingapore",
+   "https://www.linkedin.com/company/lazada"
+  ],
+  "apps": [
+   "Lazada (iOS App Store id785385147; Google Play com.lazada.android; Huawei AppGallery C100164557)"
+  ],
+  "emails": []
+ },
+ "evidence": [
+  "https://www.lazada.sg/",
+  "https://www.lazada.sg/robots.txt",
+  "https://helpcenter.lazada.sg/s/faq"
+ ],
+ "notes": "official_domains: lazada.sg (b) serving domain; help-centre hosts linked from homepage. No Lazada-published SG scam page found. Scam coverage is via SPF advisories (2019-05-14 fake Lazada Instagram campaign; 2019-11-08 lucky draws; 2021-12-28 e-commerce impersonation phishing; 2022-05-11 spoofed-SMS job scams; 2023-08-02 fake campaigns) - SPF-side. Unverified (search snippet, scamalert.sg story): fake reset emails from look-alike sender noreply@support.lazada.sg."
+}

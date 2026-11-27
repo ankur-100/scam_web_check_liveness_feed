@@ -1,0 +1,154 @@
+{
+ "entity_id": "singtel.com",
+ "name": "Singapore Telecommunications Limited (Singtel)",
+ "abbr": "Singtel",
+ "aliases": [
+  "Singtel",
+  "SingTel",
+  "Singapore Telecommunications",
+  "Singtel Group",
+  "My Singtel app",
+  "SingNet",
+  "GOMO",
+  "GOMO by Singtel",
+  "Singtel Scam Call Protect"
+ ],
+ "sector": "telco",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "singtel.com",
+  "singtelcrm.com",
+  "singteltvgo.com",
+  "singtelge.com",
+  "gomo.sg",
+  "singteldigital.com",
+  "dash.com.sg"
+ ],
+ "official_hosts": [
+  "www.singtel.com",
+  "shop.singtel.com",
+  "onepass.singtel.com",
+  "api.singtel.com",
+  "vdp.singtel.com",
+  "groupcareers.singtel.com",
+  "cdn1.singteldigital.com",
+  "cdn2.singteldigital.com",
+  "portal.singtelge.com",
+  "singtelcares.syd1.qualtrics.com",
+  "singtelge.app.bigtincan.com.au",
+  "www.gomo.sg",
+  "apple.com",
+  "applemusic.com",
+  "amazon-prime-opui.openplatform.co",
+  "bookful.app",
+  "e-station2.axs.com.sg",
+  "fairprice.com.sg",
+  "fortumo.eu",
+  "gxs.com.sg",
+  "heya.sg",
+  "home.mcafee.com",
+  "income.com",
+  "jamf.com",
+  "magzter.com",
+  "mcafee.ly",
+  "office.com",
+  "perplexity.ai",
+  "qustodio.com",
+  "singtelemi.bynder.com",
+  "sg.banglaflix.com.bd",
+  "sph.com.sg",
+  "storytel.com",
+  "sunnxt.com",
+  "viu.com",
+  "wanderjoy.com",
+  "www.cast.sg",
+  "www.heya.sg",
+  "www.jcu.edu.sg",
+  "www.mysam.sg",
+  "www.vivifi.me",
+  "www.wandera.com",
+  "www.wogi.sg",
+  "www.wtfast.com",
+  "www.zonealarm.com",
+  "nba-leaguepass-sg.mobi",
+  "help.netflix.com"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.singtel.com/personal/support/scam-advisory",
+   "kind": "advisory_feed",
+   "lists_indicators": [
+    "entity_name"
+   ],
+   "access": "html",
+   "machine_url": "https://www.singtel.com/sitemap-support.xml",
+   "item_count": 23,
+   "latest_item_date": "2026-10-23",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Posted on 23 October 2026 Receiving a email titled Feedback formRec Singtel REF-XXXX-XXXX-XXXX stating you're eligible for a eFill refund, asking for your action to complete a short refund request form.",
+   "notes": "'Latest scams' + 'Other scams to be aware of' accordions: 28 entries, 23 with 'Posted (on) <date>' (2022-09-19..2026-10-23). Content lives in AEM <ux-*> datamodel JSON attributes in the page HTML (parse with html.unescape + json). Mostly narrative + screenshot images (cdn2.singteldigital.com/.../scam-advisory/*.png); names third-party site 'Postclic' (not authorised by Singtel) and lure email subjects (e.g. 'SingNet - Subscription Cancellation'). Also explains '+65' prefix and 'Likely-SCAM' SMS headers. /business/support/scam-advisory redirects here (?dispatcher=302)."
+  },
+  {
+   "url": "https://www.singtel.com/personal/support/scam-advisory#Officialdomains",
+   "kind": "official_channels",
+   "lists_indicators": [
+    "domain",
+    "url",
+    "phone"
+   ],
+   "access": "html",
+   "machine_url": "https://www.singtel.com/sitemap-support.xml",
+   "item_count": 43,
+   "latest_item_date": "2025-09-15",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "All domain links with '.singtel.com' belongs to our official web domain and are legitimate (e.g., empower.singtel.com, info.singtel.com).",
+   "notes": "(official) 'List of official Singtel web domains': 6 'Singtel web domains' (singtel.com*, portal.singtelge.com, singtelcares.syd1.qualtrics.com, singtelcrm.com, singtelge.app.bigtincan.com.au, singteltvgo.com; updated 9 Oct 2023) + 37 partner domains/links (updated 15 Sept 25). Machine-extractable from the ux-heading-text datamodel blob. Also: 'Singtel would only call customers from official hotlines (e.g 1688)'."
+  },
+  {
+   "url": "https://www.singtel.com/personal/support/scam-advisory/report-scam",
+   "kind": "report_portal",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "Report a scam ... Scam type: Website / SMS / Email ... Please include the date received, page links, email addresses or phone numbers that you have spotted.",
+   "notes": "Web form (reCAPTCHA) for reporting Singtel-impersonation websites/SMS/emails; submissions not public."
+  },
+  {
+   "url": "https://www.singtel.com/personal/products-services/lifestyle-services/my-smart-network/scamcallprotect",
+   "kind": "scam_faq",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": "https://www.singtel.com/sitemap-explore.xml",
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "Since implementing Scam Call Protect, more than 30 million scam calls and 20 million scam SMSes have been blocked monthly, across our network (on average per month, based on statistics from December 2022).",
+   "notes": "Network-level scam call/SMS blocking via IMDA-managed blacklist and SMS firewall; also Barring Service (block overseas calls), Mobile Protect, Protect eSIM. Covers Postpaid, Prepaid, GOMO and fixed line."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [
+   "1688 (Singtel customer hotline; 'Singtel would only call customers from official hotlines (e.g 1688)')"
+  ],
+  "short_link_domains": [],
+  "social": [],
+  "apps": [
+   "My Singtel app (Apple App Store id1054859191)",
+   "My Singtel app (Google Play com.singtel.mysingtel)"
+  ],
+  "emails": []
+ },
+ "evidence": [
+  "https://www.singtel.com/personal/support/scam-advisory",
+  "https://www.singtel.com/",
+  "https://www.singtel.com/sitemap-explore.xml",
+  "https://www.singtel.com/personal/support/scam-advisory/report-scam",
+  "https://www.singtel.com/personal/products-services/lifestyle-services/my-smart-network/scamcallprotect"
+ ],
+ "notes": "official_domains: singtel.com, singtelcrm.com, singteltvgo.com, singtelge.com (a: listed under 'Singtel web domains'; portal.singtelge.com is the listed host); gomo.sg (a: in partner list; b: 149 www.gomo.sg URLs in Singtel's own sitemap-explore.xml); dash.com.sg (a: in list; Singtel Dash, operated by Singtel subsidiary SingCash - see child record dash.com.sg); singteldigital.com (b: cdn1/cdn2 asset hosts of the official site). Third-party/partner entries from the list are kept as exact FQDNs in official_hosts (qualtrics, bigtincan, apple.com, office.com, netflix, viu, mcafee, gxs.com.sg [separate GXS Bank record], www.vivifi.me, heya.sg/www.heya.sg [ownership not verified from Singtel pages; www.heya.sg timed out], etc.) - legitimate in Singtel communications but not Singtel-owned; one entry is a full URL https://nba-leaguepass-sg.mobi/en-SG/lp/nba-lp (host recorded). SMS sender ID not stated on pages read. Social links not found in static HTML of pages fetched. Robots allows all except /business/node/; sitemap index https://www.singtel.com/sitemap-index.xml (support/explore/business/shop + shop.singtel.com)."
+}

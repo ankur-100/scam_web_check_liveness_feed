@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /_next/data/
+Disallow: /dam/spgroup/pdf/our-services/utilities/Termination-of-Utilities-Supply-Form-v4.5-12.21.pdf
+Sitemap: https://www.spgroup.com.sg/sitemap.xml

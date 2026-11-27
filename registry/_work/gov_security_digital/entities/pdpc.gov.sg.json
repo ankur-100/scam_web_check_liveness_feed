@@ -1,0 +1,69 @@
+{
+ "entity_id": "pdpc.gov.sg",
+ "name": "Personal Data Protection Commission",
+ "abbr": "PDPC",
+ "aliases": [
+  "Personal Data Protection Commission (PDPC)",
+  "Do Not Call Registry"
+ ],
+ "sector": "gov.dept",
+ "parent_entity_id": "imda.gov.sg",
+ "country": "SG",
+ "official_domains": [
+  "pdpc.gov.sg"
+ ],
+ "official_hosts": [
+  "www.pdpc.gov.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.pdpc.gov.sg/media-events/advisory-on-government-official-impersonation-scams-involving-impersonation-of-personal-data-protection-commission-officers",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2025-02-17",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Advisory on Government Official Impersonation Scams Involving Impersonation of Personal Data Protection Commission (PDPC) Officers | Published on 17 Feb 2025",
+   "notes": "PDPC self-impersonation (GOIS) advisory. The body is client-side rendered, so only title and date were read; the backend was not probed. Earlier: /media-events/advisory-on-impersonation-of-pdpc-officers-two (23 Jan 2025)."
+  },
+  {
+   "url": "https://www.pdpc.gov.sg/media-events/advisory-on-unsolicited-robocalls",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2025-10-14",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Advisory on Unsolicited Robocalls | Published on 14 Oct 2025",
+   "notes": "Title and date only (JS-rendered body)."
+  },
+  {
+   "url": "https://www.pdpc.gov.sg/individuals/resources-tips/protecting-yourself-from-spam-and-scam",
+   "kind": "scam_faq",
+   "lists_indicators": [],
+   "access": "sitemap",
+   "machine_url": "https://www.pdpc.gov.sg/sitemap.xml",
+   "item_count": 69,
+   "latest_item_date": "2026-05-04",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "individuals/resources-tips/protecting-yourself-from-spam-and-scam",
+   "notes": "Published 11 Dec 2025 (body JS-rendered). Consumer spam-vs-scam guidance; /individuals/resources-tips?topic=Spam+vs+Scam lists the topic. The sitemap (829 URLs, lastmod) has 69 keyword URLs, mostly \"advisory guidelines\" (regulatory, not scams). Scam-relevant: the two PDPC-impersonation advisories, the robocall advisory, and the Do Not Call (DNC) registry pages (/about/do-not-call-registry, /media-events/dnc-registry-figures)."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [
+   "gov.sg"
+  ],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": []
+ },
+ "evidence": [
+  "https://www.pdpc.gov.sg/sitemap.xml",
+  "https://www.pdpc.gov.sg/media-events/advisory-on-impersonation-of-pdpc-officers-two"
+ ],
+ "notes": "Part of IMDA. Runs the DNC registry; organisation number checks require login. Impersonated in GOIS (fake PDPC officers, 2025). Advisory bodies are JS-rendered, so only metadata is available without probing backend APIs. No RSS seen."
+}

@@ -1,0 +1,91 @@
+{
+ "host": "www.scdf.gov.sg",
+ "robots": "User-agent: *\r\nDisallow: /staticfile\r\n\r\n\r\n#  Bots to disallow:\r\nUser-agent: Rogerbot\r\nUser-agent: Exabot\r\nUser-agent: Dotbot\r\nUser-agent: Gigabot\r\nUser-agent: BlackWidow\r\nUser-agent: ChinaClaw\r\nUser-agent: Custo\r\nUser-agent: DISCo\r\nUser-agent: Download\\ Demon\r\nUser-agent: eCatch\r\nUser-agent: EirGrabber\r\nUser-agent: EmailSiphon\r\nUser-agent: EmailWolf\r\nUser-agent: Express\\ WebPictures\r\nUser-agent: ExtractorPro\r\nUser-agent: EyeNetIE\r\nUser-agent: FlashGet\r\nUser-agent: GetRight\r\nUser-agent: GetWeb!\r\nUser-agent: Go!Zilla\r\nUser-agent: Go-Ahead-Got-It\r\nUser-agent: GrabNet\r\nUser-agent: Grafula\r\nUser-agent: HMView\r\nUser-agent: HTTrack\r\nUser-agent: Image\\ Stripper\r\nUser-agent: Image\\ Sucker\r\nUser-agent: Indy\\ Library\r\nUser-agent: InterGET\r\nUser-agent: Internet\\ Ninja\r\nUser-agent: JetCar\r\nUser-agent: JOC\\ Web\\ Spider\r\nUser-agent: larbin\r\nUser-agent: LeechFTP\r\nUser-agent: Mass\\ Downloader\r\nUser-agent: MIDown\\ tool\r\nUser-agent: Mister\\ PiX\r\nUser-agent: Navroad\r\nUser-agent: NearSite\r\nUser-agent: NetAnts\r\nUser-agent: NetSpider\r\nUser-agent: Net\\ Vampire\r\nUser-agent: NetZIP\r\nUser-agent: Octopus\r\nUser-agent: Offline\\ Explorer\r\nUser-agent: Offline\\ Navigator\r\nUser-agent: PageGrabber\r\nUser-agent: Papa\\ Foto\r\nUser-agent: pavuk\r\nUser-agent: pcBrowser\r\nUser-agent: RealDownload\r\nUser-agent: ReGet\r\nUser-agent: SiteSnagger\r\nUser-agent: SmartDownload\r\nUser-agent: SuperHTTP\r\nUser-agent: Surfbot\r\nUser-agent: tAkeOut \r\nUser-agent: Teleport\\ Pro\r\nUser-agent: VoidEYE\r\nUser-agent: Web\\ Image\\ Collector\r\nUser-agent: Web\\ Sucker\r\nUser-agent: WebAuto\r\nUser-agent: WebCopier\r\nUser-agent: WebFetch\r\nUser-agent: WebGo\\ IS\r\nUser-agent: WebLeacher\r\nUser-agent: WebReaper\r\nUser-agent: WebSauger\r\nUser-agent: Website\\ eXtractor\r\nUser-agent: Website\\ Quester\r\nUser-agent: WebStripper\r\nUser-agent: WebWhacker\r\nUser-agent: WebZIP\r\nUser-agent: Wget\r\nUser-agent: Widow\r\nUser-agent: WWWOFFLE\r\nUser-agent: Xaldon\\ WebSpider\r\nUser-agent: Zeus\r\nDisallow: /\r\n\r\nSitemap: https://www.scdf.gov.sg/sitemap/sitemap.xml\r\n",
+ "robots_status": 200,
+ "sitemaps_declared": [
+  "https://www.scdf.gov.sg/sitemap/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  "https://www.scdf.gov.sg/sitemap/sitemap.xml[200:1228]"
+ ],
+ "n_urls": 1228,
+ "hits": [
+  [
+   "http://www.scdf.gov.sg/home/community-and-volunteers/fire-emergency-guides/fire-safety-and-emergency-advisories",
+   null
+  ],
+  [
+   "http://www.scdf.gov.sg/home/civil-defence-shelter/emergency-alert-(sg-alert)",
+   null
+  ],
+  [
+   "http://www.scdf.gov.sg/home/about-scdf/media-room/latest-happenings/newsarticledetail/Lunar-Seventh-Month-Fire-Safety-Advisory",
+   null
+  ],
+  [
+   "http://www.scdf.gov.sg/home/about-scdf/media-room/latest-happenings/newsarticledetail/Alert-on-Unauthorised-Business-Activities-2016",
+   null
+  ],
+  [
+   "http://www.scdf.gov.sg/home/about-scdf/media-room/latest-happenings/newsarticledetail/Alert-on-Unauthorised-Business-Activities-and-Impersonation-of-SCDF-Officer-2014",
+   null
+  ],
+  [
+   "http://www.scdf.gov.sg/home/about-scdf/media-room/latest-happenings/newsarticledetail/Alert-of-companies-attempting-to-sell-fire-extinguishers-and-first-aid-kits",
+   null
+  ],
+  [
+   "http://www.scdf.gov.sg/home/about-scdf/media-room/latest-happenings/newsarticledetail/Festive-Season-Fire-Safety-Advisories-2015",
+   null
+  ],
+  [
+   "http://www.scdf.gov.sg/home/about-scdf/media-room/latest-happenings/newsarticledetail/Festive-Season-Fire-Safety-Alert-2013",
+   null
+  ],
+  [
+   "http://www.scdf.gov.sg/home/about-scdf/media-room/latest-happenings/newsarticledetail/Alert-on-Unauthorized-Business-Activities-and-Impersonation-of-SCDF-Officer-2011",
+   null
+  ],
+  [
+   "http://www.scdf.gov.sg/home/about-scdf/media-room/latest-happenings/newsarticledetail/island-wide-public-testing-of-sg-alert-on-10-may-2026-at-12pm",
+   null
+  ],
+  [
+   "http://www.scdf.gov.sg/home/about-scdf/media-room/latest-happenings/newsarticledetail/scdf-usar-framework-for-orns-rescue-and-medical-units-accredited-by-the-international-search-and-rescue-advisory-group-(insarag)",
+   null
+  ],
+  [
+   "http://www.scdf.gov.sg/home/about-scdf/media-room/latest-happenings/newsarticledetail/Alert-on-Unauthorized-Business-Activities-and-Impersonation-of-SCDF-Officer-Dec2011",
+   null
+  ],
+  [
+   "http://www.scdf.gov.sg/home/about-scdf/media-room/latest-happenings/newsarticledetail/Festive-Season---Fire-Safety-Alert",
+   null
+  ],
+  [
+   "http://www.scdf.gov.sg/home/about-scdf/media-room/latest-happenings/newsarticledetail/SCDF's-Fire-Safety-Alert-for-Vegetation-Fires",
+   null
+  ],
+  [
+   "http://www.scdf.gov.sg/home/about-scdf/media-room/latest-happenings/newsarticledetail/Formation-Of-The-Cladding-Regulatory-Regime-Review-Advisory-Panel",
+   null
+  ],
+  [
+   "http://www.scdf.gov.sg/home/about-scdf/media-room/latest-happenings/newsarticledetail/Alert-on-Unauthorized-Business-Activities-2010",
+   null
+  ],
+  [
+   "http://www.scdf.gov.sg/home/about-scdf/media-room/latest-happenings/newsarticledetail/Fire-Safety-Advisory",
+   null
+  ],
+  [
+   "http://www.scdf.gov.sg/home/about-scdf/media-room/latest-happenings/newsarticledetail/Festive-Season-Fire-Safety-Advisories",
+   null
+  ],
+  [
+   "http://www.scdf.gov.sg/home/about-scdf/media-room/latest-happenings/newsarticledetail/Festive-Season-Fire-Safety-Advisory-for-Hari-Raya-2015",
+   null
+  ]
+ ],
+ "newest_lastmod": null
+}

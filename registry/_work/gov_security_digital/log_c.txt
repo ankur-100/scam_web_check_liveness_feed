@@ -1,0 +1,10 @@
+== www.life.gov.sg: robots=200 declared=2 fetched=2 urls=202 hits=0 newest_lastmod=2026-11-25T14:59:24.679+08:00
+   sitemaps: https://www.life.gov.sg/sitemap.xml[200:118], https://www.life.gov.sg/sitemap-cms.xml[200:84]
+== www.tech.gov.sg: robots=200 declared=1 fetched=1 urls=673 hits=40 newest_lastmod=2026-11-26T03:28:38.087Z
+   sitemaps: https://www.tech.gov.sg/sitemap.xml[200:673]
+== www.mddi.gov.sg: robots=200 declared=1 fetched=1 urls=1712 hits=116 newest_lastmod=2026-11-24T03:01:32.274Z
+   sitemaps: https://www.mddi.gov.sg/sitemap.xml[200:1712]
+== www.imda.gov.sg: robots=200 declared=1 fetched=1 urls=11353 hits=35 newest_lastmod=2026-11-24T04:33:45.749Z
+   sitemaps: https://www.imda.gov.sg/sitemap.xml[200:11353]
+== www.pdpc.gov.sg: robots=200 declared=1 fetched=1 urls=827 hits=63 newest_lastmod=2026-11-25T09:56:06.320Z
+   sitemaps: https://www.pdpc.gov.sg/sitemap.xml[200:829]

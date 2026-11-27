@@ -1,0 +1,2783 @@
+{
+ "accounts.cpf.checkmate.sg": {
+  "a_records": [
+   "104.18.34.146",
+   "172.64.153.110"
+  ],
+  "cname": [
+   "accounts.clerk.services",
+   "worker.clerkprod-cloudflare.net"
+  ],
+  "note": "DNS NOERROR CNAME accounts.clerk.services -> worker.clerkprod-cloudflare.net",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "api.dev.pango.gov.sg": {
+  "a_records": [
+   "18.142.193.242",
+   "18.142.194.11"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "api.ihp-stg.csa.gov.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": false,
+  "status": "NOERROR"
+ },
+ "api.ihp.csa.gov.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": false,
+  "status": "NOERROR"
+ },
+ "api.pango.gov.sg": {
+  "a_records": [
+   "18.143.235.105",
+   "52.74.146.140"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "api.scamshield.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": false,
+  "status": "NOERROR"
+ },
+ "api.stg.pango.gov.sg": {
+  "a_records": [
+   "52.221.71.65",
+   "18.142.93.174"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "app-beta.scamshield.gov.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NXDOMAIN",
+  "resolves": false,
+  "status": "NXDOMAIN"
+ },
+ "app.beta.scamshield.gov.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NXDOMAIN",
+  "resolves": false,
+  "status": "NXDOMAIN"
+ },
+ "aseangeospatial.org": {
+  "a_records": [
+   "18.136.36.203",
+   "18.138.108.8",
+   "18.139.47.66"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "ask.gov.sg": {
+  "a_records": [
+   "172.67.72.85",
+   "104.26.14.224",
+   "104.26.15.224"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "asmc.asean.org": {
+  "a_records": [
+   "150.171.110.103"
+  ],
+  "cname": [
+   "nea1zcommtrafficmgr16.trafficmanager.net",
+   "asmc-asean-org-hfdddzccaeeydtb7.a02.azurefd.net",
+   "mr-a02.tm-azurefd.net"
+  ],
+  "note": "DNS NOERROR CNAME nea1zcommtrafficmgr16.trafficmanager.net -> asmc-asean-org-hfdddzccaeeydtb7.a02.azurefd.net -> mr-a02.tm-azurefd.net",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "checkers.checkmate.sg": {
+  "a_records": [
+   "172.66.172.68",
+   "104.20.30.175"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "checkmate.sg": {
+  "a_records": [
+   "172.66.172.68",
+   "104.20.30.175"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "checkscam.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NXDOMAIN",
+  "resolves": false,
+  "status": "NXDOMAIN"
+ },
+ "classifier-api.scamshield.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": false,
+  "status": "NOERROR"
+ },
+ "corp.nhg.com.sg": {
+  "a_records": [
+   "172.64.144.250",
+   "104.18.43.6"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "csa.gov.sg": {
+  "a_records": [
+   "18.139.47.66",
+   "18.136.36.203",
+   "18.138.108.8"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "cybersafe.sg": {
+  "a_records": [
+   "104.21.25.159",
+   "172.67.134.93"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "dashboard-staging.scamshield.gov.sg": {
+  "a_records": [
+   "104.20.43.67",
+   "172.66.156.72"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "dashboard-vapt.scamshield.gov.sg": {
+  "a_records": [
+   "104.20.43.67",
+   "172.66.156.72"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "dashboard.scam.sg": {
+  "a_records": [
+   "18.136.31.23",
+   "54.251.180.36"
+  ],
+  "cname": [
+   "scamsg-alb-1262592968.ap-southeast-1.elb.amazonaws.com"
+  ],
+  "note": "DNS NOERROR CNAME scamsg-alb-1262592968.ap-southeast-1.elb.amazonaws.com",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "dashboard.scamshield.gov.sg": {
+  "a_records": [
+   "104.20.43.67",
+   "172.66.156.72"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "dashboardguide.scamshield.gov.sg": {
+  "a_records": [
+   "172.66.156.72",
+   "104.20.43.67"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "dev-cardinal.csa.gov.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": false,
+  "status": "NOERROR"
+ },
+ "dev-nc3.csa.gov.sg": {
+  "a_records": [
+   "166.117.210.236",
+   "75.2.69.90"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "dev.phishmon.gcsoc.tech.gov.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": false,
+  "status": "NOERROR"
+ },
+ "dsta.x0pa.ai": {
+  "a_records": [
+   "13.215.239.219",
+   "52.74.6.109"
+  ],
+  "cname": [
+   "xdsta.netlify.app"
+  ],
+  "note": "DNS NOERROR CNAME xdsta.netlify.app",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "ectc.org.sg": {
+  "a_records": [
+   "192.124.249.115"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "enterpriseapi.ihp-stg.csa.gov.sg": {
+  "a_records": [
+   "13.35.36.97",
+   "13.35.36.50",
+   "13.35.36.73",
+   "13.35.36.32"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "enterpriseapi.ihp.csa.gov.sg": {
+  "a_records": [
+   "18.155.68.124",
+   "18.155.68.60",
+   "18.155.68.20",
+   "18.155.68.47"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "eservices.mas.gov.sg": {
+  "a_records": [
+   "23.54.118.52",
+   "23.54.118.51"
+  ],
+  "cname": [
+   "eservices.mas.gov.sg.edgekey.net",
+   "e29154.dscb.akamaiedge.net"
+  ],
+  "note": "DNS NOERROR CNAME eservices.mas.gov.sg.edgekey.net -> e29154.dscb.akamaiedge.net",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "eservices.police.gov.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NXDOMAIN",
+  "resolves": false,
+  "status": "NXDOMAIN"
+ },
+ "eservices1.police.gov.sg": {
+  "a_records": [
+   "207.192.165.17"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "eservices2.police.gov.sg": {
+  "a_records": [
+   "207.192.165.20"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "eservices3.police.gov.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NXDOMAIN",
+  "resolves": false,
+  "status": "NXDOMAIN"
+ },
+ "eservices4.police.gov.sg": {
+  "a_records": [
+   "207.192.165.12"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "eservices5.police.gov.sg": {
+  "a_records": [
+   "207.192.165.34"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "faqs.csa.gov.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NXDOMAIN",
+  "resolves": false,
+  "status": "NXDOMAIN"
+ },
+ "for.edu.sg": {
+  "a_records": [
+   "172.67.69.38",
+   "104.26.8.100",
+   "104.26.9.100"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "for.sg": {
+  "a_records": [
+   "104.26.12.57",
+   "172.67.72.177",
+   "104.26.13.57"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "form.gov.sg": {
+  "a_records": [
+   "104.26.15.122",
+   "172.67.69.86",
+   "104.26.14.122"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "forms.scamalert.sg": {
+  "a_records": [
+   "104.21.14.124",
+   "172.67.158.228"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "fulcrum.sg": {
+  "a_records": [
+   "52.128.22.42"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "game.checkmate.sg": {
+  "a_records": [
+   "104.20.30.175",
+   "172.66.172.68"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "go.ask.gov.sg": {
+  "a_records": [
+   "172.67.72.85",
+   "104.26.15.224",
+   "104.26.14.224"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "go.gov.sg": {
+  "a_records": [
+   "104.25.67.101",
+   "104.25.68.101"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "gosafeonline.sg": {
+  "a_records": [
+   "18.136.36.203",
+   "18.138.108.8",
+   "18.139.47.66"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "grafana-new.scamshield.gov.sg": {
+  "a_records": [
+   "172.66.156.72",
+   "104.20.43.67"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "grafana.scamshield.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NXDOMAIN",
+  "resolves": false,
+  "status": "NXDOMAIN"
+ },
+ "guide.scamshield.gov.sg": {
+  "a_records": [
+   "172.64.147.209",
+   "104.18.40.47"
+  ],
+  "cname": [
+   "fd971d13d3-hosting.gitbook.io"
+  ],
+  "note": "DNS NOERROR CNAME fd971d13d3-hosting.gitbook.io",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "iali-aiit.org": {
+  "a_records": [
+   "104.37.183.1"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "icanactagainstscams.gov.sg": {
+  "a_records": [
+   "54.151.226.24",
+   "13.251.180.0",
+   "54.251.88.218"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "ihp-stg.csa.gov.sg": {
+  "a_records": [
+   "13.35.36.73",
+   "13.35.36.32",
+   "13.35.36.50",
+   "13.35.36.97"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "ihp.csa.gov.sg": {
+  "a_records": [
+   "18.155.68.124",
+   "18.155.68.20",
+   "18.155.68.60",
+   "18.155.68.47"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "info.bbdc.sg": {
+  "a_records": [
+   "74.91.221.81"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "ingeus.com.sg": {
+  "a_records": [
+   "20.213.174.40"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "link.ncpc.org.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NXDOMAIN",
+  "resolves": false,
+  "status": "NXDOMAIN"
+ },
+ "logpipe.amrs.nc3.csa.gov.sg": {
+  "a_records": [
+   "52.76.249.244",
+   "54.254.27.102",
+   "54.254.161.22"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "lp.scamalert.sg": {
+  "a_records": [
+   "172.67.158.228",
+   "104.21.14.124"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "makeathon.scamalert.sg": {
+  "a_records": [
+   "172.67.158.228",
+   "104.21.14.124"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "nc3.csa.gov.sg": {
+  "a_records": [
+   "166.117.78.16",
+   "3.33.205.84"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "ncpc.gov.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NXDOMAIN",
+  "resolves": false,
+  "status": "NXDOMAIN"
+ },
+ "ncpc.org.sg": {
+  "a_records": [
+   "18.136.36.203",
+   "18.139.47.66",
+   "18.138.108.8"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "old.cybersafe.sg": {
+  "a_records": [
+   "172.67.134.93",
+   "104.21.25.159"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "origin1-www.csa.gov.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NXDOMAIN",
+  "resolves": false,
+  "status": "NXDOMAIN"
+ },
+ "osc.gov.sg": {
+  "a_records": [
+   "18.138.108.8",
+   "18.139.47.66",
+   "18.136.36.203"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "p-gvt-gasp-scamsexposed.on.tc2.airbase.tech.gov.sg": {
+  "a_records": [
+   "13.35.163.82",
+   "13.35.163.79",
+   "13.35.163.8",
+   "13.35.163.44"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "pango.gov.sg": {
+  "a_records": [
+   "18.138.108.8",
+   "18.139.47.66",
+   "18.136.36.203"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "pasirrischangi-tc.org.sg": {
+  "a_records": [
+   "101.100.204.11"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "phishing.sg": {
+  "a_records": [
+   "172.67.129.251",
+   "104.21.3.6"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "phishmon.gcsoc.tech.gov.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": false,
+  "status": "NOERROR"
+ },
+ "products.open.gov.sg": {
+  "a_records": [
+   "172.67.183.1",
+   "104.21.51.169"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "pslc.csa.gov.sg": {
+  "a_records": [
+   "160.96.238.92",
+   "160.96.238.91"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "punggol-tc.org.sg": {
+  "a_records": [
+   "35.213.180.104"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "quiz.scamalert.sg": {
+  "a_records": [
+   "104.21.14.124",
+   "172.67.158.228"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "read.phishing.sg": {
+  "a_records": [
+   "185.2.150.182"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "report.osc.gov.sg": {
+  "a_records": [
+   "104.21.52.51",
+   "172.67.195.146"
+  ],
+  "cname": [
+   "report.osc.gov.sg.00diw0000016fed2aq.live.siteforce.com",
+   "report.osc.gov.sg.00diw0000016fed2aq.live.siteforce.com.cdn.cloudflare.net"
+  ],
+  "note": "DNS NOERROR CNAME report.osc.gov.sg.00diw0000016fed2aq.live.siteforce.com -> report.osc.gov.sg.00diw0000016fed2aq.live.siteforce.com.cdn.cloudflare.net",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "reports.open.gov.sg": {
+  "a_records": [
+   "216.150.1.65",
+   "216.150.16.65"
+  ],
+  "cname": [
+   "3650fd191364613e.vercel-dns-016.com"
+  ],
+  "note": "DNS NOERROR CNAME 3650fd191364613e.vercel-dns-016.com",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "resources.phishing.sg": {
+  "a_records": [
+   "104.21.3.6",
+   "172.67.129.251"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "rpace.floralms.com": {
+  "a_records": [
+   "69.167.164.228"
+  ],
+  "cname": [
+   "floralms.com"
+  ],
+  "note": "DNS NOERROR CNAME floralms.com",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "s-gvt-gasp-scamsexposed.on.tc2.airbase.tech.gov.sg": {
+  "a_records": [
+   "99.86.18.50",
+   "99.86.18.79",
+   "99.86.18.108",
+   "99.86.18.5"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "scam-game.checkmate.sg": {
+  "a_records": [
+   "172.66.172.68",
+   "104.20.30.175"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "scam.sg": {
+  "a_records": [
+   "172.67.148.175",
+   "104.21.87.240"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "scamalert.sg": {
+  "a_records": [
+   "172.67.158.228",
+   "104.21.14.124"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "scams.sg": {
+  "a_records": [
+   "172.67.207.66",
+   "104.21.66.207"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "scamsexposed-cf.app.optical.gov.sg": {
+  "a_records": [
+   "65.9.168.54",
+   "65.9.168.15",
+   "65.9.168.94",
+   "65.9.168.107"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "scamsexposed-cf.staging.optical.gov.sg": {
+  "a_records": [
+   "13.35.238.84",
+   "13.35.238.128",
+   "13.35.238.26",
+   "13.35.238.59"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "scamshield.gov.sg": {
+  "a_records": [
+   "18.138.108.8",
+   "18.136.36.203",
+   "18.139.47.66"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "scamshield.org.sg": {
+  "a_records": [
+   "104.21.68.36",
+   "172.67.185.221"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "scamshield.sg": {
+  "a_records": [
+   "172.67.146.5",
+   "104.21.10.166"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "sce.org.sg": {
+  "a_records": [
+   "103.7.8.230"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "search.checkmate.sg": {
+  "a_records": [
+   "172.66.172.68",
+   "104.20.30.175"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "services2-ctoaascam-ez-stg.in.imda.gov.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": false,
+  "status": "NOERROR"
+ },
+ "services2-ctoaascam-ez.in.imda.gov.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": false,
+  "status": "NOERROR"
+ },
+ "singcert.org.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS TIMEOUT (unknown, not treated as non-resolving)",
+  "resolves": null,
+  "status": "TIMEOUT"
+ },
+ "sleb.sg": {
+  "a_records": [
+   "104.21.16.65",
+   "172.67.166.183"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "sm.cybersafe.sg": {
+  "a_records": [
+   "172.67.134.93",
+   "104.21.25.159"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "smsregistry.sg": {
+  "a_records": [
+   "13.35.202.67",
+   "13.35.202.49",
+   "13.35.202.126",
+   "13.35.202.53"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "srsc.org.sg": {
+  "a_records": [
+   "18.136.36.203",
+   "18.138.108.8",
+   "18.139.47.66"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "ssdcl.com.sg": {
+  "a_records": [
+   "172.66.164.140",
+   "104.20.28.115"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "ssix-a1.csa.gov.sg": {
+  "a_records": [
+   "160.96.242.153"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "ssix-a2.csa.gov.sg": {
+  "a_records": [
+   "160.96.242.154"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "ssix-a3.csa.gov.sg": {
+  "a_records": [
+   "160.96.242.155"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "ssix-a4.csa.gov.sg": {
+  "a_records": [
+   "160.96.242.156"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "ssix-a5.csa.gov.sg": {
+  "a_records": [
+   "160.96.242.157"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "ssix-a6.csa.gov.sg": {
+  "a_records": [
+   "160.96.242.158"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "ssix-b1.csa.gov.sg": {
+  "a_records": [
+   "160.96.242.168"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "ssix-b2.csa.gov.sg": {
+  "a_records": [
+   "160.96.242.169"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "ssix-b3.csa.gov.sg": {
+  "a_records": [
+   "160.96.242.170"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "ssix-b4.csa.gov.sg": {
+  "a_records": [
+   "160.96.242.171"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "status.scamshield.gov.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NXDOMAIN",
+  "resolves": false,
+  "status": "NXDOMAIN"
+ },
+ "stg.icanactagainstscams.gov.sg": {
+  "a_records": [
+   "13.35.238.128",
+   "13.35.238.84",
+   "13.35.238.26",
+   "13.35.238.59"
+  ],
+  "cname": [
+   "scamsexposed-cf.staging.optical.gov.sg"
+  ],
+  "note": "DNS NOERROR CNAME scamsexposed-cf.staging.optical.gov.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "stg.phishmon.gcsoc.tech.gov.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": false,
+  "status": "NOERROR"
+ },
+ "switchsg.org": {
+  "a_records": [
+   "18.138.108.8",
+   "18.139.47.66",
+   "18.136.36.203"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "taxacademy.sg": {
+  "a_records": [
+   "18.139.47.66",
+   "18.136.36.203",
+   "18.138.108.8"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "tradetrust.io": {
+  "a_records": [
+   "18.139.47.66",
+   "18.136.36.203",
+   "18.138.108.8"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "trustplatform.sg": {
+  "a_records": [
+   "18.136.36.203",
+   "18.139.47.66",
+   "18.138.108.8"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "uat-cardinal.csa.gov.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": false,
+  "status": "NOERROR"
+ },
+ "uat-nc3.csa.gov.sg": {
+  "a_records": [
+   "166.117.97.42",
+   "166.117.221.76"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "uat.logpipe.amrs.nc3.csa.gov.sg": {
+  "a_records": [
+   "52.74.131.213",
+   "52.221.39.9",
+   "122.248.234.198"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "verified.scam.sg": {
+  "a_records": [
+   "13.228.11.96"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "wa-bot.scamshield.gov.sg": {
+  "a_records": [
+   "104.20.43.67",
+   "172.66.156.72"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "wctc.org.sg": {
+  "a_records": [
+   "103.69.131.129"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "web-intranet-uat.csa.gov.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NXDOMAIN",
+  "resolves": false,
+  "status": "NXDOMAIN"
+ },
+ "web-intranet.csa.gov.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NXDOMAIN",
+  "resolves": false,
+  "status": "NXDOMAIN"
+ },
+ "web.csa.gov.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NXDOMAIN",
+  "resolves": false,
+  "status": "NXDOMAIN"
+ },
+ "www-origin-uat.csa.gov.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NXDOMAIN",
+  "resolves": false,
+  "status": "NXDOMAIN"
+ },
+ "www-origin.csa.gov.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NXDOMAIN",
+  "resolves": false,
+  "status": "NXDOMAIN"
+ },
+ "www-stg.csa.gov.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NXDOMAIN",
+  "resolves": false,
+  "status": "NXDOMAIN"
+ },
+ "www.aas.com.sg": {
+  "a_records": [
+   "104.26.12.109",
+   "172.67.74.237",
+   "104.26.13.109"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.activehealth.sg": {
+  "a_records": [
+   "199.60.103.226",
+   "199.60.103.30"
+  ],
+  "cname": [
+   "6212555.group5.sites.hubspot.net",
+   "group5.sites.hscoscdn00.net"
+  ],
+  "note": "DNS NOERROR CNAME 6212555.group5.sites.hubspot.net -> group5.sites.hscoscdn00.net",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.activesgcircle.gov.sg": {
+  "a_records": [
+   "199.60.103.226",
+   "199.60.103.30"
+  ],
+  "cname": [
+   "6212555.group5.sites.hubspot.net",
+   "group5.sites.hscoscdn00.net"
+  ],
+  "note": "DNS NOERROR CNAME 6212555.group5.sites.hubspot.net -> group5.sites.hscoscdn00.net",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.ah.com.sg": {
+  "a_records": [
+   "172.64.153.174",
+   "104.18.34.82"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.ahtc.sg": {
+  "a_records": [
+   "23.106.50.19"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.aic.sg": {
+  "a_records": [
+   "64.239.109.1"
+  ],
+  "cname": [
+   "aic.sg"
+  ],
+  "note": "DNS NOERROR CNAME aic.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.amktc.org.sg": {
+  "a_records": [
+   "192.124.249.162"
+  ],
+  "cname": [
+   "amktc.org.sg"
+  ],
+  "note": "DNS NOERROR CNAME amktc.org.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.artweek.sg": {
+  "a_records": [
+   "99.86.18.58",
+   "99.86.18.117",
+   "99.86.18.18",
+   "99.86.18.52"
+  ],
+  "cname": [
+   "d2h36xqoaciln9.cloudfront.net"
+  ],
+  "note": "DNS NOERROR CNAME d2h36xqoaciln9.cloudfront.net",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.aseanip.org": {
+  "a_records": [
+   "104.16.4.14"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.asiatechxsg.com": {
+  "a_records": [
+   "199.232.114.133"
+  ],
+  "cname": [
+   "d.sni.global.fastly.net"
+  ],
+  "note": "DNS NOERROR CNAME d.sni.global.fastly.net",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.beta.icanactagainstscams.gov.sg": {
+  "a_records": [
+   "13.35.163.82",
+   "13.35.163.8",
+   "13.35.163.79",
+   "13.35.163.44"
+  ],
+  "cname": [
+   "p-gvt-gasp-scamsexposed.on.tc2.airbase.tech.gov.sg"
+  ],
+  "note": "DNS NOERROR CNAME p-gvt-gasp-scamsexposed.on.tc2.airbase.tech.gov.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.bilingualism.sg": {
+  "a_records": [
+   "3.165.75.32",
+   "3.165.75.92",
+   "3.165.75.9",
+   "3.165.75.87"
+  ],
+  "cname": [
+   "bilingualism-sg.hostedon.isomer.gov.sg"
+  ],
+  "note": "DNS NOERROR CNAME bilingualism-sg.hostedon.isomer.gov.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.btptc.org.sg": {
+  "a_records": [
+   "192.124.249.8"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.caretogobeyond.sg": {
+  "a_records": [
+   "104.18.35.172",
+   "172.64.152.84"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.ccktc.org.sg": {
+  "a_records": [
+   "51.79.149.160"
+  ],
+  "cname": [
+   "ccktc.org.sg"
+  ],
+  "note": "DNS NOERROR CNAME ccktc.org.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.chas.sg": {
+  "a_records": [
+   "64.239.123.1",
+   "64.239.109.1"
+  ],
+  "cname": [
+   "80094b2b5eae7fea.vercel-dns-013.com"
+  ],
+  "note": "DNS NOERROR CNAME 80094b2b5eae7fea.vercel-dns-013.com",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.checkmate.sg": {
+  "a_records": [
+   "104.20.30.175",
+   "172.66.172.68"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.cosem.org.sg": {
+  "a_records": [
+   "23.108.103.230"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.csa.gov.sg": {
+  "a_records": [
+   "3.165.102.103",
+   "3.165.102.49",
+   "3.165.102.60",
+   "3.165.102.17"
+  ],
+  "cname": [
+   "csa-gov-sg.hostedon.isomer.gov.sg"
+  ],
+  "note": "DNS NOERROR CNAME csa-gov-sg.hostedon.isomer.gov.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.cybersafe.sg": {
+  "a_records": [
+   "104.21.25.159",
+   "172.67.134.93"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.digitalforlife.gov.sg": {
+  "a_records": [
+   "13.249.231.32",
+   "13.249.231.72",
+   "13.249.231.76",
+   "13.249.231.87"
+  ],
+  "cname": [
+   "p-imda-digitalforlife.on.tc2.airbase.tech.gov.sg"
+  ],
+  "note": "DNS NOERROR CNAME p-imda-digitalforlife.on.tc2.airbase.tech.gov.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.digitalgateway.sg": {
+  "a_records": [
+   "18.138.108.8",
+   "18.139.47.66",
+   "18.136.36.203"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.dnc.gov.sg": {
+  "a_records": [
+   "118.215.83.45"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.elitigation.sg": {
+  "a_records": [
+   "65.9.168.41",
+   "65.9.168.56",
+   "65.9.168.117",
+   "65.9.168.94"
+  ],
+  "cname": [
+   "www.aws-elit.elitigation.sg"
+  ],
+  "note": "DNS NOERROR CNAME www.aws-elit.elitigation.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.familiesforlife.sg": {
+  "a_records": [
+   "45.60.36.30"
+  ],
+  "cname": [
+   "2uz9hv2.ng.impervadns.net"
+  ],
+  "note": "DNS NOERROR CNAME 2uz9hv2.ng.impervadns.net",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.forms.scamalert.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NXDOMAIN",
+  "resolves": false,
+  "status": "NXDOMAIN"
+ },
+ "www.forwardsingapore.gov.sg": {
+  "a_records": [
+   "3.165.75.111",
+   "3.165.75.7",
+   "3.165.75.69",
+   "3.165.75.54"
+  ],
+  "cname": [
+   "forwardsingapore-gov-sg.hostedon.isomer.gov.sg"
+  ],
+  "note": "DNS NOERROR CNAME forwardsingapore-gov-sg.hostedon.isomer.gov.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.giving.sg": {
+  "a_records": [
+   "45.60.126.232"
+  ],
+  "cname": [
+   "krtcxgz.ng.impervadns.net"
+  ],
+  "note": "DNS NOERROR CNAME krtcxgz.ng.impervadns.net",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.globalfinancialgovernance.org": {
+  "a_records": [
+   "89.106.200.1"
+  ],
+  "cname": [
+   "edge.redirect.pizza"
+  ],
+  "note": "DNS NOERROR CNAME edge.redirect.pizza",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.gosafeonline.sg": {
+  "a_records": [
+   "18.138.108.8",
+   "18.136.36.203",
+   "18.139.47.66"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.gov.sg": {
+  "a_records": [
+   "13.249.231.115",
+   "13.249.231.89",
+   "13.249.231.43",
+   "13.249.231.13"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.hbptc.org.sg": {
+  "a_records": [
+   "47.236.56.151"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.healthcarescholarships.sg": {
+  "a_records": [
+   "104.18.38.166",
+   "172.64.149.90"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.healthhub.sg": {
+  "a_records": [
+   "150.171.110.106"
+  ],
+  "cname": [
+   "hub73ae83e20eae-prod-frontdoor-endpoint-gcaja5h4esb6gugw.a01.azurefd.net",
+   "mr-a01.tm-azurefd.net"
+  ],
+  "note": "DNS NOERROR CNAME hub73ae83e20eae-prod-frontdoor-endpoint-gcaja5h4esb6gugw.a01.azurefd.net -> mr-a01.tm-azurefd.net",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.ibew.sg": {
+  "a_records": [
+   "104.18.34.23",
+   "172.64.153.233"
+  ],
+  "cname": [
+   "origin.sitebuilder.reds.rxweb-prd.com",
+   "origin.sitebuilder.reds.rxweb-prd.com.cdn.cloudflare.net"
+  ],
+  "note": "DNS NOERROR CNAME origin.sitebuilder.reds.rxweb-prd.com -> origin.sitebuilder.reds.rxweb-prd.com.cdn.cloudflare.net",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.icanactagainstscams.gov.sg": {
+  "a_records": [
+   "65.9.168.54",
+   "65.9.168.15",
+   "65.9.168.107",
+   "65.9.168.94"
+  ],
+  "cname": [
+   "scamsexposed-cf.app.optical.gov.sg"
+  ],
+  "note": "DNS NOERROR CNAME scamsexposed-cf.app.optical.gov.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.ihp-stg.csa.gov.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": false,
+  "status": "NOERROR"
+ },
+ "www.ihp.csa.gov.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": false,
+  "status": "NOERROR"
+ },
+ "www.imda.gov.sg": {
+  "a_records": [
+   "13.249.231.24",
+   "13.249.231.96",
+   "13.249.231.18",
+   "13.249.231.15"
+  ],
+  "cname": [
+   "p-imda-corporate.on.tc2.airbase.tech.gov.sg"
+  ],
+  "note": "DNS NOERROR CNAME p-imda-corporate.on.tc2.airbase.tech.gov.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.imh.com.sg": {
+  "a_records": [
+   "104.18.43.21",
+   "172.64.144.235"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.ipi-singapore.org": {
+  "a_records": [
+   "172.67.170.18",
+   "104.21.47.26"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.jbtc.org.sg": {
+  "a_records": [
+   "35.213.180.104"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.jch.com.sg": {
+  "a_records": [
+   "104.16.4.14"
+  ],
+  "cname": [
+   "jch.com.sg"
+  ],
+  "note": "DNS NOERROR CNAME jch.com.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.jktc.org.sg": {
+  "a_records": [
+   "192.124.249.120"
+  ],
+  "cname": [
+   "jktc.org.sg"
+  ],
+  "note": "DNS NOERROR CNAME jktc.org.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.jrbbtc.org.sg": {
+  "a_records": [
+   "192.124.249.64"
+  ],
+  "cname": [
+   "jrbbtc.org.sg"
+  ],
+  "note": "DNS NOERROR CNAME jrbbtc.org.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.kkh.com.sg": {
+  "a_records": [
+   "199.232.115.10"
+  ],
+  "cname": [
+   "cdn.adobeaemcloud.com",
+   "adobe-aem.map.fastly.net"
+  ],
+  "note": "DNS NOERROR CNAME cdn.adobeaemcloud.com -> adobe-aem.map.fastly.net",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.ktph.com.sg": {
+  "a_records": [
+   "104.18.43.228",
+   "172.64.144.28"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.lp.scamalert.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NXDOMAIN",
+  "resolves": false,
+  "status": "NXDOMAIN"
+ },
+ "www.makeathon.scamalert.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NXDOMAIN",
+  "resolves": false,
+  "status": "NXDOMAIN"
+ },
+ "www.mas.gov.sg": {
+  "a_records": [
+   "23.54.118.51",
+   "23.54.118.52"
+  ],
+  "cname": [
+   "www.mas.gov.sg.edgekey.net",
+   "e29154.dscb.akamaiedge.net"
+  ],
+  "note": "DNS NOERROR CNAME www.mas.gov.sg.edgekey.net -> e29154.dscb.akamaiedge.net",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.mbtc.org.sg": {
+  "a_records": [
+   "103.69.130.180"
+  ],
+  "cname": [
+   "mbtc.org.sg"
+  ],
+  "note": "DNS NOERROR CNAME mbtc.org.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.mddi.gov.sg": {
+  "a_records": [
+   "65.9.168.58",
+   "65.9.168.33",
+   "65.9.168.76",
+   "65.9.168.64"
+  ],
+  "cname": [
+   "mddi-gov-sg.hostedon.isomer.gov.sg"
+  ],
+  "note": "DNS NOERROR CNAME mddi-gov-sg.hostedon.isomer.gov.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.mha.gov.sg": {
+  "a_records": [
+   "13.35.163.119",
+   "13.35.163.51",
+   "13.35.163.10",
+   "13.35.163.123"
+  ],
+  "cname": [
+   "mha-gov-sg.hostedon.isomer.gov.sg"
+  ],
+  "note": "DNS NOERROR CNAME mha-gov-sg.hostedon.isomer.gov.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.mlc.sg": {
+  "a_records": [
+   "13.33.88.55",
+   "13.33.88.101",
+   "13.33.88.63",
+   "13.33.88.12"
+  ],
+  "cname": [
+   "mlc-sg.hostedon.isomer.gov.sg"
+  ],
+  "note": "DNS NOERROR CNAME mlc-sg.hostedon.isomer.gov.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.mohh.com.sg": {
+  "a_records": [
+   "104.18.34.115",
+   "172.64.153.141"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.moht.com.sg": {
+  "a_records": [
+   "65.9.168.120",
+   "65.9.168.56",
+   "65.9.168.49",
+   "65.9.168.96"
+  ],
+  "cname": [
+   "moht-com-sg.hostedon.isomer.gov.sg"
+  ],
+  "note": "DNS NOERROR CNAME moht-com-sg.hostedon.isomer.gov.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.moneysense.gov.sg": {
+  "a_records": [
+   "13.249.231.27",
+   "13.249.231.29",
+   "13.249.231.20",
+   "13.249.231.94"
+  ],
+  "cname": [
+   "moneysense-gov-sg.hostedon.isomer.gov.sg"
+  ],
+  "note": "DNS NOERROR CNAME moneysense-gov-sg.hostedon.isomer.gov.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.myttc.org.sg": {
+  "a_records": [
+   "192.124.249.90"
+  ],
+  "cname": [
+   "myttc.org.sg"
+  ],
+  "note": "DNS NOERROR CNAME myttc.org.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.ncada.org.sg": {
+  "a_records": [
+   "108.157.254.119",
+   "108.157.254.60",
+   "108.157.254.57",
+   "108.157.254.10"
+  ],
+  "cname": [
+   "ncada-org-sg.hostedon.isomer.gov.sg"
+  ],
+  "note": "DNS NOERROR CNAME ncada-org-sg.hostedon.isomer.gov.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.nccs.com.sg": {
+  "a_records": [
+   "199.232.115.10"
+  ],
+  "cname": [
+   "cdn.adobeaemcloud.com",
+   "adobe-aem.map.fastly.net"
+  ],
+  "note": "DNS NOERROR CNAME cdn.adobeaemcloud.com -> adobe-aem.map.fastly.net",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.ncis.com.sg": {
+  "a_records": [
+   "104.16.4.14"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.ncpc.org.sg": {
+  "a_records": [
+   "99.86.18.60",
+   "99.86.18.79",
+   "99.86.18.87",
+   "99.86.18.91"
+  ],
+  "cname": [
+   "ncpc-org-sg.hostedon.isomer.gov.sg"
+  ],
+  "note": "DNS NOERROR CNAME ncpc-org-sg.hostedon.isomer.gov.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.ncpg.org.sg": {
+  "a_records": [
+   "54.251.88.218",
+   "54.151.226.24",
+   "13.251.180.0"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.ndcs.com.sg": {
+  "a_records": [
+   "140.248.131.10"
+  ],
+  "cname": [
+   "cdn.adobeaemcloud.com",
+   "adobe-aem.map.fastly.net"
+  ],
+  "note": "DNS NOERROR CNAME cdn.adobeaemcloud.com -> adobe-aem.map.fastly.net",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.nfec.org.sg": {
+  "a_records": [
+   "65.9.168.45",
+   "65.9.168.11",
+   "65.9.168.117",
+   "65.9.168.102"
+  ],
+  "cname": [
+   "nfec-org-sg.hostedon.isomer.gov.sg"
+  ],
+  "note": "DNS NOERROR CNAME nfec-org-sg.hostedon.isomer.gov.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.nhcs.com.sg": {
+  "a_records": [
+   "199.232.115.10"
+  ],
+  "cname": [
+   "cdn.adobeaemcloud.com",
+   "adobe-aem.map.fastly.net"
+  ],
+  "note": "DNS NOERROR CNAME cdn.adobeaemcloud.com -> adobe-aem.map.fastly.net",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.nhgp.com.sg": {
+  "a_records": [
+   "104.18.38.100",
+   "172.64.149.156"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.nlb.gov.sg": {
+  "a_records": [
+   "3.171.198.5",
+   "3.171.198.43",
+   "3.171.198.55",
+   "3.171.198.123"
+  ],
+  "cname": [
+   "www.prod.nlb.gov.sg"
+  ],
+  "note": "DNS NOERROR CNAME www.prod.nlb.gov.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.nni.com.sg": {
+  "a_records": [
+   "199.232.115.10"
+  ],
+  "cname": [
+   "cdn.adobeaemcloud.com",
+   "adobe-aem.map.fastly.net"
+  ],
+  "note": "DNS NOERROR CNAME cdn.adobeaemcloud.com -> adobe-aem.map.fastly.net",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.npcc.org.sg": {
+  "a_records": [
+   "3.165.102.57",
+   "3.165.102.19",
+   "3.165.102.127",
+   "3.165.102.99"
+  ],
+  "cname": [
+   "npcc-org-sg.hostedon.isomer.gov.sg"
+  ],
+  "note": "DNS NOERROR CNAME npcc-org-sg.hostedon.isomer.gov.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.ns.gov.sg": {
+  "a_records": [
+   "3.165.75.77",
+   "3.165.75.79",
+   "3.165.75.76",
+   "3.165.75.48"
+  ],
+  "cname": [
+   "d17rfrbdwtd1bj.cloudfront.net"
+  ],
+  "note": "DNS NOERROR CNAME d17rfrbdwtd1bj.cloudfront.net",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.nsc.com.sg": {
+  "a_records": [
+   "104.18.37.146",
+   "172.64.150.110"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.nstc.org.sg": {
+  "a_records": [
+   "119.31.233.90"
+  ],
+  "cname": [
+   "nstc.org.sg"
+  ],
+  "note": "DNS NOERROR CNAME nstc.org.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.ntfgh.com.sg": {
+  "a_records": [
+   "104.16.4.14"
+  ],
+  "cname": [
+   "ntfgh.com.sg"
+  ],
+  "note": "DNS NOERROR CNAME ntfgh.com.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.nucohs.com.sg": {
+  "a_records": [
+   "172.64.151.75",
+   "104.18.36.181"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.nuh.com.sg": {
+  "a_records": [
+   "104.16.4.14"
+  ],
+  "cname": [
+   "nuh.com.sg"
+  ],
+  "note": "DNS NOERROR CNAME nuh.com.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.nuhcs.com.sg": {
+  "a_records": [
+   "172.64.154.235",
+   "104.18.33.21"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.nuhs.edu.sg": {
+  "a_records": [
+   "104.16.212.134"
+  ],
+  "cname": [
+   "nuhs.edu.sg"
+  ],
+  "note": "DNS NOERROR CNAME nuhs.edu.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.nup.com.sg": {
+  "a_records": [
+   "172.64.154.162",
+   "104.18.33.94"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.open.gov.sg": {
+  "a_records": [
+   "65.9.168.90",
+   "65.9.168.107",
+   "65.9.168.76",
+   "65.9.168.61"
+  ],
+  "cname": [
+   "open-gov-sg.hostedon.isomer.gov.sg"
+  ],
+  "note": "DNS NOERROR CNAME open-gov-sg.hostedon.isomer.gov.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.origin1-www.csa.gov.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NXDOMAIN",
+  "resolves": false,
+  "status": "NXDOMAIN"
+ },
+ "www.osc.gov.sg": {
+  "a_records": [
+   "99.86.18.64",
+   "99.86.18.45",
+   "99.86.18.104",
+   "99.86.18.97"
+  ],
+  "cname": [
+   "osc-gov-sg.hostedon.isomer.gov.sg"
+  ],
+  "note": "DNS NOERROR CNAME osc-gov-sg.hostedon.isomer.gov.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.pango.gov.sg": {
+  "a_records": [
+   "108.156.144.19",
+   "108.156.144.129",
+   "108.156.144.125",
+   "108.156.144.41"
+  ],
+  "cname": [
+   "pango-gov-sg.hostedon.isomer.gov.sg"
+  ],
+  "note": "DNS NOERROR CNAME pango-gov-sg.hostedon.isomer.gov.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.parking.sg": {
+  "a_records": [
+   "13.33.88.17",
+   "13.33.88.19",
+   "13.33.88.2",
+   "13.33.88.31"
+  ],
+  "cname": [
+   "parking-sg.hostedon.isomer.gov.sg"
+  ],
+  "note": "DNS NOERROR CNAME parking-sg.hostedon.isomer.gov.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.phishing.sg": {
+  "a_records": [
+   "172.67.129.251",
+   "104.21.3.6"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.police.gov.sg": {
+  "a_records": [
+   "192.133.11.1"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.pslc.csa.gov.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NXDOMAIN",
+  "resolves": false,
+  "status": "NXDOMAIN"
+ },
+ "www.publichygienecouncil.sg": {
+  "a_records": [
+   "18.155.68.43",
+   "18.155.68.123",
+   "18.155.68.107",
+   "18.155.68.126"
+  ],
+  "cname": [
+   "publichygienecouncil-sg.hostedon.isomer.gov.sg"
+  ],
+  "note": "DNS NOERROR CNAME publichygienecouncil-sg.hostedon.isomer.gov.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.quiz.scamalert.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NXDOMAIN",
+  "resolves": false,
+  "status": "NXDOMAIN"
+ },
+ "www.sbtc.org.sg": {
+  "a_records": [
+   "104.26.9.222",
+   "172.67.73.6",
+   "104.26.8.222"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.scam.sg": {
+  "a_records": [
+   "104.21.87.240",
+   "172.67.148.175"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.scamalert.sg": {
+  "a_records": [
+   "172.67.158.228",
+   "104.21.14.124"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.scamshield.gov.sg": {
+  "a_records": [
+   "13.33.45.33",
+   "13.33.45.32",
+   "13.33.45.59",
+   "13.33.45.105"
+  ],
+  "cname": [
+   "scamshield-gov-sg.hostedon.isomer.gov.sg"
+  ],
+  "note": "DNS NOERROR CNAME scamshield-gov-sg.hostedon.isomer.gov.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.scamshield.org.sg": {
+  "a_records": [
+   "104.21.68.36",
+   "172.67.185.221"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.scamshield.sg": {
+  "a_records": [
+   "172.67.146.5",
+   "104.21.10.166"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.searado.com": {
+  "a_records": [
+   "99.86.18.38",
+   "99.86.18.105",
+   "99.86.18.125",
+   "99.86.18.19"
+  ],
+  "cname": [
+   "searado-com.hostedon.isomer.gov.sg"
+  ],
+  "note": "DNS NOERROR CNAME searado-com.hostedon.isomer.gov.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.sentosa.com.sg": {
+  "a_records": [
+   "45.60.83.209"
+  ],
+  "cname": [
+   "5tk4ivw.ng.impervadns.net"
+  ],
+  "note": "DNS NOERROR CNAME 5tk4ivw.ng.impervadns.net",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.sentosacove.com": {
+  "a_records": [
+   "99.86.18.107",
+   "99.86.18.105",
+   "99.86.18.94",
+   "99.86.18.63"
+  ],
+  "cname": [
+   "sentosacove-com.hostedon.isomer.gov.sg"
+  ],
+  "note": "DNS NOERROR CNAME sentosacove-com.hostedon.isomer.gov.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.sfemc.org": {
+  "a_records": [
+   "3.165.75.104",
+   "3.165.75.64",
+   "3.165.75.92",
+   "3.165.75.119"
+  ],
+  "cname": [
+   "sfemc-org.hostedon.isomer.gov.sg"
+  ],
+  "note": "DNS NOERROR CNAME sfemc-org.hostedon.isomer.gov.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.sgenable.sg": {
+  "a_records": [
+   "13.35.163.53",
+   "13.35.163.21",
+   "13.35.163.51",
+   "13.35.163.7"
+  ],
+  "cname": [
+   "d3iwwi1uxccdtb.cloudfront.net"
+  ],
+  "note": "DNS NOERROR CNAME d3iwwi1uxccdtb.cloudfront.net",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.sgh.com.sg": {
+  "a_records": [
+   "199.232.115.10"
+  ],
+  "cname": [
+   "cdn.adobeaemcloud.com",
+   "adobe-aem.map.fastly.net"
+  ],
+  "note": "DNS NOERROR CNAME cdn.adobeaemcloud.com -> adobe-aem.map.fastly.net",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.sgwomenintech.sg": {
+  "a_records": [
+   "65.9.168.19",
+   "65.9.168.107",
+   "65.9.168.67",
+   "65.9.168.23"
+  ],
+  "cname": [
+   "sgwomenintech-sg.hostedon.isomer.gov.sg"
+  ],
+  "note": "DNS NOERROR CNAME sgwomenintech-sg.hostedon.isomer.gov.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.singaporeopportunityindex.sg": {
+  "a_records": [
+   "65.9.168.105",
+   "65.9.168.127",
+   "65.9.168.34",
+   "65.9.168.62"
+  ],
+  "cname": [
+   "d1d1zvwasu6xf6.cloudfront.net"
+  ],
+  "note": "DNS NOERROR CNAME d1d1zvwasu6xf6.cloudfront.net",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.singaporewritersfestival.com": {
+  "a_records": [
+   "178.128.23.128"
+  ],
+  "cname": [
+   "singaporewritersfestival.com"
+  ],
+  "note": "DNS NOERROR CNAME singaporewritersfestival.com",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.singcert.org.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS TIMEOUT (unknown, not treated as non-resolving)",
+  "resolves": null,
+  "status": "TIMEOUT"
+ },
+ "www.singhealth.com.sg": {
+  "a_records": [
+   "199.232.115.10"
+  ],
+  "cname": [
+   "cdn.adobeaemcloud.com",
+   "adobe-aem.map.fastly.net"
+  ],
+  "note": "DNS NOERROR CNAME cdn.adobeaemcloud.com -> adobe-aem.map.fastly.net",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.siww.com.sg": {
+  "a_records": [
+   "99.86.18.33",
+   "99.86.18.58",
+   "99.86.18.72",
+   "99.86.18.57"
+  ],
+  "cname": [
+   "d2bklrckc07hi6.cloudfront.net"
+  ],
+  "note": "DNS NOERROR CNAME d2bklrckc07hi6.cloudfront.net",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.skh.com.sg": {
+  "a_records": [
+   "199.232.115.10"
+  ],
+  "cname": [
+   "cdn.adobeaemcloud.com",
+   "adobe-aem.map.fastly.net"
+  ],
+  "note": "DNS NOERROR CNAME cdn.adobeaemcloud.com -> adobe-aem.map.fastly.net",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.sktc.sg": {
+  "a_records": [
+   "3.1.244.130"
+  ],
+  "cname": [
+   "sktc.sg"
+  ],
+  "note": "DNS NOERROR CNAME sktc.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.smartnation.gov.sg": {
+  "a_records": [
+   "99.86.18.62",
+   "99.86.18.41",
+   "99.86.18.47",
+   "99.86.18.101"
+  ],
+  "cname": [
+   "smartnation-gov-sg.hostedon.isomer.gov.sg"
+  ],
+  "note": "DNS NOERROR CNAME smartnation-gov-sg.hostedon.isomer.gov.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.smw.sg": {
+  "a_records": [
+   "45.60.15.176"
+  ],
+  "cname": [
+   "mbe3ae4.ng.impervadns.net"
+  ],
+  "note": "DNS NOERROR CNAME mbe3ae4.ng.impervadns.net",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.snec.com.sg": {
+  "a_records": [
+   "199.232.115.10"
+  ],
+  "cname": [
+   "cdn.adobeaemcloud.com",
+   "adobe-aem.map.fastly.net"
+  ],
+  "note": "DNS NOERROR CNAME cdn.adobeaemcloud.com -> adobe-aem.map.fastly.net",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.sntc.org.sg": {
+  "a_records": [
+   "104.21.41.49",
+   "172.67.160.171"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.sportsync.gov.sg": {
+  "a_records": [
+   "52.128.22.101"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.ssix-a1.csa.gov.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NXDOMAIN",
+  "resolves": false,
+  "status": "NXDOMAIN"
+ },
+ "www.ssix-a2.csa.gov.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NXDOMAIN",
+  "resolves": false,
+  "status": "NXDOMAIN"
+ },
+ "www.ssix-a3.csa.gov.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NXDOMAIN",
+  "resolves": false,
+  "status": "NXDOMAIN"
+ },
+ "www.ssix-a4.csa.gov.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NXDOMAIN",
+  "resolves": false,
+  "status": "NXDOMAIN"
+ },
+ "www.ssix-a5.csa.gov.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NXDOMAIN",
+  "resolves": false,
+  "status": "NXDOMAIN"
+ },
+ "www.ssix-a6.csa.gov.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NXDOMAIN",
+  "resolves": false,
+  "status": "NXDOMAIN"
+ },
+ "www.ssix-b1.csa.gov.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NXDOMAIN",
+  "resolves": false,
+  "status": "NXDOMAIN"
+ },
+ "www.ssix-b2.csa.gov.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NXDOMAIN",
+  "resolves": false,
+  "status": "NXDOMAIN"
+ },
+ "www.ssix-b3.csa.gov.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NXDOMAIN",
+  "resolves": false,
+  "status": "NXDOMAIN"
+ },
+ "www.ssix-b4.csa.gov.sg": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NXDOMAIN",
+  "resolves": false,
+  "status": "NXDOMAIN"
+ },
+ "www.stg.icanactagainstscams.gov.sg": {
+  "a_records": [
+   "99.86.18.108",
+   "99.86.18.5",
+   "99.86.18.79",
+   "99.86.18.50"
+  ],
+  "cname": [
+   "s-gvt-gasp-scamsexposed.on.tc2.airbase.tech.gov.sg"
+  ],
+  "note": "DNS NOERROR CNAME s-gvt-gasp-scamsexposed.on.tc2.airbase.tech.gov.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.synapxe.sg": {
+  "a_records": [
+   "104.18.35.130",
+   "172.64.152.126"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.sysnmh.org.sg": {
+  "a_records": [
+   "108.157.254.61",
+   "108.157.254.21",
+   "108.157.254.66",
+   "108.157.254.113"
+  ],
+  "cname": [
+   "p-mccy-nhb-sysnmh.on.tc2.airbase.tech.gov.sg"
+  ],
+  "note": "DNS NOERROR CNAME p-mccy-nhb-sysnmh.on.tc2.airbase.tech.gov.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.tal.sg": {
+  "a_records": [
+   "150.171.110.105"
+  ],
+  "cname": [
+   "hube4353f1277aa-prod-frontdoor-endpoint-aje3frdwb8g8gchv.a03.azurefd.net",
+   "mr-a03.tm-azurefd.net"
+  ],
+  "note": "DNS NOERROR CNAME hube4353f1277aa-prod-frontdoor-endpoint-aje3frdwb8g8gchv.a03.azurefd.net -> mr-a03.tm-azurefd.net",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.tampines.org.sg": {
+  "a_records": [
+   "192.124.249.118"
+  ],
+  "cname": [
+   "tampines.org.sg"
+  ],
+  "note": "DNS NOERROR CNAME tampines.org.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.teamsingapore.sg": {
+  "a_records": [
+   "199.60.103.30",
+   "199.60.103.226"
+  ],
+  "cname": [
+   "6212555.group5.sites.hubspot.net",
+   "group5.sites.hscoscdn00.net"
+  ],
+  "note": "DNS NOERROR CNAME 6212555.group5.sites.hubspot.net -> group5.sites.hscoscdn00.net",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.tech.gov.sg": {
+  "a_records": [
+   "3.165.75.93",
+   "3.165.75.11",
+   "3.165.75.61",
+   "3.165.75.57"
+  ],
+  "cname": [
+   "tech-gov-sg.hostedon.isomer.gov.sg"
+  ],
+  "note": "DNS NOERROR CNAME tech-gov-sg.hostedon.isomer.gov.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.tptc.org.sg": {
+  "a_records": [
+   "15.235.229.3"
+  ],
+  "cname": [
+   "tptc.org.sg"
+  ],
+  "note": "DNS NOERROR CNAME tptc.org.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.ttsh.com.sg": {
+  "a_records": [
+   "172.64.151.232",
+   "104.18.36.24"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.visitsingapore.com": {
+  "a_records": [
+   "45.60.159.114"
+  ],
+  "cname": [
+   "ff29egs.ng.impervadns.net"
+  ],
+  "note": "DNS NOERROR CNAME ff29egs.ng.impervadns.net",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.worldcitiessummit.com.sg": {
+  "a_records": [
+   "13.33.45.128",
+   "13.33.45.3",
+   "13.33.45.57",
+   "13.33.45.55"
+  ],
+  "cname": [
+   "p-mnd-worldcitiessummit.on.tc2.airbase.tech.gov.sg"
+  ],
+  "note": "DNS NOERROR CNAME p-mnd-worldcitiessummit.on.tc2.airbase.tech.gov.sg",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.yishuncommunityhospital.com.sg": {
+  "a_records": [
+   "104.18.39.29",
+   "172.64.148.227"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "www.yri.com.sg": {
+  "a_records": [
+   "101.100.246.47"
+  ],
+  "cname": [],
+  "note": "DNS NOERROR",
+  "resolves": true,
+  "status": "NOERROR"
+ },
+ "xiamthescams.sqkii.com": {
+  "a_records": [],
+  "cname": [],
+  "note": "DNS NXDOMAIN",
+  "resolves": false,
+  "status": "NXDOMAIN"
+ }
+}

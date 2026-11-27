@@ -1,0 +1,22 @@
+{
+ "host": "www.skillsfuture.gov.sg",
+ "robots_status": 200,
+ "robots": "User-Agent: *\n\nSitemap: /sitemap.xml\n",
+ "sitemaps_declared": [
+  "/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  [
+   "https://www.skillsfuture.gov.sg/sitemap.xml",
+   "urlset",
+   100,
+   "https://www.skillsfuture.gov.sg/sitemap.xml"
+  ]
+ ],
+ "errors": [],
+ "total_urls": 100,
+ "hosts_in_sitemap": {
+  "www.skillsfuture.gov.sg": 100
+ },
+ "matches": []
+}

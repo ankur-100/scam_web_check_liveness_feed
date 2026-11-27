@@ -1,0 +1,31 @@
+User-agent: *
+
+Disallow: /eforms/
+Disallow: /external-link/
+Disallow: /business-banking/policies.html
+Disallow: /personal-banking/conditions-of-access.html
+Disallow: /personal-banking/Accounts/terms-and-conditions-governing-ocbc-time-deposit-promotional-rates.html
+Disallow: /business-banking/trade-and-international/buyer/lightbox/generic-forms-page-lightboxA.html
+Disallow: /assets/pdf/annual%20reports/2011/ocbc-2011-principal-officers.pdf
+Disallow: /personal-banking/lifegoals/willgenerator/?pid=sg:en:silvers::OnlineWillGenerator::Dec18:internal:ocbc:article:6things
+Disallow: /personal-banking/lifegoals/willgenerator/?pid=sg:en:silvers::OnlineWillGenerator::Dec18:internal:ocbc:article:6things#/
+Disallow: /personal-banking/lifegoals/willgenerator/?pid=sg:en:-Others::-OnlineWillGenerator::Dec18:internal:-Ocbc:Pblanding:textbanner:::#/
+Disallow: /personal-banking/insurance/great-term-guard?pid=Mass:insurance:GreatTermGuard:Tactical:Acquisition:Feb:2022:internal:::ProtectionListing:Banner:::
+Disallow: /personal-banking/insurance/great-term-guard?pid=Mass:insurance:GreatTermGuard:Tactical:Acquisition:Mar2022:internal:::Homepage:Banner:::
+Disallow: /assets/pdf/annual%20reports/2011/ocbc-2011-principal-officers.pdf
+Disallow: /group/investors/business-strategy-reports-and-presentations.html
+Disallow: /iwov-resources/sg/ocbc/gbc/pdf/investors/annual-reports/2020
+Disallow: /group/investors/help-and-support/financial-results.html
+Disallow: /group/media/do-not-touch-leaders-board-of-directors.html
+Disallow: /group/investors/business-strategy-reports-and-presentations.html
+Disallow: /iwov-resources/sg/ocbc/gbc/img/about-us/our-leadership/board-of-directors/profile_ooi-sang-kuang.jpg
+Disallow: /iwov-resources/sg/ocbc/gbc/img/group-business/leadership/mr-ooi-sang-kuang.jpg  
+Disallow: /business-banking/webform
+Disallow: /business-banking/business-banking-enquiry-form
+Disallow: /business-banking/smes/business-tools/forms-merchant
+Disallow: /business-banking/_test_prelive_bot
+
+
+Sitemap: https://www.ocbc.com/sitemap.xml
+Sitemap: https://www.ocbc.com/iwov-resources/sg/ocbc/business/sitemap.xml
+

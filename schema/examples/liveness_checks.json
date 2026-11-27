@@ -1,0 +1,98 @@
+[
+ {
+  "record_type": "liveness_check",
+  "check_id": "chk_d2cf9773155c4270",
+  "indicator_id": "ind_29c0928d3a51e6a0",
+  "checked_at": "2026-11-26T03:42:10Z",
+  "checker": {
+   "version": "schema-fit-0.1",
+   "vantage": "azure-vm (non-SG)",
+   "resolver": "system (Azure DNS via systemd-resolved)"
+  },
+  "dns": {
+   "rcode": "NOERROR",
+   "a": [
+    "172.66.44.77",
+    "172.66.47.179"
+   ],
+   "aaaa": [],
+   "cname": [],
+   "ns": []
+  },
+  "rdap": null,
+  "tls": null,
+  "http": null,
+  "fingerprints": [],
+  "verdict": "inconclusive"
+ },
+ {
+  "record_type": "liveness_check",
+  "check_id": "chk_d15531b5f98e48e8",
+  "indicator_id": "ind_7e35d65d1a18205b",
+  "checked_at": "2026-11-26T03:42:10Z",
+  "checker": {
+   "version": "schema-fit-0.1",
+   "vantage": "azure-vm (non-SG)",
+   "resolver": "system (Azure DNS via systemd-resolved)"
+  },
+  "dns": {
+   "rcode": "TIMEOUT",
+   "a": [],
+   "aaaa": [],
+   "cname": [],
+   "ns": []
+  },
+  "rdap": {
+   "status": [
+    "client transfer prohibited",
+    "client hold",
+    "client update prohibited"
+   ],
+   "registered_at": "2026-07-01T04:34:59Z",
+   "expires_at": "2027-07-01T04:34:59Z",
+   "registrar": "Dominet (HK) Limited",
+   "error": null
+  },
+  "tls": null,
+  "http": null,
+  "fingerprints": [
+   "registrar_hold"
+  ],
+  "verdict": "dead"
+ },
+ {
+  "record_type": "liveness_check",
+  "check_id": "chk_0a01f425785b1653",
+  "indicator_id": "ind_5c5c3891afa205ee",
+  "checked_at": "2026-11-26T03:42:10Z",
+  "checker": {
+   "version": "schema-fit-0.1",
+   "vantage": "azure-vm (non-SG)",
+   "resolver": "system (Azure DNS via systemd-resolved)"
+  },
+  "dns": {
+   "rcode": "TIMEOUT",
+   "a": [],
+   "aaaa": [],
+   "cname": [],
+   "ns": []
+  },
+  "rdap": {
+   "status": [
+    "client transfer prohibited",
+    "client hold",
+    "client update prohibited"
+   ],
+   "registered_at": "2026-06-30T06:53:53Z",
+   "expires_at": "2027-06-30T06:53:53Z",
+   "registrar": "Dominet (HK) Limited",
+   "error": null
+  },
+  "tls": null,
+  "http": null,
+  "fingerprints": [
+   "registrar_hold"
+  ],
+  "verdict": "dead"
+ }
+]

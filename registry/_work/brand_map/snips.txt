@@ -1,0 +1,1289 @@
+
+######## [0] Land Transport Authority (LTA) (n=18)
+--- 2026-11-06 | Advisory: Beware of Phishing Scams Impersonating LTA | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-lta-d417b83d
+    brands=['Land Transport Authority (LTA)'] gov=['Land Transport Authority (LTA)'] domains=['gsaz.cc']
+    > The Singapore Police Force has observed recent phishing attempts impersonating the Land Transport Authority (LTA). These scams typically involve messages or websites designed to look like official LTA communications, aiming to trick you into revealing personal or financial information. Some of these fraudulent websites use suspicious URLs like `gsaz.cc`.
+    > *   You receive unexpected messages (SMS, email, or social media) claiming to be from LTA, often containing suspicious links (e.g., starting with `gsaz.cc` or other unfamiliar domains).
+--- 2026-10-28 | Advisory: Beware of Fake LTA Websites Impersonating Land Transport Authority | https://www.icanactagainstscams.gov.sg/scam-trends/fake-lta-websites-impersonating-land-transport-authority-cd50b0fc
+    brands=['Land Transport Authority (LTA)'] gov=['Land Transport Authority (LTA)'] domains=['pajy.apppy.cc']
+    > The Singapore Police Force has observed a trend of scam websites impersonating the Land Transport Authority (LTA). These scam sites aim to trick you into revealing personal information or making fraudulent payments, often by mimicking official LTA services or notifications.
+    > *   **Check the website address (URL):** Always verify the URL. Official Land Transport Authority (LTA) websites consistently end with `lta.gov.sg`. Scam sites often use suspicious or unfamiliar domains like `pajy.apppy.cc` or similar non-official addresses.
+    > *   **Be wary of unexpected messages:** Exercise caution with unexpected SMS messages or emails purporting to be from LTA, especially if they ask for urgent action, personal details, or payments and include links. Always verify such requests through official LTA channels.
+--- 2026-09-24 | Advisory: Beware of Phishing Scams Impersonating LTA's OneMotoring | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-ltas-onemotoring-2a3bb51f
+    brands=['Land Transport Authority (LTA)'] gov=['Land Transport Authority (LTA)'] domains=['onemotoring-iza.top']
+    > The Singapore Police Force would like to alert members of the public to a recurring phishing scam impersonating the Land Transport Authority (LTA)'s OneMotoring portal. We have observed scam sites such as "onemotoring-iza.top" attempting to trick users into revealing their personal information.
+    > *   You receive unexpected messages or encounter websites with unofficial URLs (e.g., "onemotoring-iza.top") asking for your personal or banking details. Official LTA OneMotoring services are found at `www.onemotoring.lta.gov.sg`.
+    > 1.  **Do not click on suspicious links.** Always verify the authenticity of websites by typing the official URL directly into your browser. For LTA services, this is `www.lta.gov.sg` or `www.onemotoring.lta.gov.sg`.
+--- 2026-07-16 | Advisory: Beware of Phishing Scams Impersonating Land Transport Authority (LTA) | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-land-transport-authority-lta-4dca6251
+    brands=['Land Transport Authority (LTA)'] gov=['Land Transport Authority (LTA)'] domains=['citepay.top']
+    > The Singapore Police Force (SPF) has observed a trend of phishing scams using fake websites to impersonate the Land Transport Authority (LTA). These scams involve fraudulent websites with unofficial URLs, such as `citepay.top`, designed to trick you into revealing personal or financial information.
+    > *   You receive messages (SMS, email, or chat apps) asking you to click on links related to LTA matters (e.g., fines, vehicle updates) from unusual URLs like `citepay.top`. LTA's official website is `www.lta.gov.sg`.
+    > *   The website you are directed to, despite appearing official, has a suspicious URL and prompts you to provide personal details or make payments outside of LTA's official platforms.
+    > *   **Do not click on suspicious links.** Always verify the authenticity of messages and websites by going directly to LTA's official website (www.lta.gov.sg) or through official government channels.
+
+######## [1] WhatsApp (n=8)
+--- 2026-09-25 | Advisory: Impersonation Scams Using Fake WhatsApp Websites | https://www.icanactagainstscams.gov.sg/scam-trends/impersonation-scams-using-fake-whatsapp-websites-9f2d51f4
+    brands=['WhatsApp'] gov=[] domains=['whasgapp.com']
+    > The Singapore Police Force has observed a trend of scam websites impersonating WhatsApp. These fraudulent sites aim to trick users into revealing personal information or downloading malicious software.
+    > *   Always scrutinise the website address. Genuine WhatsApp websites will always be `whatsapp.com`. Scammers often use subtle misspellings or additional words in the URL (e.g., `whasgapp.com`, `whatsapp-update.com`).
+    > *   Be wary of unsolicited messages or pop-ups asking you to click a link to "verify" your account, "update" your app, or claim a prize. WhatsApp will not ask for sensitive information or updates through random links.
+    > *   **If you have clicked a suspicious link and entered personal details** (e.g., WhatsApp login details, banking information, or One-Time Passwords):     *   **"Adding" security features:** Immediately change your passwords for WhatsApp and any other accounts that share the same password. Enable Two-Factor Authentication (2FA) on all your accounts for an extra layer of security.     *   **"Telling" authorities:** Report the incident to the police. Contact your bank immediately if you have provided banking details or noticed any unauthorised tr
+--- 2026-07-13 | Advisory on WhatsApp Impersonation Scams | https://www.icanactagainstscams.gov.sg/scam-trends/whatsapp-impersonation-scams-c1724f8f
+    brands=['WhatsApp'] gov=[] domains=['ws-whmalopp.lat']
+    > The Singapore Police Force has observed a recent trend of impersonation scams primarily conducted through WhatsApp. Scammers are exploiting the trust associated with familiar messaging platforms to trick individuals.
+    > *   Be wary of any unexpected links received via WhatsApp, even from known contacts. Scammers use fake URLs (e.g., `ws-whmalopp.lat`) which do not belong to official WhatsApp sites, to trick you into revealing personal information or downloading malware.
+    > 1.  **ACT by "Adding" Security Features:** Immediately change your account passwords for WhatsApp and any other online accounts if you clicked on a suspicious link or provided your details. Enable Two-Step Verification for your WhatsApp account to enhance security.
+--- 2026-06-30 | Public Advisory: Beware of Fake WhatsApp Websites and Links | https://www.icanactagainstscams.gov.sg/scam-trends/fake-whatsapp-websites-and-links-d275cdd3
+    brands=['WhatsApp'] gov=[] domains=['whetsap.cam']
+    > The Singapore Police Force (SPF) has observed a trend of impersonation scams involving fake websites and links designed to look like legitimate platforms, such as WhatsApp. Scammers use these sites, like "whetsap.cam", to trick users into revealing personal information or downloading malicious software.
+    > *   **Suspicious URLs:** Always scrutinise the website address. Scammers often use misspelled brand names (e.g., "whetsap.cam" instead of "whatsapp.com") or unusual domain extensions.
+    > *   **Report the incident** to the police and inform WhatsApp directly about the fake site.
+--- 2026-05-29 | Advisory: Beware of Impersonation Scams Using Fake WhatsApp Websites | https://www.icanactagainstscams.gov.sg/scam-trends/impersonation-scams-using-fake-whatsapp-websites-8368cb2d
+    brands=['WhatsApp'] gov=[] domains=['whetsoerapp.cc']
+    > The Singapore Police Force (SPF) observes a trend of impersonation scams involving fake WhatsApp websites. Scammers create malicious websites that mimic the official WhatsApp platform to trick users into revealing personal information or downloading malware.
+    > *   Scam websites often use misspelled or slightly altered URLs (e.g., `whetsoerapp.cc` instead of `whatsapp.com`) to deceive you into thinking they are official.
+    > *   Be cautious of unexpected messages or links, even if they appear to be from WhatsApp, that ask you to click, download, or provide personal information.
+    > *   **A**dd security features: Strengthen your protection by enabling Two-Factor Authentication (2FA) for your WhatsApp and other online accounts. This adds an extra layer of security, making it harder for scammers to access your accounts even if they obtain your password.
+
+######## [2] CNA (n=7)
+--- 2026-11-18 | Advisory: Beware of Fake CNA Investment Schemes | https://www.icanactagainstscams.gov.sg/scam-trends/fake-cna-investment-schemes-5a8178c7
+    brands=['CNA'] gov=[] domains=['truedesignsolutions.shop']
+    > The Singapore Police Force has observed a recent trend of scam websites impersonating CNA to promote fake investment schemes. These fraudulent sites have been reported multiple times, targeting the public with deceptive offers.
+    > *   Scammers create fake websites (e.g., `truedesignsolutions.shop`) that impersonate legitimate brands like CNA, promising attractive, high returns on investment opportunities that seem too good to be true.
+--- 2026-10-26 | Advisory: Beware of Investment Scams Impersonating CNA | https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-cna-f62f8c29
+    brands=['CNA'] gov=[] domains=['zenvaroe.com', 'avernovat.com', 'databaiouzuma.com', 'brenthevalepo.com', 'venoqai.com', 'shopboyarskiy.com']
+    > The Singapore Police Force has observed a recent surge in **investment scams impersonating CNA**. Scammers are using fake websites and advertisements bearing the CNA brand to trick victims into believing they are legitimate investment platforms. These fraudulent schemes often promise high returns with little to no risk, luring individuals into depositing money.
+    > *   **Suspicious Websites**: Be cautious of investment opportunities promoted under the CNA brand on websites with unfamiliar or slightly altered URLs (e.g., zenvaroe.com, avernovat.com) that do not belong to CNA's official domains.
+    > *   **Unsolicited Offers**: Be wary of unsolicited messages, social media ads, or online posts promoting investment schemes that claim association with CNA, especially if they promise unusually high returns. Always verify the legitimacy of such offers directly with official CNA channels.
+    > *   **Check and Verify**: Before making any investment decisions, always verify the authenticity of investment opportunities with official sources. For CNA, check their official website or social media channels directly.
+--- 2026-10-19 | Advisory: Beware of Investment Scams Impersonating CNA | https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-cna-904c5cfc
+    brands=['CNA'] gov=[] domains=['datahunge.top', 'easyspark.company']
+    > The Singapore Police Force has observed a trend of investment scams impersonating CNA. Scammers are creating fake websites that mimic CNA's branding to promote fraudulent investment schemes, as seen with URLs like `datahunge.top` and `easyspark.company`.
+    > *   **Check the website address carefully:** Scammers use slight variations or unusual domain extensions (like `.top` or `.company`) that do not belong to official CNA websites. Always verify the authenticity of investment platforms.
+--- 2026-07-17 | Advisory on Investment Scams Impersonating CNA | https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-cna-66aecba1
+    brands=['CNA'] gov=[] domains=['aspencup.one']
+    > The Singapore Police Force has observed a trend of investment scams impersonating Channel NewsAsia (CNA). These scams typically lure victims with fraudulent investment opportunities, often promising high returns.
+    > *   Scammers create fake websites that look like CNA, promoting highly lucrative investment schemes.
+    > *   The website addresses are often suspicious (e.g., `aspencup.one` instead of `cna.asia`) and do not belong to CNA.
+    > *   **C**heck for scam signs and verify information with official sources. CNA's official website is `cna.asia`.
+
+######## [3] TikTok (n=6)
+--- 2026-11-23 | Stay Vigilant Against Job Scams Impersonating TikTok | https://www.icanactagainstscams.gov.sg/scam-trends/job-scams-impersonating-tiktok-27609357
+    brands=['TikTok'] gov=[] domains=['globaltop.org']
+    > The Singapore Police Force has observed a recent trend of job scams impersonating well-known brands like TikTok. Scammers are using fake websites and messaging platforms to trick individuals into believing they are applying for legitimate employment opportunities.
+    > *   **Unsolicited Job Offers:** You receive unexpected job offers, often via messaging apps or social media, claiming to be from a well-known company like TikTok, promising easy money for simple tasks.
+--- 2026-06-10 | Advisory: Beware of Fake Job Scams Impersonating TikTok | https://www.icanactagainstscams.gov.sg/scam-trends/fake-job-scams-impersonating-tiktok-0fe35827
+    brands=['TikTok'] gov=[] domains=['fdfdd.cc']
+    > The Singapore Police Force (SPF) has observed a trend of job scams impersonating popular social media platforms like TikTok. Scammers are luring individuals with promises of easy money through fake part-time jobs.
+--- 2026-04-20 | Advisory: Beware of Fake Job Offers on TikTok Leading to Scam Websites | https://www.icanactagainstscams.gov.sg/scam-trends/fake-job-offers-on-tiktok-leading-to-scam-websites-33fb80c4
+    brands=['TikTok'] gov=[] domains=['mermyseller.shop', 'r2g9.my', 'm0j5g.my']
+    > The Singapore Police Force (SPF) has observed a trend of job scams, particularly those leveraging the TikTok platform. Scammers approach victims with attractive "work-from-home" opportunities or tasks such as liking TikTok videos, promising quick and easy money.
+    > *   You receive unsolicited job offers, often promising high returns for minimal effort, sometimes involving "liking" videos or performing simple tasks on platforms like TikTok.
+--- 2026-04-10 | Advisory: Beware of Fake Job Offers Impersonating TikTok | https://www.icanactagainstscams.gov.sg/scam-trends/fake-job-offers-impersonating-tiktok-a7dd50d5
+    brands=['TikTok'] gov=[] domains=['dongbeilaobo.com', 'gebbrand.com', '91boris.com']
+    > The Singapore Police Force (SPF) has observed a trend of job scams using unofficial websites to impersonate well-known brands, including TikTok. These scams often entice victims with promises of easy money through part-time tasks, only to defraud them of their savings.
+    > *   Scammers offer fake job opportunities, often promising high returns for simple online tasks (e.g., liking videos, completing surveys), while impersonating popular brands like TikTok.
+
+######## [4] UnionPay (n=6)
+--- 2026-10-09 | Advisory: Beware of Scam Websites Impersonating UnionPay | https://www.icanactagainstscams.gov.sg/scam-trends/scam-websites-impersonating-unionpay-8f10118c
+    brands=['UnionPay'] gov=[] domains=['lumivo.cfd', 'calqiro.cfd']
+    > The Singapore Police Force has observed recent reports of scam websites impersonating UnionPay. These sites aim to trick users into revealing their personal and banking information.
+    > *   **Check for scam signs:** Always scrutinise the website address. Legitimate UnionPay websites will have official domains, not suspicious ones like `lumivo.cfd` or `calqiro.cfd`. Look for inconsistencies or unusual layouts.
+    > *   **Verify unexpected requests:** Be wary of unsolicited messages (e.g., SMS, emails) that direct you to a website asking for your UnionPay details. UnionPay will typically not ask for sensitive information through unverified links.
+    > *   **Tell authorities and your bank:** Immediately contact your bank or UnionPay to report any unauthorised transactions and secure your accounts.
+--- 2026-05-20 | Advisory: Beware of Fake UnionPay "Security Check" Scam Websites | https://www.icanactagainstscams.gov.sg/scam-trends/fake-unionpay-security-check-scam-websites-b4bd3436
+    brands=['UnionPay'] gov=[] domains=['plieruy.cfd']
+    > The Singapore Police Force (SPF) has observed an increase in scam websites impersonating UnionPay. These sites often trick users with fake "security check" prompts to steal their login credentials and personal information.
+    > *   Scammers create fake websites with suspicious website addresses (URLs) that are not the official UnionPay website (e.g., `plieruy.cfd` instead of `unionpayintl.com`).
+    > *   Always enable Two-Factor Authentication (2FA) for your UnionPay account and other online accounts to add an extra layer of security.
+    > *   Verify the authenticity of any website by carefully checking the URL for misspellings or unusual characters. Always go directly to UnionPay's official website or app instead of clicking on links from unknown sources.
+--- 2026-05-11 | Scam Alert: Beware of Fake UnionPay 'Fund Recovery' Websites | https://www.icanactagainstscams.gov.sg/scam-trends/fake-unionpay-fund-recovery-websites-4ddc4ca0
+    brands=['UnionPay'] gov=[] domains=['victimfundsrecvery.com']
+    > The Singapore Police Force (SPF) observes a trend of fake websites impersonating UnionPay, claiming to help victims recover lost funds. These "fund recovery" scams often target individuals who have previously fallen victim to other scams, promising to retrieve their money.
+    > *   **Suspicious Website Addresses:** Always verify that the website address is official. For instance, sites like "victimfundsrecvery.com" are not legitimate UnionPay domains and may contain misspellings. Official UnionPay websites will always use their verified domain names.
+--- 2025-12-15 | Protect Yourself from UnionPay Impersonation Scams | https://www.icanactagainstscams.gov.sg/scam-trends/unionpay-impersonation-scams-95c0e617
+    brands=['UnionPay'] gov=[] domains=['23168586.cc', '21556080.cc']
+    > The Singapore Police Force (SPF) has observed a recent trend of scam websites impersonating UnionPay. These fake websites aim to trick you into revealing your personal or banking details.
+    > *   **Check the website address carefully.** Scammers use unusual domain names (e.g., ending in `.cc`) to mimic official UnionPay sites. Always look for official UnionPay domain names.
+    > **What to do if you are affected:** If you have provided your personal or banking details on a suspicious UnionPay-impersonating website:
+
+######## [5] DBS (n=6)
+--- 2026-09-17 | Advisory: Beware of Fake DBS Banking Websites | https://www.icanactagainstscams.gov.sg/scam-trends/fake-dbs-banking-websites-8b05d3bf
+    brands=['DBS'] gov=[] domains=['dbsi-banking.com']
+    > The Singapore Police Force has observed an increase in phishing websites impersonating banks, including DBS. These fake websites aim to trick you into revealing your banking credentials and personal information.
+    > *   Always scrutinise the website address. Official DBS websites use `dbs.com` or `posb.com`. Be wary of URLs that are slightly different, like `dbsi-banking.com` or other variations.
+    > *   If you have entered your banking details onto a suspicious website, immediately contact DBS/POSB through their official fraud hotline or customer service number.
+--- 2026-08-14 | Advisory: Beware of Phishing Scams Impersonating DBS Bank | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-dbs-bank-b07bb49a
+    brands=['DBS'] gov=[] domains=['ice-coffee-star.unicornplatform.page']
+    > The Singapore Police Force observes a trend of banking-related phishing scams, with scammers creating fake websites that impersonate DBS Bank. These scam sites aim to trick you into revealing your confidential banking details.
+    > *   **Unusual Website Addresses:** Always check the website address (URL). Scammers often use web addresses that look slightly off or contain unfamiliar words, unlike the official DBS website.
+    > *   **Requests for Confidential Information:** Be wary of any website or message asking you to provide your internet banking User ID, PIN, or One-Time Passwords (OTPs) through a link. DBS Bank will never ask for these details via unofficial links or pop-ups.
+    > *   Immediately contact DBS Bank using the official number to report the incident and secure your accounts.
+--- 2026-04-16 | Advisory: Beware of Phishing Scams Impersonating DBS Bank | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-dbs-bank-a8deb5cc
+    brands=['DBS'] gov=[] domains=['cmpaus.com.au', 'dbs-token.buzz', 'sg-update.help']
+    > The Singapore Police Force (SPF) has observed a recent trend of phishing scam sites impersonating DBS Bank. These sites aim to trick individuals into revealing their banking credentials and One-Time Passwords (OTPs).
+    > *   Always verify the website address. Official DBS websites use secure domains like `dbs.com.sg`. Be suspicious of unfamiliar domains (e.g., `cmpaus.com.au`, `dbs-token.buzz`, `sg-update.help`).
+    > *   DBS will never ask you to click a link in an SMS or email to verify your account, update security tokens, or provide your internet banking credentials and OTPs.
+    > *   **Tell** authorities, family, and friends: Immediately contact DBS through their official fraud hotline if you have provided your banking details or suspect unauthorised transactions. Report the incident to the police and inform your loved ones about the scam to protect them.
+--- 2026-03-23 | Advisory: Beware of Fake Banking Websites Impersonating DBS and UOB | https://www.icanactagainstscams.gov.sg/scam-trends/fake-banking-websites-impersonating-dbs-and-uob-17e317a7
+    brands=['DBS', 'UOB'] gov=[] domains=['resend-clicks-a.com', 'ifreelance4u.com', 'utradetsg1.top']
+    > The Singapore Police Force (SPF) observes a rise in scam websites impersonating local banks, specifically DBS and UOB. These phishing sites aim to trick you into revealing your banking credentials and One-Time Passwords (OTPs).
+    > *   **Check** the website address: Always verify that you are on the official DBS or UOB website (e.g., `dbs.com.sg`, `uob.com.sg`). Scammers use fake URLs that look similar but are incorrect (e.g., `resend-clicks-a.com`, `ifreelance4u.com`, `utradetsg1.top`).
+    > *   Immediately **Tell** your bank (DBS or UOB) via their official hotline to report the incident and secure your account.
+
+######## [6] Singapore Police Force (SPF) (n=5)
+--- 2026-11-24 | Advisory: Beware of Fake Singapore Police Force Websites and Messages | https://www.icanactagainstscams.gov.sg/scam-trends/fake-singapore-police-force-websites-and-messages-b633b3b7
+    brands=['Singapore Police Force (SPF)'] gov=['Singapore Police Force (SPF)'] domains=['drbypass-proxy.pages.dev']
+    > The Singapore Police Force (SPF) has observed a trend of scam websites and messages impersonating official SPF communications. These fraudulent sites aim to trick the public into believing they are interacting with the police, often to solicit personal information or money.
+    > *   **Unusual website addresses:** Official SPF websites always end with `.gov.sg`. Be wary of links that use different endings (e.g., `.pages.dev`, `.com`, `.net`) or contain suspicious characters.
+    > *   **Requests for sensitive information:** SPF will never ask for your banking details, Singpass password, or one-time passwords (OTPs) through unofficial channels or suspicious links.
+    > **What to do if you encounter such a scam or have been affected:** If you receive a suspicious message or encounter a website claiming to be SPF, do not click on any links, provide personal details, or make any payments. If you have already done so, immediately stop all communication with the scammers, secure your bank accounts and digital profiles, and make a police report. Inform your family and friends about the scam to help them stay vigilant.
+--- 2026-10-27 | Alert: Fake SPF Websites Impersonating the Police | https://www.icanactagainstscams.gov.sg/scam-trends/fake-spf-websites-impersonating-the-police-7f6b01a2
+    brands=['Singapore Police Force (SPF)'] gov=['Singapore Police Force (SPF)'] domains=['hare-fan8702.workers.dev']
+    > The Singapore Police Force has observed a trend of scam websites impersonating our official channels. These fraudulent sites, which have been reported over 110 times, aim to deceive members of the public into revealing personal information or making payments.
+    > *   **Check the website address carefully.** Official SPF websites will always use the domain `police.gov.sg` (e.g., `www.police.gov.sg`). Scammers use unofficial or slightly altered URLs, often with generic-sounding words or numbers, like `hare-fan8702.workers.dev`.
+    > *   **Be suspicious of unexpected messages or pop-ups** claiming to be from SPF that demand immediate action, personal details, or payment for fines or investigations. SPF will never ask for your banking details or demand money transfers through unofficial means.
+--- 2026-08-24 | Advisory: Beware of Fake SPF Websites Impersonating Singapore Police Force | https://www.icanactagainstscams.gov.sg/scam-trends/fake-spf-websites-impersonating-singapore-police-force-41929fdd
+    brands=['Singapore Police Force (SPF)'] gov=['Singapore Police Force (SPF)'] domains=['policegov.eu.cc']
+    > The Singapore Police Force (SPF) has observed an increase in scam websites impersonating our official channels. These phishing sites attempt to trick members of the public into revealing their personal and banking details. They are designed to look like legitimate SPF platforms.
+    > *   **Suspicious Web Addresses:** Be highly suspicious of websites claiming to be the Singapore Police Force that use unusual or non-official web addresses, such as `policegov.eu.cc`. Official Singapore Police Force websites always end with `.gov.sg`.
+    > *   **Requests for Personal Data:** These scam sites typically prompt you to provide sensitive information like your personal particulars, login credentials, or banking details, often under the pretext of an investigation or urgent action. The SPF will never ask for such information on unofficial platforms or through unsecured channels.
+--- 2026-08-03 | Advisory: Beware of Fake Singapore Police Force (SPF) Websites Impersonating Official Channels | https://www.icanactagainstscams.gov.sg/scam-trends/fake-singapore-police-force-spf-websites-impersonating-f26694ac
+    brands=['Singapore Police Force (SPF)'] gov=['Singapore Police Force (SPF)'] domains=['sg-policectictr.com']
+    > The Singapore Police Force (SPF) has observed a recent trend of impersonation scams involving fake websites designed to look like official SPF platforms. Scammers use these fraudulent sites to trick the public into divulging sensitive information or performing actions that could lead to financial loss.
+    > *   Always check the website's URL carefully. Official SPF websites will always use domains ending with `police.gov.sg`. Any other domain (e.g., `sg-policectictr.com`) is likely a scam.
+    > **If you receive a suspicious link or message claiming to be from SPF:**
+    > 2.  **Do not provide any personal information, banking details, or One-Time Passwords (OTPs).** Official SPF officers will never ask for such information over the phone or through unsecured channels.
+
+######## [7] Ninjavan (n=5)
+--- 2026-11-20 | Beware of Ninjavan Phishing Scams: Verify Delivery Links | https://www.icanactagainstscams.gov.sg/scam-trends/ninjavan-phishing-scams-verify-delivery-links-eb00e021
+    brands=['Ninjavan'] gov=[] domains=['oouyif.cfd', 'nrgfzf.cfd', 'nlqqgz.cfd', 'oclaro.cfd', 'ltftri.cfd', 'nsnmtq.cfd']
+    > The Singapore Police Force has observed a trend of scam websites impersonating parcel delivery service **Ninjavan**. These scams often trick victims into clicking malicious links in unexpected messages, leading them to fake websites that solicit personal and banking details under the guise of delivery issues or unpaid fees.
+    > *   **Suspicious Website Addresses:** Scammers use fake websites with unusual domain names (e.g., ending with `.cfd`) that do not belong to Ninjavan's official website (ninjavan.co).
+    > *   **C**heck for scam signs: Always verify any suspicious links or messages directly with Ninjavan through their official app, website, or customer service hotline. Do not click on suspicious links.
+--- 2026-09-18 | Alert: Phishing Scams Impersonating Ninjavan | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-ninjavan-902ac1dc
+    brands=['Ninjavan'] gov=[] domains=['ykrv.club']
+    > The Singapore Police Force has observed a trend of phishing scams impersonating Ninjavan. Scammers use fake websites and messages to trick individuals into revealing personal or financial information, often by claiming there are issues with parcel delivery or requiring payment for redelivery. An example of a detected scam site is `ykrv.club`.
+    > *   **Suspicious Website Addresses:** Always check the website URL. Official Ninjavan websites typically end with `ninjavan.co` or `ninjavan.sg`, not unusual domains like `ykrv.club` or other unfamiliar addresses.
+    > *   **C**heck for scam signs: Always verify the legitimacy of messages by going to Ninjavan's official website or app, or by contacting their customer service directly through official channels. Do not use contact details provided in suspicious messages or emails.
+--- 2026-08-05 | Advisory: Beware of Phishing Scams Impersonating Ninjavan | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-ninjavan-d9335e3a
+    brands=['Ninjavan'] gov=[] domains=['zqpro.cfd']
+    > The Singapore Police Force has observed a trend of phishing scams impersonating delivery services like Ninjavan. These scams often use fake websites to trick members of the public into revealing personal information, potentially leading to financial loss or compromise of personal data.
+    > *   **Unusual Website Addresses:** Always check the website address carefully. Official Ninjavan websites will use their legitimate domain (e.g., `ninjavan.sg`), not unusual or misspelled ones like `zqpro.cfd`.
+--- 2026-07-10 | Advisory on Phishing Scams Impersonating Delivery Services (e.g., Ninjavan) | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-delivery-services-e-g-ninjavan-bfc00766
+    brands=['Ninjavan'] gov=[] domains=['cottu.top']
+    > The Singapore Police Force (SPF) would like to alert the public to a recurring trend of phishing scams impersonating delivery companies, such as Ninjavan. Scammers are sending fake messages to trick individuals into revealing personal information or making payments.
+    > *   Scammers send unexpected SMS or emails pretending to be from delivery companies like Ninjavan, asking you to click on suspicious links (e.g., `cottu.top`) to reschedule deliveries or resolve issues.
+
+######## [8] Inland Revenue Authority of Singapore (IRAS) (n=5)
+--- 2026-08-07 | Advisory: Be Wary of Phishing Scams Impersonating IRAS | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-iras-e5b21e8b
+    brands=['Inland Revenue Authority of Singapore (IRAS)'] gov=['Inland Revenue Authority of Singapore (IRAS)'] domains=['irasz.com']
+    > The Singapore Police Force has observed a trend of phishing scams where scammers impersonate the Inland Revenue Authority of Singapore (IRAS). These scams often involve fake websites designed to look like official IRAS portals, tricking victims into revealing personal and banking details.
+    > *   **Check the URL carefully.** Scammers use website addresses that are very similar to the official IRAS website (iras.gov.sg), but with slight spelling variations or extra characters (e.g., `irasz.com`). Always ensure you are on the legitimate IRAS website before entering any information.
+    > *   Be suspicious of unsolicited messages (SMS, email) claiming to be from IRAS that ask you to click on a link to update personal information, claim a refund, or resolve an outstanding payment. IRAS will typically not request sensitive information or direct you to non-official links via unsolicited messages.
+--- 2026-06-04 | Advisory: Beware of Malware Scams Impersonating Government Agencies like IRAS | https://www.icanactagainstscams.gov.sg/scam-trends/malware-scams-impersonating-government-agencies-like-iras-f6b4a762
+    brands=['Inland Revenue Authority of Singapore (IRAS)'] gov=['Inland Revenue Authority of Singapore (IRAS)'] domains=['govment.cc']
+    > The Singapore Police Force (SPF) wishes to alert the public to an increase in scam websites impersonating government agencies, specifically the Inland Revenue Authority of Singapore (IRAS). These scam sites aim to trick you into downloading malware onto your devices.
+    > *   **Check** for scam signs: Always verify the website's address. Official government websites will always use the `.gov.sg` domain (e.g., `iras.gov.sg`). Be suspicious of unusual domain names like `govment.cc`.
+    > *   **Check** for scam signs: Be wary of unexpected messages, emails, or pop-ups that ask you to download applications or click on unfamiliar links, especially if they claim to be from IRAS.
+--- 2026-04-21 | Advisory: Beware of Phishing Scams Impersonating IRAS | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-iras-0be0ee02
+    brands=['Inland Revenue Authority of Singapore (IRAS)'] gov=['Inland Revenue Authority of Singapore (IRAS)'] domains=['iras.nakadaniko.com.sg']
+    > The Singapore Police Force has observed a recent rise in phishing scams impersonating the Inland Revenue Authority of Singapore (IRAS). Scammers are sending messages containing suspicious links that direct users to fake IRAS websites. These fraudulent sites are designed to trick you into revealing your personal and banking details.
+    > *   Look out for suspicious URLs. Official IRAS websites always end with `iras.gov.sg` (e.g., `www.iras.gov.sg`). Scammers use variations like `iras.nakadaniko.com.sg` to deceive you.
+    > *   Be wary of unsolicited messages (SMS or email) claiming to be from IRAS, especially those asking you to click on a link to claim tax refunds or update your account.
+    > *   **C**hecking for scam signs:     *   Always verify the sender's details and URL before clicking any links. If in doubt, do not click.     *   Cross-check any suspicious claims by visiting the official IRAS website at `www.iras.gov.sg` or calling their official hotline.
+--- 2026-04-07 | Alert: Phishing Scams Impersonating Inland Revenue Authority of Singapore (IRAS) | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-inland-revenue-authority-of-d01c1a92
+    brands=['Inland Revenue Authority of Singapore (IRAS)'] gov=['Inland Revenue Authority of Singapore (IRAS)'] domains=['iras.nakadaniko.com.sg']
+    > The Singapore Police Force has observed an increase in phishing scams impersonating the Inland Revenue Authority of Singapore (IRAS). Scammers create fake websites that look like official IRAS portals, often distributed through malicious links in unsolicited messages. These sites are designed to trick you into revealing your personal and banking details.
+    > *   **Verify the website address:** Always check the URL carefully. Official IRAS websites will always use `iras.gov.sg` as their domain. Be wary of any variations or unfamiliar web addresses like `iras.nakadaniko.com.sg`.
+    > *   **Be suspicious of unsolicited requests for sensitive information:** IRAS will not send unexpected emails or SMSes asking you to provide your banking details, Singpass login credentials, or other sensitive personal information via unverified links.
+    > *   **C**heck for scam signs and verify information with official sources. For IRAS, always refer to their official website at `iras.gov.sg` or call their official helpline.
+
+######## [9] SingPost (n=5)
+--- 2026-07-27 | Advisory: Protect Yourself from Fake SingPost Websites | https://www.icanactagainstscams.gov.sg/scam-trends/fake-singpost-websites-992f28d2
+    brands=['SingPost'] gov=[] domains=['894144.cc']
+    > The Singapore Police Force has observed an increase in reports involving fake SingPost websites, such as `894144.cc`. Scammers are using these fraudulent sites to trick members of the public into revealing personal or banking details.
+    > *   Scammers create fake SingPost websites that look authentic and often ask for personal details or a small payment for parcel delivery or redelivery. These sites may appear after clicking a link in an SMS or email.
+    > *   Always check the website address carefully. Official SingPost websites will *only* use domains like `singpost.com` or `mypost.singpost.com`. Be wary of unexpected messages claiming to be from SingPost, especially those asking for payment or personal information.
+    > *   **C**heck for scam signs and verify with official sources (e.g., the official SingPost website or their customer service hotline).
+--- 2026-07-14 | Advisory on Fake SingPost Websites and Phishing Scams | https://www.icanactagainstscams.gov.sg/scam-trends/fake-singpost-websites-and-phishing-scams-1231e754
+    brands=['SingPost'] gov=[] domains=['sgposeigt.sbs']
+    > The Singapore Police Force has observed a trend of phishing scams involving fake SingPost websites. Scammers create fraudulent sites designed to look like the official SingPost page to trick you into revealing personal or payment information.
+    > *   **Check the Website Address:** Always verify the URL in your browser. Official SingPost websites typically end with "singpost.com" or "singpost.com.sg". Scam sites often use slightly altered names or unusual domain endings (e.g., .sbs).
+    > *   **ACT** against scams:     *   **A**dd security features: Immediately change passwords for any accounts that might be compromised. Enable Two-Factor Authentication (2FA) for added protection.     *   **C**heck for scam signs: Do not click on suspicious links or respond to messages. Verify any delivery status directly through the official SingPost app or website (singpost.com) by manually entering your tracking number.     *   **T**ell authorities, family and friends: Report the scam to the police. Inform your bank if you have shared any ban
+--- 2026-05-19 | Advisory: Beware of Phishing Scams Impersonating SingPost | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-singpost-99a96e76
+    brands=['SingPost'] gov=[] domains=['personail.cfd']
+    > The Singapore Police Force (SPF) would like to alert the public to an increase in phishing scams impersonating SingPost. Scammers are sending fake messages or emails designed to trick you into revealing your personal and financial information.
+    > *   You receive unexpected SMS messages or emails claiming to be from SingPost about package delivery issues (e.g., failed delivery, unpaid shipping fees) or asking you to update delivery details.
+    > *   These messages contain links that direct you to fake websites that look like the official SingPost website but have suspicious or unfamiliar website addresses (e.g., `personail.cfd`).
+    > *   **Check:** Do not click on suspicious links. Always verify the authenticity of any message or email by checking the official SingPost website or contacting their official customer service directly. Look closely at the sender's email address or SMS sender ID, and the website URL for any irregularities.
+--- 2026-05-05 | Advisory: Beware of Fake SingPost Parcel Tracking Scams | https://www.icanactagainstscams.gov.sg/scam-trends/fake-singpost-parcel-tracking-scams-1a893fb9
+    brands=['SingPost'] gov=[] domains=['singapost-track.info']
+    > The Singapore Police Force (SPF) would like to alert the public to a rise in phishing scams impersonating SingPost. Scammers are creating fake websites, often with URLs like `singapost-track.info`, to trick individuals into revealing personal or financial information related to parcel tracking or delivery.
+    > *   **Fake Websites & URLs:** Scammers create imposter websites that look like the official SingPost site but have slightly different URLs (e.g., `singapost-track.info` instead of `singpost.com`). Always check the full web address carefully.
+    > *   **C**hecking for scam signs and verifying with official sources:     *   Verify all official communications by checking the sender's details and the website URL. The official SingPost website is `singpost.com`.     *   If unsure about a delivery, use the legitimate SingPost mobile app or website to track your parcel with a known tracking number, instead of clicking links from suspicious messages.
+    > *   **T**elling authorities, family and friends about scams:     *   If you encounter a suspicious SingPost-related message or website, report it to SingPost directly and the police.     *   Inform your loved ones about this scam to prevent them from falling victim.
+
+######## [10] CDC Vouchers (n=4)
+--- 2026-09-29 | Advisory on Impersonation Scams Involving CDC Vouchers | https://www.icanactagainstscams.gov.sg/scam-trends/impersonation-scams-involving-cdc-vouchers-96d1792c
+    brands=['CDC Vouchers'] gov=['CDC Vouchers'] domains=['ptvs-fcf5-eb3ff9d649f5.herokuapp.com']
+    > The Singapore Police Force has observed a trend of impersonation scams leveraging on the "CDC Vouchers" scheme.
+    > *   Scammers send messages or direct victims to fake websites related to "CDC Vouchers", prompting them to click on suspicious links to claim vouchers or provide personal/banking details.
+    > *   Official communications regarding CDC Vouchers will not ask for sensitive personal or banking information via unverified links.
+    > *   **C**heck for scam signs and verify information with official sources (e.g., the official CDC Vouchers website or relevant government portals).
+--- 2026-07-20 | Advisory: Be Wary of Impersonation Scams Targeting CDC Vouchers | https://www.icanactagainstscams.gov.sg/scam-trends/impersonation-scams-targeting-cdc-vouchers-1b23e217
+    brands=['CDC Vouchers'] gov=['CDC Vouchers'] domains=['fatsdfe56tiziadf.koyeb.app']
+    > The Singapore Police Force has observed a trend of impersonation scams targeting CDC Vouchers. Scammers send unsolicited messages or create fake websites to trick the public into providing personal and banking details under the guise of CDC Voucher redemption. We have received 71 reports related to such scam sites.
+    > *   Scammers send unsolicited SMS, emails, or messages via social media that include suspicious links related to CDC Vouchers.
+    > *   **C - Check for scam signs:** Always verify the authenticity of any message or website regarding CDC Vouchers through official government channels or the official CDC Vouchers website. Do not click on suspicious links.
+--- 2025-08-29 | Beware of Fake CDC Vouchers Website | https://www.icanactagainstscams.gov.sg/scam-trends/fake-cdc-vouchers-website-b8af9755
+    brands=['CDC Vouchers'] gov=['CDC Vouchers'] domains=['applyserviceinsupportgowhr-jz.up.railway.app', 'applysg60vcrlatest-fm.up.railway.app']
+    > We have observed an increase in reports of scam websites impersonating the CDC Vouchers scheme. Scammers are using these fake websites to trick you into providing your personal or financial information.
+    > *   **Unusual Website Address:** The website address may look slightly different from the official CDC Vouchers website. Check for misspellings or unusual domain names (e.g., using `.up.railway.app` instead of a legitimate `.gov.sg` address).
+--- 2025-09-01 | Fake GST Vouchers Website | https://www.icanactagainstscams.gov.sg/scam-trends/fake-gst-vouchers-website-ff555258
+    brands=['CDC Vouchers'] gov=['CDC Vouchers'] domains=['claim-gst-voucher-vn.up.railway.app']
+    > *   **Check** for scam signs and verify information with official sources like the official CDC Vouchers website or the GST Voucher official website.
+
+######## [11] MooMoo (n=3)
+--- 2026-10-16 | Advisory: Phishing Scams Impersonating MooMoo | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-moomoo-7c5e3240
+    brands=['MooMoo'] gov=[] domains=['p3w8f1y6j0t9h4d2ka.live', '8h2n7y4k1p9w0f5jcd.live', 'n5r0x7c2q8v1m9z4gb.live']
+    > The Singapore Police Force has observed a trend of phishing scams impersonating the investment platform MooMoo. Scammers are creating fake websites to trick individuals into revealing their login credentials and personal information.
+    > *   Look out for suspicious web links that appear random or use unusual domain names (e.g., ending with ".live"), even if they feature the MooMoo brand logo or colours.
+    > *   These fake websites are designed to look like the official MooMoo platform and will prompt you to enter your login details or other sensitive personal information.
+    > *   If you have entered your login credentials or other personal information on a suspected scam site, immediately change your password for your official MooMoo account and any other accounts using the same password.
+--- 2026-07-31 | Advisory on Phishing Scams Impersonating MooMoo | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-moomoo-e414f159
+    brands=['MooMoo'] gov=[] domains=['pq1idrmf27wu91l4wv.live']
+    > The Singapore Police Force warns the public about a rise in phishing scams, targeting users of financial trading platforms, specifically MooMoo. Scammers are creating fake websites mimicking the legitimate platform to trick users into revealing their login credentials and personal information.
+    > *   Be cautious of unsolicited messages or unofficial links claiming to be from MooMoo, especially those asking for your login details or personal information.
+    > *   Always check the website URL carefully. Official MooMoo websites will use their legitimate domain names, not suspicious-looking ones with random characters or unfamiliar extensions (e.g., `.live`, `.xyz`).
+    > *   **A**dd security features:  Enhance your account security by enabling Two-Factor Authentication (2FA) on your MooMoo account for an added layer of protection.
+--- 2025-10-02 | Beware of Phishing Scams Impersonating MooMoo and Tiger Brokers | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-moomoo-and-tiger-brokers-b433ddc2
+    brands=['MooMoo', 'Tiger Brokers'] gov=[] domains=['moomoes.top', 'itigereo.top']
+    > We have observed a rise in phishing scams targeting users of MooMoo and Tiger Brokers. These scams attempt to steal your login credentials.
+    > *   Be wary of unusual or suspicious website addresses (URLs) that are similar to the official MooMoo or Tiger Brokers websites. For example, "moomoes.top" or "itigereo.top".
+    > *   These websites often mimic the legitimate login pages of MooMoo or Tiger Brokers to trick you into entering your username and password.
+    > 1.  Change your MooMoo and Tiger Brokers passwords immediately on the official websites or apps.
+
+######## [12] Booking.com (n=3)
+--- 2026-10-05 | Advisory: Phishing Scams Impersonating Booking.com | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-booking-com-1bd87ee3
+    brands=['Booking.com'] gov=[] domains=['reserv-advanced67745303.com']
+    > The Singapore Police Force (SPF) has observed a trend of phishing scams impersonating popular booking platforms, such as Booking.com. Scammers create fake websites that mimic the official platform to trick users into revealing their personal information, login credentials, or payment details.
+    > *   Always check the website address (URL) carefully. Official Booking.com websites will start with `booking.com`, not suspicious variations like `reserv-advanced67745303.com`.
+    > 1.  **Change your password immediately** for your Booking.com account and any other online accounts where you use the same password.
+    > 3.  **Report the incident** to Booking.com through their official channels and to the police via the SPF hotline at 1800-255-0000 or submit an online report at www.police.gov.sg/iwitness.
+--- 2026-09-15 | Phishing Scams Impersonating Booking.com Observed | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-booking-com-observed-51d3835b
+    brands=['Booking.com'] gov=[] domains=['myhotel-1899.co']
+    > The Singapore Police Force has observed recent phishing scam attempts impersonating popular accommodation booking platforms like Booking.com. Scammers are using fake websites to trick victims into revealing their personal information.
+    > *   Always check the website address carefully. Legitimate Booking.com websites will typically use "booking.com" or related official domains, not variations like "myhotel-1899.co".
+    > *   Immediately change your password for your Booking.com account and any other accounts where you use the same password.
+    > *   Report the incident to Booking.com directly through their official customer support channels.
+--- 2025-11-20 | Beware of Phishing Scams Impersonating Booking.com | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-booking-com-34bcb619
+    brands=['Booking.com'] gov=[] domains=['secureresverify.com']
+    > We have observed a recent increase in phishing scams impersonating Booking.com, operating through the website "secureresverify.com". Scammers may attempt to trick you into providing your personal or financial information.
+    > *   You may receive unsolicited messages or emails prompting you to click on a link that redirects to a fake Booking.com website.
+    > *   The website address may look different from the official Booking.com website (www.booking.com), such as using "secureresverify.com".
+    > *   Report the scam to Booking.com directly through their official website or customer service channels.
+
+######## [13] Lalamove (n=3)
+--- 2026-09-23 | Advisory: Protect Yourself from Fake Lalamove Phishing Sites | https://www.icanactagainstscams.gov.sg/scam-trends/fake-lalamove-phishing-sites-2fe43f17
+    brands=['Lalamove'] gov=[] domains=['fload.buzz']
+    > The Singapore Police Force would like to alert the public to phishing scams impersonating Lalamove. Scammers are creating fake websites and sending deceptive messages to trick users into revealing their personal information or login credentials.
+    > *   Always check the website address. Official Lalamove websites will always start with `lalamove.com`. Be suspicious of unfamiliar or slightly altered URLs (e.g., `fload.buzz`).
+    > *   Be cautious of unexpected messages (SMS, email, or social media) claiming to be from Lalamove, especially if they ask you to click on a link to verify account details, track a parcel, or make a payment.
+    > *   Do not click on suspicious links. If you receive an unexpected message from Lalamove, verify its authenticity through the official Lalamove app or website.
+--- 2026-08-17 | Advisory: Beware of Fake Lalamove Phishing Sites and Messages | https://www.icanactagainstscams.gov.sg/scam-trends/fake-lalamove-phishing-sites-and-messages-aecfc6bc
+    brands=['Lalamove'] gov=[] domains=['lalamove.eu.cc']
+    > The Singapore Police Force advises the public to be vigilant against an increase in phishing scams impersonating logistics and delivery services like Lalamove. Scammers create fake websites and send unsolicited messages (SMS or email) designed to trick individuals into revealing their personal or banking details.
+    > *   **Suspicious Web Addresses:** Scammers use web links that look similar to Lalamove's official website but contain subtle differences (e.g., `lalamove.eu.cc` instead of `lalamove.com.sg`). Always check the full URL carefully before clicking.
+    > *   **A**dding security features: Do not click on suspicious links. If you have clicked on a link and provided your personal or banking details, immediately change your password for your Lalamove account and any other online accounts where you use the same password. Enable Two-Factor Authentication (2FA) on all your accounts for added protection.
+    > *   **C**hecking for scam signs: Always verify the legitimacy of any message or website directly with Lalamove through their official app or website, not through links provided in unsolicited messages. If you suspect you've been scammed, regularly monitor your bank accounts and credit card statements for any unauthorised transactions.
+--- 2025-09-01 | Lalamove Phishing Scam Alert | https://www.icanactagainstscams.gov.sg/scam-trends/lalamove-phishing-scam-alert-2fcdc64f
+    brands=['Lalamove'] gov=[] domains=['htake-c.cfd']
+    > We have observed a recent increase in phishing scams targeting Lalamove users. These scams often involve fake websites designed to steal your personal information.
+    > *   You may receive a link, often via SMS or email, leading to a fake Lalamove website that looks very similar to the official one. The URL may be slightly different from the legitimate Lalamove website.
+    > *   These fake websites may ask you to log in with your Lalamove credentials or enter your credit card details.
+    > 1.  Immediately change your Lalamove password and any other accounts where you use the same password.
+
+######## [14] JKF (n=3)
+--- 2026-03-30 | ACT Against Job Scams Impersonating E-commerce Platforms | https://www.icanactagainstscams.gov.sg/scam-trends/act-against-job-scams-impersonating-e-commerce-platforms-507e8d21
+    brands=['TikTok', 'JKF'] gov=[] domains=['coupang-vip.com', 'wwwshopee.net', 'shopping8.shop']
+    (no direct mention; first paras)
+    > The Singapore Police Force (SPF) observes a trend of job scams using deceptive websites that impersonate well-known e-commerce platforms like Shopee and Coupang, as well as other generic shopping sites. These scams lure victims with promises of easy money for simple online tasks.
+    > ### How to recognise these scams:
+--- 2026-03-30 | Advisory: Beware of Fake Job Offers on Suspicious Websites | https://www.icanactagainstscams.gov.sg/scam-trends/fake-job-offers-on-suspicious-websites-5c206874
+    brands=['JKF', 'flance'] gov=[] domains=['fastnedglobal.shop', 'companyflc.business', 'coupang-vip.com']
+    (no direct mention; first paras)
+    > The Singapore Police Force has observed a trend of job scams operating through suspicious websites such as `fastnedglobal.shop`, `companyflc.business`, and `coupang-vip.com`. These scams entice individuals with promises of easy work and high returns, often leading to financial loss or the compromise of personal data.
+    > To protect yourself, remember to **ACT** against scams:
+--- 2025-08-28 | Job Scam Alert: Be Cautious of Suspicious Online Job Offers | https://www.icanactagainstscams.gov.sg/scam-trends/job-scam-alert-be-cautious-of-suspicious-online-job-offers-a56c929e
+    brands=['BizVibe', 'B2B Wave', 'JKF'] gov=[] domains=['bigbuy.rest', 'tiktokvipshops.com', 'ebayhot.com']
+    > We have observed a rise in job scams using websites such as bigbuy.rest, tiktokvipshops.com, and ebayhot.com. These scams often impersonate legitimate companies like BizVibe, JKF, and B2B Wave to deceive job seekers.
+
+######## [15] UOB (n=3)
+--- 2026-03-27 | Advisory: Beware of Phishing Scams Impersonating UOB | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-uob-8c77d271
+    brands=['UOB'] gov=[] domains=['trigonmining.co.za']
+    > The Singapore Police Force warns the public, especially UOB customers, about a rise in banking-related phishing scams.
+    > *   You may receive unexpected messages or emails that appear to be from UOB, asking you to click on a link to verify your account, update details, or resolve an urgent issue.
+    > *   These links often lead to fake websites, not UOB's official site (e.g., `trigonmining.co.za`), which are designed to trick you into entering your banking login details.
+    > ### What to do if you are affected: If you have clicked on a suspicious link or provided your banking details on a fake website, immediately contact UOB through their official hotline or mobile app. Report the incident to the police and change your banking passwords.
+--- 2026-03-23 | Advisory: Beware of Fake Banking Websites Impersonating DBS and UOB | https://www.icanactagainstscams.gov.sg/scam-trends/fake-banking-websites-impersonating-dbs-and-uob-17e317a7
+    brands=['DBS', 'UOB'] gov=[] domains=['resend-clicks-a.com', 'ifreelance4u.com', 'utradetsg1.top']
+    > The Singapore Police Force (SPF) observes a rise in scam websites impersonating local banks, specifically DBS and UOB. These phishing sites aim to trick you into revealing your banking credentials and One-Time Passwords (OTPs).
+    > *   **Check** the website address: Always verify that you are on the official DBS or UOB website (e.g., `dbs.com.sg`, `uob.com.sg`). Scammers use fake URLs that look similar but are incorrect (e.g., `resend-clicks-a.com`, `ifreelance4u.com`, `utradetsg1.top`).
+    > *   Immediately **Tell** your bank (DBS or UOB) via their official hotline to report the incident and secure your account.
+--- 2025-08-28 | Be Alert to Phishing Scams Impersonating DBS and UOB | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-dbs-and-uob-dc0515b7
+    brands=['UOB', 'DBS'] gov=[] domains=['internet-dbs.oysterartgalleries.com', 'utrade1sg.top']
+    > We have observed a recent increase in phishing scams targeting DBS and UOB customers. Scammers are using fake websites to trick you into revealing your banking details.
+    > *   **Fake Website Addresses:** Be wary of website addresses that are similar to the official DBS or UOB websites but contain slight variations or misspellings (e.g., `internet-dbs.oysterartgalleries.com` or `utrade1sg.top`). Always double-check the URL.
+    > *   **Unexpected Requests for Information:** Be suspicious of any unsolicited requests for your banking login credentials, OTPs (One-Time Passwords), or other personal information. DBS and UOB will never ask for this information through unsolicited emails or SMS messages.
+    > 1.  **Immediately report** the incident to DBS or UOB using the official channels listed on their website.
+
+######## [16] B2B Wave (n=3)
+--- 2026-02-23 | Advisory on Fake Online Job Scams Impersonating B2B Wave and Other Brands | https://www.icanactagainstscams.gov.sg/scam-trends/fake-online-job-scams-impersonating-b2b-wave-and-other-bf2a0de7
+    brands=['B2B Wave'] gov=[] domains=['cdiscountsb.com', 'argos-online.me', 'bigbuy.rest']
+    > The Singapore Police Force has observed a trend of fake online job scams, often impersonating legitimate B2B platforms like "B2B Wave" and other e-commerce brands.
+--- 2025-09-08 | Job Scam Advisory: B2B Wave Impersonation | https://www.icanactagainstscams.gov.sg/scam-trends/job-scam-advisory-b2b-wave-impersonation-c8362285
+    brands=['B2B Wave'] gov=[] domains=['bigbuyshops.club', 'bigbuy.rest', 'bigbuyshops.org']
+    > We have observed a rise in job scams impersonating B2B Wave through websites such as bigbuyshops.club, bigbuy.rest and bigbuyshops.org. Scammers may use these sites to trick you into giving them your money or personal information.
+    > *   The website URL is different from the official B2B Wave website. Always check the URL carefully.
+--- 2025-08-28 | Job Scam Alert: Be Cautious of Suspicious Online Job Offers | https://www.icanactagainstscams.gov.sg/scam-trends/job-scam-alert-be-cautious-of-suspicious-online-job-offers-a56c929e
+    brands=['BizVibe', 'B2B Wave', 'JKF'] gov=[] domains=['bigbuy.rest', 'tiktokvipshops.com', 'ebayhot.com']
+    > We have observed a rise in job scams using websites such as bigbuy.rest, tiktokvipshops.com, and ebayhot.com. These scams often impersonate legitimate companies like BizVibe, JKF, and B2B Wave to deceive job seekers.
+
+######## [17] NVIDIA (n=2)
+--- 2026-11-19 | Advisory: Beware of Fake Investment Scams Impersonating NVIDIA | https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-scams-impersonating-nvidia-8f376e4b
+    brands=['NVIDIA'] gov=[] domains=['security-platform.vip']
+    > The Singapore Police Force has observed a trend of fake investment scams impersonating well-known brands like NVIDIA, often through suspicious websites such as 'security-platform.vip'. These scams aim to trick you into investing in fraudulent schemes.
+    > *   Scammers create fake websites or platforms that look legitimate, using brand logos and names like NVIDIA to promote fraudulent investment schemes.
+    > *   **C**heck for scam signs: Always verify any investment opportunity directly with the official company (e.g., NVIDIA's official website) and legitimate financial institutions. Do not trust links from unsolicited messages or suspicious websites.
+--- 2026-02-16 | Beware of Investment Scams Impersonating Brands and Promising High Returns | https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-brands-and-promising-high-5f3bf932
+    brands=['Audi Capital', 'NVIDIA'] gov=[] domains=['nvidialisuj.top', 'innovative-finance.cc']
+    (no direct mention; first paras)
+    > The Singapore Police Force (SPF) has observed a trend of investment scams involving fake websites and platforms. Scammers often create convincing fake investment opportunities, sometimes even using the names of well-known brands or promising "innovative finance" to trick individuals into bogus schemes.
+    > Here's how to recognise such scams:
+
+######## [18] Singpass (n=2)
+--- 2026-11-16 | Protect Your Singpass Account from Phishing Scams | https://www.icanactagainstscams.gov.sg/scam-trends/protect-your-singpass-account-from-phishing-scams-9d383d52
+    brands=['Singpass'] gov=['Singpass'] domains=['fuxxaway.workers.dev']
+    > The Singapore Police Force has observed a trend of phishing scam sites impersonating Singpass. These scam sites aim to trick individuals into revealing their Singpass login credentials.
+    > *   Always check the website address (URL) carefully. Official Singpass websites will always end with `singpass.gov.sg`. Scammers often use similar-looking but fake website addresses, such as `fuxxaway.workers.dev`.
+    > *   Be wary of unexpected messages, emails, or links asking you to click and log in to your Singpass account. Official Singpass communications will not typically ask you to log in via a link.
+    > *   **Tell**: If you have accidentally entered your Singpass details on a suspicious website, change your Singpass password immediately. You can do this through the official Singpass app or website.
+--- 2026-10-20 | Advisory: Alert on Phishing Scams Impersonating Singpass | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-singpass-79416ee2
+    brands=['Singpass'] gov=['Singpass'] domains=['carolineporcellane.it']
+    > The Singapore Police Force has observed a recent trend of phishing websites impersonating Singpass. These fraudulent sites aim to trick you into revealing your Singpass login credentials.
+    > *   Always check the website address carefully. Official Singpass services are hosted on domains ending with `.gov.sg` (e.g., `singpass.gov.sg`, `mylife.gov.sg`). Any other domain, like `carolineporcellane.it`, is fake.
+    > *   Be wary of unsolicited messages (SMS, email) or pop-ups that direct you to a link and ask for your Singpass login details. Singpass will never send you unsolicited links asking for your credentials.
+    > **If you have entered your Singpass ID and password on a suspicious website:**
+
+######## [19] Park N Parcel (n=2)
+--- 2026-11-09 | Advisory: Beware of Park N Parcel Phishing Scams | https://www.icanactagainstscams.gov.sg/scam-trends/park-n-parcel-phishing-scams-048a90c9
+    brands=['Park N Parcel'] gov=[] domains=['parcel-k.top', 'parcel-jt.top', 'parcel-d.top']
+    > The SPF observes a recent trend of phishing scams impersonating parcel delivery service, Park N Parcel. Scammers create fake websites that mimic the official Park N Parcel site to trick victims into revealing their personal and banking information. These fake sites often claim there's an issue with a parcel delivery and prompt for immediate action or payment.
+    > *   **Suspicious Website Links:** Always check the URL carefully. Scammers use website addresses with unusual domain names (e.g., ending with ".top") or slight misspellings of the official Park N Parcel website.
+    > *   **Unexpected Requests:** Be cautious of unexpected messages or websites asking for your personal or banking details, or claiming issues with your parcel that require immediate payment or verification. Park N Parcel will typically not ask for sensitive information via unverified links.
+    > *   **C**hecking for scam signs: Do not attempt to log in to the suspicious site again. Always verify any delivery notifications or requests directly with Park N Parcel through their official app or website, or by contacting their customer service via official channels.
+--- 2026-11-03 | Phishing Scam Alert: Impersonation of Park N Parcel | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scam-alert-impersonation-of-park-n-parcel-688792d5
+    brands=['Park N Parcel'] gov=[] domains=['parknparcel-oc.top', 'parknparcel-uh.top', 'parknparcel-sr.top', 'parknparcel-uz.top', 'parknparcel-ox.top']
+    > The Singapore Police Force has observed a recent trend of phishing scams impersonating Park N Parcel. These scams often trick victims into revealing personal or banking details under the guise of parcel delivery or payment issues.
+    > *   **Suspicious Website Addresses:** Scammers use fake websites with URLs that look similar to the legitimate Park N Parcel site but contain subtle differences (e.g., `parknparcel-xx.top` instead of `parknparcel.com.sg`). Always check the full URL carefully before clicking or entering any information.
+
+######## [20] LG (n=2)
+--- 2026-10-23 | Advisory: Beware of Fake Investment Scams Impersonating LG | https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-scams-impersonating-lg-32f2462b
+    brands=['LG'] gov=[] domains=['lgnewenergy.com']
+    > The Singapore Police Force has observed a trend of fake investment websites impersonating LG. These sites aim to trick individuals into believing they are investing in genuine opportunities, often promising high returns. One such reported site uses the URL `lgnewenergy.com`.
+    > *   Scammers create fake investment websites or apps using names of reputable companies like LG, often with slightly altered or unofficial URLs (e.g., `lgnewenergy.com` instead of official LG domains).
+--- 2026-03-19 | Advisory: Beware of Fake Investment Opportunities Impersonating LG | https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-opportunities-impersonating-lg-c5711533
+    brands=['LG'] gov=[] domains=['gaouga.com', 'gaouga.app']
+    > The Singapore Police Force has observed a trend of investment scams impersonating well-known brands, including LG. These scams often trick individuals into believing they are investing in legitimate opportunities, only to lose their money.
+    > *   You might receive unsolicited messages or encounter online advertisements promoting investment schemes with unusually high returns, claiming to be from or endorsed by LG.
+    > *   These scams often direct you to download unofficial applications or visit websites (such as `gaouga.com` or `gaouga.app`) to make investments, which are not official LG platforms.
+
+######## [21] No Brand (n=2)
+--- 2026-09-22 | Advisory: Watch Out for Fake Online Shopping Deals (E-Commerce Scams) | https://www.icanactagainstscams.gov.sg/scam-trends/fake-online-shopping-deals-e-commerce-scams-563a08b7
+    brands=['No Brand'] gov=[] domains=['zhaitwfo.com', 'behene.com']
+    (no direct mention; first paras)
+    > The Singapore Police Force has observed a trend of fake e-commerce websites designed to deceive shoppers with irresistible deals. These scam sites often mimic legitimate online stores and are designed to steal your money or personal information.
+    > **How to recognise these scams:**
+--- 2026-09-07 | Scam Advisory: Beware of Phishing Websites Impersonating Events | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-websites-impersonating-events-f413d34c
+    brands=['No Brand'] gov=[] domains=['ite-pm-event.netlify.app']
+    (no direct mention; first paras)
+    > The Singapore Police Force has observed phishing websites, such as those using URLs like `ite-pm-event.netlify.app`, attempting to impersonate event-related platforms. These sites are designed to trick you into revealing your personal information.
+    > Here’s how to recognise these scam sites:
+
+######## [22] SPX (n=2)
+--- 2026-09-21 | Advisory: Beware of Phishing Scams Impersonating SPX | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-spx-af5b556c
+    brands=['SPX'] gov=[] domains=['llkw.top']
+    > The Singapore Police Force has observed a trend of phishing scam sites impersonating SPX. These sites often aim to trick you into revealing personal information or making payments related to parcel deliveries.
+    > *   **Unusual website addresses:** Always check the URL. Official SPX websites will use their legitimate domain (e.g., `spx.sg`) and not generic or unfamiliar web addresses like `llkw.top`.
+    > *   **Unsolicited messages:** Be cautious of unexpected SMS messages or emails claiming to be from SPX, especially if they ask you to click on links, provide personal details, or make payments for delivery fees or parcel tracking.
+--- 2026-08-28 | Beware of Phishing Scams Impersonating SPX | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-spx-8d095f94
+    brands=['SPX'] gov=[] domains=['villen.cyou']
+    > The Singapore Police Force would like to alert the public to a rise in phishing scams impersonating "SPX". We have observed multiple reports of scam sites, such as `villen.cyou`, being used to trick individuals into revealing their personal information.
+    > *   **Check for scam signs:** Be wary of unexpected messages or emails claiming to be from "SPX". These messages often contain links that direct you to fake websites, like `villen.cyou`, which look legitimate but are designed to steal your personal information. Always scrutinise the sender's email address and the website URL for any irregularities.
+    > *   **Verify with official sources:** If you receive a message from SPX, always visit their official website or app directly to verify any claims, instead of clicking on links provided in the message.
+
+######## [23] Gov.sg (n=2)
+--- 2026-09-08 | Advisory: Protect Yourself from Gov.sg Impersonation Scams | https://www.icanactagainstscams.gov.sg/scam-trends/gov-sg-impersonation-scams-6e617672
+    brands=['Gov.sg'] gov=['Gov.sg'] domains=['cly114514.workers.dev']
+    > The Singapore Police Force has observed a trend of scam websites impersonating Gov.sg. Scammers create fake sites to trick individuals into revealing personal or financial information.
+    > *   **Check the website address carefully.** Official Singapore government websites typically end with ".gov.sg". Scam sites often use suspicious or unusual domain names (e.g., "cly114514.workers.dev").
+    > *   **Be wary of unexpected messages or links.** Always question unsolicited messages that ask you to click on links or provide personal details, even if they appear to be from Gov.sg.
+    > 2.  **Report the incident.** If you have provided banking details, contact your bank immediately to stop any transactions. Report the scam to the Police via the Police Hotline at 1800-255-0000 or submit a report online at www.police.gov.sg/iwitness.
+--- 2026-08-11 | Advisory: Beware of Fake Gov.sg Websites Impersonating Official Government Platforms | https://www.icanactagainstscams.gov.sg/scam-trends/fake-gov-sg-websites-impersonating-official-government-69398265
+    brands=['Gov.sg'] gov=['Gov.sg'] domains=['kfy001.online']
+    > The Singapore Police Force would like to alert members of the public to a recent increase in scam sites impersonating official Gov.sg platforms.
+    > *   **Check the URL carefully:** Official Singapore Government websites will *always* end with "gov.sg". Be suspicious of links that use different domain endings or misspellings, such as "kfy001.online", even if they appear to be Gov.sg related.
+    > *   **Beware of unexpected messages:** Exercise caution with unsolicited messages (SMS, email, or social media) claiming to be from Gov.sg, especially if they ask you to click on links, download files, or provide personal and banking details. Official government agencies will not request sensitive information via unverified links.
+    > If you suspect you have clicked on a suspicious link or provided your personal or banking details on a fake Gov.sg website:
+
+######## [24] Immigration & Checkpoints Authority of Singapore (ICA) (n=2)
+--- 2026-08-19 | Advisory: Beware of Scams Impersonating ICA | https://www.icanactagainstscams.gov.sg/scam-trends/scams-impersonating-ica-d4e85cc7
+    brands=['Immigration & Checkpoints Authority of Singapore (ICA)'] gov=['Immigration & Checkpoints Authority of Singapore (ICA)'] domains=['bonusvakti14.com']
+    > The Singapore Police Force would like to alert the public to a rise in scam websites and messages impersonating the Immigration & Checkpoints Authority (ICA). These scams attempt to trick you into revealing personal information or making payments.
+    > *   **Add security features:**     *   Enhance your online security by enabling two-factor authentication (2FA) for your accounts and using strong, unique passwords.
+    > *   **Check for scam signs:**     *   Be suspicious of unsolicited messages, emails, or websites claiming to be from ICA, especially those with unusual URLs (e.g., non-`ica.gov.sg` addresses).     *   Official ICA communications will never ask for your Singpass credentials, bank account details, or one-time passwords (OTPs) through unofficial channels.
+--- 2026-03-17 | Advisory: Beware of Scams Impersonating the Immigration & Checkpoints Authority (ICA) | https://www.icanactagainstscams.gov.sg/scam-trends/scams-impersonating-the-immigration-checkpoints-authority-f5d99f78
+    brands=['Immigration & Checkpoints Authority of Singapore (ICA)'] gov=['Immigration & Checkpoints Authority of Singapore (ICA)'] domains=['ica-gov.com']
+    > The Singapore Police Force has observed recent trends of scam websites impersonating the Immigration & Checkpoints Authority of Singapore (ICA). These fraudulent sites, such as "ica-gov.com", are designed to trick you into revealing personal information or making payments.
+    > *   **Unusual Website Addresses:** Always verify the website address. Official ICA websites always end with ".gov.sg". Be suspicious of URLs like "ica-gov.com" or others that look similar but are not "ica.gov.sg".
+    > *   **Unexpected Requests:** Be cautious of messages or websites that unexpectedly ask for your personal information (like NRIC, passport numbers, bank account details, or Singpass login) or demand urgent payments. ICA will not ask for such sensitive information via unofficial channels.
+    > *   **Add** security features: Enhance the security of your online accounts by enabling Two-Factor Authentication (2FA) for Singpass and other crucial services.
+
+######## [25] MoneySmart (n=2)
+--- 2026-06-18 | Advisory: Protect Yourself from Phishing Scams Impersonating MoneySmart | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-moneysmart-890fa625
+    brands=['MoneySmart'] gov=[] domains=['money-sm.art', 'moneysmart.money', 'moneysmart.click']
+    > The Singapore Police Force has observed an increase in phishing scams attempting to impersonate MoneySmart. Scammers create fake websites to trick you into revealing your personal and financial details.
+    > *   **Check the URL carefully:** Scammers use website addresses that look similar to MoneySmart but have unusual endings like `.money`, `.click`, or `.art` (e.g., `moneysmart.money`, `money-sm.art`). Always verify that the website address is the official `moneysmart.sg` before interacting.
+    > **What to do if you encounter such a scam or have been affected:** If you suspect you have provided your personal or financial details on a fake MoneySmart website, contact your bank immediately to report any unauthorised transactions and secure your accounts. Change the passwords for all your online accounts that might have been compromised. Report the incident to the police.
+--- 2026-05-25 | Advisory on Phishing Scams Impersonating MoneySmart | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-moneysmart-3966078d
+    brands=['MoneySmart'] gov=[] domains=['moneysmart.one']
+    > The Singapore Police Force (SPF) has observed a recent increase in phishing attempts impersonating the financial comparison platform, MoneySmart. Scammers are creating fake websites and messages to trick members of the public into revealing their personal information.
+    > *   **Check the website address carefully.** Scammers use URLs that look similar to official brand names but contain slight differences (e.g., `moneysmart.one` instead of the official MoneySmart website).
+
+######## [26] Netflix (n=2)
+--- 2026-05-22 | Advisory: Beware of Phishing Scams Impersonating Netflix | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-netflix-4d0d8c71
+    brands=['Netflix'] gov=[] domains=['netflix-home.info']
+    > The Singapore Police Force advises the public to be vigilant against phishing scams impersonating popular streaming services like Netflix. These scams attempt to trick you into revealing your login credentials or personal information.
+    > *   **Check the website address carefully.** Scammers use similar-looking URLs (e.g., `netflix-home.info`) that are not the official Netflix website (`netflix.com`). Always ensure you are on the legitimate site before entering any details.
+    > 1.  **Change your password immediately** on your official Netflix account and any other accounts where you use the same password.
+--- 2026-04-13 | Spotting Fake Netflix Websites: A Phishing Scam Advisory | https://www.icanactagainstscams.gov.sg/scam-trends/spotting-fake-netflix-websites-a-phishing-scam-advisory-0a590275
+    brands=['Netflix'] gov=[] domains=['streamhelpcenter.com']
+    > The Singapore Police Force (SPF) would like to alert the public to phishing scams impersonating Netflix. Scammers create fake websites designed to look like the official Netflix login page to trick you into revealing your account details.
+    > *   **Check the website address carefully.** Always ensure the website address is `netflix.com`. Scammers use similar-looking addresses like `streamhelpcenter.com` to deceive you.
+    > *   **Be suspicious of unexpected messages.** Phishing attempts often start with an email or SMS asking you to click a link to "verify your account," "update payment details," or "reactivate your subscription." Always go directly to the official Netflix website to log in, rather than clicking links from such messages.
+    > *   **Change your Netflix password immediately** on the *official* Netflix website (`netflix.com`).
+
+######## [27] Telegram (n=2)
+--- 2026-05-04 | Advisory: Watch Out for Telegram Impersonation Scams | https://www.icanactagainstscams.gov.sg/scam-trends/telegram-impersonation-scams-87e3673a
+    brands=['Telegram'] gov=[] domains=['tjeso.my']
+    > The Singapore Police Force (SPF) has observed an increase in scam sites impersonating Telegram, with URLs like `tjeso.my` being reported. Scammers use these fake sites to trick you into revealing personal information or login credentials.
+    > *   You receive a message, seemingly from Telegram or a contact, asking you to click on an unfamiliar link to 'verify' your account or access a special offer.
+    > *   The link provided leads to a website that looks like Telegram but has a suspicious web address (e.g., `tjeso.my`) instead of the official `telegram.org` or `t.me`.
+    > 1.  **Add** security features: Enable Two-Factor Authentication (2FA) for your Telegram account and all other online accounts. This adds an extra layer of protection even if your password is compromised.
+--- 2025-09-01 | Beware of Impersonation Scams on Telegram | https://www.icanactagainstscams.gov.sg/scam-trends/impersonation-scams-on-telegram-c2c224ba
+    brands=['Telegram'] gov=[] domains=['telegrinim-tg.cc']
+    > We have observed a recent increase in scams involving fake Telegram websites. Scammers are creating websites that look very similar to the real Telegram login page to steal your login credentials.
+    > *   **Look closely at the website address:** The scam website address is likely to be slightly different from the legitimate Telegram website (telegram.org). In this case, the scam site is telegrinim-tg.cc. Always double-check the URL before entering any personal information.
+    > *   **Be wary of unsolicited messages or requests to log in:** Scammers may send you messages prompting you to log in to your Telegram account through their fake website.
+    > **If you have entered your Telegram credentials on this website:**
+
+######## [28] CTX (n=2)
+--- 2026-04-09 | Beware of Fake Investment Scams Promising High Returns | https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-scams-promising-high-returns-4e5d1698
+    brands=['Doge Mining', 'CTX', 'GN Mall'] gov=[] domains=['doge-miningbank.vip', 'ctxpublic.online', 'gnfmall.com']
+    > *   Look out for unfamiliar or newly created websites, especially those with unusual domain names (e.g., `doge-miningbank.vip`, `ctxpublic.online`, `gnfmall.com`), which may mimic legitimate platforms.
+--- 2026-03-10 | Advisory: Beware of Fake Investment Websites Impersonating Popular Brands | https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-websites-impersonating-popular-brands-6335bfca
+    brands=['CTX', 'Coinbase', 'PUMP MINING', 'Novartis AG VIP'] gov=[] domains=['oinbase-staking.com', 'pumpmining.top', 'herb6.vip', 'ctxpublic.online']
+    (no direct mention; first paras)
+    > The Singapore Police Force (SPF) observes a concerning trend of investment scam websites. These fraudulent sites often impersonate well-known companies or promote high-return schemes, aiming to deceive individuals into investing their money.
+    > ### How to recognise these scams:
+
+######## [29] JUST (n=2)
+--- 2026-03-18 | Advisory: Beware of Investment Scams Using Suspicious Websites | https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-using-suspicious-websites-8d042bc2
+    brands=['SEI', 'Skild AI', 'JUST'] gov=[] domains=['skdai001.xyz', 'seeee.cc', 'usttt.net']
+    > The Singapore Police Force (SPF) has observed a recent trend of investment scams leveraging suspicious websites, with notable examples linked to brands such as Skild AI, SEI, and JUST. These scams aim to trick individuals into investing in fake opportunities, leading to financial losses.
+--- 2026-03-06 | Advisory: Beware of Fake Investment Websites | https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-websites-f7c4335d
+    brands=['JUST', 'GDC Mining'] gov=[] domains=['uuttt.cc', 'ustt.work', 'gdcmining.shop']
+    > *   **Suspicious website addresses (URLs)**: Look out for website links that contain unusual spellings, extra letters, or unfamiliar domain names (e.g., .cc, .work, .shop), even if they claim to represent known brands like "JUST" or "GDC Mining."
+
+######## [30] Singtel (n=2)
+--- 2026-03-03 | Recent Phishing Scams Impersonate Popular Brands - Stay Vigilant! | https://www.icanactagainstscams.gov.sg/scam-trends/recent-phishing-scams-impersonate-popular-brands-stay-e8009338
+    brands=['Singtel', 'IRUN'] gov=[] domains=['servicesmetalinkion.shop', 'irunsg.shop']
+    > The Singapore Police Force has observed a recent trend of phishing scams impersonating well-known brands such as Singtel and IRUN. These scams aim to trick individuals into revealing personal or financial information through fake websites.
+--- 2025-09-22 | Beware of Phishing Scams Impersonating Singtel | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-singtel-9349a400
+    brands=['Singtel'] gov=[] domains=['onepass.xin']
+    > We have observed a recent increase in phishing scams impersonating Singtel, using the website "onepass.xin". Scammers may try to trick you into giving up your personal information.
+    > *   You may receive unsolicited messages or emails prompting you to click on a link related to Singtel services, directing you to the fake website "onepass.xin".
+    > *   The website may look convincingly like a legitimate Singtel page, but it's designed to steal your Singtel account credentials and personal details.
+    > If you have provided your Singtel account details or other personal information on the "onepass.xin" website:
+
+######## [31] Airdrop Pepe (n=2)
+--- 2026-01-30 | Advisory: Watch Out for Investment Scams Impersonating Brands | https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-brands-b5974029
+    brands=['CNA', 'Rolex', 'Airdrop Pepe'] gov=[] domains=['zylanto.site', '356739.org', 'pepemining.cc']
+    > The Singapore Police Force (SPF) observes a recent trend of investment scams using fake websites that impersonate well-known brands and popular topics. Scammers are creating fraudulent schemes by pretending to represent trusted news outlets like CNA, luxury brands such as Rolex, and even trending cryptocurrency projects like "Airdrop Pepe" to lure victims.
+    > *   Scammers create fake websites impersonating trusted brands (e.g., CNA, Rolex) or trending topics (e.g., Airdrop Pepe) for fraudulent investment schemes.
+--- 2026-01-28 | Beware of Fake Investment Platforms Promising High Returns | https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-platforms-promising-high-returns-a273ec6f
+    brands=['Aurum Exchange', 'Airdrop Pepe', 'BeReal', 'LdnBit'] gov=[] domains=['pepemining.cc', 'bereall.com', 'aurumexchanges.com', 'ldnbit.cc']
+    > We've observed a trend of new scam websites impersonating or creating fake investment platforms (e.g., 'Airdrop Pepe', 'Aurum Exchange', 'LdnBit'). These sites often lure victims with promises of high returns from cryptocurrency or other investments.
+
+######## [32] moburst (n=1)
+--- 2026-11-17 | Advisory: Job Scams Impersonating Brands like Moburst | https://www.icanactagainstscams.gov.sg/scam-trends/job-scams-impersonating-brands-like-moburst-dd460ff3
+    brands=['moburst'] gov=[] domains=['lt-moburstmobile.pages.dev']
+    > The Singapore Police Force has observed a recent increase in job scams involving fake websites impersonating legitimate companies, such as Moburst. Scammers create deceptive websites to trick individuals into believing they are applying for legitimate job opportunities.
+
+######## [33] Koka Kona (n=1)
+--- 2026-11-13 | Advisory: Beware of Fake 'Koka Kona' Investment Scams | https://www.icanactagainstscams.gov.sg/scam-trends/fake-koka-kona-investment-scams-58bf1784
+    brands=['Koka Kona'] gov=[] domains=['akk500.com']
+    > The Singapore Police Force has observed a trend of investment scams impersonating well-known brands, including 'Koka Kona'. Scammers are creating fake websites and online platforms to trick individuals into bogus investment schemes. We urge the public to remain vigilant against such fraudulent activities.
+    > *   Scammers create fake websites or applications (e.g., `akk500.com`) that closely mimic legitimate brands like 'Koka Kona' to promote fraudulent investment opportunities.
+
+######## [34] Red Bull (n=1)
+--- 2026-11-12 | Advisory: Beware of Investment Scams Impersonating Brands like Red Bull | https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-brands-like-red-bull-8904bc32
+    brands=['Red Bull'] gov=[] domains=['angel-investment.cc']
+    > The Singapore Police Force has observed a recent rise in investment scams where fraudsters impersonate well-known brands, such as Red Bull, to trick victims. These scams often promote fake investment opportunities through suspicious websites like `angel-investment.cc`.
+    > *   Scammers create fake investment websites (e.g., `angel-investment.cc`) that may use the logo or name of legitimate companies like Red Bull without authorisation. Always check the URL carefully for discrepancies and verify directly with the official brand's website.
+
+######## [35] SimplyGo (n=1)
+--- 2026-11-11 | Alert: Phishing Scams Impersonating SimplyGo Detected | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-simplygo-detected-7e815834
+    brands=['SimplyGo'] gov=['SimplyGo'] domains=['se-debarrasser-des-taupes-et-taupiniere.be']
+    > The Singapore Police Force has observed recent phishing scam attempts impersonating SimplyGo. Scammers are creating fake websites and sending messages to trick individuals into revealing their personal and banking details.
+    > *   Scam websites impersonating SimplyGo often use suspicious or unrelated web addresses, such as `se-debarrasser-des-taupes-et-taupiniere.be`, instead of official SimplyGo domains.
+    > *   You may receive unsolicited SMS messages or emails asking you to click on a link to update your SimplyGo account or resolve an issue. SimplyGo will not send unexpected links requesting personal or payment details.
+    > *   Always verify information by visiting the official SimplyGo website (www.simplygo.com.sg) or through their official mobile application directly.
+
+######## [36] SingHealth (n=1)
+--- 2026-11-09 | Advisory: Beware of Fake SingHealth and Polyclinic Websites | https://www.icanactagainstscams.gov.sg/scam-trends/fake-singhealth-and-polyclinic-websites-08f61cb1
+    brands=['SingHealth'] gov=['SingHealth'] domains=['polyclinic-a.top']
+    > The Singapore Police Force (SPF) has observed a trend of phishing scams involving fake websites impersonating SingHealth and polyclinics. These scam sites, such as `polyclinic-a.top`, aim to trick you into revealing your personal or financial information.
+    > *   **Suspicious Website Addresses:** Always check the website URL carefully. Official SingHealth or polyclinic websites will have legitimate domain names (e.g., ending with `.gov.sg` or official `.sg` domains), not unusual ones like `polyclinic-a.top`.
+    > *   **C**hecking for scam signs and verifying with official sources like SingHealth's official website or calling their official helplines.
+
+######## [37] Dance Prize (n=1)
+--- 2026-11-10 | Advisory: Beware of Fake "Dance Prize" Impersonation Scams | https://www.icanactagainstscams.gov.sg/scam-trends/fake-dance-prize-impersonation-scams-199bb391
+    brands=['Dance Prize'] gov=[] domains=['votegrand.sbs']
+    > The Singapore Police Force has observed a trend of scam websites, such as `votegrand.sbs`, impersonating legitimate organisations to promote fake "Dance Prize" competitions.
+    > *   You may receive unsolicited messages or encounter websites (like `votegrand.sbs`) asking you to vote in a "Dance Prize" competition or claiming you've won a prize.
+
+######## [38] Genwrk Store (n=1)
+--- 2026-11-05 | Advisory: Beware of Job Scams Impersonating 'Genwrk Store' | https://www.icanactagainstscams.gov.sg/scam-trends/job-scams-impersonating-genwrk-store-42d843b9
+    brands=['Genwrk Store'] gov=[] domains=['genwrk.com']
+    > The Singapore Police Force has observed a trend of job scams impersonating 'Genwrk Store'. Scammers are using websites like `genwrk.com` to trick individuals seeking employment. These scams often promise attractive returns for simple tasks, such as boosting online sales or performing other remote work.
+
+######## [39] uParcel (n=1)
+--- 2026-11-04 | Advisory: Beware of uParcel Phishing Scams | https://www.icanactagainstscams.gov.sg/scam-trends/uparcel-phishing-scams-bc9ecb00
+    brands=['uParcel'] gov=[] domains=['llvtx.cfd']
+    > The Singapore Police Force observes a trend of phishing scams impersonating uParcel, a popular delivery service. Scammers send unsolicited messages containing malicious links, aiming to trick victims into revealing personal or financial information.
+    > *   **Suspicious Links:** Be wary of messages claiming to be from uParcel that contain unusual or unfamiliar website links (e.g., `llvtx.cfd`). Always check the URL carefully before clicking.
+    > *   **Requests for Information:** Legitimate companies like uParcel will not ask for your personal banking details, One-Time Passwords (OTPs), or credit card information via unsolicited messages or suspicious links.
+    > *   **Verify directly with uParcel:** If you receive a message about a delivery, verify its authenticity through the official uParcel website or app, not through links provided in the message.
+
+######## [40] SG Arrival Card (SGAC) (n=1)
+--- 2026-10-30 | Advisory: Phishing Scams Impersonating SG Arrival Card (SGAC) | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-sg-arrival-card-sgac-e096af4f
+    brands=['SG Arrival Card (SGAC)'] gov=['SG Arrival Card (SGAC)'] domains=['digitalarrivalform.com']
+    > The Singapore Police Force has observed phishing websites impersonating the official SG Arrival Card (SGAC) e-service. These scam sites, such as `digitalarrivalform.com`, are designed to trick visitors into providing their personal information.
+    > *   Always check the website URL carefully. The official website for the SG Arrival Card is `eservices.ica.gov.sg/sgarrivalcard`. Scam sites may use similar-looking but incorrect domain names.
+    > *   Be cautious if a website requests payment to submit your SG Arrival Card, as the submission service is free of charge.
+
+######## [41] UOB Kay Hian (n=1)
+--- 2026-10-29 | Scam Alert: Phishing Websites Impersonating UOB Kay Hian | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-websites-impersonating-uob-kay-hian-6a4770f6
+    brands=['UOB Kay Hian'] gov=[] domains=['uobkhs.com']
+    > The Singapore Police Force observes a trend of phishing scams involving fake websites impersonating UOB Kay Hian. These scam sites, such as 'uobkhs.com', are designed to trick victims into revealing their personal and login information, often for investment or trading accounts.
+    > *   **Check the URL carefully:** Scammers create websites with URLs that are very similar to the official UOB Kay Hian website, often with slight misspellings or extra characters. Always verify the full URL in your browser's address bar.
+    > *   **Be wary of unsolicited links:** Exercise caution with links received via SMS, email, or social media that claim to be from UOB Kay Hian, especially if they prompt you to log in or update your details. Always access official websites by typing the URL directly into your browser.
+    > *   **Immediately change your passwords** for your UOB Kay Hian account and any other online accounts that share the same password.
+
+######## [42] Youlemei Mall (n=1)
+--- 2026-10-22 | Public Advisory: Beware of Job Scams Impersonating 'Youlemei Mall' | https://www.icanactagainstscams.gov.sg/scam-trends/job-scams-impersonating-youlemei-mall-d5f9d517
+    brands=['Youlemei Mall'] gov=[] domains=['youlemeimall.vip']
+    > The Singapore Police Force observes a recent trend of job scams, with several reports involving websites impersonating 'Youlemei Mall'. Scammers use these deceptive sites to trick individuals into fraudulent job opportunities.
+    > *   You receive unsolicited job offers, often via messaging apps or social media, promising high commissions or easy money for simple tasks, such as 'boosting' sales or performing online reviews for 'Youlemei Mall'.
+
+######## [43] SP Group (n=1)
+--- 2026-10-21 | Beware of Phishing Scams Impersonating SP Group | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-sp-group-8610a542
+    brands=['SP Group'] gov=[] domains=['samgirasg.com']
+    > The Singapore Police Force has observed a trend of phishing scams impersonating SP Group. Scammers create fake websites and send malicious messages (SMS or email) to trick the public into revealing their personal and banking information.
+    > *   Be wary of messages claiming to be from SP Group that contain suspicious links, especially if they ask you to update account details, pay bills, or claim refunds.
+    > *   Always check the website address carefully. Official SP Group websites will use their legitimate domain (e.g., `spgroup.com.sg`), not variations or misspellings like `samgirasg.com`.
+    > *   **C**heck for scam signs and verify information with official SP Group sources directly.
+
+######## [44] PETROBRAS (n=1)
+--- 2026-10-15 | Advisory: Beware of Investment Scams Impersonating PETROBRAS | https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-petrobras-c4925bba
+    brands=['PETROBRAS'] gov=[] domains=['peshiyou.top']
+    > The Singapore Police Force has observed a trend of investment scams that impersonate established brands, including PETROBRAS. These scams create fake investment opportunities, often promising high returns to trick individuals into parting with their money.
+
+######## [45] ADGM MONEY (n=1)
+--- 2026-10-14 | Beware of Fake 'ADGM MONEY' Investment Scams | https://www.icanactagainstscams.gov.sg/scam-trends/fake-adgm-money-investment-scams-66b4fd53
+    brands=['ADGM MONEY'] gov=[] domains=['make-moneyeasily.net', 'gold-vip.icu']
+    > The Singapore Police Force has observed a recent trend of investment scams using fake websites and impersonating financial entities, often using names similar to 'ADGM MONEY'. These fraudulent schemes promise quick and high returns on investments. We urge the public to be vigilant.
+
+######## [46] Central Provident Fund (CPF) Board (n=1)
+--- 2026-10-13 | Beware of Phishing Scams Impersonating CPF Board | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-cpf-board-ce5013ab
+    brands=['Central Provident Fund (CPF) Board'] gov=['Central Provident Fund (CPF) Board'] domains=['managelist.com']
+    > The Singapore Police Force has observed a trend of phishing scams impersonating the Central Provident Fund (CPF) Board. Scammers create fake websites to trick you into revealing your personal and financial information, often by mimicking official CPF services or communications.
+    > *   **Unusual URLs:** Always verify the website address. Official CPF Board websites always end with `cpf.gov.sg`. Be cautious of links in messages or emails that direct you to unfamiliar domains.
+    > *   **Requests for sensitive information:** The CPF Board will never ask for your Singpass credentials, bank account details, or NRIC through unsolicited SMS, email links, or third-party websites.
+    > *   **`Tell` authorities, family and friends:** Report any suspicious messages or calls to the police and inform your family and friends about these scams. You can also contact the CPF Board directly through their official channels to verify any communications.
+
+######## [47] Best Hotel Reservation (n=1)
+--- 2026-10-12 | Beware of Phishing Scams Impersonating Hotel Reservation Services | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-hotel-reservation-services-62503fcc
+    brands=['Best Hotel Reservation'] gov=[] domains=['gardes-holdenjp.com']
+    (no direct mention; first paras)
+    > The Singapore Police Force has observed an increase in phishing scams related to hotel reservation services.
+    > Scammers are creating fake websites and messages to trick individuals into believing they are booking hotels or accessing special deals. These fraudulent sites aim to steal your personal and financial information.
+
+######## [48] GitHub (n=1)
+--- 2026-10-08 | Advisory: Investment Scams Using Fake Websites and Unofficial Links | https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-using-fake-websites-and-unofficial-links-548fb848
+    brands=['GitHub'] gov=[] domains=['goudann.top']
+    > *   Be cautious of unsolicited messages, ads, or social media posts promoting investment opportunities, especially if they promise exceptionally high returns or claim a connection to well-known tech platforms like GitHub, but direct you to external, unofficial links.
+    > *   Always scrutinise the website's address. Legitimate platforms will use their official domain (e.g., `github.com`), not suspicious or unfamiliar URLs such as `goudann.top`.
+
+######## [49] QNT (n=1)
+--- 2026-10-07 | Advisory: Beware of Fake QNT Investment Platforms | https://www.icanactagainstscams.gov.sg/scam-trends/fake-qnt-investment-platforms-b1bd3b69
+    brands=['QNT'] gov=[] domains=['qntai.top']
+    > The Singapore Police Force has observed a trend of investment scams involving platforms impersonating QNT, such as websites like `qntai.top`. These scams often lure victims with promises of high returns in a short period. We urge the public to be vigilant and remember to ACT against scams.
+    > *   Always check the website address carefully. Scammers use fake or slightly altered URLs (e.g., `qntai.top`) to mimic official platforms. Verify the legitimacy of investment platforms through official company websites or trusted financial advisors.
+
+######## [50] Miniex (n=1)
+--- 2026-10-06 | Advisory: Beware of Miniex Investment Scams | https://www.icanactagainstscams.gov.sg/scam-trends/miniex-investment-scams-a77fab77
+    brands=['Miniex'] gov=[] domains=['miniexi.com']
+    > The Singapore Police Force (SPF) has observed a trend of investment scams involving the brand "Miniex" and suspicious websites such as `miniexi.com`. These scammers typically target individuals with promises of attractive, high-yield investment returns.
+    > *   Scammers often direct victims to fraudulent websites like `miniexi.com` or apps, claiming to be official "Miniex" investment platforms, to trick them into transferring money or providing personal details.
+
+######## [51] GOM Player (n=1)
+--- 2026-09-16 | Advisory: Watch Out for Investment Scams on Suspicious Websites and Unrelated Brands | https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-on-suspicious-websites-and-unrelated-brands-527d40ac
+    brands=['GOM Player'] gov=[] domains=['lumexafa.top', 'dnsyidzq.top']
+    > The Singapore Police Force has observed a trend of investment scams operating through suspicious websites. These fraudulent sites often lure victims with promises of high returns and may even misuse the names of well-known, unrelated brands to appear legitimate. For example, some scams have recently misused the name of GOM Player, a media player, in their investment schemes. Scammers use obscure website addresses such as `lumexafa.top` and `dnsyidzq.top` to host these fraudulent platforms.
+
+######## [52] Litecoin (n=1)
+--- 2026-09-14 | Advisory: Beware of Fake Litecoin Investment Websites | https://www.icanactagainstscams.gov.sg/scam-trends/fake-litecoin-investment-websites-989fc633
+    brands=['Litecoin'] gov=[] domains=['litecoin-machine.co']
+    > The Singapore Police Force has observed a trend of investment scams involving fake websites impersonating cryptocurrency platforms, specifically using the "Litecoin" brand. These scams often trick individuals into believing they are investing in legitimate cryptocurrency, only to lose their money.
+    > *   Scammers create deceptive websites that closely mimic legitimate cryptocurrency investment platforms or services, often featuring well-known brand names like Litecoin. Always **check** the URL carefully for any discrepancies and verify the legitimacy of the platform through official sources.
+
+######## [53] Immediate Edge (n=1)
+--- 2026-09-11 | Advisory: Beware of Fake 'Immediate Edge' Investment Scams | https://www.icanactagainstscams.gov.sg/scam-trends/fake-immediate-edge-investment-scams-15e08137
+    brands=['Immediate Edge'] gov=[] domains=['dylesaesivi.autos']
+    > The Singapore Police Force has observed a trend of investment scams impersonating legitimate-sounding platforms, such as "Immediate Edge". Scammers create fake websites and advertisements to trick the public into believing they are investing in high-return schemes.
+    > ### If you encounter such suspicious "Immediate Edge" investment offers or suspect you have been affected, you can **ACT**:
+
+######## [54] BHP (n=1)
+--- 2026-09-10 | Advisory: Beware of Fake Investment Scams Impersonating BHP | https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-scams-impersonating-bhp-799b7b46
+    brands=['BHP'] gov=[] domains=['2025gold.net']
+    > The Singapore Police Force has observed a trend of fake investment scams impersonating reputable brands like BHP, often promoted through suspicious websites such as `2025gold.net`. These scams aim to trick you into believing you are investing in a legitimate opportunity.
+    > *   **Check the Website Address:** Always verify that investment opportunities are promoted on the official websites of the companies they claim to represent. Scammers often use slightly altered or unusual domain names (e.g., `2025gold.net` instead of official BHP sites).
+    > *   **Verify and Report:** Always `Check` for scam signs and verify investment opportunities directly with the official company (e.g., through BHP's official website) or a trusted financial institution. If you have shared your details or made any payments, immediately contact your bank to halt transactions and `Tell` the Police about the incident.
+
+######## [55] lyft bikes (n=1)
+--- 2026-09-09 | Advisory: Beware of Investment Scams Impersonating Lyft Bikes | https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-lyft-bikes-8bd34ade
+    brands=['lyft bikes'] gov=[] domains=['lyft098236.work']
+    > The Singapore Police Force has observed a trend of investment scams impersonating legitimate brands, including "Lyft Bikes". Scammers create fake websites to lure victims into fraudulent investment schemes.
+
+######## [56] The Straits Times (n=1)
+--- 2026-09-04 | Advisory: Scam Websites Impersonating The Straits Times for Fake Investments | https://www.icanactagainstscams.gov.sg/scam-trends/scam-websites-impersonating-the-straits-times-for-fake-cfef5783
+    brands=['The Straits Times'] gov=[] domains=['strikeathletics.pro']
+    > The Singapore Police Force has observed an increase in scam websites impersonating The Straits Times to promote fake investment opportunities. These sites are designed to trick you into believing they are legitimate news articles endorsing investment schemes.
+    > *   **Suspicious Website Addresses**: Scam websites use unusual or unfamiliar URLs (e.g., strikeathletics.pro) that do not belong to The Straits Times, even if they display the newspaper's logo or branding prominently.
+    > *   **Unrealistic Investment Promises**: They promote investment schemes that promise high returns in a short period, often claiming to be endorsed or reported on by The Straits Times to gain your trust.
+
+######## [57] Public Transport Voucher (PTVE) (n=1)
+--- 2026-09-01 | Advisory: Beware of Scams Impersonating Public Transport Voucher (PTVE) | https://www.icanactagainstscams.gov.sg/scam-trends/scams-impersonating-public-transport-voucher-ptve-fe0a0d12
+    brands=['Public Transport Voucher (PTVE)'] gov=['Public Transport Voucher (PTVE)'] domains=['gtva.link']
+    > The Singapore Police Force (SPF) has observed an increase in scams impersonating the Public Transport Voucher Exercise (PTVE). Scammers are sending messages with fake links, attempting to trick the public into divulging personal information or clicking on malicious websites.
+    > *   You receive unexpected messages or SMSes regarding Public Transport Vouchers that contain suspicious links (e.g., `gtva.link`). Official messages will direct you to government websites or apps, not shortened or unfamiliar links.
+    > *   The messages may ask for personal details like banking information or one-time passwords (OTPs) to "redeem" or "verify" your voucher. Official PTVE processes do not require you to provide such sensitive information via SMS links.
+    > *   **Do not click on suspicious links.** If you receive an unexpected message about Public Transport Vouchers, verify its authenticity with official sources like the Ministry of Transport (MOT) or the Land Transport Authority (LTA) websites directly.
+
+######## [58] National Environment Agency (NEA) (n=1)
+--- 2026-08-20 | Advisory: Beware of Scams Impersonating National Environment Agency (NEA) | https://www.icanactagainstscams.gov.sg/scam-trends/scams-impersonating-national-environment-agency-nea-0737bcb5
+    brands=['National Environment Agency (NEA)'] gov=['National Environment Agency (NEA)'] domains=['nodequa.net']
+    > The Singapore Police Force has observed a rising trend of impersonation scams, with scammers posing as the National Environment Agency (NEA). These scammers aim to trick you into revealing personal information or making payments.
+    > *   Scammers use fake websites or links (e.g., `nodequa.net`) that look like official NEA pages but have slight differences in the web address. Always check the full URL carefully.
+    > *   **C**heck for scam signs: Always verify any unexpected messages or requests by checking official NEA channels directly, such as their official website or published contact numbers. Do not click on suspicious links.
+
+######## [59] Grab (n=1)
+--- 2026-08-18 | Advisory on Phishing Scams Impersonating Grab | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-grab-27eb0977
+    brands=['Grab'] gov=[] domains=['grabk.vip']
+    > The Singapore Police Force has observed a recent trend of phishing scams impersonating Grab. Scammers use fake websites to trick individuals into revealing their personal and login details.
+    > *   **Unusual Website Addresses:** Always check the website address carefully. Scammers use slightly altered or uncommon domain names (e.g., `grabk.vip`) that are not the official Grab website (`grab.com`).
+    > *   **Unsolicited Links & Requests:** Be cautious of unexpected messages, emails, or links that claim to be from Grab and ask you to log in or provide personal information, especially for promotions that seem too good to be true.
+    > *   Immediately change your password for your Grab account on the *official* Grab app or website. If you used the same password for other accounts, change them too.
+
+######## [60] Home Team Science & Technology Agency (HTX) (n=1)
+--- 2026-08-13 | Stay Vigilant Against Phishing Scams Impersonating HTX | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-htx-7d47da27
+    brands=['Home Team Science & Technology Agency (HTX)'] gov=['Home Team Science & Technology Agency (HTX)'] domains=['qer012.online']
+    > The Singapore Police Force would like to alert the public to a rise in phishing scams impersonating the Home Team Science & Technology Agency (HTX). These scams often involve fake websites designed to trick you into revealing personal or financial information.
+    > *   Always check the website address. Scammers use suspicious URLs (e.g., `qer012.online`) that look similar but are not the official HTX website. Official HTX websites will have `htx.gov.sg` in their address.
+    > *   Be wary of unsolicited messages or links that ask for your personal details (like login IDs, passwords, or bank account information). Official agencies like HTX will never ask for such sensitive information through unverified links.
+    > *   **C**heck for scam signs: Always verify information with official sources. If you receive a message or encounter a website claiming to be from HTX, verify its authenticity through the official HTX website (www.htx.gov.sg) or Gov.sg. Do not click on suspicious links.
+
+######## [61] Apple (n=1)
+--- 2026-08-06 | Advisory: Be Alert to Phishing Scams Impersonating Apple iCloud | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-apple-icloud-a1c2d3f9
+    brands=['Apple'] gov=[] domains=['icloud.qpon']
+    > The Singapore Police Force observes phishing attempts impersonating Apple iCloud services. These scams aim to trick you into revealing your Apple ID and password.
+    > *   Look out for messages (SMS, email) or websites that ask for your Apple ID or iCloud password but come from unusual or unfamiliar website addresses. For example, a scam site might use a domain like "icloud.qpon" instead of official Apple websites.
+    > *   Be cautious of urgent requests or threats stating your Apple account is locked, suspended, or requires immediate verification, especially if they direct you to click on a link.
+    > *   **A**dding security features: Always enable Two-Factor Authentication (2FA) for your Apple ID to protect your account, even if your password is stolen.
+
+######## [62] DBS PayLah (n=1)
+--- 2026-08-04 | Advisory: Beware of DBS PayLah Phishing Scams Using Fake Websites | https://www.icanactagainstscams.gov.sg/scam-trends/dbs-paylah-phishing-scams-using-fake-websites-2e842273
+    brands=['DBS PayLah'] gov=[] domains=['posb.live']
+    > The Singapore Police Force has observed a trend of phishing scams targeting users of DBS PayLah. Scammers are using fake websites, often with unusual URLs such as `posb.live`, to trick individuals into revealing their banking credentials.
+
+######## [63] XCN (n=1)
+--- 2026-07-30 | Advisory on Investment Scams Using Suspicious Websites | https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-using-suspicious-websites-0a4b2200
+    brands=['XCN'] gov=[] domains=['xcnc.top']
+    > The Singapore Police Force has noted a rise in investment scams, often using suspicious websites like `xcnc.top` and promising high returns. These scams aim to trick you into investing in fake opportunities.
+    > *   **Unverified Platforms:** Scammers direct you to unfamiliar websites or apps (e.g., `xcnc.top`) for investment. Always verify the platform's legitimacy with official sources.
+
+######## [64] BNBPULSE (n=1)
+--- 2026-07-28 | Advisory: Guard Against Online Investment Scams | https://www.icanactagainstscams.gov.sg/scam-trends/online-investment-scams-8da4b5bc
+    brands=['BNBPULSE'] gov=[] domains=['2125578.com']
+    > The Singapore Police Force observes a trend of investment scams involving fraudulent online platforms, sometimes masquerading as legitimate investment opportunities, such as those related to "BNBPULSE". These scams typically promise attractive returns with little to no risk.
+    > *   Be cautious of unsolicited investment opportunities or platforms (like "BNBPULSE") that promise unusually high or guaranteed returns in a short period. Legitimate investments always carry some risk.
+
+######## [65] Saudi Aramco (n=1)
+--- 2026-07-24 | Advisory: Protect Yourself from Impersonation Investment Scams | https://www.icanactagainstscams.gov.sg/scam-trends/impersonation-investment-scams-2784b6c7
+    brands=['Saudi Aramco'] gov=[] domains=['currency-oil.com']
+    > The Singapore Police Force warns the public about a rise in investment scams where fraudsters create fake websites and platforms to impersonate legitimate companies. These scams aim to trick individuals into investing in non-existent schemes. For instance, we have observed fake investment sites like `currency-oil.com` attempting to impersonate Saudi Aramco, offering what appear to be attractive investment opportunities.
+
+######## [66] INFO (n=1)
+--- 2026-07-09 | Advisory: Beware of Suspicious Online Investment Platforms like 'mineverse.cc' | https://www.icanactagainstscams.gov.sg/scam-trends/suspicious-online-investment-platforms-like-mineverse-cc-042e6b7d
+    brands=['INFO'] gov=[] domains=['mineverse.cc']
+    > *   **T**ell authorities, family and friends: If you have shared your personal or banking details, or transferred money, report it immediately to your bank and the police. Inform your loved ones about such scams to protect them.
+
+######## [67] Compass Mining (n=1)
+--- 2026-07-07 | Advisory: Beware of Fake Investment Opportunities Impersonating Compass Mining | https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-opportunities-impersonating-compass-mining-d8f3f0e5
+    brands=['Compass Mining'] gov=[] domains=['ssessoomm.com']
+    > The Singapore Police Force (SPF) has observed recent reports of investment scams, including those impersonating legitimate entities like 'Compass Mining'. Scammers lure victims with promises of high returns through fake websites and platforms.
+
+######## [68] BNB (n=1)
+--- 2026-07-02 | Advisory on Investment Scams Impersonating BNB | https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-bnb-731d7dec
+    brands=['BNB'] gov=[] domains=['bbconbnb.com']
+    > The Singapore Police Force has observed a recent trend of investment scams impersonating the brand "BNB". These scams often use deceptive websites like `bbconbnb.com` to trick individuals into fraudulent investment schemes, promising high returns.
+    > *   **Unusual website addresses:** Be wary of website links that look similar to official brand sites but have slight variations (e.g., `bbconbnb.com` instead of the legitimate BNB domain). Always verify the exact URL before interacting with it.
+
+######## [69] JoyBuy (n=1)
+--- 2026-06-26 | Scam Alert: Beware of Fake Job Offers Impersonating JoyBuy | https://www.icanactagainstscams.gov.sg/scam-trends/fake-job-offers-impersonating-joybuy-ecbe2af3
+    brands=['JoyBuy'] gov=[] domains=['maill-top.net']
+    > Recent reports show a trend of job scams impersonating legitimate brands like JoyBuy. Scammers lure victims with fake work opportunities, promising high commissions for simple tasks.
+
+######## [70] GoMining (n=1)
+--- 2026-06-24 | Advisory: Be Wary of Fake Investment Schemes Promoting 'GoMining' | https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-schemes-promoting-gomining-896fe6ac
+    brands=['GoMining'] gov=[] domains=['go-mining66.top']
+    > The Singapore Police Force has observed a trend of scam websites impersonating legitimate investment platforms or promoting fake cryptocurrency mining opportunities, often using brand names like 'GoMining'. These sites aim to trick individuals into investing in non-existent schemes.
+    > *   Scammers promote fake 'GoMining' or similar investment schemes, promising exceptionally high returns in a short period with little to no risk.
+
+######## [71] Nova Quant (n=1)
+--- 2026-06-22 | Advisory: Beware of Fake Investment Schemes Impersonating 'Nova Quant' | https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-schemes-impersonating-nova-quant-88c98812
+    brands=['Nova Quant'] gov=[] domains=['novaxmr.xyz']
+    > The Singapore Police Force (SPF) observes a trend of fake investment schemes, including those impersonating "Nova Quant", luring individuals with promises of high returns. These scams often direct victims to fraudulent websites, such as `novaxmr.xyz`, to trick them into transferring money.
+    > *   Scammers may use names like "Nova Quant" and direct you to unfamiliar websites for registration or investment, which are not legitimate financial platforms.
+
+######## [72] A2 (n=1)
+--- 2026-06-19 | Advisory: Stay Vigilant Against Investment Scams Impersonating 'A2' | https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-a2-4e53fae5
+    brands=['A2'] gov=[] domains=['a2.mom']
+    > The Singapore Police Force (SPF) has observed recent instances of investment scam attempts, particularly those involving the impersonation of the brand 'A2' or similar entities. Scammers often create fake websites, such as 'a2.mom', to lure individuals into fraudulent investment schemes.
+    > *   Be cautious of unsolicited messages, emails, or online advertisements promoting 'A2' or other brands that promise unusually high investment returns in a short period.
+    > If you suspect you have fallen victim to an investment scam related to 'A2' or any similar scheme:
+
+######## [73] ZFuse (n=1)
+--- 2026-06-17 | Advisory: Beware of Job Scams Impersonating ZFuse and TUbi | https://www.icanactagainstscams.gov.sg/scam-trends/job-scams-impersonating-zfuse-and-tubi-8ec3caa4
+    brands=['ZFuse', 'TUbi'] gov=[] domains=['baoffu.vip', 'tubirating.com']
+    > The Singapore Police Force (SPF) has recently observed a trend of job scams, with several reports involving websites impersonating brands like ZFuse and TUbi.
+    > *   The job offers often impersonate legitimate companies (e.g., ZFuse, TUbi) but direct you to suspicious websites with unusual domain names.
+
+######## [74] TUbi (n=1)
+--- 2026-06-17 | Advisory: Beware of Job Scams Impersonating ZFuse and TUbi | https://www.icanactagainstscams.gov.sg/scam-trends/job-scams-impersonating-zfuse-and-tubi-8ec3caa4
+    brands=['ZFuse', 'TUbi'] gov=[] domains=['baoffu.vip', 'tubirating.com']
+    > The Singapore Police Force (SPF) has recently observed a trend of job scams, with several reports involving websites impersonating brands like ZFuse and TUbi.
+    > *   The job offers often impersonate legitimate companies (e.g., ZFuse, TUbi) but direct you to suspicious websites with unusual domain names.
+
+######## [75] Pilbara Mining (n=1)
+--- 2026-06-15 | Advisory: Guard Against Fake Investment Schemes Impersonating Companies | https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-schemes-impersonating-companies-ca6d788e
+    brands=['Pilbara Mining'] gov=[] domains=['piarjuy.top']
+    > The Singapore Police Force (SPF) reminds the public to be vigilant against investment scams that impersonate legitimate companies or create fake entities to trick victims. We have observed cases involving fake investment opportunities, some using names like 'Pilbara Mining', enticing individuals with promises of high returns.
+
+######## [76] DJI (n=1)
+--- 2026-06-12 | Advisory: Beware of Fake Investment Schemes Impersonating DJI | https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-schemes-impersonating-dji-a5c06b60
+    brands=['DJI'] gov=[] domains=['dji8.top']
+    > We have observed a trend of fake investment schemes impersonating well-known brands like DJI. Scammers create deceptive websites and social media pages to lure individuals with fraudulent investment opportunities.
+    > *   **Fake Websites and Social Media:** Scammers use fake websites (e.g., `dji8.top`) or social media accounts to promote investment schemes that falsely claim affiliation with DJI. Always check for scam signs and verify the authenticity of websites and investment platforms with official sources.
+
+######## [77] Shopee (n=1)
+--- 2026-06-09 | Advisory on Job Scams Impersonating Shopee | https://www.icanactagainstscams.gov.sg/scam-trends/job-scams-impersonating-shopee-45733c6d
+    brands=['Shopee'] gov=[] domains=['vis3367.shop']
+    > The Singapore Police Force has observed a trend of job scams impersonating well-known brands like Shopee. Scammers entice victims with fake job opportunities that promise high returns for simple tasks. These scams often direct victims to fraudulent websites with unofficial URLs.
+    > *   Always check the website address (URL) carefully. Official Shopee websites use domains like `shopee.sg` or `shopee.com`, not unusual or slightly altered domains such as `vis3367.shop`.
+
+######## [78] MBRAIMSolar Park (n=1)
+--- 2026-06-08 | Advisory: Be Wary of Emerging Online Investment Scams | https://www.icanactagainstscams.gov.sg/scam-trends/emerging-online-investment-scams-355047ed
+    brands=['MBRAIMSolar Park', 'Televizo'] gov=[] domains=['yyujgg.vip', 'mprmspus.top']
+    > The Singapore Police Force (SPF) has observed a rise in reports involving online investment scams, often using unfamiliar brand names like "Televizo" or "MBRAIMSolar Park" and operating on suspicious website domains.
+
+######## [79] Televizo (n=1)
+--- 2026-06-08 | Advisory: Be Wary of Emerging Online Investment Scams | https://www.icanactagainstscams.gov.sg/scam-trends/emerging-online-investment-scams-355047ed
+    brands=['MBRAIMSolar Park', 'Televizo'] gov=[] domains=['yyujgg.vip', 'mprmspus.top']
+    > The Singapore Police Force (SPF) has observed a rise in reports involving online investment scams, often using unfamiliar brand names like "Televizo" or "MBRAIMSolar Park" and operating on suspicious website domains.
+
+######## [80] Avenis (n=1)
+--- 2026-06-05 | Advisory: Beware of Phishing Job Scams Using Unofficial Websites | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-job-scams-using-unofficial-websites-5f7a18e9
+    brands=['Avenis'] gov=[] domains=['avenisportalglobe1.asia']
+    > The Singapore Police Force has observed a trend of job scams luring individuals through unofficial websites, such as `avenisportalglobe1.asia`. Scammers exploit the desire for employment by offering seemingly attractive opportunities that often lead to financial loss.
+
+######## [81] RiverQuode (n=1)
+--- 2026-06-02 | Alert: Beware of Fake Online Investment Scams Promising High Returns | https://www.icanactagainstscams.gov.sg/scam-trends/fake-online-investment-scams-promising-high-returns-10800b70
+    brands=['RiverQuode', 'USDT Tether'] gov=[] domains=['river-quode.net', '980.it.com']
+    (no direct mention; first paras)
+    > The Singapore Police Force warns the public about a recent surge in fake online investment scams. Scammers are creating deceptive websites and platforms, some masquerading as legitimate investment opportunities involving cryptocurrencies like USDT Tether or promoting unknown entities, promising extremely high and fast returns.
+    > Here’s how to recognise these scams:
+
+######## [82] USDT Tether (n=1)
+--- 2026-06-02 | Alert: Beware of Fake Online Investment Scams Promising High Returns | https://www.icanactagainstscams.gov.sg/scam-trends/fake-online-investment-scams-promising-high-returns-10800b70
+    brands=['RiverQuode', 'USDT Tether'] gov=[] domains=['river-quode.net', '980.it.com']
+    > The Singapore Police Force warns the public about a recent surge in fake online investment scams. Scammers are creating deceptive websites and platforms, some masquerading as legitimate investment opportunities involving cryptocurrencies like USDT Tether or promoting unknown entities, promising extremely high and fast returns.
+
+######## [83] copililis (n=1)
+--- 2026-05-26 | Stay Vigilant Against E-Commerce Scams: Beware of Sites like 'Copililis' | https://www.icanactagainstscams.gov.sg/scam-trends/e-commerce-scams-beware-of-sites-like-copililis-393dfe78
+    brands=['copililis'] gov=[] domains=['copililis.com']
+    > The Singapore Police Force (SPF) has observed a trend of E-Commerce scams involving fake shopping websites, including one identified as 'Copililis'. These scams aim to trick shoppers into making purchases on non-existent or fraudulent platforms, often resulting in financial loss or non-delivery of goods.
+    > *   Be wary of deals on unfamiliar websites like 'Copililis.com' that offer prices significantly lower than market rates.
+
+######## [84] RapidApp (n=1)
+--- 2026-05-21 | Alert: Fake Investment Platform 'RapidApp' Detected | https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-platform-rapidapp-detected-6a0af9aa
+    brands=['RapidApp'] gov=[] domains=['rapid-app.net']
+    > We have observed a trend of investment scams involving a purported platform named 'RapidApp'. Scammers are using such names to trick individuals into fake investment opportunities, often promising high returns for minimal risk.
+    > *   You receive unsolicited offers promising unusually high returns in a short period, often promoting an unknown investment platform or app like 'RapidApp'.
+
+######## [85] AI-QT (n=1)
+--- 2026-05-15 | Advisory: Beware of Fake Investment Opportunities Impersonating "AI-QT" | https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-opportunities-impersonating-ai-qt-e52918f6
+    brands=['AI-QT'] gov=[] domains=['ai-qt.vip']
+    > The Singapore Police Force (SPF) has observed a trend of scam websites, such as "ai-qt.vip", promoting fake investment opportunities that misuse the "AI-QT" brand.
+    > *   The investment platform or website, like "ai-qt.vip", may look professional but is not affiliated with any legitimate financial institution or investment firm registered in Singapore. Always **"Check"** the legitimacy of the platform and its domain name.
+
+######## [86] Snapchat (n=1)
+--- 2026-05-14 | Advisory: Beware of Investment Scams Using Snapchat's Brand | https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-using-snapchats-brand-7b1caa77
+    brands=['Snapchat'] gov=[] domains=['makingvideos.app']
+    > The Singapore Police Force has observed a trend of investment scams circulating, particularly on the website 'makingvideos.app', which leverages the branding of popular social media platforms like Snapchat. These scams attempt to lure individuals with promises of high returns through fraudulent investment schemes.
+    > *   Be cautious of unsolicited messages or posts on social media (including platforms like Snapchat) that promote investment opportunities with unusually high returns or pressure you to act quickly.
+
+######## [87] Crypto.com (n=1)
+--- 2026-05-13 | Advisory: Beware of Investment Scams Impersonating Crypto.com | https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-crypto-com-4bcc0639
+    brands=['Crypto.com'] gov=[] domains=['kdmwj.com']
+    > The Singapore Police Force (SPF) has observed a trend of investment scams impersonating legitimate cryptocurrency platforms like Crypto.com. Scammers create fake websites and applications to trick victims into investing in fraudulent schemes, promising high and quick returns.
+
+######## [88] Charge+ (n=1)
+--- 2026-05-12 | Advisory: Beware of Fake 'Charge+' Investment Schemes | https://www.icanactagainstscams.gov.sg/scam-trends/fake-charge-investment-schemes-fab4c30d
+    brands=['Charge+'] gov=[] domains=['chargingpiles.autos']
+    > The Singapore Police Force (SPF) has observed a trend of fake investment schemes using the brand name "Charge+". These scams lure victims with promises of high returns through investments in charging piles or related services.
+    > *   You receive unsolicited offers, often online or via messaging apps, promoting high-return investment opportunities in "charging piles" or electric vehicle infrastructure, claiming to be from "Charge+".
+
+######## [89] SmartView (n=1)
+--- 2026-05-08 | Advisory: Beware of Fake Job Offers Associated with smartviewad.com | https://www.icanactagainstscams.gov.sg/scam-trends/fake-job-offers-associated-with-smartviewad-com-6b231b41
+    brands=['SmartView'] gov=[] domains=['smartviewad.com']
+    > The Singapore Police Force (SPF) has observed recent trends involving fake job offers, particularly those associated with the website `smartviewad.com`.
+    > *   You receive unsolicited job offers via messaging apps or social media, promising high pay for simple tasks (e.g., reviewing apps, optimising social media) and often directing you to suspicious websites like `smartviewad.com`.
+
+######## [90] Imperialist Investment (n=1)
+--- 2026-05-07 | Advisory: Beware of Fake Investment Schemes Promoting 'Imperialist Investment' | https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-schemes-promoting-imperialist-investment-5b6a4b18
+    brands=['Imperialist Investment'] gov=[] domains=['goldwind.app']
+    > The Singapore Police Force (SPF) wishes to alert the public to a recurring investment scam involving a fraudulent entity named 'Imperialist Investment'. Scammers are enticing victims with promises of high returns through fake investment schemes.
+    > *   You may receive unsolicited messages, calls, or encounter online advertisements promoting investment opportunities with 'Imperialist Investment', often promising unusually high or guaranteed profits with little to no risk.
+    > If you suspect you have fallen victim to an 'Imperialist Investment' scam:
+    > *   **T**elling authorities, family and friends: Share information about investment scams with your loved ones to protect them. If you encounter suspicious 'Imperialist Investment' offers, report them to the police.
+
+######## [91] Marriott Bonvoy (n=1)
+--- 2026-05-06 | Advisory: Beware of Investment Scams Impersonating Reputable Brands | https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-reputable-brands-31f06e15
+    brands=['Marriott Bonvoy', 'Barrick Gold'] gov=[] domains=['baobeiwa.bond', 'marrioot.net']
+    > The Singapore Police Force (SPF) has observed a trend of investment scams impersonating well-known brands such as Barrick Gold and Marriott Bonvoy. Scammers create fake websites and platforms to trick individuals into believing they are investing with legitimate companies, promising high returns.
+    > *   **Suspicious investment offers:** Be wary of investment offers, especially those promising high or guaranteed returns, that claim to be from well-known companies like Barrick Gold or Marriott Bonvoy. Legitimate companies do not typically offer direct, high-yield public investment schemes in this manner.
+
+######## [92] Barrick Gold (n=1)
+--- 2026-05-06 | Advisory: Beware of Investment Scams Impersonating Reputable Brands | https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-reputable-brands-31f06e15
+    brands=['Marriott Bonvoy', 'Barrick Gold'] gov=[] domains=['baobeiwa.bond', 'marrioot.net']
+    > The Singapore Police Force (SPF) has observed a trend of investment scams impersonating well-known brands such as Barrick Gold and Marriott Bonvoy. Scammers create fake websites and platforms to trick individuals into believing they are investing with legitimate companies, promising high returns.
+    > *   **Suspicious investment offers:** Be wary of investment offers, especially those promising high or guaranteed returns, that claim to be from well-known companies like Barrick Gold or Marriott Bonvoy. Legitimate companies do not typically offer direct, high-yield public investment schemes in this manner.
+
+######## [93] NECTA (n=1)
+--- 2026-04-29 | Advisory: Stay Alert to Fake Job Offers Online | https://www.icanactagainstscams.gov.sg/scam-trends/fake-job-offers-online-ac4e392c
+    brands=['NECTA', 'NEXVLTD'] gov=[] domains=['nexvltd.com', 'fi20fa26cups.click']
+    (no direct mention; first paras)
+    > The Singapore Police Force (SPF) has observed a recent trend of job scams, with specific websites like `nexvltd.com` and `fi20fa26cups.click` being reported. These scams often trick individuals into performing simple tasks with the promise of high returns, only to defraud them of their money. We urge everyone to remain vigilant.
+    > **How to recognise these scams:**
+
+######## [94] NEXVLTD (n=1)
+--- 2026-04-29 | Advisory: Stay Alert to Fake Job Offers Online | https://www.icanactagainstscams.gov.sg/scam-trends/fake-job-offers-online-ac4e392c
+    brands=['NECTA', 'NEXVLTD'] gov=[] domains=['nexvltd.com', 'fi20fa26cups.click']
+    > The Singapore Police Force (SPF) has observed a recent trend of job scams, with specific websites like `nexvltd.com` and `fi20fa26cups.click` being reported. These scams often trick individuals into performing simple tasks with the promise of high returns, only to defraud them of their money. We urge everyone to remain vigilant.
+
+######## [95] Shell (n=1)
+--- 2026-04-28 | Advisory: Beware of Shell-Branded Investment Scams | https://www.icanactagainstscams.gov.sg/scam-trends/shell-branded-investment-scams-90bd97b3
+    brands=['Shell'] gov=[] domains=['shell-vip.com']
+    > The Singapore Police Force (SPF) has observed a recent trend of investment scams impersonating legitimate companies, including Shell. These scams typically involve fraudulent websites or platforms that lure victims with promises of high returns from exclusive investment opportunities.
+    > *   Always verify the website's legitimacy. Scammers often use unofficial or slightly altered domain names (e.g., `shell-vip.com`) that do not match the official company's website.
+
+######## [96] SIMO (n=1)
+--- 2026-04-27 | Advisory: Watch Out for Impersonation Investment Scams | https://www.icanactagainstscams.gov.sg/scam-trends/impersonation-investment-scams-fee99317
+    brands=['SIMO', 'B2Gold'] gov=[] domains=['simog.top', 'b2goldmining.shop']
+    > We've observed a recent trend of fake investment websites impersonating legitimate companies like SIMO and B2Gold. These fraudulent sites aim to trick individuals into believing they are investing in genuine opportunities, often luring them with attractive, unrealistic returns.
+    > *   **Suspicious Website Addresses:** Always scrutinise the website's URL. Scammers often use domain names that are slightly different from the official company's (e.g., `simog.top`, `b2goldmining.shop`) or use uncommon top-level domains like `.top` or `.shop`. Legitimate companies typically use common and official domains such as `.com` or `.sg`.
+
+######## [97] B2Gold (n=1)
+--- 2026-04-27 | Advisory: Watch Out for Impersonation Investment Scams | https://www.icanactagainstscams.gov.sg/scam-trends/impersonation-investment-scams-fee99317
+    brands=['SIMO', 'B2Gold'] gov=[] domains=['simog.top', 'b2goldmining.shop']
+    > We've observed a recent trend of fake investment websites impersonating legitimate companies like SIMO and B2Gold. These fraudulent sites aim to trick individuals into believing they are investing in genuine opportunities, often luring them with attractive, unrealistic returns.
+    > *   **Suspicious Website Addresses:** Always scrutinise the website's URL. Scammers often use domain names that are slightly different from the official company's (e.g., `simog.top`, `b2goldmining.shop`) or use uncommon top-level domains like `.top` or `.shop`. Legitimate companies typically use common and official domains such as `.com` or `.sg`.
+
+######## [98] NTUC FairPrice (n=1)
+--- 2026-04-24 | Advisory on Phishing Scams Impersonating NTUC FairPrice | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-ntuc-fairprice-d9b59549
+    brands=['NTUC FairPrice'] gov=[] domains=['ghuow.buzz', 'tlncs.buzz']
+    > The Singapore Police Force (SPF) observes a recent trend of phishing scams impersonating NTUC FairPrice. These scams typically involve fake websites designed to trick you into revealing your personal or banking information.
+    > *   Be cautious of unsolicited messages containing links with suspicious or unfamiliar domain names (e.g., ending with ".buzz") that claim to be from NTUC FairPrice. Always check the full URL before clicking.
+    > *   Authentic NTUC FairPrice websites will always use their official domain, typically `fairprice.com.sg` or a related official subdomain.
+    > Remember, NTUC FairPrice will never ask for your banking details or One-Time Passwords (OTPs) through unsolicited messages or unofficial websites.
+
+######## [99] X2PAY (n=1)
+--- 2026-04-23 | Advisory: Beware of Fake Investment Platforms Promising High Returns | https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-platforms-promising-high-returns-f4bc11d4
+    brands=['X2PAY', 'USDT AI Quantify'] gov=[] domains=['usdtaiquantify2.com', 'x2pay.click']
+    > The Singapore Police Force has observed recent trends involving fake investment platforms, such as those impersonating "USDT AI Quantify" and "X2PAY". These scams typically entice individuals with promises of high or guaranteed returns in a short period, often involving cryptocurrency.
+
+######## [100] USDT AI Quantify (n=1)
+--- 2026-04-23 | Advisory: Beware of Fake Investment Platforms Promising High Returns | https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-platforms-promising-high-returns-f4bc11d4
+    brands=['X2PAY', 'USDT AI Quantify'] gov=[] domains=['usdtaiquantify2.com', 'x2pay.click']
+    > The Singapore Police Force has observed recent trends involving fake investment platforms, such as those impersonating "USDT AI Quantify" and "X2PAY". These scams typically entice individuals with promises of high or guaranteed returns in a short period, often involving cryptocurrency.
+
+######## [101] Thaitouristvisa (n=1)
+--- 2026-04-22 | Advisory: Beware of Fake Visa Application Websites | https://www.icanactagainstscams.gov.sg/scam-trends/fake-visa-application-websites-5079d52e
+    brands=['Thaitouristvisa'] gov=[] domains=['thaitouristvisa.com']
+    > The Singapore Police Force has observed fake websites impersonating legitimate visa application services, such as those for 'Thaitouristvisa' (e.g., `thaitouristvisa.com`). These scam websites are designed to trick individuals into providing personal information and making payments for non-existent or unofficial visa services.
+
+######## [102] ExpresszFundings SG (n=1)
+--- 2026-04-17 | Advisory: Beware of Loan Scams Impersonating 'ExpresszFundings SG' | https://www.icanactagainstscams.gov.sg/scam-trends/loan-scams-impersonating-expresszfundings-sg-37365d36
+    brands=['ExpresszFundings SG'] gov=[] domains=['expresszfundings.com']
+    > The Singapore Police Force (SPF) has observed a trend of loan scams impersonating "ExpresszFundings SG". Scammers are using deceptive websites, like "expresszfundings.com", and various communication channels to trick members of the public into believing they are applying for legitimate loans.
+
+######## [103] Alvopetro (n=1)
+--- 2026-04-15 | Advisory: Beware of Investment Scams Impersonating Legitimate Companies | https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-legitimate-companies-04a4a367
+    brands=['Alvopetro', 'Hochschild'] gov=[] domains=['autonomo-income.com', 'aloilvip.shop']
+    > The Singapore Police Force (SPF) has observed a trend of investment scams where scammers impersonate legitimate companies like Hochschild and Alvopetro. These scams often use sophisticated tactics, including creating fake websites, to deceive victims into believing they are making genuine investments.
+
+######## [104] Hochschild (n=1)
+--- 2026-04-15 | Advisory: Beware of Investment Scams Impersonating Legitimate Companies | https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-legitimate-companies-04a4a367
+    brands=['Alvopetro', 'Hochschild'] gov=[] domains=['autonomo-income.com', 'aloilvip.shop']
+    > The Singapore Police Force (SPF) has observed a trend of investment scams where scammers impersonate legitimate companies like Hochschild and Alvopetro. These scams often use sophisticated tactics, including creating fake websites, to deceive victims into believing they are making genuine investments.
+
+######## [105] ROGin AI (n=1)
+--- 2026-04-14 | Advisory on Investment Scams Impersonating AI and Cryptocurrency Platforms | https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-ai-and-cryptocurrency-d2da0567
+    brands=['ROGin AI', 'SatoshiMine'] gov=[] domains=['roginai.org', 'satoshiminebtc.com']
+    > The Singapore Police Force has observed recent trends involving investment scams, particularly those impersonating platforms like 'ROGin AI' and 'SatoshiMine'. These scams often lure victims with promises of high returns from AI-powered investments or cryptocurrency mining.
+
+######## [106] SatoshiMine (n=1)
+--- 2026-04-14 | Advisory on Investment Scams Impersonating AI and Cryptocurrency Platforms | https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-ai-and-cryptocurrency-d2da0567
+    brands=['ROGin AI', 'SatoshiMine'] gov=[] domains=['roginai.org', 'satoshiminebtc.com']
+    > The Singapore Police Force has observed recent trends involving investment scams, particularly those impersonating platforms like 'ROGin AI' and 'SatoshiMine'. These scams often lure victims with promises of high returns from AI-powered investments or cryptocurrency mining.
+
+######## [107] Doge Mining (n=1)
+--- 2026-04-09 | Beware of Fake Investment Scams Promising High Returns | https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-scams-promising-high-returns-4e5d1698
+    brands=['Doge Mining', 'CTX', 'GN Mall'] gov=[] domains=['doge-miningbank.vip', 'ctxpublic.online', 'gnfmall.com']
+    (no direct mention; first paras)
+    > The Singapore Police Force (SPF) has observed a trend of investment scams circulating online, often using fake websites or platforms. These scams lure victims with promises of high returns, often related to cryptocurrency mining or other attractive investment schemes.
+    > ### How to recognise these scams:
+
+######## [108] GN Mall (n=1)
+--- 2026-04-09 | Beware of Fake Investment Scams Promising High Returns | https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-scams-promising-high-returns-4e5d1698
+    brands=['Doge Mining', 'CTX', 'GN Mall'] gov=[] domains=['doge-miningbank.vip', 'ctxpublic.online', 'gnfmall.com']
+    (no direct mention; first paras)
+    > The Singapore Police Force (SPF) has observed a trend of investment scams circulating online, often using fake websites or platforms. These scams lure victims with promises of high returns, often related to cryptocurrency mining or other attractive investment schemes.
+    > ### How to recognise these scams:
+
+######## [109] Capitaland (n=1)
+--- 2026-04-08 | Scam Alert: Beware of Fake CapitaLand Investment Websites | https://www.icanactagainstscams.gov.sg/scam-trends/fake-capitaland-investment-websites-28b6f5df
+    brands=['Capitaland'] gov=[] domains=['fnltvcapblndvn.com']
+    > The Singapore Police Force (SPF) observes a trend of fake investment websites impersonating reputable brands like CapitaLand. Scammers create these fraudulent sites to trick individuals into bogus investment schemes.
+
+######## [110] Burberry (n=1)
+--- 2026-04-06 | Act Against Scams: Watch Out for Fake Online Shopping Sites | https://www.icanactagainstscams.gov.sg/scam-trends/act-against-scams-watch-out-for-fake-online-shopping-sites-0d3e3526
+    brands=['Burberry'] gov=[] domains=['shop-adidasoutlet.com', 'premium-bag-sg.shop']
+    > The Singapore Police Force (SPF) Scam Public Education Office (SPEO) observes a recent trend of fake e-commerce websites impersonating well-known brands like Adidas and Burberry. These sites are designed to trick shoppers with attractive deals, leading to financial loss or compromise of personal information.
+
+######## [111] flance (n=1)
+--- 2026-03-30 | Advisory: Beware of Fake Job Offers on Suspicious Websites | https://www.icanactagainstscams.gov.sg/scam-trends/fake-job-offers-on-suspicious-websites-5c206874
+    brands=['JKF', 'flance'] gov=[] domains=['fastnedglobal.shop', 'companyflc.business', 'coupang-vip.com']
+    (no direct mention; first paras)
+    > The Singapore Police Force has observed a trend of job scams operating through suspicious websites such as `fastnedglobal.shop`, `companyflc.business`, and `coupang-vip.com`. These scams entice individuals with promises of easy work and high returns, often leading to financial loss or the compromise of personal data.
+    > To protect yourself, remember to **ACT** against scams:
+
+######## [112] Dell Player (n=1)
+--- 2026-03-25 | ACT Against Investment Scams: Verify Online Platforms and Offers | https://www.icanactagainstscams.gov.sg/scam-trends/act-against-investment-scams-verify-online-platforms-and-b4c1c6cd
+    brands=['Dell Player', 'Citadel'] gov=[] domains=['taishang8.top', 'citadiel.com']
+    > The Singapore Police Force warns the public about a rise in investment scams, often using fake websites that impersonate legitimate companies or financial institutions like "Citadel" or falsely claiming association with brands such as "Dell Player". These scams lure victims with promises of high returns and quick profits.
+
+######## [113] Citadel (n=1)
+--- 2026-03-25 | ACT Against Investment Scams: Verify Online Platforms and Offers | https://www.icanactagainstscams.gov.sg/scam-trends/act-against-investment-scams-verify-online-platforms-and-b4c1c6cd
+    brands=['Dell Player', 'Citadel'] gov=[] domains=['taishang8.top', 'citadiel.com']
+    > The Singapore Police Force warns the public about a rise in investment scams, often using fake websites that impersonate legitimate companies or financial institutions like "Citadel" or falsely claiming association with brands such as "Dell Player". These scams lure victims with promises of high returns and quick profits.
+    > *   Always scrutinise website URLs. Scammers often use slightly altered or unusual domain names (e.g., `citadiel.com` instead of `citadel.com`) to mimic legitimate companies.
+
+######## [114] Chan Brothers (n=1)
+--- 2026-03-24 | Advisory: Beware of Phishing Scams Impersonating Chan Brothers | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-chan-brothers-311e108a
+    brands=['Chan Brothers'] gov=[] domains=['sell.sctt.net']
+    > The Singapore Police Force has observed a recent trend of phishing websites impersonating popular travel agency Chan Brothers. These scam sites aim to trick individuals into revealing personal and financial information under the guise of travel deals or bookings.
+    > *   Scam websites often use unusual or slightly altered web addresses that do not belong to the official Chan Brothers website (e.g., `sell.sctt.net` instead of `chanbrothers.com`). Always verify the URL carefully before clicking or entering any information.
+
+######## [115] SEI (n=1)
+--- 2026-03-18 | Advisory: Beware of Investment Scams Using Suspicious Websites | https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-using-suspicious-websites-8d042bc2
+    brands=['SEI', 'Skild AI', 'JUST'] gov=[] domains=['skdai001.xyz', 'seeee.cc', 'usttt.net']
+    > The Singapore Police Force (SPF) has observed a recent trend of investment scams leveraging suspicious websites, with notable examples linked to brands such as Skild AI, SEI, and JUST. These scams aim to trick individuals into investing in fake opportunities, leading to financial losses.
+
+######## [116] Skild AI (n=1)
+--- 2026-03-18 | Advisory: Beware of Investment Scams Using Suspicious Websites | https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-using-suspicious-websites-8d042bc2
+    brands=['SEI', 'Skild AI', 'JUST'] gov=[] domains=['skdai001.xyz', 'seeee.cc', 'usttt.net']
+    > The Singapore Police Force (SPF) has observed a recent trend of investment scams leveraging suspicious websites, with notable examples linked to brands such as Skild AI, SEI, and JUST. These scams aim to trick individuals into investing in fake opportunities, leading to financial losses.
+
+######## [117] Starview (n=1)
+--- 2026-03-12 | Stay Alert to Job Scams Impersonating Companies | https://www.icanactagainstscams.gov.sg/scam-trends/job-scams-impersonating-companies-35a161bf
+    brands=['Starview', 'GREY'] gov=[] domains=['starview.cyou', 'greygroupworkhub.com']
+    > The Singapore Police Force (SPF) has observed a trend of job scams impersonating legitimate companies, including brands like Starview and GREY. These scams lure victims with promises of easy money or high commissions through fake job offers.
+
+######## [118] GREY (n=1)
+--- 2026-03-12 | Stay Alert to Job Scams Impersonating Companies | https://www.icanactagainstscams.gov.sg/scam-trends/job-scams-impersonating-companies-35a161bf
+    brands=['Starview', 'GREY'] gov=[] domains=['starview.cyou', 'greygroupworkhub.com']
+    > The Singapore Police Force (SPF) has observed a trend of job scams impersonating legitimate companies, including brands like Starview and GREY. These scams lure victims with promises of easy money or high commissions through fake job offers.
+
+######## [119] Coinbase (n=1)
+--- 2026-03-10 | Advisory: Beware of Fake Investment Websites Impersonating Popular Brands | https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-websites-impersonating-popular-brands-6335bfca
+    brands=['CTX', 'Coinbase', 'PUMP MINING', 'Novartis AG VIP'] gov=[] domains=['oinbase-staking.com', 'pumpmining.top', 'herb6.vip', 'ctxpublic.online']
+    > *   **Suspicious Website Addresses**: Scam websites often use URLs that look similar to legitimate companies (e.g., "oinbase-staking.com" instead of the official "coinbase.com") or feature unusual domain extensions like `.vip`, `.top`, or `.online` that are not typically used by established financial institutions.
+
+######## [120] PUMP MINING (n=1)
+--- 2026-03-10 | Advisory: Beware of Fake Investment Websites Impersonating Popular Brands | https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-websites-impersonating-popular-brands-6335bfca
+    brands=['CTX', 'Coinbase', 'PUMP MINING', 'Novartis AG VIP'] gov=[] domains=['oinbase-staking.com', 'pumpmining.top', 'herb6.vip', 'ctxpublic.online']
+    (no direct mention; first paras)
+    > The Singapore Police Force (SPF) observes a concerning trend of investment scam websites. These fraudulent sites often impersonate well-known companies or promote high-return schemes, aiming to deceive individuals into investing their money.
+    > ### How to recognise these scams:
+
+######## [121] Novartis AG VIP (n=1)
+--- 2026-03-10 | Advisory: Beware of Fake Investment Websites Impersonating Popular Brands | https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-websites-impersonating-popular-brands-6335bfca
+    brands=['CTX', 'Coinbase', 'PUMP MINING', 'Novartis AG VIP'] gov=[] domains=['oinbase-staking.com', 'pumpmining.top', 'herb6.vip', 'ctxpublic.online']
+    (no direct mention; first paras)
+    > The Singapore Police Force (SPF) observes a concerning trend of investment scam websites. These fraudulent sites often impersonate well-known companies or promote high-return schemes, aiming to deceive individuals into investing their money.
+    > ### How to recognise these scams:
+
+######## [122] CNPC (n=1)
+--- 2026-03-09 | Advisory: Beware of Investment Scams Promising High Returns | https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-promising-high-returns-522e3e03
+    brands=['CNPC', 'Virtu'] gov=[] domains=['themostprofitableapp.us', 'long-termprojects.us']
+    (no direct mention; first paras)
+    > The Singapore Police Force (SPF) Scam Public Education Office (SPEO) would like to alert the public to recent trends in investment scams. Scammers are creating fake investment opportunities online, often using convincing but fraudulent websites to trick victims into parting with their money.
+    > ### How to Recognise These Scams:
+
+######## [123] Virtu (n=1)
+--- 2026-03-09 | Advisory: Beware of Investment Scams Promising High Returns | https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-promising-high-returns-522e3e03
+    brands=['CNPC', 'Virtu'] gov=[] domains=['themostprofitableapp.us', 'long-termprojects.us']
+    (no direct mention; first paras)
+    > The Singapore Police Force (SPF) Scam Public Education Office (SPEO) would like to alert the public to recent trends in investment scams. Scammers are creating fake investment opportunities online, often using convincing but fraudulent websites to trick victims into parting with their money.
+    > ### How to Recognise These Scams:
+
+######## [124] GDC Mining (n=1)
+--- 2026-03-06 | Advisory: Beware of Fake Investment Websites | https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-websites-f7c4335d
+    brands=['JUST', 'GDC Mining'] gov=[] domains=['uuttt.cc', 'ustt.work', 'gdcmining.shop']
+    > *   **Suspicious website addresses (URLs)**: Look out for website links that contain unusual spellings, extra letters, or unfamiliar domain names (e.g., .cc, .work, .shop), even if they claim to represent known brands like "JUST" or "GDC Mining."
+
+######## [125] Hotorders (n=1)
+--- 2026-03-04 | Advisory: Beware of Fake Investment Platforms Like 'Velo Trust' and 'Hotorders' | https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-platforms-like-velo-trust-and-hotorders-ef886cf6
+    brands=['Hotorders', 'Velo Trust'] gov=[] domains=['velotrust-exchanges.com', 'hotorders.org']
+    > The Singapore Police Force (SPF) has observed a trend of investment scams involving fraudulent websites, such as those impersonating 'Velo Trust' and 'Hotorders'. These scam sites are designed to appear as legitimate financial platforms, enticing individuals with promises of high returns on investments.
+
+######## [126] Velo Trust (n=1)
+--- 2026-03-04 | Advisory: Beware of Fake Investment Platforms Like 'Velo Trust' and 'Hotorders' | https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-platforms-like-velo-trust-and-hotorders-ef886cf6
+    brands=['Hotorders', 'Velo Trust'] gov=[] domains=['velotrust-exchanges.com', 'hotorders.org']
+    > The Singapore Police Force (SPF) has observed a trend of investment scams involving fraudulent websites, such as those impersonating 'Velo Trust' and 'Hotorders'. These scam sites are designed to appear as legitimate financial platforms, enticing individuals with promises of high returns on investments.
+
+######## [127] IRUN (n=1)
+--- 2026-03-03 | Recent Phishing Scams Impersonate Popular Brands - Stay Vigilant! | https://www.icanactagainstscams.gov.sg/scam-trends/recent-phishing-scams-impersonate-popular-brands-stay-e8009338
+    brands=['Singtel', 'IRUN'] gov=[] domains=['servicesmetalinkion.shop', 'irunsg.shop']
+    > The Singapore Police Force has observed a recent trend of phishing scams impersonating well-known brands such as Singtel and IRUN. These scams aim to trick individuals into revealing personal or financial information through fake websites.
+    > *   **Look out for unusual website addresses.** Scammers often use domains like `.shop` or slight misspellings (e.g., `servicesmetalinkion.shop`, `irunsg.shop`) to trick you, rather than the brand's official `.com.sg` or `.sg` sites.
+
+######## [128] Motor AI (n=1)
+--- 2026-03-02 | Advisory on Rising Job Scams | https://www.icanactagainstscams.gov.sg/scam-trends/rising-job-scams-9b5a348c
+    brands=['Motor AI', 'Facebook'] gov=[] domains=['diwkr.com', 'motorai.net']
+    > *   The job offer asks you to click on unknown links, download unverified applications, or involves tasks that seem too good to be true, sometimes impersonating well-known brands like Facebook or emerging tech companies like Motor AI.
+
+######## [129] Facebook (n=1)
+--- 2026-03-02 | Advisory on Rising Job Scams | https://www.icanactagainstscams.gov.sg/scam-trends/rising-job-scams-9b5a348c
+    brands=['Motor AI', 'Facebook'] gov=[] domains=['diwkr.com', 'motorai.net']
+    > *   You receive unsolicited messages on social media (e.g., Facebook) or messaging apps, promising easy jobs with high returns, often directing you to suspicious websites with unusual names (such as `diwkr.com` or `motorai.net`).
+    > *   The job offer asks you to click on unknown links, download unverified applications, or involves tasks that seem too good to be true, sometimes impersonating well-known brands like Facebook or emerging tech companies like Motor AI.
+    > 3.  **Report the scam** to the platform where it occurred (e.g., Facebook) and inform the Police.
+
+######## [130] VanguardETFs (n=1)
+--- 2026-02-26 | Advisory: Beware of Fake CNA Investment Schemes | https://www.icanactagainstscams.gov.sg/scam-trends/fake-cna-investment-schemes-f4e465b3
+    brands=['CNA', 'VanguardETFs'] gov=[] domains=['volleyport.life', 'vanguardetfs.xyz']
+    (no direct mention; first paras)
+    > ### Advisory: Beware of Fake CNA Investment Schemes
+    > We've observed a trend where scammers impersonate CNA (Channel NewsAsia) to promote fake investment opportunities. These scams aim to trick you into transferring money or divulging personal banking information.
+
+######## [131] GTS (n=1)
+--- 2026-02-25 | Advisory: Watch Out for Investment Scams Impersonating Brands | https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-brands-18b422ea
+    brands=['GTS', 'VEO'] gov=[] domains=['veobike.vip', 'yushiai.vip']
+    > We have observed a trend of scam websites promoting fake investment opportunities. These sites, often using unusual domain names such as those ending in `.vip`, impersonate legitimate brands like VEO and GTS to trick individuals into investing in fraudulent schemes.
+    > *   These platforms might impersonate legitimate companies or brands (like VEO or GTS) to appear credible and gain your trust.
+
+######## [132] VEO (n=1)
+--- 2026-02-25 | Advisory: Watch Out for Investment Scams Impersonating Brands | https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-brands-18b422ea
+    brands=['GTS', 'VEO'] gov=[] domains=['veobike.vip', 'yushiai.vip']
+    > We have observed a trend of scam websites promoting fake investment opportunities. These sites, often using unusual domain names such as those ending in `.vip`, impersonate legitimate brands like VEO and GTS to trick individuals into investing in fraudulent schemes.
+    > *   These platforms might impersonate legitimate companies or brands (like VEO or GTS) to appear credible and gain your trust.
+
+######## [133] BTC MINING (n=1)
+--- 2026-02-16 | Advisory: Be Wary of Fake Cryptocurrency Investment Platforms like "BTC MINING" | https://www.icanactagainstscams.gov.sg/scam-trends/fake-cryptocurrency-investment-platforms-like-btc-mining-9b8a7319
+    brands=['BTC MINING'] gov=[] domains=['btc-mining.trade']
+    > The Singapore Police Force has observed reports involving investment scams, particularly those impersonating cryptocurrency mining platforms. Scammers operating under names like "BTC MINING" are luring victims with promises of high or guaranteed returns.
+
+######## [134] Audi Capital (n=1)
+--- 2026-02-16 | Beware of Investment Scams Impersonating Brands and Promising High Returns | https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-brands-and-promising-high-5f3bf932
+    brands=['Audi Capital', 'NVIDIA'] gov=[] domains=['nvidialisuj.top', 'innovative-finance.cc']
+    (no direct mention; first paras)
+    > The Singapore Police Force (SPF) has observed a trend of investment scams involving fake websites and platforms. Scammers often create convincing fake investment opportunities, sometimes even using the names of well-known brands or promising "innovative finance" to trick individuals into bogus schemes.
+    > Here's how to recognise such scams:
+
+######## [135] V&A MINING (n=1)
+--- 2026-02-11 | Advisory: Beware of Fake Investment Websites Impersonating Brands | https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-websites-impersonating-brands-f50d5a6c
+    brands=['V&A MINING', 'QUALCOMM invest', 'Bear World'] gov=[] domains=['bear-world.org', 'qumbep.net', 'vandamining.net']
+    > The Singapore Police Force (SPF) warns the public about a recent increase in fake investment websites, some of which impersonate well-known brands like "Bear World", "QUALCOMM invest", and "V&A MINING". These fraudulent sites are designed to trick individuals into believing they are legitimate investment opportunities, often promising high returns with little to no risk. Victims are persuaded to deposit money, only to find themselves unable to withdraw their funds or contact the scammers.
+
+######## [136] QUALCOMM invest (n=1)
+--- 2026-02-11 | Advisory: Beware of Fake Investment Websites Impersonating Brands | https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-websites-impersonating-brands-f50d5a6c
+    brands=['V&A MINING', 'QUALCOMM invest', 'Bear World'] gov=[] domains=['bear-world.org', 'qumbep.net', 'vandamining.net']
+    > The Singapore Police Force (SPF) warns the public about a recent increase in fake investment websites, some of which impersonate well-known brands like "Bear World", "QUALCOMM invest", and "V&A MINING". These fraudulent sites are designed to trick individuals into believing they are legitimate investment opportunities, often promising high returns with little to no risk. Victims are persuaded to deposit money, only to find themselves unable to withdraw their funds or contact the scammers.
+
+######## [137] Bear World (n=1)
+--- 2026-02-11 | Advisory: Beware of Fake Investment Websites Impersonating Brands | https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-websites-impersonating-brands-f50d5a6c
+    brands=['V&A MINING', 'QUALCOMM invest', 'Bear World'] gov=[] domains=['bear-world.org', 'qumbep.net', 'vandamining.net']
+    > The Singapore Police Force (SPF) warns the public about a recent increase in fake investment websites, some of which impersonate well-known brands like "Bear World", "QUALCOMM invest", and "V&A MINING". These fraudulent sites are designed to trick individuals into believing they are legitimate investment opportunities, often promising high returns with little to no risk. Victims are persuaded to deposit money, only to find themselves unable to withdraw their funds or contact the scammers.
+
+######## [138] Rolex (n=1)
+--- 2026-01-30 | Advisory: Watch Out for Investment Scams Impersonating Brands | https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-impersonating-brands-b5974029
+    brands=['CNA', 'Rolex', 'Airdrop Pepe'] gov=[] domains=['zylanto.site', '356739.org', 'pepemining.cc']
+    > The Singapore Police Force (SPF) observes a recent trend of investment scams using fake websites that impersonate well-known brands and popular topics. Scammers are creating fraudulent schemes by pretending to represent trusted news outlets like CNA, luxury brands such as Rolex, and even trending cryptocurrency projects like "Airdrop Pepe" to lure victims.
+    > *   Scammers create fake websites impersonating trusted brands (e.g., CNA, Rolex) or trending topics (e.g., Airdrop Pepe) for fraudulent investment schemes.
+
+######## [139] Aurum Exchange (n=1)
+--- 2026-01-28 | Beware of Fake Investment Platforms Promising High Returns | https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-platforms-promising-high-returns-a273ec6f
+    brands=['Aurum Exchange', 'Airdrop Pepe', 'BeReal', 'LdnBit'] gov=[] domains=['pepemining.cc', 'bereall.com', 'aurumexchanges.com', 'ldnbit.cc']
+    > We've observed a trend of new scam websites impersonating or creating fake investment platforms (e.g., 'Airdrop Pepe', 'Aurum Exchange', 'LdnBit'). These sites often lure victims with promises of high returns from cryptocurrency or other investments.
+
+######## [140] BeReal (n=1)
+--- 2026-01-28 | Beware of Fake Investment Platforms Promising High Returns | https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-platforms-promising-high-returns-a273ec6f
+    brands=['Aurum Exchange', 'Airdrop Pepe', 'BeReal', 'LdnBit'] gov=[] domains=['pepemining.cc', 'bereall.com', 'aurumexchanges.com', 'ldnbit.cc']
+    > *   Scammers create fake websites with unfamiliar or newly registered domain names (e.g., `pepemining.cc`, `bereall.com`) that may mimic legitimate platforms or establish new, non-existent investment firms. Always verify the legitimacy of the company and its website through official sources.
+
+######## [141] LdnBit (n=1)
+--- 2026-01-28 | Beware of Fake Investment Platforms Promising High Returns | https://www.icanactagainstscams.gov.sg/scam-trends/fake-investment-platforms-promising-high-returns-a273ec6f
+    brands=['Aurum Exchange', 'Airdrop Pepe', 'BeReal', 'LdnBit'] gov=[] domains=['pepemining.cc', 'bereall.com', 'aurumexchanges.com', 'ldnbit.cc']
+    > We've observed a trend of new scam websites impersonating or creating fake investment platforms (e.g., 'Airdrop Pepe', 'Aurum Exchange', 'LdnBit'). These sites often lure victims with promises of high returns from cryptocurrency or other investments.
+
+######## [142] Carousell (n=1)
+--- 2026-01-07 | Advisory: Beware of Phishing Scams Targeting Carousell Users | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-targeting-carousell-users-f67d0cc5
+    brands=['Carousell'] gov=[] domains=['allfreegoods.shop']
+    > The Singapore Police Force has observed a trend of phishing scams targeting users of online marketplaces like Carousell. Scammers are creating fake websites to trick individuals into revealing their personal and banking details. We have noted instances involving fraudulent websites such as `allfreegoods.shop`.
+    > *   **Checking** for scam signs and verifying with official sources:     *   Always verify the website URL. Be suspicious if a link directs you to a site that looks like Carousell but has an unfamiliar address (e.g., `allfreegoods.shop`) instead of `carousell.sg`.     *   Be cautious of requests for your login credentials, One-Time Passwords (OTPs), or credit card details outside the official Carousell app or secure payment gateways.
+    > *   **Telling** authorities, family and friends: Immediately change your passwords for your Carousell account and any other accounts where you use the same credentials.
+    > *   **Telling** authorities: Report the incident to Carousell's official support channels.
+
+######## [143] MalaysiaArrivalCard (n=1)
+--- 2025-12-19 | Scam Alert: Beware of Fake Malaysia Digital Arrival Card Websites | https://www.icanactagainstscams.gov.sg/scam-trends/fake-malaysia-digital-arrival-card-websites-50338214
+    brands=['MalaysiaArrivalCard', 'Malaysia Digital Arrival Card'] gov=[] domains=['arrivalsmalaysia.com', 'earrivalform.com']
+    (no direct mention; first paras)
+    > The Singapore Police Force (SPF) warns the public about a recent trend of scam websites impersonating official platforms for the Malaysia Digital Arrival Card. These websites aim to trick individuals into providing personal and financial information.
+    > **How to recognise these scams:**
+
+######## [144] Malaysia Digital Arrival Card (n=1)
+--- 2025-12-19 | Scam Alert: Beware of Fake Malaysia Digital Arrival Card Websites | https://www.icanactagainstscams.gov.sg/scam-trends/fake-malaysia-digital-arrival-card-websites-50338214
+    brands=['MalaysiaArrivalCard', 'Malaysia Digital Arrival Card'] gov=[] domains=['arrivalsmalaysia.com', 'earrivalform.com']
+    > The Singapore Police Force (SPF) warns the public about a recent trend of scam websites impersonating official platforms for the Malaysia Digital Arrival Card. These websites aim to trick individuals into providing personal and financial information.
+    > *   Be vigilant for websites offering services like the "Malaysia Digital Arrival Card" that use unusual domain names (e.g., `arrivalsmalaysia.com`, `earrivalform.com`) instead of official government website addresses (typically ending with `.gov.my`).
+
+######## [145] Web3.0 (n=1)
+--- 2025-11-21 | Beware of WhatsApp and Web3.0 Scams | https://www.icanactagainstscams.gov.sg/scam-trends/whatsapp-and-web3-0-scams-89b5d82d
+    brands=['WhatsApp', 'Web3.0'] gov=[] domains=['whtsapp.dev', 'batsedgx.vip']
+    > We've observed a recent increase in scams using WhatsApp and Web3.0 brands to lure victims. Scammers are employing deceptive tactics, so it's important to stay vigilant.
+    > **Web3.0 Investment Scams:**
+    > *   These scams typically involve investment opportunities in Web3.0 and Cryptocurrency platforms promising high returns with low risks. Always do your due diligence and verify the legitimacy of any investment platform before investing.
+
+######## [146] Sentosa (n=1)
+--- 2025-12-03 | Beware of Phishing Scams Impersonating Sentosa | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-sentosa-29cd5b89
+    brands=['Sentosa'] gov=[] domains=['sentosa-sg.com']
+    > We have observed a rise in phishing scams using the domain "sentosa-sg.com" to impersonate Sentosa Development Corporation. These scams aim to deceive you into revealing your personal or financial information.
+    > *   **Unofficial Website:** The website address is slightly different from the official Sentosa website (www.sentosa.com.sg). Scammers often use subtle variations to trick you.
+
+######## [147] Climate Vouchers (n=1)
+--- 2025-11-01 | Beware of Fake Climate Voucher Websites | https://www.icanactagainstscams.gov.sg/scam-trends/fake-climate-voucher-websites-68469ab8
+    brands=['Climate Vouchers'] gov=[] domains=['goov.up.railway.app']
+    > We have observed a rise in scam websites impersonating the Climate Vouchers scheme. These fake sites aim to steal your personal information.
+    > *   The website address may look similar to the official Climate Vouchers website but with subtle differences (e.g., `goov.up.railway.app` instead of the official domain).
+
+######## [148] Ministry of Home Affairs (MHA) (n=1)
+--- 2025-10-17 | Be alert to fake Ministry of Home Affairs (MHA) websites | https://www.icanactagainstscams.gov.sg/scam-trends/fake-ministry-of-home-affairs-mha-websites-b209b510
+    brands=['Ministry of Home Affairs (MHA)'] gov=['Ministry of Home Affairs (MHA)'] domains=['mhadirectories-1.top']
+    > We have observed a recent increase in scams involving fake websites impersonating the Ministry of Home Affairs (MHA). Scammers use these sites to trick you into giving up your personal information.
+    > *   **Check the website address:** Official MHA websites end in `.gov.sg`. Be wary of sites with unusual domain names like "mhadirectories-1.top".
+
+######## [149] Violafi (n=1)
+--- 2025-10-08 | Investment Scam Advisory: Violafi and Lieshou.vip | https://www.icanactagainstscams.gov.sg/scam-trends/investment-scam-advisory-violafi-and-lieshou-vip-8b65be57
+    brands=['Violafi'] gov=[] domains=['violafi.com', 'lieshou.vip']
+    > We have observed a recent increase in investment scams involving the websites Violafi (violafi.com) and lieshou.vip. These websites may present opportunities for high-return investments that are ultimately fraudulent.
+
+######## [150] Tiger Brokers (n=1)
+--- 2025-10-02 | Beware of Phishing Scams Impersonating MooMoo and Tiger Brokers | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-moomoo-and-tiger-brokers-b433ddc2
+    brands=['MooMoo', 'Tiger Brokers'] gov=[] domains=['moomoes.top', 'itigereo.top']
+    > We have observed a rise in phishing scams targeting users of MooMoo and Tiger Brokers. These scams attempt to steal your login credentials.
+    > *   Be wary of unusual or suspicious website addresses (URLs) that are similar to the official MooMoo or Tiger Brokers websites. For example, "moomoes.top" or "itigereo.top".
+    > *   These websites often mimic the legitimate login pages of MooMoo or Tiger Brokers to trick you into entering your username and password.
+    > 1.  Change your MooMoo and Tiger Brokers passwords immediately on the official websites or apps.
+
+######## [151] ApMatrix (n=1)
+--- 2025-10-01 | Investment Scams: Be Cautious of Harmonyreel.net and apxcw.com | https://www.icanactagainstscams.gov.sg/scam-trends/investment-scams-be-cautious-of-harmonyreel-net-and-apxcw-5e81e3b2
+    brands=['ApMatrix'] gov=[] domains=['harmonyreel.net', 'apxcw.com']
+    (no direct mention; first paras)
+    > We have observed a recent increase in investment scams using websites such as harmonyreel.net and apxcw.com. These sites may present attractive investment opportunities that are actually fraudulent.
+    > Here's how to recognise these scams:
+
+######## [152] Sky Marine Hotel (n=1)
+--- 2025-09-01 | Beware of Phishing Scams Claiming to be Sky Marine Hotel | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-claiming-to-be-sky-marine-hotel-40797f97
+    brands=['Sky Marine Hotel'] gov=[] domains=['skymarinehotel.com']
+    > We have observed a recent increase in phishing scams related to Sky Marine Hotel. Scammers are using fake websites to trick people into providing their personal or financial information.
+    > *   **Fake Website:** Sky Marine Hotel Singapore is a fraudulent hotel listing that has appeared on Google Maps and various online platforms, claiming to be a luxury accommodation facility.
+
+######## [153] AI Robot (n=1)
+--- 2025-08-28 | Be Cautious of Phishing Investment Scams Impersonating uSMART and AI Trading Platforms | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-investment-scams-impersonating-usmart-and-ai-d89fd46c
+    brands=['AI Robot', 'uSMART'] gov=[] domains=['usmartsg.sg', 'airobotbep.top', '95supreme.shop']
+    (no direct mention; first paras)
+    > We have observed a rise in investment scams using websites like usmartsg.sg, airobotbep.top and 95supreme.shop. These sites may be used to deceive you into making fake investments.
+    > Here's how to recognise these scams:
+
+######## [154] uSMART (n=1)
+--- 2025-08-28 | Be Cautious of Phishing Investment Scams Impersonating uSMART and AI Trading Platforms | https://www.icanactagainstscams.gov.sg/scam-trends/phishing-investment-scams-impersonating-usmart-and-ai-d89fd46c
+    brands=['AI Robot', 'uSMART'] gov=[] domains=['usmartsg.sg', 'airobotbep.top', '95supreme.shop']
+    > We have observed a rise in investment scams using websites like usmartsg.sg, airobotbep.top and 95supreme.shop. These sites may be used to deceive you into making fake investments.
+
+######## [155] MPC-HC (n=1)
+--- 2025-09-01 | Job Scam Alert: MPC-HC Impersonation | https://www.icanactagainstscams.gov.sg/scam-trends/job-scam-alert-mpc-hc-impersonation-b25671fb
+    brands=['MPC-HC'] gov=[] domains=['mpc-hc789.shop']
+    > We have observed a rise in job scams impersonating MPC-HC (Media Player Classic - Home Cinema). Scammers are using websites like mpc-hc789.shop to lure victims.
+    > *   The website may closely resemble the official MPC-HC website but uses a different domain name.
+
+######## [156] Space Seven (n=1)
+--- 2025-09-01 | Job Scam Alert: Impersonation of Space Seven | https://www.icanactagainstscams.gov.sg/scam-trends/job-scam-alert-impersonation-of-space-seven-76d17ff4
+    brands=['Space Seven'] gov=[] domains=['spacesevenag.com', 'spaceiseven.com']
+    > We have observed a recent increase in job scams impersonating "Space Seven". Scammers are using websites like spacesevenag.com and spaceiseven.com to lure victims. Please be careful!
+
+######## [157] MedWOW (n=1)
+--- 2025-09-01 | Job Scam Alert: Impersonating MedWOW | https://www.icanactagainstscams.gov.sg/scam-trends/job-scam-alert-impersonating-medwow-b82ef79e
+    brands=['MedWOW'] gov=[] domains=['medwow.cc']
+    > We have received reports of a job scam impersonating MedWOW. Scammers are using the website `medwow.cc` to lure job seekers.
+    > *   You may receive unsolicited job offers or interview invitations via email or messaging apps from individuals claiming to be from MedWOW.
+
+######## [158] BizVibe (n=1)
+--- 2025-08-28 | Job Scam Alert: Be Cautious of Suspicious Online Job Offers | https://www.icanactagainstscams.gov.sg/scam-trends/job-scam-alert-be-cautious-of-suspicious-online-job-offers-a56c929e
+    brands=['BizVibe', 'B2B Wave', 'JKF'] gov=[] domains=['bigbuy.rest', 'tiktokvipshops.com', 'ebayhot.com']
+    > We have observed a rise in job scams using websites such as bigbuy.rest, tiktokvipshops.com, and ebayhot.com. These scams often impersonate legitimate companies like BizVibe, JKF, and B2B Wave to deceive job seekers.

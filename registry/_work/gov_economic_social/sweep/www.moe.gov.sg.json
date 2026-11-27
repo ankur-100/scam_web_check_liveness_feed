@@ -1,0 +1,67 @@
+{
+ "host": "www.moe.gov.sg",
+ "robots_status": 200,
+ "robots": "User-Agent: *\nAllow: /\n\nSitemap: https://www.moe.gov.sg/sitemap.xml\n",
+ "sitemaps_declared": [
+  "https://www.moe.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  [
+   "https://www.moe.gov.sg/sitemap.xml",
+   "urlset",
+   5943,
+   "https://www.moe.gov.sg/sitemap.xml"
+  ]
+ ],
+ "errors": [],
+ "total_urls": 5943,
+ "hosts_in_sitemap": {
+  "www.moe.gov.sg": 5943
+ },
+ "matches": [
+  [
+   "https://www.moe.gov.sg/scam-alert",
+   "2025-12-05T09:38:10.651Z"
+  ],
+  [
+   "https://www.moe.gov.sg/news/press-releases/20210720-arrangements-for-schools-and-institutes-of-higher-learning-under-phase-2-heightened-alert-from-22-july-2021",
+   "2021-07-20T11:00:00.000Z"
+  ],
+  [
+   "https://www.moe.gov.sg/news/press-releases/20210614-arrangements-for-schools-and-institutes-of-higher-learning-under-phase-3-heightened-alert",
+   "2021-06-14T07:00:00.000Z"
+  ],
+  [
+   "https://www.moe.gov.sg/news/parliamentary-replies/20260506-inclusion-in-major-games-influencing-choice-of-sports-offered-in-national-school-games-and-advisory-role-of-sportsg-and-spexsg",
+   "2026-05-06T04:00:00.000Z"
+  ],
+  [
+   "https://www.moe.gov.sg/news/press-releases/20200317-advisory-for-singaporean-students-studying-overseas",
+   "2020-03-17T00:00:00.000Z"
+  ],
+  [
+   "https://www.moe.gov.sg/news/press-releases/20210610-safe-management-measures-for-private-tuition-and-enrichment-in-phase-2-heightened-alert",
+   "2021-08-19T04:00:00.000Z"
+  ],
+  [
+   "https://www.moe.gov.sg/news/parliamentary-replies/20260112-address-verification-under-primary-school-registration-proximity-policy-and-action-taken-on-fraudulent-declarations",
+   "2026-01-12T10:00:00.000Z"
+  ],
+  [
+   "https://www.moe.gov.sg/news/parliamentary-replies/20220801-skillsfuture-programmes---annual-expenditure-and-the-number-of-fraud-cases",
+   "2022-08-01T10:00:00.000Z"
+  ],
+  [
+   "https://www.moe.gov.sg/news/speeches/20250709-speech-by-minister-for-education-and-minister-in-charge-of-social-services-integration-mr-desmond-lee-at-the-appreciation-and-handover-ceremony-of-the-nyaa-advisory-board-chairmanship",
+   "2025-07-09T05:30:00.000Z"
+  ],
+  [
+   "https://www.moe.gov.sg/news/parliamentary-replies/20230306-online-scams-and-financial-literacy-programmes",
+   "2024-04-23T06:33:55.000Z"
+  ],
+  [
+   "https://www.moe.gov.sg/news/parliamentary-replies/20261103-expanding-financial-literacy-and-scam-awareness-modules-in-secondary-school-curriculum-to-address-digital-payment-risks-buy-now-pay-later-schemes-and-money-mule-solicitation",
+   "2026-11-03T04:00:00.000Z"
+  ]
+ ]
+}

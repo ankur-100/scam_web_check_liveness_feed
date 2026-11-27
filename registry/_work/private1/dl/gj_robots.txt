@@ -1,0 +1,13 @@
+User-Agent: *
+Disallow: /baocao
+Disallow: /id-id/terms-and-condition/maf-reimbursement-guideline
+Disallow: /en-id/terms-and-condition/maf-reimbursement-guideline
+
+Sitemap: https://www.gojek.com/sitemap.xml
+Sitemap: https://www.gojek.com/sitemap-portal-page.xml
+Sitemap: https://www.gojek.com/sitemap-vn-blog.xml
+Sitemap: https://www.gojek.com/sitemap-vn-help.xml
+Sitemap: https://www.gojek.com/sitemap-sg-blog.xml
+Sitemap: https://www.gojek.com/sitemap-sg-help.xml
+Sitemap: https://www.gojek.com/sitemap-blog.xml
+Sitemap: https://www.gojek.com/sitemap-help.xml

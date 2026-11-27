@@ -1,0 +1,49 @@
+{
+ "entity_id": "eld.gov.sg",
+ "name": "Elections Department",
+ "abbr": "ELD",
+ "aliases": [
+  "Elections Department Singapore (ELD)"
+ ],
+ "sector": "gov.dept",
+ "parent_entity_id": "pmo.gov.sg",
+ "country": "SG",
+ "official_domains": [
+  "eld.gov.sg"
+ ],
+ "official_hosts": [
+  "www.eld.gov.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.eld.gov.sg/advisory.html",
+   "kind": "scam_faq",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "ELD would like to clarify that we do not send WhatsApp or Telegram messages with clickable links. ELD may send emails with clickable links ... always from email addresses ending with “@eld.gov.sg”.",
+   "notes": "Undated advisory on scams and phishing (fake voter-roll removal notices, chat-app scam links, fake surveys). Search results also say ELD officer calls do not start with \"+65\". robots.txt returned nothing and /sitemap.xml returned 403 (2026-11-25), so the page was found via WebSearch."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [
+   "gov.sg"
+  ],
+  "hotlines": [
+   "1800-CALL-ELD (1800-2255-353)"
+  ],
+  "short_link_domains": [],
+  "social": [],
+  "emails": [
+   "*@eld.gov.sg"
+  ]
+ },
+ "evidence": [
+  "https://www.sgdi.gov.sg/ministries/pmo/departments/eld",
+  "https://www.eld.gov.sg/advisory.html"
+ ],
+ "notes": "Narrative only."
+}

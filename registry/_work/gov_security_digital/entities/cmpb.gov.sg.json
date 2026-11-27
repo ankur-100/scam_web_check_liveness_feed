@@ -1,0 +1,32 @@
+{
+ "entity_id": "cmpb.gov.sg",
+ "name": "Central Manpower Base (MINDEF/SAF)",
+ "abbr": "CMPB",
+ "aliases": [
+  "Central Manpower Base",
+  "NS Portal"
+ ],
+ "sector": "gov.dept",
+ "parent_entity_id": "mindef.gov.sg",
+ "country": "SG",
+ "official_domains": [
+  "cmpb.gov.sg"
+ ],
+ "official_hosts": [
+  "www.cmpb.gov.sg"
+ ],
+ "scam_info": [],
+ "official_channels": {
+  "sms_sender_ids": [
+   "72255 (MINDEF NS matters)",
+   "gov.sg"
+  ],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": []
+ },
+ "evidence": [
+  "https://www.cmpb.gov.sg/sitemap.xml"
+ ],
+ "notes": "Tier 1 checked. Sitemap 119 URLs, 0 keyword hits. No scam pages."
+}

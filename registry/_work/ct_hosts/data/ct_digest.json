@@ -1,0 +1,168 @@
+{
+ "_source": "crt.sh q=<zone> results recovered from prior agent transcript digest (_recovered/ct_hosts.md), queried 2026-11-25; first/last = min/max not_before",
+ "names": {
+  "*.icanactagainstscams.gov.sg": [
+   "2025-08-28",
+   "2025-10-30"
+  ],
+  "icanactagainstscams.gov.sg": [
+   "2025-08-29",
+   "2026-08-02"
+  ],
+  "www.beta.icanactagainstscams.gov.sg": [
+   "2025-10-07",
+   "2025-11-03"
+  ],
+  "stg.icanactagainstscams.gov.sg": [
+   "2025-08-28",
+   "2026-08-02"
+  ],
+  "www.stg.icanactagainstscams.gov.sg": [
+   "2025-08-29",
+   "2026-09-07"
+  ],
+  "www.icanactagainstscams.gov.sg": [
+   "2025-08-28",
+   "2026-10-04"
+  ],
+  "*.scamshield.gov.sg": [
+   "2020-05-19",
+   "2026-07-23"
+  ],
+  "scamshield.gov.sg": [
+   "2020-05-19",
+   "2026-09-09"
+  ],
+  "app-beta.scamshield.gov.sg": [
+   "2024-02-29",
+   "2024-03-01"
+  ],
+  "app.beta.scamshield.gov.sg": [
+   "2024-03-01",
+   "2026-01-17"
+  ],
+  "dashboard.scamshield.gov.sg": [
+   "2024-07-09",
+   "2026-10-16"
+  ],
+  "dashboard-staging.scamshield.gov.sg": [
+   "2024-07-09",
+   "2026-10-15"
+  ],
+  "dashboard-vapt.scamshield.gov.sg": [
+   "2026-05-19",
+   "2026-07-17"
+  ],
+  "dashboardguide.scamshield.gov.sg": [
+   "2026-03-05",
+   "2026-08-30"
+  ],
+  "grafana-new.scamshield.gov.sg": [
+   "2024-06-22",
+   "2025-04-30"
+  ],
+  "guide.scamshield.gov.sg": [
+   "2024-05-31",
+   "2026-09-05"
+  ],
+  "status.scamshield.gov.sg": [
+   "2022-05-19",
+   "2026-03-17"
+  ],
+  "wa-bot.scamshield.gov.sg": [
+   "2025-07-14",
+   "2026-08-31"
+  ],
+  "www.scamshield.gov.sg": [
+   "2026-05-18",
+   "2026-05-26"
+  ],
+  "*.scamshield.org.sg": [
+   "2020-11-26",
+   "2026-09-23"
+  ],
+  "scamshield.org.sg": [
+   "2020-11-26",
+   "2026-09-23"
+  ],
+  "www.scamshield.org.sg": [
+   "2020-12-02",
+   "2024-07-14"
+  ],
+  "*.ncpc.org.sg": [
+   "2018-05-14",
+   "2026-08-24"
+  ],
+  "ncpc.org.sg": [
+   "2018-05-14",
+   "2026-08-24"
+  ],
+  "link.ncpc.org.sg": [
+   "2022-08-10",
+   "2024-08-25"
+  ],
+  "www.ncpc.org.sg": [
+   "2020-03-20",
+   "2026-09-29"
+  ],
+  "eservices.mas.gov.sg": [
+   "2010-02-18",
+   "2026-07-17"
+  ],
+  "qeservices.mas.gov.sg": [
+   "2022-10-20",
+   "2023-09-14"
+  ],
+  "reports.open.gov.sg": [
+   "2025-06-13",
+   "2026-08-16"
+  ],
+  "phishmon.gcsoc.tech.gov.sg": [
+   "2023-03-06",
+   "2025-05-21"
+  ],
+  "dev.phishmon.gcsoc.tech.gov.sg": [
+   "2023-02-15",
+   "2025-05-01"
+  ],
+  "stg.phishmon.gcsoc.tech.gov.sg": [
+   "2023-03-06",
+   "2025-05-21"
+  ],
+  "services2-ctoaascam-ez.in.imda.gov.sg": [
+   "2023-06-07",
+   "2026-06-10"
+  ],
+  "services2-ctoaascam-ez-stg.in.imda.gov.sg": [
+   "2023-06-07",
+   "2026-06-10"
+  ]
+ },
+ "certspotter_2026-11-25": {
+  "scamshield.gov.sg": "latest 50 issuances (2025-12-05..2026-11-18) cover *.scamshield.gov.sg, apex, www, guide, dashboard, dashboard-staging, dashboard-vapt, dashboardguide, wa-bot (no status/grafana-new/app.beta)",
+  "csa.gov.sg": "latest page: www.csa.gov.sg 2025-12-19..2026-11-19; pslc 2026-10-28; apex 2026-09-29"
+ },
+ "zero_row_guesses_2026-11-25": [
+  "scam.gov.sg",
+  "scams.gov.sg",
+  "antiscam.gov.sg",
+  "antiscams.gov.sg",
+  "scamalert.gov.sg",
+  "stopscams.gov.sg",
+  "scamcheck.gov.sg",
+  "checkscam.gov.sg",
+  "fraud.gov.sg",
+  "phishing.gov.sg",
+  "cyber.gov.sg",
+  "cybersafe.gov.sg",
+  "icanact.gov.sg",
+  "scamalert.org.sg",
+  "antiscam.org.sg",
+  "scam.org.sg",
+  "antiscam.sg",
+  "scamcheck.sg",
+  "fraud.sg",
+  "scamalert.com.sg",
+  "scamshield.com.sg"
+ ]
+}

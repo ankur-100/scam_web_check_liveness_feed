@@ -1,0 +1,149 @@
+{
+ "entity_id": "scdf.gov.sg",
+ "name": "Singapore Civil Defence Force",
+ "abbr": "SCDF",
+ "aliases": [
+  "Singapore Civil Defence Force (SCDF)",
+  "Civil Defence"
+ ],
+ "sector": "gov.dept",
+ "parent_entity_id": "mha.gov.sg",
+ "country": "SG",
+ "official_domains": [
+  "scdf.gov.sg"
+ ],
+ "official_hosts": [
+  "www.scdf.gov.sg",
+  "scdf.gov.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.scdf.gov.sg/home/about-scdf/media-room/latest-happenings/newsarticledetail/individual-posing-as-an-scdf-officer-to-procure-items",
+   "kind": "alert_page",
+   "lists_indicators": [
+    "email",
+    "domain"
+   ],
+   "access": "html",
+   "machine_url": null,
+   "item_count": 1,
+   "latest_item_date": "2020-08-12",
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "An example of such a fake email address is “quotation@scdf-gov-sg.com”. All SCDF email accounts end with @scdf.gov.sg.",
+   "notes": "News release 12 Aug 2020: fake procurement emails to companies from an individual posing as an SCDF officer. Fake address is behind Cloudflare email-obfuscation (data-cfemail), decoded = quotation@scdf-gov-sg.com. Says SCDF invites quotations/tenders only via GeBIZ. Duplicate URL also indexed at https://scdf.gov.sg/eventslisting/newsarticledetail/individual-posing-as-an-scdf-officer-to-procure-items"
+  },
+  {
+   "url": "https://www.scdf.gov.sg/home/about-scdf/media-room/latest-happenings/newsarticledetail/Alert-of-companies-attempting-to-sell-fire-extinguishers-and-first-aid-kits",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2016-12-09",
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "The Singapore Civil Defence Force (SCDF) has received public feedback about companies claiming to be endorsed by the SCDF to sell fire extinguishers and/ or first aid kits.",
+   "notes": "Fire-extinguisher/first-aid-kit door-to-door sales scam. No company names. States SCDF does not sell these items, has authorised no company, and residents will not be fined for not having them."
+  },
+  {
+   "url": "https://www.scdf.gov.sg/home/about-scdf/media-room/latest-happenings/newsarticledetail/Alert-on-Unauthorised-Business-Activities-2016",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2016-07-25",
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "In some instances, the sales personnel had shown their company pass with photo identification or the Civil Defence Emergency Handbook, to give the impression that they were representing the SCDF. Some even threatened to issue fines",
+   "notes": "Same text also at .../newsarticledetail/Alert-on-Unauthorised-Business-Activities (no year suffix; fetched 2026-11-26 HTTP 200, dated 25 July 2016). Adds that SCDF house-to-house SGSecure visits never compel purchases."
+  },
+  {
+   "url": "https://www.scdf.gov.sg/home/about-scdf/media-room/latest-happenings/newsarticledetail/Alert-on-Unauthorised-Business-Activities-and-Impersonation-of-SCDF-Officer-2014",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2014-06-10",
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "The Singapore Civil Defence Force (SCDF) has received a number of complaints about companies claiming to be endorsed by the SCDF to sell fire extinguishers and/ or conduct fire safety talks to the public.",
+   "notes": "Impersonation of SCDF officers in hard-sell of extinguishers, fire insurance and fire-safety talks. Explains verification: uniformed regulars carry a warrant card, NSFs an NS identity card."
+  },
+  {
+   "url": "https://www.scdf.gov.sg/home/about-scdf/media-room/latest-happenings/newsarticledetail/Alert-on-Unauthorized-Business-Activities-and-Impersonation-of-SCDF-Officer-Dec2011",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2011-12-23",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "a woman had impersonated as a SCDF officer and tried to sell a fire extinguisher to his father. The complainant also claimed that the impersonator had mentioned that SCDF would provide $30,000 worth of fire insurance",
+   "notes": "Byte-identical text (dated 23 December 2011) also at ...-SCDF-Officer-2011 (fetched 2026-11-26 HTTP 200). A third variant URL ...-SCDF-Officer-231211 appears under /eventslisting/ in search results."
+  },
+  {
+   "url": "https://www.scdf.gov.sg/home/about-scdf/media-room/latest-happenings/newsarticledetail/Alert-on-Unauthorized-Business-Activities-2010",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2010-09-28",
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "The SCDF has received a number of complaints in the past month about companies claiming to be endorsed by us to sell fire extinguishers and/or conduct fire safety talks to the public.",
+   "notes": "Earliest SCDF alert on endorsement and impersonation sales scams."
+  },
+  {
+   "url": "https://www.scdf.gov.sg/home/about-scdf/media-room/latest-happenings/newsarticledetail/SCDF's-995-number-to-be-displayed-on-phones'-caller-ID",
+   "kind": "official_channels",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2017-05-31",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "With effect from 1st June 2017, the Singapore Civil Defence Force\"s (SCDF) emergency hotline number \"995\" will be displayed on telephones\" caller ID.",
+   "notes": "Official-caller-ID allowlist item: SCDF Operations Centre call-backs show \"995\". Not shown for international numbers. The page also warns about numbers beginning with the \"+995\" prefix (Georgia country code), which are not SCDF."
+  },
+  {
+   "url": "https://www.scdf.gov.sg/home/about-scdf/media-room/latest-happenings",
+   "kind": "news_releases",
+   "lists_indicators": [],
+   "access": "sitemap",
+   "machine_url": "https://www.scdf.gov.sg/sitemap/sitemap.xml",
+   "item_count": 485,
+   "latest_item_date": "2026-09-24",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "SCDF does not endorse or certify products. Legitimate fire safety products are certified by independent accredited Certification Bodies. Claims of 'SCDF-approved' or similar are false. Report them at https://www.scdf.gov.sg/home/feedback .",
+   "notes": "The sample is a site-wide notification banner on every scdf.gov.sg page (seen 2026-11-25/26). It is the only current (2026) SCDF anti-scam statement; the alert pages are 2010-2020. Sitemap (from robots.txt) has 1,228 URLs, 485 newsarticledetail, and no lastmod. The listing is a filter UI with no RSS. Latest date is the newest 'Discover more' news release seen (24 Sep 2026). There is no scam category; the 7 scam/impersonation items were found by slug/keyword. The banner also announces that the SCDF Hotline 1800 280 0000 ceases on 21 Dec 2026."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [
+   "gov.sg",
+   "70995",
+   "80709995",
+   "SCDF 995"
+  ],
+  "hotlines": [
+   "995 (emergency; shown as caller ID \"995\" on SCDF call-backs since 1 Jun 2017)",
+   "SMS 70995 (emergency, for the deaf/speech-impaired)",
+   "1800 280 0000 (SCDF Hotline; ceases 21 Dec 2026)",
+   "1800-286-5555 (SCDF general enquiries, cited in older impersonation alerts)"
+  ],
+  "short_link_domains": [],
+  "social": [
+   "https://www.facebook.com/SCDFpage/",
+   "https://www.instagram.com/myscdf/",
+   "https://x.com/SCDF"
+  ],
+  "emails": [
+   "*@scdf.gov.sg (per SCDF, all SCDF email accounts end with @scdf.gov.sg)"
+  ]
+ },
+ "evidence": [
+  "https://www.sgdi.gov.sg/ministries/mha/departments/scdf",
+  "https://www.sms.gov.sg/exceptions",
+  "https://www.scdf.gov.sg/sitemap/sitemap.xml"
+ ],
+ "notes": "User priority. SCDF publishes no scam list, RSS or dedicated scam section. Its scam info is (a) 7 legacy alert pages (2010-2020) on fire-extinguisher, first-aid-kit, fire-insurance and fire-safety-talk door-to-door sales falsely claiming SCDF endorsement or impersonating SCDF officers, plus one fake-procurement-email case (the only concrete IOC: quotation@scdf-gov-sg.com), and (b) a current site-wide 'SCDF-approved claims are false' banner. Fake SCDF calls/SMS: no SCDF page found. SCDF was named among the 7 Home Team agencies in the MHA advisory of 12 Aug 2026 on >500 fake look-alike sites, which names no domains (see mha.gov.sg). Related SPF release 25 Jul 2023 (https://www.police.gov.sg/media-hub/news/2023/07/20230725_four_men_to_be_charged_for_false_and_misleading_claims_and_for_obstruction_of_justice): door-to-door seller 'Fire Safety Prevention SG (FSP)' falsely claimed SCDF would summon households without an extinguisher. SMS exceptions per sms.gov.sg: 70995, 80709995 (NS call-ups; previously 91449746), 'SCDF 995' (emergency video link). All other SCDF SMS come from gov.sg."
+}

@@ -1,0 +1,575 @@
+{
+ "BNBPULSE": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [],
+  "notes": "BNB-themed fake investment platform (2125578.com); SPF: \"masquerading as legitimate investment opportunities\". Not a BNB Chain product."
+ },
+ "Saudi Aramco": {
+  "resolution": "real_entity",
+  "entity_id": "aramco.com",
+  "official_domains": [
+   "aramco.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "high",
+  "evidence": [],
+  "notes": "Oil major name misused for fake \"currency-oil\" investment (currency-oil.com). aramco.com timed out to curl; domain from established knowledge."
+ },
+ "INFO": {
+  "resolution": "generic_or_placeholder",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "low",
+  "evidence": [],
+  "notes": "Tag never appears in the advisory text (about mineverse.cc crypto-mining scam); probably a word read off a screenshot. No identifiable brand. Human review suggested."
+ },
+ "Compass Mining": {
+  "resolution": "real_entity",
+  "entity_id": "compassmining.io",
+  "official_domains": [
+   "compassmining.io"
+  ],
+  "is_singapore_entity": false,
+  "sector": "crypto",
+  "confidence": "medium",
+  "evidence": [
+   "https://compassmining.io/"
+  ],
+  "notes": "Real US bitcoin-mining hardware/hosting marketplace; SPF says scammers impersonate it (ssessoomm.com)."
+ },
+ "BNB": {
+  "resolution": "real_entity",
+  "entity_id": "bnbchain.org",
+  "official_domains": [
+   "bnbchain.org",
+   "binance.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "crypto",
+  "confidence": "medium",
+  "evidence": [
+   "https://www.bnbchain.org/"
+  ],
+  "notes": "BNB = native token of BNB Chain (Binance ecosystem). Fake BNB investment site bbconbnb.com. binance.com from established knowledge."
+ },
+ "JoyBuy": {
+  "resolution": "real_entity",
+  "entity_id": "joybuy.com",
+  "official_domains": [
+   "joybuy.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "ecommerce",
+  "confidence": "medium",
+  "evidence": [
+   "https://www.joybuy.com/"
+  ],
+  "notes": "Joybuy = JD.com international e-commerce brand. Job-task scam (maill-top.net) uses its name."
+ },
+ "GoMining": {
+  "resolution": "real_entity",
+  "entity_id": "gomining.com",
+  "official_domains": [
+   "gomining.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "crypto",
+  "confidence": "medium",
+  "evidence": [
+   "https://gomining.com/"
+  ],
+  "notes": "Real bitcoin-mining platform; fake clone go-mining66.top. SPF wording leaves open whether GoMining itself is endorsed - treat as impersonated brand."
+ },
+ "Nova Quant": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [],
+  "notes": "Fake quant-trading investment brand (novaxmr.xyz). Web search finds only unrelated hobby \"NovaQuant\" charting tools on pages.dev/netlify; no regulated firm."
+ },
+ "A2": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [],
+  "notes": "\"A2\" investment-club brand (a2.mom). Web search shows NZ FMA repeatedly flagged \"A2 Capital Appreciation Plan\" WhatsApp pump-and-dump schemes on IOSCO I-SCAN (search result only; iosco.org returned 403). Not the a2 Milk Company."
+ },
+ "ZFuse": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [],
+  "notes": "Job-task scam brand (baoffu.vip); no real company \"ZFuse\" found (web search 2026-11-26)."
+ },
+ "TUbi": {
+  "resolution": "real_entity",
+  "entity_id": "tubitv.com",
+  "official_domains": [
+   "tubitv.com",
+   "tubi.tv"
+  ],
+  "is_singapore_entity": false,
+  "sector": "media",
+  "confidence": "medium",
+  "evidence": [
+   "https://tubitv.com/"
+  ],
+  "notes": "Tubi = Fox-owned free streaming service; job scam \"rate movies\" site tubirating.com. tubitv.com geo-redirects to gdpr.tubi.tv outside the US."
+ },
+ "Pilbara Mining": {
+  "resolution": "real_entity",
+  "entity_id": "pls.com",
+  "official_domains": [
+   "pls.com",
+   "pilbaraminerals.com.au"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "medium",
+  "evidence": [
+   "https://www.pilbaraminerals.com.au/"
+  ],
+  "notes": "Most likely Pilbara Minerals (ASX lithium miner, now PLS): pilbaraminerals.com.au redirects to pls.com (observed 2026-11-26; site behind Cloudflare). Fake mining investment piarjuy.top."
+ },
+ "DJI": {
+  "resolution": "real_entity",
+  "entity_id": "dji.com",
+  "official_domains": [
+   "dji.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "high",
+  "evidence": [
+   "https://www.dji.com/"
+  ],
+  "notes": "Drone maker name misused for fake investment (dji8.top)."
+ },
+ "Shopee": {
+  "resolution": "real_entity",
+  "entity_id": "shopee.sg",
+  "official_domains": [
+   "shopee.sg",
+   "shopee.com"
+  ],
+  "is_singapore_entity": true,
+  "sector": "ecommerce",
+  "confidence": "high",
+  "evidence": [
+   "https://shopee.sg/"
+  ],
+  "notes": "Sea Group marketplace (SG). Job-task scam vis3367.shop."
+ },
+ "MBRAIMSolar Park": {
+  "resolution": "real_entity",
+  "entity_id": "dewa.gov.ae",
+  "official_domains": [
+   "dewa.gov.ae"
+  ],
+  "is_singapore_entity": false,
+  "sector": "utility",
+  "confidence": "medium",
+  "evidence": [],
+  "notes": "Mohammed bin Rashid Al Maktoum Solar Park (Dubai, operated by DEWA). Fake solar-park investment (yyujgg.vip, mprmspus.top). dewa.gov.ae blocks curl (403); domain from established knowledge."
+ },
+ "Televizo": {
+  "resolution": "real_entity",
+  "entity_id": "televizo.net",
+  "official_domains": [
+   "televizo.net"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "low",
+  "evidence": [
+   "https://televizo.net/"
+  ],
+  "notes": "Televizo = IPTV player app (Andrey Menscikov). SPF calls it an \"unfamiliar brand name\" used by an investment scam; part of the media-player-name pattern (GOM Player, MPC-HC). Name misuse, not targeted impersonation."
+ },
+ "Avenis": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "low",
+  "evidence": [],
+  "notes": "Job-scam portal avenisportalglobe1.asia; no matching real company \"Avenis\" found (only Aveni/Avenica etc.)."
+ },
+ "RiverQuode": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [],
+  "notes": "Fake crypto investment platform (river-quode.net, 980.it.com); name not found elsewhere."
+ },
+ "USDT Tether": {
+  "resolution": "real_entity",
+  "entity_id": "tether.to",
+  "official_domains": [
+   "tether.to"
+  ],
+  "is_singapore_entity": false,
+  "sector": "crypto",
+  "confidence": "high",
+  "evidence": [
+   "https://tether.to/"
+  ],
+  "notes": "USDT stablecoin issuer; used as the deposit asset/lure on fake platforms."
+ },
+ "copililis": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "high",
+  "evidence": [],
+  "notes": "SPF identifies \"Copililis\" (copililis.com) itself as a fake shopping website."
+ },
+ "RapidApp": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "high",
+  "evidence": [],
+  "notes": "SPF: \"purported platform named RapidApp\" (rapid-app.net) - fake investment app."
+ },
+ "AI-QT": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [],
+  "notes": "Fake AI quant-trading platform ai-qt.vip; SPF says not affiliated with any legitimate firm."
+ },
+ "Snapchat": {
+  "resolution": "real_entity",
+  "entity_id": "snapchat.com",
+  "official_domains": [
+   "snapchat.com",
+   "snap.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "tech_platform",
+  "confidence": "high",
+  "evidence": [
+   "https://www.snapchat.com/"
+  ],
+  "notes": "Snap name misused (makingvideos.app investment scam)."
+ },
+ "Crypto.com": {
+  "resolution": "real_entity",
+  "entity_id": "crypto.com",
+  "official_domains": [
+   "crypto.com"
+  ],
+  "is_singapore_entity": true,
+  "sector": "crypto",
+  "confidence": "high",
+  "evidence": [
+   "https://crypto.com/"
+  ],
+  "notes": "Crypto exchange headquartered in Singapore (MAS-licensed SG entity). Impersonated by kdmwj.com."
+ },
+ "Charge+": {
+  "resolution": "real_entity",
+  "entity_id": "chargeplus.com",
+  "official_domains": [
+   "chargeplus.com"
+  ],
+  "is_singapore_entity": true,
+  "sector": "other",
+  "confidence": "high",
+  "evidence": [
+   "https://www.chargeplus.com/"
+  ],
+  "notes": "Singapore-HQ EV-charging operator. Scam sells fake \"charging pile\" investments (chargingpiles.autos)."
+ },
+ "SmartView": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [],
+  "notes": "Job-task site smartviewad.com; no real \"SmartView\" ad company found (only unrelated apps)."
+ },
+ "Imperialist Investment": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "high",
+  "evidence": [],
+  "notes": "SPF: \"fraudulent entity named Imperialist Investment\" (goldwind.app)."
+ },
+ "Marriott Bonvoy": {
+  "resolution": "real_entity",
+  "entity_id": "marriott.com",
+  "official_domains": [
+   "marriott.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "travel",
+  "confidence": "high",
+  "evidence": [],
+  "notes": "Marriott loyalty brand misused for fake hotel-booking \"investment\" tasks (marrioot.net typosquat). marriott.com blocks curl (403); domain from established knowledge."
+ },
+ "Barrick Gold": {
+  "resolution": "real_entity",
+  "entity_id": "barrick.com",
+  "official_domains": [
+   "barrick.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "high",
+  "evidence": [],
+  "notes": "Gold miner name misused (baobeiwa.bond). barrick.com behind Cloudflare (403); domain from established knowledge."
+ },
+ "NECTA": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "low",
+  "evidence": [],
+  "notes": "Never mentioned in advisory text (job scam nexvltd.com / fi20fa26cups.click); no matching employer found. Unrelated real NECTA (Tanzania exam council, necta.go.tz) is not plausible here."
+ },
+ "NEXVLTD": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [],
+  "notes": "Job-scam company name taken from site nexvltd.com; no real firm found."
+ },
+ "Shell": {
+  "resolution": "real_entity",
+  "entity_id": "shell.com",
+  "official_domains": [
+   "shell.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "high",
+  "evidence": [
+   "https://www.shell.com/"
+  ],
+  "notes": "Oil major name misused (shell-vip.com)."
+ },
+ "SIMO": {
+  "resolution": "ambiguous",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "low",
+  "evidence": [],
+  "notes": "SPF calls SIMO a \"legitimate company\" impersonated alongside B2Gold (simog.top, b2goldmining.shop), but no matching mining/finance company found. Possibly a fictitious brand; needs human review."
+ },
+ "B2Gold": {
+  "resolution": "real_entity",
+  "entity_id": "b2gold.com",
+  "official_domains": [
+   "b2gold.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "high",
+  "evidence": [],
+  "notes": "Canadian gold miner; fake b2goldmining.shop. b2gold.com behind Cloudflare (403); domain from established knowledge."
+ },
+ "NTUC FairPrice": {
+  "resolution": "real_entity",
+  "entity_id": "fairprice.com.sg",
+  "official_domains": [
+   "fairprice.com.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "retail",
+  "confidence": "high",
+  "evidence": [
+   "https://www.fairprice.com.sg/"
+  ],
+  "notes": "SG supermarket chain; voucher/reward phishing (ghuow.buzz, tlncs.buzz)."
+ },
+ "X2PAY": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [],
+  "notes": "Fake investment/payment platform (x2pay.click)."
+ },
+ "USDT AI Quantify": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [],
+  "notes": "Fake USDT \"AI quantitative trading\" platform (usdtaiquantify2.com)."
+ },
+ "Thaitouristvisa": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [
+   "https://www.thaievisa.go.th/"
+  ],
+  "notes": "\"Thaitouristvisa\" is the name of the fake visa site itself (thaitouristvisa.com). Genuine counterpart: Thailand e-Visa portal thaievisa.go.th (Thai MFA)."
+ },
+ "ExpresszFundings SG": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [],
+  "notes": "Fake moneylender (expresszfundings.com). No \"Express(z) Funding(s)\" found among licensed moneylenders in a search of MinLaw Registry of Moneylenders results."
+ },
+ "Alvopetro": {
+  "resolution": "real_entity",
+  "entity_id": "alvopetro.com",
+  "official_domains": [
+   "alvopetro.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "high",
+  "evidence": [
+   "https://alvopetro.com/"
+  ],
+  "notes": "Canadian/Brazilian oil & gas company; fake oil investment (aloilvip.shop, autonomo-income.com)."
+ },
+ "Hochschild": {
+  "resolution": "real_entity",
+  "entity_id": "hochschildmining.com",
+  "official_domains": [
+   "hochschildmining.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "high",
+  "evidence": [
+   "https://www.hochschildmining.com/"
+  ],
+  "notes": "Hochschild Mining (precious metals); name misused by same scam as Alvopetro."
+ },
+ "ROGin AI": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [],
+  "notes": "Fake AI investment platform (roginai.org)."
+ },
+ "SatoshiMine": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [],
+  "notes": "Fake BTC cloud-mining platform (satoshiminebtc.com)."
+ },
+ "Doge Mining": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [],
+  "notes": "Fake DOGE mining platform (doge-miningbank.vip); not named in body text."
+ },
+ "GN Mall": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [],
+  "notes": "Fake \"mall\" investment platform (gnfmall.com); not named in body text."
+ },
+ "Capitaland": {
+  "resolution": "real_entity",
+  "entity_id": "capitaland.com",
+  "official_domains": [
+   "capitaland.com"
+  ],
+  "is_singapore_entity": true,
+  "sector": "other",
+  "confidence": "high",
+  "evidence": [
+   "https://www.capitaland.com/"
+  ],
+  "notes": "SG real-estate group; fake investment site fnltvcapblndvn.com."
+ },
+ "Burberry": {
+  "resolution": "real_entity",
+  "entity_id": "burberry.com",
+  "official_domains": [
+   "burberry.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "retail",
+  "confidence": "high",
+  "evidence": [
+   "https://www.burberry.com/"
+  ],
+  "notes": "Luxury brand used on fake outlet shops (premium-bag-sg.shop, shop-adidasoutlet.com)."
+ },
+ "flance": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "low",
+  "evidence": [],
+  "notes": "Not named in advisory text; job-task site companyflc.business. Likely the scam platform's own name (from \"freelance\")."
+ }
+}

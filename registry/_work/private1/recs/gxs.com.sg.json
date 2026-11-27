@@ -1,0 +1,79 @@
+{
+ "entity_id": "gxs.com.sg",
+ "name": "GXS Bank Pte. Ltd.",
+ "abbr": "GXS",
+ "aliases": [
+  "GXS Bank",
+  "GXS",
+  "GXS Bank app",
+  "GXS Business Banking"
+ ],
+ "sector": "bank",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "gxs.com.sg"
+ ],
+ "official_hosts": [
+  "www.gxs.com.sg",
+  "help.gxs.com.sg",
+  "business.gxs.com.sg",
+  "gxsbank.onelink.me"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.gxs.com.sg/security",
+   "kind": "official_channels",
+   "lists_indicators": [
+    "phone",
+    "social_handle"
+   ],
+   "access": "html",
+   "machine_url": "https://www.gxs.com.sg/sitemap.xml",
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Legit ways we will contact you ... Calls from GXS Collections Team: 6039 0308 Official GXS Bank WhatsApp: 8963 1223 (verified with a blue tick) Official GXS Business Banking WhatsApp: 8963 5506",
+   "notes": "(official) Explicit list of the ONLY channels GXS uses to contact customers: push notifications, in-app, email, SMS, collections calls 6039 0308, verified WhatsApp 8963 1223 / 8963 5506 (outgoing only, not monitored). Also security tips: 'See a +65? That's a tell-tale sign that the caller is contacting you with a fake Singapore number', malware app-blocking. No dated alerts."
+  },
+  {
+   "url": "https://www.gxs.com.sg/news-press/gxs-bank-customers-have-an-additional-protection-against-scams-with-the-launch-of-money-lock",
+   "kind": "news_releases",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": "https://www.gxs.com.sg/sitemap.xml",
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-25 HTTP 200 (sitemap entry; page not fetched)",
+   "sample": null,
+   "notes": "Press release on GXS Money Lock found in sitemap (Webflow site, sitemap lastmod values current to 2026-11-24)."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [
+   "6039 0308 (GXS Collections Team - outgoing calls only)"
+  ],
+  "short_link_domains": [],
+  "social": [
+   "https://www.facebook.com/gxsbank",
+   "https://www.instagram.com/gxsbank",
+   "https://www.linkedin.com/company/gxsbank",
+   "https://www.youtube.com/channel/UCpE9x1HTTQAFvxDy57CqNqg",
+   "WhatsApp 8963 1223 (Official GXS Bank WhatsApp, blue tick, outgoing only)",
+   "WhatsApp 8963 5506 (Official GXS Business Banking WhatsApp, blue tick, outgoing only)"
+  ],
+  "apps": [
+   "GXS Bank app (download via gxsbank.onelink.me)"
+  ],
+  "emails": [
+   "help@gxs.com.sg"
+  ]
+ },
+ "evidence": [
+  "https://www.gxs.com.sg/security",
+  "https://www.gxs.com.sg/",
+  "https://www.gxs.com.sg/sitemap.xml"
+ ],
+ "notes": "official_domains (b): gxs.com.sg serves site; help/business subdomains linked from footer. gxs.com.sg is also listed in Singtel's 'official Singtel web domains' list (GXS is a Grab-Singtel digital bank). gxsbank.onelink.me = third-party AppsFlyer redirect; marketing.sgbank.st and cdn.prod.website-files.com (Webflow) are third-party hosts, not added. No fraud hotline number on the security page (says 'Live chat with us via the app, call or email us'). Not on ScamShield's bank hotline list. WhatsApp numbers placed in social as text because they are genuine contact handles (not URLs)."
+}

@@ -1,0 +1,45 @@
+{
+ "entity_id": "mediacorp.sg",
+ "name": "Mediacorp Pte Ltd",
+ "abbr": null,
+ "aliases": [
+  "Mediacorp",
+  "MediaCorp",
+  "meWATCH"
+ ],
+ "sector": "media",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "mediacorp.sg",
+  "mewatch.sg"
+ ],
+ "official_hosts": [
+  "www.mediacorp.sg",
+  "uid.mediacorp.sg",
+  "go.mediacorp.sg",
+  "dam.mediacorp.sg",
+  "www.mewatch.sg"
+ ],
+ "scam_info": [],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": [
+   "https://www.facebook.com/mediacorp",
+   "https://www.instagram.com/mediacorp",
+   "https://www.youtube.com/mediacorpsg",
+   "https://www.tiktok.com/@mediacorp?lang=en",
+   "https://x.com/mediacorp",
+   "https://www.linkedin.com/company/mediacorppteltd"
+  ],
+  "apps": [],
+  "emails": []
+ },
+ "evidence": [
+  "https://www.mediacorp.sg/",
+  "https://www.mediacorp.sg/robots.txt"
+ ],
+ "notes": "Corporate site www.mediacorp.sg (b); mewatch.sg (b) linked from corporate navigation; uid.mediacorp.sg = Mediacorp account/sign-in host. No Mediacorp-published scam or impersonation advisory found (homepage links, web search 2026-11-26). Mediacorp vulnerability-disclosure programme hosted at mediacorp.vulnerability-disclosure.com (third-party platform; FQDN only, not added). robots.txt sitemaps: /api/v1/sitemap-news-feed, /api/v1/sitemap-video-feed, /api/v1/sitemap-image-feed, /google-topic-sitemap. Unverified (search snippet, news): Mediacorp filed take-down notice over a fake CNA-styled page using presenter Cheryl Fox's likeness. CNA is a child record (channelnewsasia.com)."
+}

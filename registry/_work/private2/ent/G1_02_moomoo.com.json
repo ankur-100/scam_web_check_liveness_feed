@@ -1,0 +1,94 @@
+{
+ "entity_id": "moomoo.com",
+ "name": "Moomoo Singapore (Moomoo Financial Singapore Pte. Ltd.)",
+ "abbr": null,
+ "aliases": [
+  "MooMoo",
+  "moomoo",
+  "Moomoo Singapore",
+  "Moomoo SG",
+  "Moomoo Financial Singapore Pte. Ltd.",
+  "Futu"
+ ],
+ "sector": "brokerage",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "moomoo.com"
+ ],
+ "official_hosts": [
+  "www.moomoo.com",
+  "passport.moomoo.com",
+  "openaccount.sg.moomoo.com",
+  "invest.sg.moomoo.com",
+  "smartlink.moomoo.com",
+  "sg.moomoo.com"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.moomoo.com/sg/learn/scam-alert-from-moomoo-singapore",
+   "kind": "official_channels",
+   "lists_indicators": [
+    "phone",
+    "email",
+    "sms_sender_id",
+    "domain"
+   ],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2026-08-24",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Customer Service: +65 6321 8888 Whatsapp Business Account: +65 3129 5222* ... Email: clientservice@sg.moomoo.com SMS SenderID: moomoo or moomooSG",
+   "notes": "'Scam Alert: Statement from Moomoo Singapore' (publishTime 2026-08-24 in page JSON; displayed 'Aug 24 15:38'). Lists genuine contact channels; 'Our official website is www.moomoo.com/sg'; 'We do not use any other numbers to contact clients'; no advice via WhatsApp/Telegram/RCS/WeChat; account opening only via moomoo.com/sg/support, no third-party agents. Narrative description of fake sites/apps, fake 'high-risk verification', chat-group impersonation; no concrete fake indicators. URL linked from SG homepage as /sg/learn/detail-scam-alert-from-moomoo-singapore-117972-250689010 (redirects here). Also in zh-Hans/zh-Hant (/sg/hans/..., /sg/hant/...)."
+  },
+  {
+   "url": "https://www.moomoo.com/sg/learn/beware-of-phishing-scams",
+   "kind": "alert_page",
+   "lists_indicators": [
+    "email"
+   ],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2026-07-09",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "If the sender's email address does NOT end with @sg.moomoo.com , it is a scam.",
+   "notes": "'Security Alert: Beware of Phishing Scams' (publishTime 2026-07-09). 'email' = official sender domain @sg.moomoo.com (official); phishing example shown only as an image. CS hotline +65-6321 8888."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [
+   "moomoo",
+   "moomooSG"
+  ],
+  "hotlines": [
+   "+65 6321 8888 (Moomoo Singapore customer service)",
+   "+65 3129 5222 (official WhatsApp Business account; promotional campaigns only)"
+  ],
+  "short_link_domains": [],
+  "social": [
+   "https://www.facebook.com/moomooSingapore/",
+   "https://www.instagram.com/moomoosingapore/",
+   "https://twitter.com/moomoosingapore",
+   "https://www.youtube.com/channel/UCK5UGwSKR_6URC4FshaLkyQ",
+   "https://www.tiktok.com/@moomoo.sg?lang=en",
+   "https://t.me/teammoomooSG",
+   "https://www.reddit.com/r/moomoo_official"
+  ],
+  "apps": [
+   "moomoo app (download via www.moomoo.com/sg/download or official app stores; offered by Moomoo Technologies Inc.)"
+  ],
+  "emails": [
+   "clientservice@sg.moomoo.com",
+   "@sg.moomoo.com"
+  ]
+ },
+ "evidence": [
+  "https://www.moomoo.com/sg/learn/scam-alert-from-moomoo-singapore",
+  "https://www.moomoo.com/sg/learn/beware-of-phishing-scams",
+  "https://www.moomoo.com/sg",
+  "https://www.moomoo.com/robots.txt"
+ ],
+ "notes": "SG business under moomoo.com/sg (entity_id = moomoo.com). official_domains: moomoo.com is (a) 'Our official website is www.moomoo.com/sg' and official email domain sg.moomoo.com. Hosts from SG homepage links (passport = login/registration, openaccount.sg / invest.sg, smartlink = AppsFlyer-style app link). Other moomoo-group hosts seen in page source but not added as official_domains: cdn.futustatic.com, blogimg.futunn.com, www.moomooapp.com (static/asset hosts; Futu group). Telegram t.me/teammoomooSG linked from SG footer although the alert says moomoo does not give investment advice via Telegram. Sitemap index (sitemap.xml -> learn/news indexes) not mined for SG scam URLs (support sitemap has 3 URLs). Newsroom: /sg/newsroom/moomoo-southeast-asia-joins-global-anti-scam-alliance-singapore (not opened). Unverified (search snippet): HK SFC alert list names lookalikes moomoo-g.top, moomoo-c.top (not SG; never visited)."
+}

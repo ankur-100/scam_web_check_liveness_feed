@@ -1,0 +1,38 @@
+{
+ "host": "www.singstat.gov.sg",
+ "robots_status": 200,
+ "robots": "User-Agent: *\nAllow: /\nCrawl-delay: 2\n\nSitemap: https://www.singstat.gov.sg/sitemap.xml\nSitemap: https://www.singstat.gov.sg/news-sitemap.xml\n",
+ "sitemaps_declared": [
+  "https://www.singstat.gov.sg/sitemap.xml",
+  "https://www.singstat.gov.sg/news-sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  [
+   "https://www.singstat.gov.sg/sitemap.xml",
+   "urlset",
+   1590,
+   "https://www.singstat.gov.sg/sitemap.xml"
+  ],
+  [
+   "https://www.singstat.gov.sg/news-sitemap.xml",
+   "urlset",
+   0,
+   "https://www.singstat.gov.sg/news-sitemap.xml"
+  ]
+ ],
+ "errors": [],
+ "total_urls": 1590,
+ "hosts_in_sitemap": {
+  "www.singstat.gov.sg": 1590
+ },
+ "matches": [
+  [
+   "https://www.singstat.gov.sg/publication-resources/the-dos-advisory-panel-round-up-of-discussions",
+   "2026-10-28T00:00:00.000Z"
+  ],
+  [
+   "https://www.singstat.gov.sg/publication-resources/fifth-meeting-of-the-dos-advisory-panel",
+   "2026-03-12T00:00:00.000Z"
+  ]
+ ]
+}

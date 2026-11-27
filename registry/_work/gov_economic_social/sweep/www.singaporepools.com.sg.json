@@ -1,0 +1,16 @@
+{
+ "host": "www.singaporepools.com.sg",
+ "robots_status": 200,
+ "robots": "User-agent: *\r\nDisallow: /en/tnq/Lists/QuotationTenderAttachmentFiles/Attachments/ # Block Tender /pdf/directory.\r\nDisallow: /en/_vti_bin/ # Block ootb pages\r\nDisallow: /ch/_vti_bin/ # Block ootb pages\r\nDisallow: /en/cu/_vti_bin/ # Block ootb pages\r\nDisallow: /ch/cu/_vti_bin/ # Block ootb pages\r\nDisallow: /outlets/_vti_bin/ # Block ootb pages\r\nDisallow: /_vti_bin/ # Block ootb pages\r\nDisallow: */_vti_bin/* # Block ootb pages\r\n\r\n\r\n",
+ "sitemaps_declared": [],
+ "sitemaps_fetched": [],
+ "errors": [
+  [
+   "https://www.singaporepools.com.sg/sitemap.xml",
+   "html returned"
+  ]
+ ],
+ "total_urls": 0,
+ "hosts_in_sitemap": {},
+ "matches": []
+}

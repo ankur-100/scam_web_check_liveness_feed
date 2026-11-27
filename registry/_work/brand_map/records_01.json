@@ -1,0 +1,412 @@
+{
+ "Land Transport Authority (LTA)": {
+  "resolution": "real_entity",
+  "entity_id": "lta.gov.sg",
+  "official_domains": [
+   "lta.gov.sg",
+   "onemotoring.lta.gov.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "gov.statboard",
+  "confidence": "high",
+  "evidence": [
+   "https://www.lta.gov.sg/",
+   "https://onemotoring.lta.gov.sg/"
+  ],
+  "notes": "Impersonated (18 advisories). Scam sites imitate OneMotoring / ERP & parking-fine / road-tax payment pages (e.g. onemotoring-iza.top, citepay.top)."
+ },
+ "WhatsApp": {
+  "resolution": "real_entity",
+  "entity_id": "whatsapp.com",
+  "official_domains": [
+   "whatsapp.com",
+   "wa.me"
+  ],
+  "is_singapore_entity": false,
+  "sector": "tech_platform",
+  "confidence": "high",
+  "evidence": [
+   "https://www.whatsapp.com/"
+  ],
+  "notes": "Meta-owned messenger. Impersonated via fake WhatsApp/WhatsApp Web lookalike domains (whasgapp.com, whetsap.cam) for account takeover; also the channel for job/investment lures. www.whatsapp.com answered HTTP 400 to curl but is the well-known official domain; wa.me is the official click-to-chat short link."
+ },
+ "CNA": {
+  "resolution": "real_entity",
+  "entity_id": "channelnewsasia.com",
+  "official_domains": [
+   "channelnewsasia.com"
+  ],
+  "is_singapore_entity": true,
+  "sector": "media",
+  "confidence": "high",
+  "evidence": [
+   "https://www.channelnewsasia.com/"
+  ],
+  "notes": "CNA = Mediacorp news channel (www.channelnewsasia.com). Scammers clone CNA news articles/ads with fake endorsements to push investment platforms (truedesignsolutions.shop, zenvaroe.com, avernovat.com)."
+ },
+ "TikTok": {
+  "resolution": "real_entity",
+  "entity_id": "tiktok.com",
+  "official_domains": [
+   "tiktok.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "tech_platform",
+  "confidence": "high",
+  "evidence": [
+   "https://www.tiktok.com/"
+  ],
+  "notes": "Job scams: fake TikTok \"like/follow\" tasks and TikTok-Shop-style merchant task sites (e.g. tiktokvipshops.com)."
+ },
+ "UnionPay": {
+  "resolution": "real_entity",
+  "entity_id": "unionpayintl.com",
+  "official_domains": [
+   "unionpayintl.com",
+   "unionpay.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "payments",
+  "confidence": "high",
+  "evidence": [
+   "https://www.unionpayintl.com/"
+  ],
+  "notes": "Card scheme (UnionPay International). Fake UnionPay \"security check\" pages on .cfd domains harvest card/login data; SPF advisory itself cites unionpayintl.com as the official site. unionpay.com = China UnionPay parent (established knowledge)."
+ },
+ "DBS": {
+  "resolution": "real_entity",
+  "entity_id": "dbs.com.sg",
+  "official_domains": [
+   "dbs.com.sg",
+   "dbs.com",
+   "posb.com.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "bank",
+  "confidence": "high",
+  "evidence": [
+   "https://www.dbs.com.sg/"
+  ],
+  "notes": "Banking phishing (dbsi-banking.com etc.). dbs.com = DBS Group site, posb.com.sg = POSB (DBS) brand."
+ },
+ "Singapore Police Force (SPF)": {
+  "resolution": "real_entity",
+  "entity_id": "police.gov.sg",
+  "official_domains": [
+   "police.gov.sg",
+   "eservices.police.gov.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "gov.dept",
+  "confidence": "high",
+  "evidence": [
+   "https://www.police.gov.sg/"
+  ],
+  "notes": "Government-official impersonation: fake SPF websites/messages (workers.dev / pages.dev hosts, policegov.eu.cc). SPF is a Home Team department under MHA."
+ },
+ "Ninjavan": {
+  "resolution": "real_entity",
+  "entity_id": "ninjavan.co",
+  "official_domains": [
+   "ninjavan.co"
+  ],
+  "is_singapore_entity": true,
+  "sector": "logistics",
+  "confidence": "high",
+  "evidence": [
+   "https://www.ninjavan.co/en-sg"
+  ],
+  "notes": "Ninja Van (Singapore-founded parcel courier). Fake redelivery / address-update pages on random .cfd domains."
+ },
+ "Inland Revenue Authority of Singapore (IRAS)": {
+  "resolution": "real_entity",
+  "entity_id": "iras.gov.sg",
+  "official_domains": [
+   "iras.gov.sg",
+   "mytax.iras.gov.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "gov.statboard",
+  "confidence": "high",
+  "evidence": [
+   "https://www.iras.gov.sg/"
+  ],
+  "notes": "Fake tax-refund / myTax Portal phishing and malware lures (irasz.com, govment.cc)."
+ },
+ "SingPost": {
+  "resolution": "real_entity",
+  "entity_id": "singpost.com",
+  "official_domains": [
+   "singpost.com"
+  ],
+  "is_singapore_entity": true,
+  "sector": "logistics",
+  "confidence": "high",
+  "evidence": [
+   "https://www.singpost.com/"
+  ],
+  "notes": "Parcel-delivery phishing (failed delivery / redelivery fee)."
+ },
+ "CDC Vouchers": {
+  "resolution": "real_entity",
+  "entity_id": "cdc.gov.sg#cdc-vouchers",
+  "official_domains": [
+   "cdc.gov.sg",
+   "vouchers.cdc.gov.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "gov.programme",
+  "confidence": "high",
+  "evidence": [
+   "https://vouchers.cdc.gov.sg/",
+   "https://www.cdc.gov.sg/"
+  ],
+  "notes": "CDC Vouchers Scheme (Community Development Councils). Official claim site vouchers.cdc.gov.sg; scam clones hosted on herokuapp/koyeb."
+ },
+ "MooMoo": {
+  "resolution": "real_entity",
+  "entity_id": "moomoo.com",
+  "official_domains": [
+   "moomoo.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "brokerage",
+  "confidence": "high",
+  "evidence": [
+   "https://www.moomoo.com/sg"
+  ],
+  "notes": "Moomoo (Futu Holdings) trading app; SG arm Moomoo Financial Singapore Pte Ltd (MAS-licensed), parent foreign. Credential-phishing clones on random .live domains."
+ },
+ "Booking.com": {
+  "resolution": "real_entity",
+  "entity_id": "booking.com",
+  "official_domains": [
+   "booking.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "travel",
+  "confidence": "high",
+  "evidence": [
+   "https://www.booking.com/"
+  ],
+  "notes": "Hotel-reservation \"verify your booking/card\" phishing (reserv-advanced*.com, secureresverify.com)."
+ },
+ "Lalamove": {
+  "resolution": "real_entity",
+  "entity_id": "lalamove.com",
+  "official_domains": [
+   "lalamove.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "logistics",
+  "confidence": "high",
+  "evidence": [
+   "https://www.lalamove.com/en-sg/"
+  ],
+  "notes": "On-demand delivery (HK-HQ). Phishing via lalamove.eu.cc and random domains."
+ },
+ "UOB": {
+  "resolution": "real_entity",
+  "entity_id": "uob.com.sg",
+  "official_domains": [
+   "uob.com.sg",
+   "uobgroup.com"
+  ],
+  "is_singapore_entity": true,
+  "sector": "bank",
+  "confidence": "high",
+  "evidence": [
+   "https://www.uob.com.sg/"
+  ],
+  "notes": "United Overseas Bank. Banking phishing pages hosted on compromised third-party sites."
+ },
+ "B2B Wave": {
+  "resolution": "real_entity",
+  "entity_id": "b2bwave.com",
+  "official_domains": [
+   "b2bwave.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "tech_platform",
+  "confidence": "medium",
+  "evidence": [
+   "https://www.b2bwave.com/"
+  ],
+  "notes": "Real B2B e-commerce SaaS platform. Job-task scam sites (bigbuy.rest, bigbuyshops.*, cdiscountsb.com, argos-online.me) claim the B2B Wave name; the scams also clone retailers BigBuy, Cdiscount, Argos."
+ },
+ "NVIDIA": {
+  "resolution": "real_entity",
+  "entity_id": "nvidia.com",
+  "official_domains": [
+   "nvidia.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "high",
+  "evidence": [
+   "https://www.nvidia.com/"
+  ],
+  "notes": "Brand/logo misused for fake investment platforms (security-platform.vip, nvidialisuj.top). Not a financial firm."
+ },
+ "Singpass": {
+  "resolution": "real_entity",
+  "entity_id": "singpass.gov.sg",
+  "official_domains": [
+   "singpass.gov.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "gov.programme",
+  "confidence": "high",
+  "evidence": [
+   "https://www.singpass.gov.sg/"
+  ],
+  "notes": "National digital identity (GovTech). Credential-phishing clones on workers.dev / compromised sites."
+ },
+ "Park N Parcel": {
+  "resolution": "real_entity",
+  "entity_id": "parknparcel.com.sg",
+  "official_domains": [
+   "parknparcel.com.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "logistics",
+  "confidence": "high",
+  "evidence": [
+   "https://www.parknparcel.com.sg/"
+  ],
+  "notes": "SG parcel collection-point network. Fake parcel-payment pages (parcel-*.top); SPF advisory cites parknparcel.com.sg as official."
+ },
+ "LG": {
+  "resolution": "real_entity",
+  "entity_id": "lg.com",
+  "official_domains": [
+   "lg.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "other",
+  "confidence": "high",
+  "evidence": [
+   "https://www.lg.com/"
+  ],
+  "notes": "LG Electronics name misused for fake \"new energy\" investment sites (lgnewenergy.com, gaouga.app)."
+ },
+ "No Brand": {
+  "resolution": "generic_or_placeholder",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "high",
+  "evidence": [],
+  "notes": "SPF placeholder tag used when no brand is identified (generic fake shopping deals; fake event-registration phishing page ite-pm-event.netlify.app)."
+ },
+ "SPX": {
+  "resolution": "real_entity",
+  "entity_id": "spx.sg",
+  "official_domains": [
+   "spx.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "logistics",
+  "confidence": "high",
+  "evidence": [
+   "https://spx.sg/"
+  ],
+  "notes": "SPX Express (Shopee/Sea Group courier). Parcel-fee phishing (llkw.top, villen.cyou); SPF advisory cites spx.sg as official."
+ },
+ "Gov.sg": {
+  "resolution": "real_entity",
+  "entity_id": "gov.sg",
+  "official_domains": [
+   "gov.sg",
+   "go.gov.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "gov.programme",
+  "confidence": "high",
+  "evidence": [
+   "https://www.gov.sg/"
+  ],
+  "notes": "Gov.sg = Singapore Government official communications channel (site www.gov.sg, SMS sender ID \"gov.sg\", short links go.gov.sg). Note gov.sg is also the public suffix of all SG government domains. Scam pages on workers.dev / .online."
+ },
+ "Immigration & Checkpoints Authority of Singapore (ICA)": {
+  "resolution": "real_entity",
+  "entity_id": "ica.gov.sg",
+  "official_domains": [
+   "ica.gov.sg",
+   "eservices.ica.gov.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "gov.dept",
+  "confidence": "high",
+  "evidence": [
+   "https://www.ica.gov.sg/"
+  ],
+  "notes": "Fake ICA sites (ica-gov.com). ICA is a Home Team department under MHA."
+ },
+ "MoneySmart": {
+  "resolution": "real_entity",
+  "entity_id": "moneysmart.sg",
+  "official_domains": [
+   "moneysmart.sg"
+  ],
+  "is_singapore_entity": true,
+  "sector": "other",
+  "confidence": "medium",
+  "evidence": [],
+  "notes": "SG personal-finance comparison/rewards site. Lookalikes money-sm.art, moneysmart.money, moneysmart.click. www.moneysmart.sg returned a Cloudflare challenge (403) to curl; domain from established knowledge."
+ },
+ "Netflix": {
+  "resolution": "real_entity",
+  "entity_id": "netflix.com",
+  "official_domains": [
+   "netflix.com"
+  ],
+  "is_singapore_entity": false,
+  "sector": "media",
+  "confidence": "high",
+  "evidence": [
+   "https://www.netflix.com/"
+  ],
+  "notes": "Subscription/payment-update phishing (netflix-home.info, streamhelpcenter.com)."
+ },
+ "Telegram": {
+  "resolution": "real_entity",
+  "entity_id": "telegram.org",
+  "official_domains": [
+   "telegram.org",
+   "t.me"
+  ],
+  "is_singapore_entity": false,
+  "sector": "tech_platform",
+  "confidence": "high",
+  "evidence": [
+   "https://telegram.org/"
+  ],
+  "notes": "Fake Telegram login/Premium pages (telegrinim-tg.cc). t.me = official link domain."
+ },
+ "Singtel": {
+  "resolution": "real_entity",
+  "entity_id": "singtel.com",
+  "official_domains": [
+   "singtel.com"
+  ],
+  "is_singapore_entity": true,
+  "sector": "telco",
+  "confidence": "high",
+  "evidence": [
+   "https://www.singtel.com/"
+  ],
+  "notes": "Telco bill/reward phishing (servicesmetalinkion.shop, onepass.xin)."
+ },
+ "Airdrop Pepe": {
+  "resolution": "fictitious_scam_brand",
+  "entity_id": null,
+  "official_domains": [],
+  "is_singapore_entity": null,
+  "sector": null,
+  "confidence": "medium",
+  "evidence": [],
+  "notes": "SPF calls it a \"trending topic\" lure: a fake PEPE-memecoin \"airdrop\"/mining platform (pepemining.cc, zylanto.site). PEPE is a real meme token but not an organisation and \"Airdrop Pepe\" is not a genuine platform."
+ }
+}

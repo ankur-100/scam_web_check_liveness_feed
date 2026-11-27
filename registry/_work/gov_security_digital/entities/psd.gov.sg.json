@@ -1,0 +1,47 @@
+{
+ "entity_id": "psd.gov.sg",
+ "name": "Public Service Division",
+ "abbr": "PSD",
+ "aliases": [
+  "Public Service Division (PSD)",
+  "Careers@Gov"
+ ],
+ "sector": "gov.dept",
+ "parent_entity_id": "pmo.gov.sg",
+ "country": "SG",
+ "official_domains": [
+  "psd.gov.sg"
+ ],
+ "official_hosts": [
+  "www.psd.gov.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.psd.gov.sg/newsroom/public-service-job-openings-reposted-on-unauthorised-job-scam-site/",
+   "kind": "alert_page",
+   "lists_indicators": [
+    "domain"
+   ],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2022-04-21",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "A job scam website has been reposting a number of job openings published on the Careers@Gov portal onto their website (jobsingapore24h.com).",
+   "notes": "Concrete domain IOC (job-scam reposting site). Only scam item in the sitemap (665 URLs)."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [
+   "gov.sg"
+  ],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": []
+ },
+ "evidence": [
+  "https://www.sgdi.gov.sg/ministries/pmo/departments/psd",
+  "https://www.psd.gov.sg/sitemap.xml"
+ ],
+ "notes": "Apply only via the Careers@Gov portal or agency recruitment sites."
+}

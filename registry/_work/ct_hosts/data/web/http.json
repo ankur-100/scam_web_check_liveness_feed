@@ -1,0 +1,240 @@
+{
+ "ask.gov.sg": {
+  "http_status": 403,
+  "title": "Just a moment..."
+ },
+ "checkmate.sg": {
+  "http_status": 200,
+  "title": "CheckMate - Making checking easy"
+ },
+ "csa.gov.sg": {
+  "final_url": "https://www.csa.gov.sg/ (via 301)",
+  "http_status": 200,
+  "title": "Home | Cyber Security Agency of Singapore"
+ },
+ "dashboardguide.scamshield.gov.sg": {
+  "final_url": "https://scamshield.cloudflareaccess.com/cdn-cgi/access/login/dashboardguide.scamshield.gov.sg?kid=25dcc19b0ea6d61db6e610ea80b862a7d6fc8ebd7c2f85bcd903e5d76f04e6d3&meta=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImMwYjExYTZhNTI0ZDlhZWVhYmNmOGZlNjAzMGQ4MDQ1NWQ0YTFiOWE3NDk0MjQ3NTNhMmI1ZTJlY2MyMzY4YjcifQ.eyJ0eXBlIjoibWV0YSIsImF1ZCI6IjI1ZGNjMTliMGVhNmQ2MWRiNmU2MTBlYTgwYjg2MmE3ZDZmYzhlYmQ3YzJmODViY2Q5MDNlNWQ3NmYwNGU2ZDMiLCJob3N0bmFtZSI6ImRhc2hib2FyZGd1aWRlLnNjYW1zaGllbGQuZ292LnNnIiwicmVkaXJlY3RfdXJsIjoiLyIsInNlcnZpY2VfdG9rZW5fc3RhdHVzIjpmYWxzZSwiaXNfd2FycCI6ZmFsc2UsImlzX2dhdGV3YXkiOmZhbHNlLCJleHAiOjE3OTU2NjUxOTcsIm5iZiI6MTc5NTY2NDg5NywiaWF0IjoxNzk1NjY0ODk3LCJhdXRoX3N0YXR1cyI6Ik5PTkUiLCJtdGxzX2F1dGgiOnsiY2VydF9pc3N1ZXJfZG4iOiIiLCJjZXJ0X3NlcmlhbCI6IiIsImNlcnRfaXNzdWVyX3NraSI6IiIsImNlcnRfcHJlc2VudGVkIjpmYWxzZSwiY29tbW9uX25hbWUiOiIiLCJhdXRoX3N0YXR1cyI6Ik5PTkUifSwicmVhbF9jb3VudHJ5IjoiU0ciLCJhcHBfc2Vzc2lvbl9oYXNoIjoiOTJhZTJiMDFhOGQ1MjMyZjEzZTBkMTQ3NTEzZmJiNGEyZWVkYTk0MTJhOTkyYzhkYjlhMjYwODliYmIxMDAyMyJ9.RNSFRpdsnb7YmOQtkNV1EgYTyRrMcX5pXgZKSU2x6iYquid9E1bmF5wcLuV5cm31wgHSaBnC6hBKvCJRCGu2_7aAO8ur1GlYLPxZFTDuAMP0U-rtFEThrxn8WRAY4k_jP8v5IqhN6dNNQZG8iLgcmFwVkWlVGJxEopS96teNmPYZu7mGy12BX9UJ6v0eN8nCVfVzbxtQBdq4DuXzz5ZgNCC2NrxeTw2Tc5EDKfYIB1fnHu3bsNqqVAcNpsKgJTgivaIbQFD1D_ohgVOMsA58QSeVg_fdOvotQoIp0NCQaOezG-kGt2-LAgIDl_vEodIxx_DFDvDdCmOWUxQgu8QAcg&redirect_url=%2F (via 302)",
+  "http_status": 200,
+  "title": "Sign in \u30fb Cloudflare Access"
+ },
+ "eservices.mas.gov.sg": {
+  "http_status": 200,
+  "title": "eservices home page"
+ },
+ "eservices1.police.gov.sg": {
+  "final_url": "https://www.police.gov.sg/E-services (via 301)",
+  "http_status": 200,
+  "title": "SPF | E-services"
+ },
+ "eservices2.police.gov.sg": {
+  "final_url": "https://www.police.gov.sg/E-Services (via 301,301)",
+  "http_status": 200,
+  "title": "SPF | E-services"
+ },
+ "eservices4.police.gov.sg": {
+  "final_url": "https://www.police.gov.sg/E-Services (via 301,301)",
+  "http_status": 200,
+  "title": "SPF | E-services"
+ },
+ "eservices5.police.gov.sg": {
+  "final_url": "https://www.police.gov.sg/e-services (via 302)",
+  "http_status": 200,
+  "title": "SPF | E-services"
+ },
+ "form.gov.sg": {
+  "http_status": 200,
+  "title": "FormSG"
+ },
+ "forms.scamalert.sg": {
+  "http_status": 503,
+  "title": "503 Service Unavailable"
+ },
+ "go.ask.gov.sg": {
+  "http_status": 403,
+  "title": "Just a moment..."
+ },
+ "go.gov.sg": {
+  "http_status": 200,
+  "title": "go.gov.sg"
+ },
+ "gosafeonline.sg": {
+  "final_url": "https://www.csa.gov.sg/resources/tips-and-resources/ (via 301)",
+  "http_status": 200,
+  "title": "Tips & Resources | Cyber Security Agency of Singapore"
+ },
+ "guide.scamshield.gov.sg": {
+  "http_status": 200,
+  "title": "What is ScamShield? | ScamShield"
+ },
+ "icanactagainstscams.gov.sg": {
+  "final_url": "https://www.icanactagainstscams.gov.sg:443/ (via 301)",
+  "http_status": 200,
+  "title": "I can ACT against scams"
+ },
+ "lp.scamalert.sg": {
+  "http_status": 503,
+  "title": "503 Service Unavailable"
+ },
+ "makeathon.scamalert.sg": {
+  "http_status": 200,
+  "title": "Index of /"
+ },
+ "ncpc.org.sg": {
+  "final_url": "https://www.ncpc.org.sg/ (via 301)",
+  "http_status": 200,
+  "title": "Home | National Crime Prevention Council"
+ },
+ "pango.gov.sg": {
+  "final_url": "https://www.pango.gov.sg/ (via 301)",
+  "http_status": 200,
+  "title": "Home | AntiScam Pango"
+ },
+ "products.open.gov.sg": {
+  "final_url": "https://reports.open.gov.sg/products (via 301)",
+  "http_status": 200,
+  "title": "Report Cards at OGP"
+ },
+ "quiz.scamalert.sg": {
+  "http_status": 503,
+  "title": "503 Service Unavailable"
+ },
+ "report.osc.gov.sg": {
+  "http_status": 200,
+  "title": "Report a Harm"
+ },
+ "reports.open.gov.sg": {
+  "http_status": 200,
+  "title": "Report cards at OGP"
+ },
+ "scam-game.checkmate.sg": {
+  "final_url": "https://checkmatesg.cloudflareaccess.com/cdn-cgi/access/login/scam-game.checkmate.sg?kid=fc861dfeffef1c9ba4fe202a6dee14cd6a36f1c793d55db523770e61b4850d58&meta=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImQ5YzYxYWE3ZjhlNzkzMTUyNDMxM2U3MDgwMTk3NDgyOWM5ZDI5MTE4ODYxOTZiZjUzOWM5NGQwYWUzYzliMzUifQ.eyJ0eXBlIjoibWV0YSIsImF1ZCI6ImZjODYxZGZlZmZlZjFjOWJhNGZlMjAyYTZkZWUxNGNkNmEzNmYxYzc5M2Q1NWRiNTIzNzcwZTYxYjQ4NTBkNTgiLCJob3N0bmFtZSI6InNjYW0tZ2FtZS5jaGVja21hdGUuc2ciLCJyZWRpcmVjdF91cmwiOiIvIiwic2VydmljZV90b2tlbl9zdGF0dXMiOmZhbHNlLCJpc193YXJwIjpmYWxzZSwiaXNfZ2F0ZXdheSI6ZmFsc2UsImV4cCI6MTc5NTY2NTM3MSwibmJmIjoxNzk1NjY1MDcxLCJpYXQiOjE3OTU2NjUwNzEsImF1dGhfc3RhdHVzIjoiTk9ORSIsIm10bHNfYXV0aCI6eyJjZXJ0X2lzc3Vlcl9kbiI6IiIsImNlcnRfc2VyaWFsIjoiIiwiY2VydF9pc3N1ZXJfc2tpIjoiIiwiY2VydF9wcmVzZW50ZWQiOmZhbHNlLCJjb21tb25fbmFtZSI6IiIsImF1dGhfc3RhdHVzIjoiTk9ORSJ9LCJyZWFsX2NvdW50cnkiOiJTRyIsImFwcF9zZXNzaW9uX2hhc2giOiI1ZDkzN2Y4NzdjMDI3MjRmMWE5Yzk2Y2U1M2U5YzAxMmQ0NDI5OTNhNWNlNTg2ZjkyMmY4YTZhMTQ0ZTcyMWVkIn0.Nz-D9I93-JhPgIz4moN7Lw1wX8yN3n_fP1MzAUZBo6OE0xsbzddpeLQeOET67QzhKVmn88Jojtq0VUw1LC1JHJhrj_WHSKCKCT7gisUv9LfH2cypdlWideesvUGdRtRrr4bAtEPdD8038f96sdSI7p_xZ9hqn30u3L0SRomLMzWlhWJNv96y9r6jCugrZMW2tBuCjGegOp5czW7Lg8FnHpWXEeE15Gmpwz1wkaQLySNJ56ydnWpgBxHkeKvLgAf6NcSHGmBIM7I5e_eSuirzDacrJB2S6tE7XjrP7aMlqVzzH_pyBqH6Pr66mb07mRaiZUqS5H3SEjECjCiozM8MDQ&redirect_url=%2F (via 302)",
+  "http_status": 200,
+  "title": "Sign in \u30fb Cloudflare Access"
+ },
+ "scamalert.sg": {
+  "final_url": "https://www.scamshield.gov.sg/ (via 301)",
+  "http_status": 200,
+  "title": "Home | ScamShield Website"
+ },
+ "scamshield.gov.sg": {
+  "final_url": "https://www.scamshield.gov.sg/ (via 301)",
+  "http_status": 200,
+  "title": "Home | ScamShield Website"
+ },
+ "scamshield.org.sg": {
+  "final_url": "https://www.scamshield.gov.sg/ (via 302)",
+  "http_status": 200,
+  "title": "Home | ScamShield Website"
+ },
+ "scamshield.sg": {
+  "final_url": "https://www.scamshield.gov.sg/ (via 302)",
+  "http_status": 200,
+  "title": "Home | ScamShield Website"
+ },
+ "smsregistry.sg": {
+  "final_url": "https://smsregistry.sg/web/login (via 302,302)",
+  "http_status": 200,
+  "title": "SMS Registry"
+ },
+ "www.beta.icanactagainstscams.gov.sg": {
+  "error": "SSLError: HTTPSConnectionPool(host='www.beta.icanactagainstscams.gov.sg', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, ",
+  "http_status": null,
+  "title": null
+ },
+ "www.checkmate.sg": {
+  "http_status": 200,
+  "title": "CheckMate - Making checking easy"
+ },
+ "www.csa.gov.sg": {
+  "http_status": 200,
+  "title": "Home | Cyber Security Agency of Singapore"
+ },
+ "www.digitalforlife.gov.sg": {
+  "http_status": 200,
+  "title": "Digital for Life Website"
+ },
+ "www.gosafeonline.sg": {
+  "final_url": "https://www.csa.gov.sg/resources/tips-and-resources/ (via 301)",
+  "http_status": 200,
+  "title": "Tips & Resources | Cyber Security Agency of Singapore"
+ },
+ "www.gov.sg": {
+  "http_status": 200,
+  "title": "Home | gov.sg"
+ },
+ "www.icanactagainstscams.gov.sg": {
+  "http_status": 200,
+  "title": "I can ACT against scams"
+ },
+ "www.imda.gov.sg": {
+  "http_status": 200,
+  "title": "Architects of SG Digital Future | IMDA"
+ },
+ "www.mas.gov.sg": {
+  "http_status": 200,
+  "title": "Monetary Authority of Singapore"
+ },
+ "www.mddi.gov.sg": {
+  "http_status": 200,
+  "title": "Home | Ministry of Digital Development and Information"
+ },
+ "www.mha.gov.sg": {
+  "http_status": 200,
+  "title": "Home | Ministry of Home Affairs"
+ },
+ "www.mlc.sg": {
+  "http_status": 200,
+  "title": "Home | Media Literacy Council"
+ },
+ "www.moneysense.gov.sg": {
+  "http_status": 200,
+  "title": "Home | MoneySense"
+ },
+ "www.ncpc.org.sg": {
+  "http_status": 200,
+  "title": "Home | National Crime Prevention Council"
+ },
+ "www.open.gov.sg": {
+  "http_status": 200,
+  "title": "Home | Open Government Products"
+ },
+ "www.osc.gov.sg": {
+  "http_status": 200,
+  "title": "Home | Online Safety Commission"
+ },
+ "www.pango.gov.sg": {
+  "http_status": 200,
+  "title": "Home | AntiScam Pango"
+ },
+ "www.police.gov.sg": {
+  "http_status": 200,
+  "title": "SPF | Singapore Police Force"
+ },
+ "www.scamalert.sg": {
+  "final_url": "https://www.scamshield.gov.sg/ (via 301)",
+  "http_status": 200,
+  "title": "Home | ScamShield Website"
+ },
+ "www.scamshield.gov.sg": {
+  "http_status": 200,
+  "title": "Home | ScamShield Website"
+ },
+ "www.scamshield.org.sg": {
+  "final_url": "https://www.scamshield.gov.sg/ (via 302)",
+  "http_status": 200,
+  "title": "Home | ScamShield Website"
+ },
+ "www.scamshield.sg": {
+  "final_url": "https://www.scamshield.gov.sg/ (via 302)",
+  "http_status": 200,
+  "title": "Home | ScamShield Website"
+ },
+ "www.smartnation.gov.sg": {
+  "http_status": 200,
+  "title": "Home | Smart Nation Singapore"
+ },
+ "www.tech.gov.sg": {
+  "http_status": 200,
+  "title": "Home | Government Technology Agency of Singapore (GovTech Singapore)"
+ }
+}

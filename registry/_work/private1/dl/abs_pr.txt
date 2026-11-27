@@ -1,0 +1,197 @@
+2026
+18 Nov MAS and ABS Set Out PayNow Generation 2 Implementation Roadmap
+13 Nov ABS statement on global Microsoft outage
+02 Nov ABS Community Giveback Programme Sees 1,800 Volunteers Shop Alongside 7,000 Residents
+28 Oct Singapore Payments Network Appoints Key Leadership Team to Govern Singapore’s National Payment Schemes and Drive Payments Innovation
+05 Oct Singapore Private Banking Industry Group Reports ProgressTowards Faster Account Opening Times
+28 Jul MAS and ABS Establish Taskforce to Strengthen Cyber and Technology Resilience against AI-driven Threats
+25 Jun MAS and ABS Chart Instant Payments Enhancements with PayNow Generation 2 Study
+25 Jun Singapore banks come together to help seniors plan well age well and ease the burden on their loved ones
+25 May Singapore Private Banking Industry Group to Enhance Customer Onboarding Processes to Achieve Faster Account Opening Times
+29 Apr PayNow Nickname Feature to Cease from 6 June 2026 to Strengthen Protection Against Impersonation Scams
+02 Feb ABS statement on the use of NRIC numbers for authentication
+2025
+03 Oct Banks to Launch Enhanced Safeguards from 15 Oct 2025 to Better Protect Accounts
+28 Jul ABS Announces Launch of Electronic Deferred Payment Solutions
+25 Jun MAS and ABS Announce the Incorporation of New Payments Entity – Singapore Payments Network (SPaN) – to Position National Payment Schemes for Next Stage of Growth
+29 May ABS and Credit Bureau Singapore raise $2.3 million for President’s Challenge to celebrate SG60
+20 May Banking Trust Index for Singapore remains high with growing expectations for industry to contribute to society
+25 Feb Banks Successfully Complete Interest Rate Benchmark Transition from SOR and SIBOR to SORA
+17 Feb Major card issuing banks to step up measures to combat card provisioning scams
+12 Feb Trade Finance Registry and SGTraDex further strengthen trade finance risk mitigation with real-time Bill of Lading Genuineness Check
+12 Feb MAS and ABS to Establish New Payments Entity to Position National Payment Schemes for Next Stage of Growth
+2024
+19 Dec NRIC numbers alone cannot be used to effect payment and fund transfers
+05 Dec MAS and ABS Announce Launch of Electronic Deferred Payment Solutions in Mid-2025 and Extension of Deadline for Cessation of Corporate Cheques
+06 Nov ABS launches anti-scam mascot Canny to continue fight against scams
+24 Oct Media statement by the Association of Banks in Singapore on Shared Responsibility Framework
+21 Oct Singapore’s first best practice paper on enhancing anti-money laundering audit in banks launched by ABS and industry group
+15 Oct Business Continuity Exercise to Bolster Singapore Financial Sector’s Operational Resilience
+18 Sep Major retail banks to introduce Singpass Face Verification (SFV), further strengthening resilience against phishing scams
+09 Jul Banks in Singapore introduce new measures to strengthen resistance against phishing scams
+28 Jun ABS to adopt Leon the Skameleon as anti-scam mascot
+08 Jun ABS launches $4 million programme to support 10,000 low-income households and fight scams
+16 Apr ABS launches anti-scam mascot design competition
+2023
+13 Dec Technical issue affected cheques deposited on 12 Dec; funds to be credited from 5 pm today
+24 Oct Banks in Singapore will do their part to protect customers against scams
+07 Oct MAS and Financial Industry Launch Basic Financial Planning Guide
+18 Sep Major retail banks in Singapore have enhanced their security measures against malware scams
+28 Jul MAS Announces end-2025 Timeline to Eliminate Corporate Cheques
+30 Jun Final Transition Approach for SIBOR Loans to SORA
+23 Jun ABS launches Trade Finance Registry to counter trade finance fraud
+15 Mar SIBOR to SORA Transition Commences
+13 Feb Banking Trust Index for Singapore shows trust in banks continues to rise on confidence in industry’s ability to emerge stronger from the pandemic
+2022
+14 Oct ABS issues guidelines for sustainable private banking and wealth management practices and PBIG sets common sustainable finance training benchmark for private banking professionals
+18 Jul Industry Steering Committee Finalises the Key Settings of the MAS Recommended Rate and Supplementary Guidance for Active Transition of Legacy Wholesale Market SOR Contracts to SORA
+20 Jun Central Clearing of SORA Derivatives Extended to 31-Year Tenor
+02 Jun Media Release: Additional Measures to Strengthen the Security of Digital Banking
+18 May Media Release: Consultation on Adjustment Spreads for the Transition of Legacy SOR Contracts in Wholesale Markets
+26 Apr Banking Trust Index for Singapore Shows Banks in Singapore Remain Trusted Despite COVID-19 Uncertainties
+21 Apr ABS Launches Industry Standard Template for Banks to Engage Corporate Clients on Environmental Risk Issues
+19 Jan MAS and ABS Announce Measures to Bolster the Security of Digital Banking
+2021
+28 Dec Send Hong Baos digitally with PayNow (28/12/2021)
+29 Jul SC-STS Recommendations for Legacy SOR Transition
+29 Apr PayNow and Thailand’s PromptPay complete the world’s first faster payment systems linkage
+31 Mar New Timelines to Cease Issuance of SOR Derivatives and SIBOR-Linked Financial Products
+23 Mar Study to Enhance the Resilience of Future Workplace of Financial Institutions
+05 Mar Inaugural Banking Trust Index for Singapore shows banks in Singapore are trusted; banks committed to do more to further customers’ interests
+02 Mar Managing the Risks of Remote Working in Financial Institutions
+22 Feb Central Clearing of SORA Derivatives Extended to 21-Year Tenor
+08 Feb Three Non-Banks Financial Institutions (NFIs) to offer PayNow
+02 Feb Industry Steering Committee Announces Further Measures to Boost SORA Transition
+11 Jan Send Hong Baos digitally with PayNow
+2020
+11 Dec Key Financial Industry Committees Set Out Timelines For SIBOR Discontinuation
+07 Dec Digital Infrastructure to Enable More Effective Financial Planning by Singaporeans
+02 Dec Private Banking Industry Group launches initiative to groom local talent
+30 Nov ABS launches Code of Best Practices for commodity financing
+13 Nov ABS and SGX RegCo enhance due diligence standards
+03 Nov Banks to work closely with customers on funding and refinancing
+01 Nov Financial institutions in Singapore launch industry's first customised debt restructuring programme to help SMEs overcome impact of COVID-19
+27 Oct Industry Steering Committee Announces Timelines to Cease Issuance of SOR-linked Financial Products, and Publishes Market Guidance to Support Transition to SORA
+28 Sep PayNow Increases Default Limit for Ad-Hoc Transactions
+01 Sep SC-STS Outlines Role of Fallback Rate Arrangements for SOR Derivatives
+29 Jul Joint Industry Consultation on the SIBOR Reform and a Shift to a SORA-Centered SGD Interest Rate Market
+29 Jun Singapore Makes Significant Progress in Preparing for the SOR to SORA Transition
+03 Jun ABS Statement of Support for Landlords
+19 May SC-STS Welcomes Launch of Central Clearing for SORA Derivatives
+27 Apr ABS Statement on Scam Calls Masquerading as Banks
+14 Apr ABS Statement on Wearing Face Masks at Banks’ Retail Branches
+09 Apr Go Digital, Use PayNow, Be Rewarded
+03 Apr ABS Statement on Elevated Safe Distancing Measures
+19 Mar Industry Steering Committee Sets Out Key Priorities to Achieve Smooth Transition to SORA
+2019
+11 Nov PayNow QR Adopts SGQR Specifications
+18 Oct More Than 1 Billion SGD Per Month Transacted Using PayNow In Past Quarter
+30 Aug ABS-SFEMC Public Consultation on the Roadmap for Transition of Interest Rate Benchmarks: From SGD Swap Offer Rate (“SOR”) to Singapore Overnight Rate Average (“SORA”)
+29 Aug Consultation Report on the Roadmap for SOR Transition
+01 Jul ABS Co Commences Transitional Testing For the Enhanced SIBOR
+28 Jun ABS 46th Annual Dinner – Keynote Address by Mr Tharman Shanmugaratnam, Senior Minister and Coordinating Minister for Social Policies
+08 Apr Two More Banks to offer PayNow Corporate
+2018
+14 Nov ABS Issues Guidelines For Cyber Security Exercises
+13 Aug Successful Launch of PayNow Corporate
+24 Jul ABS-SFEMC Finalises Proposals on the Evolution of SIBOR
+20 Jun ABS announces the launch of PayNow Corporate, a new funds transfer service for Businesses & Corporates
+09 Apr Two More Banks To Offer PayNow
+14 Mar Move To Strengthen HR Practices In Banks
+13 Feb Request for Proposal - Global Trade Connectivity Network
+02 Feb Increase In Transaction Limit For FAST
+2017
+04 Dec Consultation on the Evolution of SIBOR
+24 Aug Financial Sector Tests Response to Cyber And Physical Attacks in Fifth Industry-Wide Business Continuity Exercise
+10 Jul Successful Launch of PayNow
+27 Jun ABS Announces the Launch of PayNow, A New Peer-to-Peer Funds Transfer Service
+26 May Launch of the FX Global Code
+17 Jan Financial Institutions Offer Debt Consolidation Plan
+2016
+22 Nov Enhancement of Private Banking Code of Conduct
+16 Nov The Association of Banks in Singapore Issues Finance-as-a-Service: API PlayBook
+14 Nov MAS and ABS Kick Off Inaugural Singapore FinTech Festival
+19 Oct More Than 5,000 Banking and Financial Services Sector Professionals Receive Prestigious Excellent Service Award
+04 Aug ABS Issues Implementation Guide on Cloud Services
+01 Aug MAS and ABS invite entries to the inaugural FinTech Awards
+22 Jul Singapore-China (Chongqing) Financial Conference to Foster Collaboration and Strength Financial Connectivity
+13 May ABS Enhances Due Diligence Guidelines For Listings On SGX
+28 Mar MAS and ABS to hold Conference to drive FinTech Innovation
+21 Mar Credit Bureaus to Offer Free Credit Report to Consumers
+17 Feb Financial Sector Tripartite Committee Formed To Prepare Our Workforce To Be Future Ready
+2015
+01 Dec ABS Issues Consumer Advisory on Malware targeting mobile banking.
+08 Oct Banking Sector In Singapore To Advance Responsible Financing With The Launch Of New Industry Guidelines.
+17 Sep Five More Banks To Offer FAST.
+15 Jul The Association Of Banks In Singapore Seeks Public Consultation On The Code Of Banking Practices With Regard To The Personal Data Protection Act (PDPA).
+26 Jun Banking Industry Sets Baseline Standards For Outsourced Service Providers
+25 Jun ABS Co: Real-time SIBOR & SOR data to be fee-liable from 1 October 2015
+05 May Increase In Transaction Limit For FAST
+16 Apr Industry Bodies Seek Consumers' Cooperation In Providing Feedback On Recent Purchase Of Investment Products
+06 Apr Financial Institutions Offer Repayment Assistance Scheme
+02 Mar Online E-Learning Portal To Educate Retail Customers On Unlisted Specified Investment Products
+27 Jan Singapore-London RMB Forum
+2014
+21 Nov Financial Sector Tests Response To Cyber Attacks In Fourth Industry-Wide Business Continuity Exercise
+19 Mar Successful Launch Of New Electronic Funds Transfer Service, “FAST”
+10 Mar New Electronic Funds Transfer Service "FAST”, Launching In Singapore on 17 March 2014
+24 Feb Singapore Banking Industry Introduces New Electronic Funds Transfer Service, “FAST”
+18 Feb Singapore Market To Use JISDOR Benchmark
+16 Feb ABS Reiterates Its Commitment To Safeguard Consumer Interests
+2013
+22 Nov The Association Of Banks In Singapore, The Singapore Police Force And The National Crime Prevention Council Caution The Public Against Acting As Money Mules
+16 Oct Banks Remind Cardholders To Update Mailing Addresses To Ensure Timely ATM Card Replacement
+30 Jul Cardholders Required To Activate Magnetic Stripe On Credit/Debit Cards For Overseas Use
+14 Jun Singapore To Enhance Financial Benchmarks
+08 May Singapore Banks Migrate ATM Cards To Chip Technology
+16 Apr Singapore Financial Sector Welcomes Government's Move to Relieve Morning Peak Hour crowding on Trains Heading to the City Area
+28 Mar Private Banking Industry Group Launches Industry Sound Practices to Further Safeguard Singapore’s Wealth Management Sector
+2012
+15 Aug Banking Industry Launches Financial Management Toolkit to Enhance SMEs' Financial Management Capabilities
+06 Jul The Association of Banks in Singapore (ABS) responds to MAS release of results of mystery shopping survey conducted on financial advisory process of banks and insurers
+29 Jun The Association of Banks in Singapore announces implementation of enhanced security measures for payment cards and ebanking
+20 Jan The Association of Banks in Singapore Announces Measures to Enhance the Security of ATM Cash Withdrawals and Card Payment Infrastructure
+2011
+28 Sep The Association of Banks in Singapore cautions internet banking customers against new malware threat.
+15 Sep Financial Sector Successfully Conducts Third Industry-Wide Business Continuity Exercise
+13 Sep Singapore’s Financial Sector Stress Tests Response to Twin Threats of Physical and Cyber Attacks
+04 Mar Primary School Children Learn Value of Thrift Through Skits
+2010
+19 May My Money’ Seminars Return to Educate Consumers on Common Financial Products Distributed by Banks
+05 Mar Banks And Card Issuers Raise The Bar In Enhancing Payment Card Security
+2009
+04 Sep Banks Implement New Measures to Limit Credit Cardholders' Liability
+31 Jul Credit Card Liability
+07 Jul Banks Adopt New Guidelines On Sale of Investment Products
+2008
+19 Sep Advice on Structured Investments
+28 Aug Financial Sector’s Flu Pandemic Exercise To Involve Public For The First Time
+06 May Financial Industry to Conduct Large-Scale, Industry-Wide Pandemic Response Exercise
+2007
+30 Dec Media Release on Half-day Banking Operations
+11 Jun Media Release on Home Loans Guidelines
+17 Jan Singapore Banks Join Global Battle Against Child Pornography
+2006
+04 Dec The Association of Banks in Singapore Issues Code of Banking Practice for Small Businesses
+10 May Exercise Raffles: Financial industry successfully conducts large-scale industry-wide business continuity exercise
+2026
+2025
+2024
+2023
+2022
+2021
+2020
+2019
+2018
+2017
+2016
+2015
+2014
+2013
+2012
+2011
+2010
+2009
+2008
+2007
+2006

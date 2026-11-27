@@ -1,0 +1,65 @@
+{
+ "entity_id": "fairprice.com.sg",
+ "name": "NTUC FairPrice",
+ "abbr": null,
+ "aliases": [
+  "NTUC FairPrice",
+  "FairPrice",
+  "FairPrice Group",
+  "FairPrice Online",
+  "FairPrice Finest",
+  "FairPrice Xtra",
+  "FairPrice Group app"
+ ],
+ "sector": "retail",
+ "parent_entity_id": "ntucenterprise.sg",
+ "country": "SG",
+ "official_domains": [
+  "fairprice.com.sg",
+  "fairpricegroup.com.sg"
+ ],
+ "official_hosts": [
+  "www.fairprice.com.sg",
+  "help.fairprice.com.sg",
+  "promotions.fairprice.com.sg",
+  "www.gift.fairprice.com.sg",
+  "payment.fairprice.com.sg",
+  "www.fairpricegroup.com.sg",
+  "account.ntuclink.com.sg",
+  "pass.link.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://help.fairprice.com.sg/hc/en-us",
+   "kind": "scam_faq",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 403 (bot protection; not bypassed)",
+   "sample": null,
+   "notes": "FairPrice Help Centre (Zendesk) behind Cloudflare challenge; contents not seen. No scam/security page found on www.fairprice.com.sg (homepage HTML has no 'scam' mention; site search via web search returned none). FairPrice's scam warnings appear to be posted on its Facebook page (per news/search snippets; not fetched)."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": [
+   "https://www.facebook.com/thatsmyfairprice",
+   "https://www.instagram.com/fairpricesg/",
+   "https://www.youtube.com/user/NTUCFairPriceSG"
+  ],
+  "apps": [
+   "FairPrice (iOS App Store id1012365118; Google Play com.fairprice.mcomapp; Huawei AppGallery C101292929)"
+  ],
+  "emails": []
+ },
+ "evidence": [
+  "https://www.fairprice.com.sg/",
+  "https://www.fairprice.com.sg/robots.txt",
+  "https://help.fairprice.com.sg/robots.txt"
+ ],
+ "notes": "official_domains: fairprice.com.sg (b) serving domain; fairpricegroup.com.sg (b) linked from the site's own header navigation. Hosts seen in homepage HTML incl. login hosts account.ntuclink.com.sg and pass.link.sg (NTUC Link SSO) - recorded as hosts only. parent_entity_id ntucenterprise.sg: FairPrice footer links https://www.ntucenterprise.sg/contactus/vulnerability-disclosure-programme/ (NTUC Enterprise group VDP). robots.txt served from storage.googleapis.com (redirect), no Sitemap line. blocked: help.fairprice.com.sg Cloudflare challenge (403). Linkpoints/Link Rewards has a separate record link.sg. Unverified (search snippet, news/SPF): fake gift-card ads ($500 for $9, SPF advisory 2024-09-05 'phishing scams perpetuated via social media advertisements impersonating NTUC FairPrice'); lookalike sender rewards@fairpriceOn.sg (2025 survey scam); fake 'FairPrice Group' APK apps (SPF 2023-10-06); FairPrice spokesperson: promotions only on www.fairprice.com.sg, Facebook 'NTUC FairPrice', Instagram @fairpricesg."
+}

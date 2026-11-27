@@ -1,0 +1,100 @@
+{
+ "entity_id": "spgroup.com.sg",
+ "name": "SP Group (Singapore Power)",
+ "abbr": "SP",
+ "aliases": [
+  "SP Group",
+  "Singapore Power",
+  "SP Services",
+  "SP Utilities",
+  "SP app",
+  "SP Utilities Portal",
+  "SP Mobility"
+ ],
+ "sector": "utility",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "spgroup.com.sg",
+  "spservices.sg",
+  "spdigital.sg",
+  "spmobility.sg",
+  "spgroup-asia.com",
+  "singaporepower.com.sg"
+ ],
+ "official_hosts": [
+  "www.spgroup.com.sg",
+  "services.spservices.sg",
+  "chat.spservices.sg",
+  "ebiz.spgroup.com.sg",
+  "openaccount.spgroup.com.sg",
+  "closeaccount.spgroup.com.sg",
+  "trackyouraccount.spgroup.com.sg",
+  "rescheduleaccount.spgroup.com.sg",
+  "contractorportal.spgroup.com.sg",
+  "srm.spgroup.com.sg",
+  "www.spdigital.sg",
+  "www.spmobility.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.spgroup.com.sg/about-us/media-resources/news-and-media-releases/Advisory-On-Fake-Emails",
+   "kind": "alert_page",
+   "lists_indicators": [
+    "email"
+   ],
+   "access": "html",
+   "machine_url": "https://www.spgroup.com.sg/sitemap.xml",
+   "item_count": null,
+   "latest_item_date": "2016-08-31",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Notice that while the sender address states < ebillsummary@singaporepower.com.sg >, the actual sender is <tonylow@sanlaksa.com.sg>.",
+   "notes": "Old (2016) fake e-bill email advisory. Indicators: displayed (spoofed) sender ebillsummary@singaporepower.com.sg = genuine SP Services address being spoofed; actual sender tonylow@sanlaksa.com.sg (fake/compromised). 'The official SP Services bill summary sent by email does NOT contain any attachment.'"
+  },
+  {
+   "url": "https://www.spgroup.com.sg/about-us/media-resources/news-and-media-releases/Recruitment-Scam",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": "https://www.spgroup.com.sg/sitemap.xml",
+   "item_count": null,
+   "latest_item_date": "2018-08-24",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "SP Group has been alerted to cases of fraudulent recruiters claiming to be our Human Resource officers.",
+   "notes": "Narrative only."
+  },
+  {
+   "url": "https://www.spgroup.com.sg/sitemap.xml",
+   "kind": "news_releases",
+   "lists_indicators": [],
+   "access": "sitemap",
+   "machine_url": "https://www.spgroup.com.sg/sitemap.xml",
+   "item_count": 84,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "https://www.spgroup.com.sg/about-us/media-resources/news-and-media-releases/Advisory-On-Fake-Emails",
+   "notes": "Sitemap (90 URLs) lists 84 news-and-media-releases pages; the advisories above are the only scam ones found. The Nov 2024 SP Group phishing wave (fake double-charge/refund emails) appears on SPF/news/Facebook per web search - unverified (search snippet) - not as a page on spgroup.com.sg."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": [
+   "https://www.facebook.com/SPGroupSG",
+   "https://www.instagram.com/spgroup.sg",
+   "https://www.linkedin.com/company/singapore-power-ltd",
+   "https://www.youtube.com/c/SPGroupSG"
+  ],
+  "apps": [],
+  "emails": [
+   "ebillsummary@singaporepower.com.sg (genuine SP Services e-bill sender, as stated in 2016 advisory)"
+  ]
+ },
+ "evidence": [
+  "https://www.spgroup.com.sg/",
+  "https://www.spgroup.com.sg/about-us/media-resources/news-and-media-releases/Advisory-On-Fake-Emails",
+  "https://www.spgroup.com.sg/sitemap.xml"
+ ],
+ "notes": "Next.js site. official_domains: spgroup.com.sg (b: serves site + portal subdomains); spservices.sg (b: SP Utilities Portal services.spservices.sg and chat linked in header); spdigital.sg, spmobility.sg, spgroup-asia.com (b: group links); singaporepower.com.sg (a: ebillsummary@singaporepower.com.sg described as the genuine SP Services sender address, 2016). No current scam advisory list, no SMS sender ID or hotline on pages read; '/fraud-whistleblowing' is an internal-fraud whistleblowing page. SPF brand tag 'SP Group' (sample scam domain samgirasg.com in SPF data)."
+}

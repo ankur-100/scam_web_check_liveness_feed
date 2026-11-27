@@ -1,0 +1,84 @@
+{
+ "entity_id": "mlaw.gov.sg",
+ "name": "Ministry of Law",
+ "abbr": "MinLaw",
+ "aliases": [
+  "Ministry of Law (MinLaw)",
+  "MINLAW"
+ ],
+ "sector": "gov.ministry",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "mlaw.gov.sg"
+ ],
+ "official_hosts": [
+  "www.mlaw.gov.sg",
+  "rom.mlaw.gov.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.mlaw.gov.sg/advisory-on-government-officials-impersonation-scams/",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2026-04-23",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Since February 2026, at least 98 cases have been reported, with total losses amounting to at least $8.5 million.",
+   "notes": "Joint MinLaw-SPF GOIS advisory: fake telco/bank staff hand victims on to fake MinLaw officials (\"safety accounts\", valuables handover). Narrative only."
+  },
+  {
+   "url": "https://www.mlaw.gov.sg/advisory-on-scammers-impersonating-officers-from-the-ministry-of-law/",
+   "kind": "alert_page",
+   "lists_indicators": [
+    "entity_name"
+   ],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2025-09-04",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "including from a caller falsely identifying himself as a Ministry of Law officer by the name of “Jason Lam” or “Lam Teck Yong, Jason”. There is no such officer in MinLaw.",
+   "notes": "Names a fictitious officer persona (an entity_name indicator) and describes doctored MinLaw staff passes sent via WhatsApp."
+  },
+  {
+   "url": "https://www.mlaw.gov.sg/news/announcements/scam-alert-unsolicited-phone-calls-impersonating-minlaw-officers/",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2020-07-28",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "28 Jul 2020 Posted in Announcements The Ministry of Law (“ MinLaw ”) has been alerted to cases where members of the public have received unsolicited phone calls from scammers impersonating MinLaw officers. The scammers w",
+   "notes": "Older items found by sitemap slug only: /news/announcements/alert--suspicious-emails-received-by-law-firms/ (2017-03-06), /news/announcements/sms-alert-on-monthly-instalment-arrears/ (2014), and PQ /news/parliamentary-speeches/written-answer-parliamentary-question-on-scammers-targeting-law-firms-and-impersonating-lawyers/ (2019-07-08)."
+  },
+  {
+   "url": "https://www.mlaw.gov.sg/",
+   "kind": "news_releases",
+   "lists_indicators": [],
+   "access": "atom",
+   "machine_url": "https://www.mlaw.gov.sg/feed.xml",
+   "item_count": 10,
+   "latest_item_date": "2026-11-24",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "2026-11-04 | Oral Answer by Senior Minister of State Murali Pillai on Shell Companies and Rental Liabilities",
+   "notes": "Atom feed via rel=alternate (Isomer/Jekyll), last 10 posts only. Sitemap https://www.mlaw.gov.sg/sitemap.xml (2,983 URLs, lastmod) has 22 keyword slugs."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [
+   "gov.sg"
+  ],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": []
+ },
+ "evidence": [
+  "https://www.sgdi.gov.sg/ministries/minlaw",
+  "https://www.mlaw.gov.sg/sitemap.xml"
+ ],
+ "notes": "MinLaw officials are a 2026 GOIS persona (98+ cases since Feb 2026). Sub-sites: rom.mlaw.gov.sg (Registry of Moneylenders, separate record). Statutory boards IPOS and SLA (SGDI); SAL (sal.org.sg) is a committee."
+}

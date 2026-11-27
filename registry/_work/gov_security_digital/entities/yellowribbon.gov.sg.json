@@ -1,0 +1,31 @@
+{
+ "entity_id": "yellowribbon.gov.sg",
+ "name": "Yellow Ribbon Singapore",
+ "abbr": "YRSG",
+ "aliases": [
+  "Yellow Ribbon Singapore (YRSG)"
+ ],
+ "sector": "gov.statboard",
+ "parent_entity_id": "mha.gov.sg",
+ "country": "SG",
+ "official_domains": [
+  "yellowribbon.gov.sg"
+ ],
+ "official_hosts": [
+  "www.yellowribbon.gov.sg"
+ ],
+ "scam_info": [],
+ "official_channels": {
+  "sms_sender_ids": [
+   "gov.sg"
+  ],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": []
+ },
+ "evidence": [
+  "https://www.sgdi.gov.sg/ministries/mha/statutory-boards/yrsg",
+  "https://www.yellowribbon.gov.sg/sitemap.xml"
+ ],
+ "notes": "Tier 2. The sitemap (53 URLs, no robots declaration) has no scam keywords. No scam pages."
+}

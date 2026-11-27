@@ -1,0 +1,12 @@
+User-agent: *
+
+
+Disallow: /track*
+Disallow: /m/track*
+Disallow: /downloads
+Disallow: /*txt
+Disallow: /*js
+Disallow: /*svg
+Disallow: /*?previousPage=other*
+
+Sitemap: https://spx.sg/sitemap/index.xml

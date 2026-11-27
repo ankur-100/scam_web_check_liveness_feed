@@ -1,0 +1,59 @@
+{
+ "entity_id": "ipos.gov.sg",
+ "name": "Intellectual Property Office of Singapore",
+ "abbr": "IPOS",
+ "aliases": [
+  "Intellectual Property Office of Singapore (IPOS)"
+ ],
+ "sector": "gov.statboard",
+ "parent_entity_id": "mlaw.gov.sg",
+ "country": "SG",
+ "official_domains": [
+  "ipos.gov.sg"
+ ],
+ "official_hosts": [
+  "www.ipos.gov.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.ipos.gov.sg/news/news-collection/scam-alert-public-advisory-on-scammers-2024/",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2024-06-03",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Some members of the public have received emails from persons purporting to be from IPOS, informing them of IP infringement with dubious file links, and asking for urgent action.",
+   "notes": "Earlier version 7 Apr 2022 at /news/news-collection/-scam-alert--public-advisory-on-scammers-impersonating-ipos-staff/ (phone/SMS/email impersonation)."
+  },
+  {
+   "url": "https://www.ipos.gov.sg/manage-ip/unsolicited-ip-services/",
+   "kind": "scam_faq",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2025-03-25",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "These companies are private commercial entities. They are not affiliated with the Intellectual Property Office of Singapore (IPOS) or the World Intellectual Property Organization",
+   "notes": "Unsolicited IP registration/renewal invoices (trademark-invoice scam). No company names in the page text."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [
+   "gov.sg"
+  ],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": [],
+  "emails": [
+   "ipos_enquiry@ipos.gov.sg"
+  ]
+ },
+ "evidence": [
+  "https://www.sgdi.gov.sg/ministries/minlaw/statutory-boards/ipos",
+  "https://www.ipos.gov.sg/sitemap.xml"
+ ],
+ "notes": "Sitemap 832 URLs; 3 scam items. Narrative only."
+}

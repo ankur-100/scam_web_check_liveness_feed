@@ -1,0 +1,85 @@
+{
+ "entity_id": "csa.gov.sg",
+ "name": "Cyber Security Agency of Singapore",
+ "abbr": "CSA",
+ "aliases": [
+  "Cyber Security Agency of Singapore (CSA)",
+  "SingCERT",
+  "Singapore Computer Emergency Response Team"
+ ],
+ "sector": "gov.dept",
+ "parent_entity_id": "mddi.gov.sg",
+ "country": "SG",
+ "official_domains": [
+  "csa.gov.sg"
+ ],
+ "official_hosts": [
+  "www.csa.gov.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.csa.gov.sg/alerts-and-advisories/advisories/",
+   "kind": "advisory_feed",
+   "lists_indicators": [],
+   "access": "rss",
+   "machine_url": "https://www.csa.gov.sg/alerts-and-advisories/advisories/rss.xml",
+   "item_count": 117,
+   "latest_item_date": "2026-11-13",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Fri, 14 Aug 2026 | SPF-CSA Joint Advisory On Cryptocurrency Scams Involving Fake Job Offers And Compromised Software Systems | /advisories/ad-2026-010",
+   "notes": "RSS 2.0 via rel=alternate (title, link, guid, pubDate, category, description). 117 items (10 Jan 2020 to 13 Nov 2026); 22 mention scam/fraud/phish/impersonat/fake. HTML pages are stubs; the content is a linked PDF on isomer-user-content.by.gov.sg. The PDFs sometimes carry indicators: AD-2025-010 (2 May 2025, fake YouTube channel) Annex A names the fake channel \"https://www.youtube.com/@tradingviewnow\" vs genuine @tradingview. AD-2026-010 mentions a spoofed look-alike domain but does not name it."
+  },
+  {
+   "url": "https://www.csa.gov.sg/alerts-and-advisories/alerts/",
+   "kind": "advisory_feed",
+   "lists_indicators": [],
+   "access": "rss",
+   "machine_url": "https://www.csa.gov.sg/alerts-and-advisories/alerts/rss.xml",
+   "item_count": 200,
+   "latest_item_date": "2026-11-26",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "The Singapore Cyber Emergency Response Team (SingCERT) is aware of scammers impersonating officers from the Cyber Security Agency of Singapore (CSA), the Singapore Police Force (SPF) and the Ministry of Home Affairs (MHA).",
+   "notes": "RSS: 200 items (23 Sep 2025 to 26 Nov 2026). Mostly vulnerability alerts; 1 scam item: AL-2025-123 \"Scammers Impersonating CSA, the SPF, and the MHA\" (27 Dec 2025, fake \"criminal investigation notice\"; sample taken from it). Rolling window."
+  },
+  {
+   "url": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2025-123/",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2025-12-27",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "These scammers issue a fake criminal investigation notice to deceive members of public that they are involved in a cyber-infiltration operation and data seizure.",
+   "notes": "CSA self-impersonation alert. Narrative only."
+  },
+  {
+   "url": "https://www.csa.gov.sg/singcert/reporting",
+   "kind": "report_portal",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "or via the incident reporting form at https://www.csa.gov.sg/singcert/reporting.",
+   "notes": "SingCERT incident reporting (cited in AD-2025-010). It now redirects to go.gov.sg/csa-cyber-aid; the final page title is \"Go.gov.sg\" (fetched 2026-11-26)."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [
+   "gov.sg"
+  ],
+  "hotlines": [],
+  "short_link_domains": [
+   "go.gov.sg"
+  ],
+  "social": []
+ },
+ "evidence": [
+  "https://www.sgdi.gov.sg/ministries/mddi/departments/csa",
+  "https://www.csa.gov.sg/sitemap.xml",
+  "https://www.sms.gov.sg/check"
+ ],
+ "notes": "Cleanest feed format in the partition (2 RSS feeds), but low on IOCs. Sitemap https://www.csa.gov.sg/sitemap.xml (2,762 URLs with lastmod; most URLs match \"alert|advisor|cyber\" by path, so keyword counts are not meaningful). robots allows all except /search. SGDI lists CSA under MDDI with no website field."
+}

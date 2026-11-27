@@ -1,0 +1,12 @@
+{
+ "host": "www.parliament.gov.sg",
+ "robots": "User-agent: *\nDisallow: https://www.parliament.gov.sg/api/media/5af21a55-65be-4997-ba87-cf310a6530f7/cmd-10of2021.pdf\nDisallow: https://www.parliament.gov.sg/api/media/c36823db-cb5f-64e2-b198-ff00006af031/library-guide---digital-copy_as-at-23-oct-11.pdf\nDisallow: https://www.parliament.gov.sg/api/media/09c8a7a1-2c23-40f3-8c24-35bbc202ecb9/papersforpresentationupload.xlsx\nDisallow: https://www.parliament.gov.sg/api/media/6b21c145-76de-4c00-81b2-83a6866eeb68/papersforpresentationerror.xlsx",
+ "robots_status": 200,
+ "sitemaps_declared": [],
+ "sitemaps_fetched": [
+  "https://www.parliament.gov.sg/sitemap.xml[200:74]"
+ ],
+ "n_urls": 74,
+ "hits": [],
+ "newest_lastmod": "2026-11-06T02:05:50.376Z"
+}

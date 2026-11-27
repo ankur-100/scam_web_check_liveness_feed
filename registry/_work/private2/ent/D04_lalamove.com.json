@@ -1,0 +1,62 @@
+{
+ "entity_id": "lalamove.com",
+ "name": "Lalamove Singapore",
+ "abbr": null,
+ "aliases": [
+  "Lalamove",
+  "Lalamove SG",
+  "Lalamove Singapore",
+  "EasyVan"
+ ],
+ "sector": "logistics",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "lalamove.com",
+  "lalamove.eu",
+  "lalamove.co.uk",
+  "lalamove.us"
+ ],
+ "official_hosts": [
+  "www.lalamove.com",
+  "lalamove.onelink.me",
+  "lalamove-driver.onelink.me"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.lalamove.com/en-sg/2023-rising-phishing-scams",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2023",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "The Lalamove team has recently received reports of phishing emails sent to our customers in Singapore. ... we will never provide any external links for payment purposes",
+   "notes": "Single SG alert ('Beware of rising email phishing scams'); year only from URL slug (2023); not listed in the 13 MB sitemap.xml (found via SG homepage link). Narrative only; reporting via in-app live chat. Other markets have separate anti-fraud posts (e.g. /zh-tw/blog/anti-fraud-reminder, lastmod 2024-11-19; not SG)."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": [
+   "https://facebook.com/LalamoveSG/",
+   "https://www.instagram.com/lalamovesg/",
+   "https://www.youtube.com/channel/UC2YVWH9ZQC1weHk6iV1Yp1Q",
+   "https://sg.linkedin.com/showcase/lalamove-singapore",
+   "https://www.linkedin.com/company/lalamove/"
+  ],
+  "apps": [
+   "Lalamove - Fast Delivery App (iOS App Store id735701965; Google Play hk.easyvan.app.client)"
+  ],
+  "emails": []
+ },
+ "evidence": [
+  "https://www.lalamove.com/en-sg/",
+  "https://www.lalamove.com/en-sg/2023-rising-phishing-scams",
+  "https://www.lalamove.com/robots.txt",
+  "https://www.lalamove.com/sitemap.xml"
+ ],
+ "notes": "SG pages under lalamove.com/en-sg/. official_domains: lalamove.com (b) serving domain; lalamove.eu, lalamove.co.uk, lalamove.us (b) linked from the official site's location selector ('You are switching to lalamove.eu. This website is operated by ...'). NB: SPF-listed scam domain 'lalamove.eu.cc' is a different domain from lalamove.eu - never visited. Hosts: lalamove.onelink.me / lalamove-driver.onelink.me (AppsFlyer app-download links from homepage; onelink.me is AppsFlyer's domain, FQDN only). No sender ID, hotline or fake indicators published. Sitemap: 6,642 URLs (HubSpot), no SG scam pages besides the above."
+}

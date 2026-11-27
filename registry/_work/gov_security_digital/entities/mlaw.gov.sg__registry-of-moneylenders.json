@@ -1,0 +1,74 @@
+{
+ "entity_id": "mlaw.gov.sg#registry-of-moneylenders",
+ "name": "Registry of Moneylenders (Ministry of Law)",
+ "abbr": "ROM",
+ "aliases": [
+  "Registry of Moneylenders",
+  "Moneylenders Credit Bureau (MLCB)"
+ ],
+ "sector": "gov.dept",
+ "parent_entity_id": "mlaw.gov.sg",
+ "country": "SG",
+ "official_domains": [
+  "mlaw.gov.sg"
+ ],
+ "official_hosts": [
+  "rom.mlaw.gov.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://rom.mlaw.gov.sg/information-for-borrowers/list-of-licensed-moneylenders-in-singapore/",
+   "kind": "official_channels",
+   "lists_indicators": [
+    "entity_name",
+    "url"
+   ],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2026-11-06",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Before visiting a licensed moneylender’s website, you are also strongly encouraged to verify the physical and website address using only the list of licensed moneylenders found below.",
+   "notes": "Allowlist against loan scams. The list itself is a PDF reached via https://go.gov.sg/mlaw-rom-list-licensed-moneylenders (half-yearly \"as at\" snapshots per survey; the short link resolves client-side). The page warns of scammers mimicking licensed moneylenders with look-alike website addresses, SMS/WhatsApp solicitation and \"GST/processing fee\" requests. Licensed moneylenders may not solicit by SMS, calls or social media. Sibling: /information-for-borrowers/list of exempt moneylenders/."
+  },
+  {
+   "url": "https://rom.mlaw.gov.sg/advisory-on-scam-calls-impersonating-as-officers-from-the-ministry-of-law-cbs-or-the-mlcb/",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2026-11-06",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "The Ministry of Law (“ MinLaw ”) has been alerted to scam calls received by members of the public from callers claiming to be from MinLaw officer, or to be an employee of either Credit Bureau (Singapore) Pte Ltd (“ CBS ”) or the Moneylenders Credit Bureau (“ MLCB ”).",
+   "notes": "Undated page; the date given is the sitemap lastmod. The ROM site also hosts the advisory PDFs /files/Advisory-English-Malay.pdf and /files/Advisory-Chinese-Tamil.pdf (sitemap)."
+  },
+  {
+   "url": "https://rom.mlaw.gov.sg/information-for-moneylenders/reports-of-government-official-impersonation-scam-gois/",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2026-11-06",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Since early March 2025, the police have received several reports of Government Official Impersonation Scam (GOIS) featuring the impersonation of banks and government officials.",
+   "notes": "Notice to licensees: GOIS victims sent to moneylenders to take loans for handover. Narrative only."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [
+   "1800-255-0000 (Police hotline, for unlicensed moneylending)"
+  ],
+  "short_link_domains": [
+   "go.gov.sg"
+  ],
+  "social": []
+ },
+ "evidence": [
+  "https://rom.mlaw.gov.sg/sitemap.xml",
+  "https://rom.mlaw.gov.sg/information-for-borrowers/list-of-licensed-moneylenders-in-singapore/"
+ ],
+ "notes": "Programme record under MinLaw (host rom.mlaw.gov.sg). Atom feed https://rom.mlaw.gov.sg/feed.xml returned 0 entries (2026-11-26). Sitemap: 116 URLs, lastmod (bulk 2026-11-06)."
+}

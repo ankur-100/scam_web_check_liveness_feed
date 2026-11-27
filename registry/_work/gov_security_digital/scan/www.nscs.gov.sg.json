@@ -1,0 +1,14 @@
+{
+ "host": "www.nscs.gov.sg",
+ "robots": "User-Agent: *\nAllow: /\nDisallow: /search\n\nSitemap: https://www.nscs.gov.sg/sitemap.xml\n",
+ "robots_status": 200,
+ "sitemaps_declared": [
+  "https://www.nscs.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  "https://www.nscs.gov.sg/sitemap.xml[200:9]"
+ ],
+ "n_urls": 9,
+ "hits": [],
+ "newest_lastmod": "2026-09-25T09:56:21.491Z"
+}

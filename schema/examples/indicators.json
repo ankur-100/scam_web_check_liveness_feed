@@ -1,0 +1,982 @@
+[
+ {
+  "record_type": "indicator",
+  "indicator_id": "ind_29c0928d3a51e6a0",
+  "type": "domain",
+  "value": "drbypass-proxy.pages.dev",
+  "value_defanged": "drbypass-proxy[.]pages[.]dev",
+  "values_raw": [
+   "drbypass-proxy.pages.dev"
+  ],
+  "host": {
+   "hostname": "drbypass-proxy.pages.dev",
+   "registrable_domain": "drbypass-proxy.pages.dev",
+   "tld": "dev",
+   "is_shared_platform": true,
+   "is_compromised_legit": null,
+   "block_scope": "hostname",
+   "idn_unicode": null
+  },
+  "sg_signals": {
+   "sg_tld": false,
+   "brand_tokens": [],
+   "service_tokens": [],
+   "path_tokens": [],
+   "sg_native_source": true,
+   "score": 0.6
+  },
+  "impersonated_entity_ids": [
+   "police.gov.sg"
+  ],
+  "fictitious_brand_ids": [],
+  "lookalike_of": [],
+  "categories": [
+   "impersonation.government"
+  ],
+  "issuer_entity_ids": [
+   "police.gov.sg"
+  ],
+  "report_ids": [
+   "spf-icanact:b633b3b7-f3f5-4e06-b96c-05f0ce86c9ed"
+  ],
+  "source_ids": [
+   "spf-icanact"
+  ],
+  "n_sightings": 1,
+  "liveness": {
+   "state": "unknown",
+   "state_since": "2026-11-26T03:42:10Z",
+   "last_checked_at": "2026-11-26T03:42:10Z",
+   "last_live_at": null,
+   "consecutive_failures": 1,
+   "last_check_id": "chk_d2cf9773155c4270",
+   "registration_expires_at": null,
+   "registry_status": []
+  },
+  "revoked": false,
+  "tlp": "TLP:CLEAR",
+  "created_at": "2026-11-26T03:42:10Z",
+  "updated_at": "2026-11-26T03:42:10Z",
+  "version": 1,
+  "first_seen": "2026-11-24T02:23:28.255Z",
+  "last_seen": "2026-11-24T02:28:09.810Z",
+  "confidence": 90,
+  "valid_from": "2026-11-24T02:23:28.255Z",
+  "valid_until": "2027-02-22T02:28:09.810000Z",
+  "status": "unverified",
+  "status_reason": "not yet checked / inconclusive"
+ },
+ {
+  "record_type": "indicator",
+  "indicator_id": "ind_7e35d65d1a18205b",
+  "type": "domain",
+  "value": "feevr.top",
+  "value_defanged": "feevr[.]top",
+  "values_raw": [
+   "feevr.top"
+  ],
+  "host": {
+   "hostname": "feevr.top",
+   "registrable_domain": "feevr.top",
+   "tld": "top",
+   "is_shared_platform": false,
+   "is_compromised_legit": null,
+   "block_scope": "registrable_domain",
+   "idn_unicode": null
+  },
+  "sg_signals": {
+   "sg_tld": false,
+   "brand_tokens": [],
+   "service_tokens": [],
+   "path_tokens": [],
+   "sg_native_source": true,
+   "score": 0.6
+  },
+  "impersonated_entity_ids": [
+   "lta.gov.sg"
+  ],
+  "fictitious_brand_ids": [],
+  "lookalike_of": [],
+  "categories": [
+   "phishing.non_banking"
+  ],
+  "issuer_entity_ids": [
+   "police.gov.sg"
+  ],
+  "report_ids": [
+   "spf-icanact:97b86ce3-c986-4962-82bc-2e5ee2dce447"
+  ],
+  "source_ids": [
+   "spf-icanact"
+  ],
+  "n_sightings": 1,
+  "liveness": {
+   "state": "dead",
+   "state_since": "2026-11-26T03:42:10Z",
+   "last_checked_at": "2026-11-26T03:42:10Z",
+   "last_live_at": null,
+   "consecutive_failures": 1,
+   "last_check_id": "chk_d15531b5f98e48e8",
+   "registration_expires_at": "2027-07-01T04:34:59Z",
+   "registry_status": [
+    "client transfer prohibited",
+    "client hold",
+    "client update prohibited"
+   ]
+  },
+  "revoked": false,
+  "tlp": "TLP:CLEAR",
+  "created_at": "2026-11-26T03:42:10Z",
+  "updated_at": "2026-11-26T03:42:10Z",
+  "version": 1,
+  "first_seen": "2026-07-06T01:30:32.790Z",
+  "last_seen": "2026-07-06T01:30:35.487Z",
+  "confidence": 90,
+  "valid_from": "2026-07-06T01:30:32.790Z",
+  "valid_until": "2026-10-04T01:30:35.487000Z",
+  "status": "inactive",
+  "status_reason": "registrar hold (takedown)"
+ },
+ {
+  "record_type": "indicator",
+  "indicator_id": "ind_5c5c3891afa205ee",
+  "type": "domain",
+  "value": "feekt.top",
+  "value_defanged": "feekt[.]top",
+  "values_raw": [
+   "feekt.top"
+  ],
+  "host": {
+   "hostname": "feekt.top",
+   "registrable_domain": "feekt.top",
+   "tld": "top",
+   "is_shared_platform": false,
+   "is_compromised_legit": null,
+   "block_scope": "registrable_domain",
+   "idn_unicode": null
+  },
+  "sg_signals": {
+   "sg_tld": false,
+   "brand_tokens": [],
+   "service_tokens": [],
+   "path_tokens": [],
+   "sg_native_source": true,
+   "score": 0.6
+  },
+  "impersonated_entity_ids": [
+   "lta.gov.sg"
+  ],
+  "fictitious_brand_ids": [],
+  "lookalike_of": [],
+  "categories": [
+   "phishing.non_banking"
+  ],
+  "issuer_entity_ids": [
+   "police.gov.sg"
+  ],
+  "report_ids": [
+   "spf-icanact:97b86ce3-c986-4962-82bc-2e5ee2dce447"
+  ],
+  "source_ids": [
+   "spf-icanact"
+  ],
+  "n_sightings": 1,
+  "liveness": {
+   "state": "dead",
+   "state_since": "2026-11-26T03:42:10Z",
+   "last_checked_at": "2026-11-26T03:42:10Z",
+   "last_live_at": null,
+   "consecutive_failures": 1,
+   "last_check_id": "chk_0a01f425785b1653",
+   "registration_expires_at": "2027-06-30T06:53:53Z",
+   "registry_status": [
+    "client transfer prohibited",
+    "client hold",
+    "client update prohibited"
+   ]
+  },
+  "revoked": false,
+  "tlp": "TLP:CLEAR",
+  "created_at": "2026-11-26T03:42:10Z",
+  "updated_at": "2026-11-26T03:42:10Z",
+  "version": 1,
+  "first_seen": "2026-07-06T01:30:32.790Z",
+  "last_seen": "2026-07-06T01:30:35.487Z",
+  "confidence": 90,
+  "valid_from": "2026-07-06T01:30:32.790Z",
+  "valid_until": "2026-10-04T01:30:35.487000Z",
+  "status": "inactive",
+  "status_reason": "registrar hold (takedown)"
+ },
+ {
+  "record_type": "indicator",
+  "indicator_id": "ind_34405593f2ff4fc5",
+  "type": "hostname",
+  "value": "iras.nakadaniko.com.sg",
+  "value_defanged": "iras[.]nakadaniko[.]com[.]sg",
+  "values_raw": [
+   "iras.nakadaniko.com.sg"
+  ],
+  "host": {
+   "hostname": "iras.nakadaniko.com.sg",
+   "registrable_domain": "nakadaniko.com.sg",
+   "tld": "sg",
+   "is_shared_platform": false,
+   "is_compromised_legit": true,
+   "block_scope": "hostname",
+   "idn_unicode": null
+  },
+  "sg_signals": {
+   "sg_tld": true,
+   "brand_tokens": [
+    "iras+sgctx"
+   ],
+   "service_tokens": [],
+   "path_tokens": [],
+   "sg_native_source": true,
+   "score": 1.0
+  },
+  "impersonated_entity_ids": [
+   "iras.gov.sg"
+  ],
+  "fictitious_brand_ids": [],
+  "lookalike_of": [
+   {
+    "entity_id": "iras.gov.sg",
+    "official_domain": "iras.gov.sg",
+    "method": "subdomain_abuse",
+    "score": 0.8
+   }
+  ],
+  "categories": [
+   "phishing.non_banking"
+  ],
+  "issuer_entity_ids": [
+   "police.gov.sg"
+  ],
+  "report_ids": [
+   "spf-icanact:0be0ee02-a712-40e4-823e-ddc5b89667f2"
+  ],
+  "source_ids": [
+   "spf-icanact"
+  ],
+  "n_sightings": 1,
+  "liveness": {
+   "state": "unknown",
+   "state_since": null,
+   "last_checked_at": null,
+   "last_live_at": null,
+   "consecutive_failures": 0,
+   "last_check_id": null,
+   "registration_expires_at": null,
+   "registry_status": []
+  },
+  "revoked": false,
+  "tlp": "TLP:CLEAR",
+  "created_at": "2026-11-26T03:42:10Z",
+  "updated_at": "2026-11-26T03:42:10Z",
+  "version": 1,
+  "first_seen": "2026-04-21T02:05:35.642Z",
+  "last_seen": "2026-04-21T02:05:38.143Z",
+  "confidence": 90,
+  "valid_from": "2026-04-21T02:05:35.642Z",
+  "valid_until": "2026-07-20T02:05:38.143000Z",
+  "status": "expired",
+  "status_reason": "no activity evidence within TTL"
+ },
+ {
+  "record_type": "indicator",
+  "indicator_id": "ind_0aca4f79fbcddb18",
+  "type": "entity_name",
+  "value": "handsworth advisory pte ltd",
+  "value_defanged": "handsworth advisory pte ltd",
+  "values_raw": [
+   "Handsworth Advisory Pte Ltd"
+  ],
+  "host": null,
+  "sg_signals": {
+   "sg_tld": false,
+   "brand_tokens": [],
+   "service_tokens": [],
+   "path_tokens": [],
+   "sg_native_source": true,
+   "score": 0.6
+  },
+  "impersonated_entity_ids": [],
+  "fictitious_brand_ids": [],
+  "lookalike_of": [],
+  "categories": [
+   "unlicensed_financial"
+  ],
+  "issuer_entity_ids": [
+   "mas.gov.sg"
+  ],
+  "report_ids": [
+   "mas-ial-opensanctions:6017"
+  ],
+  "source_ids": [
+   "mas-ial-opensanctions"
+  ],
+  "n_sightings": 1,
+  "liveness": {
+   "state": "not_applicable",
+   "state_since": null,
+   "last_checked_at": null,
+   "last_live_at": null,
+   "consecutive_failures": 0,
+   "last_check_id": null,
+   "registration_expires_at": null,
+   "registry_status": []
+  },
+  "revoked": false,
+  "tlp": "TLP:CLEAR",
+  "created_at": "2026-11-26T03:42:10Z",
+  "updated_at": "2026-11-26T03:42:10Z",
+  "version": 1,
+  "first_seen": "2026-11-02T00:00:00Z",
+  "last_seen": "2026-11-02T16:59:58.695Z",
+  "confidence": 90,
+  "valid_from": "2026-11-02T00:00:00Z",
+  "valid_until": "2027-11-02T16:59:58.695000Z",
+  "status": "active",
+  "status_reason": "uncheckable type; TTL from last sighting"
+ },
+ {
+  "record_type": "indicator",
+  "indicator_id": "ind_688b98112333feba",
+  "type": "domain",
+  "value": "handsworthadvisory.com",
+  "value_defanged": "handsworthadvisory[.]com",
+  "values_raw": [
+   "https://handsworthadvisory.com/"
+  ],
+  "host": {
+   "hostname": "handsworthadvisory.com",
+   "registrable_domain": "handsworthadvisory.com",
+   "tld": "com",
+   "is_shared_platform": false,
+   "is_compromised_legit": null,
+   "block_scope": "registrable_domain",
+   "idn_unicode": null
+  },
+  "sg_signals": {
+   "sg_tld": false,
+   "brand_tokens": [],
+   "service_tokens": [],
+   "path_tokens": [],
+   "sg_native_source": true,
+   "score": 0.6
+  },
+  "impersonated_entity_ids": [],
+  "fictitious_brand_ids": [],
+  "lookalike_of": [],
+  "categories": [
+   "unlicensed_financial"
+  ],
+  "issuer_entity_ids": [
+   "mas.gov.sg"
+  ],
+  "report_ids": [
+   "mas-ial-opensanctions:6017"
+  ],
+  "source_ids": [
+   "mas-ial-opensanctions"
+  ],
+  "n_sightings": 1,
+  "liveness": {
+   "state": "unknown",
+   "state_since": null,
+   "last_checked_at": null,
+   "last_live_at": null,
+   "consecutive_failures": 0,
+   "last_check_id": null,
+   "registration_expires_at": null,
+   "registry_status": []
+  },
+  "revoked": false,
+  "tlp": "TLP:CLEAR",
+  "created_at": "2026-11-26T03:42:10Z",
+  "updated_at": "2026-11-26T03:42:10Z",
+  "version": 1,
+  "first_seen": "2026-11-02T00:00:00Z",
+  "last_seen": "2026-11-02T16:59:58.695Z",
+  "confidence": 90,
+  "valid_from": "2026-11-02T00:00:00Z",
+  "valid_until": "2027-01-31T16:59:58.695000Z",
+  "status": "unverified",
+  "status_reason": "not yet checked / inconclusive"
+ },
+ {
+  "record_type": "indicator",
+  "indicator_id": "ind_f5857c50337c52c1",
+  "type": "domain",
+  "value": "vaulterro.com",
+  "value_defanged": "vaulterro[.]com",
+  "values_raw": [
+   "https://vaulterro.com/"
+  ],
+  "host": {
+   "hostname": "vaulterro.com",
+   "registrable_domain": "vaulterro.com",
+   "tld": "com",
+   "is_shared_platform": false,
+   "is_compromised_legit": null,
+   "block_scope": "registrable_domain",
+   "idn_unicode": null
+  },
+  "sg_signals": {
+   "sg_tld": false,
+   "brand_tokens": [],
+   "service_tokens": [],
+   "path_tokens": [],
+   "sg_native_source": true,
+   "score": 0.6
+  },
+  "impersonated_entity_ids": [],
+  "fictitious_brand_ids": [],
+  "lookalike_of": [],
+  "categories": [
+   "unlicensed_financial"
+  ],
+  "issuer_entity_ids": [
+   "mas.gov.sg"
+  ],
+  "report_ids": [
+   "mas-ial-opensanctions:6017"
+  ],
+  "source_ids": [
+   "mas-ial-opensanctions"
+  ],
+  "n_sightings": 1,
+  "liveness": {
+   "state": "unknown",
+   "state_since": null,
+   "last_checked_at": null,
+   "last_live_at": null,
+   "consecutive_failures": 0,
+   "last_check_id": null,
+   "registration_expires_at": null,
+   "registry_status": []
+  },
+  "revoked": false,
+  "tlp": "TLP:CLEAR",
+  "created_at": "2026-11-26T03:42:10Z",
+  "updated_at": "2026-11-26T03:42:10Z",
+  "version": 1,
+  "first_seen": "2026-11-02T00:00:00Z",
+  "last_seen": "2026-11-02T16:59:58.695Z",
+  "confidence": 90,
+  "valid_from": "2026-11-02T00:00:00Z",
+  "valid_until": "2027-01-31T16:59:58.695000Z",
+  "status": "unverified",
+  "status_reason": "not yet checked / inconclusive"
+ },
+ {
+  "record_type": "indicator",
+  "indicator_id": "ind_dce3bbe4f143e690",
+  "type": "phone",
+  "value": "+6531067983",
+  "value_defanged": "+6531067983",
+  "values_raw": [
+   "+65 3106 7983"
+  ],
+  "host": null,
+  "sg_signals": {
+   "sg_tld": false,
+   "brand_tokens": [],
+   "service_tokens": [],
+   "path_tokens": [],
+   "sg_native_source": true,
+   "score": 0.6
+  },
+  "impersonated_entity_ids": [],
+  "fictitious_brand_ids": [],
+  "lookalike_of": [],
+  "categories": [
+   "unlicensed_financial"
+  ],
+  "issuer_entity_ids": [
+   "mas.gov.sg"
+  ],
+  "report_ids": [
+   "mas-ial-opensanctions:6017"
+  ],
+  "source_ids": [
+   "mas-ial-opensanctions"
+  ],
+  "n_sightings": 1,
+  "liveness": {
+   "state": "not_applicable",
+   "state_since": null,
+   "last_checked_at": null,
+   "last_live_at": null,
+   "consecutive_failures": 0,
+   "last_check_id": null,
+   "registration_expires_at": null,
+   "registry_status": []
+  },
+  "revoked": false,
+  "tlp": "TLP:CLEAR",
+  "created_at": "2026-11-26T03:42:10Z",
+  "updated_at": "2026-11-26T03:42:10Z",
+  "version": 1,
+  "first_seen": "2026-11-02T00:00:00Z",
+  "last_seen": "2026-11-02T16:59:58.695Z",
+  "confidence": 90,
+  "valid_from": "2026-11-02T00:00:00Z",
+  "valid_until": "2027-05-01T16:59:58.695000Z",
+  "status": "active",
+  "status_reason": "uncheckable type; TTL from last sighting"
+ },
+ {
+  "record_type": "indicator",
+  "indicator_id": "ind_0a7dbd9f002f52ab",
+  "type": "email",
+  "value": "contact@handsworthadvisory.com",
+  "value_defanged": "contact@handsworthadvisory[.]com",
+  "values_raw": [
+   "contact@handsworthadvisory.com"
+  ],
+  "host": null,
+  "sg_signals": {
+   "sg_tld": false,
+   "brand_tokens": [],
+   "service_tokens": [],
+   "path_tokens": [],
+   "sg_native_source": true,
+   "score": 0.6
+  },
+  "impersonated_entity_ids": [],
+  "fictitious_brand_ids": [],
+  "lookalike_of": [],
+  "categories": [
+   "unlicensed_financial"
+  ],
+  "issuer_entity_ids": [
+   "mas.gov.sg"
+  ],
+  "report_ids": [
+   "mas-ial-opensanctions:6017"
+  ],
+  "source_ids": [
+   "mas-ial-opensanctions"
+  ],
+  "n_sightings": 1,
+  "liveness": {
+   "state": "not_applicable",
+   "state_since": null,
+   "last_checked_at": null,
+   "last_live_at": null,
+   "consecutive_failures": 0,
+   "last_check_id": null,
+   "registration_expires_at": null,
+   "registry_status": []
+  },
+  "revoked": false,
+  "tlp": "TLP:CLEAR",
+  "created_at": "2026-11-26T03:42:10Z",
+  "updated_at": "2026-11-26T03:42:10Z",
+  "version": 1,
+  "first_seen": "2026-11-02T00:00:00Z",
+  "last_seen": "2026-11-02T16:59:58.695Z",
+  "confidence": 90,
+  "valid_from": "2026-11-02T00:00:00Z",
+  "valid_until": "2027-05-01T16:59:58.695000Z",
+  "status": "active",
+  "status_reason": "uncheckable type; TTL from last sighting"
+ },
+ {
+  "record_type": "indicator",
+  "indicator_id": "ind_ff7f9a4fe09272b5",
+  "type": "email",
+  "value": "contact@vaulterro.com",
+  "value_defanged": "contact@vaulterro[.]com",
+  "values_raw": [
+   "contact@vaulterro.com"
+  ],
+  "host": null,
+  "sg_signals": {
+   "sg_tld": false,
+   "brand_tokens": [],
+   "service_tokens": [],
+   "path_tokens": [],
+   "sg_native_source": true,
+   "score": 0.6
+  },
+  "impersonated_entity_ids": [],
+  "fictitious_brand_ids": [],
+  "lookalike_of": [],
+  "categories": [
+   "unlicensed_financial"
+  ],
+  "issuer_entity_ids": [
+   "mas.gov.sg"
+  ],
+  "report_ids": [
+   "mas-ial-opensanctions:6017"
+  ],
+  "source_ids": [
+   "mas-ial-opensanctions"
+  ],
+  "n_sightings": 1,
+  "liveness": {
+   "state": "not_applicable",
+   "state_since": null,
+   "last_checked_at": null,
+   "last_live_at": null,
+   "consecutive_failures": 0,
+   "last_check_id": null,
+   "registration_expires_at": null,
+   "registry_status": []
+  },
+  "revoked": false,
+  "tlp": "TLP:CLEAR",
+  "created_at": "2026-11-26T03:42:10Z",
+  "updated_at": "2026-11-26T03:42:10Z",
+  "version": 1,
+  "first_seen": "2026-11-02T00:00:00Z",
+  "last_seen": "2026-11-02T16:59:58.695Z",
+  "confidence": 90,
+  "valid_from": "2026-11-02T00:00:00Z",
+  "valid_until": "2027-05-01T16:59:58.695000Z",
+  "status": "active",
+  "status_reason": "uncheckable type; TTL from last sighting"
+ },
+ {
+  "record_type": "indicator",
+  "indicator_id": "ind_c9d644e9b4e5e11f",
+  "type": "email",
+  "value": "security@vaulterro.com",
+  "value_defanged": "security@vaulterro[.]com",
+  "values_raw": [
+   "security@vaulterro.com"
+  ],
+  "host": null,
+  "sg_signals": {
+   "sg_tld": false,
+   "brand_tokens": [],
+   "service_tokens": [],
+   "path_tokens": [],
+   "sg_native_source": true,
+   "score": 0.6
+  },
+  "impersonated_entity_ids": [],
+  "fictitious_brand_ids": [],
+  "lookalike_of": [],
+  "categories": [
+   "unlicensed_financial"
+  ],
+  "issuer_entity_ids": [
+   "mas.gov.sg"
+  ],
+  "report_ids": [
+   "mas-ial-opensanctions:6017"
+  ],
+  "source_ids": [
+   "mas-ial-opensanctions"
+  ],
+  "n_sightings": 1,
+  "liveness": {
+   "state": "not_applicable",
+   "state_since": null,
+   "last_checked_at": null,
+   "last_live_at": null,
+   "consecutive_failures": 0,
+   "last_check_id": null,
+   "registration_expires_at": null,
+   "registry_status": []
+  },
+  "revoked": false,
+  "tlp": "TLP:CLEAR",
+  "created_at": "2026-11-26T03:42:10Z",
+  "updated_at": "2026-11-26T03:42:10Z",
+  "version": 1,
+  "first_seen": "2026-11-02T00:00:00Z",
+  "last_seen": "2026-11-02T16:59:58.695Z",
+  "confidence": 90,
+  "valid_from": "2026-11-02T00:00:00Z",
+  "valid_until": "2027-05-01T16:59:58.695000Z",
+  "status": "active",
+  "status_reason": "uncheckable type; TTL from last sighting"
+ },
+ {
+  "record_type": "indicator",
+  "indicator_id": "ind_d7f8487b3aa51c64",
+  "type": "email",
+  "value": "privacy@vaulterro.com",
+  "value_defanged": "privacy@vaulterro[.]com",
+  "values_raw": [
+   "privacy@vaulterro.com"
+  ],
+  "host": null,
+  "sg_signals": {
+   "sg_tld": false,
+   "brand_tokens": [],
+   "service_tokens": [],
+   "path_tokens": [],
+   "sg_native_source": true,
+   "score": 0.6
+  },
+  "impersonated_entity_ids": [],
+  "fictitious_brand_ids": [],
+  "lookalike_of": [],
+  "categories": [
+   "unlicensed_financial"
+  ],
+  "issuer_entity_ids": [
+   "mas.gov.sg"
+  ],
+  "report_ids": [
+   "mas-ial-opensanctions:6017"
+  ],
+  "source_ids": [
+   "mas-ial-opensanctions"
+  ],
+  "n_sightings": 1,
+  "liveness": {
+   "state": "not_applicable",
+   "state_since": null,
+   "last_checked_at": null,
+   "last_live_at": null,
+   "consecutive_failures": 0,
+   "last_check_id": null,
+   "registration_expires_at": null,
+   "registry_status": []
+  },
+  "revoked": false,
+  "tlp": "TLP:CLEAR",
+  "created_at": "2026-11-26T03:42:10Z",
+  "updated_at": "2026-11-26T03:42:10Z",
+  "version": 1,
+  "first_seen": "2026-11-02T00:00:00Z",
+  "last_seen": "2026-11-02T16:59:58.695Z",
+  "confidence": 90,
+  "valid_from": "2026-11-02T00:00:00Z",
+  "valid_until": "2027-05-01T16:59:58.695000Z",
+  "status": "active",
+  "status_reason": "uncheckable type; TTL from last sighting"
+ },
+ {
+  "record_type": "indicator",
+  "indicator_id": "ind_9ff29105c207ba68",
+  "type": "url",
+  "value": "https://carousell.reservation44729.win/bank/dbs/1671472124233.1885",
+  "value_defanged": "hxxps://carousell[.]reservation44729[.]win/bank/dbs/1671472124233[.]1885",
+  "values_raw": [
+   "https://carousell.reservation44729.win/bank/dbs/1671472124233.1885"
+  ],
+  "host": {
+   "hostname": "carousell.reservation44729.win",
+   "registrable_domain": "reservation44729.win",
+   "tld": "win",
+   "is_shared_platform": false,
+   "is_compromised_legit": null,
+   "block_scope": "hostname",
+   "idn_unicode": null
+  },
+  "sg_signals": {
+   "sg_tld": false,
+   "brand_tokens": [
+    "carousell"
+   ],
+   "service_tokens": [],
+   "path_tokens": [
+    "kit:/bank/dbs"
+   ],
+   "sg_native_source": false,
+   "score": 0.5
+  },
+  "impersonated_entity_ids": [
+   "dbs.com.sg"
+  ],
+  "fictitious_brand_ids": [],
+  "lookalike_of": [
+   {
+    "entity_id": "dbs.com.sg",
+    "official_domain": "dbs.com.sg",
+    "method": "path_kit",
+    "score": 0.7
+   }
+  ],
+  "categories": [
+   "phishing.banking"
+  ],
+  "issuer_entity_ids": [],
+  "report_ids": [],
+  "source_ids": [
+   "phishdb-links-active"
+  ],
+  "n_sightings": 1,
+  "liveness": {
+   "state": "unknown",
+   "state_since": null,
+   "last_checked_at": null,
+   "last_live_at": null,
+   "consecutive_failures": 0,
+   "last_check_id": null,
+   "registration_expires_at": null,
+   "registry_status": []
+  },
+  "revoked": false,
+  "tlp": "TLP:CLEAR",
+  "created_at": "2026-11-26T03:42:10Z",
+  "updated_at": "2026-11-26T03:42:10Z",
+  "version": 1,
+  "first_seen": "2026-11-26T03:42:10Z",
+  "last_seen": "2026-11-26T03:42:10Z",
+  "confidence": 60,
+  "valid_from": "2026-11-26T03:42:10Z",
+  "valid_until": "2026-12-26T03:42:10Z",
+  "status": "unverified",
+  "status_reason": "not yet checked / inconclusive"
+ },
+ {
+  "record_type": "indicator",
+  "indicator_id": "ind_e1d234a1714beafe",
+  "type": "url",
+  "value": "https://carousell.reservation87272.cloud/bank/dbs/1676742935737.6821",
+  "value_defanged": "hxxps://carousell[.]reservation87272[.]cloud/bank/dbs/1676742935737[.]6821",
+  "values_raw": [
+   "https://carousell.reservation87272.cloud/bank/dbs/1676742935737.6821"
+  ],
+  "host": {
+   "hostname": "carousell.reservation87272.cloud",
+   "registrable_domain": "reservation87272.cloud",
+   "tld": "cloud",
+   "is_shared_platform": false,
+   "is_compromised_legit": null,
+   "block_scope": "hostname",
+   "idn_unicode": null
+  },
+  "sg_signals": {
+   "sg_tld": false,
+   "brand_tokens": [
+    "carousell"
+   ],
+   "service_tokens": [],
+   "path_tokens": [
+    "kit:/bank/dbs"
+   ],
+   "sg_native_source": false,
+   "score": 0.5
+  },
+  "impersonated_entity_ids": [
+   "dbs.com.sg"
+  ],
+  "fictitious_brand_ids": [],
+  "lookalike_of": [
+   {
+    "entity_id": "dbs.com.sg",
+    "official_domain": "dbs.com.sg",
+    "method": "path_kit",
+    "score": 0.7
+   }
+  ],
+  "categories": [
+   "phishing.banking"
+  ],
+  "issuer_entity_ids": [],
+  "report_ids": [],
+  "source_ids": [
+   "phishdb-links-active"
+  ],
+  "n_sightings": 1,
+  "liveness": {
+   "state": "unknown",
+   "state_since": null,
+   "last_checked_at": null,
+   "last_live_at": null,
+   "consecutive_failures": 0,
+   "last_check_id": null,
+   "registration_expires_at": null,
+   "registry_status": []
+  },
+  "revoked": false,
+  "tlp": "TLP:CLEAR",
+  "created_at": "2026-11-26T03:42:10Z",
+  "updated_at": "2026-11-26T03:42:10Z",
+  "version": 1,
+  "first_seen": "2026-11-26T03:42:10Z",
+  "last_seen": "2026-11-26T03:42:10Z",
+  "confidence": 60,
+  "valid_from": "2026-11-26T03:42:10Z",
+  "valid_until": "2026-12-26T03:42:10Z",
+  "status": "unverified",
+  "status_reason": "not yet checked / inconclusive"
+ },
+ {
+  "record_type": "indicator",
+  "indicator_id": "ind_81bd2a82db55264f",
+  "type": "url",
+  "value": "https://carousell.nextervis.com/bank/dbs/h/1791896518",
+  "value_defanged": "hxxps://carousell[.]nextervis[.]com/bank/dbs/h/1791896518",
+  "values_raw": [
+   "https://carousell.nextervis.com/bank/dbs/h/1791896518"
+  ],
+  "host": {
+   "hostname": "carousell.nextervis.com",
+   "registrable_domain": "nextervis.com",
+   "tld": "com",
+   "is_shared_platform": false,
+   "is_compromised_legit": null,
+   "block_scope": "hostname",
+   "idn_unicode": null
+  },
+  "sg_signals": {
+   "sg_tld": false,
+   "brand_tokens": [
+    "carousell"
+   ],
+   "service_tokens": [],
+   "path_tokens": [
+    "kit:/bank/dbs"
+   ],
+   "sg_native_source": false,
+   "score": 0.5
+  },
+  "impersonated_entity_ids": [
+   "carousell.sg",
+   "dbs.com.sg"
+  ],
+  "fictitious_brand_ids": [],
+  "lookalike_of": [
+   {
+    "entity_id": "carousell.sg",
+    "official_domain": "carousell.sg",
+    "method": "brand_token",
+    "score": 0.7
+   }
+  ],
+  "categories": [
+   "phishing.banking"
+  ],
+  "issuer_entity_ids": [],
+  "report_ids": [],
+  "source_ids": [
+   "phishstats-api"
+  ],
+  "n_sightings": 1,
+  "liveness": {
+   "state": "unknown",
+   "state_since": null,
+   "last_checked_at": null,
+   "last_live_at": null,
+   "consecutive_failures": 0,
+   "last_check_id": null,
+   "registration_expires_at": null,
+   "registry_status": []
+  },
+  "revoked": false,
+  "tlp": "TLP:CLEAR",
+  "created_at": "2026-11-26T03:42:10Z",
+  "updated_at": "2026-11-26T03:42:10Z",
+  "version": 1,
+  "first_seen": "2026-06-02T11:40:01Z",
+  "last_seen": "2026-11-21T20:56:18Z",
+  "confidence": 60,
+  "valid_from": "2026-06-02T11:40:01Z",
+  "valid_until": "2026-12-21T20:56:18Z",
+  "status": "unverified",
+  "status_reason": "not yet checked / inconclusive"
+ }
+]

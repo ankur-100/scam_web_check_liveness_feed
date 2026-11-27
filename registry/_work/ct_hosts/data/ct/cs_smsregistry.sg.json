@@ -1,0 +1,132 @@
+[
+	{
+		"id": "13385332472",
+		"tbs_sha256": "37c1a0d8b934d0151b526e6488a3856b19eedd81d341f5003ccbc9b845110a13",
+		"cert_sha256": "1025d4946ccf024c7f6b70191ea82a3179df76bed20ce268719b60a75e75e256",
+		"dns_names": [
+			"*.feature.smsregistry.sg",
+			"feature.smsregistry.sg"
+		],
+		"pubkey_sha256": "1159a501f027feba1dda44fcec181b6b328b2fe5123515caae64d51feeba4f4a",
+		"not_before": "2026-01-10T00:00:00Z",
+		"not_after": "2027-02-08T23:59:59Z",
+		"revoked": false
+	},
+	{
+		"id": "13385635380",
+		"tbs_sha256": "ef790e28c05714fbbb4bfa5f637324fb5cd0f01204b8be529021529db66206dd",
+		"cert_sha256": "88c75d014e20f360a89d0d63852b9f2cb4d0ccb65871c5a8e5fd25ea6add2e70",
+		"dns_names": [
+			"*.staging.smsregistry.sg",
+			"staging.smsregistry.sg"
+		],
+		"pubkey_sha256": "2b277d308ea44d8e189335be55a2bd1bf29cf1cb05f680aaba7166d6c25edde1",
+		"not_before": "2026-01-10T00:00:00Z",
+		"not_after": "2027-02-08T23:59:59Z",
+		"revoked": false
+	},
+	{
+		"id": "13407612264",
+		"tbs_sha256": "b4695c8fcca32d5ad73b474240cc395736eee650d65b54181032e38f26fa8c21",
+		"cert_sha256": "295ee4f9f5eaf269935b45e04c81a8e7d43e18050b9f1f6dcc10ecbc4bf9351c",
+		"dns_names": [
+			"*.feature.smsregistry.sg",
+			"feature.smsregistry.sg"
+		],
+		"pubkey_sha256": "65468693a3a3bc41523f0e7269ab1b461efe1ae5c51336905c6061d95d9bf1d5",
+		"not_before": "2026-01-12T00:00:00Z",
+		"not_after": "2027-02-10T23:59:59Z",
+		"revoked": false
+	},
+	{
+		"id": "13407615294",
+		"tbs_sha256": "9bfa5d5a93b79f9d5efef675b6ec3596437ee633142c314b049589ee9f16eb18",
+		"cert_sha256": "b339e5285d6cad126f72ace5c65c524d5aa6288643b19b984ddad5e5836fa12c",
+		"dns_names": [
+			"*.staging.smsregistry.sg",
+			"staging.smsregistry.sg"
+		],
+		"pubkey_sha256": "b1479638c7ee8c6011fa1aaa8871f5b812639d358b04d57216853732af933b0d",
+		"not_before": "2026-01-12T00:00:00Z",
+		"not_after": "2027-02-10T23:59:59Z",
+		"revoked": false
+	},
+	{
+		"id": "15238978066",
+		"tbs_sha256": "e6d4a51363c197d2ecee891a5b2ab395109af4c237e5f72e8d9c5fd7f0b7874c",
+		"cert_sha256": "280b70f56d7c96ec29edd7d88a0649bce7d7d6ab406fa2d90495563cdf2a7fec",
+		"dns_names": [
+			"*.testing.smsregistry.sg",
+			"testing.smsregistry.sg"
+		],
+		"pubkey_sha256": "4967760fd92376b64743502d5f7864b4d839e38509f87252f8e36b88b5cf9bad",
+		"not_before": "2026-06-06T00:00:00Z",
+		"not_after": "2026-12-20T23:59:59Z",
+		"revoked": false
+	},
+	{
+		"id": "15252675480",
+		"tbs_sha256": "8f7a02308d9addb87fde819f14efc83d408a3a5392ba8b053127cc9d0451acad",
+		"cert_sha256": "5123fc932c6a6d97263038d492be4a27d855c2f61b6df0c066957f9845a6152d",
+		"dns_names": [
+			"*.testing.smsregistry.sg",
+			"testing.smsregistry.sg"
+		],
+		"pubkey_sha256": "e9f4bea444e7dda25cbbf9a1908f4cb7c7717b7b716e9ae8de7105c340e98958",
+		"not_before": "2026-06-07T00:00:00Z",
+		"not_after": "2026-12-21T23:59:59Z",
+		"revoked": false
+	},
+	{
+		"id": "15918762191",
+		"tbs_sha256": "b5244839574b80ceea6d3d49cda4c6f2a7f2929d9ae94b6f3c1f8a14da3710b9",
+		"cert_sha256": "f2231dde827dd800faf5b0450761ba5db7524115801dba412f39a2a2ce7f6902",
+		"dns_names": [
+			"*.smsregistry.sg",
+			"smsregistry.sg"
+		],
+		"pubkey_sha256": "08851b467d51ba7de66bd0c517f83ac2144c5d59c6e25bb368ff2af1f7591de9",
+		"not_before": "2026-07-17T00:00:00Z",
+		"not_after": "2027-01-30T23:59:59Z",
+		"revoked": false
+	},
+	{
+		"id": "15930823252",
+		"tbs_sha256": "4e62950af2f26cb5d4ec9701c6d6f3a93011db3fa5aac3094b50abdb68ced6a5",
+		"cert_sha256": "40ed1dc83ab9aad9a71c681af5eb40bba32432a5ce21981cb14651836e07a25d",
+		"dns_names": [
+			"*.smsregistry.sg",
+			"smsregistry.sg"
+		],
+		"pubkey_sha256": "2adfb66d25af1f3b3c95a0f93ca7270f38c1a63957e47f6beb935661bd81169d",
+		"not_before": "2026-07-18T00:00:00Z",
+		"not_after": "2027-01-31T23:59:59Z",
+		"revoked": false
+	},
+	{
+		"id": "18199634975",
+		"tbs_sha256": "d0d4a42cd439b59e9bdc78ea9860b23850cff6c40238c5f07880c24ea6c79aee",
+		"cert_sha256": "e28df5a3bed8bfc2298ca4e6728afae4360ea7d17fe85d5305610b7c52f77683",
+		"dns_names": [
+			"*.testing.smsregistry.sg",
+			"testing.smsregistry.sg"
+		],
+		"pubkey_sha256": "c864c56dfa06c513b74788d263e8f1f826c3bb20e066a292d8ab2947c6a77c5d",
+		"not_before": "2026-11-06T00:00:00Z",
+		"not_after": "2027-05-22T23:59:59Z",
+		"revoked": false
+	},
+	{
+		"id": "18218138095",
+		"tbs_sha256": "e364cb60cadd15a87e3c0af65453003fd1e47bf5cd492afd965c40856c78da4b",
+		"cert_sha256": "41939a5a383ff23211f1fb75bbb1222ed579310bb5bca63b91828eab560b3ff6",
+		"dns_names": [
+			"*.testing.smsregistry.sg",
+			"testing.smsregistry.sg"
+		],
+		"pubkey_sha256": "c3587a185e7f7f898dccd537fde373d73bb750c6fedfe309fbc5258056bfac1b",
+		"not_before": "2026-11-06T23:06:02Z",
+		"not_after": "2027-05-24T00:06:02Z",
+		"revoked": false
+	}
+]

@@ -1,0 +1,22 @@
+{
+ "host": "www.bizfile.gov.sg",
+ "robots_status": 200,
+ "robots": "# https://www.robotstxt.org/robotstxt.html\nUser-agent: *\nDisallow:\n\nSitemap: https://bizfile.gov.sg/sitemap.xml",
+ "sitemaps_declared": [
+  "https://bizfile.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  [
+   "https://bizfile.gov.sg/sitemap.xml",
+   "urlset",
+   82,
+   "https://www.bizfile.gov.sg:443/sitemap.xml"
+  ]
+ ],
+ "errors": [],
+ "total_urls": 82,
+ "hosts_in_sitemap": {
+  "www.bizfile.gov.sg": 82
+ },
+ "matches": []
+}

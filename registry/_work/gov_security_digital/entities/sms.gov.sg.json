@@ -1,0 +1,84 @@
+{
+ "entity_id": "sms.gov.sg",
+ "name": "gov.sg SMS Sender ID (OGP/GovTech)",
+ "abbr": "gov.sg SMS",
+ "aliases": [
+  "gov.sg SMS Sender ID"
+ ],
+ "sector": "gov.programme",
+ "parent_entity_id": "tech.gov.sg",
+ "country": "SG",
+ "official_domains": [
+  "sms.gov.sg"
+ ],
+ "official_hosts": [
+  "www.sms.gov.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.sms.gov.sg/exceptions",
+   "kind": "official_channels",
+   "lists_indicators": [
+    "sms_sender_id",
+    "entity_name"
+   ],
+   "access": "html",
+   "machine_url": null,
+   "item_count": 8,
+   "latest_item_date": "2024-09-12",
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "This is a full list of the SMS Sender IDs that are not combined under the gov.sg Sender ID, and will continue to be used separately. ... 72255 Ministry of Defence (MINDEF) Two-way communications for National Service matters",
+   "notes": "Authoritative allowlist of the 8 government sender IDs that are not gov.sg: 72255 (MINDEF, NS two-way), 70999 (MHA/Police emergency SMS), 70995 (MHA/SCDF 995 SMS), MHAalert (MHA public alerts), 80709999 (SPF NS mobilisation; previously 83385761), 80709995 (SCDF NS call-ups; previously 91449746), \"POLICE 999\" (SPF emergency video link / silent-call advisory), \"SCDF 995\" (SCDF emergency video link). \"Updated 12 Sep 2024\"."
+  },
+  {
+   "url": "https://www.sms.gov.sg/check",
+   "kind": "official_channels",
+   "lists_indicators": [
+    "entity_name"
+   ],
+   "access": "html",
+   "machine_url": null,
+   "item_count": 206,
+   "latest_item_date": null,
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "{\"name\":\"Singapore Police Force\",\"abbrev\":\"SPF\",\"included\":true,\"exceptions\":[\"70999\",\"80709999\",\"POLICE 999\"]}",
+   "notes": "Searchable list of agencies that do or do not send from gov.sg. The data is inlined in the page's static Next.js bundle (/_next/static/chunks/app/check/page-*.js), with no API call: 206 organisations, 128 sending from gov.sg, 78 not (schools, IHLs, public hospitals, etc.), and 3 with exceptions (MHA, SCDF, SPF). Bundle filename is content-hashed, so re-derive it from the /check HTML."
+  },
+  {
+   "url": "https://www.sms.gov.sg/",
+   "kind": "report_portal",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "A gov.sg SMS will have all 4 of these indicators. If even one of them is missing, or you suspect an SMS may not be authentic, please report it immediately using this form .",
+   "notes": "The 4 authenticity cues are: lowercase \"gov.sg\" sender, message starts with the agency name, a fixed do-not-reply signature, and a single threaded conversation. Suspicious SMS reports go to go.gov.sg/report-sms. Blog (/blog) has 3 posts (Jan-Mar 2025). robots: allow all; no sitemap (/sitemap.xml 404)."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [
+   "gov.sg",
+   "72255",
+   "70999",
+   "70995",
+   "MHAalert",
+   "80709999",
+   "80709995",
+   "POLICE 999",
+   "SCDF 995"
+  ],
+  "hotlines": [],
+  "short_link_domains": [
+   "go.gov.sg"
+  ],
+  "social": []
+ },
+ "evidence": [
+  "https://www.sms.gov.sg/",
+  "https://www.sms.gov.sg/exceptions",
+  "https://www.police.gov.sg/advisories/scams"
+ ],
+ "notes": "Built by Open Government Products (GovTech) per the site footer. Best machine-usable SMS allowlist in the partition (sender IDs + org list)."
+}

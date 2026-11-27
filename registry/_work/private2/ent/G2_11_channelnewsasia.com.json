@@ -1,0 +1,68 @@
+{
+ "entity_id": "channelnewsasia.com",
+ "name": "CNA (Channel NewsAsia)",
+ "abbr": "CNA",
+ "aliases": [
+  "CNA",
+  "Channel NewsAsia",
+  "ChannelNewsAsia",
+  "CNA Singapore"
+ ],
+ "sector": "media",
+ "parent_entity_id": "mediacorp.sg",
+ "country": "SG",
+ "official_domains": [
+  "channelnewsasia.com"
+ ],
+ "official_hosts": [
+  "www.channelnewsasia.com"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml&category=10416",
+   "kind": "news_releases",
+   "lists_indicators": [],
+   "access": "rss",
+   "machine_url": "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml&category=10416",
+   "item_count": 20,
+   "latest_item_date": "2026-11-26",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "<rss version=\"2.0\" xml:base=\"https://www.channelnewsasia.com/\"",
+   "notes": "Media coverage feed (CNA Singapore section RSS, published on https://www.channelnewsasia.com/rss; robots.txt explicitly allows /api/v1/rss-outbound-feed). 20 latest items, 0 scam-titled items at fetch time - filter titles for scam|fraud|phish. Other documented feeds: Latest News (no category), Asia 6511, Business 6936, Sport 10296, World 6311, Insider 11156. No dedicated CNA 'scams' topic page found (not in Singapore-section topic links; web search found none)."
+  },
+  {
+   "url": "https://www.channelnewsasia.com/api/v1/sitemap-news-feed",
+   "kind": "news_releases",
+   "lists_indicators": [],
+   "access": "sitemap",
+   "machine_url": "https://www.channelnewsasia.com/api/v1/sitemap-news-feed",
+   "item_count": 50,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 200",
+   "sample": null,
+   "notes": "Google-News sitemap (50 most recent URLs, allowed in robots.txt); 0 scam-slug URLs at fetch time. Media coverage discovery endpoint, not self-impersonation warnings."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": [
+   "https://www.facebook.com/ChannelNewsAsia",
+   "https://x.com/Channelnewsasia",
+   "https://www.youtube.com/user/channelnewsasia",
+   "https://www.linkedin.com/company/channel-newsasia/",
+   "https://www.instagram.com/channelnewsasia"
+  ],
+  "apps": [
+   "CNA - Channel NewsAsia (iOS App Store id520773971; Google Play com.channelnewsasia; Huawei AppGallery C101326503)"
+  ],
+  "emails": []
+ },
+ "evidence": [
+  "https://www.channelnewsasia.com/singapore",
+  "https://www.channelnewsasia.com/rss",
+  "https://www.channelnewsasia.com/robots.txt"
+ ],
+ "notes": "official_domains: channelnewsasia.com (b) serving domain. No CNA page warning about scams impersonating CNA was found (SPF brand tag 'CNA' covers 7 SPF advisories on fake CNA-styled investment articles; those fake domains are SPF-side and were never visited). Unverified (search snippet): Group-IB 'Immediate Era' report (2025-10) describes a fake CNA site with a deepfake of PM Lawrence Wong. Robots: /search disallowed (not used)."
+}

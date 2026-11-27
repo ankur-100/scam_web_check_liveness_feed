@@ -1,0 +1,141 @@
+{
+ "entity_id": "police.gov.sg",
+ "name": "Singapore Police Force",
+ "abbr": "SPF",
+ "aliases": [
+  "Singapore Police Force (SPF)",
+  "Police",
+  "Anti-Scam Command (ASCom)",
+  "Anti-Scam Centre (ASC)",
+  "Cyber Command"
+ ],
+ "sector": "gov.dept",
+ "parent_entity_id": "mha.gov.sg",
+ "country": "SG",
+ "official_domains": [
+  "police.gov.sg"
+ ],
+ "official_hosts": [
+  "www.police.gov.sg",
+  "police.gov.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.police.gov.sg/media-hub/news",
+   "kind": "advisory_feed",
+   "lists_indicators": [],
+   "access": "sitemap",
+   "machine_url": "https://www.police.gov.sg/sitemap/sitemap.xml",
+   "item_count": 375,
+   "latest_item_date": "2026-11-20",
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "20261120_two_malaysian_men_to_be_charged_for_their_involvement_in_government_officials_impersonation_scam",
+   "notes": "Main SPF scam-advisory stream; icanactagainstscams.gov.sg /scam-trends is the structured view of the same advisories. Sitemap from robots.txt: 5,170 URLs, priority only, no lastmod. 4,203 news URLs; 990 slugs match scam/fraud/phish/impersonat/fake/hoax/spoof/beware/unsolicited/cyber/malware; 426 contain \"advisory\"; 375 both (item_count). Slug pattern /media-hub/news/YYYY/MM/YYYYMMDD_title. JSON-LD datePublished on pages. No RSS. The sitemap lags: newest entry 20261106 on 2026-11-26, while the /media-hub/news listing (10 items) showed 20261123 on 2026-11-25. IOC density is low; screenshots are images (72 img tags on the 20260808 advisory), and text links are usually only official domains. robots disallows /api/, /RestApi/, /sitefinity, search."
+  },
+  {
+   "url": "https://www.police.gov.sg/media-hub/news/2026/08/20260808_police_advisory_on_phishing_scams_impersonating_the_singapore_police_force",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2026-08-08",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "majority of the victims would receive unsolicited Apple iMessage from foreign numbers or email addresses. The messages misled victims into believing that they were from SPF, TP or “District Court”",
+   "notes": "Representative 2026 SPF self-impersonation advisory (SPF, Traffic Police, Singapore Courts via iMessage). Text contains only official/benign domains (support.apple.com, www.courts.gov.sg, www.police.gov.sg, www.scamshield.gov.sg). Scam domains, if shown, are inside images."
+  },
+  {
+   "url": "https://www.police.gov.sg/advisories/scams",
+   "kind": "scam_faq",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "If you receive an SMS from the government, make sure it is sent from the gov.sg SMS Sender ID*.",
+   "notes": "Awareness hub. Links to the sms.gov.sg/exceptions sender-ID list, the ScamShield GOIS page, the ESSR 1H 2026 and the Anti-Scam Resource Guide via go.gov.sg/resourceguidepamphlet{eng,man,mly,tml}. Sibling pages: /advisories/cybercrime (+ /cybercrime, /hacking-and-website-defacement, /ransomware), /advisories/unlicensed-moneylending, /advisories/misuse-of-sim-card-offences, /knowledge-hub/legislation/caning-for-scams-and-scams-related-offences, /knowledge-hub/legislation/online-harms-act-overview/* (OCHA process; no directions published)."
+  },
+  {
+   "url": "https://www.police.gov.sg/media-hub/police-life/2026/11/know-whos-calling-spf-launches-single-caller-id-to-combat-scams",
+   "kind": "official_channels",
+   "lists_indicators": [
+    "phone"
+   ],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2026-11-01",
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "all outgoing calls from the SPF will be made from the single caller ID “6000 0999”. Following each call, members of the public will also receive an SMS from the official “gov.sg” SMS sender ID",
+   "notes": "From 2 Nov 2026 SPF is the first agency on a single outgoing caller ID (built with OGP, MDDI and IMDA). 6000 0999 is never used on WhatsApp/Telegram. Jan-Sep 2026: at least 1,310 police-impersonation cases, at least $53.3m lost. Allowlist item."
+  },
+  {
+   "url": "https://www.police.gov.sg/media-hub/statistics",
+   "kind": "statistics",
+   "lists_indicators": [],
+   "access": "pdf",
+   "machine_url": "https://www.police.gov.sg/docs/spf/spf/media-room/statistics/mid-year-scam-and-cybercrime-brief-2026/mid-year-scam-and-cybercrime-brief-2026.pdf?sfvrsn=370b33ae_0",
+   "item_count": 20,
+   "latest_item_date": "2026-08-26",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "mid-year-scams-and-cybercrime-brief-2026 (redirects to PDF)",
+   "notes": "The sitemap has 20 scams-and-cybercrime brief/statistics URLs (annual 2022-2025 and mid-year 2023-2026, each with an -infographic variant). The page URL redirects to a PDF. Aggregates only (cases, losses, scam types, platforms, disruption counts). The Mid-Year 2026 PDF was created 26 Aug 2026 (per 01_sg_official.md)."
+  },
+  {
+   "url": "https://www.police.gov.sg/i-witness",
+   "kind": "report_portal",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "I-Witness allows anyone to provide information about criminal and/or suspicious activity to the Police.",
+   "notes": "Public tip-off portal. MHA, ICA, GRA and others point fake-site and unlawful-gambling reports here."
+  },
+  {
+   "url": "https://www.police.gov.sg/media-hub/police-life/2021/11/the-anti-scam-centre---a-collaborative-approach-against-scams",
+   "kind": "news_releases",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2021-11",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "the-anti-scam-centre---a-collaborative-approach-against-scams",
+   "notes": "No dedicated Anti-Scam Command (ASCom) or Anti-Scam Centre (ASC) landing page exists in the sitemap. ASCom and ASC appear only in news and Police Life items, e.g. 20220906_opening_of_anti-scam_command_office (ASCom operationalised 22 Mar 2022), 20260707_anti_scam_centre_and_five_banks_collaborate..., and 20260703_spf_forms_new_cyber_command... (ASC now inside the Cyber Command, from 3 Jul 2026). Police Life (613 URLs) also has anti-scam features. The ASC feature page and 20260703 Cyber Command release were fetched (both 200). The others are known from the sitemap and search only."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [
+   "gov.sg",
+   "70999",
+   "80709999",
+   "POLICE 999"
+  ],
+  "hotlines": [
+   "6000 0999 (single outgoing caller ID for all SPF calls from 2 Nov 2026)",
+   "1799 (24/7 ScamShield Helpline)",
+   "1800-255-0000 (Police Hotline)",
+   "1800-358-0000 (SPF Feedback Hotline)",
+   "999 (emergency)",
+   "SMS 70999 (emergency SMS)",
+   "1800-722-6688 (anti-scam helpline, cited in older advisories)"
+  ],
+  "short_link_domains": [
+   "go.gov.sg"
+  ],
+  "social": [
+   "https://www.facebook.com/singaporepoliceforce/",
+   "https://www.instagram.com/singaporepoliceforce/",
+   "https://twitter.com/SingaporePolice"
+  ]
+ },
+ "evidence": [
+  "https://www.sgdi.gov.sg/ministries/mha/departments/spf",
+  "https://www.police.gov.sg/sitemap/sitemap.xml",
+  "https://www.sms.gov.sg/exceptions"
+ ],
+ "notes": "Most-impersonated agency (SPF brand tag, 5 advisories; sample scam domains include policegov.eu.cc). SPF is the de facto central advisory publisher for most brands. Its operational IOC sets (National Scams List, SATIS takedowns, OCHA directions) are not published. SMS exceptions per sms.gov.sg: 70999 (emergency SMS), 80709999 (Police NS mobilisation; previously 83385761), \"POLICE 999\" (emergency video link / silent-call advisory). Since 1 Jan 2025 SPF also blocks unlawful remote-gambling sites (taken over from GRA); those block lists are not published."
+}

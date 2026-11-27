@@ -1,0 +1,4428 @@
+[
+ {
+  "host": "www.scamshield.gov.sg",
+  "registrable_domain": "scamshield.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2026-05-18",
+  "cert_last_seen": "2026-05-26",
+  "resolves": true,
+  "a_records": [
+   "13.33.45.33",
+   "13.33.45.32",
+   "13.33.45.59",
+   "13.33.45.105"
+  ],
+  "http_status": 200,
+  "title": "Home | ScamShield Website",
+  "scam_relevant": "yes",
+  "owner_entity_id": "scamshield.gov.sg",
+  "notes": "ScamShield one-stop anti-scam portal (SPF+NCPC+OGP): /resources/scam-alert/, /check-for-scams/, anti-scam resource guide, bank anti-scam hotlines; also on gov.sg Trusted Sites list (Table 1) | DNS NOERROR CNAME scamshield-gov-sg.hostedon.isomer.gov.sg"
+ },
+ {
+  "host": "scamshield.gov.sg",
+  "registrable_domain": "scamshield.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2020-05-19",
+  "cert_last_seen": "2026-09-09",
+  "resolves": true,
+  "a_records": [
+   "18.138.108.8",
+   "18.136.36.203",
+   "18.139.47.66"
+  ],
+  "http_status": 200,
+  "title": "Home | ScamShield Website",
+  "scam_relevant": "yes",
+  "owner_entity_id": "scamshield.gov.sg",
+  "notes": "apex of ScamShield portal; wildcard *.scamshield.gov.sg certs 2020-05-19..2026-07-23 (crt.sh) | root GET -> https://www.scamshield.gov.sg/ (via 301) | DNS NOERROR"
+ },
+ {
+  "host": "guide.scamshield.gov.sg",
+  "registrable_domain": "scamshield.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2024-05-31",
+  "cert_last_seen": "2026-09-05",
+  "resolves": true,
+  "a_records": [
+   "172.64.147.209",
+   "104.18.40.47"
+  ],
+  "http_status": 200,
+  "title": "What is ScamShield? | ScamShield",
+  "scam_relevant": "yes",
+  "owner_entity_id": "scamshield.gov.sg",
+  "notes": "ScamShield user guide (search-indexed /llms-full.txt) | DNS NOERROR CNAME fd971d13d3-hosting.gitbook.io"
+ },
+ {
+  "host": "wa-bot.scamshield.gov.sg",
+  "registrable_domain": "scamshield.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2025-07-14",
+  "cert_last_seen": "2026-08-31",
+  "resolves": true,
+  "a_records": [
+   "104.20.43.67",
+   "172.66.156.72"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "maybe",
+  "owner_entity_id": "scamshield.gov.sg",
+  "notes": "name suggests ScamShield WhatsApp bot endpoint (backend, not public content; no GET) | DNS NOERROR"
+ },
+ {
+  "host": "dashboard.scamshield.gov.sg",
+  "registrable_domain": "scamshield.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2024-07-09",
+  "cert_last_seen": "2026-10-16",
+  "resolves": true,
+  "a_records": [
+   "104.20.43.67",
+   "172.66.156.72"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "maybe",
+  "owner_entity_id": "scamshield.gov.sg",
+  "notes": "ScamShield dashboard (search snippet: admin dashboard used by police to verify reports); login app, no GET | DNS NOERROR"
+ },
+ {
+  "host": "dashboardguide.scamshield.gov.sg",
+  "registrable_domain": "scamshield.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2026-03-05",
+  "cert_last_seen": "2026-08-30",
+  "resolves": true,
+  "a_records": [
+   "172.66.156.72",
+   "104.20.43.67"
+  ],
+  "http_status": 200,
+  "title": "Sign in ・ Cloudflare Access",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "scamshield.gov.sg",
+  "notes": "guide for the ScamShield dashboard | root GET -> https://scamshield.cloudflareaccess.com/cdn-cgi/access/login/dashboardguide.scamshield.gov.sg?kid=25dcc19b0ea6d61db6e610ea80b862a7d6fc8ebd7c2f85bcd903e5d76f04e6d3&meta=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImMwYjExYTZhNTI0ZDlhZWVhYmNmOGZlNjAzMGQ4MDQ1NWQ0YTFiOWE3NDk0MjQ3NTNhMmI1ZTJlY2MyMzY4YjcifQ.eyJ0eXBlIjoibWV0YSIsImF1ZCI6IjI1ZGNjMTliMGVhNmQ2MWRiNmU2MTBlYTgwYjg2MmE3ZDZmYzhlYmQ3YzJmODViY2Q5MDNlNWQ3NmYwNGU2ZDMiLCJob3N0bmFtZSI6ImRhc2hib2FyZGd1aWRlLnNjYW1zaGllbGQuZ292LnNnIiwicmVkaXJlY3RfdXJsIjoiLyIsInNlcnZpY2VfdG9rZW5fc3RhdHVzIjpmYWxzZSwiaXNfd2FycCI6ZmFsc2UsImlzX2dhdGV3YXkiOmZhbHNlLCJleHAiOjE3OTU2NjUxOTcsIm5iZiI6MTc5NTY2NDg5NywiaWF0IjoxNzk1NjY0ODk3LCJhdXRoX3N0YXR1cyI6Ik5PTkUiLCJtdGxzX2F1dGgiOnsiY2VydF9pc3N1ZXJfZG4iOiIiLCJjZXJ0X3NlcmlhbCI6IiIsImNlcnRfaXNzdWVyX3NraSI6IiIsImNlcnRfcHJlc2VudGVkIjpmYWxzZSwiY29tbW9uX25hbWUiOiIiLCJhdXRoX3N0YXR1cyI6Ik5PTkUifSwicmVhbF9jb3VudHJ5IjoiU0ciLCJhcHBfc2Vzc2lvbl9oYXNoIjoiOTJhZTJiMDFhOGQ1MjMyZjEzZTBkMTQ3NTEzZmJiNGEyZWVkYTk0MTJhOTkyYzhkYjlhMjYwODliYmIxMDAyMyJ9.RNSFRpdsnb7YmOQtkNV1EgYTyRrMcX5pXgZKSU2x6iYquid9E1bmF5wcLuV5cm31wgHSaBnC6hBKvCJRCGu2_7aAO8ur1GlYLPxZFTDuAMP0U-rtFEThrxn8WRAY4k_jP8v5IqhN6dNNQZG8iLgcmFwVkWlVGJxEopS96teNmPYZu7mGy12BX9UJ6v0eN8nCVfVzbxtQBdq4DuXzz5ZgNCC2NrxeTw2Tc5EDKfYIB1fnHu3bsNqqVAcNpsKgJTgivaIbQFD1D_ohgVOMsA58QSeVg_fdOvotQoIp0NCQaOezG-kGt2-LAgIDl_vEodIxx_DFDvDdCmOWUxQgu8QAcg&redirect_url=%2F (via 302) | DNS NOERROR"
+ },
+ {
+  "host": "dashboard-staging.scamshield.gov.sg",
+  "registrable_domain": "scamshield.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2024-07-09",
+  "cert_last_seen": "2026-10-15",
+  "resolves": true,
+  "a_records": [
+   "104.20.43.67",
+   "172.66.156.72"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "scamshield.gov.sg",
+  "notes": "staging environment; no GET | DNS NOERROR"
+ },
+ {
+  "host": "dashboard-vapt.scamshield.gov.sg",
+  "registrable_domain": "scamshield.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2026-05-19",
+  "cert_last_seen": "2026-07-17",
+  "resolves": true,
+  "a_records": [
+   "104.20.43.67",
+   "172.66.156.72"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "scamshield.gov.sg",
+  "notes": "VAPT (pen-test) environment; no GET | DNS NOERROR"
+ },
+ {
+  "host": "status.scamshield.gov.sg",
+  "registrable_domain": "scamshield.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2022-05-19",
+  "cert_last_seen": "2026-03-17",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "scamshield.gov.sg",
+  "notes": "service status page | DNS NXDOMAIN"
+ },
+ {
+  "host": "grafana-new.scamshield.gov.sg",
+  "registrable_domain": "scamshield.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2024-06-22",
+  "cert_last_seen": "2025-04-30",
+  "resolves": true,
+  "a_records": [
+   "172.66.156.72",
+   "104.20.43.67"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "scamshield.gov.sg",
+  "notes": "internal monitoring; no GET | DNS NOERROR"
+ },
+ {
+  "host": "app.beta.scamshield.gov.sg",
+  "registrable_domain": "scamshield.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2024-03-01",
+  "cert_last_seen": "2026-01-17",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "maybe",
+  "owner_entity_id": "scamshield.gov.sg",
+  "notes": "beta web app; certs stop 2026-01 | DNS NXDOMAIN"
+ },
+ {
+  "host": "app-beta.scamshield.gov.sg",
+  "registrable_domain": "scamshield.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2024-02-29",
+  "cert_last_seen": "2024-03-01",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "maybe",
+  "owner_entity_id": "scamshield.gov.sg",
+  "notes": "beta web app; only certs Feb-Mar 2024 | DNS NXDOMAIN"
+ },
+ {
+  "host": "www.scamshield.org.sg",
+  "registrable_domain": "scamshield.org.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2020-12-02",
+  "cert_last_seen": "2024-07-14",
+  "resolves": true,
+  "a_records": [
+   "104.21.68.36",
+   "172.67.185.221"
+  ],
+  "http_status": 200,
+  "title": "Home | ScamShield Website",
+  "scam_relevant": "yes",
+  "owner_entity_id": "scamshield.gov.sg",
+  "notes": "ScamShield Bot microsite (/about-bot, /bot-faqs, /set-up-bot per search); 01_sg_official.md: 302 -> www.scamshield.gov.sg | root GET -> https://www.scamshield.gov.sg/ (via 302) | DNS NOERROR"
+ },
+ {
+  "host": "scamshield.org.sg",
+  "registrable_domain": "scamshield.org.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2020-11-26",
+  "cert_last_seen": "2026-09-23",
+  "resolves": true,
+  "a_records": [
+   "104.21.68.36",
+   "172.67.185.221"
+  ],
+  "http_status": 200,
+  "title": "Home | ScamShield Website",
+  "scam_relevant": "yes",
+  "owner_entity_id": "scamshield.gov.sg",
+  "notes": "apex of ScamShield Bot microsite; wildcard *.scamshield.org.sg certs to 2026-09 | root GET -> https://www.scamshield.gov.sg/ (via 302) | DNS NOERROR"
+ },
+ {
+  "host": "scamshield.sg",
+  "registrable_domain": "scamshield.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2020-02-04",
+  "cert_last_seen": "2026-08-13",
+  "resolves": true,
+  "a_records": [
+   "172.67.146.5",
+   "104.21.10.166"
+  ],
+  "http_status": 200,
+  "title": "Home | ScamShield Website",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "scamshield.gov.sg",
+  "notes": "2020-era ScamShield app address (search: Nov-2020 Mothership article pointed to scamshield.sg; app built by OGP for NCPC); Cloudflare/LE certs to 2026-08 | root GET -> https://www.scamshield.gov.sg/ (via 302) | DNS NOERROR"
+ },
+ {
+  "host": "www.scamshield.sg",
+  "registrable_domain": "scamshield.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2020-11-09",
+  "cert_last_seen": "2024-08-07",
+  "resolves": true,
+  "a_records": [
+   "172.67.146.5",
+   "104.21.10.166"
+  ],
+  "http_status": 200,
+  "title": "Home | ScamShield Website",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "scamshield.gov.sg",
+  "notes": "legacy ScamShield app site; certs stop 2024-08 | root GET -> https://www.scamshield.gov.sg/ (via 302) | DNS NOERROR"
+ },
+ {
+  "host": "api.scamshield.sg",
+  "registrable_domain": "scamshield.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2020-02-04",
+  "cert_last_seen": "2024-09-23",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "scamshield.gov.sg",
+  "notes": "legacy ScamShield app API (Amazon certs 2020-2024); backend, no GET | DNS NOERROR"
+ },
+ {
+  "host": "classifier-api.scamshield.sg",
+  "registrable_domain": "scamshield.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2020-02-04",
+  "cert_last_seen": "2024-09-23",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "scamshield.gov.sg",
+  "notes": "legacy ScamShield SMS classifier API (certs 2020-2024); backend, no GET | DNS NOERROR"
+ },
+ {
+  "host": "grafana.scamshield.sg",
+  "registrable_domain": "scamshield.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2023-02-24",
+  "cert_last_seen": "2023-02-24",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "scamshield.gov.sg",
+  "notes": "internal monitoring; single cert Feb 2023 | DNS NXDOMAIN"
+ },
+ {
+  "host": "www.icanactagainstscams.gov.sg",
+  "registrable_domain": "icanactagainstscams.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2025-08-28",
+  "cert_last_seen": "2026-10-04",
+  "resolves": true,
+  "a_records": [
+   "65.9.168.54",
+   "65.9.168.15",
+   "65.9.168.107",
+   "65.9.168.94"
+  ],
+  "http_status": 200,
+  "title": "I can ACT against scams",
+  "scam_relevant": "yes",
+  "owner_entity_id": "icanactagainstscams.gov.sg",
+  "notes": "SPF 'I Can ACT Against Scams' site: /scam-trends advisories with scam_site_urls + Brand/Category tags (baseline feed, ../FINDINGS.md); parent police.gov.sg | DNS NOERROR CNAME scamsexposed-cf.app.optical.gov.sg"
+ },
+ {
+  "host": "icanactagainstscams.gov.sg",
+  "registrable_domain": "icanactagainstscams.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2025-08-29",
+  "cert_last_seen": "2026-08-02",
+  "resolves": true,
+  "a_records": [
+   "54.151.226.24",
+   "13.251.180.0",
+   "54.251.88.218"
+  ],
+  "http_status": 200,
+  "title": "I can ACT against scams",
+  "scam_relevant": "yes",
+  "owner_entity_id": "icanactagainstscams.gov.sg",
+  "notes": "apex; wildcard cert 2025-08..2025-10 | root GET -> https://www.icanactagainstscams.gov.sg:443/ (via 301) | DNS NOERROR"
+ },
+ {
+  "host": "www.beta.icanactagainstscams.gov.sg",
+  "registrable_domain": "icanactagainstscams.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2025-10-07",
+  "cert_last_seen": "2025-11-03",
+  "resolves": true,
+  "a_records": [
+   "13.35.163.82",
+   "13.35.163.8",
+   "13.35.163.79",
+   "13.35.163.44"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "maybe",
+  "owner_entity_id": "icanactagainstscams.gov.sg",
+  "notes": "beta site (certs Oct-Nov 2025; also inside a shared multi-SAN Isomer cert seen via certspotter) | root GET error: SSLError: HTTPSConnectionPool(host='www.beta.icanactagainstscams.gov.sg', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1,  | DNS NOERROR CNAME p-gvt-gasp-scamsexposed.on.tc2.airbase.tech.gov.sg"
+ },
+ {
+  "host": "stg.icanactagainstscams.gov.sg",
+  "registrable_domain": "icanactagainstscams.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2025-08-28",
+  "cert_last_seen": "2026-08-02",
+  "resolves": true,
+  "a_records": [
+   "13.35.238.128",
+   "13.35.238.84",
+   "13.35.238.26",
+   "13.35.238.59"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "icanactagainstscams.gov.sg",
+  "notes": "staging; no GET | DNS NOERROR CNAME scamsexposed-cf.staging.optical.gov.sg"
+ },
+ {
+  "host": "www.stg.icanactagainstscams.gov.sg",
+  "registrable_domain": "icanactagainstscams.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2025-08-29",
+  "cert_last_seen": "2026-09-07",
+  "resolves": true,
+  "a_records": [
+   "99.86.18.108",
+   "99.86.18.5",
+   "99.86.18.79",
+   "99.86.18.50"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "icanactagainstscams.gov.sg",
+  "notes": "staging; no GET | DNS NOERROR CNAME s-gvt-gasp-scamsexposed.on.tc2.airbase.tech.gov.sg"
+ },
+ {
+  "host": "pango.gov.sg",
+  "registrable_domain": "pango.gov.sg",
+  "discovered_via": "search",
+  "cert_first_seen": "2026-08-31",
+  "cert_last_seen": "2026-08-31",
+  "resolves": true,
+  "a_records": [
+   "18.138.108.8",
+   "18.139.47.66",
+   "18.136.36.203"
+  ],
+  "http_status": 200,
+  "title": "Home | AntiScam Pango",
+  "scam_relevant": "yes",
+  "owner_entity_id": "pango.gov.sg",
+  "notes": "AntiScam Pango (GovTech on-device scam-message detector, Android beta 4 Nov 2026) official site per tech.gov.sg release; parent tech.gov.sg; also in crt.sh | root GET -> https://www.pango.gov.sg/ (via 301) | DNS NOERROR"
+ },
+ {
+  "host": "www.pango.gov.sg",
+  "registrable_domain": "pango.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2026-08-28",
+  "cert_last_seen": "2026-08-28",
+  "resolves": true,
+  "a_records": [
+   "108.156.144.19",
+   "108.156.144.129",
+   "108.156.144.125",
+   "108.156.144.41"
+  ],
+  "http_status": 200,
+  "title": "Home | AntiScam Pango",
+  "scam_relevant": "yes",
+  "owner_entity_id": "pango.gov.sg",
+  "notes": "AntiScam Pango site (www) | DNS NOERROR CNAME pango-gov-sg.hostedon.isomer.gov.sg"
+ },
+ {
+  "host": "api.pango.gov.sg",
+  "registrable_domain": "pango.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2026-09-24",
+  "cert_last_seen": "2026-09-24",
+  "resolves": true,
+  "a_records": [
+   "18.143.235.105",
+   "52.74.146.140"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "pango.gov.sg",
+  "notes": "app API backend; no GET | DNS NOERROR"
+ },
+ {
+  "host": "api.stg.pango.gov.sg",
+  "registrable_domain": "pango.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2026-08-25",
+  "cert_last_seen": "2026-08-25",
+  "resolves": true,
+  "a_records": [
+   "52.221.71.65",
+   "18.142.93.174"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "pango.gov.sg",
+  "notes": "staging API; no GET | DNS NOERROR"
+ },
+ {
+  "host": "api.dev.pango.gov.sg",
+  "registrable_domain": "pango.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2026-08-24",
+  "cert_last_seen": "2026-08-24",
+  "resolves": true,
+  "a_records": [
+   "18.142.193.242",
+   "18.142.194.11"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "pango.gov.sg",
+  "notes": "dev API; no GET | DNS NOERROR"
+ },
+ {
+  "host": "www.ncpc.org.sg",
+  "registrable_domain": "ncpc.org.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2020-03-20",
+  "cert_last_seen": "2026-09-29",
+  "resolves": true,
+  "a_records": [
+   "99.86.18.60",
+   "99.86.18.79",
+   "99.86.18.87",
+   "99.86.18.91"
+  ],
+  "http_status": 200,
+  "title": "Home | National Crime Prevention Council",
+  "scam_relevant": "yes",
+  "owner_entity_id": "ncpc.org.sg",
+  "notes": "National Crime Prevention Council: anti-scam campaigns/resources (e.g. /xiamthescams); also on gov.sg Trusted Sites list (Table 4) | DNS NOERROR CNAME ncpc-org-sg.hostedon.isomer.gov.sg"
+ },
+ {
+  "host": "ncpc.org.sg",
+  "registrable_domain": "ncpc.org.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2018-05-14",
+  "cert_last_seen": "2026-08-24",
+  "resolves": true,
+  "a_records": [
+   "18.136.36.203",
+   "18.139.47.66",
+   "18.138.108.8"
+  ],
+  "http_status": 200,
+  "title": "Home | National Crime Prevention Council",
+  "scam_relevant": "yes",
+  "owner_entity_id": "ncpc.org.sg",
+  "notes": "apex; wildcard *.ncpc.org.sg certs 2018-2026 | root GET -> https://www.ncpc.org.sg/ (via 301) | DNS NOERROR"
+ },
+ {
+  "host": "link.ncpc.org.sg",
+  "registrable_domain": "ncpc.org.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2022-08-10",
+  "cert_last_seen": "2024-08-25",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "maybe",
+  "owner_entity_id": "ncpc.org.sg",
+  "notes": "cPanel/LE certs 2022-08..2024-08 only; purpose unknown (link hub?) | DNS NXDOMAIN"
+ },
+ {
+  "host": "ncpc.gov.sg",
+  "registrable_domain": "ncpc.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2015-08-17",
+  "cert_last_seen": "2016-01-04",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "maybe",
+  "owner_entity_id": "ncpc.org.sg",
+  "notes": "old NCPC .gov.sg domain; only certs 2015-08..2016-01 (+wildcard) | DNS NXDOMAIN"
+ },
+ {
+  "host": "xiamthescams.sqkii.com",
+  "registrable_domain": "sqkii.com",
+  "discovered_via": "search",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "yes",
+  "owner_entity_id": "ncpc.org.sg",
+  "notes": "#XiamTheScams NCPC/SPF/MHA anti-scam web game built by vendor Sqkii, ran 24 Oct 2024-22 Jan 2025 (search); vendor-hosted | DNS NXDOMAIN"
+ },
+ {
+  "host": "www.scamalert.sg",
+  "registrable_domain": "scamalert.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2016-08-12",
+  "cert_last_seen": "2026-08-24",
+  "resolves": true,
+  "a_records": [
+   "172.67.158.228",
+   "104.21.14.124"
+  ],
+  "http_status": 200,
+  "title": "Home | ScamShield Website",
+  "scam_relevant": "yes",
+  "owner_entity_id": "ncpc.org.sg",
+  "notes": "NCPC ScamAlert portal, retired into ScamShield Suite (Sep 2024); 01_sg_official.md: 301 -> www.scamshield.gov.sg; scraped corpus 2016-20 exists | root GET -> https://www.scamshield.gov.sg/ (via 301) | DNS NOERROR"
+ },
+ {
+  "host": "scamalert.sg",
+  "registrable_domain": "scamalert.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2016-08-12",
+  "cert_last_seen": "2026-09-25",
+  "resolves": true,
+  "a_records": [
+   "172.67.158.228",
+   "104.21.14.124"
+  ],
+  "http_status": 200,
+  "title": "Home | ScamShield Website",
+  "scam_relevant": "yes",
+  "owner_entity_id": "ncpc.org.sg",
+  "notes": "apex; wildcard *.scamalert.sg certs 2018-2026; cPanel service names (cpanel/cpcalendars/cpcontacts/webdisk/webmail/mail/autodiscover, also under forms./lp./makeathon./quiz.) collapsed here, all certs ended 2018-2022 | root GET -> https://www.scamshield.gov.sg/ (via 301) | DNS NOERROR"
+ },
+ {
+  "host": "quiz.scamalert.sg",
+  "registrable_domain": "scamalert.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2020-07-08",
+  "cert_last_seen": "2025-01-05",
+  "resolves": true,
+  "a_records": [
+   "104.21.14.124",
+   "172.67.158.228"
+  ],
+  "http_status": 503,
+  "title": "503 Service Unavailable",
+  "scam_relevant": "yes",
+  "owner_entity_id": "ncpc.org.sg",
+  "notes": "NCPC scam quiz; certs 2020-07..2025-01 | DNS NOERROR"
+ },
+ {
+  "host": "www.quiz.scamalert.sg",
+  "registrable_domain": "scamalert.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2020-07-08",
+  "cert_last_seen": "2021-10-07",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "yes",
+  "owner_entity_id": "ncpc.org.sg",
+  "notes": "certs 2020-07..2021-10 | DNS NXDOMAIN"
+ },
+ {
+  "host": "forms.scamalert.sg",
+  "registrable_domain": "scamalert.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2020-12-07",
+  "cert_last_seen": "2024-09-03",
+  "resolves": true,
+  "a_records": [
+   "104.21.14.124",
+   "172.67.158.228"
+  ],
+  "http_status": 503,
+  "title": "503 Service Unavailable",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "ncpc.org.sg",
+  "notes": "forms (scam report/feedback?); certs 2020-12..2024-09 | DNS NOERROR"
+ },
+ {
+  "host": "www.forms.scamalert.sg",
+  "registrable_domain": "scamalert.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2020-12-07",
+  "cert_last_seen": "2021-10-07",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "maybe",
+  "owner_entity_id": "ncpc.org.sg",
+  "notes": "certs 2020-12..2021-10 | DNS NXDOMAIN"
+ },
+ {
+  "host": "lp.scamalert.sg",
+  "registrable_domain": "scamalert.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2020-08-21",
+  "cert_last_seen": "2024-08-13",
+  "resolves": true,
+  "a_records": [
+   "172.67.158.228",
+   "104.21.14.124"
+  ],
+  "http_status": 503,
+  "title": "503 Service Unavailable",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "ncpc.org.sg",
+  "notes": "landing pages (campaign); certs 2020-08..2024-08 | DNS NOERROR"
+ },
+ {
+  "host": "www.lp.scamalert.sg",
+  "registrable_domain": "scamalert.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2020-08-21",
+  "cert_last_seen": "2021-09-05",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "maybe",
+  "owner_entity_id": "ncpc.org.sg",
+  "notes": "certs 2020-08..2021-09 | DNS NXDOMAIN"
+ },
+ {
+  "host": "makeathon.scamalert.sg",
+  "registrable_domain": "scamalert.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2019-09-06",
+  "cert_last_seen": "2021-06-01",
+  "resolves": true,
+  "a_records": [
+   "172.67.158.228",
+   "104.21.14.124"
+  ],
+  "http_status": 200,
+  "title": "Index of /",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "ncpc.org.sg",
+  "notes": "Anti-Scam Makeathon event site; certs 2019-09..2021-06 | DNS NOERROR"
+ },
+ {
+  "host": "www.makeathon.scamalert.sg",
+  "registrable_domain": "scamalert.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2019-09-06",
+  "cert_last_seen": "2021-06-01",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "maybe",
+  "owner_entity_id": "ncpc.org.sg",
+  "notes": "certs 2019-09..2021-06 | DNS NXDOMAIN"
+ },
+ {
+  "host": "www.police.gov.sg",
+  "registrable_domain": "police.gov.sg",
+  "discovered_via": "search",
+  "cert_first_seen": "2016-05-16",
+  "cert_last_seen": "2026-10-04",
+  "resolves": true,
+  "a_records": [
+   "192.133.11.1"
+  ],
+  "http_status": 200,
+  "title": "SPF | Singapore Police Force",
+  "scam_relevant": "yes",
+  "owner_entity_id": "police.gov.sg",
+  "notes": "SPF: /advisories/scams, media-hub news (354 scam advisories in sitemap), scam & cybercrime briefs | DNS NOERROR"
+ },
+ {
+  "host": "eservices1.police.gov.sg",
+  "registrable_domain": "police.gov.sg",
+  "discovered_via": "search",
+  "cert_first_seen": "2023-09-15",
+  "cert_last_seen": "2026-08-20",
+  "resolves": true,
+  "a_records": [
+   "207.192.165.17"
+  ],
+  "http_status": 200,
+  "title": "SPF | E-services",
+  "scam_relevant": "yes",
+  "owner_entity_id": "police.gov.sg",
+  "notes": "SPF e-services: online police report for scams (/phub/eservices/landingpage/police-report per search); report_portal | root GET -> https://www.police.gov.sg/E-services (via 301) | DNS NOERROR"
+ },
+ {
+  "host": "www.mha.gov.sg",
+  "registrable_domain": "mha.gov.sg",
+  "discovered_via": "search",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "13.35.163.119",
+   "13.35.163.51",
+   "13.35.163.10",
+   "13.35.163.123"
+  ],
+  "http_status": 200,
+  "title": "Home | Ministry of Home Affairs",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "mha.gov.sg",
+  "notes": "MHA newsroom: anti-scam speeches/COS, E-commerce Marketplace Transaction Safety Ratings | DNS NOERROR CNAME mha-gov-sg.hostedon.isomer.gov.sg"
+ },
+ {
+  "host": "www.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2015-02-17",
+  "cert_last_seen": "2026-11-19",
+  "resolves": true,
+  "a_records": [
+   "3.165.102.103",
+   "3.165.102.49",
+   "3.165.102.60",
+   "3.165.102.17"
+  ],
+  "http_status": 200,
+  "title": "Home | Cyber Security Agency of Singapore",
+  "scam_relevant": "yes",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "CSA/SingCERT alerts & advisories (RSS), /GoSafeOnline, report-a-phishing-email, SG Cyber Safe Seniors; latest issuance 2026-11-19 per certspotter (crt.sh lagging) | DNS NOERROR CNAME csa-gov-sg.hostedon.isomer.gov.sg"
+ },
+ {
+  "host": "csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2015-02-17",
+  "cert_last_seen": "2026-07-25",
+  "resolves": true,
+  "a_records": [
+   "18.139.47.66",
+   "18.136.36.203",
+   "18.138.108.8"
+  ],
+  "http_status": 200,
+  "title": "Home | Cyber Security Agency of Singapore",
+  "scam_relevant": "yes",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "apex; wildcard *.csa.gov.sg certs 2019-2026 | root GET -> https://www.csa.gov.sg/ (via 301) | DNS NOERROR"
+ },
+ {
+  "host": "www.mas.gov.sg",
+  "registrable_domain": "mas.gov.sg",
+  "discovered_via": "link",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "23.54.118.51",
+   "23.54.118.52"
+  ],
+  "http_status": 200,
+  "title": "Monetary Authority of Singapore",
+  "scam_relevant": "yes",
+  "owner_entity_id": "mas.gov.sg",
+  "notes": "MAS Investor Alert List at /ial (from sources/01_sg_official.md) | DNS NOERROR CNAME www.mas.gov.sg.edgekey.net -> e29154.dscb.akamaiedge.net"
+ },
+ {
+  "host": "eservices.mas.gov.sg",
+  "registrable_domain": "mas.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2010-02-18",
+  "cert_last_seen": "2026-07-17",
+  "resolves": true,
+  "a_records": [
+   "23.54.118.52",
+   "23.54.118.51"
+  ],
+  "http_status": 200,
+  "title": "eservices home page",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "mas.gov.sg",
+  "notes": "MAS e-services: Financial Institutions Directory (/fid, allowlist) and the IAL search backend used by third-party scrapers (not probed) | DNS NOERROR CNAME eservices.mas.gov.sg.edgekey.net -> e29154.dscb.akamaiedge.net"
+ },
+ {
+  "host": "www.moneysense.gov.sg",
+  "registrable_domain": "moneysense.gov.sg",
+  "discovered_via": "search",
+  "cert_first_seen": "2018-10-30",
+  "cert_last_seen": "2026-06-23",
+  "resolves": true,
+  "a_records": [
+   "13.249.231.27",
+   "13.249.231.29",
+   "13.249.231.20",
+   "13.249.231.94"
+  ],
+  "http_status": 200,
+  "title": "Home | MoneySense",
+  "scam_relevant": "yes",
+  "owner_entity_id": "moneysense.gov.sg",
+  "notes": "MoneySense (MAS financial education): /scams/, how-to-spot-an-investment-scam; parent mas.gov.sg | DNS NOERROR CNAME moneysense-gov-sg.hostedon.isomer.gov.sg"
+ },
+ {
+  "host": "reports.open.gov.sg",
+  "registrable_domain": "open.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2025-06-13",
+  "cert_last_seen": "2026-08-16",
+  "resolves": true,
+  "a_records": [
+   "216.150.1.65",
+   "216.150.16.65"
+  ],
+  "http_status": 200,
+  "title": "Report cards at OGP",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "open.gov.sg",
+  "notes": "OGP product reports: /scamshield/overview, /scamshield/metrics, /scamshield/updates (search); host is multi-product | DNS NOERROR CNAME 3650fd191364613e.vercel-dns-016.com"
+ },
+ {
+  "host": "products.open.gov.sg",
+  "registrable_domain": "open.gov.sg",
+  "discovered_via": "search",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "172.67.183.1",
+   "104.21.51.169"
+  ],
+  "http_status": 200,
+  "title": "Report Cards at OGP",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "open.gov.sg",
+  "notes": "OGP product pages incl. /scamshield; name also present in crt.sh open.gov.sg set | root GET -> https://reports.open.gov.sg/products (via 301) | DNS NOERROR"
+ },
+ {
+  "host": "www.open.gov.sg",
+  "registrable_domain": "open.gov.sg",
+  "discovered_via": "search",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "65.9.168.90",
+   "65.9.168.107",
+   "65.9.168.76",
+   "65.9.168.61"
+  ],
+  "http_status": 200,
+  "title": "Home | Open Government Products",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "open.gov.sg",
+  "notes": "OGP site: /products/scamshield | DNS NOERROR CNAME open-gov-sg.hostedon.isomer.gov.sg"
+ },
+ {
+  "host": "ask.gov.sg",
+  "registrable_domain": "ask.gov.sg",
+  "discovered_via": "search",
+  "cert_first_seen": "2020-02-07",
+  "cert_last_seen": "2026-10-09",
+  "resolves": true,
+  "a_records": [
+   "172.67.72.85",
+   "104.26.14.224",
+   "104.26.15.224"
+  ],
+  "http_status": 403,
+  "title": "Just a moment...",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "ask.gov.sg",
+  "notes": "AskGov Q&A platform: ScamShield FAQ at /scamshield and AntiScam Pango help at /pango; multi-agency host (crt.sh q=ask.gov.sg 502 twice on 2026-11-25) | DNS NOERROR"
+ },
+ {
+  "host": "go.ask.gov.sg",
+  "registrable_domain": "ask.gov.sg",
+  "discovered_via": "search",
+  "cert_first_seen": "2023-04-17",
+  "cert_last_seen": "2026-08-20",
+  "resolves": true,
+  "a_records": [
+   "172.67.72.85",
+   "104.26.15.224",
+   "104.26.14.224"
+  ],
+  "http_status": 403,
+  "title": "Just a moment...",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "ask.gov.sg",
+  "notes": "AskGov short links, e.g. go.ask.gov.sg/scamshield | DNS NOERROR"
+ },
+ {
+  "host": "www.tech.gov.sg",
+  "registrable_domain": "tech.gov.sg",
+  "discovered_via": "search",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "3.165.75.93",
+   "3.165.75.11",
+   "3.165.75.61",
+   "3.165.75.57"
+  ],
+  "http_status": 200,
+  "title": "Home | Government Technology Agency of Singapore (GovTech Singapore)",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "tech.gov.sg",
+  "notes": "GovTech: /products-and-services/for-citizens/scam-prevention/ (ScamShield, SATIS, Pango) + technews scam explainers | DNS NOERROR CNAME tech-gov-sg.hostedon.isomer.gov.sg"
+ },
+ {
+  "host": "phishmon.gcsoc.tech.gov.sg",
+  "registrable_domain": "tech.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2023-03-06",
+  "cert_last_seen": "2025-05-21",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "maybe",
+  "owner_entity_id": "tech.gov.sg",
+  "notes": "GovTech GCSOC phishing-monitoring service (name); internal, certs 2023-03..2025-05; no GET | DNS NOERROR"
+ },
+ {
+  "host": "stg.phishmon.gcsoc.tech.gov.sg",
+  "registrable_domain": "tech.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2023-03-06",
+  "cert_last_seen": "2025-05-21",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "tech.gov.sg",
+  "notes": "staging of phishmon; certs end 2025-05 | DNS NOERROR"
+ },
+ {
+  "host": "dev.phishmon.gcsoc.tech.gov.sg",
+  "registrable_domain": "tech.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2023-02-15",
+  "cert_last_seen": "2025-05-01",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "tech.gov.sg",
+  "notes": "dev of phishmon; certs end 2025-05 | DNS NOERROR"
+ },
+ {
+  "host": "www.smartnation.gov.sg",
+  "registrable_domain": "smartnation.gov.sg",
+  "discovered_via": "search",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "99.86.18.62",
+   "99.86.18.41",
+   "99.86.18.47",
+   "99.86.18.101"
+  ],
+  "http_status": 200,
+  "title": "Home | Smart Nation Singapore",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "smartnation.gov.sg",
+  "notes": "/initiatives/scamshield | DNS NOERROR CNAME smartnation-gov-sg.hostedon.isomer.gov.sg"
+ },
+ {
+  "host": "www.mddi.gov.sg",
+  "registrable_domain": "mddi.gov.sg",
+  "discovered_via": "search",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "65.9.168.58",
+   "65.9.168.33",
+   "65.9.168.76",
+   "65.9.168.64"
+  ],
+  "http_status": 200,
+  "title": "Home | Ministry of Digital Development and Information",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "mddi.gov.sg",
+  "notes": "/other-pages/anti-scam-efforts/ (lists SIMCardHowMany, ScamShield, roadshow) | DNS NOERROR CNAME mddi-gov-sg.hostedon.isomer.gov.sg"
+ },
+ {
+  "host": "www.imda.gov.sg",
+  "registrable_domain": "imda.gov.sg",
+  "discovered_via": "search",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "13.249.231.24",
+   "13.249.231.96",
+   "13.249.231.18",
+   "13.249.231.15"
+  ],
+  "http_status": 200,
+  "title": "Architects of SG Digital Future | IMDA",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "imda.gov.sg",
+  "notes": "/how-we-can-help/anti-scam-measures (SMS sender ID, SSIR) | DNS NOERROR CNAME p-imda-corporate.on.tc2.airbase.tech.gov.sg"
+ },
+ {
+  "host": "services2-ctoaascam-ez.in.imda.gov.sg",
+  "registrable_domain": "imda.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2023-06-07",
+  "cert_last_seen": "2026-06-10",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "imda.gov.sg",
+  "notes": "keyword false positive ('ctoaas'+'cam'); internal | DNS NOERROR"
+ },
+ {
+  "host": "services2-ctoaascam-ez-stg.in.imda.gov.sg",
+  "registrable_domain": "imda.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2023-06-07",
+  "cert_last_seen": "2026-06-10",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "imda.gov.sg",
+  "notes": "keyword false positive; internal staging | DNS NOERROR"
+ },
+ {
+  "host": "www.digitalforlife.gov.sg",
+  "registrable_domain": "digitalforlife.gov.sg",
+  "discovered_via": "search",
+  "cert_first_seen": "2022-04-11",
+  "cert_last_seen": "2026-09-21",
+  "resolves": true,
+  "a_records": [
+   "13.249.231.32",
+   "13.249.231.72",
+   "13.249.231.76",
+   "13.249.231.87"
+  ],
+  "http_status": 200,
+  "title": "Digital for Life Website",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "digitalforlife.gov.sg",
+  "notes": "IMDA Digital for Life: scam-spotting learning resources, festival; parent imda.gov.sg | DNS NOERROR CNAME p-imda-digitalforlife.on.tc2.airbase.tech.gov.sg"
+ },
+ {
+  "host": "form.gov.sg",
+  "registrable_domain": "form.gov.sg",
+  "discovered_via": "search",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "104.26.15.122",
+   "172.67.69.86",
+   "104.26.14.122"
+  ],
+  "http_status": 200,
+  "title": "FormSG",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "open.gov.sg",
+  "notes": "FormSG platform; hosts IMDA/GovTech SIMCardHowMany postpaid-SIM checker (anti-scam tool, beta 26 Feb 2026) at a form path; multi-tenant host | DNS NOERROR"
+ },
+ {
+  "host": "www.gov.sg",
+  "registrable_domain": "gov.sg",
+  "discovered_via": "search",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "13.249.231.115",
+   "13.249.231.89",
+   "13.249.231.43",
+   "13.249.231.13"
+  ],
+  "http_status": 200,
+  "title": "Home | gov.sg",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "gov.sg",
+  "notes": "hosts the Trusted Sites allowlist (/trusted-sites/, last updated 6 Nov 2026) and scam explainers | DNS NOERROR"
+ },
+ {
+  "host": "checkmate.sg",
+  "registrable_domain": "checkmate.sg",
+  "discovered_via": "search",
+  "cert_first_seen": "2022-08-17",
+  "cert_last_seen": "2026-10-13",
+  "resolves": true,
+  "a_records": [
+   "172.66.172.68",
+   "104.20.30.175"
+  ],
+  "http_status": 200,
+  "title": "CheckMate - Making checking easy",
+  "scam_relevant": "yes",
+  "owner_entity_id": "checkmate.sg",
+  "notes": "CheckMate: volunteer-run (bettersg) WhatsApp scam/misinformation checker; NOT official. crt.sh: ~57 names; infra (admin, api.backend, portkey, stripe, webhook, whatsapp, evals, datasets, workspace, corporate, line, qr, ref, screenshots, files, data, certificates, measure, hi) + staging.* collapsed here | DNS NOERROR"
+ },
+ {
+  "host": "scam.sg",
+  "registrable_domain": "scam.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2022-08-22",
+  "cert_last_seen": "2026-09-21",
+  "resolves": true,
+  "a_records": [
+   "172.67.148.175",
+   "104.21.87.240"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "maybe",
+  "owner_entity_id": null,
+  "notes": "owner unknown (no web-search hits); CT shows an app stack (accounts/clerk/dashboard/cms/crawl4ai/searxng/browserless/n8n/verified.) => looks like a private scam-check service; not visited (non-official) | DNS NOERROR"
+ },
+ {
+  "host": "scams.sg",
+  "registrable_domain": "scams.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2025-01-03",
+  "cert_last_seen": "2026-10-04",
+  "resolves": true,
+  "a_records": [
+   "172.67.207.66",
+   "104.21.66.207"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "maybe",
+  "owner_entity_id": null,
+  "notes": "owner unknown; Sectigo DV certs 2025-01..2026-10 (+wildcard); not visited (non-official) | DNS NOERROR"
+ },
+ {
+  "host": "www.scam.sg",
+  "registrable_domain": "scam.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2023-12-05",
+  "cert_last_seen": "2026-04-02",
+  "resolves": true,
+  "a_records": [
+   "104.21.87.240",
+   "172.67.148.175"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "maybe",
+  "owner_entity_id": null,
+  "notes": "owner unknown; certs 2023-12..2026-04; not visited | DNS NOERROR"
+ },
+ {
+  "host": "verified.scam.sg",
+  "registrable_domain": "scam.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2024-08-28",
+  "cert_last_seen": "2026-10-01",
+  "resolves": true,
+  "a_records": [
+   "13.228.11.96"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "maybe",
+  "owner_entity_id": null,
+  "notes": "owner unknown; certs 2024-08..2026-10; not visited | DNS NOERROR"
+ },
+ {
+  "host": "dashboard.scam.sg",
+  "registrable_domain": "scam.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2024-09-08",
+  "cert_last_seen": "2026-07-04",
+  "resolves": true,
+  "a_records": [
+   "18.136.31.23",
+   "54.251.180.36"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "maybe",
+  "owner_entity_id": null,
+  "notes": "owner unknown; certs 2024-09..2026-07; children accounts./clerk./dev. dashboard.scam.sg; not visited | DNS NOERROR CNAME scamsg-alb-1262592968.ap-southeast-1.elb.amazonaws.com"
+ },
+ {
+  "host": "faqs.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2022-03-22",
+  "cert_last_seen": "2022-03-22",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "maybe",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "CSA FAQ host; single cert 2022-03 only | DNS NXDOMAIN"
+ },
+ {
+  "host": "web.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2019-11-28",
+  "cert_last_seen": "2022-11-07",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "legacy web host; certs 2019-11..2022-11 | DNS NXDOMAIN"
+ },
+ {
+  "host": "www-origin.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2022-10-06",
+  "cert_last_seen": "2024-02-05",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "origin for www (CDN); certs to 2024-02 | DNS NXDOMAIN"
+ },
+ {
+  "host": "www-origin-uat.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2022-09-30",
+  "cert_last_seen": "2023-10-12",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "UAT origin | DNS NXDOMAIN"
+ },
+ {
+  "host": "www-stg.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2018-01-02",
+  "cert_last_seen": "2018-01-02",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "staging; single cert 2018-01 | DNS NXDOMAIN"
+ },
+ {
+  "host": "origin1-www.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2019-08-16",
+  "cert_last_seen": "2019-08-16",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "old origin; cert 2019-08 only | DNS NXDOMAIN"
+ },
+ {
+  "host": "www.origin1-www.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2019-08-16",
+  "cert_last_seen": "2019-08-16",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "old origin; cert 2019-08 only | DNS NXDOMAIN"
+ },
+ {
+  "host": "web-intranet.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2022-10-06",
+  "cert_last_seen": "2023-10-12",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "intranet; certs 2022-10..2023-10 | DNS NXDOMAIN"
+ },
+ {
+  "host": "web-intranet-uat.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2022-09-30",
+  "cert_last_seen": "2023-10-12",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "intranet UAT | DNS NXDOMAIN"
+ },
+ {
+  "host": "ihp.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2021-07-30",
+  "cert_last_seen": "2026-09-29",
+  "resolves": true,
+  "a_records": [
+   "18.155.68.124",
+   "18.155.68.20",
+   "18.155.68.60",
+   "18.155.68.47"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "Internet Hygiene Portal (website/email security ratings, incl. DMARC); not scam advisories | DNS NOERROR"
+ },
+ {
+  "host": "www.ihp.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2021-07-30",
+  "cert_last_seen": "2023-07-03",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "IHP www; certs to 2023-07 | DNS NOERROR"
+ },
+ {
+  "host": "api.ihp.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2024-02-20",
+  "cert_last_seen": "2026-01-07",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "IHP API | DNS NOERROR"
+ },
+ {
+  "host": "enterpriseapi.ihp.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2024-12-27",
+  "cert_last_seen": "2026-01-07",
+  "resolves": true,
+  "a_records": [
+   "18.155.68.124",
+   "18.155.68.60",
+   "18.155.68.20",
+   "18.155.68.47"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "IHP enterprise API | DNS NOERROR"
+ },
+ {
+  "host": "ihp-stg.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2021-07-19",
+  "cert_last_seen": "2026-09-24",
+  "resolves": true,
+  "a_records": [
+   "13.35.36.73",
+   "13.35.36.32",
+   "13.35.36.50",
+   "13.35.36.97"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "IHP staging (+ wildcard *.ihp-stg) | DNS NOERROR"
+ },
+ {
+  "host": "www.ihp-stg.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2021-07-19",
+  "cert_last_seen": "2023-07-03",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "IHP staging | DNS NOERROR"
+ },
+ {
+  "host": "api.ihp-stg.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2024-01-29",
+  "cert_last_seen": "2026-09-24",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "IHP staging API | DNS NOERROR"
+ },
+ {
+  "host": "enterpriseapi.ihp-stg.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2024-10-03",
+  "cert_last_seen": "2026-09-24",
+  "resolves": true,
+  "a_records": [
+   "13.35.36.97",
+   "13.35.36.50",
+   "13.35.36.73",
+   "13.35.36.32"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "IHP staging API | DNS NOERROR"
+ },
+ {
+  "host": "nc3.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2026-02-04",
+  "cert_last_seen": "2026-02-04",
+  "resolves": true,
+  "a_records": [
+   "166.117.78.16",
+   "3.33.205.84"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "unidentified system 'nc3' (single cert 2026-02) | DNS NOERROR"
+ },
+ {
+  "host": "dev-nc3.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2026-02-04",
+  "cert_last_seen": "2026-02-04",
+  "resolves": true,
+  "a_records": [
+   "166.117.210.236",
+   "75.2.69.90"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "dev of nc3 | DNS NOERROR"
+ },
+ {
+  "host": "uat-nc3.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2026-02-04",
+  "cert_last_seen": "2026-02-04",
+  "resolves": true,
+  "a_records": [
+   "166.117.97.42",
+   "166.117.221.76"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "UAT of nc3 | DNS NOERROR"
+ },
+ {
+  "host": "logpipe.amrs.nc3.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2026-05-04",
+  "cert_last_seen": "2026-10-04",
+  "resolves": true,
+  "a_records": [
+   "52.76.249.244",
+   "54.254.27.102",
+   "54.254.161.22"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "log pipeline (internal) | DNS NOERROR"
+ },
+ {
+  "host": "uat.logpipe.amrs.nc3.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2026-05-04",
+  "cert_last_seen": "2026-10-04",
+  "resolves": true,
+  "a_records": [
+   "52.74.131.213",
+   "52.221.39.9",
+   "122.248.234.198"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "log pipeline UAT (internal) | DNS NOERROR"
+ },
+ {
+  "host": "dev-cardinal.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2026-01-16",
+  "cert_last_seen": "2026-01-16",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "unidentified system 'cardinal' (dev) | DNS NOERROR"
+ },
+ {
+  "host": "uat-cardinal.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2026-01-16",
+  "cert_last_seen": "2026-01-16",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "unidentified system 'cardinal' (UAT) | DNS NOERROR"
+ },
+ {
+  "host": "pslc.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2025-04-03",
+  "cert_last_seen": "2026-04-27",
+  "resolves": true,
+  "a_records": [
+   "160.96.238.92",
+   "160.96.238.91"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "unidentified 'pslc' site (Sectigo DV certs 2025-04..2026-10) | DNS NOERROR"
+ },
+ {
+  "host": "www.pslc.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2025-04-03",
+  "cert_last_seen": "2026-04-27",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "www of pslc | DNS NXDOMAIN"
+ },
+ {
+  "host": "ssix-a1.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2025-01-23",
+  "cert_last_seen": "2026-02-20",
+  "resolves": true,
+  "a_records": [
+   "160.96.242.153"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure) | DNS NOERROR"
+ },
+ {
+  "host": "www.ssix-a1.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2025-01-23",
+  "cert_last_seen": "2026-02-20",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure) | DNS NXDOMAIN"
+ },
+ {
+  "host": "ssix-a2.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2025-02-19",
+  "cert_last_seen": "2026-03-02",
+  "resolves": true,
+  "a_records": [
+   "160.96.242.154"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure) | DNS NOERROR"
+ },
+ {
+  "host": "www.ssix-a2.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2025-02-19",
+  "cert_last_seen": "2026-03-02",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure) | DNS NXDOMAIN"
+ },
+ {
+  "host": "ssix-a3.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2025-02-19",
+  "cert_last_seen": "2026-02-25",
+  "resolves": true,
+  "a_records": [
+   "160.96.242.155"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure) | DNS NOERROR"
+ },
+ {
+  "host": "www.ssix-a3.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2025-02-19",
+  "cert_last_seen": "2026-02-25",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure) | DNS NXDOMAIN"
+ },
+ {
+  "host": "ssix-a4.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2025-02-19",
+  "cert_last_seen": "2026-02-25",
+  "resolves": true,
+  "a_records": [
+   "160.96.242.156"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure) | DNS NOERROR"
+ },
+ {
+  "host": "www.ssix-a4.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2025-02-19",
+  "cert_last_seen": "2026-02-25",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure) | DNS NXDOMAIN"
+ },
+ {
+  "host": "ssix-a5.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2025-02-19",
+  "cert_last_seen": "2026-02-25",
+  "resolves": true,
+  "a_records": [
+   "160.96.242.157"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure) | DNS NOERROR"
+ },
+ {
+  "host": "www.ssix-a5.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2025-02-19",
+  "cert_last_seen": "2026-02-25",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure) | DNS NXDOMAIN"
+ },
+ {
+  "host": "ssix-a6.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2025-02-19",
+  "cert_last_seen": "2026-02-25",
+  "resolves": true,
+  "a_records": [
+   "160.96.242.158"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure) | DNS NOERROR"
+ },
+ {
+  "host": "www.ssix-a6.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2025-02-19",
+  "cert_last_seen": "2026-02-25",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure) | DNS NXDOMAIN"
+ },
+ {
+  "host": "ssix-b1.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2025-02-19",
+  "cert_last_seen": "2026-02-25",
+  "resolves": true,
+  "a_records": [
+   "160.96.242.168"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure) | DNS NOERROR"
+ },
+ {
+  "host": "www.ssix-b1.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2025-02-19",
+  "cert_last_seen": "2026-02-25",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure) | DNS NXDOMAIN"
+ },
+ {
+  "host": "ssix-b2.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2025-02-19",
+  "cert_last_seen": "2026-02-25",
+  "resolves": true,
+  "a_records": [
+   "160.96.242.169"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure) | DNS NOERROR"
+ },
+ {
+  "host": "www.ssix-b2.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2025-02-19",
+  "cert_last_seen": "2026-02-25",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure) | DNS NXDOMAIN"
+ },
+ {
+  "host": "ssix-b3.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2025-02-19",
+  "cert_last_seen": "2026-02-25",
+  "resolves": true,
+  "a_records": [
+   "160.96.242.170"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure) | DNS NOERROR"
+ },
+ {
+  "host": "www.ssix-b3.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2025-02-19",
+  "cert_last_seen": "2026-02-25",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure) | DNS NXDOMAIN"
+ },
+ {
+  "host": "ssix-b4.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2025-02-19",
+  "cert_last_seen": "2026-02-25",
+  "resolves": true,
+  "a_records": [
+   "160.96.242.171"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure) | DNS NOERROR"
+ },
+ {
+  "host": "www.ssix-b4.csa.gov.sg",
+  "registrable_domain": "csa.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2025-02-19",
+  "cert_last_seen": "2026-02-25",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "one of 10 'ssix-*' sites (Sectigo DV certs 2025-01..2026-03; likely exercise/test infrastructure) | DNS NXDOMAIN"
+ },
+ {
+  "host": "www.gosafeonline.sg",
+  "registrable_domain": "gosafeonline.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2012-04-14",
+  "cert_last_seen": "2026-08-28",
+  "resolves": true,
+  "a_records": [
+   "18.138.108.8",
+   "18.136.36.203",
+   "18.139.47.66"
+  ],
+  "http_status": 200,
+  "title": "Tips & Resources | Cyber Security Agency of Singapore",
+  "scam_relevant": "yes",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "legacy CSA GoSafeOnline cyber-hygiene/scam-awareness portal (content now at www.csa.gov.sg/GoSafeOnline); Amazon certs 2012-04..2026-08 | root GET -> https://www.csa.gov.sg/resources/tips-and-resources/ (via 301) | DNS NOERROR"
+ },
+ {
+  "host": "gosafeonline.sg",
+  "registrable_domain": "gosafeonline.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2012-04-14",
+  "cert_last_seen": "2026-08-28",
+  "resolves": true,
+  "a_records": [
+   "18.136.36.203",
+   "18.138.108.8",
+   "18.139.47.66"
+  ],
+  "http_status": 200,
+  "title": "Tips & Resources | Cyber Security Agency of Singapore",
+  "scam_relevant": "yes",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "apex of legacy GoSafeOnline | root GET -> https://www.csa.gov.sg/resources/tips-and-resources/ (via 301) | DNS NOERROR"
+ },
+ {
+  "host": "singcert.org.sg",
+  "registrable_domain": "singcert.org.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2014-04-23",
+  "cert_last_seen": "2022-11-05",
+  "resolves": null,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "maybe",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "legacy SingCERT domain (cPanel/Entrust certs 2014..2022-11); cPanel service names collapsed here | DNS TIMEOUT (unknown, not treated as non-resolving)"
+ },
+ {
+  "host": "www.singcert.org.sg",
+  "registrable_domain": "singcert.org.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2014-04-23",
+  "cert_last_seen": "2022-11-05",
+  "resolves": null,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "maybe",
+  "owner_entity_id": "csa.gov.sg",
+  "notes": "legacy SingCERT www; certs end 2022-11 | DNS TIMEOUT (unknown, not treated as non-resolving)"
+ },
+ {
+  "host": "eservices.police.gov.sg",
+  "registrable_domain": "police.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2018-04-23",
+  "cert_last_seen": "2024-04-11",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "maybe",
+  "owner_entity_id": "police.gov.sg",
+  "notes": "original e-services host; certs end 2024-04 (superseded by eservices1-5); police e-report portal family (www.<name> alias also in CT; sit/uat/qa/stg variants omitted). No scam-named hosts among 127 police.gov.sg CT names (crt.sh %.police.gov.sg 2026-11-26) | DNS NXDOMAIN"
+ },
+ {
+  "host": "eservices2.police.gov.sg",
+  "registrable_domain": "police.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2021-04-23",
+  "cert_last_seen": "2026-09-27",
+  "resolves": true,
+  "a_records": [
+   "207.192.165.20"
+  ],
+  "http_status": 200,
+  "title": "SPF | E-services",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "police.gov.sg",
+  "notes": "SPF e-services cluster 2; police e-report portal family (www.<name> alias also in CT; sit/uat/qa/stg variants omitted). No scam-named hosts among 127 police.gov.sg CT names (crt.sh %.police.gov.sg 2026-11-26) | root GET -> https://www.police.gov.sg/E-Services (via 301,301) | DNS NOERROR"
+ },
+ {
+  "host": "eservices3.police.gov.sg",
+  "registrable_domain": "police.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2022-05-31",
+  "cert_last_seen": "2024-06-04",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "maybe",
+  "owner_entity_id": "police.gov.sg",
+  "notes": "SPF e-services cluster 3; certs end 2024-06; police e-report portal family (www.<name> alias also in CT; sit/uat/qa/stg variants omitted). No scam-named hosts among 127 police.gov.sg CT names (crt.sh %.police.gov.sg 2026-11-26) | DNS NXDOMAIN"
+ },
+ {
+  "host": "eservices4.police.gov.sg",
+  "registrable_domain": "police.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2024-01-22",
+  "cert_last_seen": "2025-12-22",
+  "resolves": true,
+  "a_records": [
+   "207.192.165.12"
+  ],
+  "http_status": 200,
+  "title": "SPF | E-services",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "police.gov.sg",
+  "notes": "SPF e-services cluster 4; police e-report portal family (www.<name> alias also in CT; sit/uat/qa/stg variants omitted). No scam-named hosts among 127 police.gov.sg CT names (crt.sh %.police.gov.sg 2026-11-26) | root GET -> https://www.police.gov.sg/E-Services (via 301,301) | DNS NOERROR"
+ },
+ {
+  "host": "eservices5.police.gov.sg",
+  "registrable_domain": "police.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2024-01-23",
+  "cert_last_seen": "2026-01-05",
+  "resolves": true,
+  "a_records": [
+   "207.192.165.34"
+  ],
+  "http_status": 200,
+  "title": "SPF | E-services",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "police.gov.sg",
+  "notes": "SPF e-services cluster 5; police e-report portal family (www.<name> alias also in CT; sit/uat/qa/stg variants omitted). No scam-named hosts among 127 police.gov.sg CT names (crt.sh %.police.gov.sg 2026-11-26) | root GET -> https://www.police.gov.sg/e-services (via 302) | DNS NOERROR"
+ },
+ {
+  "host": "phishing.sg",
+  "registrable_domain": "phishing.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2023-05-16",
+  "cert_last_seen": "2026-10-13",
+  "resolves": true,
+  "a_records": [
+   "172.67.129.251",
+   "104.21.3.6"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "maybe",
+  "owner_entity_id": null,
+  "notes": "owner unknown (no web-search hits); Cloudflare; subdomains read./resources./www. active to 2026-10; could be a phishing-awareness/simulation vendor; not visited (non-official) | DNS NOERROR"
+ },
+ {
+  "host": "www.phishing.sg",
+  "registrable_domain": "phishing.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2023-05-16",
+  "cert_last_seen": "2026-10-12",
+  "resolves": true,
+  "a_records": [
+   "172.67.129.251",
+   "104.21.3.6"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "maybe",
+  "owner_entity_id": null,
+  "notes": "owner unknown; not visited (non-official) | DNS NOERROR"
+ },
+ {
+  "host": "read.phishing.sg",
+  "registrable_domain": "phishing.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2023-05-25",
+  "cert_last_seen": "2026-09-30",
+  "resolves": true,
+  "a_records": [
+   "185.2.150.182"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "maybe",
+  "owner_entity_id": null,
+  "notes": "owner unknown; not visited (non-official) | DNS NOERROR"
+ },
+ {
+  "host": "resources.phishing.sg",
+  "registrable_domain": "phishing.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2023-05-24",
+  "cert_last_seen": "2026-07-15",
+  "resolves": true,
+  "a_records": [
+   "104.21.3.6",
+   "172.67.129.251"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "maybe",
+  "owner_entity_id": null,
+  "notes": "owner unknown; not visited (non-official) | DNS NOERROR"
+ },
+ {
+  "host": "cybersafe.sg",
+  "registrable_domain": "cybersafe.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2021-02-07",
+  "cert_last_seen": "2026-08-18",
+  "resolves": true,
+  "a_records": [
+   "104.21.25.159",
+   "172.67.134.93"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "maybe",
+  "owner_entity_id": null,
+  "notes": "owner unknown; cPanel/Cloudflare, earlier staged at cybersafe.sg.ewr.com.sg (SG web agency); subdomains old./sm./sm-dev. + cPanel service names; not visited (non-official) | DNS NOERROR"
+ },
+ {
+  "host": "www.cybersafe.sg",
+  "registrable_domain": "cybersafe.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2021-02-07",
+  "cert_last_seen": "2026-07-21",
+  "resolves": true,
+  "a_records": [
+   "104.21.25.159",
+   "172.67.134.93"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "maybe",
+  "owner_entity_id": null,
+  "notes": "owner unknown; not visited | DNS NOERROR"
+ },
+ {
+  "host": "checkscam.sg",
+  "registrable_domain": "checkscam.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2023-06-26",
+  "cert_last_seen": "2023-06-26",
+  "resolves": false,
+  "a_records": [],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "maybe",
+  "owner_entity_id": null,
+  "notes": "owner unknown; only LE certs 2023-06 (+wildcard); NXDOMAIN now -> retired/lapsed registration | DNS NXDOMAIN"
+ },
+ {
+  "host": "www.checkmate.sg",
+  "registrable_domain": "checkmate.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2022-08-18",
+  "cert_last_seen": "2026-08-24",
+  "resolves": true,
+  "a_records": [
+   "104.20.30.175",
+   "172.66.172.68"
+  ],
+  "http_status": 200,
+  "title": "CheckMate - Making checking easy",
+  "scam_relevant": "yes",
+  "owner_entity_id": "checkmate.sg",
+  "notes": "CheckMate (volunteer, NOT official); CheckMate site (www) | DNS NOERROR"
+ },
+ {
+  "host": "scam-game.checkmate.sg",
+  "registrable_domain": "checkmate.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2026-10-03",
+  "cert_last_seen": "2026-10-03",
+  "resolves": true,
+  "a_records": [
+   "172.66.172.68",
+   "104.20.30.175"
+  ],
+  "http_status": 200,
+  "title": "Sign in ・ Cloudflare Access",
+  "scam_relevant": "yes",
+  "owner_entity_id": "checkmate.sg",
+  "notes": "CheckMate (volunteer, NOT official); scam-awareness game (+wildcard), single cert 2026-10-03 - new | root GET -> https://checkmatesg.cloudflareaccess.com/cdn-cgi/access/login/scam-game.checkmate.sg?kid=fc861dfeffef1c9ba4fe202a6dee14cd6a36f1c793d55db523770e61b4850d58&meta=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImQ5YzYxYWE3ZjhlNzkzMTUyNDMxM2U3MDgwMTk3NDgyOWM5ZDI5MTE4ODYxOTZiZjUzOWM5NGQwYWUzYzliMzUifQ.eyJ0eXBlIjoibWV0YSIsImF1ZCI6ImZjODYxZGZlZmZlZjFjOWJhNGZlMjAyYTZkZWUxNGNkNmEzNmYxYzc5M2Q1NWRiNTIzNzcwZTYxYjQ4NTBkNTgiLCJob3N0bmFtZSI6InNjYW0tZ2FtZS5jaGVja21hdGUuc2ciLCJyZWRpcmVjdF91cmwiOiIvIiwic2VydmljZV90b2tlbl9zdGF0dXMiOmZhbHNlLCJpc193YXJwIjpmYWxzZSwiaXNfZ2F0ZXdheSI6ZmFsc2UsImV4cCI6MTc5NTY2NTM3MSwibmJmIjoxNzk1NjY1MDcxLCJpYXQiOjE3OTU2NjUwNzEsImF1dGhfc3RhdHVzIjoiTk9ORSIsIm10bHNfYXV0aCI6eyJjZXJ0X2lzc3Vlcl9kbiI6IiIsImNlcnRfc2VyaWFsIjoiIiwiY2VydF9pc3N1ZXJfc2tpIjoiIiwiY2VydF9wcmVzZW50ZWQiOmZhbHNlLCJjb21tb25fbmFtZSI6IiIsImF1dGhfc3RhdHVzIjoiTk9ORSJ9LCJyZWFsX2NvdW50cnkiOiJTRyIsImFwcF9zZXNzaW9uX2hhc2giOiI1ZDkzN2Y4NzdjMDI3MjRmMWE5Yzk2Y2U1M2U5YzAxMmQ0NDI5OTNhNWNlNTg2ZjkyMmY4YTZhMTQ0ZTcyMWVkIn0.Nz-D9I93-JhPgIz4moN7Lw1wX8yN3n_fP1MzAUZBo6OE0xsbzddpeLQeOET67QzhKVmn88Jojtq0VUw1LC1JHJhrj_WHSKCKCT7gisUv9LfH2cypdlWideesvUGdRtRrr4bAtEPdD8038f96sdSI7p_xZ9hqn30u3L0SRomLMzWlhWJNv96y9r6jCugrZMW2tBuCjGegOp5czW7Lg8FnHpWXEeE15Gmpwz1wkaQLySNJ56ydnWpgBxHkeKvLgAf6NcSHGmBIM7I5e_eSuirzDacrJB2S6tE7XjrP7aMlqVzzH_pyBqH6Pr66mb07mRaiZUqS5H3SEjECjCiozM8MDQ&redirect_url=%2F (via 302) | DNS NOERROR"
+ },
+ {
+  "host": "game.checkmate.sg",
+  "registrable_domain": "checkmate.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2026-07-18",
+  "cert_last_seen": "2026-07-18",
+  "resolves": true,
+  "a_records": [
+   "104.20.30.175",
+   "172.66.172.68"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "maybe",
+  "owner_entity_id": "checkmate.sg",
+  "notes": "CheckMate (volunteer, NOT official); game host (+wildcard), cert 2026-07 | DNS NOERROR"
+ },
+ {
+  "host": "search.checkmate.sg",
+  "registrable_domain": "checkmate.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2026-02-15",
+  "cert_last_seen": "2026-08-12",
+  "resolves": true,
+  "a_records": [
+   "172.66.172.68",
+   "104.20.30.175"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "maybe",
+  "owner_entity_id": "checkmate.sg",
+  "notes": "CheckMate (volunteer, NOT official); search of checked messages? certs 2026-02..2026-08 | DNS NOERROR"
+ },
+ {
+  "host": "checkers.checkmate.sg",
+  "registrable_domain": "checkmate.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2023-08-19",
+  "cert_last_seen": "2026-07-27",
+  "resolves": true,
+  "a_records": [
+   "172.66.172.68",
+   "104.20.30.175"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "maybe",
+  "owner_entity_id": "checkmate.sg",
+  "notes": "CheckMate (volunteer, NOT official); volunteer checkers portal | DNS NOERROR"
+ },
+ {
+  "host": "accounts.cpf.checkmate.sg",
+  "registrable_domain": "checkmate.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2025-11-29",
+  "cert_last_seen": "2026-09-20",
+  "resolves": true,
+  "a_records": [
+   "104.18.34.146",
+   "172.64.153.110"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "maybe",
+  "owner_entity_id": "checkmate.sg",
+  "notes": "CheckMate (volunteer, NOT official); 'cpf' tenant (accounts/clerk + cpf.staging) certs 2025-11..2026-09 - possibly a CPF-focused deployment; unverified | DNS NOERROR CNAME accounts.clerk.services -> worker.clerkprod-cloudflare.net"
+ },
+ {
+  "host": "smsregistry.sg",
+  "registrable_domain": "smsregistry.sg",
+  "discovered_via": "certspotter",
+  "cert_first_seen": null,
+  "cert_last_seen": "2026-07-18",
+  "resolves": true,
+  "a_records": [
+   "13.35.202.67",
+   "13.35.202.49",
+   "13.35.202.126",
+   "13.35.202.53"
+  ],
+  "http_status": 200,
+  "title": "SMS Registry",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "sgnic.sg",
+  "notes": "Singapore SMS Sender ID Registry (SGNIC/IMDA): public list of organisations with registered sender IDs at /web/org/public-listing (allowlist vs SMS spoofing). crt.sh 502 x2 on 2026-11-26; certspotter (current certs only): apex + *.smsregistry.sg 2026-07, feature./staging./testing. envs | root GET -> https://smsregistry.sg/web/login (via 302,302) | DNS NOERROR"
+ },
+ {
+  "host": "www.osc.gov.sg",
+  "registrable_domain": "osc.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2026-05-14",
+  "cert_last_seen": "2026-06-26",
+  "resolves": true,
+  "a_records": [
+   "99.86.18.64",
+   "99.86.18.45",
+   "99.86.18.104",
+   "99.86.18.97"
+  ],
+  "http_status": 200,
+  "title": "Home | Online Safety Commission",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "osc.gov.sg",
+  "notes": "Online Safety Commission site (online-harms relief; overlaps impersonation, not scam-specific); found via guessed-zone CT query; preprod-/uat-report, osc-int* omitted | DNS NOERROR CNAME osc-gov-sg.hostedon.isomer.gov.sg"
+ },
+ {
+  "host": "report.osc.gov.sg",
+  "registrable_domain": "osc.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2026-04-21",
+  "cert_last_seen": "2026-08-17",
+  "resolves": true,
+  "a_records": [
+   "104.21.52.51",
+   "172.67.195.146"
+  ],
+  "http_status": 200,
+  "title": "Report a Harm",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "osc.gov.sg",
+  "notes": "OSC online-harms report portal (certs from 2026-04); found via guessed-zone CT query; preprod-/uat-report, osc-int* omitted | DNS NOERROR CNAME report.osc.gov.sg.00diw0000016fed2aq.live.siteforce.com -> report.osc.gov.sg.00diw0000016fed2aq.live.siteforce.com.cdn.cloudflare.net"
+ },
+ {
+  "host": "osc.gov.sg",
+  "registrable_domain": "osc.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2026-06-27",
+  "cert_last_seen": "2026-08-28",
+  "resolves": true,
+  "a_records": [
+   "18.138.108.8",
+   "18.139.47.66",
+   "18.136.36.203"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "maybe",
+  "owner_entity_id": "osc.gov.sg",
+  "notes": "apex; found via guessed-zone CT query; preprod-/uat-report, osc-int* omitted | DNS NOERROR"
+ },
+ {
+  "host": "www.dnc.gov.sg",
+  "registrable_domain": "dnc.gov.sg",
+  "discovered_via": "crt.sh",
+  "cert_first_seen": "2013-10-04",
+  "cert_last_seen": "2026-07-01",
+  "resolves": true,
+  "a_records": [
+   "118.215.83.45"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "pdpc.gov.sg",
+  "notes": "Do Not Call Registry (telemarketing opt-out), checked via guessed-zone CT query; not a scam-info source; portal.dnc.gov.sg also in CT | DNS NOERROR"
+ },
+ {
+  "host": "scamsexposed-cf.app.optical.gov.sg",
+  "registrable_domain": "optical.gov.sg",
+  "discovered_via": "link",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "65.9.168.54",
+   "65.9.168.15",
+   "65.9.168.94",
+   "65.9.168.107"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "icanactagainstscams.gov.sg",
+  "notes": "CNAME target of www.icanactagainstscams.gov.sg (DNS); hosting alias revealing internal project codename 'scamsexposed'; not a separate site, no GET | DNS NOERROR"
+ },
+ {
+  "host": "scamsexposed-cf.staging.optical.gov.sg",
+  "registrable_domain": "optical.gov.sg",
+  "discovered_via": "link",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "13.35.238.84",
+   "13.35.238.128",
+   "13.35.238.26",
+   "13.35.238.59"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "icanactagainstscams.gov.sg",
+  "notes": "CNAME target of stg.icanactagainstscams.gov.sg (DNS); hosting alias revealing internal project codename 'scamsexposed'; not a separate site, no GET | DNS NOERROR"
+ },
+ {
+  "host": "p-gvt-gasp-scamsexposed.on.tc2.airbase.tech.gov.sg",
+  "registrable_domain": "tech.gov.sg",
+  "discovered_via": "link",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "13.35.163.82",
+   "13.35.163.79",
+   "13.35.163.8",
+   "13.35.163.44"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "icanactagainstscams.gov.sg",
+  "notes": "CNAME target of www.beta.icanactagainstscams.gov.sg (DNS); hosting alias revealing internal project codename 'scamsexposed'; not a separate site, no GET | DNS NOERROR"
+ },
+ {
+  "host": "s-gvt-gasp-scamsexposed.on.tc2.airbase.tech.gov.sg",
+  "registrable_domain": "tech.gov.sg",
+  "discovered_via": "link",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "99.86.18.50",
+   "99.86.18.79",
+   "99.86.18.108",
+   "99.86.18.5"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "icanactagainstscams.gov.sg",
+  "notes": "CNAME target of www.stg.icanactagainstscams.gov.sg (DNS); hosting alias revealing internal project codename 'scamsexposed'; not a separate site, no GET | DNS NOERROR"
+ },
+ {
+  "host": "www.activehealth.sg",
+  "registrable_domain": "activehealth.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "199.60.103.226",
+   "199.60.103.30"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "activehealth.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: ActiveHealth; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME 6212555.group5.sites.hubspot.net -> group5.sites.hscoscdn00.net"
+ },
+ {
+  "host": "www.artweek.sg",
+  "registrable_domain": "artweek.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "99.86.18.58",
+   "99.86.18.117",
+   "99.86.18.18",
+   "99.86.18.52"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "artweek.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: Artweek.sg; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME d2h36xqoaciln9.cloudfront.net"
+ },
+ {
+  "host": "www.aseanip.org",
+  "registrable_domain": "aseanip.org",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "104.16.4.14"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "aseanip.org",
+  "notes": "gov.sg Trusted Sites list (Table 1: ASEAN IP Portal; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "dsta.x0pa.ai",
+  "registrable_domain": "x0pa.ai",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "13.215.239.219",
+   "52.74.6.109"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "dsta.gov.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: DSTA Talent Outreach & Acquisition Application; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source; vendor/third-party-hosted, owner inferred from list entry name | DNS NOERROR CNAME xdsta.netlify.app"
+ },
+ {
+  "host": "www.familiesforlife.sg",
+  "registrable_domain": "familiesforlife.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "45.60.36.30"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "familiesforlife.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: Families for Life; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME 2uz9hv2.ng.impervadns.net"
+ },
+ {
+  "host": "www.forwardsingapore.gov.sg",
+  "registrable_domain": "forwardsingapore.gov.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "3.165.75.111",
+   "3.165.75.7",
+   "3.165.75.69",
+   "3.165.75.54"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "forwardsingapore.gov.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: Forward Singapore; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME forwardsingapore-gov-sg.hostedon.isomer.gov.sg"
+ },
+ {
+  "host": "fulcrum.sg",
+  "registrable_domain": "fulcrum.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "52.128.22.42"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "fulcrum.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: Fulcrum.sg; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "www.healthhub.sg",
+  "registrable_domain": "healthhub.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "150.171.110.106"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "healthhub.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: HealthHub; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME hub73ae83e20eae-prod-frontdoor-endpoint-gcaja5h4esb6gugw.a01.azurefd.net -> mr-a01.tm-azurefd.net"
+ },
+ {
+  "host": "www.elitigation.sg",
+  "registrable_domain": "elitigation.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "65.9.168.41",
+   "65.9.168.56",
+   "65.9.168.117",
+   "65.9.168.94"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "elitigation.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: Integrated Electronic Litigation system; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME www.aws-elit.elitigation.sg"
+ },
+ {
+  "host": "www.bilingualism.sg",
+  "registrable_domain": "bilingualism.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "3.165.75.32",
+   "3.165.75.92",
+   "3.165.75.9",
+   "3.165.75.87"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "bilingualism.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: Lee Kuan Yew Fund for Bilingualism; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME bilingualism-sg.hostedon.isomer.gov.sg"
+ },
+ {
+  "host": "www.activesgcircle.gov.sg",
+  "registrable_domain": "activesgcircle.gov.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "199.60.103.226",
+   "199.60.103.30"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "activesgcircle.gov.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: MyActiveSG; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME 6212555.group5.sites.hubspot.net -> group5.sites.hscoscdn00.net"
+ },
+ {
+  "host": "www.nlb.gov.sg",
+  "registrable_domain": "nlb.gov.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "3.171.198.5",
+   "3.171.198.43",
+   "3.171.198.55",
+   "3.171.198.123"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "nlb.gov.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: National Library Online; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME www.prod.nlb.gov.sg"
+ },
+ {
+  "host": "www.ns.gov.sg",
+  "registrable_domain": "ns.gov.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "3.165.75.77",
+   "3.165.75.79",
+   "3.165.75.76",
+   "3.165.75.48"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "ns.gov.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: NS Portal; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME d17rfrbdwtd1bj.cloudfront.net"
+ },
+ {
+  "host": "www.parking.sg",
+  "registrable_domain": "parking.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "13.33.88.17",
+   "13.33.88.19",
+   "13.33.88.2",
+   "13.33.88.31"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "parking.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: Parking.sg; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME parking-sg.hostedon.isomer.gov.sg"
+ },
+ {
+  "host": "www.sentosa.com.sg",
+  "registrable_domain": "sentosa.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "45.60.83.209"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "sentosa.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: Sentosa; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME 5tk4ivw.ng.impervadns.net"
+ },
+ {
+  "host": "www.digitalgateway.sg",
+  "registrable_domain": "digitalgateway.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "18.138.108.8",
+   "18.139.47.66",
+   "18.136.36.203"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "digitalgateway.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: Singapore Digital Gateway; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "www.singaporeopportunityindex.sg",
+  "registrable_domain": "singaporeopportunityindex.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "65.9.168.105",
+   "65.9.168.127",
+   "65.9.168.34",
+   "65.9.168.62"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "singaporeopportunityindex.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: Singapore Opportunity Index; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME d1d1zvwasu6xf6.cloudfront.net"
+ },
+ {
+  "host": "www.sportsync.gov.sg",
+  "registrable_domain": "sportsync.gov.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "52.128.22.101"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "sportsync.gov.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: SportSync; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "www.sysnmh.org.sg",
+  "registrable_domain": "sysnmh.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "108.157.254.61",
+   "108.157.254.21",
+   "108.157.254.66",
+   "108.157.254.113"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "sysnmh.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: Sun Yat Sen Nanyang Memorial Hall; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME p-mccy-nhb-sysnmh.on.tc2.airbase.tech.gov.sg"
+ },
+ {
+  "host": "sleb.sg",
+  "registrable_domain": "sleb.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "104.21.16.65",
+   "172.67.166.183"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "sleb.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: Super Low Energy Building (SLEB); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "www.teamsingapore.sg",
+  "registrable_domain": "teamsingapore.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "199.60.103.30",
+   "199.60.103.226"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "teamsingapore.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: Team Singapore; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME 6212555.group5.sites.hubspot.net -> group5.sites.hscoscdn00.net"
+ },
+ {
+  "host": "tradetrust.io",
+  "registrable_domain": "tradetrust.io",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "18.139.47.66",
+   "18.136.36.203",
+   "18.138.108.8"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "tradetrust.io",
+  "notes": "gov.sg Trusted Sites list (Table 1: TradeTrust; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "www.tal.sg",
+  "registrable_domain": "tal.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "150.171.110.105"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "tal.sg",
+  "notes": "gov.sg Trusted Sites list (Table 1: Tripartite Alliance Limited; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME hube4353f1277aa-prod-frontdoor-endpoint-aje3frdwb8g8gchv.a03.azurefd.net -> mr-a03.tm-azurefd.net"
+ },
+ {
+  "host": "www.visitsingapore.com",
+  "registrable_domain": "visitsingapore.com",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "45.60.159.114"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "visitsingapore.com",
+  "notes": "gov.sg Trusted Sites list (Table 1: VisitSingapore; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME ff29egs.ng.impervadns.net"
+ },
+ {
+  "host": "www.ktph.com.sg",
+  "registrable_domain": "ktph.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "104.18.43.228",
+   "172.64.144.28"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "ktph.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: Admiralty Medical Centre - Khoo Teck Puat Hospital; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "www.aic.sg",
+  "registrable_domain": "aic.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "64.239.109.1"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "aic.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: Agency for Integrated Care (AIC); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME aic.sg"
+ },
+ {
+  "host": "www.ah.com.sg",
+  "registrable_domain": "ah.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "172.64.153.174",
+   "104.18.34.82"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "ah.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: Alexandra Hospital; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "www.imh.com.sg",
+  "registrable_domain": "imh.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "104.18.43.21",
+   "172.64.144.235"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "imh.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: Institute of Mental Health (IMH); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "www.jch.com.sg",
+  "registrable_domain": "jch.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "104.16.4.14"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "jch.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: Jurong Community Hospital; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME jch.com.sg"
+ },
+ {
+  "host": "www.kkh.com.sg",
+  "registrable_domain": "kkh.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "199.232.115.10"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "kkh.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: KK Women's and Children's Hospital; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME cdn.adobeaemcloud.com -> adobe-aem.map.fastly.net"
+ },
+ {
+  "host": "www.mohh.com.sg",
+  "registrable_domain": "mohh.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "104.18.34.115",
+   "172.64.153.141"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "mohh.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: MOH Holdings (MOHH); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "www.moht.com.sg",
+  "registrable_domain": "moht.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "65.9.168.120",
+   "65.9.168.56",
+   "65.9.168.49",
+   "65.9.168.96"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "moht.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: MOH Office for Healthcare Transformation; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME moht-com-sg.hostedon.isomer.gov.sg"
+ },
+ {
+  "host": "www.nccs.com.sg",
+  "registrable_domain": "nccs.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "199.232.115.10"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "nccs.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: National Cancer Centre Singapore; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME cdn.adobeaemcloud.com -> adobe-aem.map.fastly.net"
+ },
+ {
+  "host": "www.ndcs.com.sg",
+  "registrable_domain": "ndcs.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "140.248.131.10"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "ndcs.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: National Dental Centre Singapore (NDCS); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME cdn.adobeaemcloud.com -> adobe-aem.map.fastly.net"
+ },
+ {
+  "host": "corp.nhg.com.sg",
+  "registrable_domain": "nhg.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "172.64.144.250",
+   "104.18.43.6"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "nhg.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: National Healthcare Group (NHG); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "www.nhgp.com.sg",
+  "registrable_domain": "nhgp.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "104.18.38.100",
+   "172.64.149.156"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "nhgp.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: National Healthcare Group Polyclinics (NHGP); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "www.nhcs.com.sg",
+  "registrable_domain": "nhcs.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "199.232.115.10"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "nhcs.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: National Heart Centre Singapore; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME cdn.adobeaemcloud.com -> adobe-aem.map.fastly.net"
+ },
+ {
+  "host": "www.nni.com.sg",
+  "registrable_domain": "nni.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "199.232.115.10"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "nni.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: National Neuroscience Institute (NNI); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME cdn.adobeaemcloud.com -> adobe-aem.map.fastly.net"
+ },
+ {
+  "host": "www.nsc.com.sg",
+  "registrable_domain": "nsc.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "104.18.37.146",
+   "172.64.150.110"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "nsc.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: National Skin Centre; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "www.ncis.com.sg",
+  "registrable_domain": "ncis.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "104.16.4.14"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "ncis.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: National University Cancer Institute, Singapore; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "www.nucohs.com.sg",
+  "registrable_domain": "nucohs.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "172.64.151.75",
+   "104.18.36.181"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "nucohs.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: National University Centre for Oral Health, Singapore (NUCOHS); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "www.nuhs.edu.sg",
+  "registrable_domain": "nuhs.edu.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "104.16.212.134"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "nuhs.edu.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: National University Health System (NUHS); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME nuhs.edu.sg"
+ },
+ {
+  "host": "www.nuhcs.com.sg",
+  "registrable_domain": "nuhcs.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "172.64.154.235",
+   "104.18.33.21"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "nuhcs.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: National University Heart Centre, Singapore; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "www.nuh.com.sg",
+  "registrable_domain": "nuh.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "104.16.4.14"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "nuh.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: National University Hospital (NUH); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME nuh.com.sg"
+ },
+ {
+  "host": "www.nup.com.sg",
+  "registrable_domain": "nup.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "172.64.154.162",
+   "104.18.33.94"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "nup.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: National University Polyclinics; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "www.ntfgh.com.sg",
+  "registrable_domain": "ntfgh.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "104.16.4.14"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "ntfgh.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: Ng Teng Fong General Hospital (NTFGH); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME ntfgh.com.sg"
+ },
+ {
+  "host": "www.skh.com.sg",
+  "registrable_domain": "skh.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "199.232.115.10"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "skh.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: Sengkang General Hospital; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME cdn.adobeaemcloud.com -> adobe-aem.map.fastly.net"
+ },
+ {
+  "host": "www.sgh.com.sg",
+  "registrable_domain": "sgh.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "199.232.115.10"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "sgh.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: Singapore General Hospital; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME cdn.adobeaemcloud.com -> adobe-aem.map.fastly.net"
+ },
+ {
+  "host": "www.snec.com.sg",
+  "registrable_domain": "snec.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "199.232.115.10"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "snec.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: Singapore National Eye Centre (SNEC); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME cdn.adobeaemcloud.com -> adobe-aem.map.fastly.net"
+ },
+ {
+  "host": "www.singhealth.com.sg",
+  "registrable_domain": "singhealth.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "199.232.115.10"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "singhealth.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: SingHealth; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME cdn.adobeaemcloud.com -> adobe-aem.map.fastly.net"
+ },
+ {
+  "host": "www.ttsh.com.sg",
+  "registrable_domain": "ttsh.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "172.64.151.232",
+   "104.18.36.24"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "ttsh.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: Tan Tock Seng Hospital (TTSH); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "www.yishuncommunityhospital.com.sg",
+  "registrable_domain": "yishuncommunityhospital.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "104.18.39.29",
+   "172.64.148.227"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "yishuncommunityhospital.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 2: Yishun Community Hospital; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "www.ahtc.sg",
+  "registrable_domain": "ahtc.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "23.106.50.19"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "ahtc.sg",
+  "notes": "gov.sg Trusted Sites list (Table 3: Aljunied-Hougang Town Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "www.amktc.org.sg",
+  "registrable_domain": "amktc.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "192.124.249.162"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "amktc.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 3: Ang Mo Kio Town Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME amktc.org.sg"
+ },
+ {
+  "host": "www.btptc.org.sg",
+  "registrable_domain": "btptc.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "192.124.249.8"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "btptc.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 3: Bishan-Toa Payoh Town Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "www.ccktc.org.sg",
+  "registrable_domain": "ccktc.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "51.79.149.160"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "ccktc.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 3: Chua Chu Kang Town Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME ccktc.org.sg"
+ },
+ {
+  "host": "ectc.org.sg",
+  "registrable_domain": "ectc.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "192.124.249.115"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "ectc.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 3: East Coast Town Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "www.hbptc.org.sg",
+  "registrable_domain": "hbptc.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "47.236.56.151"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "hbptc.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 3: Holland-Bukit Panjang Town Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "www.jbtc.org.sg",
+  "registrable_domain": "jbtc.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "35.213.180.104"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "jbtc.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 3: Jalan Besar Town Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "www.jktc.org.sg",
+  "registrable_domain": "jktc.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "192.124.249.120"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "jktc.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 3: Jalan Kayu Town Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME jktc.org.sg"
+ },
+ {
+  "host": "www.jrbbtc.org.sg",
+  "registrable_domain": "jrbbtc.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "192.124.249.64"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "jrbbtc.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 3: Jurong-Clementi-Bukit Batok Town Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME jrbbtc.org.sg"
+ },
+ {
+  "host": "www.mbtc.org.sg",
+  "registrable_domain": "mbtc.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "103.69.130.180"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "mbtc.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 3: Marine Parade-Braddell Heights Town Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME mbtc.org.sg"
+ },
+ {
+  "host": "www.myttc.org.sg",
+  "registrable_domain": "myttc.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "192.124.249.90"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "myttc.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 3: Marsiling-Yew Tee Town Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME myttc.org.sg"
+ },
+ {
+  "host": "www.nstc.org.sg",
+  "registrable_domain": "nstc.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "119.31.233.90"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "nstc.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 3: Nee Soon Town Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME nstc.org.sg"
+ },
+ {
+  "host": "pasirrischangi-tc.org.sg",
+  "registrable_domain": "pasirrischangi-tc.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "101.100.204.11"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "pasirrischangi-tc.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 3: Pasir Ris-Changi Town Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "punggol-tc.org.sg",
+  "registrable_domain": "punggol-tc.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "35.213.180.104"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "punggol-tc.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 3: Punggol Town Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "www.sbtc.org.sg",
+  "registrable_domain": "sbtc.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "104.26.9.222",
+   "172.67.73.6",
+   "104.26.8.222"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "sbtc.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 3: Sembawang Town Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "www.sktc.sg",
+  "registrable_domain": "sktc.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "3.1.244.130"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "sktc.sg",
+  "notes": "gov.sg Trusted Sites list (Table 3: Sengkang Town Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME sktc.sg"
+ },
+ {
+  "host": "www.tampines.org.sg",
+  "registrable_domain": "tampines.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "192.124.249.118"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "tampines.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 3: Tampines Town Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME tampines.org.sg"
+ },
+ {
+  "host": "www.tptc.org.sg",
+  "registrable_domain": "tptc.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "15.235.229.3"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "tptc.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 3: Tanjong Pagar Town Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME tptc.org.sg"
+ },
+ {
+  "host": "wctc.org.sg",
+  "registrable_domain": "wctc.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "103.69.131.129"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "wctc.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 3: West Coast-Jurong West Town Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "aseangeospatial.org",
+  "registrable_domain": "aseangeospatial.org",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "18.136.36.203",
+   "18.138.108.8",
+   "18.139.47.66"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "aseangeospatial.org",
+  "notes": "gov.sg Trusted Sites list (Table 4: ASEAN GeoSpatial; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "asmc.asean.org",
+  "registrable_domain": "asean.org",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "150.171.110.103"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": null,
+  "notes": "gov.sg Trusted Sites list (Table 4: ASEAN Specialised Meteorological Centre; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source; vendor/third-party-hosted, owner inferred from list entry name | DNS NOERROR CNAME nea1zcommtrafficmgr16.trafficmanager.net -> asmc-asean-org-hfdddzccaeeydtb7.a02.azurefd.net -> mr-a02.tm-azurefd.net"
+ },
+ {
+  "host": "www.aas.com.sg",
+  "registrable_domain": "aas.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "104.26.12.109",
+   "172.67.74.237",
+   "104.26.13.109"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "aas.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: Automobile Association of Singapore; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "info.bbdc.sg",
+  "registrable_domain": "bbdc.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "74.91.221.81"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "bbdc.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: Bukit Batok Driving Centre Pte Ltd (BBDC); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "www.caretogobeyond.sg",
+  "registrable_domain": "caretogobeyond.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "104.18.35.172",
+   "172.64.152.84"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "caretogobeyond.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: Care To Go Beyond; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "ingeus.com.sg",
+  "registrable_domain": "ingeus.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "20.213.174.40"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "ingeus.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: Career Matching Provider; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "www.chas.sg",
+  "registrable_domain": "chas.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "64.239.123.1",
+   "64.239.109.1"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "chas.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: Community Health Assist Scheme (CHAS); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME 80094b2b5eae7fea.vercel-dns-013.com"
+ },
+ {
+  "host": "www.cosem.org.sg",
+  "registrable_domain": "cosem.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "23.108.103.230"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "cosem.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: COSEM Safety & Security Services Pte Ltd; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "www.giving.sg",
+  "registrable_domain": "giving.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "45.60.126.232"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "giving.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: Giving SG; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME krtcxgz.ng.impervadns.net"
+ },
+ {
+  "host": "www.globalfinancialgovernance.org",
+  "registrable_domain": "globalfinancialgovernance.org",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "89.106.200.1"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "globalfinancialgovernance.org",
+  "notes": "gov.sg Trusted Sites list (Table 4: Global Financial Governance; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME edge.redirect.pizza"
+ },
+ {
+  "host": "www.healthcarescholarships.sg",
+  "registrable_domain": "healthcarescholarships.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "104.18.38.166",
+   "172.64.149.90"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "healthcarescholarships.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: Healthcare Scholarship; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "www.ipi-singapore.org",
+  "registrable_domain": "ipi-singapore.org",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "172.67.170.18",
+   "104.21.47.26"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "ipi-singapore.org",
+  "notes": "gov.sg Trusted Sites list (Table 4: Innovation Partner for Impact (IPI); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "www.mlc.sg",
+  "registrable_domain": "mlc.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "13.33.88.55",
+   "13.33.88.101",
+   "13.33.88.63",
+   "13.33.88.12"
+  ],
+  "http_status": 200,
+  "title": "Home | Media Literacy Council",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "mlc.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: Media Literacy Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source; Media Literacy Council publishes online-falsehood/scam literacy material | DNS NOERROR CNAME mlc-sg.hostedon.isomer.gov.sg"
+ },
+ {
+  "host": "www.ncpg.org.sg",
+  "registrable_domain": "ncpg.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "54.251.88.218",
+   "54.151.226.24",
+   "13.251.180.0"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "ncpg.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: National Council on Problem Gambling; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "www.nfec.org.sg",
+  "registrable_domain": "nfec.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "65.9.168.45",
+   "65.9.168.11",
+   "65.9.168.117",
+   "65.9.168.102"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "nfec.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: National Fire and Civil Emergency Preparedness Council (NFEC); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME nfec-org-sg.hostedon.isomer.gov.sg"
+ },
+ {
+  "host": "www.npcc.org.sg",
+  "registrable_domain": "npcc.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "3.165.102.57",
+   "3.165.102.19",
+   "3.165.102.127",
+   "3.165.102.99"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "npcc.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: National Police Cadet Corp (NPCC); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME npcc-org-sg.hostedon.isomer.gov.sg"
+ },
+ {
+  "host": "www.ncada.org.sg",
+  "registrable_domain": "ncada.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "108.157.254.119",
+   "108.157.254.60",
+   "108.157.254.57",
+   "108.157.254.10"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "ncada.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: National Council Against Drug Abuse (NCADA); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME ncada-org-sg.hostedon.isomer.gov.sg"
+ },
+ {
+  "host": "www.publichygienecouncil.sg",
+  "registrable_domain": "publichygienecouncil.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "18.155.68.43",
+   "18.155.68.123",
+   "18.155.68.107",
+   "18.155.68.126"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "publichygienecouncil.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: Public Hygiene Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME publichygienecouncil-sg.hostedon.isomer.gov.sg"
+ },
+ {
+  "host": "rpace.floralms.com",
+  "registrable_domain": "floralms.com",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "69.167.164.228"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "rp.edu.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: RP Online Courses; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source; vendor/third-party-hosted, owner inferred from list entry name | DNS NOERROR CNAME floralms.com"
+ },
+ {
+  "host": "www.sentosacove.com",
+  "registrable_domain": "sentosacove.com",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "99.86.18.107",
+   "99.86.18.105",
+   "99.86.18.94",
+   "99.86.18.63"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "sentosacove.com",
+  "notes": "gov.sg Trusted Sites list (Table 4: Sentosa Cove; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME sentosacove-com.hostedon.isomer.gov.sg"
+ },
+ {
+  "host": "www.sgenable.sg",
+  "registrable_domain": "sgenable.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "13.35.163.53",
+   "13.35.163.21",
+   "13.35.163.51",
+   "13.35.163.7"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "sgenable.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: SG Enable; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME d3iwwi1uxccdtb.cloudfront.net"
+ },
+ {
+  "host": "sce.org.sg",
+  "registrable_domain": "sce.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "103.7.8.230"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "sce.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: Singapore Cooperation Enterprise (SCE); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "www.sfemc.org",
+  "registrable_domain": "sfemc.org",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "3.165.75.104",
+   "3.165.75.64",
+   "3.165.75.92",
+   "3.165.75.119"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "sfemc.org",
+  "notes": "gov.sg Trusted Sites list (Table 4: Singapore Foreign Exchange Market Committee; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME sfemc-org.hostedon.isomer.gov.sg"
+ },
+ {
+  "host": "srsc.org.sg",
+  "registrable_domain": "srsc.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "18.136.36.203",
+   "18.138.108.8",
+   "18.139.47.66"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "srsc.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: Singapore Road Safety Council; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "ssdcl.com.sg",
+  "registrable_domain": "ssdcl.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "172.66.164.140",
+   "104.20.28.115"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "ssdcl.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: Singapore Safety Driving Centre (SSDC); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "www.sgwomenintech.sg",
+  "registrable_domain": "sgwomenintech.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "65.9.168.19",
+   "65.9.168.107",
+   "65.9.168.67",
+   "65.9.168.23"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "sgwomenintech.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: Singapore Women in Tech; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME sgwomenintech-sg.hostedon.isomer.gov.sg"
+ },
+ {
+  "host": "www.searado.com",
+  "registrable_domain": "searado.com",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "99.86.18.38",
+   "99.86.18.105",
+   "99.86.18.125",
+   "99.86.18.19"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "searado.com",
+  "notes": "gov.sg Trusted Sites list (Table 4: Southeast Asia Regional Anti-Doping Organisation (SEARADO); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME searado-com.hostedon.isomer.gov.sg"
+ },
+ {
+  "host": "www.sntc.org.sg",
+  "registrable_domain": "sntc.org.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "104.21.41.49",
+   "172.67.160.171"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "sntc.org.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: Special Needs Trust Company; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "www.synapxe.sg",
+  "registrable_domain": "synapxe.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "104.18.35.130",
+   "172.64.152.126"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "synapxe.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: Synapxe; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "taxacademy.sg",
+  "registrable_domain": "taxacademy.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "18.139.47.66",
+   "18.136.36.203",
+   "18.138.108.8"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "taxacademy.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: Tax Academy of Singapore; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "trustplatform.sg",
+  "registrable_domain": "trustplatform.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "18.136.36.203",
+   "18.139.47.66",
+   "18.138.108.8"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "trustplatform.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: TRUST (Trusted Real-World Utilisation and Sharing Tech); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "www.yri.com.sg",
+  "registrable_domain": "yri.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "101.100.246.47"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "yri.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 4: Yellow Ribbon Industries; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "www.asiatechxsg.com",
+  "registrable_domain": "asiatechxsg.com",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "199.232.114.133"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "asiatechxsg.com",
+  "notes": "gov.sg Trusted Sites list (Table 5: Asia Tech x Singapore; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME d.sni.global.fastly.net"
+ },
+ {
+  "host": "www.ibew.sg",
+  "registrable_domain": "ibew.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "104.18.34.23",
+   "172.64.153.233"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "ibew.sg",
+  "notes": "gov.sg Trusted Sites list (Table 5: International Built Environment Week (IBEW); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME origin.sitebuilder.reds.rxweb-prd.com -> origin.sitebuilder.reds.rxweb-prd.com.cdn.cloudflare.net"
+ },
+ {
+  "host": "www.siww.com.sg",
+  "registrable_domain": "siww.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "99.86.18.33",
+   "99.86.18.58",
+   "99.86.18.72",
+   "99.86.18.57"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "siww.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 5: Singapore International Water Week (SIWW); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME d2bklrckc07hi6.cloudfront.net"
+ },
+ {
+  "host": "www.smw.sg",
+  "registrable_domain": "smw.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "45.60.15.176"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "smw.sg",
+  "notes": "gov.sg Trusted Sites list (Table 5: Singapore Maritime Week; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME mbe3ae4.ng.impervadns.net"
+ },
+ {
+  "host": "switchsg.org",
+  "registrable_domain": "switchsg.org",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "18.138.108.8",
+   "18.139.47.66",
+   "18.136.36.203"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "switchsg.org",
+  "notes": "gov.sg Trusted Sites list (Table 5: Singapore Week of Innovation & Technology (SWITCH); page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "www.singaporewritersfestival.com",
+  "registrable_domain": "singaporewritersfestival.com",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "178.128.23.128"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "singaporewritersfestival.com",
+  "notes": "gov.sg Trusted Sites list (Table 5: Singapore Writers Festival; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME singaporewritersfestival.com"
+ },
+ {
+  "host": "www.worldcitiessummit.com.sg",
+  "registrable_domain": "worldcitiessummit.com.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "13.33.45.128",
+   "13.33.45.3",
+   "13.33.45.57",
+   "13.33.45.55"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "worldcitiessummit.com.sg",
+  "notes": "gov.sg Trusted Sites list (Table 5: World Cities Summit; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR CNAME p-mnd-worldcitiessummit.on.tc2.airbase.tech.gov.sg"
+ },
+ {
+  "host": "go.gov.sg",
+  "registrable_domain": "go.gov.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "104.25.67.101",
+   "104.25.68.101"
+  ],
+  "http_status": 200,
+  "title": "go.gov.sg",
+  "scam_relevant": "maybe",
+  "owner_entity_id": "go.gov.sg",
+  "notes": "gov.sg Trusted Sites list (official short-link bullet) - ALLOWLIST: official Government short-link domain used in scam-verification advice | DNS NOERROR"
+ },
+ {
+  "host": "for.sg",
+  "registrable_domain": "for.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "104.26.12.57",
+   "172.67.72.177",
+   "104.26.13.57"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "for.sg",
+  "notes": "gov.sg Trusted Sites list (short-link bullets: For.sg short link for healthcare institution websites; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "for.edu.sg",
+  "registrable_domain": "for.edu.sg",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "172.67.69.38",
+   "104.26.8.100",
+   "104.26.9.100"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "for.edu.sg",
+  "notes": "gov.sg Trusted Sites list (short-link bullets: For.edu.sg short link for education institution websites; page last updated 6 Nov 2026) - ALLOWLIST entry (official/associated site), not a scam-info source | DNS NOERROR"
+ },
+ {
+  "host": "iali-aiit.org",
+  "registrable_domain": "iali-aiit.org",
+  "discovered_via": "trusted_sites_list",
+  "cert_first_seen": null,
+  "cert_last_seen": null,
+  "resolves": true,
+  "a_records": [
+   "104.37.183.1"
+  ],
+  "http_status": null,
+  "title": null,
+  "scam_relevant": "no",
+  "owner_entity_id": "iali-aiit.org",
+  "notes": "only in GitHub mirror elliotwutingfeng/GovSGTrustedSites allowlist.txt, NOT on current official page (stale?) - ALLOWLIST | DNS NOERROR"
+ }
+]

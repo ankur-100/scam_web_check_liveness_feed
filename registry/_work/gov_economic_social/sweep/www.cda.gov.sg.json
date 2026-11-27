@@ -1,0 +1,31 @@
+{
+ "host": "www.cda.gov.sg",
+ "robots_status": 200,
+ "robots": "User-Agent: *\nAllow: /\nDisallow: /search\n\nSitemap: https://www.cda.gov.sg/sitemap.xml\n",
+ "sitemaps_declared": [
+  "https://www.cda.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  [
+   "https://www.cda.gov.sg/sitemap.xml",
+   "urlset",
+   415,
+   "https://www.cda.gov.sg/sitemap.xml"
+  ]
+ ],
+ "errors": [],
+ "total_urls": 415,
+ "hosts_in_sitemap": {
+  "www.cda.gov.sg": 415
+ },
+ "matches": [
+  [
+   "https://www.cda.gov.sg/resources/health-advisory-for-haj-pilgrims--apr-2026-/",
+   "2026-07-30T17:17:21.607Z"
+  ],
+  [
+   "https://www.cda.gov.sg/resources/health-advisory-for-haj-pilgrims--may-2025-/",
+   "2026-07-30T17:17:21.607Z"
+  ]
+ ]
+}

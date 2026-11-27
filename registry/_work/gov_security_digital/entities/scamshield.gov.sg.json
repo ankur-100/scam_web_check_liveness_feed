@@ -1,0 +1,153 @@
+{
+ "entity_id": "scamshield.gov.sg",
+ "name": "ScamShield",
+ "abbr": "ScamShield",
+ "aliases": [
+  "ScamShield Suite",
+  "ScamShield Website",
+  "ScamShield Helpline 1799",
+  "ScamAlert.sg (absorbed)"
+ ],
+ "sector": "gov.programme",
+ "parent_entity_id": "police.gov.sg",
+ "country": "SG",
+ "official_domains": [
+  "scamshield.gov.sg",
+  "scamshield.org.sg",
+  "scamalert.sg"
+ ],
+ "official_hosts": [
+  "www.scamshield.gov.sg",
+  "www.scamalert.sg",
+  "scamalert.sg",
+  "www.scamshield.org.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.scamshield.gov.sg/resources/scam-alert/",
+   "kind": "advisory_feed",
+   "lists_indicators": [],
+   "access": "rss",
+   "machine_url": "https://www.scamshield.gov.sg/resources/scam-alert/rss.xml",
+   "item_count": 10,
+   "latest_item_date": "2026-11-20",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Scammers are sending fake text messages notifying people that their OCBC cards have been suspended. ... 🔎 SMSes from OCBC should reflect OCBC as the Sender ID.",
+   "notes": "NEW since the 2026-11-25 survey: RSS 2.0 declared via rel=alternate (the site migrated to a Next.js Isomer build with JSON-LD). 10 items (28 Aug to 20 Nov 2026); older alerts rotate out. Brand-level alerts (OCBC, SingHealth Polyclinics, OneMotoring, couriers, telco staff, fake SPF \"scam recovery\" ads) with guidance only: no URLs, phones or sender IDs except official ones. Item URL pattern /resources/scam-alert/alert-DDmonYY/. The sitemap (88 URLs, lastmod) also works for change detection."
+  },
+  {
+   "url": "https://www.scamshield.gov.sg/resources/scam-bulletins/",
+   "kind": "statistics",
+   "lists_indicators": [],
+   "access": "rss",
+   "machine_url": "https://www.scamshield.gov.sg/resources/scam-bulletins/rss.xml",
+   "item_count": 88,
+   "latest_item_date": "2026-11-20",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Monthly Scams Bulletin Issue 11- November 2026 [PDF, 3.8 MB]",
+   "notes": "RSS of PDF bulletins: 88 items (23 Mar 2023 to 20 Nov 2026). PDFs are hosted on isomer-user-content.by.gov.sg. Trend/statistics content with no IOCs. The 2026 series now runs to Issue 11 (Nov); the survey had seen only Jan-Mar."
+  },
+  {
+   "url": "https://www.scamshield.gov.sg/resources/essr/1h-2026/",
+   "kind": "statistics",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2026-08-24",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "E-Commerce Scams Situation Report (ESSR) 1H 2026",
+   "notes": "Platform-level e-commerce scam rankings (cases and losses by platform). Useful as a platform prior, not as IOCs. Semi-annual."
+  },
+  {
+   "url": "https://www.scamshield.gov.sg/scid/",
+   "kind": "official_channels",
+   "lists_indicators": [
+    "phone"
+   ],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2026-11-02",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "From 2 November 2026, outgoing calls from the SPF will be made from the single caller ID ‘6000 0999’ ... The ‘6000 0999’ number is for outgoing calls only and cannot receive incoming calls.",
+   "notes": "Single caller ID announcement (allowlist)."
+  },
+  {
+   "url": "https://www.scamshield.gov.sg/bank-s-anti-scam-hotline/",
+   "kind": "official_channels",
+   "lists_indicators": [
+    "phone",
+    "entity_name"
+   ],
+   "access": "html",
+   "machine_url": null,
+   "item_count": 8,
+   "latest_item_date": "2026-05-20",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "DBS / POSB Dial 1800 339 6963 (from Singapore) or +65 6339 6963 (from overseas)",
+   "notes": "Phone allowlist of 8 banks' anti-scam hotlines: DBS/POSB 1800 339 6963 / +65 6339 6963; OCBC 6363 3333 (press 8); UOB 6255 0160; Citibank 6337 5519; CIMB 6333 7777; HSBC 1800 472 2669 / +65 6472 2669; Maybank 1800 629 2265 / +65 6533 5229; Standard Chartered 6747 7000. Last updated 20 May 2026."
+  },
+  {
+   "url": "https://www.scamshield.gov.sg/i-want-protection-from-scams/learn-to-recognise-scams/government-officials-impersonation-scams/",
+   "kind": "scam_faq",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2026-11-02",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "If you received an SMS from the government, make sure it is sent from the gov.sg SMS Sender ID.",
+   "notes": "GOIS explainer (SPF/MAS/MOM impersonation, safe accounts, meet-up handovers). Sibling scam-type pages under /learn-to-recognise-scams/ cover e-commerce, job, phishing, fake-friend, loan, insurance-service, internet-love, sexual-service, crypto, tech-support and investment scams (sitemap, lastmod May-Jun 2026)."
+  },
+  {
+   "url": "https://www.scamshield.gov.sg/i-want-protection-from-scams/more-ways-to-protect-yourself/verify-with-official-sources/",
+   "kind": "official_channels",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2026-05-20",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Official resources to verify if an entity or individual is regulated by MAS include the Financial Institutions Directory",
+   "notes": "Pointers to official registers: MAS FID, Register of Representatives and Investor Alert List; CEA Public Register; and others for jobs and property."
+  },
+  {
+   "url": "https://www.scamshield.gov.sg/",
+   "kind": "report_portal",
+   "lists_indicators": [],
+   "access": "sitemap",
+   "machine_url": "https://www.scamshield.gov.sg/sitemap.xml",
+   "item_count": 88,
+   "latest_item_date": "2026-11-23",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Call the 24/7 ScamShield Helpline at 1799 if you are unsure if something is a scam.",
+   "notes": "Hub. Report and check channels: ScamShield app, 1799 helpline, go.gov.sg/scamreport and the WhatsApp bot (go.gov.sg/scamshield-bot per survey). These give per-query verdicts only; no list or API. Sitemap: 88 URLs with lastmod (robots allows all except /search). Homepage links scamvaccine.gov.sg (waitlist) and icanactagainstscams.gov.sg."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [
+   "gov.sg"
+  ],
+  "hotlines": [
+   "1799 (24/7 ScamShield Helpline)",
+   "6000 0999 (SPF outgoing caller ID; calls only)"
+  ],
+  "short_link_domains": [
+   "go.gov.sg"
+  ],
+  "social": [
+   "https://www.instagram.com/scamshieldsg/",
+   "https://whatsapp.com/channel/0029Va4imcoCRs1thRkcGg1b (ScamShield WhatsApp channel, per survey)"
+  ],
+  "apps": [
+   "ScamShield app (iOS/Android)"
+  ]
+ },
+ "evidence": [
+  "https://www.scamshield.gov.sg/",
+  "https://www.scamshield.gov.sg/sitemap.xml",
+  "https://www.police.gov.sg/advisories/scams"
+ ],
+ "notes": "Joint SPF/NCPC/OGP suite (Sept 2024) that absorbed NCPC ScamAlert. Re-verified 2026-11-26: www.scamalert.sg and scamalert.sg return 301 to https://www.scamshield.gov.sg/, and www.scamshield.org.sg returns 302 to the same. Two documented RSS feeds now exist (scam-alert, scam-bulletins), but neither carries IOCs. Parent set to police.gov.sg because SPF leads the programme. Related: icanactagainstscams.gov.sg (structured SPF advisories; already ingested, not re-done here) and scamvaccine.gov.sg (linked, not visited)."
+}

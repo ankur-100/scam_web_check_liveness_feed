@@ -1,0 +1,89 @@
+{
+ "entity_id": "cnb.gov.sg",
+ "name": "Central Narcotics Bureau",
+ "abbr": "CNB",
+ "aliases": [
+  "Central Narcotics Bureau (CNB)"
+ ],
+ "sector": "gov.dept",
+ "parent_entity_id": "mha.gov.sg",
+ "country": "SG",
+ "official_domains": [
+  "cnb.gov.sg"
+ ],
+ "official_hosts": [
+  "www.cnb.gov.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.cnb.gov.sg/mediaroom/news/email-scam-sent-using-fake-central-narcotics-bureau-cnb-email-address/",
+   "kind": "alert_page",
+   "lists_indicators": [
+    "email"
+   ],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2013-06-12",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "an email was sent from email address \"info.centralnarcoticsbureau@gmail.com\" claiming that the recipient of the email had an inheritance fund",
+   "notes": "Issued 12 Jun 2013. Advance-fee/inheritance scam using a CNB-branded Gmail address; demands money be sent to Nigeria."
+  },
+  {
+   "url": "https://www.cnb.gov.sg/mediaroom/news/anti-drug-abuse-photo-contest-email-impersonating-cnb-and-sp/",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2022-02-03",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "CNB officers will only send emails from addresses ending with “@cnb.gov.sg”.",
+   "notes": "Issued 3 Feb 2022. Fake photo-contest emails impersonating CNB and Singapore Polytechnic. Scam addresses are not published; the page lists official channels instead (allowlist)."
+  },
+  {
+   "url": "https://www.cnb.gov.sg/mediaroom/news/cnb-advisory-incidents-of-impersonation/",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2016-06-22",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "some person/s had been impersonating a CNB officer and had messaged others via WhatsApp messages, informing them that they ‘ have cases with CNB ’ and attempting to request for money.",
+   "notes": "Issued 22 Jun 2016. Narrative only."
+  },
+  {
+   "url": "https://www.cnb.gov.sg/mediaroom/news/",
+   "kind": "news_releases",
+   "lists_indicators": [],
+   "access": "rss",
+   "machine_url": "https://www.cnb.gov.sg/mediaroom/news/rss.xml",
+   "item_count": 200,
+   "latest_item_date": "2026-11-23",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "rss.xml: 200 items, 18 Feb 2023 to 23 Nov 2026; none mention scams",
+   "notes": "RSS declared via rel=alternate. Sitemap https://www.cnb.gov.sg/sitemap.xml (870 URLs, 770 news). Only 3 scam/impersonation items, all 2013-2022 and older than the RSS window. JSON-LD dates are a bulk 2026-07-30 re-save, so use the in-text date."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [
+   "gov.sg"
+  ],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": [
+   "https://www.facebook.com/CNB.DrugFreeSG",
+   "https://www.instagram.com/cnb.drugfreesg"
+  ],
+  "emails": [
+   "*@cnb.gov.sg (CNB officers only email from @cnb.gov.sg)"
+  ]
+ },
+ "evidence": [
+  "https://www.sgdi.gov.sg/ministries/mha/departments/cnb",
+  "https://www.cnb.gov.sg/sitemap.xml",
+  "https://www.cnb.gov.sg/mediaroom/news/anti-drug-abuse-photo-contest-email-impersonating-cnb-and-sp/"
+ ],
+ "notes": "Low-volume impersonation publisher. One concrete IOC: info.centralnarcoticsbureau@gmail.com (2013). Named in the MHA 12 Aug 2026 fake-websites advisory."
+}

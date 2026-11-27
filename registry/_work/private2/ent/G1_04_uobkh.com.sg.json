@@ -1,0 +1,84 @@
+{
+ "entity_id": "uobkh.com.sg",
+ "name": "UOB Kay Hian Private Limited (Singapore)",
+ "abbr": "UOBKH",
+ "aliases": [
+  "UOB Kay Hian",
+  "UOBKH",
+  "UTRADE",
+  "UOB Kay Hian Singapore"
+ ],
+ "sector": "brokerage",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "uobkh.com.sg",
+  "uobkh.com",
+  "uobkayhian.com",
+  "utrade.com.sg"
+ ],
+ "official_hosts": [
+  "uobkh.com.sg",
+  "options.uobkh.com.sg",
+  "www.uobkh.com",
+  "www.uobkayhian.com",
+  "utradexaccountopening.uobkayhian.com",
+  "marketoverview-prod-sg.uobkayhian.com",
+  "www.utrade.com.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://uobkh.com.sg/en/announcement/beware-of-impersonation-scam-calls",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": "https://uobkh.com.sg/sitemap.xml",
+   "item_count": null,
+   "latest_item_date": "2026-08-18",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Scammers may impersonate trusted organisations and even manipulate caller ID to appear as a legitimate phone number. ... UOB Kay Hian will NEVER ask for your password or security credentials.",
+   "notes": "Announcement on impersonation/caller-ID-spoofing scam calls; date = sitemap lastmod. Narrative only; points to official contacts at uobkh.com.sg/en/about/contact. Announcements are discoverable via sitemap (/en/announcement/*, 6 items, only 1 scam-related)."
+  },
+  {
+   "url": "https://uobkh.com.sg/en/about/contact",
+   "kind": "official_channels",
+   "lists_indicators": [
+    "phone",
+    "email"
+   ],
+   "access": "html",
+   "machine_url": "https://uobkh.com.sg/sitemap.xml",
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Client Services Hotline +65 6536 9338 Email cs-sg@uobkh.com",
+   "notes": "Referenced by the scam notice as the official contact-details page."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [
+   "+65 6536 9338 (Client Services Hotline)"
+  ],
+  "short_link_domains": [],
+  "social": [
+   "https://www.facebook.com/UOBKHSingapore/",
+   "https://www.linkedin.com/company/uob-kay-hian/",
+   "https://www.youtube.com/user/utradesg",
+   "https://www.facebook.com/UOBKayHian.sg/"
+  ],
+  "apps": [],
+  "emails": [
+   "cs-sg@uobkh.com",
+   "dpo-sg@uobkh.com"
+  ]
+ },
+ "evidence": [
+  "https://uobkh.com.sg/en/announcement/beware-of-impersonation-scam-calls",
+  "https://uobkh.com.sg/en/about/contact",
+  "https://uobkh.com.sg/en",
+  "https://www.uobkh.com/",
+  "https://uobkh.com.sg/sitemap.xml"
+ ],
+ "notes": "SG site uobkh.com.sg (a: scam notice says use 'official contact details published on uobkh.com.sg/en/about/contact'). www.uobkayhian.com redirects to www.uobkh.com (group site; @uobkh.com email domain) - both (b). utrade.com.sg (b): UTRADE online-trading platform linked from group and SG navigation. Other UOBKH regional domains seen in nav (uobkh.com.my, uobkh.com.hk, uobkh.co.th, kh.co.id, uobkayhian.com.ph, uobkh.jp, utrade.com.hk, utradedelta.com) not SG; not added. FAQ security articles in SG sitemap (e.g. /en/faq/article/what-is-utrade-secure) not opened. NB fake domain uobkhs.com appeared in an SPF advisory (SPF-side; never visited)."
+}

@@ -1,0 +1,51 @@
+{
+ "host": "rom.mlaw.gov.sg",
+ "robots": "Sitemap: https://rom.mlaw.gov.sg/sitemap.xml\n",
+ "robots_status": 200,
+ "sitemaps_declared": [
+  "https://rom.mlaw.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  "https://rom.mlaw.gov.sg/sitemap.xml[200:116]"
+ ],
+ "n_urls": 116,
+ "hits": [
+  [
+   "https://rom.mlaw.gov.sg/fatf-publications-horizon-scan-on-ai-and-deepfakes-report-on-stablecoins-and-unhosted-wallets/",
+   null
+  ],
+  [
+   "https://rom.mlaw.gov.sg/files/AMLCFT%20Documents/horizon_scan_on_artificial_intelligence_and_deepfakes_fatf.pdf",
+   "2026-11-06T04:10:14+00:00"
+  ],
+  [
+   "https://rom.mlaw.gov.sg/files/Advisory-Chinese-Tamil.pdf",
+   "2026-11-06T04:10:14+00:00"
+  ],
+  [
+   "https://rom.mlaw.gov.sg/files/Advisory-English-Malay.pdf",
+   "2026-11-06T04:10:14+00:00"
+  ],
+  [
+   "https://rom.mlaw.gov.sg/files/DPCS%20Guidelines/Data_Protection_and_Cybersecurity_Guidelines.pdf",
+   "2026-11-06T04:10:14+00:00"
+  ],
+  [
+   "https://rom.mlaw.gov.sg/files/Licence%20Conditions/IT_Security_and_Cyber_Hygiene_Requirements_for_Licensed_Moneylenders.pdf",
+   "2026-11-06T04:10:14+00:00"
+  ],
+  [
+   "https://rom.mlaw.gov.sg/information-for-borrowers/advisory-for-borrowers-on-licensed-moneylending/",
+   "2026-11-06T04:11:11+00:00"
+  ],
+  [
+   "https://rom.mlaw.gov.sg/advisory-on-scam-calls-impersonating-as-officers-from-the-ministry-of-law-cbs-or-the-mlcb/",
+   "2026-11-06T04:11:11+00:00"
+  ],
+  [
+   "https://rom.mlaw.gov.sg/information-for-moneylenders/reports-of-government-official-impersonation-scam-gois/",
+   "2026-11-06T04:11:11+00:00"
+  ]
+ ],
+ "newest_lastmod": "2026-11-06T04:11:11+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "host": "www.gov.sg",
+ "robots": "User-Agent: *\nAllow: /\nDisallow: /search\n\nSitemap: https://www.gov.sg/sitemap.xml\n",
+ "robots_status": 200,
+ "sitemaps_declared": [
+  "https://www.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  "https://www.gov.sg/sitemap.xml[200:160]"
+ ],
+ "n_urls": 160,
+ "hits": [
+  [
+   "https://www.gov.sg/explainers/what-happens-if-i-post-or-share-fake-news/",
+   "2026-11-07T03:21:29.289Z"
+  ]
+ ],
+ "newest_lastmod": "2026-11-24T01:32:20.722Z"
+}

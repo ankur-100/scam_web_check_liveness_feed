@@ -1,0 +1,16 @@
+{
+ "host": "www.ema.gov.sg",
+ "robots_status": 404,
+ "robots": "",
+ "sitemaps_declared": [],
+ "sitemaps_fetched": [],
+ "errors": [
+  [
+   "https://www.ema.gov.sg/sitemap.xml",
+   "html returned"
+  ]
+ ],
+ "total_urls": 0,
+ "hosts_in_sitemap": {},
+ "matches": []
+}

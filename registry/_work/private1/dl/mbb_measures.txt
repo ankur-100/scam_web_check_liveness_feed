@@ -1,0 +1,270 @@
+Measures to protect you from scams | Security Alerts | Maybank Singapore
+Personal
+Bank
+Borrow
+Cards
+Digital Services
+Insure
+Invest
+Islamic
+Learn
+Maybank Beyond Borders
+More to Life
+Wealth
+Maybank Private
+Maybank Premier
+Maybank Privilege
+Maybank Islamic Wealth Management
+Business
+SME Banking
+Global Banking
+Call Us
+Get in touch
+Login New M2U Online Banking
+Business Internet Banking
+Maybank2E
+TradeConnex
+M2E Trade
+Maybank Private
+Maybank Premier
+First Time Login
+Select Country
+Singapore
+Malaysia
+Philippines
+Cambodia
+Indonesia
+Security and Privacy
+Fair Dealing
+Application
+Banking
+Getting Started
+Cards and CreditAble
+Cross Border
+General Help
+Investment
+Pay & Transfer
+Security
+Measures to Protect You From Scams
+Measures to Protect You From Scams New Scam Alerts Tips to Staying Safe Shared Responsibility Framework and E-Payments Policy Anti-Money Laundering/Counter Financing of Terrorism Policy Statement Security Practices Surveillance of Online Transactions Declarations FATCA
+Measures to Protect You From Scams
+New Scam Alerts
+Tips to Staying Safe
+Shared Responsibility Framework and E-Payments Policy
+Anti-Money Laundering/Counter Financing of Terrorism Policy Statement
+Security Practices
+Surveillance of Online Transactions
+Declarations
+FATCA
+Security and Privacy
+Measures to Protect You From Scams
+Measures to protect you from scams
+Your online banking security is a priority for us and we are constantly looking for ways to keep you protected. As scams continue to evolve, we must stay alert and look out for the signs to avoid becoming a victim of one.
+Think you might be a victim of a scam?
+Follow these steps to protect yourself and your account.
+If you suspect you have fallen for a scam or observe any suspicious activity on your Maybank accounts or other related Maybank products:
+1. Activate the ‘Kill Switch’ immediately to suspend your digital banking access; and
+2. Call our hotline at 1800-MAYBANK (1800-629 2265) or (65) 6533 5229 (Overseas) and press *1; or
+3. Visit any Maybank branch for in-person assistance
+If you suspect you have fallen for a scam or observe any suspicious activity on your Maybank cards:
+1. Log in to Maybank2u Online Banking and select ‘Settings’ > ‘Cards’ tab > ‘Block Card’; and
+2. Call our hotline at 1800-MAYBANK (1800-629 2265) or (65) 6533 5229 (Overseas) and press *1; or
+3. Visit any Maybank branch for in-person assistance
+To report or check on scams not related to Maybank*:
+• Call the ScamShield Helpline (available 24/7) at 1799
+*For example: impersonation scams involving government officials or police, verifying the legitimacy of SMSes from official sources, or e-commerce-related scams
+Your security is our priority. To bolster the security of our digital banking services, we have implemented additional measures to prevent, detect and manage scam incidents. Click here for our Frequently Asked Questions
+to learn more.
+Suspend digital banking access in the event of a scam
+1. Call our hotline at 1800-MAYBANK (1800-629 2265) or (65) 6533 5229 (Overseas) and press *1 or Option 4 in the main menu
+2. Log in to Maybank2u Online Banking and select ‘Settings’ > ‘Security’ tab > ‘ Kill Switch
+’
+3. Log in to Maybank2u SG app and select ‘ Kill Switch
+’ under Quick Actions
+Once your digital banking access is suspended, you will no longer be able to log in to Maybank2u online or mobile banking.
+To re-activate your Maybank2u online and mobile banking access, you will need to visit any of our Maybank Singapore branches
+with your NRIC or passport.
+No clickable links in emails or SMSes from Maybank
+Maybank has removed all clickable links from its emails and SMSes since 31 January 2022. If you have received a message from Maybank with a clickable link, it’s likely that the message is not legitimate.
+Restricted or disablement of mobile banking app when suspicious applications are detected
+If suspected malware or malicious app(s) is/are detected on your mobile device, Maybank will trigger a pop-up warning message or disable your mobile banking app when you launch the M2U Mobile Banking app.
+Dedicated customer service teams to assist you with fraud and scam related matters
+Call 1800-MAYBANK (1800-629 2265) or (65) 6533 5229 (Overseas) and press *1 to report any unauthorised transactions made to your account(s) and lodge a police report.
+Transaction Notification Alerts
+Transaction notifications for FAST and PayNow transfers from your Savings or Current Account are set at a default threshold of S$100 for all customers. You may log in to Maybank2u Online Banking to update your preferred transaction threshold at any time.
+Transaction notifications for card transactions are set at a default threshold of S$500 for all customers. You may update your transaction threshold through the following channels:
+1. Call our hotline at 1800-MAYBANK (1800-629 2265) or (65) 6533 5229 (Overseas); or
+2. Visit any Maybank branch to request a change to your default threshold.
+Delay of at least 12 hours to activate a new Secure2u digital token on a mobile device
+As a security measure, you can only use Secure2u to authenticate transactions at least 12 hours after registration. You will be able to use the physical token to complete your transactions in the meantime.
+Notifications will be sent to existing registered mobile number and/or email address if there is a request to update customer’s contact details
+This is a security measure to verify that you have given the instruction to the bank to update your contact details. The alert will be sent to the mobile number and/or email address registered with the bank.
+Additional security protection on transactions
+From 26 October 2025, a 12-hour cooling period will take effect:
+Add a new payee
+During this period, you are unable to transfer funds to this newly added payee.
+Increase your transaction limits – effective from end December
+During this period, you are unable to initiate any transfers or payments that exceed your previous limit until the new limit becomes active.
+Change of contact details – effective from end December
+The bank will also send you an email alert when there is a new browser or device login to your Maybank2u Online Banking to notify you of any unauthorised logins.
+Rising trend of malware scams
+With the rise of malware scams, scammers are applying sophisticated tactics to trick customers into downloading malware through malicious applications.
+Malware finds its way into your mobile device through various ways, such as downloading unofficial apps or APK files. It is a harmful software designed to steal your information and gain unauthorised access to your mobile device.
+What happens when your mobile device is compromised by malware?
+Stealing of information
+Scammers can steal sensitive information such as banking credentials and one-time passwords received via SMS or email.
+Taking control of your device
+Scammers can have remote control access over the compromised device to execute illicit financial transactions without your knowledge or consent.
+Introducing the anti-malware measure on Maybank2u Mobile Banking app
+What is this anti-malware measure?
+This is our security measure that will alert you if we detect any sensitive permissions granted and the presence of potential malware on your devices. This is to shield you from the risk illustrated above and provide you with a safe and secure banking experience.
+How does it affect me?
+Upon launching the Maybank2u Mobile Banking app, you may be prompted with the message that your access is restricted. If you see these messages, it is likely that your mobile device is exposed to potential malware risk. To safeguard your banking experience, you may need to uninstall certain apps or change the settings of your device.
+Scroll below to find out the different scenarios and how to regain your access.
+1. Unofficial M2U Mobile Banking App Downloaded
+Why am I seeing this?
+We have detected that the M2U Mobile Banking app was not downloaded from the official app store.
+What should I do?
+Uninstall the M2U Mobile Banking app and download from the official Google Play store.
+2. Suspicious Android Package Kit (APK) File(s) Detected
+Why am I seeing this?
+The app(s) stated in the message was not installed from the official app store(s) and has risky permission settings which may compromise your device and your security.
+e.g. An app that was transferred via ‘Smart Switch’, or an app originated from APK file that was granted permission to perform remote control over your device.
+What should I do?
+Uninstall the stated app and download from the official app store.
+Need help locating the settings on your device? Click here
+.
+3. Blacklisted Malware Application
+Why am I seeing this?
+The app(s) stated in the message was found to contain malicious software.
+e.g. An app originated from APK file that was granted permission to perform remote control over your device.
+What should I do?
+Step 1) Disconnect your device from all connected networks (Switch off Wi-Fi & Bluetooth)
+Step 2) Switch to flight mode
+Step 3) Uninstall the stated app(s)
+Need help locating the settings on your device? Click here
+.
+4. Screen-sharing and/or Recording
+Why am I seeing this?
+We have detected an ongoing screen sharing and/or recording.
+e.g. You could be sharing your mobile screen in a virtual meeting.
+What should I do?
+Stop the screen sharing and/or recording and relaunch the M2U Mobile Banking app.
+5. Developer Mode Detected
+Why am I seeing this?
+We detected that the Developer mode is enabled on your device
+Developer mode is a setting on Android that allows you to configure system behaviors. For Android 4.1 and lower, this option is enabled by default.
+It requires extensive access over your device, and hence poses a security risk.
+What should I do?
+Disable the Developer mode on your device’s settings before relaunch the M2U Mobile Banking app.
+Need help locating the settings on your device? Click here
+.
+6. Accessibility Mode Detected
+Why am I seeing this?
+We detected that Accessibility mode is enabled in the app(s) stated in the message.
+When an app has permission to Accessibility, it grants the app extensive access to your phone. Such as remote control, or reading the content of your screens.
+What should I do?
+Disable the Accessibility mode granted to the app(s) stated and relaunch the M2U Mobile Banking app.
+Need help locating the settings on your device? Click here
+.
+Rest assured that these security measures do not monitor nor conduct surveillance on your mobile devices, nor do they collect or store any personal data.
+Nevertheless, please stay vigilant as you remain the best defence against scams. For more information, you may refer to the Anti-malware Scams FAQ
+and Tips to Staying Safe
+.
+Home
+Measures to Protect You From Scams
+Deposits
+Savings Account
+Current Account
+Time Deposits
+Save Up Programme
+More To Life
+Cards
+Credit Cards
+Debit Cards
+Business Cards
+Cards Promotions
+Regional Deals
+Rewards & Loyalty
+TREATS SG App
+Points Optimiser
+Card Services
+Card Information
+Debt Consolidation Plan
+Loans
+Car Loans
+Personal Loans
+Property Loans
+Investment
+Investment Insights
+Maybank Asset Management
+Maybank Securities
+Dual Currency Investment
+Maybank Structured Deposit
+Unit Trusts
+Integrated Advisory Solution
+Product Risk Rating
+Maybank Best Execution Policy Disclosure Statement
+Insurance
+Life Insurance
+General Insurance
+Islamic Banking
+Islamic Deposits
+Islamic Financing
+Halal2u
+Zakat and Donations
+Banking Services
+Digital Services
+Funds Transfer and Payments
+Maybank Cross-Border Banking to Malaysia
+Digital Services Guide
+Money Lock
+About Us
+About Maybank Singapore
+Served Your Way
+Our Journey
+Code of Ethics & Conduct
+Financial Information and Reports
+Maybank Whistleblowing Policy
+Newsroom
+MSpace
+Maybank Quarterly
+Board of Directors
+Subsidiaries of Maybank
+Maybank Heritage
+Others
+Application Forms
+Rates and Charges
+Maybank SWIFT/BIC Code
+Bank's SWIFT/BIC code for Giro Banks
+Frequently Asked Questions
+Mental Capacity Act
+Anti-Money Laundering/Counter Financing of Terrorism Policy Statement
+Deposit Insurance Scheme
+Losing a Loved One
+Account Closure
+Learn with Maybank
+Locate Us
+Get in touch
+Important Notices
+Careers
+Frequent Queries
+Bank Charges
+Customer Service Charter
+Business Ethics Charter
+Procurement
+DATA PROTECTION POLICY
+Security
+Feedback
+Fair Dealing
+Terms & Conditions
+Copyright ©
+Maybank. All rights reserved. Maybank Singapore Limited (UEN 201804195C)
+Best viewed on the latest versions of Chrome, Firefox, Edge, Safari.
+Achieve your Goal
+Open an Account
+Apply for Credit Cards
+Get a Loan
+Grow your Wealth
+Buy an Insurance
+Branch Queue

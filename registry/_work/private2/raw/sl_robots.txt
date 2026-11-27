@@ -1,0 +1,25 @@
+User-agent:*
+Disallow: /content/public/sg/en/public/aug21
+Disallow: /content/public/sg/en/public/sep2021
+Disallow: /content/public/sg/en/public/oct21
+Disallow: /content/public/sg/en/public/nov2021
+Disallow: /content/public/sg/en/public/insurance/family-travel-insurance
+Disallow: /content/public/sg/en/public/insurance/life-and-health/my-long-term-care-and-my-long-term-care-plus-hilife
+Disallow: /content/public/sg/en/public/insurance/life-and-health/my-long-term-care-and-my-long-term-care-plus-mha
+Disallow: /content/public/sg/en/public/insurance/life-and-health/my-long-term-care-and-my-long-term-care-plus-eb
+Disallow: /content/public/sg/en/public/insurance/life-and-health/my-long-term-care-and-my-long-term-care-plus-mindef
+Disallow: /content/public/sg/en/public/insurance/life-and-health/my-long-term-care-and-my-long-term-care-plus-pogis
+Disallow: /content/public/sg/en/public/insurance/life-and-health/my-long-term-care-and-my-long-term-care-plus-gi
+Disallow: /content/public/sg/en/public/insurance/life-and-health/my-long-term-care-and-my-long-term-care-plus-mercer
+Disallow: /content/public/sg/en/public/insurance/life-and-health/mylongtermcare-and-mylongtermcareplus
+Disallow: /content/public/sg/en/public/privileges/jul
+Disallow: /content/public/sg/en/public/privileges/oct
+Disallow: /content/public/sg/en/public/privileges/jan
+Disallow: /content/public/sg/en/public/mindef-and-mha/dm-upgrade
+Disallow: /content/public/sg/en/public/money-banter/2021/medishield-life-premiums-coverage-update
+Disallow: /content/public/sg/en/public/faq-test
+Disallow: /content/public/sg/en/public/blog/health/2025/
+
+
+Sitemap: https://singlife.com/sitemap.xml
+Sitemap: https://singlife.com/business/sitemap.xml

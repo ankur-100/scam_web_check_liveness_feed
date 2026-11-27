@@ -1,0 +1,84 @@
+{
+ "entity_id": "dhl.com",
+ "name": "DHL Singapore (DHL Group)",
+ "abbr": null,
+ "aliases": [
+  "DHL",
+  "DHL Express Singapore",
+  "DHL Singapore",
+  "DHL eCommerce",
+  "MyDHL+",
+  "Deutsche Post DHL"
+ ],
+ "sector": "logistics",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "dhl.com",
+  "dpdhl.com",
+  "dhl-news.com",
+  "dhl.de",
+  "express.dhl"
+ ],
+ "official_hosts": [
+  "www.dhl.com",
+  "group.dhl.com",
+  "del.dhl.com",
+  "express.dhl.com",
+  "mydhl.express.dhl",
+  "delivery.dhl.com",
+  "shipnow.dhl.com",
+  "mygts.dhl.com"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.dhl.com/sg-en/home/footer/fraud-awareness.html",
+   "kind": "official_channels",
+   "lists_indicators": [
+    "email",
+    "domain"
+   ],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Official DHL communication is always sent from @dhl.com and subdomains (e.g. @del.dhl.com or @express.dhl.com), @dpdhl.com, @dhl-news.com, addresses with country domains after @dhl (e.g. @dhl.de, @dhl.fr, @dhl.ae)",
+   "notes": "SG version of DHL global 'Fraud Awareness' page: official sender domains and link domains (dhl.com, dpdhl.com, group.dhl.com, del.dhl.com, dhl-news.com or a country/campaign website); fraudulent SMS / social / WhatsApp / recruitment indicators (narrative); report to phishing@dhl.com. No SG-specific fake indicators; undated."
+  },
+  {
+   "url": "https://www.dhl.com/discover/en-sg/news/phishing-site-scam-call-advisory",
+   "kind": "official_channels",
+   "lists_indicators": [
+    "url"
+   ],
+   "access": "html",
+   "machine_url": null,
+   "item_count": null,
+   "latest_item_date": "2025-03-15",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Always Access Our Official Websites and Tools at the Following Secure Domains: DHL Main Site: https://www.dhl.com/sg-en/home.html DHL Express Site and MyDHL+ Tool: https://mydhl.express.dhl/sg/en/home.html",
+   "notes": "SG-specific 'Phishing Site & Scam Call Advisory for Customers' (15 March 2025, DHL Express Singapore resource centre /discover/en-sg): lists official SG URLs (dhl.com/sg-en, mydhl.express.dhl/sg/en, dhl.com/discover/en-sg, delivery.dhl.com, shipnow.dhl.com/sg/en, mygts.dhl.com); 'DHL employees will never ask you for your account login details or OTPs'. 'url' = official URLs. Found via web search."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": [],
+  "apps": [],
+  "emails": [
+   "@dhl.com",
+   "@dpdhl.com",
+   "@dhl-news.com",
+   "@dhl.de",
+   "phishing@dhl.com (report abuse)"
+  ]
+ },
+ "evidence": [
+  "https://www.dhl.com/sg-en/home/footer/fraud-awareness.html",
+  "https://www.dhl.com/robots.txt",
+  "https://www.dhl.com/discover/en-sg/news/phishing-site-scam-call-advisory"
+ ],
+ "notes": "SG pages under dhl.com/sg-en (entity_id dhl.com, global brand). All official_domains (a) from the fraud-awareness page ('We never link to a website other than our own starting with ... https://dhl.com/, https://dpdhl.com/, https://group.dhl.com/, https://del.dhl.com/, https://dhl-news.com/'; email domains incl. country domains @dhl.de/@dhl.fr/@dhl.ae - only dhl.de added as example). Page had to be found by known footer path (linked from every dhl.com footer). express.dhl is a registrable domain under the .dhl brand TLD ((a) mydhl.express.dhl listed as official on the SG phishing advisory)."
+}

@@ -1,0 +1,98 @@
+{
+ "entity_id": "singaporeair.com",
+ "name": "Singapore Airlines",
+ "abbr": "SIA",
+ "aliases": [
+  "Singapore Airlines",
+  "SIA",
+  "SQ",
+  "KrisFlyer",
+  "PPS Club",
+  "SingaporeAir app",
+  "Scoot"
+ ],
+ "sector": "travel",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "singaporeair.com"
+ ],
+ "official_hosts": [
+  "www.singaporeair.com",
+  "assets.singaporeair.com",
+  "email.singaporeair.com"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.singaporeair.com/en_UK/sg/corporate/newsroom/newsalert-listing/advisory-on-phishing-scams-and-good-cybersecurity-practice/",
+   "kind": "alert_page",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": "https://www.singaporeair.com/content/dam/sia/root/sitemap/sg.xml",
+   "item_count": null,
+   "latest_item_date": "2026-11-16",
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "Scammers may: Post fake contact details on the Internet, Google Maps, wiki pages, and community forums. Impersonate SIA through phone calls, social media accounts, messaging apps, or fraudulent email addresses.",
+   "notes": "'Updated on 16 November 2026 ... First posted on 18 July 2017'. SIA sender IDs registered with SG SMS Sender ID Registry (IDs not named here); fake-site/fake-account reporting via https://www.singaporeair.com/get-help/others. Narrative only. Same advisory exists under other country paths (/en_UK/au/, /ca/, /cn/ ...). Re-fetched 2026-11-26 HTTP 200 for full text."
+  },
+  {
+   "url": "https://www.singaporeair.com/en_UK/sg/corporate/newsroom/newsalert-listing/",
+   "kind": "advisory_feed",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": "https://www.singaporeair.com/content/dam/sia/root/sitemap/sg.xml",
+   "item_count": 7,
+   "latest_item_date": "2026-11-16",
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "16 Nov 2026 Advisory on phishing scams and good cybersecurity practices",
+   "notes": "SG 'News alerts' list (7 dated items, mixed operational advisories; 1 scam-related). Items discoverable via the SG sitemap (child pages under /newsalert-listing/ with lastmod)."
+  },
+  {
+   "url": "https://www.singaporeair.com/en_UK/sg/global_footer/security/",
+   "kind": "official_channels",
+   "lists_indicators": [
+    "sms_sender_id",
+    "email"
+   ],
+   "access": "html",
+   "machine_url": "https://www.singaporeair.com/content/dam/sia/root/sitemap/sg.xml",
+   "item_count": null,
+   "latest_item_date": "2026-01-08",
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "OTP will be sent from an official Singapore Airlines account (SMS: SQbooking and Email: Singapore Airlines).",
+   "notes": "'Keeping your data safe' page: genuine OTP SMS sender 'SQbooking'; official email address singaporeair@email.singaporeair.com; contrasted with a fake example (text only) singair@sporeair.com; 'Always type in the URL of the official Singapore Airlines website ( www.singaporeair.com )'. Says latest security alerts are posted on its Facebook page (https://www.facebook.com/singaporeair/posts/10160143647823679). Date = sitemap lastmod."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [
+   "SQbooking"
+  ],
+  "hotlines": [
+   "+65 6223 8888 (Singapore Airlines contact centre, 24 hours)",
+   "+65 67898188 (KrisFlyer members, unrequested OTP)",
+   "1800-2244243 (Lost and found, local)",
+   "+65 6597 4501 (Lost and found, overseas)"
+  ],
+  "short_link_domains": [],
+  "social": [
+   "https://www.facebook.com/singaporeair",
+   "https://x.com/SingaporeAir",
+   "https://www.instagram.com/singaporeair"
+  ],
+  "apps": [
+   "SingaporeAir (iOS App Store id515287841; Google Play com.amadeus.merci.client.ui)"
+  ],
+  "emails": [
+   "singaporeair@email.singaporeair.com",
+   "public_affairs@singaporeair.com.sg"
+  ]
+ },
+ "evidence": [
+  "https://www.singaporeair.com/en_UK/sg/global_footer/security/",
+  "https://www.singaporeair.com/en_UK/sg/corporate/newsroom/newsalert-listing/advisory-on-phishing-scams-and-good-cybersecurity-practice/",
+  "https://www.singaporeair.com/en_UK/sg/mobile-app/",
+  "https://www.singaporeair.com/en_UK/sg/contact-us/",
+  "https://www.singaporeair.com/en_UK/sg/home/"
+ ],
+ "notes": "SG content under singaporeair.com/en_UK/sg/. robots.txt Crawl-delay 9 (respected). official_domains: singaporeair.com is (b) serving domain and (a) 'official Singapore Airlines website (www.singaporeair.com)'. email.singaporeair.com host is (a) official email sender. singaporeair.com.sg appears only as a PR contact email domain on /contact-us/ (kept in emails, not official_domains). Social from JSON-LD sameAs on homepage. Scoot (flyscoot.com) folded in as alias: no Scoot-specific scam page found (search 2026-11-26). Unverified (search snippet, news): fake addresses hr@singaporeairlinehr.com, members@singaporeair-mail.com cited by press in 2024 SIA warning. Evidence: 2026-11-25 sub-agent G1 fetches (digest) + 2026-11-26 re-fetch of security/advisory pages."
+}

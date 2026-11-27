@@ -1,0 +1,48 @@
+[
+{
+ "entity_id": "cdc.gov.sg",
+ "name": "Community Development Councils",
+ "abbr": "CDC",
+ "aliases": ["Community Development Council", "CDC Singapore", "CDCs"],
+ "sector": "gov.dept",
+ "parent_entity_id": "pa.gov.sg",
+ "country": "SG",
+ "official_domains": ["cdc.gov.sg", "sg60.gov.sg"],
+ "official_hosts": ["www.cdc.gov.sg", "vouchers.cdc.gov.sg", "vouchers.sg60.gov.sg"],
+ "scam_info": [
+  {"url": "https://www.cdc.gov.sg/common-flagship-programmes/law-awareness/webinars/scam-prevention-response-and-recovery/", "kind": "scam_faq", "lists_indicators": [], "access": "sitemap",
+   "machine_url": "https://www.cdc.gov.sg/sitemap.xml", "item_count": null, "latest_item_date": "2026-11-12", "verified": "2026-11-26 sitemap only (page not fetched)",
+   "sample": null,
+   "notes": "Only scam-keyword URL among 112 in cdc.gov.sg sitemap: a law-awareness webinar page (sitemap lastmod 2026-11-12). Low IOC value. CDC/SG60 voucher anti-scam guidance is in the cdc.gov.sg#cdc-vouchers record."}
+ ],
+ "official_channels": {"sms_sender_ids": ["gov.sg"], "hotlines": [], "short_link_domains": ["go.gov.sg"],
+   "social": ["https://t.me/CdcCares", "https://www.tiktok.com/@cdc.gov.sg?_r=1&amp;_t=ZS-98eK16e364G", "https://www.youtube.com/channel/UCJqecXsinj1NhD8eCDnvN_A"], "apps": [], "emails": []},
+ "evidence": ["https://www.cdc.gov.sg/common-flagship-programmes/sg60-vouchers/", "https://vouchers.cdc.gov.sg/"],
+ "notes": "official_domains: cdc.gov.sg (b); sg60.gov.sg (b; vouchers.sg60.gov.sg linked from the CDC SG60 Vouchers page as the SG60 voucher site). Isomer sites; robots allow all except /search; sitemaps with lastmod."
+},
+{
+ "entity_id": "cdc.gov.sg#cdc-vouchers",
+ "name": "CDC Vouchers Scheme",
+ "abbr": null,
+ "aliases": ["CDC Vouchers", "CDC Vouchers Scheme", "RedeemSG", "SG60 Vouchers"],
+ "sector": "gov.programme",
+ "parent_entity_id": "cdc.gov.sg",
+ "country": "SG",
+ "official_domains": ["cdc.gov.sg", "redeem.gov.sg"],
+ "official_hosts": ["vouchers.cdc.gov.sg", "voucher.redeem.gov.sg", "signup.redeem.gov.sg", "go.gov.sg"],
+ "scam_info": [
+  {"url": "https://vouchers.cdc.gov.sg/residents/faq/", "kind": "official_channels", "lists_indicators": ["url", "sms_sender_id", "phone"], "access": "sitemap",
+   "machine_url": "https://vouchers.cdc.gov.sg/sitemap.xml", "item_count": null, "latest_item_date": "2026-10-01", "verified": "2026-11-26 HTTP 200",
+   "sample": "The SMS is identifiable by the sender named “Gov.sg”. The voucher link should also start with the prefix https://voucher.redeem.gov.sg . Do not trust voucher links starting with other prefixes.",
+   "notes": "GENUINE identifiers (official): claim only via go.gov.sg/cdcv (Singpass); voucher SMS from sender gov.sg; voucher links start https://voucher.redeem.gov.sg; report suspicious messages to PA 6225 5322 or police i-witness / 1800 255 0000. 'Gov.sg ... will never send SMSes requiring your personal or banking details.' FAQ last updated 1 October 2026. vouchers.cdc.gov.sg sitemap (62 URLs, lastmod) has no scam page."},
+  {"url": "https://vouchers.cdc.gov.sg/residents/how-to-claim-and-spend/", "kind": "official_channels", "lists_indicators": ["url", "sms_sender_id"], "access": "sitemap",
+   "machine_url": "https://vouchers.cdc.gov.sg/sitemap.xml", "item_count": null, "latest_item_date": "2026-06-11", "verified": "2026-11-26 HTTP 200",
+   "sample": "1: Visit go.gov.sg/cdcv ... 3: Receive your CDC Voucher link by SMS from “gov.sg”",
+   "notes": "Claim flow (EN; ZH/MS/TA variants in sitemap)."}
+ ],
+ "official_channels": {"sms_sender_ids": ["gov.sg"], "hotlines": ["6225 5322 (PA, report suspicious CDC voucher/RedeemSG messages)", "1800 255 0000 (Police hotline, cited)"],
+   "short_link_domains": ["go.gov.sg"], "social": [], "apps": [], "emails": []},
+ "evidence": ["https://vouchers.cdc.gov.sg/residents/faq/", "https://vouchers.cdc.gov.sg/residents/how-to-claim-and-spend/", "https://vouchers.cdc.gov.sg/"],
+ "notes": "Most-impersonated voucher brand: SPF brand tag 'CDC Vouchers' (4 advisories; SPF sample scam hosts, not visited: ptvs-...herokuapp.com, ...koyeb.app, ...up.railway.app). redeem.gov.sg (RedeemSG, OGP platform) is official per FAQ (a). Any voucher link not starting https://voucher.redeem.gov.sg is fake per the scheme's own rule -> strong pipeline rule. The scheme itself publishes no fake-site list."
+}
+]

@@ -1,0 +1,66 @@
+{
+ "entity_id": "prudential.com.sg",
+ "name": "Prudential Assurance Company Singapore",
+ "abbr": null,
+ "aliases": [
+  "Prudential",
+  "Prudential Singapore",
+  "PRUServices",
+  "PRUSecurity",
+  "Prudential Assurance Company Singapore (Pte) Ltd"
+ ],
+ "sector": "insurance",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "prudential.com.sg",
+  "pru.sg"
+ ],
+ "official_hosts": [
+  "www.prudential.com.sg",
+  "pruservices.prudential.com.sg",
+  "ipay.prudential.com.sg"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.prudential.com.sg/en/others/prusecurity/",
+   "kind": "advisory_feed",
+   "lists_indicators": [
+    "domain",
+    "sms_sender_id"
+   ],
+   "access": "html",
+   "machine_url": "https://www.prudential.com.sg/en/sitemap.xml",
+   "item_count": 12,
+   "latest_item_date": "2026-11-18",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Scammers may try to mimic our websites and use fake URLs such as \"prudentail.com.sg\" or \"prudentia1.com.sg\" ... Our official websites contain \"prudential.com.sg\" or \"pru.sg\".",
+   "notes": "'PRUSecurity - Latest security alert': 12 dated alerts (2021-02-02 .. 2026-11-18; newest 'Anti-SMS Scam and Official Sender ID'). Fake domains (text only, never visited): prudentail.com.sg, prudentia1.com.sg. Official: sender ID 'Prudential' (registered with SSIR), websites prudential.com.sg / pru.sg, PRUServices pruservices.prudential.com.sg, iPay ipay.prudential.com.sg/ipay/login2.do, PRUCustomer Line 1800-333-0-333. 'Prudential corporate office does not use WhatsApp ... for official customer communications'; 'We will never send you a link to make a payment.' Sitemap lastmod 2026-11-19."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [
+   "Prudential"
+  ],
+  "hotlines": [
+   "1800-333-0-333 (PRUCustomer Line)"
+  ],
+  "short_link_domains": [],
+  "social": [
+   "https://www.facebook.com/PrudentialSingapore/",
+   "https://www.instagram.com/prudentialsingapore/?hl=en",
+   "https://www.linkedin.com/company/prudential-assurance-company-singapore/",
+   "https://www.youtube.com/channel/UCWs_Qg2Rahok4kORir5w4eQ"
+  ],
+  "apps": [
+   "Prudential Singapore app"
+  ],
+  "emails": []
+ },
+ "evidence": [
+  "https://www.prudential.com.sg/en/others/prusecurity/",
+  "https://www.prudential.com.sg/robots.txt",
+  "https://www.prudential.com.sg/en/sitemap.xml"
+ ],
+ "notes": "official_domains both (a) on PRUSecurity page ('Our official websites contain prudential.com.sg or pru.sg'). Page is server-rendered; best single scam source for Prudential (dated list + fake domains + sender ID)."
+}

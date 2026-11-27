@@ -1,0 +1,3221 @@
+[
+ {
+  "entity_id": "mas.gov.sg",
+  "name": "Monetary Authority of Singapore",
+  "abbr": "MAS",
+  "aliases": [
+   "Monetary Authority of Singapore (MAS)",
+   "MAS",
+   "MoneySense"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "pmo.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "mas.gov.sg",
+   "moneysense.gov.sg"
+  ],
+  "official_hosts": [
+   "www.mas.gov.sg",
+   "eservices.mas.gov.sg",
+   "mastx.mas.gov.sg",
+   "www.moneysense.gov.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.mas.gov.sg/investor-alert-list",
+    "kind": "fake_indicator_list",
+    "lists_indicators": [
+     "entity_name",
+     "domain",
+     "url",
+     "phone",
+     "email"
+    ],
+    "access": "html",
+    "machine_url": "https://data.opensanctions.org/datasets/latest/sg_mas_investor_alert/targets.simple.csv",
+    "item_count": 902,
+    "latest_item_date": "2026-11-17",
+    "verified": "2026-11-25 HTTP 200",
+    "sample": "Notice: MAS will no longer publish on the Investor Alert List the names and online identifiers (such as websites and messaging channels) of entities who impersonate MAS-regulated financial institutions.",
+    "notes": "Canonical of mas.gov.sg/ial. Data rendered client-side by JS widget (bundle.search-ial.1.0.0.js); MAS publishes no feed/download and its backend search endpoint is undocumented (not called). machine_url is the THIRD-PARTY OpenSanctions daily mirror (CC-BY-NC 4.0): index.json 2026-11-25 HTTP 200 -> 902 targets, 1,947 FtM entities, last_change 2026-11-17, updated 2026-11-24 (artifacts/sg_mas_investor_alert/20261124203206-lin/{source.json,targets.simple.csv,entities.ftm.json}). Earlier survey (sources/01_sg_official.md): 924 entities, 786 with websites, 500 phones, 256 emails; listing dates, no expiry. Page chrome 'Last updated on 17 Sep 2026'. Policy change: impersonators of MAS-regulated FIs no longer added (34 legacy 'impersonates a financial institution' notes)."
+   },
+   {
+    "url": "https://www.mas.gov.sg/scam-advisory-page",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.mas.gov.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-25 HTTP 200",
+    "sample": "Beware of MAS Impersonation Scams. MAS officials will NEVER do these things over a phone call: Ask you to transfer money; Ask you to disclose bank log-in details; ...",
+    "notes": "Narrative. States gov.sg SMS Sender ID rule and ScamShield Helpline 1799. Its 'latest scam alerts and advisories' link points to on-site search (mas.gov.sg/search?q=scams), not a feed."
+   },
+   {
+    "url": "https://www.mas.gov.sg/news?content_type=Media+Releases",
+    "kind": "news_releases",
+    "lists_indicators": [],
+    "access": "sitemap",
+    "machine_url": "https://www.mas.gov.sg/sitemap.xml",
+    "item_count": 23,
+    "latest_item_date": "2025-04-04",
+    "verified": "2026-11-25 HTTP 200",
+    "sample": "Joint Advisory on Impersonation Scams Involving Chinese Messaging and Payment Platforms ... victims would receive unsolicited calls from local mobile numbers such as “8xxx xxxx” or “+65 xxxx xxxx”",
+    "notes": "item_count = scam/impersonation/fraudulent-website media releases found by URL keyword in sitemap.xml (7,445 URLs, robots Crawl-delay 2, NO lastmod; 1,843 media-release URLs total), 2018-2025. Newest dated: 2025/copy-of-joint-pnr-on-scams-involving-chinese-messaging-and-payment-platforms (Published 04 April 2025); also 2025/pnr-with-spf-on-ntuc-mas-fi-impersonation (14 Mar 2025), 2025/joint-advisory-on-impersonation-scams (28 Feb 2025), 2023/warning-on-scammers-impersonating-as-mas-officers (21 Dec 2023). 2018-2019 'warning on fraudulent website soliciting bitcoin/cryptocurrency investments' releases show the fake site only as a screenshot image (no domain in text). Date only in body 'Published Date:' text; URL has year only. Listing page (HTTP 200) renders items client-side; no RSS advertised."
+   },
+   {
+    "url": "https://www.mas.gov.sg/regulation/combatting-scams",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.mas.gov.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-25 HTTP 200",
+    "sample": "The Shared Responsibility Framework (SRF) for phishing scams was introduced by MAS and Infocomm Media Development Authority of Singapore (IMDA)...",
+    "notes": "Policy hub (SRF). Lists the 17 banks and the Major Payment Institutions/e-wallets the SRF applies to (useful allowlist of genuine FI names, e.g. 'GPAY NETWORK (S) PTE. LTD. GrabPay'). No scam indicators."
+   },
+   {
+    "url": "https://eservices.mas.gov.sg/fid",
+    "kind": "official_channels",
+    "lists_indicators": [
+     "entity_name",
+     "domain",
+     "phone"
+    ],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-25 HTTP 200",
+    "sample": "Warning: Scammers may impersonate MAS-regulated financial institutions to promote investments or solicit funds, often with unsolicited offers of high returns and little or no risk.",
+    "notes": "Financial Institutions Directory = ALLOWLIST of licensed FIs (name, licence, website, address, phone) browsable per sector (/fid/institution?sector=...). MAS states no public API (per earlier survey); HTML only. eservices.mas.gov.sg has no robots.txt/sitemap (returns HTML)."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [
+    "6225 5577 (MAS main line, per SGDI)",
+    "1799 (ScamShield Helpline, cited on MAS scam page)"
+   ],
+   "short_link_domains": [],
+   "social": [
+    "https://twitter.com/mas_sg",
+    "https://www.linkedin.com/company/mas",
+    "https://www.youtube.com/MASsingapore"
+   ],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/pmo/statutory-boards/mas",
+   "https://www.mas.gov.sg/scam-advisory-page",
+   "https://www.mas.gov.sg/investor-alert-list",
+   "https://eservices.mas.gov.sg/fid",
+   "https://www.mas.gov.sg/news/media-releases/2025/copy-of-joint-pnr-on-scams-involving-chinese-messaging-and-payment-platforms",
+   "https://data.opensanctions.org/datasets/latest/sg_mas_investor_alert/index.json"
+  ],
+  "notes": "official_domains: mas.gov.sg (b, serves site; SGDI lists https://www.mas.gov.sg); moneysense.gov.sg (b, linked from MAS page navigation; MAS financial-education programme). mastx.mas.gov.sg (MAS-Tx eServices) seen in nav. Only IOC-bearing official list in partition is the IAL. No RSS/Atom on MAS (none advertised on news page)."
+ },
+ {
+  "entity_id": "iras.gov.sg",
+  "name": "Inland Revenue Authority of Singapore",
+  "abbr": "IRAS",
+  "aliases": [
+   "Inland Revenue Authority of Singapore (IRAS)",
+   "IRAS",
+   "myTax Portal",
+   "myTax Mail"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "mof.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "iras.gov.sg"
+  ],
+  "official_hosts": [
+   "www.iras.gov.sg",
+   "mytax.iras.gov.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.iras.gov.sg/news-events/announcements/scam-advisory",
+    "kind": "advisory_feed",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.iras.gov.sg/sitemap",
+    "item_count": 9,
+    "latest_item_date": "2026-06-02",
+    "verified": "2026-11-25 HTTP 200",
+    "sample": "2 June 2026 - Tax Penalty Scams IRAS has received reports on phishing emails with the subject headings “Official Notice of Tax Demand & Penalty” and “Tax Penalty – Under-declaration of Income”",
+    "notes": "Scam hub + 'Latest Scam Advisories' list: 9 dated items 3 Jan 2024 .. 2 Jun 2026 (2 Jun 2026 Tax Penalty Scams; 14 Nov 2025 Tax Refund Scams; 19 Mar 2025 Tax review email scam; 12 Dec 2024 Scam calls impersonating IRAS officers; 5 Apr 2024; 5 Mar 2024; 28 Feb 2024; 1 Feb 2024; 3 Jan 2024). Page 'last updated 24 August 2026'. Scam email subject lines quoted in text; fake emails/letters only as screenshot images (/images/default-source/scams-images/...). Legacy URL /news-events/announcements/advisory-on-scam-fraudulent-activities redirects here. No robots.txt (404) and no sitemap.xml (404); machine_url is the HTML sitemap page (821 links). No RSS; email 'IRAS eAlerts' subscription only (/subscribe-to-iras-ealerts)."
+   },
+   {
+    "url": "https://www.iras.gov.sg/news-events/announcements/scam-advisory/phishing-email-scam",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.iras.gov.sg/sitemap",
+    "item_count": null,
+    "latest_item_date": "2026-11-17",
+    "verified": "2026-11-25 HTTP 200",
+    "sample": "Beware of phishing emails, letters, SMSes or chatbot messages spoofing IRAS’ identity and demanding you to file or pay taxes. Don’t fall for it!",
+    "notes": "Title 'Tax Filing and Payment Scam'; page last updated 17 November 2026. Gallery of screenshot captions naming scam-email subjects (e.g. '[Urgent] Tax Bill Discrepancy for YA 2025', 'Taxpayer Verification spoofed IRAS website scam'); indicators only inside images."
+   },
+   {
+    "url": "https://www.iras.gov.sg/news-events/announcements/scam-advisory/tax-refund-scam",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.iras.gov.sg/sitemap",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-25 HTTP 200",
+    "sample": "Always check the email address even though the sender ID shows ‘IRAS’ . Sender ID can be spoofed to make the email look legitimate. A legitimate email address from IRAS ends with “@iras.gov.sg”.",
+    "notes": "Tax Refund and Payout Scam. Gives official-channel facts: refunds only to registered bank account/PayNow, never to cards; IRAS emails end @iras.gov.sg. Screenshot captions of variants (Refund Notice, 'IRAS e-Refund: Identity Check Required')."
+   },
+   {
+    "url": "https://www.iras.gov.sg/news-events/announcements/scam-advisory/investment-scam",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.iras.gov.sg/sitemap",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-25 HTTP 200",
+    "sample": "If you are asked to pay a capital gains tax, income tax, Goods & Services Tax or Stamp Duty on your investment profits, beware. Do not pay!",
+    "notes": "Narrative; points to MAS Investor Alert List. Screenshots only."
+   },
+   {
+    "url": "https://www.iras.gov.sg/news-events/announcements/scam-advisory/fake-stamp-certificate-scam",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.iras.gov.sg/sitemap",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-25 HTTP 200",
+    "sample": "Beware of requests to pay Additional Buyer’s Stamp Duty (ABSD) or Stamp Duty to secure your rental property. Don’t fall for it!",
+    "notes": "Rental/property-agent scam; tells users to verify agents on CEA public register (eservices.cea.gov.sg). Anti-Scam Resource Guide sibling page only links scam-poster PDFs (/docs/default-source/tax-crime/scam-poster---english.pdf)."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [
+    "1800 356 8300 (IRAS hotline; to report IRAS/tax-related scams)",
+    "1799 (ScamShield Helpline, cited)"
+   ],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [
+    "https://www.facebook.com/irassg",
+    "https://www.instagram.com/irassg/",
+    "https://x.com/irassg",
+    "https://sg.linkedin.com/company/irassg",
+    "https://t.me/irassg",
+    "https://www.tiktok.com/@irassg",
+    "https://www.youtube.com/channel/UCVWvCzqueXUdrT7VdnrnpaQ",
+    "https://www.whatsapp.com/channel/0029VZzNwbsEAKW8218Tl60R"
+   ],
+   "apps": [],
+   "emails": [
+    "@iras.gov.sg"
+   ]
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/mof/statutory-boards/iras",
+   "https://www.iras.gov.sg/news-events/announcements/scam-advisory",
+   "https://www.iras.gov.sg/news-events/announcements/scam-advisory/tax-refund-scam",
+   "https://www.iras.gov.sg/news-events/announcements/scam-advisory/phishing-email-scam"
+  ],
+  "notes": "official_domains iras.gov.sg (b). Official transaction host stated explicitly (a): 'transact safely on myTax Portal (mytax.iras.gov.sg)'; all notices deposited there; IRAS 'will not send correspondences with links to make payment'. Official payment modes: GIRO; internet banking / ATM bill payment / AXS selecting payee 'IRAS'; PayNow QR inside myTax Portal; stamp duty via GIRO, AXS, PayNow. SMS: 'Trust only gov.sg for SMS Sender ID ... SMS begins with the full name of the agency e.g. \"Inland Revenue Authority of Singapore\"'. go.gov.sg/iras-scam and go.gov.sg/iras-livechat used as short links. SPF brand tag 'Inland Revenue Authority of Singapore (IRAS)' (5 advisories)."
+ },
+ {
+  "entity_id": "lta.gov.sg",
+  "name": "Land Transport Authority",
+  "abbr": "LTA",
+  "aliases": [
+   "Land Transport Authority (LTA)",
+   "LTA",
+   "OneMotoring",
+   "OneMotoring by LTA",
+   "ERP",
+   "Electronic Road Pricing"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "mot.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "lta.gov.sg"
+  ],
+  "official_hosts": [
+   "www.lta.gov.sg",
+   "onemotoring.lta.gov.sg",
+   "datamall.lta.gov.sg",
+   "www.axs.com.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://onemotoring.lta.gov.sg/content/onemotoring/home.html",
+    "kind": "alert_page",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-25 HTTP 200",
+    "sample": "ACT Against Scams LTA will never send payment links via emails or messages, or request payments or banking details through calls, emails or messages. If unsure, call ScamShield Helpline (1799) to check.",
+    "notes": "Only LTA-hosted scam text found: an announcement-carousel tile on the OneMotoring homepage whose 'Find Out More' links OFF-SITE to https://www.police.gov.sg/Advisories/Scams. Plus site-wide banner 'Government officials will NEVER ask you to transfer money...'. onemotoring robots.txt = 'User-agent: * / Crawl-delay: 1', no Sitemap; /sitemap.xml 404. HTML sitemap /content/onemotoring/home/topwebsite/sitemap.html (309 links) has no scam/fraud/phish page."
+   },
+   {
+    "url": "https://www.lta.gov.sg/content/ltagov/en/newsroom.html",
+    "kind": "news_releases",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": null,
+    "item_count": 0,
+    "latest_item_date": null,
+    "verified": "2026-11-25 HTTP 200",
+    "sample": "Revised ERP Rates from 23 Nov 26",
+    "notes": "Monitor-only candidate. Newsroom listing holds 724 releases/media replies 2020-2026 (2026: 136; newest 2026/11 e.g. revised-erp-rates-from-23-nov-26) and ZERO scam/phishing/impersonation items by URL and anchor text (item_count=0 scam items). www.lta.gov.sg has no robots.txt (404) and no /sitemap.xml (404); HTML sitemap /content/ltagov/en/sitemap.html (365 links) has no scam page. Sample is a release title, not a scam item."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [
+    "1800 2255 582 (LTA, per SGDI)",
+    "1799 (ScamShield Helpline, cited on OneMotoring)"
+   ],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [
+    "https://www.facebook.com/WeKeepYourWorldMoving",
+    "https://www.instagram.com/ltasg",
+    "https://twitter.com/LTAsg",
+    "https://www.tiktok.com/@ltasg",
+    "https://www.youtube.com/user/LTAsingapore",
+    "https://sg.linkedin.com/company/lta",
+    "https://www.t.me/LTASingapore",
+    "http://go.gov.sg/ltasgwhatsapp"
+   ],
+   "apps": [
+    "MyTransport.SG (iOS | Android)"
+   ],
+   "emails": [
+    "QSM@lta.gov.sg (SGDI feedback email)"
+   ]
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/mot/statutory-boards/lta",
+   "https://www.lta.gov.sg/content/ltagov/en.html",
+   "https://onemotoring.lta.gov.sg/content/onemotoring/home.html",
+   "https://onemotoring.lta.gov.sg/content/onemotoring/home/driving/ERP/erp-2-0/payment-options.html",
+   "https://onemotoring.lta.gov.sg/content/onemotoring/home/digitalservices/pay-fines-and-fees.html"
+  ],
+  "notes": "MOST-IMPERSONATED gov brand in SPF data (18 advisories; SPF sample scam domains, NOT visited: gsaz.cc, pajy.apppy.cc, onemotoring-iza.top, citepay.top). LTA itself publishes almost no scam content: no scam page, no advisory list, no fake-site list; scam advisories about LTA/OneMotoring/ERP are published by SPF (police.gov.sg, e.g. 20221018 ERP tolls, 20240917 & 20250414 OneMotoring, 20260622 LTA resurgence) and ScamShield. ALLOWLIST facts: official domain lta.gov.sg (b); genuine payment/transaction host is onemotoring.lta.gov.sg (digitalservices: pay-fines-and-fees, Enquire_Fines_and_Notices, request-for-payment-notice, my_payments; e-letters behind Singpass). ERP 2.0 payment-options page lists CEPAS cards (EZ-Link Motoring Card, NETS FlashPay/Motoring Card), auto top-up via EZ-Link/NETS/SimplyGo, and 'Backend Payment Services Providers ERP payment can also be made via backend payment, provided by AXS' (www.axs.com.sg linked = third-party partner host, listed in official_hosts not official_domains). Road-tax renewals via eGIRO with participating banks. Any '*.cc/*.top' OneMotoring/ERP lookalike or SMS from sender 'LTA' is fake: unverified (search snippet of SPF 20260622 advisory) says LTA notifies via gov.sg SMS, OneMotoring e-letters (Singpass) or hardcopy letters, and decommissioned sender IDs like 'LTA' are fake. Unverified (search snippet, thestar.com.my 2026-05-27): LTA warned of fake e-mails demanding unpaid fines/ERP charges, channel not located on lta.gov.sg. datamall.lta.gov.sg = documented LTA open-data API portal (transport data, not scam data)."
+ },
+ {
+  "entity_id": "cpf.gov.sg",
+  "name": "Central Provident Fund Board",
+  "abbr": "CPFB",
+  "aliases": [
+   "Central Provident Fund (CPF) Board",
+   "CPF Board",
+   "CPF",
+   "CPFB"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "mom.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "cpf.gov.sg"
+  ],
+  "official_hosts": [
+   "www.cpf.gov.sg",
+   "e.cpf.gov.sg",
+   "analytics.cpf.gov.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.cpf.gov.sg/member/account-services/fighting-scams/cpf-account-safeguards",
+    "kind": "official_channels",
+    "lists_indicators": [
+     "phone",
+     "sms_sender_id",
+     "email"
+    ],
+    "access": "sitemap",
+    "machine_url": "https://www.cpf.gov.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2026-10-09",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Calls will only be made from 6227 1188 . CPF Board will never call with WhatsApp. ... SMS messages are always from “ gov.sg ”. ... Emails will always end with @cpf.gov.sg or @e.cpf.gov.sg .",
+    "notes": "Main anti-scam hub ('Safeguard your savings with CPF anti-scam measures'): sections Overview/Prevention/Scam advisory/Report a scam/Resources/FAQs/Articles. Lists GENUINE identifiers (official): caller number 6227 1188, SMS sender gov.sg, WhatsApp 'CPF Board Text Us using 6031 5753' (blue-tick) + CPF Board WhatsApp channel, email domains @cpf.gov.sg/@e.cpf.gov.sg. /member/account-services/fighting-scams (sitemap lastmod 2026-02-06) 302-redirects here and loops without cookies (use a cookie jar). latest_item_date = sitemap lastmod. Anti-scam brochure PDFs in EN/ZH/MS/TA."
+   },
+   {
+    "url": "https://www.cpf.gov.sg/member/infohub/cpf-clarifies/clarifications/beware-of-scam-email-requesting-immediate-payment",
+    "kind": "alert_page",
+    "lists_indicators": [
+     "email"
+    ],
+    "access": "sitemap",
+    "machine_url": "https://www.cpf.gov.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2025-06-21",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Beware of a scam email with the subject “Urgent Payment Required – CPF Service Benefits at Risk” sent by “welcome@timespaceccg.com”.",
+    "notes": "Scam Alert in 'CPF Clarifies' section (34 clarification URLs in sitemap, mostly myth-busting; scam-related: this one and 2022 'false-scam-alert-regarding-letter-sent-by-cpf-board'). Concrete fake sender email. New alerts discoverable by diffing sitemap for /cpf-clarifies/clarifications/ (sitemap has lastmod)."
+   },
+   {
+    "url": "https://www.cpf.gov.sg/member/infohub/news/news-releases/joint-advisory-scams-involving-cpf-savings-and-new-measures-put-in-place-as-further-precaution",
+    "kind": "news_releases",
+    "lists_indicators": [],
+    "access": "sitemap",
+    "machine_url": "https://www.cpf.gov.sg/sitemap.xml",
+    "item_count": 3,
+    "latest_item_date": "2025-11-04",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "In such malware scams, the victim uses his Android phone to click on a Facebook or other social media advertisement selling an item at a steep discount and receives a link to download an Android Package Kit (or APK)",
+    "notes": "Joint CPFB/GovTech/SPF advisory (June 2023; sitemap lastmod 2026-11-25 is a re-touch, not new content). Scam-related news releases by URL keyword among 115 news-release URLs: this, 'joint-advisory-on-government-official-impersonation-scam' (lastmod 2025-11-04), 'lowering-of-maximum-daily-withdrawal-limit...safeguards-against-scams' (2024-08-21). Narrative; links SPF/CSA advisories. item_count/latest = by sitemap lastmod."
+   },
+   {
+    "url": "https://www.cpf.gov.sg/member/infohub/educational-resources/how-to-stay-safe-from-scams",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "sitemap",
+    "machine_url": "https://www.cpf.gov.sg/sitemap.xml",
+    "item_count": 8,
+    "latest_item_date": "2026-08-31",
+    "verified": "2026-11-26 sitemap only (page not fetched)",
+    "notes": "Educational-resources articles on scams found in sitemap (8, lastmod 2025-11-30..2026-08-31): how-to-stay-safe-from-scams, how-to-protect-yourself-from-phishing-links, dos-and-donts-of-scam-prevention, cpfb-anti-scam-unit-keeping-your-cpf-safe, investment-scams-and-steps-to-protect-your-retirement-savings, how-to-help-your-parents..., how-can-youths-help..., how-well-do-you-know-cpf-anti-scam-features. Also ~14 /service/article/ FAQ entries on scams (JS-rendered; curl gets empty shell). Narrative.",
+    "sample": null
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [
+    "6227 1188 (only number CPF Board calls from)",
+    "1800 2271188 (CPF, per SGDI)",
+    "6031 5753 (CPF Board 'Text Us' WhatsApp, blue tick)",
+    "1799 (ScamShield Helpline, cited)"
+   ],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/CPFBoard",
+    "https://www.instagram.com/cpf_board/",
+    "https://sg.linkedin.com/company/cpf-board",
+    "https://www.youtube.com/user/CPFvideos"
+   ],
+   "apps": [
+    "CPF Mobile app"
+   ],
+   "emails": [
+    "@cpf.gov.sg",
+    "@e.cpf.gov.sg"
+   ]
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/mom/statutory-boards/cpfb",
+   "https://www.cpf.gov.sg/member/account-services/fighting-scams/cpf-account-safeguards",
+   "https://www.cpf.gov.sg/member/infohub/cpf-clarifies/clarifications/beware-of-scam-email-requesting-immediate-payment"
+  ],
+  "notes": "official_domains cpf.gov.sg (b; SGDI). e.cpf.gov.sg stated as official email domain (a). Hub notice on 2026-11-26: 'Our CPF hotlines are temporarily unavailable due to technical difficulties related to Singtel.' Sitemaps: /sitemap.xml (955) + /service/sitemap.xml index (webarticle, weekly, view) all with lastmod -> good change-detection source. robots disallows /memberservices*. Earlier survey: CPF also posts on Telegram (t.me/s/CPFBoard) (not re-verified). SPF brand tag 'Central Provident Fund (CPF) Board' (1 advisory; sample scam domain managelist.com, not visited). CPF Mobile app mentioned in service FAQ titles (store links not verified)."
+ },
+ {
+  "entity_id": "hdb.gov.sg",
+  "name": "Housing & Development Board",
+  "abbr": "HDB",
+  "aliases": [
+   "Housing & Development Board (HDB)",
+   "Housing and Development Board",
+   "HDB",
+   "HDB Flat Portal",
+   "MyNiceHome"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "mnd.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "hdb.gov.sg",
+   "mynicehome.gov.sg"
+  ],
+  "official_hosts": [
+   "www.hdb.gov.sg",
+   "homes.hdb.gov.sg",
+   "www.mynicehome.gov.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.hdb.gov.sg/security-advisory",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "sitemap",
+    "machine_url": "https://www.hdb.gov.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2025-11-21",
+    "verified": "2026-11-26 HTTP 200 (JS-rendered; body empty via curl and WebFetch)",
+    "sample": "Learn how to protect yourself from phishing scams.",
+    "notes": "Only scam-keyword URL among 1,373 in HDB sitemap (lastmod 2025-11-21). Next.js/Sitecore page: content loads client-side; neither curl nor WebFetch saw the body, sample is the meta description. Content unknown -> indicators unknown (left [])."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [
+    "https://www.facebook.com/singaporehdb",
+    "https://instagram.com/singaporehdb",
+    "https://t.me/singaporehdb",
+    "https://www.tiktok.com/@singaporehdb",
+    "https://www.whatsapp.com/channel/0029Va3eJi95fM5eWbq2Mi1j"
+   ],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/mnd/statutory-boards/hdb",
+   "https://www.hdb.gov.sg/security-advisory",
+   "https://www.mynicehome.gov.sg/?p=38196"
+  ],
+  "notes": "official_domains: hdb.gov.sg (b; SGDI); mynicehome.gov.sg (b; HDB community Isomer site linking back to www.hdb.gov.sg and carrying HDB social links; 45-URL sitemap, no scam pages). homes.hdb.gov.sg = HDB Flat Portal (seen in search results, not opened). sms_sender_ids gov.sg is the whole-of-government rule (since 1 Jul 2024), not stated on an HDB page. Not verified: search snippets say HDB/MyNiceHome warn about people posing as HDB contractors for door-to-door repairs and that 'HDB will never request money transfers or bank log-in details over the phone' (unverified (search snippet); the HDB contractor page URL from search returned 404). robots.txt disallows several eservice paths. No SGDI phone."
+ },
+ {
+  "entity_id": "mom.gov.sg",
+  "name": "Ministry of Manpower",
+  "abbr": "MOM",
+  "aliases": [
+   "Ministry of Manpower (MOM)",
+   "MOM",
+   "WP Online",
+   "myMOM Portal"
+  ],
+  "sector": "gov.ministry",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "mom.gov.sg"
+  ],
+  "official_hosts": [
+   "www.mom.gov.sg",
+   "services.mom.gov.sg",
+   "wponline.mom.gov.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.mom.gov.sg/transact-safely-and-securely",
+    "kind": "fake_indicator_list",
+    "lists_indicators": [
+     "domain",
+     "url"
+    ],
+    "access": "sitemap",
+    "machine_url": "https://mom.gov.sg/others.xml",
+    "item_count": null,
+    "latest_item_date": "2026-01-23",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Some fake websites that we found are: \"http://www.mom-sg.org\" \"http://mom-gov.com\" \"http://ministryofmanpower.net\" \"http://wponlinemomgov.sg.com\"",
+    "notes": "Fake-site examples (6, text, not visited): mom-sg.org, mom-gov.com, ministryofmanpower.net, wponlinemomgov.sg.com, 'www.mom.gov.sg@211.239.150.170', 'www.mom.gov.sg.official.com.net'. ALSO official channels (a): 'Official MOM websites and eServices' URLs will always contain \".mom.gov.sg\"' e.g. www/services/wponline.mom.gov.sg; MOM emails from MOM domain or PostmanSG; gov.sg SMS sender ID. Last updated 23 January 2026 (= latest_item_date). Sitemap child file inferred by sitemap index listing (sitemap.xml index -> others.xml); exact child containing this URL not checked."
+   },
+   {
+    "url": "https://www.mom.gov.sg/newsroom/announcements/2025/2025-scam-alert-impersonation-phone-call",
+    "kind": "advisory_feed",
+    "lists_indicators": [
+     "email"
+    ],
+    "access": "sitemap",
+    "machine_url": "https://mom.gov.sg/newsroom.xml",
+    "item_count": 27,
+    "latest_item_date": "2025-07-08",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Scam alert: Spoofed emails on “Declaration of Payment for April 2022 Salaries for all Workers / Migrant workers” ... fake emails from a spoofed MOM email address (mom_lrwd_nr@mom.gov.sg).",
+    "notes": "Series of 27 'scam-alert' announcements in newsroom.xml (2,923 newsroom URLs, lastmod present), 2019-09-17 .. 2025-07-08, URL pattern /newsroom/announcements/<YYYY>/<MMDD>-scam-alert[...]. Some name spoofed sender addresses (e.g. 2022/0523: mom_lrwd_nr@mom.gov.sg; title says mom_rsd@mom.gov.sg) -> lists_indicators=email (spoofed). Newest (8 Jul 2025) is narrative impersonation-call alert. Old ones cite anti-scam helpline 1800 722 6688 and scamalert.sg (now 301 to scamshield). Sample from 2022/0523-scam-alert."
+   },
+   {
+    "url": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker/publications-and-resources/staying-safe-from-scams",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "sitemap",
+    "machine_url": "https://mom.gov.sg/passes-and-permits.xml",
+    "item_count": null,
+    "latest_item_date": "2026-07-02",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Scams can happen to anyone, including Migrant Domestic Workers (MDWs). Learn how MDWs can recognise and avoid scams, while safeguarding their well-being and hard-earned money.",
+    "notes": "MDW-focused scam guide (types, real stories, ACT posters in Bahasa Indonesia/Burmese/Hindi/Tagalog/Tamil). Narrative. Last updated 2 July 2026."
+   },
+   {
+    "url": "https://www.mom.gov.sg/employment-agencies/employment-agency-publications/ea-alerts",
+    "kind": "advisory_feed",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://mom.gov.sg/newsroom.xml",
+    "item_count": null,
+    "latest_item_date": "2026-11-25",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "EA Alert: Advisory on Fraudulent Actions by Employment Agencies in Work Pass Applications",
+    "notes": "Dated table of EA Alerts (2014-2026; many PDFs) for licensed employment agencies; scam-relevant items include 'EA Alert: Report suspected unlicensed employment agents' (8 Jun 2026), 'Fake job postings' advisories. Mostly regulatory, low IOC value. machine_url: page is in sitemap index (child not pinned)."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [
+    "6438 5122 (MOM hotline, per SGDI)",
+    "1799 (ScamShield Helpline, cited)"
+   ],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/sgministryofmanpower",
+    "https://t.me/sgministryofmanpower",
+    "https://www.linkedin.com/company/ministry-of-manpower/",
+    "http://www.youtube.com/user/MOMsingapore"
+   ],
+   "apps": [],
+   "emails": [
+    "@mom.gov.sg",
+    "PostmanSG (government email sender)"
+   ]
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/mom",
+   "https://www.mom.gov.sg/transact-safely-and-securely",
+   "https://www.mom.gov.sg/newsroom/announcements/2025/2025-scam-alert-impersonation-phone-call"
+  ],
+  "notes": "official_domains mom.gov.sg (a: 'Official MOM websites and eServices' URLs will always contain \".mom.gov.sg\"'). robots.txt: Crawl-delay 1 (for some AI bots), sitemap index https://www.mom.gov.sg/sitemap.xml -> passes-and-permits/employment-practices/workplace-safety-and-health/faq/newsroom/others .xml (all with lastmod). X handle MOM_sg seen only in share-intent link. Job-scam angle: MOM pages cover fake job postings for EAs; consumer job-scam advisories are mostly SPF's. Also has a Employment Agency directory (allowlist vs fake recruiters) not checked."
+ },
+ {
+  "entity_id": "hsa.gov.sg",
+  "name": "Health Sciences Authority",
+  "abbr": "HSA",
+  "aliases": [
+   "Health Sciences Authority (HSA)",
+   "HSA"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "moh.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "hsa.gov.sg"
+  ],
+  "official_hosts": [
+   "www.hsa.gov.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.hsa.gov.sg/announcements/hsa-alerts-the-public-on-fake-tiktok-accounts/",
+    "kind": "alert_page",
+    "lists_indicators": [
+     "social_handle"
+    ],
+    "access": "sitemap",
+    "machine_url": "https://www.hsa.gov.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2022-10-19",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "The first fake account, with the username ‘hsa_sg’, has put up videos on HSA’s tobacco enforcement actions and vaccine approvals. The other fake account, with the username ‘hsasingaporeofficial’",
+    "notes": "One of 3 fake-HSA-account alerts (all migrated legacy pages): fake TikTok (19 Oct 2022: hsa_sg, hsasingaporeofficial), fake Instagram (14 Sep 2022: hsa_sg, hsa.gov.sg; /announcements/hsa-alerts-on-fake-hsa-instagram-accounts/), fake Facebook (/announcements/fake-hsa-account-on-facebook/, not opened). Also /announcements/fake-hsa-laboratory-report-used-to-promote-a-health-supplement-online/ (not opened). Pages say HSA then had no TikTok/Instagram; current site footer links https://www.instagram.com/hsa.singapore/ as official."
+   },
+   {
+    "url": "https://www.hsa.gov.sg/announcements/hsa-alert-cococurv-chocofit-hamercandy/",
+    "kind": "advisory_feed",
+    "lists_indicators": [
+     "entity_name"
+    ],
+    "access": "sitemap",
+    "machine_url": "https://www.hsa.gov.sg/sitemap.xml",
+    "item_count": 263,
+    "latest_item_date": "2026-10-07",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "The three products are: Product name | Potent ingredients | ‘Coco Curv’ | Sibutramine – banned in Singapore | ‘Choco Fit’ | ...",
+    "notes": "HSA 'Announcements' (2,115 URLs in sitemap) include ~263 illegal/adulterated health-product alerts (URL keyword hsa-alert|illegal|undeclared|adulterat|banned|potent; 102 start 'hsa-alert'). Each names products (entity_name = PRODUCT names, sometimes seller channels: 'sold on local e-commerce platforms such as Shopee and Qoo10, or social media platforms such as Facebook and Instagram'); usually no seller URLs. Product photos in PDF annexes. Sitemap has lastmod (newest product alerts lastmod 2026-10-07, e.g. hsa-alert--nutriline-bluvelle--...; sample page dated 6 Aug 2020). Isomer site; robots allows all except /search. This is illegal-health-product consumer-safety data rather than scam IOCs."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [
+    "6213 0838 (HSA, per SGDI)",
+    "6866 3485 (HSA enquiries on product alerts)"
+   ],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [
+    "https://sg.linkedin.com/company/health-sciences-authority",
+    "https://www.instagram.com/hsa.singapore/",
+    "https://www.youtube.com/user/HSAsingapore",
+    "https://x.com/hsasg"
+   ],
+   "apps": [],
+   "emails": [
+    "hsa_info@hsa.gov.sg (SGDI)",
+    "hsa_is@hsa.gov.sg (product alerts enquiries)"
+   ]
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/moh/statutory-boards/hsa",
+   "https://www.hsa.gov.sg/",
+   "https://www.hsa.gov.sg/announcements/hsa-alerts-the-public-on-fake-tiktok-accounts/",
+   "https://www.hsa.gov.sg/announcements/hsa-alert-cococurv-chocofit-hamercandy/"
+  ],
+  "notes": "official_domains hsa.gov.sg (b; SGDI). Fake social handles (fake): hsa_sg (TikTok+Instagram), hsasingaporeofficial (TikTok), hsa.gov.sg (Instagram). Legacy pages have mojibake (UTF-8 served/decoded as Latin-1 in some clients). No RSS; sitemap.xml with lastmod is the change feed. hcsa.gov.sg and healthinfo.gov.sg linked from footer (MOH portals)."
+ },
+ {
+  "entity_id": "moh.gov.sg",
+  "name": "Ministry of Health",
+  "abbr": "MOH",
+  "aliases": [
+   "Ministry of Health (MOH)",
+   "MOH",
+   "Healthier SG"
+  ],
+  "sector": "gov.ministry",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "moh.gov.sg"
+  ],
+  "official_hosts": [
+   "www.moh.gov.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.moh.gov.sg/",
+    "kind": "alert_page",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": "https://www.moh.gov.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Government officials will never ask you to transfer money over a phone call. If you're unsure if something is a scam, call ScamShield (opens in new tab) at 1799.",
+    "notes": "Generic whole-of-government banner only. MOH sitemap (11,326 URLs; lastmod bulk-set 2026-07-30) has NO scam/phishing/impersonation advisory page; 'fraud' hits are healthcare-fraud enforcement/PQ replies (e.g. /newsroom/clinics-taken-to-task-for-fraudulent-claims/). Low value; included so the pipeline knows MOH publishes nothing scam-specific."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [
+    "6325 9220 (MOH, per SGDI)"
+   ],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [
+    "https://www.facebook.com/SingaporeMOH/",
+    "https://www.instagram.com/mohsingapore",
+    "https://twitter.com/MOHSingapore",
+    "https://tiktok.com/@MOHSingapore",
+    "https://sg.linkedin.com/company/moh-sg",
+    "https://www.youtube.com/user/MOHSingapore?gl=SG&amp;hl=en-GB",
+    "https://www.whatsapp.com/channel/0029Vb6V58WBqbr2jdEOxl38"
+   ],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/moh",
+   "https://www.moh.gov.sg/"
+  ],
+  "notes": "official_domains moh.gov.sg (b; SGDI). Unverified (search snippet of SPF 20230905 advisory on fake HealthHub app SMS): legitimate MOH messages used sender ID 'MOH' (pre-July-2024; now gov.sg) and were not sent from mobile numbers. Healthcare impersonation scams (SingHealth/polyclinic, HealthHub) are published by SPF/ScamShield and the clusters, not MOH. Communicable Diseases Agency (cda.gov.sg) is a new 2026 MOH statboard per SGDI."
+ },
+ {
+  "entity_id": "hpb.gov.sg",
+  "name": "Health Promotion Board",
+  "abbr": "HPB",
+  "aliases": [
+   "Health Promotion Board (HPB)",
+   "HPB"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "moh.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "hpb.gov.sg"
+  ],
+  "official_hosts": [
+   "www.hpb.gov.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [
+    "1800-2231313 (HPB, per SGDI)"
+   ],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [
+    "https://www.facebook.com/hpbsg",
+    "https://www.instagram.com/hpbsg",
+    "https://www.linkedin.com/company/health-promotion-board",
+    "https://www.youtube.com/user/HPBsg?"
+   ],
+   "apps": [],
+   "emails": [
+    "hpb_mailbox@hpb.gov.sg (SGDI)"
+   ]
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/moh/statutory-boards/hpb",
+   "https://www.hpb.gov.sg/"
+  ],
+  "notes": "No scam pages: sitemap (395 URLs) only keyword hit is an advisory-committee release; homepage has no scam text. HPB consumer content lives on healthhub.sg (linked from HPB homepage)."
+ },
+ {
+  "entity_id": "healthhub.sg",
+  "name": "HealthHub",
+  "abbr": null,
+  "aliases": [
+   "HealthHub",
+   "HealthHub SG"
+  ],
+  "sector": "gov.programme",
+  "parent_entity_id": "moh.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "healthhub.sg"
+  ],
+  "official_hosts": [
+   "www.healthhub.sg",
+   "eservices.healthhub.sg",
+   "support.healthhub.sg",
+   "cdn.healthhub.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.healthhub.sg/highlights-and-insights/health-safety-advisory/stay-safe-when-shopping-online",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "sitemap",
+    "machine_url": "https://www.healthhub.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2025-08-25",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "it’s hard to tell who the sellers are, and whether they are selling fake health products or if their services are safe.",
+    "notes": "Part of 'health-safety-advisory' section (13 URLs in sitemap, lastmod 2025-08..2026-10) incl. protect-yourself-from-fake-and-illegal-health-products, protect-yourself-from-unlicensed-healthcare-services-and-professionals. Narrative consumer-safety guidance (mirrors HSA). latest_item_date = sitemap lastmod."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [
+    "https://t.me/HealthHubSG",
+    "https://www.tiktok.com/@healthhub.sg"
+   ],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.hpb.gov.sg/",
+   "https://www.healthhub.sg/highlights-and-insights/health-safety-advisory/stay-safe-when-shopping-online"
+  ],
+  "notes": "National health portal linked from HPB homepage; page links moh.gov.sg, hsa.gov.sg and synapxe.sg (operator) - ownership stated as MOH-family by linkage only (b). Listed on gov.sg Trusted Sites per earlier survey. SPF impersonation: unverified (search snippet) 2023 SPF advisory 'new scam variant involving SMS to fake HealthHub application'. Sitemap 16,444 URLs with lastmod."
+ },
+ {
+  "entity_id": "singhealth.com.sg",
+  "name": "Singapore Health Services (SingHealth)",
+  "abbr": "SingHealth",
+  "aliases": [
+   "SingHealth",
+   "SingHealth Polyclinics",
+   "SHP",
+   "Polyclinic"
+  ],
+  "sector": "healthcare",
+  "parent_entity_id": "moh.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "singhealth.com.sg",
+   "cgh.com.sg",
+   "kkh.com.sg",
+   "skh.com.sg",
+   "nccs.com.sg",
+   "nhcs.com.sg",
+   "nni.com.sg",
+   "snec.com.sg",
+   "ndcs.com.sg",
+   "egh.com.sg",
+   "healthxchange.sg",
+   "singhealthacademy.edu.sg",
+   "singhealthdukenus.com.sg"
+  ],
+  "official_hosts": [
+   "www.singhealth.com.sg",
+   "polyclinic.singhealth.com.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.singhealth.com.sg/about-singhealth/news/check-fake-news",
+    "kind": "report_portal",
+    "lists_indicators": [],
+    "access": "sitemap",
+    "machine_url": "https://www.singhealth.com.sg/sitemap-index.xml",
+    "item_count": null,
+    "latest_item_date": "2025-04-23",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Heard news about SingHealth or one of its institutions that you’re unsure of? Email us at checkfakenews@singhealth.com.sg to verify its authenticity.",
+    "notes": "Verification channel only (official email checkfakenews@singhealth.com.sg). Polyclinic equivalent at https://polyclinic.singhealth.com.sg/about-shp/news/check-fake-news (seen in search, not opened). Sitemap index (7 children, lastmod) has no other scam page; scam alerts for SingHealth institutions live on sgh.com.sg (separate record). Unverified (search snippet): ScamShield flagged fake 'SingHealth Polyclinics' outstanding-bill iMessages on 7 Nov 2026; SPF advisory 'Beware of Fake SingHealth and Polyclinic Websites' (SPF sample domain polyclinic-a.top, not visited)."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [
+    "for.sg"
+   ],
+   "social": [
+    "https://www.facebook.com/singhealth",
+    "https://www.instagram.com/SingHealth.SG",
+    "https://www.linkedin.com/company/singhealth/",
+    "https://www.tiktok.com/@singhealth?_t=8ohAFy7fToO&_r=1",
+    "https://www.youtube.com/@SingaporeHealth"
+   ],
+   "apps": [],
+   "emails": [
+    "checkfakenews@singhealth.com.sg"
+   ]
+  },
+  "evidence": [
+   "https://www.singhealth.com.sg/about-singhealth/news/check-fake-news"
+  ],
+  "notes": "Public healthcare cluster (MOH Holdings-owned; parent set to moh.gov.sg). official_domains: singhealth.com.sg (b) + SingHealth institution sites linked from the SingHealth footer (b): CGH, KKH, SKH, NCCS, NHCS, NNI, SNEC, NDCS, EGH, HealthXchange, SingHealth Academy, SingHealth Duke-NUS; sgh.com.sg has its own record. Official bill-payment host per SGH page: eservices.healthhub.sg/public/payments. SPF brand tag 'SingHealth' (1 advisory)."
+ },
+ {
+  "entity_id": "sgh.com.sg",
+  "name": "Singapore General Hospital",
+  "abbr": "SGH",
+  "aliases": [
+   "Singapore General Hospital (SGH)",
+   "SGH"
+  ],
+  "sector": "healthcare",
+  "parent_entity_id": "singhealth.com.sg",
+  "country": "SG",
+  "official_domains": [
+   "sgh.com.sg"
+  ],
+  "official_hosts": [
+   "www.sgh.com.sg",
+   "eservices.healthhub.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.sgh.com.sg/patient-services/patient-finance/spot-scam-at-sgh",
+    "kind": "fake_indicator_list",
+    "lists_indicators": [
+     "url"
+    ],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Only log in to make a payment at this secure link on the MOH HealthHub portal, never elsewhere: https://eservices.healthhub.sg/public/payments ... Examples: https://sgh-xxx.com.sg or https://sgh-sgauth.com",
+    "notes": "Fake-link PATTERN examples (sgh-xxx.com.sg placeholder, sgh-sgauth.com) plus the single OFFICIAL payment URL (eservices.healthhub.sg/public/payments). Undated. 'A link can contain the word \"SGH\", \"SingHealth\" or \"HealthHub\" and still be fake.'"
+   },
+   {
+    "url": "https://www.sgh.com.sg/about-sgh/scam-alert",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Verify SGH's official website is www.sgh.com.sg and government sites use .gov.sg",
+    "notes": "'Scam Alert: Protect Yourself from Healthcare Impersonation Scams' - narrative + official-website statement (a). Unverified (search snippet): SGH also flagged a fake YouTube ad claiming an eye-drop product was developed by SGH (Nov 2026)."
+   },
+   {
+    "url": "https://www.sgh.com.sg/news/patient-care/sgh-nhg-health-warn-of-fake-ads-promoting-health-products",
+    "kind": "news_releases",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": "2026-07-07",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Beware of fake advertisements featuring individuals dressed in Singapore General Hospital’s (SGH) or NHG Health garb to promote health products that have been circulating online",
+    "notes": "Republished Straits Times article (7 Jul 2026) on fake TikTok ads impersonating SGH/NHG Health staff. No handles given."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/SingaporeGeneralHospital/",
+    "https://www.instagram.com/sghseen/",
+    "https://www.linkedin.com/company/singapore-general-hospital/",
+    "https://www.tiktok.com/@sghseen",
+    "https://www.youtube.com/user/mysghonline/"
+   ],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgh.com.sg/about-sgh/scam-alert",
+   "https://www.sgh.com.sg/patient-services/patient-finance/spot-scam-at-sgh"
+  ],
+  "notes": "official_domains sgh.com.sg (a: 'SGH's official website is www.sgh.com.sg'). eservices.healthhub.sg is the official bill-payment host named by SGH (a; HealthHub record). sgh.com.sg robots/sitemap not swept."
+ },
+ {
+  "entity_id": "nuhs.edu.sg",
+  "name": "National University Health System",
+  "abbr": "NUHS",
+  "aliases": [
+   "NUHS",
+   "National University Health System"
+  ],
+  "sector": "healthcare",
+  "parent_entity_id": "moh.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "nuhs.edu.sg",
+   "nuhsplus.edu.sg",
+   "ntfgh.com.sg",
+   "ah.com.sg",
+   "jch.com.sg",
+   "ncis.com.sg",
+   "nuhcs.com.sg",
+   "nup.com.sg",
+   "nucohs.com.sg"
+  ],
+  "official_hosts": [
+   "www.nuhs.edu.sg",
+   "coe.nuhs.edu.sg",
+   "discovery.nuhs.edu.sg",
+   "www.nuhsplus.edu.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.nuhs.edu.sg/security-advisory",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "sitemap",
+    "machine_url": "https://www.nuhs.edu.sg/sitemap/sitemap.xml",
+    "item_count": 1,
+    "latest_item_date": "2026-04-01",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Beware of Rising Impersonation Calls, SMSes and Email Phishing Scams Created: 27 January 2022 Updated: 1 April 2026",
+    "notes": "Single advisory, narrative (enter credentials only on NUHS App or official websites; verify via www.nuhs.edu.sg/about-nuhs/contact-us). Site-wide banner 'NUHS Institutions will NEVER ask you to transfer money or disclose bank details over a call.' Sitemap (2,131 URLs) has no lastmod. Legacy URL /Pages/security-advisory.aspx (search)."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [
+    "+65 6908 2222 (NUHS)"
+   ],
+   "short_link_domains": [
+    "for.sg"
+   ],
+   "social": [
+    "https://www.facebook.com/NationalUniversityHealthSystem/",
+    "https://instagram.com/nuhsofficial",
+    "https://www.linkedin.com/company/national-university-health-system",
+    "https://www.tiktok.com/@nuhsofficial"
+   ],
+   "apps": [
+    "NUHS App"
+   ],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.nuhs.edu.sg/security-advisory"
+  ],
+  "notes": "Public healthcare cluster. official_domains: nuhs.edu.sg (b) + cluster institution sites linked from NUHS nav/footer (b): NUHS Plus, Ng Teng Fong GH, Alexandra Hospital, Jurong Community Hospital, NCIS, NUHCS, National University Polyclinics, NUCOHS; nuh.com.sg has its own record."
+ },
+ {
+  "entity_id": "nuh.com.sg",
+  "name": "National University Hospital",
+  "abbr": "NUH",
+  "aliases": [
+   "National University Hospital (NUH)",
+   "NUH"
+  ],
+  "sector": "healthcare",
+  "parent_entity_id": "nuhs.edu.sg",
+  "country": "SG",
+  "official_domains": [
+   "nuh.com.sg"
+  ],
+  "official_hosts": [
+   "www.nuh.com.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.nuh.com.sg/beware-of-scams-impersonating-nuh",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": null,
+    "item_count": 1,
+    "latest_item_date": "2024-06-21",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "NUH will NEVER ask you to transfer money or disclose bank details over a call. We also do not endorse, sell or promote products on social media.",
+    "notes": "Dated 2024/06/21. Narrative; official verification channels: 6908-2222, contactus@nuhs.edu.sg, OneNUHS App. Still cites retired scamalert.sg and 1800-722-6688 anti-scam helpline."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [
+    "6908-2222 (NUH/NUHS, to verify calls/SMS/emails)"
+   ],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/NationalUniversityHospital/",
+    "https://www.instagram.com/nuhig/",
+    "https://www.linkedin.com/company/national-university-hospital",
+    "https://www.tiktok.com/@nuhsg_official",
+    "https://www.youtube.com/@nuh-sg"
+   ],
+   "apps": [
+    "OneNUHS App"
+   ],
+   "emails": [
+    "contactus@nuhs.edu.sg"
+   ]
+  },
+  "evidence": [
+   "https://www.nuh.com.sg/beware-of-scams-impersonating-nuh"
+  ],
+  "notes": "official_domains nuh.com.sg (b). Not swept (robots/sitemap)."
+ },
+ {
+  "entity_id": "nhghealth.com.sg",
+  "name": "NHG Health (National Healthcare Group)",
+  "abbr": "NHG",
+  "aliases": [
+   "NHG Health",
+   "National Healthcare Group",
+   "NHG",
+   "NHG Polyclinics"
+  ],
+  "sector": "healthcare",
+  "parent_entity_id": "moh.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "nhghealth.com.sg"
+  ],
+  "official_hosts": [
+   "www.nhghealth.com.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.nhghealth.com.sg/",
+   "https://www.sgh.com.sg/news/patient-care/sgh-nhg-health-warn-of-fake-ads-promoting-health-products"
+  ],
+  "notes": "BLOCKED: www.nhghealth.com.sg returned HTTP 429 to robots.txt, /sitemap.xml and homepage (curl), and HTTP 429 via WebFetch (2026-11-26); legacy www.nhg.com.sg also 429 (2026-11-25). Stopped per policy, not bypassed. Domain taken from search results (www.nhghealth.com.sg/, /ncid, /nhg-diagnostics) - not confirmed on an opened page. Known scam info (via SGH-hosted ST article, 7 Jul 2026): NHG Health Facebook post (6 Jul 2026) warned of videos of an individual in NHG uniform selling medical products. Cluster covers TTSH, KTPH, Woodlands Hospital, IMH, NSC, NCID, NHG Polyclinics."
+ },
+ {
+  "entity_id": "cdc.gov.sg",
+  "name": "Community Development Councils",
+  "abbr": "CDC",
+  "aliases": [
+   "Community Development Council",
+   "CDC Singapore",
+   "CDCs"
+  ],
+  "sector": "gov.dept",
+  "parent_entity_id": "pa.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "cdc.gov.sg",
+   "sg60.gov.sg"
+  ],
+  "official_hosts": [
+   "www.cdc.gov.sg",
+   "vouchers.cdc.gov.sg",
+   "vouchers.sg60.gov.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.cdc.gov.sg/common-flagship-programmes/law-awareness/webinars/scam-prevention-response-and-recovery/",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "sitemap",
+    "machine_url": "https://www.cdc.gov.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2026-11-12",
+    "verified": "2026-11-26 sitemap only (page not fetched)",
+    "sample": null,
+    "notes": "Only scam-keyword URL among 112 in cdc.gov.sg sitemap: a law-awareness webinar page (sitemap lastmod 2026-11-12). Low IOC value. CDC/SG60 voucher anti-scam guidance is in the cdc.gov.sg#cdc-vouchers record."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [
+    "https://t.me/CdcCares",
+    "https://www.tiktok.com/@cdc.gov.sg?_r=1&amp;_t=ZS-98eK16e364G",
+    "https://www.youtube.com/channel/UCJqecXsinj1NhD8eCDnvN_A"
+   ],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.cdc.gov.sg/common-flagship-programmes/sg60-vouchers/",
+   "https://vouchers.cdc.gov.sg/"
+  ],
+  "notes": "official_domains: cdc.gov.sg (b); sg60.gov.sg (b; vouchers.sg60.gov.sg linked from the CDC SG60 Vouchers page as the SG60 voucher site). Isomer sites; robots allow all except /search; sitemaps with lastmod."
+ },
+ {
+  "entity_id": "cdc.gov.sg#cdc-vouchers",
+  "name": "CDC Vouchers Scheme",
+  "abbr": null,
+  "aliases": [
+   "CDC Vouchers",
+   "CDC Vouchers Scheme",
+   "RedeemSG",
+   "SG60 Vouchers"
+  ],
+  "sector": "gov.programme",
+  "parent_entity_id": "cdc.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "cdc.gov.sg",
+   "redeem.gov.sg"
+  ],
+  "official_hosts": [
+   "vouchers.cdc.gov.sg",
+   "voucher.redeem.gov.sg",
+   "signup.redeem.gov.sg",
+   "go.gov.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://vouchers.cdc.gov.sg/residents/faq/",
+    "kind": "official_channels",
+    "lists_indicators": [
+     "url",
+     "sms_sender_id",
+     "phone"
+    ],
+    "access": "sitemap",
+    "machine_url": "https://vouchers.cdc.gov.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2026-10-01",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "The SMS is identifiable by the sender named “Gov.sg”. The voucher link should also start with the prefix https://voucher.redeem.gov.sg . Do not trust voucher links starting with other prefixes.",
+    "notes": "GENUINE identifiers (official): claim only via go.gov.sg/cdcv (Singpass); voucher SMS from sender gov.sg; voucher links start https://voucher.redeem.gov.sg; report suspicious messages to PA 6225 5322 or police i-witness / 1800 255 0000. 'Gov.sg ... will never send SMSes requiring your personal or banking details.' FAQ last updated 1 October 2026. vouchers.cdc.gov.sg sitemap (62 URLs, lastmod) has no scam page."
+   },
+   {
+    "url": "https://vouchers.cdc.gov.sg/residents/how-to-claim-and-spend/",
+    "kind": "official_channels",
+    "lists_indicators": [
+     "url",
+     "sms_sender_id"
+    ],
+    "access": "sitemap",
+    "machine_url": "https://vouchers.cdc.gov.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2026-06-11",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "1: Visit go.gov.sg/cdcv ... 3: Receive your CDC Voucher link by SMS from “gov.sg”",
+    "notes": "Claim flow (EN; ZH/MS/TA variants in sitemap)."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [
+    "6225 5322 (PA, report suspicious CDC voucher/RedeemSG messages)",
+    "1800 255 0000 (Police hotline, cited)"
+   ],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://vouchers.cdc.gov.sg/residents/faq/",
+   "https://vouchers.cdc.gov.sg/residents/how-to-claim-and-spend/",
+   "https://vouchers.cdc.gov.sg/"
+  ],
+  "notes": "Most-impersonated voucher brand: SPF brand tag 'CDC Vouchers' (4 advisories; SPF sample scam hosts, not visited: ptvs-...herokuapp.com, ...koyeb.app, ...up.railway.app). redeem.gov.sg (RedeemSG, OGP platform) is official per FAQ (a). Any voucher link not starting https://voucher.redeem.gov.sg is fake per the scheme's own rule -> strong pipeline rule. The scheme itself publishes no fake-site list."
+ },
+ {
+  "entity_id": "mot.gov.sg",
+  "name": "Ministry of Transport",
+  "abbr": "MOT",
+  "aliases": [
+   "Ministry of Transport (MOT)",
+   "MOT"
+  ],
+  "sector": "gov.ministry",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "mot.gov.sg"
+  ],
+  "official_hosts": [
+   "www.mot.gov.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [
+    "6375 7871 (MOT, per SGDI)"
+   ],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [
+    "https://www.facebook.com/motsg",
+    "https://www.instagram.com/motsingapore/?hl=en",
+    "https://www.tiktok.com/@motsingapore"
+   ],
+   "apps": [],
+   "emails": [
+    "mot@mot.gov.sg (SGDI)"
+   ]
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/mot",
+   "https://www.mot.gov.sg/news-resources/newsroom/applications-for-2025-public-transport-voucher-exercise-to-open-from-20-january-2026/"
+  ],
+  "notes": "No scam pages: sitemap (2,642 URLs) keyword hits are all 'advisory panel'/'alert' false positives. Parent of LTA, PTC, CAAS, MPA. PTV programme in mot.gov.sg#public-transport-voucher."
+ },
+ {
+  "entity_id": "mot.gov.sg#public-transport-voucher",
+  "name": "Public Transport Voucher (PTV) Exercise",
+  "abbr": "PTV",
+  "aliases": [
+   "Public Transport Voucher (PTVE)",
+   "Public Transport Voucher",
+   "PTV",
+   "PTVE"
+  ],
+  "sector": "gov.programme",
+  "parent_entity_id": "mot.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "mot.gov.sg"
+  ],
+  "official_hosts": [
+   "go.gov.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.mot.gov.sg/news-resources/newsroom/applications-for-2025-public-transport-voucher-exercise-to-open-from-20-january-2026/",
+    "kind": "official_channels",
+    "lists_indicators": [
+     "url"
+    ],
+    "access": "sitemap",
+    "machine_url": "https://www.mot.gov.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2026-01-19",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "households ... can apply for PTVs online at https://go.gov.sg/ptv (opens in new tab) or in person at their local Community Centres/Clubs (CCs).",
+    "notes": "Only GENUINE apply channels: https://go.gov.sg/ptv or in person at CCs; 2025 exercise second stage 20 Jan - 31 Oct 2026; PTVs top up fare cards/monthly passes; households also get PTV notification letters. No scam text on MOT. Newer PTV release in sitemap: /newsroom/60-public-transport-vouchers-to-provide-support-for-lower-income-households/ (lastmod 2026-09-17, not opened)."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.mot.gov.sg/news-resources/newsroom/applications-for-2025-public-transport-voucher-exercise-to-open-from-20-january-2026/"
+  ],
+  "notes": "SPF brand tag 'Public Transport Voucher (PTVE)' (1 advisory; SPF sample scam domain gtva.link, not visited). Scam warnings are SPF's: unverified (search snippet) 20260813 'telegram account compromise from fake public transport voucher scheme' - Telegram infographics + phishing for Telegram codes; 'MOT will never send messages via Telegram or requests ... to click on a link to claim a voucher'."
+ },
+ {
+  "entity_id": "simplygo.com.sg",
+  "name": "SimplyGo",
+  "abbr": null,
+  "aliases": [
+   "SimplyGo",
+   "SimplyGo Pte Ltd",
+   "TransitLink",
+   "SimplyGo app"
+  ],
+  "sector": "quasi_gov",
+  "parent_entity_id": "lta.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "simplygo.com.sg",
+   "transitlink.com.sg"
+  ],
+  "official_hosts": [
+   "www.simplygo.com.sg",
+   "portal.simplygo.com.sg",
+   "concportal.simplygo.com.sg",
+   "ezlink.simplygo.com.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [
+    "+65 6883 5048 (SimplyGo WhatsApp, wa.me link on homepage)"
+   ],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [
+    "https://www.facebook.com/SimplyGoSG",
+    "https://www.instagram.com/SimplyGoSG",
+    "https://www.tiktok.com/@ezlinksg"
+   ],
+   "apps": [
+    "SimplyGo (iOS App Store id667933103; Google Play sg.com.transitlink)"
+   ],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.simplygo.com.sg/"
+  ],
+  "notes": "No scam page found on SimplyGo: www.simplygo.com.sg has no robots.txt (404) and no sitemap.xml (404); homepage has no scam text; site:simplygo.com.sg search returned only SPF advisories plus a 2024 EZ-Link 'Scam-Notice-Updated-31012024.pdf' on ezlink.simplygo.com.sg that now returns HTTP 404 (2026-11-26). www.transitlink.com.sg returned HTTP 502 (2026-11-25 and 2026-11-26) - legacy brand; transitlink.com.sg kept in official_domains because the official SimplyGo Android app id is sg.com.transitlink (b, weak). EZ-Link (ezlink.com.sg) is covered by the private partition. Scam info about SimplyGo is SPF's: SPF brand tag 'SimplyGo' (1 alert); unverified (search snippets) SPF 20250328/20250429/20250911 advisories on fake EZ-Link/SimplyGo 'unlimited travel' social-media ads (97 reports, >=S$156k since 1 Mar 2025); SimplyGo hotline 1800-2255-663 quoted by SPF (not seen on SimplyGo page). Ownership (LTA subsidiary) asserted from brief context, not verified on an opened page."
+ },
+ {
+  "entity_id": "acra.gov.sg",
+  "name": "Accounting and Corporate Regulatory Authority",
+  "abbr": "ACRA",
+  "aliases": [
+   "Accounting and Corporate Regulatory Authority (ACRA)",
+   "ACRA",
+   "Bizfile",
+   "BizFile+"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "mof.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "acra.gov.sg",
+   "bizfile.gov.sg"
+  ],
+  "official_hosts": [
+   "www.acra.gov.sg",
+   "www.bizfile.gov.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.acra.gov.sg/help-support/public-advisory-protect-yourself-against-scams/",
+    "kind": "official_channels",
+    "lists_indicators": [
+     "email",
+     "domain"
+    ],
+    "access": "sitemap",
+    "machine_url": "https://www.acra.gov.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2026-03-25",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "ACRA does not contact customers through SMS or WhatsApp and will never send QR codes through SMS, messaging apps like WhatsApp ... Emails from ACRA will only be from addresses ending with “@acra.gov.sg”",
+    "notes": "Public advisory (last updated 25 Mar 2026; original 11 Jun 2025) on Singpass-credential theft to register businesses in victims' names and fake 'ACRA surveys'. GENUINE identifiers (official): emails only @acra.gov.sg; links only acra.gov.sg or bizfile.gov.sg; ACRA does not use SMS/WhatsApp; Helpdesk 6248 6028."
+   },
+   {
+    "url": "https://www.acra.gov.sg/news-events/news-announcements/acra-alert--beware-of-scam-emails/",
+    "kind": "alert_page",
+    "lists_indicators": [],
+    "access": "sitemap",
+    "machine_url": "https://www.acra.gov.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2026-03-20",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "\"News » ACRA Notification – Intended to Dissolve Company Under Section 344A of the Companies Act [Updated]\" ... \"You have been added to Regulatory Affairs Office\"",
+    "notes": "Scam-email subject lines (no sender addresses/domains in text); screenshots in an Annex PDF. Only 2 scam-keyword pages in ACRA sitemap (977 URLs, lastmod present). Isomer site."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [
+    "6248 6028 (ACRA Helpdesk)"
+   ],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [
+    "https://www.facebook.com/SG.ACRA",
+    "https://www.linkedin.com/company/accounting-and-corporate-regulatory-authority-acra-/",
+    "https://www.youtube.com/channel/UCmsUeKj4WPOlEDvImC02boA",
+    "https://x.com/ACRA_SG"
+   ],
+   "apps": [],
+   "emails": [
+    "@acra.gov.sg"
+   ]
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/mof/statutory-boards/acra",
+   "https://www.acra.gov.sg/help-support/public-advisory-protect-yourself-against-scams/"
+  ],
+  "notes": "official_domains acra.gov.sg and bizfile.gov.sg (a: 'only include links with acra.gov.sg or bizfile.gov.sg'). sms_sender_ids left empty because ACRA states it does not contact customers by SMS/WhatsApp. bizfile.gov.sg sitemap (82 URLs) has no scam page. ACRA UEN register is on data.gov.sg (entity-name allowlist; earlier survey). /resources/guides-forms/checking-alerts-notifications-from-acra/ (9 Nov 2025) explains genuine Bizfile inbox/email alerts; court letters only in hard copy."
+ },
+ {
+  "entity_id": "customs.gov.sg",
+  "name": "Singapore Customs",
+  "abbr": null,
+  "aliases": [
+   "Singapore Customs",
+   "Customs",
+   "S.G. Customs"
+  ],
+  "sector": "gov.dept",
+  "parent_entity_id": "mof.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "customs.gov.sg",
+   "ntp.gov.sg"
+  ],
+  "official_hosts": [
+   "www.customs.gov.sg",
+   "www.ntp.gov.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.customs.gov.sg/news/beware-of-scams/",
+    "kind": "advisory_feed",
+    "lists_indicators": [
+     "entity_name"
+    ],
+    "access": "sitemap",
+    "machine_url": "https://www.customs.gov.sg/sitemap.xml",
+    "item_count": 7,
+    "latest_item_date": "2024-09-17",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "The iMessage FALSELY claims to be from Singapore Customs by identifying itself as ‘S.G. Customs’. We do NOT use ‘SGCustoms’ (or any variation of this) as part of our corporate identity",
+    "notes": "7 scam advisories under /news/ (category Advisories), all opened: 2018-03-15 public-advisory-on-scams; 2019-10-30 be-aware-of-scams (fake letters with crest); 2020-06-30 be-aware-of-scams-bearing-singapore-customs-crest; 2020-08-14 be-aware-of-scam-documents (fake payment notices); 2021-01-28 be-aware-of-scam-calls-and-messages (screenshots); 2022-03-14 fake-customs-website; 2024-09-17 beware-of-scams (iMessage 'S.G. Customs'). Mostly narrative; fake sender display name 'S.G. Customs'/'SGCustoms' (entity_name); fake website not named in text. Sitemap lastmod is bulk (2026-07-30) - use page date. No RSS."
+   },
+   {
+    "url": "https://www.customs.gov.sg/news/fake-customs-website/",
+    "kind": "official_channels",
+    "lists_indicators": [
+     "url"
+    ],
+    "access": "sitemap",
+    "machine_url": "https://www.customs.gov.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2022-03-14",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Members of the public are advised to use only the official Singapore Customs website at https://www.customs.gov.sg/ and the Networked Trade Platform at https://www.ntp.gov.sg/home/",
+    "notes": "Fake site reported but NOT named. Official URLs (official): www.customs.gov.sg, www.ntp.gov.sg."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [
+    "6355 2000 (Singapore Customs, to verify correspondence)"
+   ],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [
+    "https://www.facebook.com/SingaporeCustoms",
+    "https://www.instagram.com/singaporecustoms/",
+    "https://www.linkedin.com/company/ministry-of-finance-singapore-customs/",
+    "https://www.tiktok.com/@singaporecustoms",
+    "https://www.youtube.com/user/SingaporeCustoms"
+   ],
+   "apps": [],
+   "emails": [
+    "customs_feedback@customs.gov.sg",
+    "@customs.gov.sg (no Gmail/Yahoo/Hotmail)"
+   ]
+  },
+  "evidence": [
+   "https://www.customs.gov.sg/news/fake-customs-website/",
+   "https://www.customs.gov.sg/news/public-advisory-on-scams/",
+   "https://www.customs.gov.sg/news/be-aware-of-scam-calls-and-messages/"
+  ],
+  "notes": "official_domains customs.gov.sg (a) and ntp.gov.sg (a: 'use only the official ... Networked Trade Platform at https://www.ntp.gov.sg'). Customs 'does not send official correspondence from personal email accounts such as Gmail, Yahoo, Hotmail'. Department under MOF (SGDI lists it under MOF departments; not re-fetched). Parcel-detention impersonation overlaps courier scams."
+ },
+ {
+  "entity_id": "nea.gov.sg",
+  "name": "National Environment Agency",
+  "abbr": "NEA",
+  "aliases": [
+   "National Environment Agency (NEA)",
+   "NEA",
+   "Clean and Green Singapore",
+   "Climate Vouchers"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "mse.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "nea.gov.sg"
+  ],
+  "official_hosts": [
+   "www.nea.gov.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://t.me/s/NEASingapore?q=scam",
+    "kind": "advisory_feed",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": null,
+    "item_count": 4,
+    "latest_item_date": "2025-10-27",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "[ Scam Alert] We are aware of a scam involving the impersonation of NEA’s ePortal ( www.nea.gov.sg/e-services ). Individuals have received SMS urging them to pay fines through a phishing site that requests payment details.",
+    "notes": "Public web preview of Telegram channel 'NEA Singapore' (8.98K subscribers) filtered by q=scam: 4 dated scam posts 2024-01-09 (fake Facebook accounts using NEA/Clean and Green Singapore logos), 2024-11-16 (fake NEA ePortal fines SMS), 2025-06-30 (Climate Vouchers: 'The ONLY way to claim ... is through go.gov.sg/cv-claim'), 2025-10-27 (generic). No fake domains/handles named. CAVEAT: channel found via search; not linked from the nea.gov.sg homepage social footer (FB/IG/LinkedIn/TikTok/YouTube) - ownership by NEA is inferred, not verified on nea.gov.sg. t.me robots.txt 404."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [
+    "6225 5632 (NEA, per SGDI)"
+   ],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [
+    "https://www.facebook.com/NEASingapore",
+    "https://www.instagram.com/nea_sg/",
+    "https://www.linkedin.com/company/national-environment-agency",
+    "https://www.tiktok.com/@nea_sg",
+    "https://www.youtube.com/channel/UC-tjEFkd0tT2VpD5vbjyAKA/videos"
+   ],
+   "apps": [],
+   "emails": [
+    "nea_qsm@nea.gov.sg (SGDI)"
+   ]
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/mse/statutory-boards/nea",
+   "https://www.nea.gov.sg/"
+  ],
+  "notes": "No scam page on nea.gov.sg: sitemap.xml is stale (446 URLs, all lastmod 2018-06-27; 'advisories' hits are dengue/haze/licensee advisories); /media/advisories redirects to /media/news (filterable, no scam category). Genuine e-payment entry point per NEA's own Telegram alert: www.nea.gov.sg/e-services (ePortal). Climate Vouchers claim only via go.gov.sg/cv-claim. SPF brand tag 'National Environment Agency (NEA)' (1 advisory; SPF sample scam domain nodequa.net, not visited)."
+ },
+ {
+  "entity_id": "swda.gov.sg",
+  "name": "Skills and Workforce Development Agency",
+  "abbr": "SWDA",
+  "aliases": [
+   "Skills and Workforce Development Agency (SWDA)",
+   "SWDA",
+   "SkillsFuture Singapore",
+   "SSG",
+   "Workforce Singapore",
+   "WSG",
+   "SkillsFuture"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "mom.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "swda.gov.sg",
+   "ssg.gov.sg",
+   "wsg.gov.sg",
+   "skillsfuture.gov.sg",
+   "tpgateway.gov.sg"
+  ],
+  "official_hosts": [
+   "www.swda.gov.sg",
+   "service-portal.swda.gov.sg",
+   "www.skillsfuture.gov.sg",
+   "www.tpgateway.gov.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.swda.gov.sg/home/skills-career-resources/private-education-resources/alerts-and-advisories",
+    "kind": "fake_indicator_list",
+    "lists_indicators": [
+     "entity_name",
+     "domain"
+    ],
+    "access": "sitemap",
+    "machine_url": "https://www.swda.gov.sg/sitemap.xml",
+    "item_count": 1,
+    "latest_item_date": "2026-11-04",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "an organisation known as “Singapore Business School” (“SBS”) has been advertising Master's Degree programmes through its website, www.sbs-online.world . ... SBS is NOT a private education institution (“PEI”) registered with SWDA.",
+    "notes": "Private-education 'Alerts and advisories' page (sitemap lastmod 2026-11-04 = latest_item_date); currently one alert naming an unregistered PEI and its website (domain sbs-online.world, text only, not visited). Other SWDA scam-keyword URLs are SkillsFuture-grant fraud convictions (newsroom, 2026-09). Legacy https://www.ssg.gov.sg/scam-advisory/ now redirects to www.swda.gov.sg/scam-advisory -> HTTP 404 (retired after SSG+WSG merger into SWDA in 2026). skillsfuture.gov.sg sitemap (100 URLs) has no scam page."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [
+    "https://www.facebook.com/skillsandworkforcedevelopmentagency",
+    "https://www.instagram.com/swda_sg",
+    "https://www.linkedin.com/company/skillsandworkforcedevelopmentagency",
+    "https://www.tiktok.com/@swda_sg",
+    "https://www.youtube.com/@swda_sg"
+   ],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/mom/statutory-boards/swda",
+   "https://www.swda.gov.sg/home/skills-career-resources/private-education-resources/alerts-and-advisories"
+  ],
+  "notes": "2026 restructuring per SGDI: SkillsFuture Singapore (SSG) + Workforce Singapore (WSG) -> SWDA; www.ssg.gov.sg and www.wsg.gov.sg redirect to www.swda.gov.sg (same 392-395 URL sitemap) (b). skillsfuture.gov.sg and tpgateway.gov.sg linked from SWDA nav (b). MyCareersFuture (www.mycareersfuture.gov.sg, national jobs portal; 135k+ URLs incl. /companies/<name>-<UEN>) is a job-scam ALLOWLIST source (company names + UEN) - no scam pages found. Unverified (search snippet): 2017 SPF/SSG advisory on door-to-door impersonators harvesting Singpass for SkillsFuture Credit claims."
+ },
+ {
+  "entity_id": "moe.gov.sg",
+  "name": "Ministry of Education",
+  "abbr": "MOE",
+  "aliases": [
+   "Ministry of Education (MOE)",
+   "MOE"
+  ],
+  "sector": "gov.ministry",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "moe.gov.sg"
+  ],
+  "official_hosts": [
+   "www.moe.gov.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.moe.gov.sg/scam-alert",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "sitemap",
+    "machine_url": "https://www.moe.gov.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2025-12-05",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Government officials will NEVER do these things over a phone call: Ask you to transfer money. Ask you to disclose bank log-in details. ...",
+    "notes": "Generic whole-of-government scam page + 'Contact us to report MOE-related scams or phishing attempts.' Narrative. Sitemap (5,943 URLs, lastmod) otherwise has only PQ replies on scam education (latest 2026-11-03 'expanding financial literacy and scam awareness modules')."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [
+    "6872 2220 (MOE, per SGDI)"
+   ],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [
+    "https://www.facebook.com/moesingapore",
+    "https://www.linkedin.com/company/ministry-of-education-singapore/",
+    "https://www.youtube.com/user/MOESpore",
+    "https://x.com/MOEsg"
+   ],
+   "apps": [],
+   "emails": [
+    "MOE_QSM@moe.gov.sg (SGDI)"
+   ]
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/moe",
+   "https://www.moe.gov.sg/scam-alert"
+  ],
+  "notes": "official_domains moe.gov.sg (b; SGDI)."
+ },
+ {
+  "entity_id": "msf.gov.sg",
+  "name": "Ministry of Social and Family Development",
+  "abbr": "MSF",
+  "aliases": [
+   "Ministry of Social and Family Development (MSF)",
+   "MSF"
+  ],
+  "sector": "gov.ministry",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "msf.gov.sg"
+  ],
+  "official_hosts": [
+   "www.msf.gov.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.msf.gov.sg/scam-advisory",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "sitemap",
+    "machine_url": "https://www.msf.gov.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2026-10-06",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Beware of scams. MSF will not ask you to send money, give us your credit card information, banking login details or One-Time Passwords (OTP) via SMS or messaging apps.",
+    "notes": "Narrative; gov.sg SMS sender-ID infographic (EN/ZH/MS/TA); MSF hotline 1800 111 2222 to report MSF-related scams; still cites old anti-scam helpline 1800 772 6688 and Scam Alert site. latest_item_date = sitemap lastmod. robots.txt declares no sitemap; /sitemap.xml fetched directly (1,655 URLs)."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [
+    "1800 111 2222 (MSF hotline)"
+   ],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/MSFSingapore",
+    "https://www.instagram.com/msfcares/",
+    "https://www.linkedin.com/company/ministry-of-social-and-family-development-singapore",
+    "https://www.tiktok.com/@msfcares"
+   ],
+   "apps": [],
+   "emails": [
+    "msf_qsm@msf.gov.sg (SGDI)"
+   ]
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/msf",
+   "https://www.msf.gov.sg/scam-advisory"
+  ],
+  "notes": "official_domains msf.gov.sg (b). Assistance-scheme payouts (e.g. ComCare) are common scam lures but MSF lists no fake sites."
+ },
+ {
+  "entity_id": "ccs.gov.sg",
+  "name": "Competition and Consumer Commission of Singapore",
+  "abbr": "CCS",
+  "aliases": [
+   "Competition and Consumer Commission of Singapore (CCS)",
+   "CCS",
+   "CCCS",
+   "Competition and Consumer Commission of Singapore (CCCS)"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "meti.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "ccs.gov.sg",
+   "cccs.gov.sg"
+  ],
+  "official_hosts": [
+   "www.ccs.gov.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.ccs.gov.sg/consumer-protection/legislation-and-guidelines/ccs-s-investigations-into-fake-online-reviews/",
+    "kind": "fake_indicator_list",
+    "lists_indicators": [
+     "entity_name"
+    ],
+    "access": "sitemap",
+    "machine_url": "https://www.ccs.gov.sg/sitemap.xml",
+    "item_count": 45,
+    "latest_item_date": "2026-10-09",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "The following 45 businesses have admitted to procuring fake reviews as part of the first phase of CCS’s investigations: List of businesses who have procured fake reviews S/N Registered business name",
+    "notes": "Table of 45 registered business names that procured fake online reviews (plus a fake-review provider). Last updated 9 October 2026. Consumer-deception, not scam IOCs per se."
+   },
+   {
+    "url": "https://www.ccs.gov.sg/case-register/public-register/consumer-protection--fair-trading-/ccs-takes-action-against-45-businesses-and-a-fake-review-provider-for-fabricating-online-reviews/",
+    "kind": "news_releases",
+    "lists_indicators": [
+     "entity_name"
+    ],
+    "access": "sitemap",
+    "machine_url": "https://www.ccs.gov.sg/sitemap.xml",
+    "item_count": 32,
+    "latest_item_date": "2026-10-09",
+    "verified": "2026-11-26 sitemap only (page not fetched)",
+    "sample": null,
+    "notes": "CPFTA (Consumer Protection (Fair Trading) Act) public case register: 32 case URLs under /case-register/public-register/consumer-protection--fair-trading-/ naming errant retailers (e.g. fake reviews: Lambency Detailing on sgcarmart.com, Loft Home Furnishing). latest = sitemap lastmod."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [
+    "1800-3258282 (CCS, per SGDI)"
+   ],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [
+    "https://sg.linkedin.com/company/ccs-singapore",
+    "https://www.facebook.com/ccs.singapore",
+    "https://www.instagram.com/ccs_singapore",
+    "https://www.youtube.com/@ccs_singapore"
+   ],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/meti/statutory-boards/ccs",
+   "https://www.ccs.gov.sg/consumer-protection/legislation-and-guidelines/ccs-s-investigations-into-fake-online-reviews/"
+  ],
+  "notes": "2026 rename CCCS -> CCS (SGDI); www.cccs.gov.sg serves the same sitemap as www.ccs.gov.sg (b). Consumer complaints are handled by CASE (case.org.sg)."
+ },
+ {
+  "entity_id": "enterprisesg.gov.sg",
+  "name": "Enterprise Singapore",
+  "abbr": "EnterpriseSG",
+  "aliases": [
+   "Enterprise Singapore",
+   "EnterpriseSG",
+   "ESG",
+   "SEEDS Capital"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "meti.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "enterprisesg.gov.sg"
+  ],
+  "official_hosts": [
+   "www.enterprisesg.gov.sg",
+   "subscribe.enterprisesg.com.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.enterprisesg.gov.sg/scam-advisory",
+    "kind": "advisory_feed",
+    "lists_indicators": [
+     "entity_name"
+    ],
+    "access": "sitemap",
+    "machine_url": "https://www.enterprisesg.gov.sg/sitemap.xml",
+    "item_count": 5,
+    "latest_item_date": "2025-07-04",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "4 Jul 2025 - Unauthorised use of the SEEDS Capital name and branding ... misuse of the SEEDS Capital name, branding and reputation by a group operating primarily in China.",
+    "notes": "'Latest scam advisories' list, 5 dated items 21 Sep 2023 .. 4 Jul 2025. Mostly brand-misuse/impersonation narrative; no domains in text. Also /grow-your-business/fake-navigation-with-redirection (sitemap, not opened)."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [
+    "+65 6898 1800 (EnterpriseSG, per SGDI)"
+   ],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [
+    "https://www.facebook.com/enterprisesingapore",
+    "https://www.instagram.com/enterprisesg/",
+    "https://www.linkedin.com/company/enterprisesg",
+    "https://www.youtube.com/enterprisesingapore"
+   ],
+   "apps": [],
+   "emails": [
+    "enquiries-reply@enterprisesg.gov.sg (SGDI)"
+   ]
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/meti/statutory-boards/enterprisesg",
+   "https://www.enterprisesg.gov.sg/scam-advisory"
+  ],
+  "notes": "subscribe.enterprisesg.com.sg linked from page (host only; enterprisesg.com.sg not asserted as official domain)."
+ },
+ {
+  "entity_id": "ura.gov.sg",
+  "name": "Urban Redevelopment Authority",
+  "abbr": "URA",
+  "aliases": [
+   "Urban Redevelopment Authority (URA)",
+   "URA"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "mnd.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "ura.gov.sg"
+  ],
+  "official_hosts": [
+   "www.ura.gov.sg",
+   "eservice.ura.gov.sg",
+   "parking.ura.gov.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.ura.gov.sg/news/media/scam-advisory2026/",
+    "kind": "alert_page",
+    "lists_indicators": [],
+    "access": "sitemap",
+    "machine_url": "https://www.ura.gov.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2026-05-05",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "This email is NOT from URA. ... Official URA notices for parking fine payments are sent in hardcopy via post and electronically via platforms with the ‘gov.sg’ Sender ID.",
+    "notes": "Fake parking-fine email with 'Pay Now' button (screenshot PNG). Official: pay URA parking fines only via URA website or AXS. Older sibling /news/media/scam-advisory/ (sitemap, not opened)."
+   },
+   {
+    "url": "https://www.ura.gov.sg/guidelines/best-practices/remaining-vigilant-phishing-scams/",
+    "kind": "official_channels",
+    "lists_indicators": [
+     "bank_account"
+    ],
+    "access": "sitemap",
+    "machine_url": "https://www.ura.gov.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": null,
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "please ensure that fund transfers are made only to the official URA bank account, which you can verify on the URA website at www.ura.gov.sg/ms/banks",
+    "notes": "URA will not SMS QPs/owners on development-charge payments; genuine bank accounts listed at www.ura.gov.sg/ms/banks (official, not opened)."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [
+    "https://sg.linkedin.com/company/urasingapore",
+    "https://www.facebook.com/URASingapore",
+    "https://www.instagram.com/urasingapore/",
+    "https://www.tiktok.com/@urasingapore",
+    "https://www.youtube.com/@URAsingapore"
+   ],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/mnd/statutory-boards/ura",
+   "https://www.ura.gov.sg/news/media/scam-advisory2026/"
+  ],
+  "notes": "Parking-fine phishing overlaps LTA/OneMotoring lures. Sitemap 9,424 URLs (lastmod bulk 2026-07-30)."
+ },
+ {
+  "entity_id": "cea.gov.sg",
+  "name": "Council for Estate Agencies",
+  "abbr": "CEA",
+  "aliases": [
+   "Council for Estate Agencies (CEA)",
+   "CEA"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "mnd.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "cea.gov.sg"
+  ],
+  "official_hosts": [
+   "www.cea.gov.sg",
+   "eservices.cea.gov.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.cea.gov.sg/consumers/rental-scams/",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "sitemap",
+    "machine_url": "https://www.cea.gov.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2026-06-25",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Scammers are putting up fake property listings online and impersonating property agents to scam victims into making payment to secure an appointment to view or rent the property.",
+    "notes": "Rental-scam guide (last updated 25 Jun 2026); points to CEA Public Register as allowlist of registered agents (eservices.cea.gov.sg/aceas/public-register, cited by IRAS). 4 related CEAnergy blog posts on fake agents/rental scams in sitemap (216 URLs)."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [
+    "1800 643 2555 (CEA, per SGDI)"
+   ],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [
+    "https://www.facebook.com/ceasingapore",
+    "https://www.instagram.com/ceasingapore",
+    "https://www.linkedin.com/company/ceasingapore",
+    "https://www.youtube.com/c/ceasingapore"
+   ],
+   "apps": [],
+   "emails": [
+    "feedback@cea.gov.sg (SGDI)"
+   ]
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/mnd/statutory-boards/cea",
+   "https://www.cea.gov.sg/consumers/rental-scams/"
+  ],
+  "notes": "Public Register of property agents = allowlist vs fake-agent rental scams."
+ },
+ {
+  "entity_id": "caas.gov.sg",
+  "name": "Civil Aviation Authority of Singapore",
+  "abbr": "CAAS",
+  "aliases": [
+   "Civil Aviation Authority of Singapore (CAAS)",
+   "CAAS"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "mot.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "caas.gov.sg"
+  ],
+  "official_hosts": [
+   "www.caas.gov.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.caas.gov.sg/resources/media-and-publication/newsroom/caas-advisory-on-email-scam/",
+    "kind": "alert_page",
+    "lists_indicators": [
+     "email",
+     "domain"
+    ],
+    "access": "sitemap",
+    "machine_url": "https://www.caas.gov.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2020-05-14",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Examples of fake accounts include tenders@caasgov-sg.com and tenders.caas.gov@gmail.com .",
+    "notes": "Procurement/vendor impersonation email scam; fake addresses and lookalike domain caasgov-sg.com (text only, not visited). Only scam page in sitemap (600 URLs)."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [
+    "6542 1122 (CAAS, per SGDI)"
+   ],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [
+    "https://www.facebook.com/SingaporeCAAS/",
+    "https://www.instagram.com/singaporecaas",
+    "https://www.linkedin.com/company/civil-aviation-authority-of-singapore",
+    "https://www.youtube.com/user/SingaporeCAAS"
+   ],
+   "apps": [],
+   "emails": [
+    "qsm@caas.gov.sg (SGDI)"
+   ]
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/mot/statutory-boards/caas",
+   "https://www.caas.gov.sg/resources/media-and-publication/newsroom/caas-advisory-on-email-scam/"
+  ],
+  "notes": ""
+ },
+ {
+  "entity_id": "pa.gov.sg",
+  "name": "People's Association",
+  "abbr": "PA",
+  "aliases": [
+   "People's Association (PA)",
+   "PA",
+   "onePA"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "mccy.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "pa.gov.sg",
+   "onepa.gov.sg"
+  ],
+  "official_hosts": [
+   "www.pa.gov.sg",
+   "www.onepa.gov.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.pa.gov.sg/scam-alert/",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "sitemap",
+    "machine_url": "https://www.pa.gov.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2026-09-07",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Beware of potential scam letters, calls, messages (e.g. over SMS, WhatsApp, or Telegram), social media pages, websites and mobile applications impersonating People’s Association or staff.",
+    "notes": "Narrative; report hotline 6225 5322 (also the CDC Vouchers scam-report line). Last updated 7 Sep 2026."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [
+    "6225 5322 (PA, report suspected scams)"
+   ],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [
+    "https://www.facebook.com/peoplesassociation",
+    "https://www.instagram.com/peoplesassociation/",
+    "https://www.linkedin.com/company/peoplesassociation",
+    "https://www.tiktok.com/@peoplesassociation",
+    "https://www.youtube.com/@peoplesassociationsg",
+    "https://whatsapp.com/channel/0029Va7A5KkCXC3Bf6RIdS01"
+   ],
+   "apps": [],
+   "emails": [
+    "PA_QSM@pa.gov.sg (SGDI)"
+   ]
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/mccy/statutory-boards/pa",
+   "https://www.pa.gov.sg/scam-alert/"
+  ],
+  "notes": "onepa.gov.sg linked from CDC Vouchers FAQ (b). PA administers CDC voucher scam reports."
+ },
+ {
+  "entity_id": "sfa.gov.sg",
+  "name": "Singapore Food Agency",
+  "abbr": "SFA",
+  "aliases": [
+   "Singapore Food Agency (SFA)",
+   "SFA"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "mse.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "sfa.gov.sg"
+  ],
+  "official_hosts": [
+   "www.sfa.gov.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.sfa.gov.sg/news-publications/newsroom/before-2024/advisory-on-phishing-scams",
+    "kind": "scam_faq",
+    "lists_indicators": [],
+    "access": "sitemap",
+    "machine_url": "https://www.sfa.gov.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2022-10-10",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Some involve misrepresentation of Government agencies or impersonation of Government officers to trick users into making fund transfers or sharing their personal information and passwords.",
+    "notes": "Generic 2022 advisory (page touched 15 Oct 2026). Narrative."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [
+    "6805 2871 (SFA, per SGDI)"
+   ],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [
+    "https://www.facebook.com/SGFoodAgency/",
+    "https://www.instagram.com/SGFoodAgency/",
+    "https://twitter.com/SGFoodAgency",
+    "https://t.me/sgfoodagency",
+    "https://www.tiktok.com/@sgfoodagency",
+    "https://www.youtube.com/sgfoodagency"
+   ],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/mse/statutory-boards/sfa",
+   "https://www.sfa.gov.sg/news-publications/newsroom/before-2024/advisory-on-phishing-scams"
+  ],
+  "notes": ""
+ },
+ {
+  "entity_id": "mse.gov.sg",
+  "name": "Ministry of Sustainability and the Environment",
+  "abbr": "MSE",
+  "aliases": [
+   "MSE"
+  ],
+  "sector": "gov.ministry",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "mse.gov.sg"
+  ],
+  "official_hosts": [
+   "www.mse.gov.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.mse.gov.sg/latest-news/misuse-of-mse-logo-in-fraudulent-carbon-credit-trading-scam/",
+    "kind": "advisory_feed",
+    "lists_indicators": [
+     "entity_name"
+    ],
+    "access": "sitemap",
+    "machine_url": "https://www.mse.gov.sg/sitemap.xml",
+    "item_count": 4,
+    "latest_item_date": "2025-10-30",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "The purported scam misuses Government agency logos to mislead users into signing up for a crypto address and depositing funds for trading carbon credits.",
+    "notes": "4 'Scam advisory' items in sitemap (1,705 URLs): this (30 Oct 2025) + impersonation of Climate Impact X, GoNetZero, GenZero (carbon-credit/investment brand impersonation; entity names). Sitemap lastmod bulk."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [
+    "6731 9000 (MSE, per SGDI)"
+   ],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [
+    "https://www.facebook.com/MSEsingapore/",
+    "https://www.instagram.com/msesingapore/",
+    "https://sg.linkedin.com/company/msesingapore",
+    "https://www.tiktok.com/@msesingapore/",
+    "https://www.youtube.com/msesingapore"
+   ],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/mse",
+   "https://www.mse.gov.sg/latest-news/misuse-of-mse-logo-in-fraudulent-carbon-credit-trading-scam/"
+  ],
+  "notes": "Parent of NEA, PUB, SFA."
+ },
+ {
+  "entity_id": "ipos.gov.sg",
+  "name": "Intellectual Property Office of Singapore",
+  "abbr": "IPOS",
+  "aliases": [
+   "IPOS"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "mlaw.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "ipos.gov.sg"
+  ],
+  "official_hosts": [
+   "www.ipos.gov.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.ipos.gov.sg/news/news-collection/scam-alert-public-advisory-on-scammers-2024/",
+    "kind": "alert_page",
+    "lists_indicators": [],
+    "access": "sitemap",
+    "machine_url": "https://www.ipos.gov.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2024-06-03",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "IPOS clarified it will not request personal information or payments over these channels and advised vigilance.",
+    "notes": "Impersonation via phone/SMS/email. Siblings: earlier '-scam-alert--public-advisory-on-scammers-impersonating-ipos-staff', and /manage-ip/unsolicited-ip-services/ (fake IP-renewal invoices; lastmod 2025-03-25, not opened)."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [
+    "+65 6339 8616 (IPOS general enquiries, per SGDI)"
+   ],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [
+    "https://www.facebook.com/IPOSG/",
+    "https://www.instagram.com/ipofficesg/",
+    "https://www.linkedin.com/company/intellectual-property-office-of-singapore/",
+    "https://www.tiktok.com/@ipofficesg",
+    "https://www.twitter.com/ipofficesg/",
+    "https://www.youtube.com/user/IPOSsingapore"
+   ],
+   "apps": [],
+   "emails": [
+    "ipos_enquiry@ipos.gov.sg (SGDI)"
+   ]
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/minlaw/statutory-boards/ipos",
+   "https://www.ipos.gov.sg/news/news-collection/scam-alert-public-advisory-on-scammers-2024/"
+  ],
+  "notes": "Under MinLaw (other partition covers MinLaw itself)."
+ },
+ {
+  "entity_id": "ncss.gov.sg",
+  "name": "National Council of Social Service",
+  "abbr": "NCSS",
+  "aliases": [
+   "NCSS",
+   "Community Chest",
+   "Social Service Institute"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "msf.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "ncss.gov.sg"
+  ],
+  "official_hosts": [
+   "www.ncss.gov.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.ncss.gov.sg/about-us/our-media-centre/announcements-and-advisories/scam-advisory/",
+    "kind": "official_channels",
+    "lists_indicators": [
+     "domain"
+    ],
+    "access": "sitemap",
+    "machine_url": "https://www.ncss.gov.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2025-06-04",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Transactions will be conducted via Giving.sg’s donation site, Community Chest’s website or Social Service Institute’s website. NCSS will NEVER ask you to transfer money",
+    "notes": "Official donation channels (Giving.sg, Community Chest, SSI) vs charity-impersonation scams."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [
+    "6210 2500 (NCSS, per SGDI)"
+   ],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [
+    "https://www.facebook.com/ncss.sg/",
+    "https://www.instagram.com/ncss.sg/",
+    "https://sg.linkedin.com/company/ncss-sg",
+    "https://www.youtube.com/c/NationalCouncilofSocialService"
+   ],
+   "apps": [],
+   "emails": [
+    "ncss_qsm@ncss.gov.sg (SGDI)"
+   ]
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/msf/statutory-boards/ncss",
+   "https://www.ncss.gov.sg/about-us/our-media-centre/announcements-and-advisories/scam-advisory/"
+  ],
+  "notes": "giving.sg named as official donation site (a); domain not added (not opened)."
+ },
+ {
+  "entity_id": "mof.gov.sg",
+  "name": "Ministry of Finance",
+  "abbr": "MOF",
+  "aliases": [
+   "MOF"
+  ],
+  "sector": "gov.ministry",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "mof.gov.sg"
+  ],
+  "official_hosts": [
+   "www.mof.gov.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.mof.gov.sg/news-resources/newsroom/impersonation-of-a-government-agency-or-company-registrar/",
+    "kind": "news_releases",
+    "lists_indicators": [],
+    "access": "sitemap",
+    "machine_url": "https://www.mof.gov.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2018-09-10",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "To ask the Minister for Finance how can the Government better assist or advise businesses which have been deceived or misled into signing contracts with companies purporting to be authorised Government agencies",
+    "notes": "Only PQ replies (5 scam/fraud URLs in sitemap, e.g. fake-organisations, fraudulent claims). No advisory page."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [
+    "1800 2260806 (MOF, per SGDI)"
+   ],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [
+    "https://twitter.com/MOFsg",
+    "https://www.facebook.com/MOFsg/?fref=ts",
+    "https://www.instagram.com/mof_sg/",
+    "https://www.linkedin.com/company/mofsingapore/",
+    "https://www.tiktok.com/@mofspore/",
+    "https://www.youtube.com/@MOF-singapore"
+   ],
+   "apps": [],
+   "emails": [
+    "MOF_QSM@mof.gov.sg (SGDI)"
+   ]
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/mof",
+   "https://www.mof.gov.sg/news-resources/newsroom/impersonation-of-a-government-agency-or-company-registrar/"
+  ],
+  "notes": "Parent of IRAS, ACRA, Customs, Tote Board."
+ },
+ {
+  "entity_id": "nparks.gov.sg",
+  "name": "National Parks Board",
+  "abbr": "NParks",
+  "aliases": [
+   "NParks",
+   "National Parks Board"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "mnd.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "nparks.gov.sg"
+  ],
+  "official_hosts": [
+   "www.nparks.gov.sg",
+   "beta.nparks.gov.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.nparks.gov.sg/noticeboard/phishing-scams",
+    "kind": "alert_page",
+    "lists_indicators": [],
+    "access": "html",
+    "machine_url": null,
+    "item_count": null,
+    "latest_item_date": "2023-12-12",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "Security advisory: Beware of phishing scams",
+    "notes": "Dated 12 Dec 2023; narrative. robots.txt points sitemap at cms.nparks.prj.simsys.sg (SSL error) -> no usable sitemap."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [
+    "6471 7808 (NParks, per SGDI)"
+   ],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [
+    "https://www.facebook.com/nparksbuzz",
+    "https://www.instagram.com/nparksbuzz",
+    "https://t.me/s/nparksbuzz",
+    "https://www.tiktok.com/@nparkssg",
+    "https://www.youtube.com/NParksSG",
+    "https://sg.linkedin.com/company/nationalparksboardsg"
+   ],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/mnd/statutory-boards/nparks",
+   "https://www.nparks.gov.sg/noticeboard/phishing-scams"
+  ],
+  "notes": "beta.nparks.gov.sg redirects to www."
+ },
+ {
+  "entity_id": "stb.gov.sg",
+  "name": "Singapore Tourism Board",
+  "abbr": "STB",
+  "aliases": [
+   "STB"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "meti.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "stb.gov.sg"
+  ],
+  "official_hosts": [
+   "www.stb.gov.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.stb.gov.sg/about-stb/media-publications/media-centre/public-advisory-transact-with-licensed-travel-agents-only/",
+    "kind": "alert_page",
+    "lists_indicators": [
+     "entity_name"
+    ],
+    "access": "sitemap",
+    "machine_url": "https://www.stb.gov.sg/sitemap.xml",
+    "item_count": null,
+    "latest_item_date": "2025-10-16",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "an individual, Lim Yi Shoon, and two companies, I-Travel Pte. Ltd. and LikeTravel Pte. Ltd., have allegedly been offering",
+    "notes": "Names unlicensed travel sellers; points to licensed travel-agent register (allowlist)."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [
+    "http://www.facebook.com/STBsingapore",
+    "http://www.instagram.com/stb_ig",
+    "http://www.linkedin.com/company/singapore-tourism-board"
+   ],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/meti/statutory-boards/stb",
+   "https://www.stb.gov.sg/about-stb/media-publications/media-centre/public-advisory-transact-with-licensed-travel-agents-only/"
+  ],
+  "notes": ""
+ },
+ {
+  "entity_id": "case.org.sg",
+  "name": "Consumers Association of Singapore",
+  "abbr": "CASE",
+  "aliases": [
+   "CASE",
+   "Consumers Association of Singapore",
+   "CaseTrust"
+  ],
+  "sector": "quasi_gov",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "case.org.sg"
+  ],
+  "official_hosts": [
+   "www.case.org.sg"
+  ],
+  "scam_info": [
+   {
+    "url": "https://www.case.org.sg/company-alert/",
+    "kind": "fake_indicator_list",
+    "lists_indicators": [
+     "entity_name"
+    ],
+    "access": "html",
+    "machine_url": "https://www.case.org.sg/sitemap.xml",
+    "item_count": 28,
+    "latest_item_date": "2025-10-15",
+    "verified": "2026-11-26 HTTP 200",
+    "sample": "The Company Alert List is a non-exhaustive list of companies against which CASE has received consumer complaints.",
+    "notes": "28 companies (paginated, filter by year/industry), newest 'DNA Brands Co Pte Ltd' 15 Oct 2025. Errant-retailer names, not scam IOCs. Sitemap (69 URLs) stale (newest match lastmod 2022)."
+   }
+  ],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/casesg",
+    "https://twitter.com/casesg",
+    "https://sg.linkedin.com/company/consumers-association-of-singapore-case-"
+   ],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.case.org.sg/company-alert/"
+  ],
+  "notes": "NGO/quasi-gov (NTUC-linked); CaseTrust accreditation list is an allowlist (not checked)."
+ },
+ {
+  "entity_id": "singaporepools.com.sg",
+  "name": "Singapore Pools",
+  "abbr": "Singapore Pools",
+  "aliases": [
+   "Singapore Pools"
+  ],
+  "sector": "quasi_gov",
+  "parent_entity_id": "toteboard.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "singaporepools.com.sg"
+  ],
+  "official_hosts": [
+   "www.singaporepools.com.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [],
+   "hotlines": [],
+   "short_link_domains": [],
+   "social": [
+    "https://www.facebook.com/singaporepoolsresults/",
+    "https://www.facebook.com/Singaporepoolsinthecommunity",
+    "https://instagram.com/sgpools",
+    "https://twitter.com/sgpools",
+    "https://sg.linkedin.com/company/singaporepools",
+    "https://www.youtube.com/@singaporepools4915"
+   ],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.singaporepools.com.sg/"
+  ],
+  "notes": "Tote Board subsidiary, only legal lottery/betting operator (allowlist vs illegal gambling sites). No robots Sitemap (/sitemap.xml returns HTML), homepage has no scam section; not searched further (Tier 2 budget). GRA/illegal-gambling blocking is other partition."
+ },
+ {
+  "entity_id": "meti.gov.sg",
+  "name": "Ministry of Energy, Trade and Industry",
+  "abbr": "METI",
+  "aliases": [
+   "METI",
+   "MTI",
+   "Ministry of Trade and Industry"
+  ],
+  "sector": "gov.ministry",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "meti.gov.sg",
+   "mti.gov.sg"
+  ],
+  "official_hosts": [
+   "www.meti.gov.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/meti"
+  ],
+  "notes": "Tier-2 quick check (robots+sitemap sweep 2026-11-26, URL keyword grep): no scam-information page found. Formerly MTI (mti.gov.sg redirects; same 6,788-URL sitemap). Only scam hit: PQ on scam-compound kidnappings (2026-08-21)."
+ },
+ {
+  "entity_id": "edb.gov.sg",
+  "name": "Economic Development Board",
+  "abbr": "EDB",
+  "aliases": [
+   "EDB"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "meti.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "edb.gov.sg"
+  ],
+  "official_hosts": [
+   "www.edb.gov.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/meti/statutory-boards/edb"
+  ],
+  "notes": "Tier-2 quick check (robots+sitemap sweep 2026-11-26, URL keyword grep): no scam-information page found. Sitemap 2,446 URLs, no scam page."
+ },
+ {
+  "entity_id": "sentosa.com.sg",
+  "name": "Sentosa Development Corporation",
+  "abbr": "SDC",
+  "aliases": [
+   "Sentosa",
+   "Sentosa Development Corporation"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "meti.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "sentosa.com.sg"
+  ],
+  "official_hosts": [
+   "www.sentosa.com.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/meti/statutory-boards/sdc"
+  ],
+  "notes": "Tier-2 quick check (robots+sitemap sweep 2026-11-26, URL keyword grep): no scam-information page found. Sitemap 633 URLs; only keyword hit is an otters advisory. SPF brand tag 'Sentosa' (1 advisory 'Beware of Phishing Scams Impersonating Sentosa'; SPF sample scam domain sentosa-sg.com, not visited) - Sentosa itself publishes nothing found."
+ },
+ {
+  "entity_id": "pub.gov.sg",
+  "name": "PUB, Singapore's National Water Agency",
+  "abbr": "PUB",
+  "aliases": [
+   "PUB"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "mse.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "pub.gov.sg"
+  ],
+  "official_hosts": [
+   "www.pub.gov.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/mse/statutory-boards/pub"
+  ],
+  "notes": "Tier-2 quick check (robots+sitemap sweep 2026-11-26, URL keyword grep): no scam-information page found. Sitemap 479 URLs, hits only flood SMS-alert subscription."
+ },
+ {
+  "entity_id": "sla.gov.sg",
+  "name": "Singapore Land Authority",
+  "abbr": "SLA",
+  "aliases": [
+   "SLA"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "mlaw.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "sla.gov.sg"
+  ],
+  "official_hosts": [
+   "www.sla.gov.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/minlaw/statutory-boards/sla"
+  ],
+  "notes": "Tier-2 quick check (robots+sitemap sweep 2026-11-26, URL keyword grep): no scam-information page found. Sitemap 199 URLs, 0 keyword hits."
+ },
+ {
+  "entity_id": "bca.gov.sg",
+  "name": "Building and Construction Authority",
+  "abbr": "BCA",
+  "aliases": [
+   "BCA"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "mnd.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "bca.gov.sg"
+  ],
+  "official_hosts": [
+   "www.bca.gov.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/mnd/statutory-boards/bca"
+  ],
+  "notes": "Tier-2 quick check (robots+sitemap sweep 2026-11-26, URL keyword grep): no scam-information page found. Sitemap lists only 4 URLs (not usable); no scam page found."
+ },
+ {
+  "entity_id": "mpa.gov.sg",
+  "name": "Maritime and Port Authority of Singapore",
+  "abbr": "MPA",
+  "aliases": [
+   "MPA"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "mot.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "mpa.gov.sg"
+  ],
+  "official_hosts": [
+   "www.mpa.gov.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/mot/statutory-boards/mpa"
+  ],
+  "notes": "Tier-2 quick check (robots+sitemap sweep 2026-11-26, URL keyword grep): no scam-information page found. No robots.txt / sitemap.xml (404); not searched further."
+ },
+ {
+  "entity_id": "ptc.gov.sg",
+  "name": "Public Transport Council",
+  "abbr": "PTC",
+  "aliases": [
+   "PTC"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "mot.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "ptc.gov.sg"
+  ],
+  "official_hosts": [
+   "www.ptc.gov.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/mot/statutory-boards/ptc"
+  ],
+  "notes": "Tier-2 quick check (robots+sitemap sweep 2026-11-26, URL keyword grep): no scam-information page found. Sitemap 125 URLs; hits only 'advisory panel'."
+ },
+ {
+  "entity_id": "sportsingapore.gov.sg",
+  "name": "Sport Singapore",
+  "abbr": "SportSG",
+  "aliases": [
+   "SportSG",
+   "ActiveSG"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "mccy.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "sportsingapore.gov.sg"
+  ],
+  "official_hosts": [
+   "www.sportsingapore.gov.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/mccy/statutory-boards/sportsg"
+  ],
+  "notes": "Tier-2 quick check (robots+sitemap sweep 2026-11-26, URL keyword grep): no scam-information page found. Sitemap 812 URLs; no scam page by URL."
+ },
+ {
+  "entity_id": "singstat.gov.sg",
+  "name": "Department of Statistics Singapore",
+  "abbr": "SingStat",
+  "aliases": [
+   "SingStat",
+   "DOS"
+  ],
+  "sector": "gov.dept",
+  "parent_entity_id": "meti.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "singstat.gov.sg"
+  ],
+  "official_hosts": [
+   "www.singstat.gov.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/meti"
+  ],
+  "notes": "Tier-2 quick check (robots+sitemap sweep 2026-11-26, URL keyword grep): no scam-information page found. Sitemap 1,590 URLs; no scam page by URL. (Survey-interviewer impersonation is a known lure; nothing found.) Evidence is METI SGDI page (parent)."
+ },
+ {
+  "entity_id": "toteboard.gov.sg",
+  "name": "Tote Board",
+  "abbr": "Tote Board",
+  "aliases": [
+   "Tote Board",
+   "Singapore Totalisator Board"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "mof.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "toteboard.gov.sg"
+  ],
+  "official_hosts": [
+   "www.toteboard.gov.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/mof/statutory-boards/tote-board"
+  ],
+  "notes": "Tier-2 quick check (robots+sitemap sweep 2026-11-26, URL keyword grep): no scam-information page found. Sitemap 149 URLs, 0 hits. Parent of Singapore Pools."
+ },
+ {
+  "entity_id": "mnd.gov.sg",
+  "name": "Ministry of National Development",
+  "abbr": "MND",
+  "aliases": [
+   "MND"
+  ],
+  "sector": "gov.ministry",
+  "parent_entity_id": null,
+  "country": "SG",
+  "official_domains": [
+   "mnd.gov.sg"
+  ],
+  "official_hosts": [
+   "www.mnd.gov.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/mnd"
+  ],
+  "notes": "Tier-2 quick check (robots+sitemap sweep 2026-11-26, URL keyword grep): no scam-information page found. No robots/sitemap (404)."
+ },
+ {
+  "entity_id": "ema.gov.sg",
+  "name": "Energy Market Authority",
+  "abbr": "EMA",
+  "aliases": [
+   "EMA"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "meti.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "ema.gov.sg"
+  ],
+  "official_hosts": [
+   "www.ema.gov.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/meti/statutory-boards/ema"
+  ],
+  "notes": "Tier-2 quick check (robots+sitemap sweep 2026-11-26, URL keyword grep): no scam-information page found. No robots.txt; /sitemap.xml returns HTML."
+ },
+ {
+  "entity_id": "jtc.gov.sg",
+  "name": "JTC Corporation",
+  "abbr": "JTC",
+  "aliases": [
+   "JTC"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "meti.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "jtc.gov.sg"
+  ],
+  "official_hosts": [
+   "www.jtc.gov.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/meti/statutory-boards/jtc"
+  ],
+  "notes": "Tier-2 quick check (robots+sitemap sweep 2026-11-26, URL keyword grep): no scam-information page found. /sitemap.xml returns HTML."
+ },
+ {
+  "entity_id": "cda.gov.sg",
+  "name": "Communicable Diseases Agency",
+  "abbr": "CDA",
+  "aliases": [
+   "CDA"
+  ],
+  "sector": "gov.statboard",
+  "parent_entity_id": "moh.gov.sg",
+  "country": "SG",
+  "official_domains": [
+   "cda.gov.sg"
+  ],
+  "official_hosts": [
+   "www.cda.gov.sg"
+  ],
+  "scam_info": [],
+  "official_channels": {
+   "sms_sender_ids": [
+    "gov.sg"
+   ],
+   "hotlines": [],
+   "short_link_domains": [
+    "go.gov.sg"
+   ],
+   "social": [],
+   "apps": [],
+   "emails": []
+  },
+  "evidence": [
+   "https://www.sgdi.gov.sg/ministries/moh/statutory-boards/cda"
+  ],
+  "notes": "Tier-2 quick check (robots+sitemap sweep 2026-11-26, URL keyword grep): no scam-information page found. New 2026 statboard; sitemap 415 URLs, no scam page."
+ }
+]

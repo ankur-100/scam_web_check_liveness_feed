@@ -1,0 +1,92 @@
+{
+ "entity_id": "singpost.com",
+ "name": "Singapore Post Limited (SingPost)",
+ "abbr": "SingPost",
+ "aliases": [
+  "SingPost",
+  "Singapore Post",
+  "SG Post",
+  "SingPost Mobile",
+  "vPost",
+  "POPStation",
+  "Speedpost"
+ ],
+ "sector": "logistics",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "singpost.com",
+  "vpost.com",
+  "sglocate.com",
+  "ezyparcels.com",
+  "speedpost.com.sg",
+  "mysam.sg",
+  "ezy2ship.net"
+ ],
+ "official_hosts": [
+  "www.singpost.com",
+  "shop.singpost.com",
+  "crmint.singpost.com"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.singpost.com/online-security-you",
+   "kind": "official_channels",
+   "lists_indicators": [
+    "domain",
+    "email",
+    "app"
+   ],
+   "access": "html",
+   "machine_url": "https://www.singpost.com/sitemap.xml",
+   "item_count": null,
+   "latest_item_date": "2022-02-28",
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "the links will only point to the following websites operated by SingPost: Singpost.com vPost.com SgLocate.com Ezyparcels.com Speedpost.com.sg MySam.sg Ezy2ship.net",
+   "notes": "'Online Security & You' hub: explicit list of SingPost-operated domains (official); official email only @singpost.com; payments only via SingPost Mobile App, SAM machines or post office, never an online link; tracking only via app and singpost.com/track-items; SMS replaced by app push notifications since 28 Feb 2022 (SMS still used for OTPs, POPStation, queue tickets, CS follow-up). Also gives look-alike URL examples (fake, text only): www.singpost.com.xyz.com, www.singpost.net, www.singpost.org; and impersonating sender names 'SGPOST' / 'SINGPOST'. FAQ: report/verify via hotline 1605; SingPost does not initiate automated voice calls."
+  },
+  {
+   "url": "https://www.singpost.com/support/service-updates",
+   "kind": "advisory_feed",
+   "lists_indicators": [],
+   "access": "html",
+   "machine_url": null,
+   "item_count": 409,
+   "latest_item_date": "2026-11-23",
+   "verified": "2026-11-25 HTTP 200",
+   "sample": "Scam Alert (01 Jan 2024): Please be aware of new scam emails and SMS impersonating SingPost requesting you to click on a link, provide personal information, or make payments for fake duties.",
+   "notes": "Service Announcements feed (409 dated items 2023-2026, data embedded as JSON in the page HTML). Mostly postal-service disruptions; only 1 scam item ('Scam Alert', 01 Jan 2024). Filter titles for scam|phish|fraud|impersonat. Re-fetched 2026-11-26 HTTP 200 to get newest date (2026-11-23)."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [
+   "SingPost"
+  ],
+  "hotlines": [
+   "1605 (SingPost customer service hotline; verify suspicious calls/SMS/email)"
+  ],
+  "short_link_domains": [],
+  "social": [
+   "https://www.facebook.com/singpost",
+   "https://www.instagram.com/mysingpost/",
+   "https://sg.linkedin.com/company/singapore-post",
+   "https://www.facebook.com/SingaporePost",
+   "https://www.twitter.com/SingaporePost"
+  ],
+  "apps": [
+   "SingPost Mobile (iOS App Store id647986630; Google Play com.singPost)"
+  ],
+  "emails": [
+   "@singpost.com"
+  ]
+ },
+ "evidence": [
+  "https://www.singpost.com/online-security-you",
+  "https://www.singpost.com/",
+  "https://www.singpost.com/singpost-mobile-app",
+  "https://www.singpost.com/track-items",
+  "https://www.singpost.com/sitemap.xml",
+  "https://www.police.gov.sg/media-hub/news/2024/11/20241122_police_advisory_on_increase_of_parcel_delivery_phishing_scams"
+ ],
+ "notes": "official_domains: all seven are (a) explicitly listed on /online-security-you as 'websites operated by SingPost'; singpost.com and vpost.com are also (b) linked from the homepage. sms_sender_ids 'SingPost' comes from SPF advisory 2024-11-22 ('The SMS Sender ID of Singapore Post is SingPost'), not from SingPost's own page; SingPost's own page lists 'SGPOST'/'SINGPOST' as impersonation variants. Social: facebook.com/singpost, instagram mysingpost, linkedin from page footer; facebook.com/SingaporePost and twitter.com/SingaporePost from JSON-LD sameAs on /track-items. qualtrics siteintercept host seen (third-party survey script) not recorded. SPF also published 2026-03-27 advisory on WhatsApp messages impersonating SingPost (police.gov.sg; belongs to SPF registry). Evidence from 2026-11-25 sub-agent D fetches (transcript digest) plus re-fetch of service-updates 2026-11-26."
+}

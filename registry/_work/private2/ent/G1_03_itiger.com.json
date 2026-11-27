@@ -1,0 +1,94 @@
+{
+ "entity_id": "itiger.com",
+ "name": "Tiger Brokers (Singapore) Pte. Ltd.",
+ "abbr": null,
+ "aliases": [
+  "Tiger Brokers",
+  "Tiger Brokers Singapore",
+  "Tiger Brokers SG",
+  "TigerTrade",
+  "Tiger Trade",
+  "Tiger Brokers (Singapore) Pte. Ltd."
+ ],
+ "sector": "brokerage",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "itiger.com",
+  "tigerbrokers.com.sg",
+  "tigerfintech.com"
+ ],
+ "official_hosts": [
+  "www.itiger.com",
+  "www.tigerbrokers.com.sg",
+  "developer.tigerbrokers.com.sg",
+  "da.tigerfintech.com",
+  "download.tigerfintech.com"
+ ],
+ "scam_info": [
+  {
+   "url": "https://www.itiger.com/sg/help/detail/Fraud%20Awareness",
+   "kind": "official_channels",
+   "lists_indicators": [
+    "domain",
+    "social_handle"
+   ],
+   "access": "html",
+   "machine_url": "https://www.itiger.com/sitemap.xml",
+   "item_count": null,
+   "latest_item_date": null,
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "Please note that our official website is https://www.itiger.com/sg/ . ... Telegram Channels: https://t.me/tigerbrokersofficial https://t.me/TigerBrokersSG https://t.me/TBCashBoost https://t.me/TigerBrokersOptions",
+   "notes": "FAQ 'Notice: Fraudulent Use of the Tiger Brokers Brand': official website, official social accounts (Instagram/Facebook/TikTok @tigerbrokerssg, YouTube @TigerBrokersSingapore), 4 official Telegram channels + named official sub-channels (Tiger Options Bootcamp Batch 1-10, Trade Feed, Prestige Group, Star Contributors Group). 'Should you receive any invitation to any Tiger Brokers sub-channels, that are not listed here, do contact us'. No fake indicators listed. Undated."
+  },
+  {
+   "url": "https://www.itiger.com/sg/fraud-awareness",
+   "kind": "alert_page",
+   "lists_indicators": [
+    "domain",
+    "social_handle"
+   ],
+   "access": "html",
+   "machine_url": "https://www.itiger.com/sitemap.xml",
+   "item_count": null,
+   "latest_item_date": "2026-07-17",
+   "verified": "2026-11-26 HTTP 200",
+   "sample": "2026-07-17 11:05:01 Notification of Fraudulent Use of Tiger Brokers Brand ... fraudulent microsites claiming to be Tiger illegally have been sprouting up",
+   "notes": "Footer-linked 'Fraud Awareness' page (dated 2026-07-17): same official website/social list (2 Telegram channels) plus a pump-and-dump scam reminder linking SPF advisory 2021-08-11. Indicators are official ones."
+  }
+ ],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [
+   "+65 6331 2277 (Client Service call line; also WhatsApp chat)"
+  ],
+  "short_link_domains": [],
+  "social": [
+   "https://www.instagram.com/tigerbrokerssg",
+   "https://www.facebook.com/tigerbrokerssg",
+   "https://www.tiktok.com/@tigerbrokerssg",
+   "https://www.youtube.com/channel/UCV9o1jW6brfQJepdpuVU2Lw",
+   "https://www.linkedin.com/company/tigerbrokerssg/",
+   "https://t.me/tigerbrokersofficial",
+   "https://t.me/TigerBrokersSG",
+   "https://t.me/TBCashBoost",
+   "https://t.me/TigerBrokersOptions",
+   "https://api.whatsapp.com/send?phone=6563312277"
+  ],
+  "apps": [
+   "Tiger Trade mobile app (App Store / Google Play via da.tigerfintech.com)",
+   "TigerTrade desktop (Mac/Windows via download.tigerfintech.com)"
+  ],
+  "emails": [
+   "service@tigerbrokers.com.sg",
+   "media@tigerbrokers.com.sg"
+  ]
+ },
+ "evidence": [
+  "https://www.itiger.com/sg/help/detail/Fraud%20Awareness",
+  "https://www.itiger.com/sg/fraud-awareness",
+  "https://www.itiger.com/sg/?lang=en_US",
+  "https://www.itiger.com/robots.txt"
+ ],
+ "notes": "SG business under itiger.com/sg (entity_id itiger.com, (a) 'our official website is https://www.itiger.com/sg/'). tigerbrokers.com.sg: homepage request 301-redirects to itiger.com/sg; its robots.txt is 'Disallow: /' so nothing else fetched there; kept in official_domains as (b) redirecting official domain and official email domain (service@tigerbrokers.com.sg). tigerfintech.com (b): official app/desktop download hosts linked from site footer. Other Tiger-group hosts in page source not added (c1.itigergrowtha.com, static.tigerbbs.com, sg.tigerkickoff.com, www.itigerup.com, www.tigertrade.app). Note SPF brand-tag 'Tiger Brokers' samples itigereo.top (fake; never visited)."
+}

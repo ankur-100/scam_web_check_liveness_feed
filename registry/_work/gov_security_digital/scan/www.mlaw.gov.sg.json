@@ -1,0 +1,103 @@
+{
+ "host": "www.mlaw.gov.sg",
+ "robots": "Sitemap: https://www.mlaw.gov.sg/sitemap.xml\n",
+ "robots_status": 200,
+ "sitemaps_declared": [
+  "https://www.mlaw.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  "https://www.mlaw.gov.sg/sitemap.xml[200:3006]"
+ ],
+ "n_urls": 2983,
+ "hits": [
+  [
+   "https://www.mlaw.gov.sg/news/press-releases/singapore-land-authority-and-ministry-of-law-joint-press-release-on-fraud-case-in-singapore-land/",
+   "2010-09-28T00:00:00+00:00"
+  ],
+  [
+   "https://www.mlaw.gov.sg/news/press-releases/additional-findings-on-koh-seah-wee-s-fraudulent-activities/",
+   "2010-11-19T00:00:00+00:00"
+  ],
+  [
+   "https://www.mlaw.gov.sg/news/parliamentary-speeches/oral-answer-by-minister-for-law-k-shanmugam-to-parliamentary-question-on-sla-fraud-case/",
+   "2010-11-22T00:00:00+00:00"
+  ],
+  [
+   "https://www.mlaw.gov.sg/news/parliamentary-speeches/written-answer-by-minister-for-law-on-cyberbullying/",
+   "2014-01-21T00:00:00+00:00"
+  ],
+  [
+   "https://www.mlaw.gov.sg/news/announcements/sms-alert-on-monthly-instalment-arrears/",
+   "2014-03-07T00:00:00+00:00"
+  ],
+  [
+   "https://www.mlaw.gov.sg/news/press-releases/advisory-committee-on-moneylending-to-provide-recommendations-on/",
+   "2014-06-18T00:00:00+00:00"
+  ],
+  [
+   "https://www.mlaw.gov.sg/news/press-releases/advisory-committee-finalises-recommendations-to-improve-balance-/",
+   "2015-05-29T00:00:00+00:00"
+  ],
+  [
+   "https://www.mlaw.gov.sg/news/announcements/alert--suspicious-emails-received-by-law-firms/",
+   "2017-03-06T00:00:00+00:00"
+  ],
+  [
+   "https://www.mlaw.gov.sg/news/others/video-sms-edwin-tong-hearing-international-grand-committee-on-fake-news-and-disinformation/",
+   "2018-11-27T00:00:00+00:00"
+  ],
+  [
+   "https://www.mlaw.gov.sg/news/parliamentary-speeches/written-answer-parliamentary-question-on-scammers-targeting-law-firms-and-impersonating-lawyers/",
+   "2019-07-08T00:00:00+00:00"
+  ],
+  [
+   "https://www.mlaw.gov.sg/news/announcements/advisory-for-law-practices-on-elevated-safe-distancing-measures/",
+   "2020-04-05T00:00:00+00:00"
+  ],
+  [
+   "https://www.mlaw.gov.sg/news/announcements/advisory-for-law-practices-on-elevated-safe-distancing-measures-gradual-resumption-of-business-activities/",
+   "2020-05-20T00:00:00+00:00"
+  ],
+  [
+   "https://www.mlaw.gov.sg/news/announcements/scam-alert-unsolicited-phone-calls-impersonating-minlaw-officers/",
+   "2020-07-28T00:00:00+00:00"
+  ],
+  [
+   "https://www.mlaw.gov.sg/news/press-releases/media-advisory-public-health-and-society/",
+   "2020-08-25T00:00:00+00:00"
+  ],
+  [
+   "https://www.mlaw.gov.sg/news/press-releases/media-advisory-security/",
+   "2020-08-27T00:00:00+00:00"
+  ],
+  [
+   "https://www.mlaw.gov.sg/news/press-releases/2022-06-02-establishment-of-sentencing-advisory-panel/",
+   "2022-06-02T00:00:00+00:00"
+  ],
+  [
+   "https://www.mlaw.gov.sg/news/parliamentary-speeches/written-pq-guidelines-sentencing-advisory-panel-measures-in-place/",
+   "2023-09-19T00:00:00+00:00"
+  ],
+  [
+   "https://www.mlaw.gov.sg/advisory-on-scammers-impersonating-officers-from-the-ministry-of-law/",
+   "2025-09-04T00:00:00+00:00"
+  ],
+  [
+   "https://www.mlaw.gov.sg/advisory-on-government-officials-impersonation-scams/",
+   "2026-04-23T00:00:00+00:00"
+  ],
+  [
+   "https://www.mlaw.gov.sg/closing-address-by-minister-edwin-tong-sc-at-chief-legal-advisors-forum-2026/",
+   "2026-08-27T00:00:00+00:00"
+  ],
+  [
+   "https://www.mlaw.gov.sg/speech-by-sms-murali-at-pacific-rim-advisory-council-74th-international-conference/",
+   "2026-10-26T00:00:00+00:00"
+  ],
+  [
+   "https://www.mlaw.gov.sg/files/news/press-releases/2014/06/Moneylending%20Advisory%20Committee.pdf",
+   "2026-11-25T01:55:31+00:00"
+  ]
+ ],
+ "newest_lastmod": "2026-11-25T01:56:27+00:00"
+}

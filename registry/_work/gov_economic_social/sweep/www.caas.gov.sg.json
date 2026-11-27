@@ -1,0 +1,35 @@
+{
+ "host": "www.caas.gov.sg",
+ "robots_status": 200,
+ "robots": "User-Agent: *\nAllow: /\nDisallow: /search\n\nSitemap: https://www.caas.gov.sg/sitemap.xml\n",
+ "sitemaps_declared": [
+  "https://www.caas.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  [
+   "https://www.caas.gov.sg/sitemap.xml",
+   "urlset",
+   600,
+   "https://www.caas.gov.sg/sitemap.xml"
+  ]
+ ],
+ "errors": [],
+ "total_urls": 600,
+ "hosts_in_sitemap": {
+  "www.caas.gov.sg": 600
+ },
+ "matches": [
+  [
+   "https://www.caas.gov.sg/resources/media-and-publication/newsroom/caas-advisory-on-email-scam/",
+   "2026-09-24T08:38:59.135Z"
+  ],
+  [
+   "https://www.caas.gov.sg/resources/media-and-publication/newsroom/caas-sets-up-unmanned-aircraft-systems-advisory-panel/",
+   "2026-09-24T08:25:30.853Z"
+  ],
+  [
+   "https://www.caas.gov.sg/resources/media-and-publication/newsroom/international-advisory-panel-on-sustainable-air-hub-submits-report-with-key-reco/",
+   "2026-09-25T01:35:15.100Z"
+  ]
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "entity_id": "simplygo.com.sg",
+ "name": "SimplyGo",
+ "abbr": null,
+ "aliases": ["SimplyGo", "SimplyGo Pte Ltd", "TransitLink", "SimplyGo app"],
+ "sector": "quasi_gov",
+ "parent_entity_id": "lta.gov.sg",
+ "country": "SG",
+ "official_domains": ["simplygo.com.sg", "transitlink.com.sg"],
+ "official_hosts": ["www.simplygo.com.sg", "portal.simplygo.com.sg", "concportal.simplygo.com.sg", "ezlink.simplygo.com.sg"],
+ "scam_info": [],
+ "official_channels": {"sms_sender_ids": [], "hotlines": ["+65 6883 5048 (SimplyGo WhatsApp, wa.me link on homepage)"], "short_link_domains": ["go.gov.sg"],
+   "social": ["https://www.facebook.com/SimplyGoSG", "https://www.instagram.com/SimplyGoSG", "https://www.tiktok.com/@ezlinksg"],
+   "apps": ["SimplyGo (iOS App Store id667933103; Google Play sg.com.transitlink)"], "emails": []},
+ "evidence": ["https://www.simplygo.com.sg/"],
+ "notes": "No scam page found on SimplyGo: www.simplygo.com.sg has no robots.txt (404) and no sitemap.xml (404); homepage has no scam text; site:simplygo.com.sg search returned only SPF advisories plus a 2024 EZ-Link 'Scam-Notice-Updated-31012024.pdf' on ezlink.simplygo.com.sg that now returns HTTP 404 (2026-11-26). www.transitlink.com.sg returned HTTP 502 (2026-11-25 and 2026-11-26) - legacy brand; transitlink.com.sg kept in official_domains because the official SimplyGo Android app id is sg.com.transitlink (b, weak). EZ-Link (ezlink.com.sg) is covered by the private partition. Scam info about SimplyGo is SPF's: SPF brand tag 'SimplyGo' (1 alert); unverified (search snippets) SPF 20250328/20250429/20250911 advisories on fake EZ-Link/SimplyGo 'unlimited travel' social-media ads (97 reports, >=S$156k since 1 Mar 2025); SimplyGo hotline 1800-2255-663 quoted by SPF (not seen on SimplyGo page). Ownership (LTA subsidiary) asserted from brief context, not verified on an opened page."
+}

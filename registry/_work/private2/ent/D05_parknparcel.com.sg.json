@@ -1,0 +1,43 @@
+{
+ "entity_id": "parknparcel.com.sg",
+ "name": "Park N Parcel (ParkNParcel)",
+ "abbr": null,
+ "aliases": [
+  "Park N Parcel",
+  "ParkNParcel",
+  "Park N Parcel SG",
+  "Parker Points"
+ ],
+ "sector": "logistics",
+ "parent_entity_id": null,
+ "country": "SG",
+ "official_domains": [
+  "parknparcel.com.sg",
+  "parknparcel.com"
+ ],
+ "official_hosts": [
+  "www.parknparcel.com.sg",
+  "tracking.parknparcel.com"
+ ],
+ "scam_info": [],
+ "official_channels": {
+  "sms_sender_ids": [],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": [
+   "https://www.facebook.com/parknparcelsg/",
+   "https://www.instagram.com/parknparcelsg/",
+   "https://www.linkedin.com/company/parknparcelsg"
+  ],
+  "apps": [],
+  "emails": [
+   "support@parknparcel.com.sg"
+  ]
+ },
+ "evidence": [
+  "https://www.parknparcel.com.sg/",
+  "https://www.parknparcel.com.sg/guides/",
+  "https://www.parknparcel.com.sg/robots.txt"
+ ],
+ "notes": "Official domain identified via web search then confirmed by fetching the site (2026-11-26 HTTP 200; DNS: parknparcel.com.sg and parknparcel.com share the same Cloudflare NS pair). official_domains: parknparcel.com.sg (b) serving domain; parknparcel.com (b) because the FAQ on /guides/ gives the official tracking host 'https://tracking.parknparcel.com/'. FAQ also: contact via Facebook Messenger or support@parknparcel.com.sg (Cloudflare-obfuscated email decoded from page HTML); site mentions 'Automated SMS Notification' but publishes no sender ID. No scam/security page found on the site (homepage, /guides FAQ) - scam_info empty. SPF brand-tag 'Park N Parcel' fake domains (e.g. parknparcel-oc.top, parcel-*.top) are SPF-side indicators; never visited. robots.txt contains only Cloudflare content-signal comments."
+}

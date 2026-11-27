@@ -1,0 +1,22 @@
+{
+ "host": "www.toteboard.gov.sg",
+ "robots_status": 200,
+ "robots": "User-Agent: *\nAllow: /\nDisallow: /search\n\nSitemap: https://www.toteboard.gov.sg/sitemap.xml\n",
+ "sitemaps_declared": [
+  "https://www.toteboard.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  [
+   "https://www.toteboard.gov.sg/sitemap.xml",
+   "urlset",
+   149,
+   "https://www.toteboard.gov.sg/sitemap.xml"
+  ]
+ ],
+ "errors": [],
+ "total_urls": 149,
+ "hosts_in_sitemap": {
+  "www.toteboard.gov.sg": 149
+ },
+ "matches": []
+}

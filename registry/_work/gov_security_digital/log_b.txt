@@ -1,0 +1,10 @@
+== www.scamshield.gov.sg: robots=200 declared=1 fetched=1 urls=88 hits=88 newest_lastmod=2026-11-23T08:10:45.664Z
+   sitemaps: https://www.scamshield.gov.sg/sitemap.xml[200:88]
+== www.ncpc.org.sg: robots=200 declared=1 fetched=1 urls=98 hits=28 newest_lastmod=2026-10-31T15:12:45.081Z
+   sitemaps: https://www.ncpc.org.sg/sitemap.xml[200:98]
+== www.csa.gov.sg: robots=200 declared=1 fetched=1 urls=2762 hits=2365 newest_lastmod=2026-11-26T03:17:56.370Z
+   sitemaps: https://www.csa.gov.sg/sitemap.xml[200:2762]
+== www.gov.sg: robots=200 declared=1 fetched=1 urls=160 hits=1 newest_lastmod=2026-11-24T01:32:20.722Z
+   sitemaps: https://www.gov.sg/sitemap.xml[200:160]
+== www.singpass.gov.sg: robots=200 declared=1 fetched=1 urls=5 hits=0 newest_lastmod=None
+   sitemaps: https://www.singpass.gov.sg/sitemap.xml[200:5]

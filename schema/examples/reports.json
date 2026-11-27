@@ -1,0 +1,162 @@
+[
+ {
+  "record_type": "report",
+  "report_id": "spf-icanact:b633b3b7-f3f5-4e06-b96c-05f0ce86c9ed",
+  "source_id": "spf-icanact",
+  "native_id": "b633b3b7-f3f5-4e06-b96c-05f0ce86c9ed",
+  "url": "https://www.icanactagainstscams.gov.sg/scam-trends/fake-singapore-police-force-websites-and-messages-b633b3b7",
+  "issuer_entity_id": "police.gov.sg",
+  "title": "Advisory: Beware of Fake Singapore Police Force Websites and Messages",
+  "summary": "The Singapore Police Force (SPF) has observed a trend of scam websites and messages impersonating official SPF communications. These fraudulent sites aim to trick the public into believing they are interacting with the police, often to solicit personal information or money.\n\n**Ho",
+  "body_md": "The Singapore Police Force (SPF) has observed a trend of scam websites and messages impersonating official SPF communications. These fraudulent sites aim to trick the public into believing they are interacting with the police, often to solicit personal information or money.\n\n**How to recognise these scams:**\n*   **Unusual website addresses:** Official SPF websites always end with `.gov.sg`. Be wary of links that use different endings (e.g., `.pages.dev`, `.com`, `.net`) or contain suspicious characters.\n*   **Requests for sensitive information:** SPF will never ask for your banking details, Singpass password, or one-time passwords (OTPs) through unofficial channels or suspicious links.\n\n**What to do if you encounter such a scam or have been affected:**\nIf you receive a suspicious message or encounter a website claiming to be SPF, do not click on any links, provide personal details, or make any payments. If you have already done so, immediately stop all communication with the scammers, secure your bank accounts and digital profiles, and make a police report. Inform your family and friends about the scam to help them stay vigilant.\n\nUnsure if something is a scam? Check by calling the 24/7 ScamShield Helpline at 1799.",
+  "language": "en",
+  "published_at": "2026-11-24T02:23:28.255Z",
+  "modified_at": "2026-11-24T02:28:09.810Z",
+  "categories": [
+   "impersonation.government"
+  ],
+  "categories_raw": [
+   "Impersonation"
+  ],
+  "impersonated_entity_ids": [
+   "police.gov.sg"
+  ],
+  "fictitious_brand_ids": [],
+  "brand_tags_raw": [
+   "Singapore Police Force (SPF)"
+  ],
+  "indicator_ids": [
+   "ind_29c0928d3a51e6a0"
+  ],
+  "media": [
+   "https://www.icanactagainstscams.gov.sg/api/assets/ee5b98cd-b395-46a5-99f9-ac61d2142a6f/ee5b98cd-b395-46a5-99f9-ac61d2142a6f.png"
+  ],
+  "status": "updated",
+  "first_ingested_at": "2026-11-26T03:42:10Z",
+  "last_ingested_at": "2026-11-26T03:42:10Z",
+  "withdrawn_at": null,
+  "raw_sha256": "39ee5559e787033e13d976d731ebc97478371d3256bb53484cc541f90563713b",
+  "tlp": "TLP:CLEAR"
+ },
+ {
+  "record_type": "report",
+  "report_id": "spf-icanact:97b86ce3-c986-4962-82bc-2e5ee2dce447",
+  "source_id": "spf-icanact",
+  "native_id": "97b86ce3-c986-4962-82bc-2e5ee2dce447",
+  "url": "https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-land-transport-authority-lta-97b86ce3",
+  "issuer_entity_id": "police.gov.sg",
+  "title": "Advisory: Beware of Phishing Scams Impersonating Land Transport Authority (LTA)",
+  "summary": "The Singapore Police Force (SPF) has observed a recent increase in phishing scam sites impersonating the Land Transport Authority (LTA). These scam sites are designed to trick members of the public into revealing their personal and financial information.\n\n**How to recognise these",
+  "body_md": "The Singapore Police Force (SPF) has observed a recent increase in phishing scam sites impersonating the Land Transport Authority (LTA). These scam sites are designed to trick members of the public into revealing their personal and financial information.\n\n**How to recognise these scams:**\n*   You encounter websites or receive messages with suspicious URLs that are not the official LTA website (lta.gov.sg).\n*   The scam sites often mimic LTA's official branding and ask you to click links to make payments, update personal details, or address urgent issues related to traffic fines, vehicle matters, or other LTA services.\n\n**I can ACT against scams:**\n*   **A - Add security features:** Enhance the security of your online accounts by enabling Two-Factor Authentication (2FA) and using strong, unique passwords.\n*   **C - Check for scam signs and verify with official sources:** Always verify the authenticity of any message or website by checking with official LTA channels (e.g., LTA's official website lta.gov.sg, their official hotline) before clicking on any links or providing information. Be wary of unsolicited messages asking for personal details.\n*   **T - Tell authorities, family and friends about scams:** Inform the Police of any suspicious encounters. Share scam prevention advice with your loved ones to protect them.\n\n**What to do if you have fallen prey:**\n*   If you have provided your bank account or credit card details, contact your bank immediately to stop any unauthorised transactions.\n*   Change your passwords for all online accounts if you entered them on a scam site.\n*   Report the incident to the Police.\n\nUnsure if something is a scam? Check by calling the 24/7 ScamShield Helpline at 1799.",
+  "language": "en",
+  "published_at": "2026-07-06T01:30:32.790Z",
+  "modified_at": "2026-07-06T01:30:35.487Z",
+  "categories": [
+   "phishing.non_banking"
+  ],
+  "categories_raw": [
+   "Non-Banking Related Phishing"
+  ],
+  "impersonated_entity_ids": [
+   "lta.gov.sg"
+  ],
+  "fictitious_brand_ids": [],
+  "brand_tags_raw": [
+   "Land Transport Authority (LTA)"
+  ],
+  "indicator_ids": [
+   "ind_7e35d65d1a18205b",
+   "ind_5c5c3891afa205ee"
+  ],
+  "media": [
+   "https://www.icanactagainstscams.gov.sg/api/assets/0d7e4d08-5ab0-504e-b34c-186f2ea32107/0d7e4d08-5ab0-504e-b34c-186f2ea32107.png",
+   "https://www.icanactagainstscams.gov.sg/api/assets/40ca00d2-75d6-598e-bffd-1fd5cdc30ad3/40ca00d2-75d6-598e-bffd-1fd5cdc30ad3.png"
+  ],
+  "status": "updated",
+  "first_ingested_at": "2026-11-26T03:42:10Z",
+  "last_ingested_at": "2026-11-26T03:42:10Z",
+  "withdrawn_at": null,
+  "raw_sha256": "3399909250cfccf234be3e634189a0087463e3943f85838c6746912342eae352",
+  "tlp": "TLP:CLEAR"
+ },
+ {
+  "record_type": "report",
+  "report_id": "spf-icanact:0be0ee02-a712-40e4-823e-ddc5b89667f2",
+  "source_id": "spf-icanact",
+  "native_id": "0be0ee02-a712-40e4-823e-ddc5b89667f2",
+  "url": "https://www.icanactagainstscams.gov.sg/scam-trends/phishing-scams-impersonating-iras-0be0ee02",
+  "issuer_entity_id": "police.gov.sg",
+  "title": "Advisory: Beware of Phishing Scams Impersonating IRAS",
+  "summary": "The Singapore Police Force has observed a recent rise in phishing scams impersonating the Inland Revenue Authority of Singapore (IRAS). Scammers are sending messages containing suspicious links that direct users to fake IRAS websites. These fraudulent sites are designed to trick ",
+  "body_md": "The Singapore Police Force has observed a recent rise in phishing scams impersonating the Inland Revenue Authority of Singapore (IRAS). Scammers are sending messages containing suspicious links that direct users to fake IRAS websites. These fraudulent sites are designed to trick you into revealing your personal and banking details.\n\n### How to recognise this scam:\n*   Look out for suspicious URLs. Official IRAS websites always end with `iras.gov.sg` (e.g., `www.iras.gov.sg`). Scammers use variations like `iras.nakadaniko.com.sg` to deceive you.\n*   Be wary of unsolicited messages (SMS or email) claiming to be from IRAS, especially those asking you to click on a link to claim tax refunds or update your account.\n\n### What to do if you encounter or are affected by this scam (I can ACT against scams):\n*   **A**dding security features: Always enable Two-Factor Authentication (2FA) for your Singpass and other online accounts where possible.\n*   **C**hecking for scam signs:\n    *   Always verify the sender's details and URL before clicking any links. If in doubt, do not click.\n    *   Cross-check any suspicious claims by visiting the official IRAS website at `www.iras.gov.sg` or calling their official hotline.\n*   **T**elling authorities, family and friends:\n    *   If you have clicked on a suspicious link or provided your details, immediately report it to your bank and change any compromised passwords for accounts where these credentials were used.\n    *   Report the scam to the Police via `www.police.gov.sg/iwitness` or call the Anti-Scam Hotline at 1800-722-6688. Inform your family and friends about this scam.\n\nUnsure if something is a scam? Check by calling the 24/7 ScamShield Helpline at 1799.",
+  "language": "en",
+  "published_at": "2026-04-21T02:05:35.642Z",
+  "modified_at": "2026-04-21T02:05:38.143Z",
+  "categories": [
+   "phishing.non_banking"
+  ],
+  "categories_raw": [
+   "Non-Banking Related Phishing"
+  ],
+  "impersonated_entity_ids": [
+   "iras.gov.sg"
+  ],
+  "fictitious_brand_ids": [],
+  "brand_tags_raw": [
+   "Inland Revenue Authority of Singapore (IRAS)"
+  ],
+  "indicator_ids": [
+   "ind_34405593f2ff4fc5"
+  ],
+  "media": [
+   "https://www.icanactagainstscams.gov.sg/api/assets/3ac8a24e-6fd2-589f-9b77-6e616def980f/3ac8a24e-6fd2-589f-9b77-6e616def980f.png",
+   "https://www.icanactagainstscams.gov.sg/api/assets/4db150be-4da9-5089-b89d-244888ebbb9d/4db150be-4da9-5089-b89d-244888ebbb9d.png"
+  ],
+  "status": "updated",
+  "first_ingested_at": "2026-11-26T03:42:10Z",
+  "last_ingested_at": "2026-11-26T03:42:10Z",
+  "withdrawn_at": null,
+  "raw_sha256": "844ecf371ed36d16ccf31d0351e03cf9c9cb221356127c2ab1ad60e4743388ef",
+  "tlp": "TLP:CLEAR"
+ },
+ {
+  "record_type": "report",
+  "report_id": "mas-ial-opensanctions:6017",
+  "source_id": "mas-ial-opensanctions",
+  "native_id": "6017",
+  "url": "https://www.mas.gov.sg/investor-alert-list?q=Handsworth%20Advisory%20Pte%20Ltd;%20Vaulterro.com",
+  "issuer_entity_id": "mas.gov.sg",
+  "title": "Investor Alert List: Handsworth Advisory Pte Ltd, Vaulterro.com",
+  "summary": null,
+  "body_md": null,
+  "language": "en",
+  "published_at": "2026-11-02T00:00:00Z",
+  "modified_at": "2026-11-02T16:59:58.695Z",
+  "categories": [
+   "unlicensed_financial"
+  ],
+  "categories_raw": [
+   "Investor Alert List"
+  ],
+  "impersonated_entity_ids": [],
+  "fictitious_brand_ids": [],
+  "brand_tags_raw": [],
+  "indicator_ids": [
+   "ind_0aca4f79fbcddb18",
+   "ind_688b98112333feba",
+   "ind_f5857c50337c52c1",
+   "ind_dce3bbe4f143e690",
+   "ind_0a7dbd9f002f52ab",
+   "ind_ff7f9a4fe09272b5",
+   "ind_c9d644e9b4e5e11f",
+   "ind_d7f8487b3aa51c64"
+  ],
+  "media": [],
+  "status": "published",
+  "first_ingested_at": "2026-11-26T03:42:10Z",
+  "last_ingested_at": "2026-11-26T03:42:10Z",
+  "withdrawn_at": null,
+  "raw_sha256": "02abdd97c46ad74604557ebdd33f3766663d2b674ca6ab78758abe4c9a94e652",
+  "tlp": "TLP:CLEAR"
+ }
+]

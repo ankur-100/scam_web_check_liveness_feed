@@ -1,0 +1,30 @@
+{
+ "entity_id": "nlb.gov.sg",
+ "name": "National Library & Archives Board",
+ "abbr": "NLB",
+ "aliases": [
+  "National Library Board (NLB)"
+ ],
+ "sector": "gov.statboard",
+ "parent_entity_id": "mddi.gov.sg",
+ "country": "SG",
+ "official_domains": [
+  "nlb.gov.sg"
+ ],
+ "official_hosts": [
+  "www.nlb.gov.sg"
+ ],
+ "scam_info": [],
+ "official_channels": {
+  "sms_sender_ids": [
+   "gov.sg"
+  ],
+  "hotlines": [],
+  "short_link_domains": [],
+  "social": []
+ },
+ "evidence": [
+  "https://www.sgdi.gov.sg/ministries/mddi/statutory-boards/nlb"
+ ],
+ "notes": "Tier 2. NOT ACCESSIBLE: www.nlb.gov.sg returned HTTP 202 with an empty body for robots.txt and pages (bot challenge, 2026-11-26), so it was not pursued. Search results show a GOIS page at https://www.nlb.gov.sg/main/about-us/GOIS (\"Beware of impersonation scams\"), which could not be verified."
+}

@@ -1,0 +1,537 @@
+<!-- BEGIN: web/views/layout.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="version" content="v1.70.0-master-4a065a0-20261026T1500Z">
+    <title>SMS Registry</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/x-icon" href="/public/images/favicon.png?ver=v1.70.0-master-4a065a0-20261026T1500Z">
+    <link rel="stylesheet" type="text/css" href="/public/vendor/bootstrap.min.css?ver=v1.70.0-master-4a065a0-20261026T1500Z">
+    <link rel="stylesheet" type="text/css" href="/public/vendor/bootstrap-icons.css?ver=v1.70.0-master-4a065a0-20261026T1500Z">
+    <link rel="stylesheet" type="text/css" href="/public/css/style.css?ver=v1.70.0-master-4a065a0-20261026T1500Z">
+    <link rel="stylesheet" type="text/css" href="/public/css/layout.css?ver=v1.70.0-master-4a065a0-20261026T1500Z"> <!-- layout.css loads last -->
+  </head>
+
+  <body data-nonce="1795655308691-ac08464a-2e2a-4da3-a8ef-047faa875203">
+
+
+      <!-- BEGIN: web/modules/organization/views/public/list.html -->
+<div>
+  <div class="header-background">
+    <div class="header-background-inner">
+      <a target="_blank" href="https://www.sgnic.sg/smsregistry/overview">
+        <img class="logo pt-4"
+          src="/public/images/logo-customer.svg?ver=v1.70.0-master-4a065a0-20261026T1500Z">
+      </a>
+      <div class="pb-4">
+        <h2>List of Organisations with At Least One Whitelisted Sender ID</h2>
+        <div>Last Updated: 25 Nov 2026 23:59</div>
+      </div>
+    </div>
+  </div>
+  <div class="top-content rounded-3">
+    <div class="mb-3 top-content-title"> Organisations with at least one whitelisted Sender ID as at 25 Nov 2026 
+       include those listed below.</div>
+    <ol>
+      <li class="mb-3">The list below is for general information.</li>
+      <li>
+      SGNIC shall not be responsible or liable for reliance by any person on the information contained in the list herein.
+      SGNIC shall not be liable for any direct, indirect, incidental or consequential losses, claims, damages arising from in
+      connection with any reliance or use by any person of the list herein.
+      </li>
+    </ol>
+  </div>
+
+  <div class="bottom-content pb-0 rounded-3">
+    <div class="card table-wrapper js-table-wrapper" data-render-id="organization-public-listing-1795655308807-366564">
+      <div class="card-body">
+        <div class="col-12 public-list-table-functions table-functions">
+          <div class="input-group has-validation">
+            <input name="search" class="form-control" type="text"
+              placeholder="Search User Organisations"
+              value="">
+            <span class="input-group-text"><i class="bi bi-search"></i></span>
+          </div>
+        </div>
+
+        <div class="js-table-with-pagination-wrapper">
+          <div class="js-table-with-pagination-wrapper">
+            <!-- BEGIN: web/modules/organization//views/public/table-with-pagination.html -->
+            <div class="table-with-pagination js-table-with-pagination" data-render-id="organization-public-listing-1795655308807-366564">
+              <div class="fix-column-table-container fix--column">
+                <table class="table record-listing table-public-orgs js-record-listing" data-render-id="organization-public-listing-1795655308807-366564">
+                  <thead>
+                    <tr>
+                      <th data-sort-col="organization.name">Name</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                      <tr class="record">
+                        <td>
+                          <div>ZINGKEY PTE. LTD.
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>TRAVELUSTAZ PTE. LTD.
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>NZ FOODIEES
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>CHREMATICA PTE. LTD.
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>BIOVISION AI PTE. LTD.
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>MANPACK PTE. LTD.
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>PRVW PTE. LTD.
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>DEK TCG SHOP PTE. LTD.
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>FRAN SINGAPORE PTE LTD
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>ST JAMES&#39; CHURCH
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>ZR DIM SUM PTE LTD
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>ARCMEAD PTE LTD
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>TENCENT INTERNATIONAL SERVICE PTE. LTD.
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>LHL GROUP PTE LTD
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>SIEMENS HEALTHCARE PTE. LTD
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>G.SPA PTE LTD
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>REGENT GROUP PTE. LTD.
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>OUTSOURCEGO PTE. LTD.
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>338 PRIVATE LIMITED
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>CONFETTI MARKETING PTE LTD
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>SOCIAL BELLA SINGAPORE PTE. LTD.
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>CONNECT MEDICAL PTE. LTD.
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>GLOBALHEART PTE. LTD.
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>EDDIE &amp; FRIENDS PTE. LTD.
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>GPL REMITTANCE PTE LTD
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>COMMUNICABLE DISEASES AGENCY
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>SOLDAUCTIONS PTE. LTD.
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>ZHIPIN TECHNOLOGY SINGAPORE PTE. LTD.
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>ESIGN SG HOLDING PTE. LTD.
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>PICO ART INTERNATIONAL PTE LTD
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>REN AI HEALTHCARE LLP
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>IQVIA SOLUTIONS ASIA PTE. LTD.
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>GFTN SERVICES PTE. LTD.
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>CHINA CONSTRUCTION (SOUTH PACIFIC) DEVELOPMENT CO. PTE. LTD.
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>REDCLIP PTE. LTD.
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>SG INTERNATIONAL MARATHON PTE LTD
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>TAC-GROUP PTE LTD
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>EASY PEASY LEMON SQUEEZY TRADING
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>MAXI CAPITAL SOLUTIONS PTE LTD
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>HANE SMART SOLUTIONS PTE LTD
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>NORTHERN RETAIL PTE. LTD.
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>MALIFAX TECHNOLOGIES (S) PTE LTD
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>PROVIDEND LTD.
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>SING-ED CORPORATION PTE LTD
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>SPLITIT SINGAPORE PTE. LTD.
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>SGPETSHOP PTE. LTD.
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>AE PTY MGT PTE LTD
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>SCHONFELD STRATEGIC ADVISORS (SINGAPORE) PTE. LTD.
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>MERIT MEDICAL SINGAPORE PTE. LTD.
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="record">
+                        <td>
+                          <div>SECURITY XCHANGE LLP
+                          </div>
+                        </td>
+                      </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!-- BEGIN: web/modules/organization//views/public/pagination.html -->
+              <div class="row align-items-center text-muted pagination-wrapper js-pagination-wrapper m-0"
+                data-render-id="organization-public-listing-1795655308807-366564"
+                data-target-selector=""
+                data-target-url="/web/org/public-listing"
+                data-page="1"
+                data-items-per-page="50">
+
+                <div class="col-12 text-center col-sm-4 text-md-start px-0">
+                  <a class="pagination-refresh-link d-none js-pagination-refresh-link" href="#">@</a>
+                  Showing <span class="js-item-range"></span> records</span>
+                </div>
+
+                <div class="col-12 text-center col-sm-4 text-sm-center">
+                  <label class="d-inline me-3 d-none">Show</label>
+                  <select name="items_per_page_dropdown" class="form-select d-inline w-auto d-none">
+                    <option value="10">10</option>
+                    <option value="25">25</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                  </select>    
+                </div>
+
+                <div class="col-12 text-center col-sm-4 text-sm-end pe-0">
+                  <nav class="js-pagination-navigation">
+                    <ul class="pagination justify-content-end js-page-numbers page-numbers">
+                      <li class="page-item js-first-page" data-page="1">
+                        <a class="page-link" href="#" tabindex="-1"><i class="bi bi-chevron-double-left"></i></a>
+                      </li>
+                      <li class="page-item js-prev-page" data-page="">
+                        <a class="page-link" href="#" tabindex="-1"><i class="bi bi-chevron-left"></i></a>
+                      </li>
+                        <li class="page-item active" data-page="1">
+                          <a class="page-link" href="#">1</a>
+                        </li>
+                        <li class="page-item " data-page="2">
+                          <a class="page-link" href="#">2</a>
+                        </li>
+                        <li class="page-item " data-page="3">
+                          <a class="page-link" href="#">3</a>
+                        </li>
+                        <li class="page-item " data-page="4">
+                          <a class="page-link" href="#">4</a>
+                        </li>
+                        <li class="page-item " data-page="5">
+                          <a class="page-link" href="#">5</a>
+                        </li>
+                        <li class="page-item " data-page="6">
+                          <a class="page-link" href="#">6</a>
+                        </li>
+                        <li class="page-item " data-page="7">
+                          <a class="page-link" href="#">7</a>
+                        </li>
+                        <li class="page-item " data-page="8">
+                          <a class="page-link" href="#">8</a>
+                        </li>
+                        <li class="page-item " data-page="9">
+                          <a class="page-link" href="#">9</a>
+                        </li>
+                        <li class="page-item " data-page="10">
+                          <a class="page-link" href="#">10</a>
+                        </li>
+                      <li class="page-item js-next-page" data-page="">
+                        <a class="page-link" href="#"><i class="bi bi-chevron-right"></i></a>
+                      </li>
+                      <li class="page-item js-last-page" data-page="68">
+                        <a class="page-link" href="#"><i class="bi bi-chevron-double-right"></i></i></a>
+                      </li>
+                    </ul>
+                    <ul class="pagination justify-content-end js-mobile-page-numbers mobile-page-numbers">
+                      <li class="page-item js-first-page" data-page="1">
+                        <a class="page-link" href="#" tabindex="-1"><i class="bi bi-chevron-double-left"></i></a>
+                      </li>
+                      <li class="page-item prev-page js-prev-page" data-page="">
+                        <a class="page-link" href="#" tabindex="-1"><i class="bi bi-chevron-left"></i></a>
+                      </li>
+                        <li class="page-item active" data-page="1">
+                          <a class="page-link" href="#">1</a>
+                        </li>
+                        <li class="page-item " data-page="2">
+                          <a class="page-link" href="#">2</a>
+                        </li>
+                        <li class="page-item " data-page="3">
+                          <a class="page-link" href="#">3</a>
+                        </li>
+                      <li class="page-item next-page js-next-page" data-page="">
+                        <a class="page-link" href="#"><i class="bi bi-chevron-right"></i></a>
+                      </li>
+                      <li class="page-item js-last-page" data-page="68">
+                        <a class="page-link" href="#"><i class="bi bi-chevron-double-right"></i></a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+
+              <script src="/public/js/pagination.js?ver=v1.70.0-master-4a065a0-20261026T1500Z"
+                data-render-selector=".js-pagination-wrapper[data-render-id='organization-public-listing-1795655308807-366564']"
+                data-csrf-token="16ZHu6Sg-f7DdBolKWsjh0PJfOw_T71sVtvXBeFWXhq8_6uNUtMk"
+                data-current-item-count="50"
+                data-default-items-per-page=""
+                data-item-ids="bnVsbA=="
+                data-page-numbers="JTVCMSUyQzIlMkMzJTJDNCUyQzUlMkM2JTJDNyUyQzglMkM5JTJDMTAlNUQ="
+                data-mobile-page-numbers="JTVCMSUyQzIlMkMzJTVE"
+                data-pagination="JTdCJTIyaXRlbXNfcGVyX3BhZ2UlMjIlM0E1MCUyQyUyMnBhZ2UlMjIlM0ExJTJDJTIydG90YWxfcGFnZXMlMjIlM0E2OCUyQyUyMnRvdGFsX2l0ZW1zJTIyJTNBMzM2OSU3RA=="></script>
+
+              <!-- CLOSE: web/modules/organization//views/public/pagination.html -->            </div>
+
+            <script src="/public/js/table-with-pagination.js?ver=v1.70.0-master-4a065a0-20261026T1500Z"
+              data-render-selector=".js-table-with-pagination[data-render-id='organization-public-listing-1795655308807-366564']"
+              data-csrf-token="16ZHu6Sg-f7DdBolKWsjh0PJfOw_T71sVtvXBeFWXhq8_6uNUtMk"
+              data-resource-type="organization"
+              data-resource-label="User Organisation"
+              data-route-name="org"
+              data-item-count="50"
+              data-items-per-page="50"></script>
+
+            <!-- CLOSE: web/modules/organization//views/public/table-with-pagination.html -->          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="footer mb-2 d-flex d-flex justify-content-center">
+      <div>©SGNIC 2026</div>
+    </div>
+</div>
+<script src="/public/js/modules/organization/public-list.js?ver=v1.70.0-master-4a065a0-20261026T1500Z"
+    data-render-selector=".js-table-wrapper[data-render-id='organization-public-listing-1795655308807-366564']"></script>
+
+<!-- CLOSE: web/modules/organization/views/public/list.html -->
+
+
+    <!-- Shared Modal -->
+    <div id="shared-modal" class="modal fade" tabindex="-1" aria-hidden="true"  data-bs-backdrop="static" data-bs-keyboard="false">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title"></h5>
+            <button class="btn-close js-btn-close" type="button" aria-label="Close" tabindex="-1"
+              data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-description"></div>
+          <div class="modal-error"></div>
+          <div class="modal-body"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/public/vendor/bootstrap.bundle.min.js?ver=v1.70.0-master-4a065a0-20261026T1500Z"></script>
+    <script src="/public/shared/enums.js?ver=v1.70.0-master-4a065a0-20261026T1500Z"></script>
+    <script src="/public/shared/utils.js?ver=v1.70.0-master-4a065a0-20261026T1500Z"></script>
+    <script src="/public/js/layout.js?ver=v1.70.0-master-4a065a0-20261026T1500Z"
+      data-session-max-age-secs="1800"
+      data-is-authenticated="false"
+      data-is-public-access-page="true"></script>
+
+  </body>
+</html>
+
+<!-- CLOSE: web/views/layout.html -->

@@ -1,0 +1,14 @@
+{
+ "host": "www.ago.gov.sg",
+ "robots": "User-Agent: *\nAllow: /\nDisallow: /search\n\nSitemap: https://www.ago.gov.sg/sitemap.xml\n",
+ "robots_status": 200,
+ "sitemaps_declared": [
+  "https://www.ago.gov.sg/sitemap.xml"
+ ],
+ "sitemaps_fetched": [
+  "https://www.ago.gov.sg/sitemap.xml[200:113]"
+ ],
+ "n_urls": 113,
+ "hits": [],
+ "newest_lastmod": "2026-11-04T09:02:04.121Z"
+}

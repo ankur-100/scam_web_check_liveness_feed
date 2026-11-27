@@ -1,0 +1,22 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+Disallow: /magnoliaAuthor/
+Disallow: /.well-known/
+
+# Googlebot
+User-agent: Googlebot
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+Disallow: /magnoliaAuthor/
+
+# Host
+Host: https://www.uobkayhian.com
+
+# Sitemaps
+Sitemap: https://www.uobkayhian.com/sitemap.xml
